@@ -1,13 +1,8 @@
 """Simulate a therapy conversation between a client and therapist.
 
 The simulator uses the prompt templates in ``prompts/`` and patient scenarios
-from ``data/Patient_Psi_CM_Dataset.json``. Client difficulty controls the
-client always starts at openness level 1. Client difficulty controls how often
-openness is re-rated by the openness judge:
-
-- easy: every 2 turns
-- normal: every 4 turns
-- hard: every 6 turns
+from ``data/Patient_Psi_CM_Dataset.json``. Client difficulty controls which
+client presentation types are used for the run.
 """
 
 from __future__ import annotations
@@ -16,7 +11,6 @@ import argparse
 import json
 import os
 import random
-import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -29,19 +23,11 @@ except ModuleNotFoundError:
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
+DEFAULT_CLIENT_THINKING_PROMPT = ROOT_DIR / "prompts" / "client_thinking.txt"
 DEFAULT_CLIENT_PROMPT = ROOT_DIR / "prompts" / "client_response.txt"
 DEFAULT_THERAPIST_PROMPT = ROOT_DIR / "prompts" / "therapist_response.txt"
-DEFAULT_OPENNESS_JUDGE_PROMPT = ROOT_DIR / "prompts" / "judges" / "openness_judge.txt"
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
 
-
-MODE_SETTINGS = {
-    "easy": {"openness_judge_interval": 2},
-    "normal": {"openness_judge_interval": 4},
-    "hard": {"openness_judge_interval": 6},
-}
-
-INITIAL_OPENNESS_LEVEL = 1
 
 CLIENT_TYPES_BY_MODE = {
     "easy": ("plain", "verbose", "ingratiating"),
@@ -66,7 +52,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--mode",
-        choices=sorted(MODE_SETTINGS),
+        choices=sorted(CLIENT_TYPES_BY_MODE),
         default="normal",
         help="Client difficulty mode. Defaults to normal.",
     )
@@ -90,13 +76,6 @@ def parse_args() -> argparse.Namespace:
         help="OpenAI model name. Defaults to OPENAI_MODEL or gpt-4.1-mini.",
     )
     parser.add_argument(
-        "--openness-judge-model",
-        help=(
-            "OpenAI model name for openness judging. Defaults to "
-            "OPENNESS_JUDGE_MODEL, then --model."
-        ),
-    )
-    parser.add_argument(
         "--temperature",
         type=float,
         default=0.8,
@@ -115,16 +94,16 @@ def parse_args() -> argparse.Namespace:
         help="Path to client prompt template.",
     )
     parser.add_argument(
+        "--client-thinking-prompt",
+        type=Path,
+        default=DEFAULT_CLIENT_THINKING_PROMPT,
+        help="Path to client internal thinking prompt template.",
+    )
+    parser.add_argument(
         "--therapist-prompt",
         type=Path,
         default=DEFAULT_THERAPIST_PROMPT,
         help="Path to therapist prompt template.",
-    )
-    parser.add_argument(
-        "--openness-judge-prompt",
-        type=Path,
-        default=DEFAULT_OPENNESS_JUDGE_PROMPT,
-        help="Path to openness judge prompt template.",
     )
     parser.add_argument(
         "--output",
@@ -215,18 +194,16 @@ def format_history(turns: list[Turn], max_turns: int = 5) -> str:
     return "\n".join(f"{turn.speaker}: {turn.text}" for turn in recent_turns)
 
 
-def format_dialogue(turns: list[Turn]) -> str:
-    if not turns:
-        return "No previous turns."
-    return "\n".join(f"{turn.speaker}: {turn.text}" for turn in turns)
+def format_client_thinking_prompt(template: str, conversation: list[Turn]) -> str:
+    return template.format(conversation_history=format_history(conversation, max_turns=3))
 
 
 def format_client_prompt(
     template: str,
     patient: dict[str, Any],
     client_type: str,
-    openness_level: int,
-    conversation: list[Turn],
+    internal_thoughts: str,
+    therapist_last_utterance: str,
 ) -> str:
     fields = {
         "name": join_value(patient.get("name")),
@@ -241,8 +218,8 @@ def format_client_prompt(
         "unlovable_belief": join_value(patient.get("unlovable_belief")),
         "worthless_belief": join_value(patient.get("worthless_belief")),
         "coping_strategies": join_value(patient.get("coping_strategies")),
-        "openness_level": openness_level,
-        "conversation_history": format_history(conversation),
+        "internal_thoughts": internal_thoughts,
+        "therapist_last_utterance": therapist_last_utterance,
     }
     return template.format(**fields)
 
@@ -254,24 +231,6 @@ def format_therapist_prompt(
         name=join_value(patient.get("name")),
         conversation_history=format_history(conversation),
     )
-
-
-def format_openness_judge_prompt(template: str, conversation: list[Turn]) -> str:
-    return template.format(dialogue_context=format_dialogue(conversation))
-
-
-def parse_openness_level(text: str) -> int:
-    patterns = (
-        r"Rating\s*:\s*([1-5])",
-        r"Numerical Rating\s*:\s*([1-5])",
-        r"\b([1-5])\s*(?:/|out of)\s*5\b",
-        r"\b([1-5])\b",
-    )
-    for pattern in patterns:
-        match = re.search(pattern, text, flags=re.IGNORECASE)
-        if match:
-            return int(match.group(1))
-    raise ValueError(f"Could not parse openness rating from judge response: {text!r}")
 
 
 def uses_max_completion_tokens(model: str) -> bool:
@@ -320,20 +279,12 @@ def call_model(client: Any, model: str, prompt: str, temperature: float, max_tok
 def print_turn(
     turn_number: int,
     therapist: Turn,
+    internal_thoughts: str,
     client: Turn,
-    openness_level: int,
-    openness_judgment: dict[str, Any] | None,
 ) -> None:
     print(f"Turn: {turn_number}")
-    print(f"Openness level used: {openness_level}")
-    if openness_judgment is None:
-        print("Openness judge: not run")
-    else:
-        print(
-            "Openness judge: ran "
-            f"(new openness level: {openness_judgment['openness_level']})"
-        )
     print(f"Therapist: {therapist.text}")
+    print(f"Client thoughts: {internal_thoughts}")
     print(f"Client: {client.text}")
     print()
 
@@ -355,26 +306,18 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
 
     rng = random.Random(args.seed)
     model = args.model or os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
-    openness_judge_model = args.openness_judge_model or os.getenv(
-        "OPENNESS_JUDGE_MODEL", model
-    )
     dataset = load_dataset(args.dataset)
     patient = choose_patient(dataset, args.patient_id, rng)
     client_type = choose_client_type(patient, args.mode)
+    client_thinking_prompt = load_text(args.client_thinking_prompt)
     client_prompt = load_text(args.client_prompt)
     therapist_prompt = load_text(args.therapist_prompt)
-    openness_judge_prompt = load_text(args.openness_judge_prompt)
     openai_client = OpenAI()
 
     conversation: list[Turn] = []
     paired_turns: list[dict[str, Any]] = []
-    mode_settings = MODE_SETTINGS[args.mode]
-    openness_level = INITIAL_OPENNESS_LEVEL
-    openness_judge_interval = mode_settings["openness_judge_interval"]
-    openness_judgments: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
-        openness_level_before_turn = openness_level
         if turn_number == 1:
             therapist_turn = Turn(
                 "Therapist",
@@ -392,64 +335,44 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
 
         conversation.append(therapist_turn)
 
+        prompt = format_client_thinking_prompt(client_thinking_prompt, conversation)
+        internal_thoughts = call_model(
+            openai_client, model, prompt, args.temperature, max_tokens=160
+        )
+
         prompt = format_client_prompt(
             client_prompt,
             patient,
             client_type,
-            openness_level,
-            conversation,
+            internal_thoughts,
+            therapist_turn.text,
         )
         text = call_model(openai_client, model, prompt, args.temperature, max_tokens=220)
         client_turn = Turn("Client", text)
         conversation.append(client_turn)
 
-        openness_judgment: dict[str, Any] | None = None
-        if turn_number % openness_judge_interval == 0:
-            prompt = format_openness_judge_prompt(openness_judge_prompt, conversation)
-            judge_text = call_model(
-                openai_client,
-                openness_judge_model,
-                prompt,
-                args.temperature,
-                max_tokens=360,
-            )
-            openness_level = parse_openness_level(judge_text)
-            openness_judgment = {
-                "turn": turn_number,
-                "openness_level": openness_level,
-                "judge_response": judge_text,
-            }
-            openness_judgments.append(openness_judgment)
-
         paired_turns.append(
             {
                 "turn": turn_number,
-                "openness_level": openness_level_before_turn,
                 "therapist": therapist_turn.text,
+                "client_thoughts": internal_thoughts,
                 "client": client_turn.text,
-                "openness_judgment": openness_judgment,
             }
         )
         if args.print:
             print_turn(
                 turn_number,
                 therapist_turn,
+                internal_thoughts,
                 client_turn,
-                openness_level_before_turn,
-                openness_judgment,
             )
 
     return {
         "mode": args.mode,
-        "initial_openness_level": INITIAL_OPENNESS_LEVEL,
-        "final_openness_level": openness_level,
-        "openness_judge_interval": openness_judge_interval,
         "model": model,
-        "openness_judge_model": openness_judge_model,
         "patient_id": patient.get("id"),
         "patient_name": patient.get("name"),
         "client_type": client_type,
-        "openness_judgments": openness_judgments,
         "turns": paired_turns,
     }
 
