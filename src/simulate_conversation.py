@@ -204,6 +204,7 @@ def format_client_prompt(
     client_type: str,
     internal_thoughts: str,
     therapist_last_utterance: str,
+    conversation: list[Turn],
 ) -> str:
     fields = {
         "name": join_value(patient.get("name")),
@@ -220,6 +221,7 @@ def format_client_prompt(
         "coping_strategies": join_value(patient.get("coping_strategies")),
         "internal_thoughts": internal_thoughts,
         "therapist_last_utterance": therapist_last_utterance,
+        "conversation_history": format_history(conversation, max_turns=5),
     }
     return template.format(**fields)
 
@@ -346,6 +348,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             client_type,
             internal_thoughts,
             therapist_turn.text,
+            conversation,
         )
         text = call_model(openai_client, model, prompt, args.temperature, max_tokens=220)
         client_turn = Turn("Client", text)
