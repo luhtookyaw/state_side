@@ -47,7 +47,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--turns",
         type=int,
-        default=8,
+        default=30,
         help="Number of therapist-client exchange turns per conversation.",
     )
     parser.add_argument(
