@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "27-1",
+  "patient_name": "Mia",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"When I think about all of this, I just feel this tightness in my chest. It's like I'm constantly on edge, worrying about money and whether I can really do this on my own. The thoughts just loop\u2014like I\u2019m not good enough or that I\u2019ll end up failing.\"\n2. **Self-Reflection Depth:** \"Being strong for Brady means putting on a brave face and making sure he doesn\u2019t see me struggle. I try to keep things normal for him, like maintaining our routines or planning fun activities, but inside, I just feel overwhelmed.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a clear increase in emotional depth and self-reflection compared to earlier exchanges. The client shifted from expressing frustration and feeling stuck with factual concerns about the email from their ex to articulating complex feelings of overwhelm, rejection, and the pressure of financial worries, indicating a meaningful progression in their emotional openness. The depth of the client's insights, particularly regarding the distinction between outward appearances for Brady and internal struggles, reflects a significant enhancement in both emotional expression and self-awareness.\n\n**Turning Point:** The turning point in the client's emotional state appeared to occur when they articulated their feelings of being overwhelmed and the internal conflict of wanting to be strong for Brady while grappling with immense pressure. This moment, encapsulated in the statement about feeling tension in their shoulders and a knot in their stomach while trying to maintain a brave face, signifies a breakthrough in vulnerability. They moved beyond simply stating feelings to exploring the underlying emotional and physical manifestations of their struggles, thereby fostering deeper self-reflection and rapport with the therapist."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI feel rejected and like I have to do everything alone. It\u2019s overwhelming to think about how I'm going to handle everything with Brady and all these expenses piling up.\u201d\n2. \u201cWhat I need most right now is to feel supported and to know that I\u2019m not completely alone in this. Small moments of relief come when I\u2019m with Brady, just playing or laughing together. But then the reality of everything hits me, and I feel that heaviness creep back in.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional depth and expression. Initially, they presented with frustration and feelings of being overwhelmed, but as the dialogue progressed, they began to articulate their deeper emotional struggles, such as feelings of rejection and the pressure to maintain stability for their child. This marks a significant change from earlier interactions where emotional expression was more guarded and limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they articulated their need for support and shared moments of relief with their child. This moment highlighted their vulnerability and willingness to disclose not only their emotional state but also their needs, indicating a deeper level of engagement with the therapeutic process."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about all of this, I just feel this tightness in my chest. It's like I'm constantly on edge, worrying about money and whether I can really do this on my own. The thoughts just loop\u2014like I\u2019m not good enough or that I\u2019ll end up failing.\"\n2. \"I guess I feel a mix of fear and relief at the thought. On one hand, I worry it could burden him, but maybe it would help him understand that it's okay to feel things.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant level of emotional expression and self-reflection. They are articulating their feelings of anxiety, sadness, and fear, particularly in relation to their financial stress and the desire to maintain a strong facade for their child, Brady. This marks a clear progression from earlier exchanges, where the client displayed a more defensive and factual response style. Now, they are actively engaging in deeper self-reflection about their emotional state, revealing their internal struggles and the impact of those on their daily life. This ongoing dialogue indicates a growing comfort with the therapist, as the client is now exploring their vulnerabilities more openly.\n\n**Turning Point:**\nA notable turning point occurred during the exchange where the client discussed the tension in their body while striving to appear strong for Brady. The moment they began to articulate their feelings about the burden of maintaining a facade\u2014\"I just want to break down\"\u2014signaled a shift toward greater emotional openness and vulnerability. This willingness to explore the complexities of their emotions and the fear of sharing their struggles with Brady reflects a deeper engagement in the therapeutic process."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel a mix of anxiety and sadness, like a knot in my stomach that just won't go away. My shoulders get tight, and I feel this overwhelming sense of dread about the future\u2014not just for me, but for Brady too.\"\n2. **Openness:** \"I guess I feel a mix of fear and relief at the thought. On one hand, I worry it could burden him, but maybe it would help him understand that it's okay to feel things.\"\n\n**Progression:** In the recent exchanges, the client demonstrates a significant emotional depth and vulnerability that was less evident at the beginning of the session. Initially, their responses were more factual, focusing on the financial stress and the email from the ex without delving into the emotional impacts of those stresses. As the session progressed, the client began to articulate complex emotional experiences, such as feeling overwhelmed and the physical manifestations of that emotional state, like the tightness in her chest and tension in her body. This illustrates a clear shift towards deeper self-reflection and emotional expression.\n\n**Turning Point:** A notable turning point occurred when the client reflected on the feelings tied to being strong for Brady. They began to share their internal conflict about wanting to appear stable while feeling overwhelmed inside. This moment marked a transition from merely discussing their responsibilities to acknowledging their emotional struggles, demonstrating a willingness to engage with their vulnerabilities. The specific moment of breakthrough appears to be when they expressed the fear of showing weakness to Brady, realizing that it could be beneficial for their relationship, which signifies a deeper level of self-awareness and emotional engagement."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Mia, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I guess what's on my mind is that email from my ex. It's just so frustrating, and I feel like I'm stuck with all these financial worries.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like that email really stirred up a lot for you, especially with the added pressure of financial worries. Can you share more about what specifically feels frustrating about the email? What thoughts or feelings come up for you when you think about it?",
+      "client": "It's just that he doesn\u2019t seem to care at all. I feel rejected and like I have to do everything alone. It\u2019s overwhelming to think about how I'm going to handle everything with Brady and all these expenses piling up.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re feeling really alone in this situation, and that must be incredibly heavy to carry. The combination of rejection and the pressure of handling everything with Brady and the expenses seems like a lot to manage. What do you notice in your body when you think about that overwhelm? Are there specific thoughts that keep coming up for you?",
+      "client": "When I think about all of this, I just feel this tightness in my chest. It's like I'm constantly on edge, worrying about money and whether I can really do this on my own. The thoughts just loop\u2014like I\u2019m not good enough or that I\u2019ll end up failing.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "That tightness in your chest sounds really uncomfortable, and it seems like it\u2019s connected to those looping thoughts about not being good enough and the fear of failing. It\u2019s understandable to feel on edge when so much feels uncertain. As you reflect on those thoughts, what do you think they reveal about what you hope for or value in this situation?",
+      "client": "I don\u2019t know if it really reveals anything hopeful. I just feel like I need to be strong for Brady and provide for him, but it\u2019s hard when I feel so powerless. I guess I just want to be able to handle things without always feeling like I'm drowning.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re carrying a heavy weight, feeling the pressure to be strong for Brady while also grappling with that sense of powerlessness. Wanting to handle things more easily without feeling like you\u2019re drowning is a very natural desire. Can we explore what being strong for Brady looks like for you? What does that mean in your day-to-day life?",
+      "client": "Being strong for Brady means putting on a brave face and making sure he doesn\u2019t see me struggle. I try to keep things normal for him, like maintaining our routines or planning fun activities, but inside, I just feel overwhelmed. It\u2019s like I have to pretend everything is fine, even when it\u2019s not.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds like you're putting a lot of effort into creating a sense of normalcy for Brady, even when you\u2019re feeling overwhelmed inside. That must take a lot of emotional energy, and it\u2019s completely understandable to want to protect him from your struggles. As you think about that brave face you put on, what do you notice in your body or mind when you\u2019re trying to keep things together for him?",
+      "client": "I feel this tension in my shoulders, and my stomach just knots up. It\u2019s like I\u2019m holding everything in, trying to keep myself together while I\u2019m falling apart inside. I don\u2019t want him to see me like this.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"When I think about all of this, I just feel this tightness in my chest. It's like I'm constantly on edge, worrying about money and whether I can really do this on my own. The thoughts just loop\u2014like I\u2019m not good enough or that I\u2019ll end up failing.\"\n2. **Self-Reflection Depth:** \"Being strong for Brady means putting on a brave face and making sure he doesn\u2019t see me struggle. I try to keep things normal for him, like maintaining our routines or planning fun activities, but inside, I just feel overwhelmed.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a clear increase in emotional depth and self-reflection compared to earlier exchanges. The client shifted from expressing frustration and feeling stuck with factual concerns about the email from their ex to articulating complex feelings of overwhelm, rejection, and the pressure of financial worries, indicating a meaningful progression in their emotional openness. The depth of the client's insights, particularly regarding the distinction between outward appearances for Brady and internal struggles, reflects a significant enhancement in both emotional expression and self-awareness.\n\n**Turning Point:** The turning point in the client's emotional state appeared to occur when they articulated their feelings of being overwhelmed and the internal conflict of wanting to be strong for Brady while grappling with immense pressure. This moment, encapsulated in the statement about feeling tension in their shoulders and a knot in their stomach while trying to maintain a brave face, signifies a breakthrough in vulnerability. They moved beyond simply stating feelings to exploring the underlying emotional and physical manifestations of their struggles, thereby fostering deeper self-reflection and rapport with the therapist."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 4,
+      "therapist": "It sounds like there's a significant physical response that comes with trying to hold everything together for Brady. The tension in your shoulders and the knot in your stomach seem like strong signals about the emotional weight you're carrying. What do you think that tension represents for you in those moments? And when you notice those feelings in your body, how do you typically respond to them?",
+      "client": "That tension feels like all the stress of the situation piling up, like I'm holding the weight of the world on my shoulders. When I feel that way, I usually just push through it, thinking I can handle it. But inside, I\u2019m just scared, wondering if I\u2019ll ever get through this and keep things stable for Brady.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "therapist": "It sounds like that tension really symbolizes the heavy burden you're carrying, and it's understandable that you'd want to push through it to maintain stability for Brady. Feeling scared in those moments is completely valid, especially when you're trying to juggle so much. As you reflect on that fear, what do you think it says about your hopes or concerns for both yourself and for Brady? How does that fear influence the way you approach your day-to-day life?",
+      "client": "I think my fear really highlights how deeply I want to provide a stable life for Brady, but it also makes me question my ability to do that. I worry that if I can't keep things together, everything will fall apart, and he'll suffer for it. So, I often push myself harder, even when I feel like I'm barely holding on.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 4,
+      "therapist": "That\u2019s a really helpful observation about how your fear is tied to your desire for stability for Brady. It\u2019s clear that your commitment to him is a powerful motivator, but it sounds like it also creates a lot of pressure for you. When you find yourself pushing harder, what do you notice in your body or your thoughts? How does that push impact your own well-being in those moments?",
+      "client": "When I push harder, I often notice that my body feels even more tense, like I'm on high alert all the time. My thoughts spiral into worries about not being enough, and I start doubting my decisions. It\u2019s exhausting, and I can feel myself getting more overwhelmed instead of feeling accomplished.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "therapist": "It sounds like that push leads to a cycle of tension and overwhelm for you, which can be really draining. The way your body responds with tension and your thoughts spiral into doubts must be challenging to navigate. As you describe this experience, what do you notice about the moments when you feel overwhelmed? Are there certain triggers or situations that seem to contribute to that feeling?",
+      "client": "I think receiving that email from my ex is a huge trigger for me. It just reminds me of all the financial instability I feel and how alone I am in this. Just thinking about it makes everything feel heavier, like I can't escape this cycle.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "It makes sense that an email from your ex would bring up those feelings of financial instability and loneliness. It sounds like it taps into some deeper concerns for you. When you think about the heaviness of that moment, what emotions come up for you? And as you sit with that weight, what do you notice in your body?",
+      "client": "I feel a mix of anxiety and sadness, like a knot in my stomach that just won't go away. My shoulders get tight, and I feel this overwhelming sense of dread about the future\u2014not just for me, but for Brady too. It's like I'm carrying this heavy weight all by myself, and I don't know how to lighten it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "That sounds incredibly heavy to carry, both for you and for Brady. Feeling that knot in your stomach and the tightness in your shoulders must be really uncomfortable. It\u2019s understandable to feel a sense of dread when you\u2019re thinking about the future, especially when it feels like you're alone in navigating these challenges. As you sit with that weight, what do you think it is that you need most right now? And are there small moments when you find relief or a sense of lightness, even if just for a moment?",
+      "client": "What I need most right now is to feel supported and to know that I\u2019m not completely alone in this. Small moments of relief come when I\u2019m with Brady, just playing or laughing together. But then the reality of everything hits me, and I feel that heaviness creep back in.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI feel rejected and like I have to do everything alone. It\u2019s overwhelming to think about how I'm going to handle everything with Brady and all these expenses piling up.\u201d\n2. \u201cWhat I need most right now is to feel supported and to know that I\u2019m not completely alone in this. Small moments of relief come when I\u2019m with Brady, just playing or laughing together. But then the reality of everything hits me, and I feel that heaviness creep back in.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional depth and expression. Initially, they presented with frustration and feelings of being overwhelmed, but as the dialogue progressed, they began to articulate their deeper emotional struggles, such as feelings of rejection and the pressure to maintain stability for their child. This marks a significant change from earlier interactions where emotional expression was more guarded and limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they articulated their need for support and shared moments of relief with their child. This moment highlighted their vulnerability and willingness to disclose not only their emotional state but also their needs, indicating a deeper level of engagement with the therapeutic process."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It\u2019s really meaningful that you find moments of relief and connection with Brady, especially when you're able to laugh and play together. Those moments seem to provide a contrast to the heaviness you're experiencing. When the reality of everything returns, it sounds like that joy can quickly feel overshadowed. What do you notice about how those moments with Brady impact your feelings of support or connection? And when the heaviness creeps back in, how do you tend to respond to that?",
+      "client": "When I'm with Brady, I feel a sense of purpose and connection that momentarily takes my mind off everything else. But when the heaviness comes back, I usually just try to push through it, like I have to be strong and independent. I guess I feel like I can't show him that I'm struggling, even though inside I just want to break down.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It sounds like being with Brady brings you a sense of purpose and connection that feels really valuable, even if it's temporary. At the same time, pushing through that heaviness on your own must be exhausting. It\u2019s understandable to want to be strong for him, but it seems like that might also leave you feeling isolated in your struggles. What do you think might happen if you allowed yourself to feel those emotions in front of him? And how do you think he might respond to seeing you in that vulnerable state?",
+      "client": "I don\u2019t know\u2026 part of me thinks he might actually understand more than I give him credit for. But another part fears that if I show weakness, it might confuse him or make him worry. I guess I just want to protect him from the chaos I\u2019m feeling inside.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you recognize both the possibility of connection and the fear of confusion for Brady. Wanting to protect him from your inner chaos speaks to your care for him, yet it sounds like this desire may also create a sense of burden for you. What do you feel when you think about allowing him to see that vulnerable side? And how do you think it might change your relationship with him if you were to share those feelings?",
+      "client": "I guess I feel a mix of fear and relief at the thought. On one hand, I worry it could burden him, but maybe it would help him understand that it's okay to feel things. Part of me thinks it could bring us closer, but I'm just not sure if I'm ready to take that step.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It's really interesting to hear that mix of fear and relief you feel when considering this possibility. It sounds like there's a part of you that sees the potential for deeper connection, while another part is holding onto the worry about burdening him. It's understandable to have those conflicting feelings, especially when it comes to someone you care about deeply. \n\nWhat do you notice in your body or emotions when you think about taking that step? And is there a specific aspect of this situation that feels most challenging for you right now?",
+      "client": "I feel a knot in my stomach when I think about it, like I\u2019m caught between wanting to connect and the fear of falling apart. The most challenging part right now is the financial stress from my ex. It just feels like everything is piling up, and I don\u2019t know how to handle it all.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like the knot in your stomach is a strong signal of the tension between your desire for connection and the fear of losing control. That financial stress from your ex seems to be adding another layer to everything you\u2019re feeling, making it even harder to navigate your emotions and relationships. It makes sense that with so much piling up, it could feel overwhelming.\n\nCan we take a moment to explore how that financial stress is impacting your day-to-day life? What do you notice in those moments when it feels particularly heavy for you?",
+      "client": "When the financial stress gets heavy, I often feel like I\u2019m just going through the motions. I keep busy with work and routines, but inside, I\u2019m just a mess. It\u2019s like I\u2019m trying to put on a brave face for everyone, but it\u2019s exhausting.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It sounds really tough to feel like you're just going through the motions while trying to maintain a brave face for those around you. That exhaustion you mention must weigh heavily on you, especially when you're feeling like a mess inside. \n\nWhat do you notice about how you cope during those times when you're busy but feeling so overwhelmed? Are there moments when you allow yourself to feel what you're feeling, or is it more about keeping things together?",
+      "client": "I guess I mostly try to keep things together. I mean, if I stop to feel it all, it just feels too much to handle. Sometimes I think it's just easier to stay busy and avoid the mess, but then I get so drained that it feels like I\u2019m stuck in this loop.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about all of this, I just feel this tightness in my chest. It's like I'm constantly on edge, worrying about money and whether I can really do this on my own. The thoughts just loop\u2014like I\u2019m not good enough or that I\u2019ll end up failing.\"\n2. \"I guess I feel a mix of fear and relief at the thought. On one hand, I worry it could burden him, but maybe it would help him understand that it's okay to feel things.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant level of emotional expression and self-reflection. They are articulating their feelings of anxiety, sadness, and fear, particularly in relation to their financial stress and the desire to maintain a strong facade for their child, Brady. This marks a clear progression from earlier exchanges, where the client displayed a more defensive and factual response style. Now, they are actively engaging in deeper self-reflection about their emotional state, revealing their internal struggles and the impact of those on their daily life. This ongoing dialogue indicates a growing comfort with the therapist, as the client is now exploring their vulnerabilities more openly.\n\n**Turning Point:**\nA notable turning point occurred during the exchange where the client discussed the tension in their body while striving to appear strong for Brady. The moment they began to articulate their feelings about the burden of maintaining a facade\u2014\"I just want to break down\"\u2014signaled a shift toward greater emotional openness and vulnerability. This willingness to explore the complexities of their emotions and the fear of sharing their struggles with Brady reflects a deeper engagement in the therapeutic process."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It sounds like staying busy feels like a way to manage the overwhelming feelings, even though that can lead to feeling drained and stuck in a loop. It\u2019s understandable that stopping to feel everything might feel like too much. \n\nWhat does that loop look like for you? Are there specific moments or situations where you find yourself caught in it more than others?",
+      "client": "It's mostly when I'm dealing with my ex or thinking about money. Those moments just spiral into all these worries about the future and whether I can provide for Brady. It's like I can't escape those thoughts, and then I just end up feeling more alone.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "That sounds incredibly challenging, especially when those thoughts about your ex and finances start to spiral. I can see how that would amplify feelings of loneliness while you\u2019re also worrying about providing for Brady. \n\nWhen those worries come up, what do you notice happening in your body or your emotions? Are there particular physical sensations or feelings that accompany those thoughts?",
+      "client": "When I start to worry, I feel this tightness in my chest, almost like I can\u2019t breathe properly. My stomach gets knotted up, and I just feel this wave of anxiety wash over me. It\u2019s like my mind is racing, but my body feels heavy and stuck.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like the physical sensations you experience really mirror the anxiety in your thoughts. The tightness in your chest and the heaviness in your body must be uncomfortable, especially when you're also dealing with racing thoughts. \n\nWhat do you think might help you in those moments when you start to feel that tightness? Are there any small things you\u2019ve tried that bring even a little relief?",
+      "client": "I guess when it gets really bad, I try to focus on my breathing or go for a walk, but it's hard to remember to do that in the moment. I just end up wanting to distract myself with anything else\u2014like cleaning or keeping busy. It\u2019s frustrating because I know those little things could help, but it feels overwhelming to even think about them.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable that it can feel overwhelming to implement those helpful strategies when you\u2019re in the midst of that anxiety. Wanting to distract yourself with cleaning or staying busy makes sense, especially when you\u2019re looking for relief from those intense feelings. \n\nWhen you try to focus on your breathing or go for a walk, what do you find makes it challenging to remember those options in those moments?",
+      "client": "I think when I'm in the thick of it, it\u2019s like my mind just shuts down. I get caught up in the anxiety and everything feels so urgent that I can't pause to think about what might actually help. It\u2019s like I\u2019m on autopilot, just trying to survive the moment.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like when you're feeling that intense anxiety, it can be really hard to break out of that autopilot mode. Everything feels urgent, and it makes sense that you would prioritize just getting through the moment. \n\nAs you describe that experience, what do you notice happening in your body during those times? Are there any specific thoughts or feelings that come up alongside that sense of urgency?",
+      "client": "I notice that my heart races, and I get this tightness in my chest. It\u2019s like my mind is screaming that I need to fix everything right away, but I just feel so lost. I guess part of me thinks I should be able to handle it all, but another part feels completely overwhelmed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "You\u2019re really capturing the intensity of what you experience in those moments. Feeling that tightness in your chest and the racing heart can be so distressing, especially when your mind is telling you that everything needs to be addressed immediately. It\u2019s understandable to feel both that pressure to handle it all and the weight of being overwhelmed at the same time.\n\nWhat do you think happens to your sense of self when you\u2019re caught between those two parts\u2014one that feels capable and the other that feels lost?",
+      "client": "I guess it\u2019s like I\u2019m at war with myself. Part of me feels like I should have it all together, but the other part just feels like a failure. It makes me question if I really can provide for my son and myself.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel a mix of anxiety and sadness, like a knot in my stomach that just won't go away. My shoulders get tight, and I feel this overwhelming sense of dread about the future\u2014not just for me, but for Brady too.\"\n2. **Openness:** \"I guess I feel a mix of fear and relief at the thought. On one hand, I worry it could burden him, but maybe it would help him understand that it's okay to feel things.\"\n\n**Progression:** In the recent exchanges, the client demonstrates a significant emotional depth and vulnerability that was less evident at the beginning of the session. Initially, their responses were more factual, focusing on the financial stress and the email from the ex without delving into the emotional impacts of those stresses. As the session progressed, the client began to articulate complex emotional experiences, such as feeling overwhelmed and the physical manifestations of that emotional state, like the tightness in her chest and tension in her body. This illustrates a clear shift towards deeper self-reflection and emotional expression.\n\n**Turning Point:** A notable turning point occurred when the client reflected on the feelings tied to being strong for Brady. They began to share their internal conflict about wanting to appear stable while feeling overwhelmed inside. This moment marked a transition from merely discussing their responsibilities to acknowledging their emotional struggles, demonstrating a willingness to engage with their vulnerabilities. The specific moment of breakthrough appears to be when they expressed the fear of showing weakness to Brady, realizing that it could be beneficial for their relationship, which signifies a deeper level of self-awareness and emotional engagement."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds really challenging to feel that inner conflict, where one part of you believes you should have everything figured out while another part feels like it\u2019s struggling. That tension can create a lot of pressure, especially when you\u2019re trying to provide for both yourself and your son. \n\nAs you reflect on this \u201cwar\u201d within yourself, what do you think your mind tells you about your worth or abilities in those moments? How does it feel to question whether you can provide what you need?",
+      "client": "It feels pretty bleak, honestly. My mind tells me I\u2019m not good enough, that I\u2019m not capable of being the kind of mom Brady needs. I can\u2019t shake this feeling that I\u2019m failing him and myself.",
+      "openness_judgment": null
+    }
+  ]
+}

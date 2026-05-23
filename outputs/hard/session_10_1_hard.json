@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "10-1",
+  "patient_name": "Grace",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?' It\u2019s like I\u2019m constantly on edge, waiting for something to go wrong.\"\n2. \"It's just exhausting, honestly. I feel like I\u2019m always on edge, like something bad is going to happen if I let my guard down. And then there\u2019s this fear of not being able to keep up.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a marked improvement in emotional expression and self-reflection. In earlier exchanges, the client demonstrated hesitance and a lack of emotional vocabulary. However, the recent quotes reveal significant emotional depth, as the client articulates feelings of being overwhelmed and the physical manifestations of anxiety, such as tightness in the chest. The client is starting to engage more willingly in the conversation, moving beyond mere facts and demonstrating an understanding of their emotional state.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate their feelings of being \"drowned\" by their financial situation and the associated fear of failure. This shift happened during the moment when the client expressed a feeling of tightness in their chest, marking a transition from a more factual, surface-level discussion to a deeper engagement with their emotions. This moment reflects a growing comfort in sharing their vulnerability and indicates a willingness to explore these feelings further, even amidst their hesitance."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It's just exhausting, honestly. I feel like I\u2019m always on edge, like something bad is going to happen if I let my guard down. And then there\u2019s this fear of not being able to keep up.\"\n2. \"Thinking about my dog just adds to the pile of guilt and sadness. I feel like I should be able to manage everything, but then I think about how much comfort he brings me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier parts of the session. The client articulates feelings of exhaustion and anxiety, indicating a growing comfort in sharing deeper emotional experiences. Earlier exchanges reflected a more guarded stance with less elaboration, while the latest quotes reveal a more significant emotional vulnerability and depth of insight. \n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the discussion about their dog, where they expressed guilt and sadness tied to their financial struggles. This moment revealed an internal conflict that captured their emotional landscape more fully, demonstrating a willingness to confront and articulate feelings of inadequacy and fear. This indicates a movement from a more defensive and hesitant stance toward a phase of engaged exploration, where they are beginning to connect their emotional responses to tangible aspects of their life."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?' It\u2019s like I\u2019m constantly on edge, waiting for something to go wrong.\"\n2. Client: \"I often feel this tightness in my chest, like I can\u2019t breathe properly when I think about everything I\u2019m struggling with. It\u2019s like my body is reacting to my thoughts, and then I just get more anxious.\"\n\n**Progression:** The client\u2019s recent interactions show a marked increase in emotional expression and self-reflection, with clear descriptions of physical sensations tied to their emotional state. Initially, the client expressed a sense of being overwhelmed, using metaphors such as \"drowning\" to describe their situation. This illustrates a significant emotional depth compared to earlier exchanges, where they were more factual and defensive. The current level of disclosure reflects a deeper engagement with their feelings and thoughts, indicating progress toward emotional exploration.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate their physical sensations in relation to their mental stress, such as the tightness in their chest. This moment, particularly when they described feeling paralyzed and overwhelmed by their financial situation, marks a crucial turning point. It reflects a willingness to explore the interplay between their emotions and physical reactions, indicating a deeper level of self-reflection and a growing comfort in discussing their vulnerabilities with the therapist."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?'\" This statement illustrates a clear emotional expression of overwhelm and anxiety related to financial stress.\n2. **Current Openness:** \"I guess it feels like I should be able to handle it myself, but then I just get paralyzed by all the things I have to do.\" This demonstrates a deeper level of self-reflection, acknowledging feelings of inadequacy and paralysis amidst overwhelming responsibilities.\n\n**Progression:** The client has shown a significant shift from initial factual responses to a more engaged emotional exploration of their situation. Earlier in the session, the client expressed hesitance and a defensive stance when discussing their struggles. However, in recent exchanges, there\u2019s a noticeable increase in emotional depth and self-reflection, particularly as they articulate their feelings of drowning in responsibilities and the resulting anxiety. The client is beginning to express their thoughts and feelings more openly, indicating a developing comfort with the therapeutic process.\n\n**Turning Point:** The emotional depth in the client\u2019s dialogue shifted notably when they expressed, \"Thinking about my dog just adds to the pile of guilt and sadness.\" This moment marks a turning point as it reflects a deeper acknowledgment of their internal conflict between financial stress and the emotional support their dog provides. The client\u2019s willingness to discuss feelings of guilt and sadness signifies a move toward authentic vulnerability, allowing for greater therapeutic exploration. This demonstrates the client engaging in a more meaningful dialogue about their emotional landscape, moving away from a strictly factual recounting of their experiences."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Grace, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, maybe just how everything feels like it's falling apart. The financial stuff is really stressing me out, and I can\u2019t seem to keep up with it all.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you're feeling quite overwhelmed with everything going on, especially with the financial stress weighing heavily on you. That\u2019s a lot to handle. Can you share a bit more about what that feels like for you in the moment? What thoughts come up when you think about the situation?",
+      "client": "It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, \"How am I supposed to afford everything?\" It\u2019s like I\u2019m constantly on edge, waiting for something to go wrong. I just don\u2019t know how to fix it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds incredibly heavy to feel like you're drowning in that sea of responsibilities and uncertainty. The constant fear of something going wrong must be really exhausting. What do you notice in your body when those thoughts come up? Is there a particular moment or part of the situation that feels most pressing to you right now?",
+      "client": "I just feel this tightness in my chest, like I can't breathe properly. It's like every time I think about the bills, it just gets worse. And honestly, I can't pinpoint one moment; it's all just one big mess right now.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "That tightness in your chest sounds really uncomfortable and adds to the feeling of being overwhelmed. It\u2019s understandable to feel like everything is tangled together when there\u2019s so much going on. What do you think would help you begin to untangle those thoughts and feelings, even just a little? Would it be helpful to talk about what parts of this mess are most distracting or distressing for you?",
+      "client": "I don\u2019t really see how talking about it will help. It\u2019s just a mess, and I feel like I\u2019m just stuck. Maybe I could just try to manage it all on my own, you know?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It makes sense to feel that way, especially when everything feels so overwhelming. Wanting to manage it on your own is a natural response when things seem chaotic. What would it look like for you to manage this on your own, and how does that feel for you right now? Would it feel easier to share what makes you feel stuck, or is there something else on your mind that feels more important to explore?",
+      "client": "I guess it feels like I should be able to handle it myself, but then I just get paralyzed by all the things I have to do. Talking about it seems pointless because it doesn\u2019t change anything. I don\u2019t know, maybe I just need to find a way to push through it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds really frustrating to feel that pressure to manage everything on your own while also feeling paralyzed by the tasks ahead. That idea of needing to just push through can be a heavy weight to carry. As you think about pushing through, what do you notice about the impact it has on you\u2014physically or emotionally? \n\nWhat parts of this situation feel most significant to you right now?",
+      "client": "It's just exhausting, honestly. I feel like I\u2019m always on edge, like something bad is going to happen if I let my guard down. And then there\u2019s this fear of not being able to keep up.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?' It\u2019s like I\u2019m constantly on edge, waiting for something to go wrong.\"\n2. \"It's just exhausting, honestly. I feel like I\u2019m always on edge, like something bad is going to happen if I let my guard down. And then there\u2019s this fear of not being able to keep up.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a marked improvement in emotional expression and self-reflection. In earlier exchanges, the client demonstrated hesitance and a lack of emotional vocabulary. However, the recent quotes reveal significant emotional depth, as the client articulates feelings of being overwhelmed and the physical manifestations of anxiety, such as tightness in the chest. The client is starting to engage more willingly in the conversation, moving beyond mere facts and demonstrating an understanding of their emotional state.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate their feelings of being \"drowned\" by their financial situation and the associated fear of failure. This shift happened during the moment when the client expressed a feeling of tightness in their chest, marking a transition from a more factual, surface-level discussion to a deeper engagement with their emotions. This moment reflects a growing comfort in sharing their vulnerability and indicates a willingness to explore these feelings further, even amidst their hesitance."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re carrying a lot of tension and anxiety, always feeling like you need to be alert to prevent something bad from happening. That sense of being on edge can be really draining. As you describe this experience, what do you notice in your body? Are there specific thoughts or feelings that accompany this fear of not being able to keep up?",
+      "client": "I can feel my shoulders tightening, and my heart races a bit when I think about everything I have to manage. There\u2019s this constant loop in my head\u2014what if I can\u2019t pay the bills, or what if I fail at being a single parent? It just keeps going.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that physical tension when those thoughts take hold, especially with such significant worries about finances and parenting. That constant loop can feel overwhelming. When those thoughts arise, how do you usually respond to them? Are there any moments where you notice a shift in that loop, or is it mostly continuous?",
+      "client": "I guess it\u2019s mostly continuous. I just get stuck in my head and end up ruminating instead of doing anything productive. Sometimes I think about giving up my dog to save money, and that thought just makes me feel worse.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It sounds like those thoughts about your dog bring up a lot of conflicting feelings for you. The idea of giving up something that means so much can be really heavy, especially when you're already feeling overwhelmed. When you think about that, what emotions come up for you? And how do you feel about your dog in the context of everything else you're managing?",
+      "client": "Thinking about my dog just adds to the pile of guilt and sadness. I feel like I should be able to manage everything, but then I think about how much comfort he brings me. It\u2019s frustrating because I know giving him up would be a huge loss, but the financial stress makes me feel like I have no choice.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like you're experiencing a really tough internal conflict. On one hand, you recognize the comfort and support your dog provides, and on the other, there\u2019s the heavy weight of financial stress that makes you question your choices. That guilt and sadness must feel really difficult to navigate. \n\nAs you reflect on these feelings, what do you notice about your sense of self during these moments? How does this conflict impact your day-to-day experience?",
+      "client": "I feel like I\u2019m failing at everything, including being a good pet owner. It\u2019s hard to enjoy the little moments when I\u2019m constantly worried about money and my future. This conflict just makes everything feel heavier, and I end up feeling more isolated.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like the weight of these worries is really affecting your ability to enjoy those small, positive moments with your dog. Feeling isolated on top of already carrying so much can make everything feel even more challenging. It\u2019s understandable to feel that way when you're juggling so many pressures.\n\nAs you think about those feelings of failure and isolation, what do you notice happening in your body? Are there specific moments where that feeling of heaviness is more pronounced?",
+      "client": "I often feel this tightness in my chest, like I can\u2019t breathe properly when I think about everything I\u2019m struggling with. It\u2019s like my body is reacting to my thoughts, and then I just get more anxious. The moments when I\u2019m trying to manage the financial stuff really amplify that feeling, especially when I\u2019m sitting at a pile of bills.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It sounds like the tightness in your chest is really tied to those overwhelming thoughts and worries, especially around finances. That physical sensation seems to be a strong signal from your body about the anxiety you\u2019re experiencing. \n\nAs you sit with that feeling, what do you find helps you cope in those moments? Are there any small things that bring you a bit of relief, even temporarily?",
+      "client": "I guess sometimes just getting out for a walk with my dog helps, even if it's just for a few minutes. It takes my mind off things, at least temporarily. But then I feel guilty for not tackling the bills, you know?",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It's just exhausting, honestly. I feel like I\u2019m always on edge, like something bad is going to happen if I let my guard down. And then there\u2019s this fear of not being able to keep up.\"\n2. \"Thinking about my dog just adds to the pile of guilt and sadness. I feel like I should be able to manage everything, but then I think about how much comfort he brings me.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier parts of the session. The client articulates feelings of exhaustion and anxiety, indicating a growing comfort in sharing deeper emotional experiences. Earlier exchanges reflected a more guarded stance with less elaboration, while the latest quotes reveal a more significant emotional vulnerability and depth of insight. \n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the discussion about their dog, where they expressed guilt and sadness tied to their financial struggles. This moment revealed an internal conflict that captured their emotional landscape more fully, demonstrating a willingness to confront and articulate feelings of inadequacy and fear. This indicates a movement from a more defensive and hesitant stance toward a phase of engaged exploration, where they are beginning to connect their emotional responses to tangible aspects of their life."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like those walks with your dog provide a much-needed break, even if it feels like a temporary escape. It's understandable to feel guilty about not addressing the bills right away, especially when so much is on your mind. \n\nWhat do you think it means for you to take that time for yourself, even if it feels conflicting? How does the guilt show up for you after those moments of relief?",
+      "client": "Taking that time for myself feels like a double-edged sword. I enjoy the break, but then I come back to the same mountain of stress, and the guilt just piles on. It\u2019s like I can\u2019t win; if I\u2019m not working on my problems, I feel like I\u2019m failing even more.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It\u2019s clear that taking that break brings you some comfort, but it also comes with a heavy weight of guilt and pressure to be productive. That sense of feeling like you\u2019re failing if you step away from the stress is really challenging. \n\nWhat do you notice in your body or emotions when you think about that feeling of failure? How does it affect your ability to take those breaks you mentioned?",
+      "client": "When I think about feeling like I'm failing, it just kind of tightens my chest even more. I get anxious and restless, and it makes it hard to enjoy those moments outside with my dog. It\u2019s almost like I\u2019m punishing myself for needing a break, which seems so unfair.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It sounds like that tightness in your chest and the anxiety really overshadow those moments that could be enjoyable. It\u2019s understandable to feel that way, especially when you\u2019re caught in that cycle of wanting to take a break but feeling like you\u2019re not allowed to. That sense of unfairness can be really heavy to carry.\n\nAs you think about those walks with your dog, what do you think might help you reclaim some of that joy in those moments? What would it feel like to allow yourself to take a break without the guilt weighing you down?",
+      "client": "I honestly don\u2019t know if I can just let go of the guilt. It feels like I should always be doing something productive, like I can't afford to take a break without it costing me in the long run. Part of me wants to enjoy those moments, but another part thinks I\u2019m just being irresponsible if I do.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a real tug-of-war happening within you between wanting to enjoy those moments and feeling like you should always be productive. That conflict can be so exhausting. It makes sense that letting go of the guilt feels challenging, especially when you\u2019re carrying that sense of responsibility.\n\nWhat do you think might happen if you allowed yourself to be a little more present during those walks, even just for a few moments? How might it feel to explore what enjoyment looks like for you in that context?",
+      "client": "I guess it could be nice to just focus on the moment and not have my mind racing about everything else. But then I worry that if I let my guard down, I\u2019ll fall behind on what needs to be done. It feels risky to even think about enjoying things when there\u2019s so much on my plate.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like the idea of letting your guard down feels quite risky for you, especially with everything that you have on your plate. That worry about falling behind can really create a barrier to enjoying those small moments. It\u2019s understandable to feel that way when there are so many responsibilities weighing on you.\n\nIf you were to take just a moment to breathe and focus on your surroundings during those walks, what do you think that would feel like? What kinds of things might help you navigate that fear while still allowing for a bit of enjoyment?",
+      "client": "I think taking a moment to breathe could feel refreshing, but then I also worry that I might lose track of time. What if I end up not getting to what I need to do? It\u2019s hard to balance that fear with the idea of just being present.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It seems like that fear of losing track of time really complicates your desire to be present, which is totally understandable. The balance between staying productive and allowing for moments of refreshment can feel so tricky. \n\nWhat do you think it would take for you to feel more at ease with the idea of taking a short, intentional break? Are there ways you could set boundaries around your time to create a little space for yourself without the worry of falling behind?",
+      "client": "I guess if I set a specific time for a break, like just five minutes, that might help. But then part of me thinks, what if those five minutes turn into something longer, and I end up getting sidetracked? It\u2019s like I don\u2019t trust myself to manage that well.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?' It\u2019s like I\u2019m constantly on edge, waiting for something to go wrong.\"\n2. Client: \"I often feel this tightness in my chest, like I can\u2019t breathe properly when I think about everything I\u2019m struggling with. It\u2019s like my body is reacting to my thoughts, and then I just get more anxious.\"\n\n**Progression:** The client\u2019s recent interactions show a marked increase in emotional expression and self-reflection, with clear descriptions of physical sensations tied to their emotional state. Initially, the client expressed a sense of being overwhelmed, using metaphors such as \"drowning\" to describe their situation. This illustrates a significant emotional depth compared to earlier exchanges, where they were more factual and defensive. The current level of disclosure reflects a deeper engagement with their feelings and thoughts, indicating progress toward emotional exploration.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate their physical sensations in relation to their mental stress, such as the tightness in their chest. This moment, particularly when they described feeling paralyzed and overwhelmed by their financial situation, marks a crucial turning point. It reflects a willingness to explore the interplay between their emotions and physical reactions, indicating a deeper level of self-reflection and a growing comfort in discussing their vulnerabilities with the therapist."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a lot of concern around trusting yourself to keep that break to a set time. It\u2019s interesting how those thoughts about the break turning into something longer can create hesitation. \n\nWhat do you notice in your body when you think about taking that five-minute break? And what do you think might help reassure you that you can manage that time without getting sidetracked?",
+      "client": "When I think about taking that break, I feel this knot in my stomach, like I can't quite relax. It\u2019s almost like I\u2019m constantly on edge, ready to jump back into whatever I need to do. Maybe having a timer or something could help, but then I\u2019d just be fixated on that clock, and it would feel stressful instead of refreshing.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Noticing that knot in your stomach when you think about the break really highlights how tense you feel around this issue. It makes sense that the idea of a timer could bring some relief, yet also add a layer of stress. \n\nCan we explore what \"refreshing\" would feel like for you? What would it look like to take a break in a way that feels safe and supportive rather than stressful?",
+      "client": "I think refreshing would feel like actually letting my mind wander without worrying about everything else. It might look like just sitting outside for a minute or two, focusing on the sounds around me instead of my to-do list. But I guess I'm just not sure if that's actually possible for me right now.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like letting your mind wander and connecting with your surroundings could be really rejuvenating for you. It\u2019s understandable to feel uncertain about whether that\u2019s possible right now. \n\nWhat do you think might be standing in the way of experiencing that kind of break? And as you imagine sitting outside and focusing on the sounds, what feelings come up for you?",
+      "client": "I think what stands in the way is this constant worry about money and everything else I have to handle. It\u2019s like I can\u2019t quiet those thoughts long enough to enjoy a moment outside. When I imagine it, I feel a mix of longing and guilt, like I shouldn\u2019t be taking a break when there\u2019s so much to do.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a real tension between your desire to take a break and the responsibilities weighing on your mind, which makes sense given the worries you\u2019re facing. Longing for that moment outside while feeling guilt about your to-do list creates a complex emotional experience.\n\nAs you sit with that mixture of feelings, what do you notice in your body? And in thinking about this guilt, how does it influence your choices around taking breaks?",
+      "client": "I notice my shoulders get really tight and I feel this heaviness in my chest. The guilt definitely makes me push the idea of taking a break aside, like I\u2019m not allowed to relax until I figure everything out. It\u2019s exhausting to feel that way all the time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "That heaviness in your chest and the tightness in your shoulders sound really uncomfortable. It\u2019s understandable to feel exhausted when you're carrying that sense of pressure and guilt around taking a break. It seems like you\u2019re caught in a cycle where the need for rest conflicts with the demands you feel.\n\nAs you reflect on this exhaustion, what do you think it would feel like to allow yourself even a small moment of rest, despite everything that\u2019s on your plate? And how do you usually respond to that feeling of being overwhelmed?",
+      "client": "I guess allowing myself a moment of rest would feel almost foreign, like I'm breaking some unspoken rule. When I\u2019m overwhelmed, I tend to just push through, thinking if I keep busy, maybe I\u2019ll feel more in control. But honestly, it\u2019s just draining and doesn\u2019t really help.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like that idea of rest feels really challenging for you, almost like it goes against an ingrained belief about how to handle overwhelming situations. Pushing through can seem like a way to regain control, but it\u2019s clear that it's leaving you feeling drained instead. \n\nAs you consider this pattern, what do you think keeps you from breaking that rule and allowing yourself some rest? And when you think about the effects of pushing through, how does that impact your overall well-being?",
+      "client": "Part of me believes that if I take a break, everything will fall apart. It's like I\u2019m stuck in this mindset that I have to handle it all by myself, and any lapse means I\u2019m not doing enough. But pushing through definitely makes it harder to feel okay overall; I just end up feeling more anxious and worn out.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"It feels like I'm drowning in this sea of bills and paperwork, and I just keep thinking, 'How am I supposed to afford everything?'\" This statement illustrates a clear emotional expression of overwhelm and anxiety related to financial stress.\n2. **Current Openness:** \"I guess it feels like I should be able to handle it myself, but then I just get paralyzed by all the things I have to do.\" This demonstrates a deeper level of self-reflection, acknowledging feelings of inadequacy and paralysis amidst overwhelming responsibilities.\n\n**Progression:** The client has shown a significant shift from initial factual responses to a more engaged emotional exploration of their situation. Earlier in the session, the client expressed hesitance and a defensive stance when discussing their struggles. However, in recent exchanges, there\u2019s a noticeable increase in emotional depth and self-reflection, particularly as they articulate their feelings of drowning in responsibilities and the resulting anxiety. The client is beginning to express their thoughts and feelings more openly, indicating a developing comfort with the therapeutic process.\n\n**Turning Point:** The emotional depth in the client\u2019s dialogue shifted notably when they expressed, \"Thinking about my dog just adds to the pile of guilt and sadness.\" This moment marks a turning point as it reflects a deeper acknowledgment of their internal conflict between financial stress and the emotional support their dog provides. The client\u2019s willingness to discuss feelings of guilt and sadness signifies a move toward authentic vulnerability, allowing for greater therapeutic exploration. This demonstrates the client engaging in a more meaningful dialogue about their emotional landscape, moving away from a strictly factual recounting of their experiences."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a strong sense of responsibility that\u2019s driving you to feel like you have to manage everything on your own. That belief can create a lot of pressure, making it really difficult to consider taking a break. The connection you\u2019re making between pushing through and feeling more anxious and worn out is important to acknowledge. \n\nAs you reflect on that mindset, what do you think it means for you to ask for help or to let go of some of that burden? How does it feel to think about what might change if you allowed yourself to take a step back?",
+      "client": "It feels kind of scary to think about asking for help. I mean, part of me knows it could lighten the load, but another part worries it makes me look weak or incapable. It's like I'm caught between wanting to confirm I can handle everything and knowing deep down that I can't keep this up forever.",
+      "openness_judgment": null
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 """Evaluate generated conversations in outputs/.
 
-This script reads conversation JSON files produced by src/simulate_conversation.py,
-formats each transcript, evaluates it with the prompts in scripts/alliance.py and
-scripts/therapist_skills.py, and writes one combined JSON report.
+This script reads conversation JSON files produced by scripts/simulate_conversation.py,
+formats each transcript, evaluates it with the evaluators in src/, and writes
+per-conversation evaluation JSON files.
 """
 
 from __future__ import annotations
@@ -10,7 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
+import random
 import sys
 from pathlib import Path
 from typing import Any
@@ -28,25 +28,12 @@ DEFAULT_EVALUATIONS_DIR = ROOT_DIR / "evaluations"
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from scripts.alliance import C_ALLIANCE_SYSTEM_PROMPT  # noqa: E402
-from scripts.therapist_skills import (  # noqa: E402
-    CBT_SPECIFIC_FOCUS,
-    CBT_SPECIFIC_GUIDED_DISCOVERY_SKILL,
-    CBT_SPECIFIC_STRATEGY,
-    GEN_COLLABORATION,
-    GEN_INTERPERSONAL,
-    GEN_UNDERSTANDING,
-)
-
-
-THERAPIST_SKILL_PROMPTS = {
-    "guided_discovery": CBT_SPECIFIC_GUIDED_DISCOVERY_SKILL,
-    "focus": CBT_SPECIFIC_FOCUS,
-    "strategy": CBT_SPECIFIC_STRATEGY,
-    "understanding": GEN_UNDERSTANDING,
-    "interpersonal": GEN_INTERPERSONAL,
-    "collaboration": GEN_COLLABORATION,
-}
+from src.alliance import evaluate_alliance  # noqa: E402
+from src.ctrs import evaluate_ctrs_transcript  # noqa: E402
+from src.miti import evaluate_miti_transcript  # noqa: E402
+from src.therapist_skills import evaluate_therapist_skills  # noqa: E402
+from src.wai_o import evaluate_wai_o_transcript  # noqa: E402
+from src.wai_o_s import evaluate_wai_o_s_transcript  # noqa: E402
 
 
 def parse_args() -> argparse.Namespace:
@@ -57,7 +44,10 @@ def parse_args() -> argparse.Namespace:
         "--outputs-dir",
         type=Path,
         default=DEFAULT_OUTPUTS_DIR,
-        help="Directory containing conversation JSON files. Defaults to outputs/.",
+        help=(
+            "Directory containing conversation JSON files. Searches recursively. "
+            "Defaults to outputs/."
+        ),
     )
     parser.add_argument(
         "--evaluations-dir",
@@ -72,7 +62,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default=os.getenv("EVALUATION_MODEL") or os.getenv("OPENAI_MODEL", "gpt-4.1-mini"),
+        default=os.getenv("EVALUATION_MODEL") or os.getenv("OPENAI_MODEL", "gpt-4o"),
         help="OpenAI model used for evaluation.",
     )
     parser.add_argument(
@@ -87,6 +77,24 @@ def parse_args() -> argparse.Namespace:
         help="Optional limit on number of conversation files to evaluate.",
     )
     parser.add_argument(
+        "--sample-clients",
+        type=int,
+        help=(
+            "Randomly select this many patient_id values, then evaluate all "
+            "matching mode files for those clients."
+        ),
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        help="Random seed used with --sample-clients.",
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip conversations whose evaluation JSON already exists.",
+    )
+    parser.add_argument(
         "--skip-alliance",
         action="store_true",
         help="Skip the alliance.py evaluation prompt.",
@@ -96,6 +104,26 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip therapist_skills.py evaluation prompts.",
     )
+    parser.add_argument(
+        "--skip-ctrs",
+        action="store_true",
+        help="Skip CTRS evaluation.",
+    )
+    parser.add_argument(
+        "--skip-miti",
+        action="store_true",
+        help="Skip MITI evaluation.",
+    )
+    parser.add_argument(
+        "--skip-wai-o",
+        action="store_true",
+        help="Skip WAI-O evaluation.",
+    )
+    parser.add_argument(
+        "--skip-wai-o-s",
+        action="store_true",
+        help="Skip WAI-O-S evaluation.",
+    )
     return parser.parse_args()
 
 
@@ -103,8 +131,52 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def conversation_files(outputs_dir: Path, max_files: int | None) -> list[Path]:
-    files = sorted(path for path in outputs_dir.glob("*.json") if path.is_file())
+def patient_id_for_file(path: Path) -> str | None:
+    try:
+        patient_id = load_json(path).get("patient_id")
+    except (OSError, json.JSONDecodeError):
+        return None
+    return str(patient_id) if patient_id is not None else None
+
+
+def sample_client_files(
+    files: list[Path], sample_clients: int | None, seed: int | None
+) -> list[Path]:
+    if sample_clients is None:
+        return files
+    if sample_clients < 1:
+        raise SystemExit("--sample-clients must be at least 1.")
+
+    files_by_patient: dict[str, list[Path]] = {}
+    for path in files:
+        patient_id = patient_id_for_file(path)
+        if patient_id is None:
+            continue
+        files_by_patient.setdefault(patient_id, []).append(path)
+
+    patient_ids = sorted(files_by_patient)
+    if not patient_ids:
+        raise SystemExit("No patient_id values found in output JSON files.")
+
+    rng = random.Random(seed)
+    selected_ids = set(rng.sample(patient_ids, min(sample_clients, len(patient_ids))))
+    selected_files = [
+        path
+        for patient_id in patient_ids
+        if patient_id in selected_ids
+        for path in sorted(files_by_patient[patient_id])
+    ]
+    return sorted(selected_files)
+
+
+def conversation_files(
+    outputs_dir: Path,
+    max_files: int | None,
+    sample_clients: int | None,
+    seed: int | None,
+) -> list[Path]:
+    files = sorted(path for path in outputs_dir.rglob("*.json") if path.is_file())
+    files = sample_client_files(files, sample_clients, seed)
     if max_files is not None:
         files = files[:max_files]
     return files
@@ -169,74 +241,6 @@ def call_model(client: Any, model: str, prompt: str, temperature: float, max_tok
     return (text or "").strip()
 
 
-def parse_leading_score(text: str) -> int | None:
-    match = re.search(r"^\s*(\d+)", text)
-    return int(match.group(1)) if match else None
-
-
-def parse_json_response(text: str) -> Any:
-    stripped = text.strip()
-    if stripped.startswith("```"):
-        stripped = re.sub(r"^```(?:json)?\s*", "", stripped)
-        stripped = re.sub(r"\s*```$", "", stripped)
-    try:
-        return json.loads(stripped)
-    except json.JSONDecodeError:
-        return None
-
-
-def parse_alliance_response(text: str) -> dict[str, Any]:
-    """Parse alliance output, which often arrives as many JSON objects."""
-    parsed = parse_json_response(text)
-    if isinstance(parsed, dict):
-        question = next((key for key in parsed if re.fullmatch(r"Q\d+", key)), None)
-        return {
-            "questions": [parsed],
-            "by_question": {question: parsed} if question else {},
-            "raw": text,
-        }
-    if isinstance(parsed, list):
-        return {
-            "questions": parsed,
-            "by_question": {
-                question: item
-                for item in parsed
-                if isinstance(item, dict)
-                for question in item
-                if re.fullmatch(r"Q\d+", question)
-            },
-            "raw": text,
-        }
-
-    questions: list[dict[str, Any]] = []
-    decoder = json.JSONDecoder()
-    index = 0
-    while index < len(text):
-        start = text.find("{", index)
-        if start == -1:
-            break
-        try:
-            item, end = decoder.raw_decode(text[start:])
-        except json.JSONDecodeError:
-            index = start + 1
-            continue
-        if isinstance(item, dict):
-            questions.append(item)
-        index = start + end
-
-    by_question = {}
-    for item in questions:
-        question = next((key for key in item if re.fullmatch(r"Q\d+", key)), None)
-        if question:
-            by_question[question] = item
-
-    return {
-        "questions": questions,
-        "by_question": by_question,
-        "raw": text,
-    }
-
-
 def evaluate_conversation(
     openai_client: Any,
     model: str,
@@ -244,6 +248,10 @@ def evaluate_conversation(
     path: Path,
     run_alliance: bool,
     run_therapist_skills: bool,
+    run_ctrs: bool,
+    run_miti: bool,
+    run_wai_o: bool,
+    run_wai_o_s: bool,
 ) -> dict[str, Any]:
     conversation = load_json(path)
     transcript = format_transcript(conversation)
@@ -258,42 +266,43 @@ def evaluate_conversation(
         "evaluations": {},
     }
 
+    def model_call(prompt: str, max_tokens: int) -> str:
+        return call_model(openai_client, model, prompt, temperature, max_tokens=max_tokens)
+
     if run_alliance:
-        prompt = C_ALLIANCE_SYSTEM_PROMPT.format(
-            conversation=transcript,
-            example=json.dumps(
-                {
-                    "Q1": "question or criterion text",
-                    "score": "score",
-                    "reason": "brief evidence-based reason",
-                },
-                ensure_ascii=False,
-            ),
-        )
-        raw = call_model(openai_client, model, prompt, temperature, max_tokens=1400)
-        result["evaluations"]["alliance"] = parse_alliance_response(raw)
+        result["evaluations"]["alliance"] = evaluate_alliance(transcript, model_call)
 
     if run_therapist_skills:
-        skills: dict[str, Any] = {}
-        for name, template in THERAPIST_SKILL_PROMPTS.items():
-            raw = call_model(
-                openai_client,
-                model,
-                template.format(conversation=transcript),
-                temperature,
-                max_tokens=700,
-            )
-            skills[name] = {
-                "score": parse_leading_score(raw),
-                "raw": raw,
-            }
-        result["evaluations"]["therapist_skills"] = skills
+        result["evaluations"]["therapist_skills"] = evaluate_therapist_skills(
+            transcript, model_call
+        )
+
+    if run_ctrs:
+        result["evaluations"]["ctrs"] = evaluate_ctrs_transcript(transcript, model_call)
+
+    if run_miti:
+        result["evaluations"]["miti"] = evaluate_miti_transcript(transcript, model_call)
+
+    if run_wai_o:
+        result["evaluations"]["wai_o"] = evaluate_wai_o_transcript(transcript, model_call)
+
+    if run_wai_o_s:
+        result["evaluations"]["wai_o_s"] = evaluate_wai_o_s_transcript(
+            transcript, model_call
+        )
 
     return result
 
 
-def evaluation_output_path(evaluations_dir: Path, conversation_path: Path) -> Path:
-    return evaluations_dir / f"{conversation_path.stem}_evaluation.json"
+def evaluation_output_path(
+    evaluations_dir: Path, outputs_dir: Path, conversation_path: Path
+) -> Path:
+    try:
+        relative_path = conversation_path.relative_to(outputs_dir)
+    except ValueError:
+        relative_path = Path(conversation_path.name)
+
+    return evaluations_dir / relative_path.parent / f"{relative_path.stem}_evaluation.json"
 
 
 def main() -> None:
@@ -309,7 +318,12 @@ def main() -> None:
             "`pip install -r requirements.txt` or activate the project virtualenv."
         ) from exc
 
-    files = conversation_files(args.outputs_dir, args.max_files)
+    files = conversation_files(
+        args.outputs_dir,
+        args.max_files,
+        args.sample_clients,
+        args.seed,
+    )
     if not files:
         raise SystemExit(f"No JSON files found in {args.outputs_dir}.")
 
@@ -317,6 +331,11 @@ def main() -> None:
     results = []
     args.evaluations_dir.mkdir(parents=True, exist_ok=True)
     for index, path in enumerate(files, start=1):
+        output_path = evaluation_output_path(args.evaluations_dir, args.outputs_dir, path)
+        if args.skip_existing and output_path.exists():
+            print(f"[{index}/{len(files)}] Skipping existing {output_path}")
+            continue
+
         print(f"[{index}/{len(files)}] Evaluating {path}")
         result = evaluate_conversation(
             openai_client=openai_client,
@@ -325,10 +344,14 @@ def main() -> None:
             path=path,
             run_alliance=not args.skip_alliance,
             run_therapist_skills=not args.skip_therapist_skills,
+            run_ctrs=not args.skip_ctrs,
+            run_miti=not args.skip_miti,
+            run_wai_o=not args.skip_wai_o,
+            run_wai_o_s=not args.skip_wai_o_s,
         )
         results.append(result)
 
-        output_path = evaluation_output_path(args.evaluations_dir, path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(
             json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8"
         )

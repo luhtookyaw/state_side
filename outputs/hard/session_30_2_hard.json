@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "30-2",
+  "patient_name": "Matthew",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\"\n2. \"Honestly, it just makes me feel like a failure sometimes. I\u2019m trying to do what I think is best for me, but then I realize I\u2019m losing touch with people. It\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a deepening emotional state characterized by expressions of sadness and frustration about their family dynamics. They are beginning to articulate feelings of failure and loneliness, showcasing a significant move away from more defensive or factual responses seen earlier in the session. The emotional vocabulary used\u2014including terms like \"sad,\" \"lonely,\" and \"failure\"\u2014demonstrates a willingness to delve deeper into their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of feeling like a failure. This moment is significant as it not only reflects their internal struggle but also their readiness to explore the complexities of their connections and the protective barriers they have erected. This moment marks a transition from a more surface-level discussion to a deeper exploration of emotions and self-reflection, indicating a notable development in their emotional openness and the therapeutic relationship. The client is moving towards authentic vulnerability and engaging in a meaningful dialogue about their feelings and experiences."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\"\n2. \"I guess that barrier feels like a combination of fear and self-doubt, like it\u2019s built from all those moments I\u2019ve felt inadequate or unloved.\"\n\n**Progression:**\nIn the most recent interactions, the client demonstrates a deeper emotional state characterized by sadness and loneliness. They articulate their feelings about their family's reaction to their coming out and the resulting isolation they experience. This marks a significant shift from earlier stages where emotional expression was more limited. The client's willingness to discuss their feelings of inadequacy and fear of rejection indicates a growing comfort in the therapeutic relationship and an increased capacity for self-reflection. They are actively engaging in dialogue, sharing meaningful insights about their emotional landscape, which shows clear progression from a previously more guarded stance.\n\n**Turning Point:**\nA notable turning point occurs when the client states, \"Connection feels like a lifeline, something I\u2019ve craved but often feel like I can\u2019t grasp.\" This moment illustrates the client's growing ability to articulate their needs and desires for connection, revealing new layers of vulnerability and emotional depth. By acknowledging the conflict between their desire for connection and the fear of disappointment, the client has moved into a more engaged exploration of their emotions, highlighting their current emotional state and the development of rapport with the therapist."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\u201d\n2. **Current Openness:** \u201cHonestly, it just makes me feel like a failure sometimes. I\u2019m trying to do what I think is best for me, but then I realize I\u2019m losing touch with people. It\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions display a notable increase in emotional expression, moving beyond mere factual responses to reveal deeper feelings of sadness, loneliness, and frustration. At the start of the session, the client expressed a general sense of messiness in their life, but as the dialogue progressed, they began to articulate complex emotions like feeling like a failure, the cycle of isolation, and the internal conflict between their desire for connection and the fear of rejection. This shift signifies a significant change from earlier in the session when their responses were more limited in emotional vocabulary and detail.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they acknowledged the cycle of feeling lonely and sad while trying to protect themselves: \u201cIt\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\u201d This moment marked a greater willingness to engage with their feelings rather than just describe their situation. The client moved from a defensive posture to a more vulnerable and authentic expression of their inner experiences, highlighting a desire for connection and self-acceptance amidst familial challenges."
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4 (DEEP ENGAGEMENT)\n\n**Key Examples:**\n1. **Emotional Expression:** \"I think it\u2019s important because deep down, I want to be seen and accepted for who I truly am, but instead, it often feels like I'm just a disappointment to my family.\"\n2. **Self-Reflection Depth:** \"I guess that barrier feels like a combination of fear and self-doubt, like it\u2019s built from all those moments I\u2019ve felt inadequate or unloved.\"\n\n**Progression:** The client has demonstrated a significant progression in their emotional openness and self-reflection throughout the session. In the latest exchanges, they articulate complex feelings of sadness, loneliness, fear, and self-doubt, and they show an understanding of how their family dynamics impact their sense of self. This marks a clear shift from initial hesitance and factual responses to a deeper emotional engagement, indicating that they are now able to explore and articulate their feelings more profoundly.\n\n**Notable Turning Point:** A notable turning point occurred when the client expressed, \"I guess that barrier feels like a combination of fear and self-doubt.\" This moment marked a shift where the client moved from discussing their experiences in more detached terms to integrating emotional understanding and vulnerability. By identifying the emotions underlying their defensive barriers, the client demonstrated a willingness to engage with deeper feelings, indicating a strong therapeutic alliance and a clearer understanding of their struggles."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Matthew, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don't know, it just feels like everything's a mess right now. I guess I\u2019m still dealing with how my family reacted when I came out. They\u2019re just so focused on their own issues.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re navigating some really complex feelings with your family right now. It must be challenging when their focus seems to shift away from your experience. What have you noticed about your own feelings during those interactions with them?",
+      "client": "I just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like there's a deep sense of sadness and loneliness coming from your experiences with your family. It must be painful to feel like your needs aren\u2019t being understood or met. What do you think that distance allows you to feel or protect in those moments?",
+      "client": "That distance just feels safer, like I\u2019m not risking being hurt or disappointed again. I don\u2019t want to keep putting myself out there if they\u2019re just going to focus on their own feelings. It\u2019s easier to just keep them at arm\u2019s length.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds like keeping that distance feels like a way to protect yourself from potential hurt and disappointment. It makes sense that you would want to guard against feelings of being overlooked. As you think about this distance, what do you notice in your body or emotions when you decide to keep them at arm\u2019s length? How does that choice impact your sense of connection, even outside of your family?",
+      "client": "I don\u2019t know if I really feel connected to anyone when I keep my family at a distance. It\u2019s like I\u2019m building walls around myself, and even though I think I\u2019m protecting myself, I also end up feeling even more isolated. It\u2019s frustrating, honestly.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds really frustrating to feel like those walls, which you built for protection, also end up leading to more isolation. That conflict must be really hard to navigate. When you reflect on that sense of isolation, what emotions or thoughts come up for you? How does it feel when you recognize that connection is slipping away, even while you\u2019re trying to protect yourself?",
+      "client": "Honestly, it just makes me feel like a failure sometimes. I\u2019m trying to do what I think is best for me, but then I realize I\u2019m losing touch with people. It\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds really painful to feel like you're caught in a cycle of loneliness and sadness while trying to protect yourself. Those feelings of failure can be really heavy, especially when you're trying to do what's best for you. As you think about that cycle, what do you notice about your thoughts or emotions when you realize you're losing touch with people? How do those feelings impact your day-to-day experience?",
+      "client": "I don\u2019t know, I guess it just makes everything feel pointless sometimes. I wake up, and it\u2019s like I\u2019m just going through the motions without any real connection or purpose. The sadness just lingers, and I keep thinking about how I should be more engaged, but then I pull away again.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\"\n2. \"Honestly, it just makes me feel like a failure sometimes. I\u2019m trying to do what I think is best for me, but then I realize I\u2019m losing touch with people. It\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a deepening emotional state characterized by expressions of sadness and frustration about their family dynamics. They are beginning to articulate feelings of failure and loneliness, showcasing a significant move away from more defensive or factual responses seen earlier in the session. The emotional vocabulary used\u2014including terms like \"sad,\" \"lonely,\" and \"failure\"\u2014demonstrates a willingness to delve deeper into their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of feeling like a failure. This moment is significant as it not only reflects their internal struggle but also their readiness to explore the complexities of their connections and the protective barriers they have erected. This moment marks a transition from a more surface-level discussion to a deeper exploration of emotions and self-reflection, indicating a notable development in their emotional openness and the therapeutic relationship. The client is moving towards authentic vulnerability and engaging in a meaningful dialogue about their feelings and experiences."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 4,
+      "therapist": "It sounds really challenging to wake up feeling like you're going through the motions without that sense of connection or purpose. The way you describe the sadness lingering and the push-and-pull of wanting to engage but then pulling away seems to create a lot of inner conflict for you. \n\nAs you reflect on that cycle, what do you notice about what keeps you feeling stuck? Are there specific thoughts or situations that lead you to pull away, or is it more of an overall feeling?",
+      "client": "I think it\u2019s a mix of everything, really. There are times when I feel like I\u2019m just not going to be understood, especially by my family. Then there are moments when I realize that I can\u2019t keep waiting for their validation, and that pulls me away too. It\u2019s like I\u2019m stuck in this limbo of wanting to connect but feeling completely unworthy of it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "therapist": "It's understandable to feel caught in that limbo of wanting to connect yet feeling unworthy. Those moments of feeling misunderstood, especially by family, can create a lot of tension within you. It seems like there's a real struggle between seeking validation and recognizing that you don't want to wait for it anymore.\n\nAs you think about those feelings of unworthiness, what do you notice about how that impacts your desire to reach out or engage with others? Are there particular thoughts that come up for you in those moments?",
+      "client": "When I think about reaching out, there\u2019s this nagging voice that tells me I\u2019ll just be met with indifference or disappointment. It\u2019s like I\u2019ve already set myself up for failure, and that makes it easier to stay distant. I think I\u2019m just scared of being rejected again, especially by the people who are supposed to care the most.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 4,
+      "therapist": "That nagging voice of expectation can be really powerful, especially when it comes to reaching out to those you care about. It sounds like the fear of rejection is weighing heavily on you, particularly from the people who matter most in your life. It\u2019s completely understandable to want to protect yourself from that kind of pain.\n\nAs you sit with that fear, what do you notice happening in your body or in your thoughts? How does it feel when you think about the possibility of reaching out despite that fear?",
+      "client": "I feel this tightness in my chest, like I\u2019m on edge, just thinking about it. My thoughts are racing, reminding me of past disappointments, and it\u2019s hard to shake that feeling of dread. It\u2019s almost like there's this invisible barrier I can't break through, even when I know I want to try.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "therapist": "That tightness in your chest and the racing thoughts sound really uncomfortable. It makes sense that those past disappointments would create a heavy feeling of dread when you think about reaching out. It seems like that invisible barrier is quite significant for you right now, making it hard to take that step forward, even when there's a part of you that wants to try.\n\nWhat do you think that barrier represents for you? And as you notice that tightness and the racing thoughts, what emotions come up alongside them?",
+      "client": "I guess that barrier feels like a combination of fear and self-doubt, like it\u2019s built from all those moments I\u2019ve felt inadequate or unloved. The tightness brings up a lot of sadness and loneliness, reminding me that I want connection but feel so far from it. It\u2019s frustrating because part of me knows I want to reach out, but the other part just wants to hide away.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "It sounds like that barrier is really complex, with fear and self-doubt at its core. The sadness and loneliness you're feeling are completely valid, especially when you desire connection but feel a distance from it. It\u2019s understandable to have that internal struggle between wanting to reach out and wanting to stay hidden.\n\nAs you sit with those feelings of sadness and loneliness, what do you notice about how they affect you? Is there anything specific that comes to mind about what connection means to you or why it feels so important?",
+      "client": "Connection feels like a lifeline, something I\u2019ve craved but often feel like I can\u2019t grasp. I think it\u2019s important because deep down, I want to be seen and accepted for who I truly am, but instead, it often feels like I'm just a disappointment to my family. It\u2019s hard to reconcile that desire with the reality of my experiences, you know?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "It\u2019s really powerful that you see connection as a lifeline and recognize the deep desire to be seen and accepted. That sense of wanting to embrace your true self while feeling like a disappointment to your family can create a lot of inner conflict. It makes sense that reconciling those feelings is challenging.\n\nAs you reflect on those experiences, what do you think has shaped your feelings of disappointment? And as you think about wanting to be accepted, what does acceptance look like for you?",
+      "client": "I've always felt like I was letting my family down, especially when I came out. Acceptance, to me, means being able to share who I am without the fear of rejection or judgment\u2014like they could just embrace me fully, flaws and all. But it seems like that\u2019s just not in the cards for me, and that really weighs on me.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\"\n2. \"I guess that barrier feels like a combination of fear and self-doubt, like it\u2019s built from all those moments I\u2019ve felt inadequate or unloved.\"\n\n**Progression:**\nIn the most recent interactions, the client demonstrates a deeper emotional state characterized by sadness and loneliness. They articulate their feelings about their family's reaction to their coming out and the resulting isolation they experience. This marks a significant shift from earlier stages where emotional expression was more limited. The client's willingness to discuss their feelings of inadequacy and fear of rejection indicates a growing comfort in the therapeutic relationship and an increased capacity for self-reflection. They are actively engaging in dialogue, sharing meaningful insights about their emotional landscape, which shows clear progression from a previously more guarded stance.\n\n**Turning Point:**\nA notable turning point occurs when the client states, \"Connection feels like a lifeline, something I\u2019ve craved but often feel like I can\u2019t grasp.\" This moment illustrates the client's growing ability to articulate their needs and desires for connection, revealing new layers of vulnerability and emotional depth. By acknowledging the conflict between their desire for connection and the fear of disappointment, the client has moved into a more engaged exploration of their emotions, highlighting their current emotional state and the development of rapport with the therapist."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like coming out was a significant moment for you, and feeling like you\u2019re letting your family down must be really heavy to carry. The longing for acceptance\u2014where you can share your true self without fear\u2014is a powerful wish, and it's understandable that it would weigh on you if that feels out of reach right now.\n\nAs you think about what acceptance means to you, what emotions come up when you reflect on your family\u2019s response? How do you feel about your own journey toward self-acceptance in contrast to what you\u2019re experiencing with them?",
+      "client": "When I think about my family's response, it's a mix of anger and sadness. I feel like they just can't see beyond their own expectations, and that's frustrating. My journey toward self-acceptance has been tough too; I've made progress, but their lack of acceptance still stings and sometimes makes me question my worth.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "The mix of anger and sadness you feel is completely valid, especially when you\u2019re faced with expectations that don\u2019t align with who you are. It must be frustrating to feel like your family isn\u2019t seeing you for who you truly are, and I can imagine that makes your journey toward self-acceptance even more complex.\n\nAs you reflect on the progress you've made for yourself, what aspects of that journey feel most meaningful to you? And when you think about questioning your worth, what thoughts or feelings come to mind?",
+      "client": "The most meaningful part of my journey has been finding people who actually see me\u2014like my friends and my partner's family. I guess it makes me realize there are spaces where I can be myself. But when I question my worth, it often feels like I'm just searching for their acceptance to feel valid, which is frustrating because I know I shouldn't need it to feel whole.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Finding people who truly see you sounds incredibly affirming, and it's wonderful that you have those spaces where you can be yourself. It\u2019s understandable to seek validation from your family, especially when their acceptance feels so significant. That push and pull between knowing your worth and still longing for their approval must be really challenging.\n\nAs you navigate these feelings of frustration, what do you notice in your body or mind when you think about their acceptance versus your own sense of self-worth? How do you find yourself balancing those two experiences?",
+      "client": "It\u2019s like there's this weight in my chest when I think about their acceptance. My mind races with all the times I've tried to prove myself, but it feels like I'm just running in circles. Balancing it all is hard; I try to focus on the positive parts of my life, but that longing for their approval creeps in and makes me doubt everything I've built for myself.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "The weight in your chest sounds really heavy, especially when you're carrying that mix of trying to prove yourself and wanting their approval. It\u2019s understandable that your mind would race with those thoughts, especially when you feel like you\u2019re running in circles. It\u2019s a lot to manage, particularly when you\u2019re also trying to focus on the positive aspects of your life.\n\nAs you reflect on that longing for their approval, what do you notice about how it influences your self-perception? Are there particular moments or situations where it feels more intense?",
+      "client": "I think it really hits me during family gatherings or even just when my mom calls. I can feel myself slipping back into that old mindset of needing to impress them, and it\u2019s like all the progress I\u2019ve made just fades away. Moments like that make me question if I\u2019m actually enough, and it frustrates me to feel like I\u2019m backtracking.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like family gatherings and conversations with your mom bring up a lot of old feelings and patterns for you. It\u2019s completely valid to experience that sense of slipping back, especially when those moments feel charged with expectations. It must be frustrating to feel like you\u2019re backtracking after making progress.\n\nAs you think about those gatherings or calls, what do you notice about how you respond in those moments? Are there specific thoughts or feelings that come up for you that you\u2019d like to explore further?",
+      "client": "I tend to put up this wall, like I\u2019m just going through the motions. It\u2019s easier to act like everything\u2019s fine, even if I\u2019m feeling anxious inside. I guess part of me thinks that if I don\u2019t show how I really feel, they\u2019ll be less likely to push me for something I can\u2019t give them.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It makes sense that you\u2019d create a wall to protect yourself in those situations. Acting like everything\u2019s fine can feel like a way to manage the anxiety and expectations from your family. It sounds like there\u2019s a part of you that wants to shield your true feelings from them.\n\nAs you reflect on this wall you put up, what do you think it gives you in those moments? And what do you notice about how it feels to maintain that fa\u00e7ade?",
+      "client": "I guess it gives me a sense of control, like I can dictate how much of myself they get to see. But maintaining that fa\u00e7ade is exhausting, and deep down, it feels lonely, like I\u2019m not being real with anyone, including myself.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI just feel sad and lonely when I think about it. It\u2019s like they don\u2019t really get what I need from them, and that just reinforces why I keep my distance.\u201d\n2. **Current Openness:** \u201cHonestly, it just makes me feel like a failure sometimes. I\u2019m trying to do what I think is best for me, but then I realize I\u2019m losing touch with people. It\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions display a notable increase in emotional expression, moving beyond mere factual responses to reveal deeper feelings of sadness, loneliness, and frustration. At the start of the session, the client expressed a general sense of messiness in their life, but as the dialogue progressed, they began to articulate complex emotions like feeling like a failure, the cycle of isolation, and the internal conflict between their desire for connection and the fear of rejection. This shift signifies a significant change from earlier in the session when their responses were more limited in emotional vocabulary and detail.\n\n**Turning Point:**\nThe turning point in the client\u2019s emotional depth occurred when they acknowledged the cycle of feeling lonely and sad while trying to protect themselves: \u201cIt\u2019s just a cycle of feeling lonely and sad, and I don\u2019t know how to break it.\u201d This moment marked a greater willingness to engage with their feelings rather than just describe their situation. The client moved from a defensive posture to a more vulnerable and authentic expression of their inner experiences, highlighting a desire for connection and self-acceptance amidst familial challenges."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "That\u2019s a really insightful observation, Matthew. It sounds like while the wall gives you a sense of control, it also comes with a heavy sense of exhaustion and loneliness. It\u2019s understandable to want to manage how much you share, especially in such emotionally charged situations.\n\nAs you think about that loneliness, what do you notice in your body when you feel that way? And how does it affect your interactions with family or even with yourself?",
+      "client": "When I feel that loneliness, I notice a tightness in my chest and sometimes my stomach drops. It makes me want to just disconnect completely, which probably doesn\u2019t help when I\u2019m with my family. I guess it makes me less patient and more defensive, like I'm just waiting for them to say something that\u2019ll set me off.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds like that tightness in your chest and the feeling of your stomach dropping really affect how you engage with your family. It\u2019s understandable that you might feel less patient or more on edge when you're dealing with those sensations and the loneliness that comes with them. \n\nAs you reflect on those feelings, what do you think happens when you disconnect completely? How does that impact your relationships or your own sense of self during those moments?",
+      "client": "When I disconnect completely, I think I just sort of shut down. It\u2019s like I\u2019m there but not really present, which probably makes it hard for anyone to connect with me. I feel like I'm just going through the motions, and it leaves me feeling even more isolated afterward.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like shutting down leaves you feeling even more isolated, almost like you're trapped in a cycle where being present feels too overwhelming. Being there physically but not emotionally engaged can significantly impact how you connect with others, which makes sense given what you\u2019re experiencing.\n\nWhat do you notice about your emotions or thoughts during those moments of shutdown? And have you found anything that helps you break that cycle when you start to feel like disconnecting?",
+      "client": "When I shut down, I often think things like, \u201cWhy bother?\u201d or \u201cThey won't understand anyway.\u201d It spirals into feeling more hopeless, and I don\u2019t really know how to break the cycle. Sometimes, I try to distract myself with work or just binge-watch stuff to avoid facing those feelings.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Those thoughts\u2014\u201cWhy bother?\u201d and \u201cThey won't understand anyway\u201d\u2014seem to deepen your sense of hopelessness and may make it even harder to reach out. It\u2019s understandable that wanting to avoid those feelings can lead you to distractions like work or binge-watching. \n\nAs you reflect on using those distractions, what do you notice about how they affect your emotions in the moment versus afterward? Do they provide any relief, or do they sometimes leave you feeling more disconnected?",
+      "client": "I guess they offer a temporary escape, but afterwards, I often feel even more detached. It\u2019s like I\u2019m avoiding the real issues, and then they just pile up. So, while I might feel okay for a bit, it doesn't really solve anything in the long run.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like those distractions give you a brief sense of relief, but ultimately they contribute to a feeling of greater detachment and unresolved issues. It makes sense that avoiding the real problems might lead to a buildup of feelings that are hard to manage. \n\nWhat do you think it would be like to spend some time facing those underlying feelings rather than avoiding them? And how do you feel about exploring what those real issues are?",
+      "client": "Facing those feelings sounds incredibly daunting. Part of me thinks it could be helpful to finally address what\u2019s really bothering me, but another part is scared it\u2019ll just make everything worse. I don\u2019t know if I\u2019m ready to dive into that just yet.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel both the pull toward addressing those underlying feelings and the fear that comes with it. Acknowledging that tension shows a lot of insight on your part. It\u2019s okay to take your time with this process, especially when it feels daunting. \n\nWhat do you think would help you feel more ready to explore those feelings when the time comes? Or would it feel easier to start by discussing what specific aspects are most intimidating for you?",
+      "client": "I think having a clearer understanding of what I'm really feeling would help\u2014like separating the sadness from the anger or frustration. But honestly, just thinking about it makes me hesitant. I guess some parts of my family dynamics feel like a minefield, and I'm not sure where to step without triggering something explosive.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4 (DEEP ENGAGEMENT)\n\n**Key Examples:**\n1. **Emotional Expression:** \"I think it\u2019s important because deep down, I want to be seen and accepted for who I truly am, but instead, it often feels like I'm just a disappointment to my family.\"\n2. **Self-Reflection Depth:** \"I guess that barrier feels like a combination of fear and self-doubt, like it\u2019s built from all those moments I\u2019ve felt inadequate or unloved.\"\n\n**Progression:** The client has demonstrated a significant progression in their emotional openness and self-reflection throughout the session. In the latest exchanges, they articulate complex feelings of sadness, loneliness, fear, and self-doubt, and they show an understanding of how their family dynamics impact their sense of self. This marks a clear shift from initial hesitance and factual responses to a deeper emotional engagement, indicating that they are now able to explore and articulate their feelings more profoundly.\n\n**Notable Turning Point:** A notable turning point occurred when the client expressed, \"I guess that barrier feels like a combination of fear and self-doubt.\" This moment marked a shift where the client moved from discussing their experiences in more detached terms to integrating emotional understanding and vulnerability. By identifying the emotions underlying their defensive barriers, the client demonstrated a willingness to engage with deeper feelings, indicating a strong therapeutic alliance and a clearer understanding of their struggles."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It sounds like you have a lot of complexity in your family dynamics, and it's understandable to feel hesitant about navigating that. The idea of separating different emotions like sadness from anger can be a helpful step, but it can also feel overwhelming, especially if you\u2019re worried about triggering difficult reactions.\n\nWhat do you notice when you think about those family dynamics? Are there specific moments or patterns that stand out to you?",
+      "client": "When I think about my family dynamics, I can't help but remember the day I came out. Their reactions were so cold, and it felt like I was just trying to share a part of myself, but instead, I got a lecture on how it would impact their lives. It really stands out how quickly the focus shifted from my feelings to their concerns. It makes me feel like any time I try to open up, I\u2019ll just end up feeling worse.",
+      "openness_judgment": null
+    }
+  ]
+}

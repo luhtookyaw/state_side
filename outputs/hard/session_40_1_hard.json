@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "40-1",
+  "patient_name": "Ryan",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I feel really tense and just drained. It's like my shoulders are tight all the time, and I just can't shake this feeling of being alone in all of this.\"\n2. **Current Openness:** \"I want to trust people, but then they let me down, and it just makes me want to pull back even more. It\u2019s frustrating because I end up feeling worse than before.\"\n\n**Progression:** The client\u2019s recent interactions reveal a growing emotional expressiveness and self-reflection. Initially, their responses were more factual and detached, but they have begun to articulate their feelings of tension, isolation, and disappointment more vividly. The mention of feeling drained and the physical manifestation of their emotional state (tightness in their shoulders and chest) indicate a progression towards deeper emotional engagement. This marks a significant shift from earlier exchanges, where emotional vocabulary was limited.\n\n**Turning Point:** The client's emotional depth began to shift notably when they expressed the impact of their friends\u2019 absence: \"It felt like a punch to the gut.\" This moment signifies a critical recognition of their vulnerability and the disappointment they feel in their social connections. By articulating how these experiences affect their desire to trust others, the client demonstrates a more profound level of self-awareness and emotional engagement. This turning point is crucial as it reflects a movement away from mere factual recounting towards a more introspective and emotionally rich dialogue."
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"When I think about the loneliness, it just makes me feel really sad and heavy. I guess my body feels tense, like there's this weight on my chest.\"\n2. **Openness:** \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of being overwhelmed and isolated in the unpacking process, but they have progressed to articulating profound feelings of sadness and tension, indicating a growing awareness of their emotions related to loneliness and disappointment. The client is now able to connect these feelings to their desire for connection and the fear of rejection, marking a notable shift from earlier exchanges where they were more factual and less emotionally engaged.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated, \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\" This moment demonstrated both self-awareness and a willingness to explore the complexities of their feelings regarding relationships, signaling a deeper engagement with the therapeutic process and a stronger rapport with the therapist."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\"\n- \"Breaking it down sounds like a better approach. Maybe I could start by just texting someone instead of going all in with a call or getting together.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a significant shift in emotional openness. Initially, they expressed feeling overwhelmed and alone, a reflection of their current emotional state characterized by tension and sadness. However, they moved towards a more constructive approach by recognizing the desire for connection and contemplating actionable steps, such as texting someone instead of face-to-face interactions. This indicates a meaningful degree of self-reflection and an evolving understanding of their emotional landscape, marking progress from feelings of isolation and hopelessness.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they articulated their desire for connection despite fears of disappointment. By acknowledging that reaching out might be a way to break the cycle of loneliness, they began to explore practical strategies to engage with others. This moment signifies a shift from a primarily defensive stance to a more open and proactive mindset, indicating increased vulnerability and a willingness to engage with their feelings rather than avoid them."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like this cycle I can\u2019t break... it makes me want to pull back and avoid reaching out because I don\u2019t want to feel that disappointment again.\"\n2. **Current Openness:** \"I think that voice is trying to protect me from the disappointment of being let down again.\"\n\n**Progression:** In the latest exchanges, the client demonstrates a notable shift towards deeper emotional exploration. They articulate feelings of frustration, sadness, and a sense of being overwhelmed by their loneliness and past disappointments. The client shows an increasing willingness to reflect on their emotions and the impact of their past experiences on their current behavior, indicating a significant improvement in emotional openness compared to earlier parts of the session where they predominantly expressed feelings of isolation without deeper analysis.\n\n**Turning Point:** The turning point came when the client began to discuss the idea of wanting connection despite their fears. When they articulated, \"Connecting with others sounds nice, but I get this knot in my stomach thinking about it,\" it marked a moment of vulnerability. This acknowledgment of their mixed emotions illustrates a growing capacity to engage with their feelings and recognize the internal conflict between their desires for connection and their fears of disappointment. The move from merely stating their feelings to exploring the implications of those feelings represents significant emotional growth during this session."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Ryan, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don't know, maybe just how overwhelming unpacking has been. I thought I\u2019d have some help, but it feels like I'm just doing it all on my own.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like the process of unpacking has been really challenging for you, especially without the help you expected. That must feel frustrating and isolating. What do you notice in your body or your emotions as you think about this experience?",
+      "client": "I guess I feel really tense and just drained. It's like my shoulders are tight all the time, and I just can't shake this feeling of being alone in all of this.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds really tough to feel that tension in your body and that sense of being drained. It makes sense that feeling alone in this would add to that weight. What do you think it is about this situation that makes you feel particularly isolated?",
+      "client": "I don't know, maybe it's just that I expected support from my friends, and when they bailed, it felt like a punch to the gut. I guess it hits hard because it feels like nobody really cares, you know? It's like, why should I bother reaching out when I just end up feeling let down?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "That\u2019s a really helpful observation about the impact of your friends not being there as you expected. It sounds like that disappointment has really affected how you feel about reaching out in general. What do you notice as you reflect on those feelings of being let down?",
+      "client": "I don't know, it just feels like a cycle. I want to trust people, but then they let me down, and it just makes me want to pull back even more. It\u2019s frustrating because I end up feeling worse than before.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you're caught in a challenging cycle of wanting to connect but feeling hesitant because of past disappointments. That frustration you mentioned makes a lot of sense; it\u2019s tough when you\u2019re trying to reach out, but it feels risky based on previous experiences. Can we slow that down a bit? What do you notice in your body when you think about trusting people again?",
+      "client": "I don\u2019t really pay attention to that kind of stuff. I just feel this tightness in my chest when I think about it. It\u2019s not like I\u2019m ready to just jump back in and trust people again.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "That tightness in your chest sounds significant. It makes sense that physical sensations can reflect the feelings you're experiencing, especially when it comes to trust. You mentioned not feeling ready to jump back in\u2014what do you think would need to change for you to feel more comfortable with trusting people again?",
+      "client": "I guess I\u2019d need to see some consistency from people, like if they actually showed up when they said they would. But honestly, I\u2019m not even sure that\u2019s possible. It just feels like everyone\u2019s too busy for me.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I feel really tense and just drained. It's like my shoulders are tight all the time, and I just can't shake this feeling of being alone in all of this.\"\n2. **Current Openness:** \"I want to trust people, but then they let me down, and it just makes me want to pull back even more. It\u2019s frustrating because I end up feeling worse than before.\"\n\n**Progression:** The client\u2019s recent interactions reveal a growing emotional expressiveness and self-reflection. Initially, their responses were more factual and detached, but they have begun to articulate their feelings of tension, isolation, and disappointment more vividly. The mention of feeling drained and the physical manifestation of their emotional state (tightness in their shoulders and chest) indicate a progression towards deeper emotional engagement. This marks a significant shift from earlier exchanges, where emotional vocabulary was limited.\n\n**Turning Point:** The client's emotional depth began to shift notably when they expressed the impact of their friends\u2019 absence: \"It felt like a punch to the gut.\" This moment signifies a critical recognition of their vulnerability and the disappointment they feel in their social connections. By articulating how these experiences affect their desire to trust others, the client demonstrates a more profound level of self-awareness and emotional engagement. This turning point is crucial as it reflects a movement away from mere factual recounting towards a more introspective and emotionally rich dialogue."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It sounds like consistency is really important to you, and it's tough to feel like that might not be possible. It makes sense to feel hesitant when you perceive that people are too busy to show up for you. What does that sense of being let down by others feel like for you? And how does it impact your desire to reach out or connect with them?",
+      "client": "Being let down feels pretty heavy, like I\u2019m just carrying this weight around. It makes me want to pull back and avoid reaching out because I don\u2019t want to feel that disappointment again. I guess it just reinforces that belief that I\u2019m better off on my own.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "That heaviness sounds really challenging to carry around, and it makes sense that it would lead you to pull back from reaching out. It\u2019s understandable to want to protect yourself from disappointment when past experiences have been difficult. As you think about that belief of being better off on your own, what do you notice in yourself when you consider the possibility of connecting with others, even just a little?",
+      "client": "Connecting with others sounds nice, but I get this knot in my stomach thinking about it. I mean, part of me wants to reach out, but another part just thinks it\u2019ll end up like it always does\u2014me being disappointed again. It feels safer to just stick to myself.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that knot in your stomach when considering reaching out, especially with the fear of disappointment lingering. It sounds like there\u2019s a real conflict between wanting connection and protecting yourself from hurt. What do you think that tension says about what you might be longing for in relationships? And as you sit with that feeling of safety in solitude, what do you notice about how it affects you day to day?",
+      "client": "I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk. Being alone feels more manageable, but then I end up feeling even more lonely. It\u2019s like this cycle I can\u2019t break.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re caught in a really tough cycle, wanting connection but feeling that the risk of disappointment makes solitude seem more manageable. That loneliness can feel overwhelming at times, especially when you\u2019re aware of what you\u2019re missing. As you reflect on this cycle, what emotions come up for you when you think about the loneliness you experience? And how do you feel in your body when you consider breaking that cycle and reaching out, even in small ways?",
+      "client": "When I think about the loneliness, it just makes me feel really sad and heavy. I guess my body feels tense, like there's this weight on my chest. The idea of reaching out, even just a little, is kind of terrifying\u2014I can\u2019t help but think it\u2019ll just lead to more disappointment.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like that heaviness and tension in your body really reflect the deep sadness you feel around loneliness. It makes sense that the thought of reaching out can feel overwhelming when disappointment feels like a strong possibility. What do you notice as you sit with that fear of disappointment? And when you think about the possibility of reaching out, even in a small way, what is it that feels most daunting for you?",
+      "client": "The fear of disappointment is just so loud in my head. I think about how I\u2019ve been let down before, and it makes me think, \u201cWhy even bother?\u201d The daunting part of reaching out is just the idea of opening myself up to that hurt again.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It sounds like that fear of disappointment really amplifies your hesitation to open up and reach out. It\u2019s understandable to want to protect yourself from feeling hurt again, especially if you've experienced letdowns in the past. As you reflect on that inner voice telling you \u201cWhy even bother?\u201d, what do you think it reveals about your hopes or desires for connection? And how does this fear influence your day-to-day interactions with others?",
+      "client": "I guess it shows that I really do want to connect with people, but that voice just feels so convincing. It makes me pull back, even when I do find myself wanting to reach out. Day-to-day, I end up avoiding situations where I might have to interact, just to sidestep that risk of feeling hurt again.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"When I think about the loneliness, it just makes me feel really sad and heavy. I guess my body feels tense, like there's this weight on my chest.\"\n2. **Openness:** \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant increase in emotional depth and self-reflection. Initially, the client expressed feelings of being overwhelmed and isolated in the unpacking process, but they have progressed to articulating profound feelings of sadness and tension, indicating a growing awareness of their emotions related to loneliness and disappointment. The client is now able to connect these feelings to their desire for connection and the fear of rejection, marking a notable shift from earlier exchanges where they were more factual and less emotionally engaged.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated, \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\" This moment demonstrated both self-awareness and a willingness to explore the complexities of their feelings regarding relationships, signaling a deeper engagement with the therapeutic process and a stronger rapport with the therapist."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you recognize that desire for connection, even amidst that convincing voice that pulls you back. It sounds like avoiding social situations feels like a way to protect yourself from potential pain, but it also keeps you from what you want. How do you feel when you notice yourself pulling back from those interactions? And what happens in your body when you think about the moments you miss out on?",
+      "client": "When I pull back, I feel this mix of relief and regret. It's like I\u2019m avoiding a potential disaster, but then I think about what I could be missing out on, and that just adds to the sadness. My body feels heavy, almost like I\u2019m weighed down by this invisible burden.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "That mix of relief and regret sounds really challenging to navigate. It seems like there\u2019s this internal tug-of-war happening between wanting to protect yourself and recognizing what you might be losing out on. When you describe feeling heavy and weighed down, what do you think that burden represents for you? And as you reflect on those moments you miss, what emotions come up for you?",
+      "client": "The burden feels like all the unfulfilled expectations I have for myself and the disappointment I experience when I don\u2019t live up to them. When I think about those missed moments, it brings up a lot of sadness and loneliness; I realize how much I crave connection, but then feel trapped in this cycle of avoiding it. It's like I'm stuck in a loop, wanting more but feeling paralyzed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It sounds really difficult to feel trapped in that loop of wanting connection while also dealing with those unfulfilled expectations and feelings of sadness and loneliness. Understanding that cycle can be heavy on its own. As you talk about craving connection and feeling paralyzed, what do you notice in your thoughts when you're in those moments? How does that internal experience shape your decisions about reaching out to others?",
+      "client": "I notice that my thoughts spiral into this place where I tell myself I\u2019m a burden or that people wouldn\u2019t want to deal with me. That kind of thinking makes it so much easier to just stay quiet and not reach out. It\u2019s like I\u2019ve already decided the outcome before even trying, which just feeds into that sense of helplessness.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "That sounds really tough, feeling like you\u2019ve already decided the outcome before giving yourself a chance. It\u2019s understandable that those thoughts would make reaching out feel even more daunting. When you mention the belief that you\u2019re a burden, what do you think that belief reflects about how you see yourself in relation to others? And as you notice that spiral, what do you feel in your body when those thoughts come up?",
+      "client": "I think that belief reflects a deeper fear of being unlovable and unwanted, like I don\u2019t have anything valuable to offer. When those thoughts come up, I feel this tightness in my chest and my stomach churns, almost like my body is trying to warn me that I\u2019m going down a dark path again. It\u2019s frustrating because I want to break out of that cycle but don\u2019t know how.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It sounds like that tightness in your chest and the churn in your stomach signal a lot about what\u2019s happening internally for you. It\u2019s understandable to feel frustrated when you sense a cycle that feels hard to break. What do you think it would look like to take a small step toward breaking that cycle? Or, what might it feel like to explore those feelings of being unlovable a bit further?",
+      "client": "I guess taking a small step could mean reaching out to someone, even if it feels uncomfortable. But exploring those feelings of being unlovable feels really daunting; I\u2019m worried it would just reinforce those beliefs. Part of me knows that I need to challenge them, but I also feel so stuck in that mindset.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It's completely understandable to feel both the pull to reach out and the weight of those beliefs. Taking that small step, like reaching out, can feel intimidating, especially when you're also aware of the fears surrounding it. What would it feel like to break down the idea of reaching out into even smaller, more manageable pieces? \n\nAlso, as we think about those feelings of being unlovable, it\u2019s okay to take your time with that exploration. Would it be helpful to start by just noticing when those feelings arise without diving deep right away? What do you notice about those moments?",
+      "client": "Breaking it down sounds like a better approach. Maybe I could start by just texting someone instead of going all in with a call or getting together. It feels less intimidating that way. Noticing those feelings when they arise could help too; I guess just observing them instead of getting overwhelmed might be a step forward.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess it shows that deep down, I really do want to connect with people, but I just can\u2019t shake the feeling that it\u2019s not worth the risk.\"\n- \"Breaking it down sounds like a better approach. Maybe I could start by just texting someone instead of going all in with a call or getting together.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a significant shift in emotional openness. Initially, they expressed feeling overwhelmed and alone, a reflection of their current emotional state characterized by tension and sadness. However, they moved towards a more constructive approach by recognizing the desire for connection and contemplating actionable steps, such as texting someone instead of face-to-face interactions. This indicates a meaningful degree of self-reflection and an evolving understanding of their emotional landscape, marking progress from feelings of isolation and hopelessness.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they articulated their desire for connection despite fears of disappointment. By acknowledging that reaching out might be a way to break the cycle of loneliness, they began to explore practical strategies to engage with others. This moment signifies a shift from a primarily defensive stance to a more open and proactive mindset, indicating increased vulnerability and a willingness to engage with their feelings rather than avoid them."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "That sounds like a thoughtful way to start. Texting someone instead of jumping into a call or meeting feels like a manageable step, and it\u2019s great that you\u2019re considering how to make it easier on yourself. Observing those feelings without becoming overwhelmed can also be a significant shift in how you relate to them. \n\nAs you think about those moments of noticing, what do you think it would feel like to just sit with those feelings for a little while? Or, how might you remind yourself to take that step when it comes up?",
+      "client": "Sitting with those feelings sounds uncomfortable, but maybe it could help me understand them better. It's just hard, you know? I guess I could set a reminder on my phone to text someone when I start feeling that way, like a little nudge.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds like you're recognizing the discomfort in sitting with those feelings, which is completely valid. Acknowledging that discomfort can actually open up new ways to understand what\u2019s behind it. Setting a reminder on your phone is a practical idea that gives you a gentle nudge when those feelings arise, making it easier to take that step.\n\nAs you think about this reminder, what kind of message or prompt do you think would be most helpful for you to see at that moment? Or, what do you think might come up for you when you try to text someone?",
+      "client": "I think a message that says something like \"You\u2019re not alone in this\" could be helpful. When I try to text someone, I might feel that familiar weight of doubt creeping in, like they really don\u2019t want to hear from me or that I\u2019m just bothering them. It\u2019s frustrating, honestly.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "That\u2019s a really helpful message to consider\u2014reminding yourself that you\u2019re not alone can be a comforting reminder in those moments. It\u2019s understandable to feel that weight of doubt when reaching out to someone; many people experience that frustration. \n\nAs you reflect on those feelings of doubt, what do you notice in your body or mind when those thoughts come up? And how do you think that impacts your decision to reach out or not?",
+      "client": "When those thoughts come up, I feel this tightness in my chest and my mind races with negative thoughts. It makes me want to retreat instead of reaching out, like I\u2019m just setting myself up for rejection. I guess it\u2019s easier to avoid that whole situation.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It sounds like that tightness in your chest and the racing thoughts really create a strong urge to pull back instead of reaching out. That instinct to avoid what feels difficult is completely understandable. \n\nAs you think about this desire to retreat, what do you feel in those moments when you decide not to reach out? And what might it be like if you were to push through that discomfort and connect with someone instead?",
+      "client": "When I decide not to reach out, it\u2019s like this heavy cloud just hangs over me, and I feel even more isolated. I think if I pushed through that discomfort, maybe I\u2019d feel a bit lighter or even a little less alone, but it\u2019s hard to imagine that when I\u2019m in the moment. There's always that voice telling me it won\u2019t matter anyway.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "That heavy cloud sounds really challenging to carry, and it makes sense that it would feel isolating. It\u2019s a tough place to be when there\u2019s that voice telling you it won\u2019t matter, especially when you\u2019re considering reaching out. \n\nAs you reflect on that voice, what do you think it might be trying to protect you from? And how do you feel when you think about the possibility of connecting with someone, despite that voice?",
+      "client": "I think that voice is trying to protect me from the disappointment of being let down again. It makes me feel a mix of frustration and sadness, like I'm stuck in this cycle. The idea of connecting with someone is a bit scary, but I know it could help, even if I\u2019m not fully convinced it would change anything.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like that voice is really tied to past experiences of disappointment, and it makes sense that it would create a sense of frustration and sadness for you. Being in that cycle can feel really heavy. \n\nThe mix of fear and hope about connecting with someone is a complex place to be. As you think about that potential connection, what do you notice in your body or your emotions? And what do you think could help you take that first step, even if it feels daunting?",
+      "client": "When I think about reaching out, my stomach tightens, and I feel a bit of anxiety creeping in. I guess part of me wants to push through, but then there\u2019s that fear of being hurt again. Maybe starting with a text or something low-pressure could help, but even that feels like a lot sometimes.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"It\u2019s like this cycle I can\u2019t break... it makes me want to pull back and avoid reaching out because I don\u2019t want to feel that disappointment again.\"\n2. **Current Openness:** \"I think that voice is trying to protect me from the disappointment of being let down again.\"\n\n**Progression:** In the latest exchanges, the client demonstrates a notable shift towards deeper emotional exploration. They articulate feelings of frustration, sadness, and a sense of being overwhelmed by their loneliness and past disappointments. The client shows an increasing willingness to reflect on their emotions and the impact of their past experiences on their current behavior, indicating a significant improvement in emotional openness compared to earlier parts of the session where they predominantly expressed feelings of isolation without deeper analysis.\n\n**Turning Point:** The turning point came when the client began to discuss the idea of wanting connection despite their fears. When they articulated, \"Connecting with others sounds nice, but I get this knot in my stomach thinking about it,\" it marked a moment of vulnerability. This acknowledgment of their mixed emotions illustrates a growing capacity to engage with their feelings and recognize the internal conflict between their desires for connection and their fears of disappointment. The move from merely stating their feelings to exploring the implications of those feelings represents significant emotional growth during this session."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your stomach and the creeping anxiety makes a lot of sense, especially when you're considering taking a step that feels uncertain. It\u2019s good to hear that you\u2019re thinking about starting with something low-pressure, like a text. \n\nWhen you imagine sending that text, what kind of feelings come up for you? And do you notice any specific thoughts that arise as you think about making that initial connection?",
+      "client": "I feel a wave of apprehension when I think about sending that text. It's like my mind is flooded with thoughts like, \"What if they don\u2019t respond?\" or \"What if they just ignore me?\" It's hard to shake that fear of being unwanted or unimportant.",
+      "openness_judgment": null
+    }
+  ]
+}

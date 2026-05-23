@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "8-1",
+  "patient_name": "Ramona",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\"\n2. Client: \"When I feel triggered, it's like this flood of panic hits me. I just want to retreat into myself, and I freeze up. I can\u2019t think clearly, and everything feels overwhelming.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing level of emotional expression and self-reflection. They articulate feelings of mistrust and anxiety regarding their relationship with Ivan and exhibit an awareness of how their emotional state manifests physically (tightness in the chest, feelings of panic). This marks a significant change from earlier exchanges, where they might have been more guarded and less willing to delve into their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the flood of panic and the desire to retreat. This moment marked an important progression, as they moved from expressing a general sense of unease to articulating specific feelings of panic and the physical sensations associated with being triggered. This level of disclosure indicates an increased comfort in sharing vulnerable emotions, highlighting the development of rapport and trust in the therapeutic relationship."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional Vulnerability:** \u201cI guess part of me feels scared; letting my guard down means risking something bad happening again. But another part wonders if it might feel freeing to trust him a bit more.\u201d\n2. **Self-Reflection:** \u201cIt feels really tense, like there's this knot in my stomach. My mind races between \u2018what if\u2019 scenarios, but I also feel this flicker of hope that maybe things could be different.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions reveal a notable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, Ramona expressed hesitance and surface-level feelings about her relationship with Ivan. However, she is now articulating her fears and hopes more explicitly, indicating a deeper engagement with her emotions. The transition from discussing feelings of being \"on edge\" to exploring specific emotional sensations (tightness, racing thoughts, fear of vulnerability) suggests she is becoming more comfortable with self-exploration and emotional disclosure.\n\n**Turning Point:**\nA significant turning point in the session occurred when the client identified the fear of vulnerability and the potential for freedom in trusting Ivan. This moment was pivotal as it showcased her ability to articulate conflicting feelings, moving beyond a defensive or hesitant stance. By openly acknowledging her fears alongside a glimpse of hope, she demonstrated a willingness to engage with complex emotions, marking a shift towards deeper engagement and exploration in the therapeutic process. This interplay between fear and hope indicates a growing awareness of her emotional landscape, which is essential for progress in therapy."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\"\n2. \"I can feel my muscles tense up, and my mind races with all the 'what ifs.' It\u2019s like I can\u2019t turn off that part of me that\u2019s always anticipating danger. Sometimes I just wish I could relax and not feel like I have to guard myself all the time.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client was hesitant and primarily focused on surface-level concerns about their relationship with Ivan. However, they have progressed to articulating deeper feelings of anxiety and the physical sensations associated with that anxiety. This shift indicates a growing comfort in discussing their emotional state, where they are beginning to address not only their fears but also the implications of those fears on their daily life and relationships.\n\n**Turning Point:** The client's emotional depth appears to have shifted significantly during the exchange where they articulated, \"I think the weight and tightness in my chest often signify my fear of losing control.\" This moment marked a transition towards deeper self-awareness and vulnerability, illustrating their capacity to connect physical sensations to emotional experiences. It indicates a willingness to explore the roots of their anxiety, suggesting a movement towards a more engaged exploration of their feelings and experiences. This expression of insight shows a significant change from their earlier defensive stance, reflecting an evolving therapeutic rapport and emotional openness."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **\u201cI guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\u201d**\n   - This exchange illustrates the client's emotional state as they express their struggle with trust and the feeling of being on high alert, showcasing their vulnerability and emotional depth.\n\n2. **\u201cI just feel this tightness in my chest, like I can't breathe properly. It\u2019s exhausting, always having to be on guard.\u201d**\n   - Here, the client connects their emotional state to a physical sensation, indicating a deeper level of self-reflection and emotional awareness regarding their anxiety and the toll it takes on them.\n\n**Progression:**\nThe client's recent interactions demonstrate a significant shift towards more profound emotional expression and self-reflection, moving from a more guarded stance earlier in the session to openly discussing feelings of anxiety, physical sensations, and the emotional weight of trust issues. They are engaging more actively in dialogue and sharing personal insights about their feelings and experiences with Ivan, which indicates a developing comfort level with the therapist.\n\n**Turning Point:**\nThe turning point leading to the client's current emotional depth appears when they began to articulate their physical experiences connected to their emotional struggles, particularly when they said, **\u201cI just feel this tightness in my chest, like I can't breathe properly.\u201d** This moment marked a transition from merely describing their feelings to exploring the physical implications of those emotions, which indicates a greater willingness to engage with their vulnerabilities and the therapeutic process."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Ramona, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don't know, maybe how things are changing with Ivan? It's like, I see some improvements, but I can't shake this feeling of being on edge.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you're noticing some positive shifts with Ivan, but there's still a sense of unease that lingers for you. That\u2019s understandable, especially when things are in flux. What do you think might be contributing to that feeling of being on edge?",
+      "client": "I guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It\u2019s completely valid to feel that way, especially after going through a challenging experience. Trust can take time to rebuild, even when you see positive changes. As you think about having to stay alert, what do you notice in your body or mind when those thoughts come up? What feels most difficult about that for you?",
+      "client": "I don\u2019t really know. I just feel this tightness in my chest, like I can't breathe properly. It\u2019s exhausting, always having to be on guard.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds really tiring to feel that tightness in your chest and the need to be on guard all the time. That kind of constant vigilance can be draining. As you notice that sensation, what do you think it connects to for you? How does it impact your day-to-day experience?",
+      "client": "I don\u2019t know. It just feels like I\u2019m stuck in this loop where I can\u2019t relax, and everything feels heavy. I\u2019m just trying to survive the day without something triggering me.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Feeling stuck in that loop sounds really challenging, and it\u2019s understandable that it would make everything feel heavy. The way you describe just trying to survive the day suggests a lot of pressure. Can we take a moment to explore what you experience during those times when you feel triggered? What does that look like for you, and how do you usually respond?",
+      "client": "When I feel triggered, it's like this flood of panic hits me. I just want to retreat into myself, and I freeze up. I can\u2019t think clearly, and everything feels overwhelming.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds like that flood of panic brings on a strong urge to retreat, which must feel really overwhelming in those moments. Freezing up and feeling like you can\u2019t think clearly can make the situation even more intense. As you reflect on that experience, what do you notice in your body when the panic hits? Is there anything specific that stands out to you about that feeling?",
+      "client": "I just feel this tightness, like a weight on my chest, and sometimes I get really shaky. It's frustrating because it's like my body is reacting before my mind can catch up. I just want to be normal, but it feels impossible.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\"\n2. Client: \"When I feel triggered, it's like this flood of panic hits me. I just want to retreat into myself, and I freeze up. I can\u2019t think clearly, and everything feels overwhelming.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing level of emotional expression and self-reflection. They articulate feelings of mistrust and anxiety regarding their relationship with Ivan and exhibit an awareness of how their emotional state manifests physically (tightness in the chest, feelings of panic). This marks a significant change from earlier exchanges, where they might have been more guarded and less willing to delve into their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the flood of panic and the desire to retreat. This moment marked an important progression, as they moved from expressing a general sense of unease to articulating specific feelings of panic and the physical sensations associated with being triggered. This level of disclosure indicates an increased comfort in sharing vulnerable emotions, highlighting the development of rapport and trust in the therapeutic relationship."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "The tightness and weight you feel on your chest, along with the shakiness, sound really difficult to manage. It\u2019s understandable to feel frustrated when your body reacts in ways that seem out of sync with what you want to feel. Wanting to feel \"normal\" is a common desire, and it\u2019s okay to feel that way.\n\nAs you share this, what do you think that weight and tightness in your chest signifies for you? Is there a specific situation or thought that tends to come up when you start to feel that way?",
+      "client": "I think the weight and tightness in my chest often signify my fear of losing control. It\u2019s like I\u2019m bracing for something bad to happen, and I feel this constant need to be on guard. I know it\u2019s tied to my past experiences, but I\u2019m not sure how to break that cycle.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It sounds like the weight and tightness in your chest are closely linked to your fear of losing control, which must feel very heavy to carry. That bracing for something bad to happen can add a layer of tension to your experiences. It\u2019s understandable to want to break that cycle, especially when it feels connected to your past.\n\nCan we take a moment to explore what has helped you cope in those times when you feel that need to be on guard? What strategies have you tried, if any, to manage those feelings?",
+      "client": "I guess I try to keep things organized and controlled, like making plans or setting boundaries. It gives me a sense of safety, even if I know it\u2019s not a complete solution. But sometimes it feels so exhausting to just be on high alert all the time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It makes sense that trying to keep things organized and controlled can feel like a way to create safety for yourself. That effort must take a lot of energy, especially when you\u2019re managing that heightened sense of alertness. \n\nWhen you say it feels exhausting, what do you notice in your body or mind during those moments? Are there any particular thoughts or feelings that come up for you when you\u2019re in that state of high alert?",
+      "client": "I can feel my muscles tense up, and my mind races with all the \"what ifs.\" It\u2019s like I can\u2019t turn off that part of me that\u2019s always anticipating danger. Sometimes I just wish I could relax and not feel like I have to guard myself all the time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds really challenging to be in that constant state of anticipation, where your muscles tense and your mind races with all those \"what ifs.\" The wish to relax and not feel the need to guard yourself is very understandable. \n\nWhen you think about those moments where you long for a sense of ease, what do you think could help you begin to shift out of that high-alert state, even if just a little? What would that look like for you?",
+      "client": "I\u2019m not sure. Maybe if I had some sort of signal from Ivan that things were truly okay, like if he was consistent and reliable. But even then, I worry that it wouldn\u2019t be enough to let my guard down completely.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It makes sense that having a consistent and reliable signal from Ivan could help you feel more at ease. That desire for reassurance is very human, especially when you're managing so much tension. \n\nWhen you think about the possibility of letting your guard down, even a little, what comes up for you? Are there particular feelings or thoughts that arise when you imagine that shift?",
+      "client": "I guess part of me feels scared; letting my guard down means risking something bad happening again. But another part wonders if it might feel freeing to trust him a bit more. It's just so hard to imagine being that vulnerable again without everything in my head going haywire.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It sounds like you're grappling with a lot of conflicting feelings about vulnerability and trust. The fear of something bad happening again is completely understandable, especially when you've been on high alert for so long. Yet, that sense of potential freedom in trusting Ivan more is also something that resonates with you. \n\nAs you sit with those feelings of fear and the possibility of freedom, what do you notice in your body or your thoughts? How does it feel to hold both of those perspectives at the same time?",
+      "client": "It feels really tense, like there's this knot in my stomach. My mind races between \u201cwhat if\u201d scenarios, but I also feel this flicker of hope that maybe things could be different. Holding both those feelings just makes me want to retreat and stay in my safe bubble.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional Vulnerability:** \u201cI guess part of me feels scared; letting my guard down means risking something bad happening again. But another part wonders if it might feel freeing to trust him a bit more.\u201d\n2. **Self-Reflection:** \u201cIt feels really tense, like there's this knot in my stomach. My mind races between \u2018what if\u2019 scenarios, but I also feel this flicker of hope that maybe things could be different.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions reveal a notable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, Ramona expressed hesitance and surface-level feelings about her relationship with Ivan. However, she is now articulating her fears and hopes more explicitly, indicating a deeper engagement with her emotions. The transition from discussing feelings of being \"on edge\" to exploring specific emotional sensations (tightness, racing thoughts, fear of vulnerability) suggests she is becoming more comfortable with self-exploration and emotional disclosure.\n\n**Turning Point:**\nA significant turning point in the session occurred when the client identified the fear of vulnerability and the potential for freedom in trusting Ivan. This moment was pivotal as it showcased her ability to articulate conflicting feelings, moving beyond a defensive or hesitant stance. By openly acknowledging her fears alongside a glimpse of hope, she demonstrated a willingness to engage with complex emotions, marking a shift towards deeper engagement and exploration in the therapeutic process. This interplay between fear and hope indicates a growing awareness of her emotional landscape, which is essential for progress in therapy."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like you're experiencing a physical tension alongside those racing thoughts and that flicker of hope. The knot in your stomach seems to reflect the challenge of balancing those conflicting feelings. Retreating to your safe bubble makes sense when you're feeling both excited and scared about what could happen.\n\nWhat do you think it would take for you to feel even a little bit more comfortable exploring that flicker of hope? Would it feel helpful to talk about what staying in the safe bubble means for you right now?",
+      "client": "Maybe talking about the safe bubble would help, but it also feels like I'm just hiding from the reality of things. I guess it means I can control my environment and avoid any surprises, which feels necessary right now. But I know that keeping everything at arm's length can\u2019t be the solution forever.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It sounds like your safe bubble gives you a sense of control and predictability, which can be really important when facing uncertainty. Acknowledging that staying at arm\u2019s length isn\u2019t a long-term solution shows a lot of insight on your part. \n\nAs you reflect on the reality of things outside that bubble, what feelings come up for you? What do you think it might look like to gradually step out, even just a little, into that uncertainty?",
+      "client": "Stepping out feels really daunting. I can imagine trying to take small steps, but I\u2019m overwhelmed by the fear that something could go wrong. It\u2019s like I want to, but then I remember all the reasons I\u2019ve built this bubble in the first place.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel daunted by the idea of stepping out, especially when you\u2019re aware of all the reasons that led you to create your safe bubble. The push and pull between wanting to take small steps and feeling overwhelmed by fear is a significant experience. \n\nAs you think about those small steps, what do you notice about the fears that come up? Are there particular thoughts or scenarios that feel most overwhelming?",
+      "client": "I think a lot about the possibility of losing control, like if I let my guard down even a little, something bad could happen. Sometimes I imagine Ivan not being able to handle my vulnerability and reverting back to old behaviors. Then, other times, I wonder if it could actually be okay, even if it feels risky.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a real tension between the fear of losing control and the possibility that being vulnerable could lead to a more positive outcome. Those thoughts about Ivan and how he might respond to your vulnerability seem to weigh heavily on you. \n\nAs you sit with both the fear and the hope, what do you notice in your body right now? Are there any sensations or emotions that come up when you think about those two different scenarios?",
+      "client": "When I think about both scenarios, my stomach tightens. It feels like this heavy weight, and I can\u2019t shake the anxiety. Part of me wants to believe that being vulnerable could lead to something better, but the fear just keeps creeping back in.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your stomach and the heaviness of the anxiety sounds really significant. It\u2019s understandable to have that push and pull between wanting to embrace vulnerability and the fear that comes with it. That conflicting feeling must be challenging to navigate.\n\nAs you reflect on that anxiety, what do you think it tells you about the importance of what you\u2019re considering? And do you sense any other emotions or thoughts that come up alongside that tightness?",
+      "client": "I guess that anxiety is a sign that this whole thing matters a lot to me, you know? It feels like I\u2019m standing on a tightrope, trying to balance between wanting to connect and fearing I might fall. Sometimes, I just wonder if it\u2019s worth the risk.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It\u2019s really insightful that you see the anxiety as a sign of how much this connection means to you. That feeling of being on a tightrope must create a lot of pressure, trying to balance those desires for connection and fears of falling. \n\nWhen you think about whether it\u2019s worth the risk, what comes up for you? Are there particular moments or experiences that make you lean one way or the other?",
+      "client": "I think about the times when Ivan has been really sweet and understanding, and it feels like maybe it could work out. But then there are these flashes of the past, and I get so scared that I\u2019ll end up hurt again. I don\u2019t know if I can handle that kind of pain.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\"\n2. \"I can feel my muscles tense up, and my mind races with all the 'what ifs.' It\u2019s like I can\u2019t turn off that part of me that\u2019s always anticipating danger. Sometimes I just wish I could relax and not feel like I have to guard myself all the time.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional expression and self-reflection compared to earlier exchanges. Initially, the client was hesitant and primarily focused on surface-level concerns about their relationship with Ivan. However, they have progressed to articulating deeper feelings of anxiety and the physical sensations associated with that anxiety. This shift indicates a growing comfort in discussing their emotional state, where they are beginning to address not only their fears but also the implications of those fears on their daily life and relationships.\n\n**Turning Point:** The client's emotional depth appears to have shifted significantly during the exchange where they articulated, \"I think the weight and tightness in my chest often signify my fear of losing control.\" This moment marked a transition towards deeper self-awareness and vulnerability, illustrating their capacity to connect physical sensations to emotional experiences. It indicates a willingness to explore the roots of their anxiety, suggesting a movement towards a more engaged exploration of their feelings and experiences. This expression of insight shows a significant change from their earlier defensive stance, reflecting an evolving therapeutic rapport and emotional openness."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It sounds like those moments with Ivan bring a sense of hope and warmth, yet the memories of past pain can feel overwhelming and create a barrier. It\u2019s completely valid to fear getting hurt again, especially when you\u2019ve experienced that before. \n\nAs you think about those sweet moments with him, what do you notice about how they feel in contrast to the fear of the past? Are there ways in which those positive experiences might help ground you in this decision-making process?",
+      "client": "Those sweet moments with Ivan feel like a breath of fresh air, but they\u2019re always tinged with that nagging fear. I guess part of me wants to hold on to the hope, but another part just warns me to be careful. It\u2019s like I\u2019m stuck between wanting to trust and wanting to protect myself.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It\u2019s really touching to hear how those moments with Ivan feel refreshing, yet also bring up that sense of caution. Being caught between trust and self-protection can create a lot of inner tension. It\u2019s completely understandable to want to embrace the hope while also wanting to shield yourself from potential hurt.\n\nAs you explore this back-and-forth within yourself, what do you think is most important for you right now? Are there specific feelings or thoughts that stand out as you navigate this balance?",
+      "client": "I think what\u2019s most important right now is figuring out how to feel safe while still being open. I keep going back and forth on whether I can trust him, and it\u2019s exhausting. Part of me wants to believe in the good moments, but another part is just so scared of being vulnerable again.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like you're really grappling with the desire to feel safe while also wanting to be open to those positive experiences. That tug-of-war between wanting to embrace the good moments and the fear of vulnerability can be quite draining. It\u2019s okay to feel that exhaustion as you navigate these conflicting feelings.\n\nAs you think about what safety means to you in this context, what are some things that help you feel more secure? Are there specific boundaries or practices that might support you as you explore being open with Ivan?",
+      "client": "I suppose having clear boundaries is essential for me right now. Maybe it means taking things slow and checking in with myself more frequently to see how I'm feeling. I just need to know that I can pull back if I start feeling overwhelmed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you recognize the importance of clear boundaries for your sense of safety. Taking things slow and regularly checking in with yourself sounds like a helpful way to stay connected to your feelings as you navigate your relationship with Ivan. \n\nWhat do you notice about how you feel when you think about implementing those boundaries? Do you sense any particular emotions or thoughts rising up as you consider this approach?",
+      "client": "When I think about implementing those boundaries, I feel a mix of relief and anxiety. On one hand, setting limits could help keep me safe, but there's also this nagging fear that it might push Ivan away or make things worse. It's like I want to protect myself, but I also worry about losing him if I draw lines.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a real push and pull happening for you right now\u2014relief from the idea of setting boundaries, but also anxiety about the potential consequences. That mix of feelings makes a lot of sense, especially when you care about the relationship. \n\nAs you sit with those emotions, what do you notice about the thoughts or images that come up when you think about both protecting yourself and the worry about pushing Ivan away? How do those thoughts connect to your feelings in your body?",
+      "client": "When I think about protecting myself, I can feel this tightness in my chest. There\u2019s this voice in my head saying that if I draw lines, it could lead to Ivan feeling rejected or not understanding me. It\u2019s hard to shake the image of him getting upset or pulling away, and that just makes me even more anxious.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like that tightness in your chest is really tied to the fear of misunderstanding and rejection. It's understandable that the thought of Ivan feeling upset adds to your anxiety. The images and thoughts you're experiencing seem to amplify the tension you're feeling.\n\nAs you become aware of those sensations and thoughts, what do you notice about how they influence your decisions or actions in the relationship? What feels most pressing for you in this moment?",
+      "client": "I guess I tend to freeze up when those feelings hit. It's like I want to express myself or set a boundary, but then I just end up holding back because I'm scared of Ivan's reaction. I'm really trying to navigate it, but it feels overwhelming at times.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **\u201cI guess it\u2019s just hard to trust him again, even if he\u2019s trying. I keep thinking about what happened and how easily things can go wrong. I feel like I have to stay alert all the time.\u201d**\n   - This exchange illustrates the client's emotional state as they express their struggle with trust and the feeling of being on high alert, showcasing their vulnerability and emotional depth.\n\n2. **\u201cI just feel this tightness in my chest, like I can't breathe properly. It\u2019s exhausting, always having to be on guard.\u201d**\n   - Here, the client connects their emotional state to a physical sensation, indicating a deeper level of self-reflection and emotional awareness regarding their anxiety and the toll it takes on them.\n\n**Progression:**\nThe client's recent interactions demonstrate a significant shift towards more profound emotional expression and self-reflection, moving from a more guarded stance earlier in the session to openly discussing feelings of anxiety, physical sensations, and the emotional weight of trust issues. They are engaging more actively in dialogue and sharing personal insights about their feelings and experiences with Ivan, which indicates a developing comfort level with the therapist.\n\n**Turning Point:**\nThe turning point leading to the client's current emotional depth appears when they began to articulate their physical experiences connected to their emotional struggles, particularly when they said, **\u201cI just feel this tightness in my chest, like I can't breathe properly.\u201d** This moment marked a transition from merely describing their feelings to exploring the physical implications of those emotions, which indicates a greater willingness to engage with their vulnerabilities and the therapeutic process."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like when those feelings arise, you find yourself in a tough spot where you want to express your needs but feel frozen by the fear of how Ivan might react. That sense of overwhelm is completely valid, especially when you\u2019re trying to navigate such important dynamics in your relationship. \n\nAs you reflect on that freeze response, what do you notice in those moments? Are there any particular thoughts or feelings that stand out to you when you hold back?",
+      "client": "When I freeze up, it's like my mind goes blank, and I can\u2019t find the words. I feel this urgent need to protect myself, but it\u2019s also exhausting. Part of me worries that if I don\u2019t say anything, I\u2019m just letting things slide, and that\u2019s risky too.",
+      "openness_judgment": null
+    }
+  ]
+}

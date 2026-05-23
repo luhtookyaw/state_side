@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"Honestly, I just got this MRI report, and it says I have a herniated disc. I don't even know what to think about it. It feels like everything just keeps piling on.\"\n2. \"I guess they just make everything feel more impossible. It\u2019s like I'm always on edge, and I can't focus on anything else. I can\u2019t shake the feeling that I\u2019m just going to keep dealing with this forever, and it\u2019s exhausting.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit an increased level of emotional depth, particularly with phrases like \"everything just keeps piling on\" and \"I can\u2019t shake the feeling that I\u2019m just going to keep dealing with this forever.\" These statements reflect a vulnerability and anxiety that was less present in earlier exchanges, where the client demonstrated more factual responses and hesitance. The client's emotional expression has deepened significantly, indicating a shift from surface-level discussions to a more profound contemplation of their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their reflection on the MRI results when they articulated their feelings of anxiety and hopelessness regarding their situation. This moment marked a change, as they began to vocalize not only their fears about the future but also the physical sensations accompanying those emotions, illustrating a growing comfort and willingness to explore their inner experience with the therapist."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 - ENGAGED EXPLORATION**\n\n**Key Examples:**\n1. *\"I just feel anxious and scared, like I'm never going to get a break from all this pain. It's hard to think about it without feeling completely overwhelmed.\"* \n2. *\"When I snap or shut down, it\u2019s like I\u2019m overwhelmed and just can\u2019t take it anymore. My mind races with all these negative thoughts, like I\u2019m failing or that I\u2019ll never get better.\"*\n\n**Progression:** The client\u2019s most recent interactions illustrate a notable increase in emotional expression and self-reflection. Initially, there was a hesitance in sharing more profound feelings, but the client has progressed to articulating deeper anxieties and feelings of being trapped by their circumstances. They are showing a greater willingness to explore their current emotional state and the impact of their thoughts on their daily life. This marks a significant change from earlier exchanges, where emotional content was more subdued and factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their feelings of being overwhelmed and trapped during the discussion about reminders of limitations. Specifically, the moment when they stated, *\"It\u2019s like every time I think I\u2019m getting better, something else pops up, and it\u2019s just so frustrating,\"* indicates a shift towards more authentic vulnerability. This acknowledgment of frustration and the complexity of their feelings signifies a movement towards deeper engagement in the therapeutic process."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3** \n\n**Key Examples:**\n1. \u201cI just feel anxious and scared, like I'm never going to get a break from all this pain. It's hard to think about it without feeling completely overwhelmed. I keep wondering if I\u2019m going to be dealing with this forever.\u201d\n2. \u201cI think it gets worse when I'm reminded of my limitations, like when I can\u2019t do things I used to enjoy. I just feel trapped, you know? It\u2019s like every time I think I\u2019m getting better, something else pops up, and it\u2019s just so frustrating.\u201d\n\n**Progression:** In the latest exchanges, the client demonstrates regular emotional expression and a willingness to engage in the dialogue, showing vulnerability and a deeper reflection on their feelings compared to earlier in the session. Initially, the client presented a more factual and defensive stance around their emotional state, primarily focusing on the anxiety surrounding their herniated disc diagnosis. However, as the conversation progressed, they began to articulate their feelings of entrapment and frustration more clearly. This indicates a shift from a defensive posture to a more engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing their feelings of being trapped by their limitations. This moment marked a transition where they moved from merely stating their fears to exploring the emotional implications of those fears, indicating a willingness to share more intimately about their struggles and how they affect their daily life. The dialogue reflected an emerging understanding of their emotional landscape, contributing to a sense of rapport that feels stronger than at the beginning of the session."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I just feel anxious and scared, like I'm never going to get a break from all this pain.\"\n2. **Self-Reflection Depth:** \"I think it gets worse when I'm reminded of my limitations, like when I can\u2019t do things I used to enjoy. I just feel trapped, you know?\"\n\n**Progression Analysis:**\nThe client's recent exchanges indicate a marked increase in emotional depth and self-reflection. Initially, the client struggled with expressing their emotions, often resorting to factual statements about their situation (e.g., discussing the MRI report). However, they have transitioned to articulating their feelings of anxiety and hopelessness with greater clarity. The client is now acknowledging not only their emotional responses but also the physiological sensations tied to their emotional state, such as \"tightness in my chest.\" This shift suggests a growing comfort in sharing their vulnerabilities and an increasing willingness to explore the complexities of their feelings. The dialogue reflects a blend of emotional expression and meaningful self-reflection, which are essential indicators of the \"ENGAGED EXPLORATION\" phase.\n\n**Notable Turning Point:**\nOne significant turning point in the session occurred when the client began discussing specific moments from their past, particularly their experience in the hospital and the associated feelings of helplessness. This moment marked a shift from generalized anxiety about their current health condition to a more personal and profound exploration of their emotional landscape. The client\u2019s choice to reflect on this past experience and its connection to their current feelings demonstrates an important step toward deeper emotional processing and engagement with their therapeutic journey. This exploration reveals underlying fears about their ongoing struggles and a desire for relief, indicating a readiness to delve deeper into their emotional"
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jessa, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "Honestly, I just got this MRI report, and it says I have a herniated disc. I don't even know what to think about it. It feels like everything just keeps piling on.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds really overwhelming to receive that news, especially when it feels like other things are already piling on for you. What do you notice coming up for you as you think about the herniated disc and everything else you're dealing with?",
+      "client": "I just feel anxious and scared, like I'm never going to get a break from all this pain. It's hard to think about it without feeling completely overwhelmed. I keep wondering if I\u2019m going to be dealing with this forever.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It makes sense that you're feeling anxious and scared with the uncertainty of dealing with pain and what it means for your future. That sense of being overwhelmed can really take a toll. Can we take a moment to slow down? What do you notice in your body or mind when you think about the possibility of this lasting a long time?",
+      "client": "I don't know, I just feel this tightness in my chest and my mind keeps racing. It's like I can\u2019t catch a break, and every time I think about it, I just get this wave of anxiety. Why does it always have to be so complicated?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds really frustrating to be in a situation that feels so complicated and heavy. Those physical sensations and racing thoughts can be hard to manage, especially when everything feels like too much. When you mention the tightness in your chest, can you share more about how that feels in the moment? What do you notice about your breath or any other sensations as you think about this overwhelming complexity?",
+      "client": "I don\u2019t really want to focus on the sensations. It just feels like one more thing to deal with when everything's already so complicated. I just want to know how to make it all go away.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you're in a really tough spot right now, wanting relief from everything that feels so complicated. It\u2019s completely understandable to want to find a way to make the pain go away. We don\u2019t have to dive into the sensations if that's not what you want right now. \n\nWhat would feel more helpful for you to explore today? Would it be more about the thoughts that are coming up for you, or perhaps the situations that are contributing to this feeling of being overwhelmed?",
+      "client": "I don\u2019t know, maybe we could talk about the thoughts. They just keep spiraling, and it feels like they\u2019re making everything worse. I mean, I keep thinking I\u2019ll never get better and that I\u2019m stuck with all these problems forever.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds really heavy to be caught in those spiraling thoughts, especially when they lead you to feel like you're stuck with your problems indefinitely. That sense of hopelessness can be incredibly overwhelming. As you reflect on those thoughts, what do you notice about the way they affect your day-to-day life? Can we take a moment to explore the impact they have on how you\u2019re feeling?",
+      "client": "I guess they just make everything feel more impossible. It\u2019s like I'm always on edge, and I can't focus on anything else. I can\u2019t shake the feeling that I\u2019m just going to keep dealing with this forever, and it\u2019s exhausting.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"Honestly, I just got this MRI report, and it says I have a herniated disc. I don't even know what to think about it. It feels like everything just keeps piling on.\"\n2. \"I guess they just make everything feel more impossible. It\u2019s like I'm always on edge, and I can't focus on anything else. I can\u2019t shake the feeling that I\u2019m just going to keep dealing with this forever, and it\u2019s exhausting.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit an increased level of emotional depth, particularly with phrases like \"everything just keeps piling on\" and \"I can\u2019t shake the feeling that I\u2019m just going to keep dealing with this forever.\" These statements reflect a vulnerability and anxiety that was less present in earlier exchanges, where the client demonstrated more factual responses and hesitance. The client's emotional expression has deepened significantly, indicating a shift from surface-level discussions to a more profound contemplation of their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their reflection on the MRI results when they articulated their feelings of anxiety and hopelessness regarding their situation. This moment marked a change, as they began to vocalize not only their fears about the future but also the physical sensations accompanying those emotions, illustrating a growing comfort and willingness to explore their inner experience with the therapist."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It sounds like those thoughts really weigh you down and create a sense of constant tension. That feeling of being on edge can be so draining, especially when it feels like there\u2019s no end in sight. As you describe this exhaustion, what do you think that says about what you\u2019re dealing with right now? Are there specific moments when you notice this feeling intensifying?",
+      "client": "I think it gets worse when I'm reminded of my limitations, like when I can\u2019t do things I used to enjoy. I just feel trapped, you know? It\u2019s like every time I think I\u2019m getting better, something else pops up, and it\u2019s just so frustrating.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "Feeling trapped by your limitations sounds really challenging, especially when you're reminded of things you used to enjoy. That cycle of hope followed by frustration can be really disheartening. Can we take a moment to explore what those reminders feel like for you? What happens in your mind and body when you encounter those experiences?",
+      "client": "When I encounter those reminders, it\u2019s like a punch to the gut. I feel this wave of anxiety wash over me, and my heart races. I guess part of me just wants to avoid those situations altogether because I can\u2019t handle the disappointment.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "That sounds really tough\u2014experiencing such a strong physical reaction like that wave of anxiety can be overwhelming. It makes sense that avoiding those situations feels like a way to protect yourself from the disappointment. When you think about those moments where you feel that punch to the gut, what do you notice in your thoughts or emotions at that time? How does the desire to avoid those situations show up for you in your day-to-day life?",
+      "client": "I think I just get super irritable and tense. Like, I might snap at someone or shut down completely. I guess I try to just focus on other things, but it\u2019s hard to ignore when it keeps coming up.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like that irritability and tension can really take a toll on your interactions with others and on how you feel about yourself. It\u2019s understandable to want to focus on other things when those reminders keep resurfacing, yet it seems like they find a way to break through. Can we slow down and explore what it feels like in those moments when you snap or shut down? What goes through your mind when that happens?",
+      "client": "When I snap or shut down, it\u2019s like I\u2019m overwhelmed and just can\u2019t take it anymore. My mind races with all these negative thoughts, like I\u2019m failing or that I\u2019ll never get better. I don\u2019t really know how to express what I\u2019m feeling, so it just comes out in frustration.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like those moments of feeling overwhelmed bring up a lot of intense emotions and negative thoughts for you. The frustration seems to stem from not being able to express what you\u2019re feeling, which can make it even harder to cope. What do you notice in your body when your mind starts racing with those negative thoughts? How do you feel in those moments just before you snap or shut down?",
+      "client": "I feel a tightness in my chest, and my shoulders get really tense. It\u2019s like my body is on high alert, and I can\u2019t shake off that anxious energy. I guess that's when it really hits me that I\u2019m just... overwhelmed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest and the tension in your shoulders sound really uncomfortable. It seems like your body is signaling to you that something is off, and that overwhelmed feeling can be quite heavy to carry. What do you think helps you cope with that anxious energy when it arises? Or are there moments where you feel you can manage it a bit differently?",
+      "client": "I guess sometimes I try to distract myself with humor or just talk to friends about anything else, but it doesn\u2019t really solve the problem. Part of me knows I should probably face it head-on, but it feels so daunting. So, I just end up feeling like I\u2019m stuck in this cycle.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 - ENGAGED EXPLORATION**\n\n**Key Examples:**\n1. *\"I just feel anxious and scared, like I'm never going to get a break from all this pain. It's hard to think about it without feeling completely overwhelmed.\"* \n2. *\"When I snap or shut down, it\u2019s like I\u2019m overwhelmed and just can\u2019t take it anymore. My mind races with all these negative thoughts, like I\u2019m failing or that I\u2019ll never get better.\"*\n\n**Progression:** The client\u2019s most recent interactions illustrate a notable increase in emotional expression and self-reflection. Initially, there was a hesitance in sharing more profound feelings, but the client has progressed to articulating deeper anxieties and feelings of being trapped by their circumstances. They are showing a greater willingness to explore their current emotional state and the impact of their thoughts on their daily life. This marks a significant change from earlier exchanges, where emotional content was more subdued and factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their feelings of being overwhelmed and trapped during the discussion about reminders of limitations. Specifically, the moment when they stated, *\"It\u2019s like every time I think I\u2019m getting better, something else pops up, and it\u2019s just so frustrating,\"* indicates a shift towards more authentic vulnerability. This acknowledgment of frustration and the complexity of their feelings signifies a movement towards deeper engagement in the therapeutic process."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like you have some ways of coping with that anxious energy, like using humor or reaching out to friends, but it also feels like those strategies might not fully address what you're experiencing. It\u2019s understandable to feel daunted by the idea of facing those feelings directly, especially when it feels like a cycle you can\u2019t break out of. \n\nCan we explore what it feels like to be stuck in that cycle? What thoughts or emotions come up for you when you think about facing those feelings more head-on?",
+      "client": "I think it just makes me feel more anxious, like I'm already dealing with so much. The thought of facing those feelings feels like I\u2019d just be adding more weight to an already heavy load. I guess that\u2019s why I keep avoiding it; it\u2019s easier to keep it all at arm's length.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It makes sense that facing those feelings could feel like adding more weight to an already heavy load. That feeling of wanting to keep things at arm's length seems to be a way to protect yourself from becoming even more overwhelmed. What do you notice in your body or mind when you think about letting those feelings in, even just a little? \n\nAnd when you mention wanting to keep things at a distance, what do you think that says about what you might be trying to avoid?",
+      "client": "I think it says I\u2019m scared of what\u2019s underneath all that anxiety. Letting those feelings in feels risky, like I could spiral even further. When I think about it, I feel this tightness in my chest, like I'm just bracing for impact.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest sounds really significant, and it\u2019s understandable to feel that way when you think about what\u2019s underneath the anxiety. It seems like there\u2019s a real tension between wanting to explore those feelings and the fear of what might come up if you do. \n\nCan we take a moment to notice that physical sensation? What does it feel like to have that tightness in your chest? And as you sit with that feeling, what thoughts or images come to mind?",
+      "client": "It feels like a weight, like I\u2019m holding my breath or something. When I focus on it, I picture this dark cloud hanging over me, and I just want to push it away. I guess I worry that if I let it in, it\u2019ll just keep growing and I won\u2019t be able to handle it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "That image of a dark cloud hanging over you really captures the heaviness you're feeling. It's understandable to want to push it away, especially when it seems like it could grow and become more overwhelming. Holding your breath is such a powerful way to describe that sensation\u2014it's like your body is preparing for something difficult.\n\nAs you sit with this weight and that cloud, what do you notice about your thoughts or feelings in this moment? Is there a part of you that feels curious about what might be under that cloud, or is it mostly about wanting to keep it at bay?",
+      "client": "I guess there\u2019s a part of me that\u2019s curious, but it\u2019s mostly about wanting to keep it away. It feels safer to just ignore it. The thought of digging deeper makes me anxious; it's like poking a bear that might wake up and start causing chaos.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It makes sense that ignoring it feels like the safer choice right now. The idea of poking a bear really conveys how intimidating it can feel to approach those deeper feelings. That tension between curiosity and the desire to keep things at a distance is completely understandable.\n\nAs you think about that bear, what do you feel in your body? Is there a particular thought or image that stands out as you consider what might happen if you were to engage with those feelings?",
+      "client": "I feel this mix of tightness and just a little flutter in my stomach. The thought of engaging with those feelings makes me picture the bear waking up and roaring, like everything could spiral out of control. It\u2019s scary to think about what might happen if I let those feelings in.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "That tightness and flutter in your stomach really highlight the physical impact of what you're feeling. It sounds like that image of the bear roaring captures a fear of losing control if you were to engage with those feelings. It\u2019s completely valid to feel apprehensive about what might come up.\n\nAs you sit with that fear, what do you think it would be like to approach those feelings just a little bit, maybe just to explore what\u2019s underneath the surface? What would that look like for you?",
+      "client": "I mean, I guess if I approached it a little, it might feel like stepping into a fog rather than facing a bear. But there\u2019s a worry that it could lead to something I can\u2019t handle, like all those past issues coming back. I\u2019m just not sure if I\u2019m ready to deal with that yet.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3** \n\n**Key Examples:**\n1. \u201cI just feel anxious and scared, like I'm never going to get a break from all this pain. It's hard to think about it without feeling completely overwhelmed. I keep wondering if I\u2019m going to be dealing with this forever.\u201d\n2. \u201cI think it gets worse when I'm reminded of my limitations, like when I can\u2019t do things I used to enjoy. I just feel trapped, you know? It\u2019s like every time I think I\u2019m getting better, something else pops up, and it\u2019s just so frustrating.\u201d\n\n**Progression:** In the latest exchanges, the client demonstrates regular emotional expression and a willingness to engage in the dialogue, showing vulnerability and a deeper reflection on their feelings compared to earlier in the session. Initially, the client presented a more factual and defensive stance around their emotional state, primarily focusing on the anxiety surrounding their herniated disc diagnosis. However, as the conversation progressed, they began to articulate their feelings of entrapment and frustration more clearly. This indicates a shift from a defensive posture to a more engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they began expressing their feelings of being trapped by their limitations. This moment marked a transition where they moved from merely stating their fears to exploring the emotional implications of those fears, indicating a willingness to share more intimately about their struggles and how they affect their daily life. The dialogue reflected an emerging understanding of their emotional landscape, contributing to a sense of rapport that feels stronger than at the beginning of the session."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Stepping into a fog feels like a more manageable way to approach those feelings, and it's completely understandable to have that worry about what might come up from the past. It\u2019s okay to feel unsure about readiness; that\u2019s a significant aspect of this process.\n\nWhat do you think it would take for you to feel a bit more prepared to explore that fog? Or is there a smaller piece of it that might feel a little easier to approach right now?",
+      "client": "I think maybe starting with just a small part of it could be more manageable. Like, I could think about one specific moment from the past that still bothers me instead of everything at once. But I still worry about how it might feel to bring that up.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds like focusing on one specific moment feels like a more doable starting point for you, which is a great insight. It's completely normal to worry about how it might feel to bring that moment up. \n\nWhat do you think about that specific moment that still bothers you? What comes to mind when you think about it?",
+      "client": "There\u2019s one time that keeps coming back to me\u2014when I was in the hospital after all those surgeries, feeling completely helpless. I remember just lying there, wishing things would get better, but it felt like I was trapped in my own body. I don\u2019t know, it makes me anxious just thinking about it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "That sounds really heavy, being in the hospital and feeling so helpless. It's understandable that reflecting on that moment brings up anxiety for you. \n\nAs you think about lying there, wishing for things to improve, what sensations or emotions come up for you in your body right now? What do you notice as you recall that experience?",
+      "client": "I feel this tightness in my chest when I think about it, like I can't breathe. It's just that feeling of being stuck, you know? I hate remembering how powerless I felt back then.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It sounds like that tightness in your chest is a strong reminder of how trapped and powerless you felt during that time. Experiencing that kind of physical sensation can be really intense, especially when connected to such a significant moment in your life.\n\nAs you reflect on that feeling of being stuck, what do you think it says about your experience in the hospital? What else stands out to you when you remember that time?",
+      "client": "I guess it shows just how overwhelmed I was, like I couldn\u2019t escape my situation. There was this constant fear that things would never change, and that feeling still lingers sometimes. I just remember thinking, \u201cAm I ever going to feel normal again?\u201d",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like that overwhelming sense of fear and the longing to feel normal again really made an impact on you. It\u2019s understandable that those feelings would continue to linger, especially after such a significant experience. \n\nAs you think about that fear of things never changing, what do you notice coming up for you now? How does that connect to your current feelings or thoughts?",
+      "client": "I feel this wave of anxiety wash over me again, like I'm right back there. Part of me worries that I'm stuck in this cycle\u2014always dealing with pain and never really getting better. I guess it connects to how I feel about this herniated disc; it\u2019s like a reminder that my life just keeps throwing these obstacles at me.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "That wave of anxiety sounds really powerful, especially since it connects to both your past experience and the struggle you're facing with your herniated disc. It makes sense that those obstacles would stir up those feelings of being trapped in a cycle. \n\nAs you reflect on this connection between your past and your present, what do you notice about how your body feels in these moments? Are there specific thoughts that come up for you when you think about these obstacles?",
+      "client": "When I think about these obstacles, my body feels tense, like I\u2019m bracing for something bad to happen. I start to think things like, \u201cWhy can\u2019t I catch a break?\u201d or \u201cIs this really how my life is going to be?\u201d It\u2019s exhausting, honestly.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I just feel anxious and scared, like I'm never going to get a break from all this pain.\"\n2. **Self-Reflection Depth:** \"I think it gets worse when I'm reminded of my limitations, like when I can\u2019t do things I used to enjoy. I just feel trapped, you know?\"\n\n**Progression Analysis:**\nThe client's recent exchanges indicate a marked increase in emotional depth and self-reflection. Initially, the client struggled with expressing their emotions, often resorting to factual statements about their situation (e.g., discussing the MRI report). However, they have transitioned to articulating their feelings of anxiety and hopelessness with greater clarity. The client is now acknowledging not only their emotional responses but also the physiological sensations tied to their emotional state, such as \"tightness in my chest.\" This shift suggests a growing comfort in sharing their vulnerabilities and an increasing willingness to explore the complexities of their feelings. The dialogue reflects a blend of emotional expression and meaningful self-reflection, which are essential indicators of the \"ENGAGED EXPLORATION\" phase.\n\n**Notable Turning Point:**\nOne significant turning point in the session occurred when the client began discussing specific moments from their past, particularly their experience in the hospital and the associated feelings of helplessness. This moment marked a shift from generalized anxiety about their current health condition to a more personal and profound exploration of their emotional landscape. The client\u2019s choice to reflect on this past experience and its connection to their current feelings demonstrates an important step toward deeper emotional processing and engagement with their therapeutic journey. This exploration reveals underlying fears about their ongoing struggles and a desire for relief, indicating a readiness to delve deeper into their emotional"
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds exhausting to feel that tension in your body and to have those thoughts circling around. It\u2019s completely understandable to question why you\u2019re facing so many obstacles and to wonder if this is how things will always be. \n\nAs you notice that tension and those thoughts, what do you think they reveal about what you truly desire or need in your life right now? What would it look like for you to feel some relief from that exhaustion?",
+      "client": "I guess I just want to feel like I have some control over my life again, you know? It would be nice to have moments where I don't feel so weighed down by all this pain and uncertainty. I\u2019m not sure what relief looks like, but maybe it\u2019s just having a day where I can forget about these issues, even if it\u2019s just for a little while.",
+      "openness_judgment": null
+    }
+  ]
+}

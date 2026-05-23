@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "45-1",
+  "patient_name": "Jordan",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "### Evaluating Client's Emotional Openness and Rapport Development\n\n**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just feel this tightness in my chest and like my mind is racing. It's like I'm stuck, and I can\u2019t focus because all I can think about is messing something up.\"\n2. **Current Openness:** \"I guess it feels like I have to prove myself, like if I stop, it\u2019ll just show that I can\u2019t handle things. I don\u2019t want to be seen as incompetent or unreliable.\"\n\n**Progression Analysis:**\nThe client's most recent exchanges demonstrate a notable shift towards greater emotional expression. They are expressing physical sensations tied to their anxiety, such as \"tightness in my chest\" and \"knot in my stomach.\" This indicates a deeper emotional engagement compared to earlier sessions where responses were primarily factual. The client is beginning to articulate their feelings about the pressure they experience at work, moving beyond mere descriptions of their situation to explore their internal emotional landscape. This progress marks a significant change from a more defensive or hesitant stance to one of more active participation in dialogue.\n\n**Notable Turning Point:**\nA critical moment leading to the current emotional level occurred when the client articulated the fear of being perceived as \"incompetent or unreliable.\" This self-reflection indicates a deeper understanding of their motivations and fears. It shows their readiness to explore the underlying issues driving their anxiety, which enhances their emotional depth and rapport with the therapist. The shift from simply describing feelings of pressure to recognizing the implications of stopping highlights a growing vulnerability and willingness to engage in the therapeutic process. \n\nOverall, while the client is still in the \"Engaged Exploration\" phase, the recent emotional disclosures and insights illustrate a progression"
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I just feel this tightness in my chest and like my mind is racing. It's like I'm stuck, and I can\u2019t focus because all I can think about is messing something up.\"\n2. \"When I think about avoiding things, I often feel this overwhelming urge to just shut down. It's like my mind tells me that if I don\u2019t engage, I won\u2019t make mistakes, but that just leaves me even more anxious because things pile up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear increase in emotional depth and self-reflection. Initially, they presented more factual responses and limited emotional vocabulary. However, as the session progressed, they began to articulate their feelings of anxiety and pressure more vividly, indicating a deeper level of engagement. The client's expressions of physical sensations, like \"tightness in my chest\" and \"knot in my stomach,\" reveal a growing awareness of how their emotions manifest physically, marking a significant change from earlier responses.\n\n**Turning Point:** The turning point in the client\u2019s emotional depth occurred when they expressed, \"It feels like if I can\u2019t get things right, then I\u2019m not just failing at the task; I\u2019m failing at being who I\u2019m supposed to be.\" This statement indicates a shift from a more surface-level acknowledgment of stress to an authentic vulnerability about their identity and self-worth. This moment allowed for deeper exploration of their fears and pressures, enhancing their emotional openness and rapport with the therapist."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I feel this tightness in my chest, and it\u2019s like my heart starts racing. There\u2019s this mix of anxiety and fear that maybe I'm just not good enough.\" \n2. \"When I think about avoiding things, I often feel this overwhelming urge to just shut down. It's like my mind tells me that if I don\u2019t engage, I won\u2019t make mistakes...\"\n\n**Progression:** In the most recent interactions, the client demonstrates a significant increase in emotional depth, particularly with the descriptors of physical sensations associated with their anxiety and fear. They have moved from initial factual responses regarding their worries about work to a more nuanced expression of their internal struggles and feelings. The client articulates feelings of inadequacy and the immense pressure they place on themselves to be competent, which highlights a growing emotional awareness compared to the earlier part of the session where they mainly described their feelings in more general, less personal terms.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing the physical sensations tied to their anxiety\u2014specifically during the exchange where they described feeling \"this tightness in my chest\" and \"a knot in my stomach\" while contemplating their fears about work. This marked a pivotal moment where they went beyond surface-level concerns and allowed a more vulnerable articulation of their emotional state, signifying a deeper level of engagement with the therapist and the therapeutic process."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"When I think about taking a break, my stomach gets tight, and I feel this weight on my chest. It makes me anxious, like I'm doing something wrong by even considering it.\"\n2. \"I guess success could mean just being aware of how I\u2019m feeling, rather than needing to stay strong the whole time. I think it might help to allow myself to just notice what\u2019s happening without any pressure to fix it or feel a certain way.\"\n\n**Progression:** In the most recent exchanges, the client exhibits a notable increase in emotional openness and depth. They articulate specific physical sensations associated with their anxiety and express a desire to redefine what success means in managing their feelings. This represents a significant transition from earlier exchanges, where they primarily focused on the pressure of performance and self-judgment without much exploration of their internal experience. The movement towards acknowledging their emotions and recognizing the need for self-care reflects a more engaged exploration.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they stated, \"I guess success could mean just being aware of how I\u2019m feeling, rather than needing to stay strong the whole time.\" This moment indicates a pivotal realization about the importance of self-awareness over self-judgment, allowing for more authentic engagement with their feelings. This reflects an important development in their therapy journey, as they transition from a state of avoidance to one of exploration and acceptance."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jordan, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, I guess it\u2019s just the usual stuff\u2014work and how I keep messing it up. It\u2019s like I\u2019m always worried I\u2019m forgetting something important.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like there\u2019s a lot of pressure you\u2019re feeling when it comes to work. Worrying about forgetting something important can be really overwhelming. What do you notice in your body or your thoughts when those worries come up?",
+      "client": "I just feel this tightness in my chest and like my mind is racing. It's like I'm stuck, and I can\u2019t focus because all I can think about is messing something up. I don\u2019t know, maybe I just need to push through it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds really difficult to feel that tightness in your chest and have your mind racing while trying to push through your work. That sense of being stuck can be so frustrating. What do you think might happen if you allowed yourself to pause for a moment instead of pushing through?",
+      "client": "I don\u2019t really see how that would help. I feel like if I pause, I'll just fall further behind. It\u2019s like I have to keep moving or everything will fall apart.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It makes sense that you feel the need to keep moving when there\u2019s so much at stake. That sense of urgency can be really powerful, and it sounds like you\u2019re worried about what might happen if you stop. What do you think that pressure to keep moving is saying about what\u2019s important to you right now?",
+      "client": "I guess it feels like I have to prove myself, like if I stop, it\u2019ll just show that I can\u2019t handle things. I don\u2019t want to be seen as incompetent or unreliable. It\u2019s just too risky.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "That\u2019s a really helpful observation, Jordan. It sounds like there\u2019s a lot of weight on your shoulders when it comes to proving yourself and handling everything. The fear of being seen as incompetent or unreliable can create a tough pressure to manage. What do you notice in your body or your emotions when you think about that risk of stopping?",
+      "client": "I just feel this knot in my stomach, like something's ready to explode. It\u2019s hard to breathe sometimes, and I just get so tense thinking about how everything could go wrong. It\u2019s like I\u2019m on this tightrope and one misstep could mean a disaster.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds like that tension is really overwhelming for you, almost like a constant state of alertness. Being on that tightrope must feel incredibly precarious, especially with the fear of what could happen if things go wrong. Can we slow down and explore what\u2019s happening in those moments when the knot in your stomach tightens? What thoughts or images come to mind when you feel that way?",
+      "client": "When that knot tightens, I just keep thinking about all the things I might be forgetting or messing up. It's like a loop in my head, running through all the worst-case scenarios. I can't shake the feeling that if I make one mistake, everything will go downhill.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "### Evaluating Client's Emotional Openness and Rapport Development\n\n**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just feel this tightness in my chest and like my mind is racing. It's like I'm stuck, and I can\u2019t focus because all I can think about is messing something up.\"\n2. **Current Openness:** \"I guess it feels like I have to prove myself, like if I stop, it\u2019ll just show that I can\u2019t handle things. I don\u2019t want to be seen as incompetent or unreliable.\"\n\n**Progression Analysis:**\nThe client's most recent exchanges demonstrate a notable shift towards greater emotional expression. They are expressing physical sensations tied to their anxiety, such as \"tightness in my chest\" and \"knot in my stomach.\" This indicates a deeper emotional engagement compared to earlier sessions where responses were primarily factual. The client is beginning to articulate their feelings about the pressure they experience at work, moving beyond mere descriptions of their situation to explore their internal emotional landscape. This progress marks a significant change from a more defensive or hesitant stance to one of more active participation in dialogue.\n\n**Notable Turning Point:**\nA critical moment leading to the current emotional level occurred when the client articulated the fear of being perceived as \"incompetent or unreliable.\" This self-reflection indicates a deeper understanding of their motivations and fears. It shows their readiness to explore the underlying issues driving their anxiety, which enhances their emotional depth and rapport with the therapist. The shift from simply describing feelings of pressure to recognizing the implications of stopping highlights a growing vulnerability and willingness to engage in the therapeutic process. \n\nOverall, while the client is still in the \"Engaged Exploration\" phase, the recent emotional disclosures and insights illustrate a progression"
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "That sounds really exhausting, to have that loop of worst-case scenarios playing over and over. It makes sense that you would feel such tightness in your stomach with all those thoughts swirling around. When you describe that fear of making a mistake, what do you think that reveals about what you hold as important in your life or work?",
+      "client": "I guess it reveals that I really value being seen as competent and reliable. It feels like if I can\u2019t get things right, then I\u2019m not just failing at the task; I\u2019m failing at being who I\u2019m supposed to be. Plus, I worry about what others will think of me if I mess up, and that just adds to the pressure.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It sounds like being perceived as competent and reliable is really significant for you, and that connection to your sense of self can create a lot of pressure. It's understandable to feel that way, especially when you feel that others' opinions are weighing heavily on you. What do you notice in your body or emotions when you think about that pressure to meet those expectations?",
+      "client": "I feel this tightness in my chest, and it\u2019s like my heart starts racing. There\u2019s this mix of anxiety and fear that maybe I'm just not good enough. It\u2019s overwhelming, and then I just want to avoid everything altogether.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "That sounds really intense, feeling that tightness in your chest and the racing heart along with the anxiety and fear. It makes sense that those overwhelming feelings might lead you to want to avoid situations altogether. When you think about wanting to avoid things, what do you notice about the thoughts or emotions that come up for you in those moments?",
+      "client": "When I think about avoiding things, I often feel this overwhelming urge to just shut down. It's like my mind tells me that if I don\u2019t engage, I won\u2019t make mistakes, but that just leaves me even more anxious because things pile up. Part of me knows it\u2019s not a solution, but it feels like the only option sometimes.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a real struggle between wanting to shield yourself from mistakes and knowing that avoiding things only adds to your anxiety. That push and pull can be really confusing and frustrating. When you mention the urge to shut down, what do you feel in those moments? Is there a specific thought that stands out to you?",
+      "client": "In those moments, I often think about all the things I could mess up. It\u2019s like this constant loop of what-ifs playing in my head. I feel scared that if I try, it\u2019ll just lead to disaster, and then I\u2019ll have to face that judgment.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "That constant loop of what-ifs sounds really distressing, and I can see how it creates a sense of fear around trying. It makes sense to want to avoid that potential judgment when faced with the thought of making mistakes. When you reflect on those thoughts of \u201cwhat if,\u201d what do you notice about how it affects your body or your emotions in those moments?",
+      "client": "When those thoughts hit, I feel this tightness in my stomach, like a weight just pressing down. It\u2019s hard to breathe sometimes, and I just feel this wave of dread wash over me. I guess it makes everything seem even more heavy and impossible.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That tightness in your stomach and the feeling of dread you describe sound really intense and heavy to carry. It\u2019s understandable why those sensations would make it feel even more impossible to engage with what you\u2019re avoiding. As you talk about these physical sensations, what do you think they say about how much pressure you might be feeling in those moments? And when you notice that weight pressing down, what do you find yourself wanting or needing?",
+      "client": "I think the pressure indicates that I\u2019m really overwhelmed by expectations, both from myself and others. When I feel that weight, I just want to escape or shut down. It\u2019s like I need a break from all that stress, but I know avoiding it doesn\u2019t really help.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I just feel this tightness in my chest and like my mind is racing. It's like I'm stuck, and I can\u2019t focus because all I can think about is messing something up.\"\n2. \"When I think about avoiding things, I often feel this overwhelming urge to just shut down. It's like my mind tells me that if I don\u2019t engage, I won\u2019t make mistakes, but that just leaves me even more anxious because things pile up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear increase in emotional depth and self-reflection. Initially, they presented more factual responses and limited emotional vocabulary. However, as the session progressed, they began to articulate their feelings of anxiety and pressure more vividly, indicating a deeper level of engagement. The client's expressions of physical sensations, like \"tightness in my chest\" and \"knot in my stomach,\" reveal a growing awareness of how their emotions manifest physically, marking a significant change from earlier responses.\n\n**Turning Point:** The turning point in the client\u2019s emotional depth occurred when they expressed, \"It feels like if I can\u2019t get things right, then I\u2019m not just failing at the task; I\u2019m failing at being who I\u2019m supposed to be.\" This statement indicates a shift from a more surface-level acknowledgment of stress to an authentic vulnerability about their identity and self-worth. This moment allowed for deeper exploration of their fears and pressures, enhancing their emotional openness and rapport with the therapist."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re really tuned into the expectations weighing on you, and it\u2019s understandable to want to escape when it feels overwhelming. Acknowledging that desire for a break is important, especially when you recognize that avoidance doesn\u2019t actually resolve the stress. \n\nWhat do you think it would look like to give yourself that break in a way that also allows you to feel a bit more in control? Can we explore what that might mean for you?",
+      "client": "I don\u2019t know, maybe it would mean stepping back from everything for a bit, but I can\u2019t shake the guilt that comes with that. It\u2019s like I\u2019m just abandoning my responsibilities, and I worry about what others will think. Part of me thinks it would help, but another part feels like I\u2019d just be procrastinating again.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It\u2019s really understandable to feel that guilt when considering stepping back from your responsibilities. It sounds like there\u2019s a strong tension between wanting to take a break and the fear of how it might be perceived by others or the concern that it could lead to procrastination. That internal conflict can be quite heavy. \n\nAs you think about taking that break, what do you notice about the part of you that feels guilty? And what might it look like to acknowledge that need for a break without fully stepping away from your responsibilities?",
+      "client": "I guess the guilt feels like a voice telling me I\u2019m failing if I take time for myself. It\u2019s like I have to keep pushing through or else I\u2019ll let everyone down. Maybe acknowledging that I need a break doesn\u2019t mean I have to abandon everything, but I\u2019m not sure how to balance it all without feeling like I\u2019m just avoiding things.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It sounds like that voice of guilt really weighs heavily on you, suggesting that taking time for yourself equates to failing or letting others down. It's insightful that you recognize the need for a break without it meaning complete abandonment of your responsibilities. Finding that balance can be challenging, especially when those expectations feel so pressing.\n\nAs you think about this balance, what do you imagine it would look like to take small steps toward caring for yourself while still honoring your commitments? What does that bring up for you?",
+      "client": "I think it could mean setting aside just a little time for myself each day, maybe even just a few minutes to breathe or do something I enjoy. But then I start to worry that those few minutes will turn into something bigger, and I\u2019ll end up falling behind. It\u2019s frustrating because I want to take care of myself, but it feels like there\u2019s always this pressure to keep going.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re recognizing the potential benefits of carving out even just a few minutes for yourself, yet there's that persistent worry about it spiraling into something larger and impacting your responsibilities. That frustration is completely valid, especially when there's so much pressure to keep moving forward.\n\nWhat do you think might help you feel more comfortable starting with those small moments of self-care? Is there a particular activity or practice that feels manageable, even within that worry?",
+      "client": "I guess even just taking a short walk or listening to music could be manageable. But then I feel this nagging thought that I should be using that time to catch up on work instead. It\u2019s like I can\u2019t shake the feeling that I\u2019m wasting time, even when I know I need a break.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It seems like there's a strong tension between recognizing your need for a break and the feeling that you should be using that time for work instead. That nagging thought can make it really hard to enjoy those moments of self-care, even when you know they\u2019re important. \n\nAs you think about taking a short walk or listening to music, what do you notice in your body or mind when those thoughts come up? How do you feel in those moments when you consider stepping away from work?",
+      "client": "When I think about taking a break, my stomach gets tight, and I feel this weight on my chest. It makes me anxious, like I'm doing something wrong by even considering it. Part of me thinks I should just push through, you know?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It sounds like when you consider taking a break, your body responds with tightness and anxiety, almost like it\u2019s signaling that stepping away feels wrong or goes against what you think you should be doing. That can create a real conflict between wanting to care for yourself and the pressure to keep pushing through.\n\nWhat do you think might help you acknowledge those physical sensations without feeling like you have to act on the thoughts that come with them? How does it feel to just notice that tension in your body as you think about taking a break?",
+      "client": "I guess just noticing that tension feels a bit unsettling, like I should just ignore it and keep going. It\u2019s weird because part of me knows I should pay attention to how I feel, but then there's this other part that says to just push it down and carry on. It\u2019s frustrating.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I feel this tightness in my chest, and it\u2019s like my heart starts racing. There\u2019s this mix of anxiety and fear that maybe I'm just not good enough.\" \n2. \"When I think about avoiding things, I often feel this overwhelming urge to just shut down. It's like my mind tells me that if I don\u2019t engage, I won\u2019t make mistakes...\"\n\n**Progression:** In the most recent interactions, the client demonstrates a significant increase in emotional depth, particularly with the descriptors of physical sensations associated with their anxiety and fear. They have moved from initial factual responses regarding their worries about work to a more nuanced expression of their internal struggles and feelings. The client articulates feelings of inadequacy and the immense pressure they place on themselves to be competent, which highlights a growing emotional awareness compared to the earlier part of the session where they mainly described their feelings in more general, less personal terms.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing the physical sensations tied to their anxiety\u2014specifically during the exchange where they described feeling \"this tightness in my chest\" and \"a knot in my stomach\" while contemplating their fears about work. This marked a pivotal moment where they went beyond surface-level concerns and allowed a more vulnerable articulation of their emotional state, signifying a deeper level of engagement with the therapist and the therapeutic process."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It sounds like you're feeling caught between two different parts of yourself\u2014one that recognizes the importance of paying attention to your feelings and another that urges you to push through despite the discomfort. That frustration is completely valid, as it can be really challenging to navigate those conflicting messages.\n\nAs you reflect on that unsettling feeling, what do you think it might look like to acknowledge those sensations without judgment? How might it change your experience if you allowed yourself to sit with that tension for a moment rather than pushing it down?",
+      "client": "I don\u2019t know, it feels risky to just sit with those feelings. What if I end up spiraling into them and can\u2019t get back to work? Part of me thinks it might be helpful, but another part just wants to avoid it altogether.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It makes sense to feel hesitant about sitting with those feelings, especially when there\u2019s a concern about losing momentum or spiraling into them. It\u2019s a delicate balance, wanting to acknowledge what\u2019s going on inside while also feeling the pressure to keep working.\n\nWhat do you think might help you feel safer in that space of sitting with the tension? Are there small ways you could experiment with it that wouldn't feel as overwhelming?",
+      "client": "I guess maybe if I set a timer for a couple of minutes, I could try to just notice the tension without letting it take over. It feels more manageable if I know there's a limit to it. But still, I'm not sure it'll actually help.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Setting a timer sounds like a practical approach that could give you a sense of control as you explore those feelings. It\u2019s understandable to feel unsure about whether it will help, especially when you\u2019re trying something new. \n\nAs you think about that two-minute window, what do you imagine doing with that time? What might you pay attention to, or how might you approach those sensations?",
+      "client": "I think I\u2019d try to focus on where I feel the tension in my body, like maybe my shoulders or chest. Just noticing it without trying to push it away could be the goal, I guess. But I still worry that if I really sit with it, I might end up feeling overwhelmed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Noticing where you feel the tension in your body could be a helpful way to connect with those sensations without judgment. It\u2019s completely valid to worry about feeling overwhelmed when you sit with those feelings. \n\nWhat do you think might happen if you do start to feel overwhelmed during those two minutes? Would it be possible to give yourself permission to pause or step away if needed?",
+      "client": "I mean, if I start feeling overwhelmed, I guess I could always just stop and breathe for a moment. But part of me worries that if I do that, it means I\u2019m failing at this whole thing. I don\u2019t know, it\u2019s like I want to push through but also feel like I shouldn\u2019t let it get too intense.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like you're navigating a bit of a tug-of-war between wanting to push through and the instinct to take care of yourself when things get intense. It\u2019s completely understandable to feel that way, especially when you're trying to work through something challenging.\n\nWhat would it look like for you to redefine what \"success\" means in this situation? Is there a way to approach it that feels more forgiving, allowing you to honor your limits while still exploring those sensations?",
+      "client": "I guess success could mean just being aware of how I\u2019m feeling, rather than needing to stay strong the whole time. I think it might help to allow myself to just notice what\u2019s happening without any pressure to fix it or feel a certain way. But I'm not sure if I can really let go of that idea of pushing through yet.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "That\u2019s a really helpful observation about redefining success for yourself. It sounds like you\u2019re recognizing the value in just being aware of your feelings without the added pressure to \"fix\" them or stay strong. It\u2019s completely normal to have mixed feelings about letting go of that idea of pushing through.\n\nWhat do you notice in your body or your mind when you think about allowing yourself to just observe your feelings? What do you think might help you feel more comfortable with that idea?",
+      "client": "When I think about just observing my feelings, I feel this tightness in my chest, like I want to pull away from it. It\u2019s frustrating because I know I should be able to sit with it, but there\u2019s this fear of what might come up. Maybe if I could remind myself that it\u2019s okay to feel uncomfortable, it would help?",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"When I think about taking a break, my stomach gets tight, and I feel this weight on my chest. It makes me anxious, like I'm doing something wrong by even considering it.\"\n2. \"I guess success could mean just being aware of how I\u2019m feeling, rather than needing to stay strong the whole time. I think it might help to allow myself to just notice what\u2019s happening without any pressure to fix it or feel a certain way.\"\n\n**Progression:** In the most recent exchanges, the client exhibits a notable increase in emotional openness and depth. They articulate specific physical sensations associated with their anxiety and express a desire to redefine what success means in managing their feelings. This represents a significant transition from earlier exchanges, where they primarily focused on the pressure of performance and self-judgment without much exploration of their internal experience. The movement towards acknowledging their emotions and recognizing the need for self-care reflects a more engaged exploration.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they stated, \"I guess success could mean just being aware of how I\u2019m feeling, rather than needing to stay strong the whole time.\" This moment indicates a pivotal realization about the importance of self-awareness over self-judgment, allowing for more authentic engagement with their feelings. This reflects an important development in their therapy journey, as they transition from a state of avoidance to one of exploration and acceptance."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a lot to unpack with that tightness in your chest and the fear of what might come up when you think about just observing your feelings. It\u2019s understandable to feel frustrated when trying to navigate those emotions. \n\nWhat do you think it means for you to remind yourself that it\u2019s okay to feel uncomfortable? Can we explore what that discomfort feels like in your body a little more?",
+      "client": "I think reminding myself that it\u2019s okay to feel uncomfortable means that I\u2019m giving myself permission to just be human, you know? But it\u2019s hard to really sit with that discomfort because it feels like it could spiral into something worse. I guess it feels like a risk, especially with that tightness in my chest.",
+      "openness_judgment": null
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "19-1",
+  "patient_name": "Rachel",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"Feeling stuck means I can't find a decent job, and Ivan's kind of coasting at his. It\u2019s like we\u2019re both just waiting for something to change, but nothing ever does. I mean, I can't even finish college and I feel like... I don't know, like I\u2019m just falling behind.\"\n- \"I guess I worry that if I share, people will see me as weak or incapable. It's like I'm supposed to have it all together, especially with Ivan and my family. I don\u2019t want anyone to think I can\u2019t handle my life.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a significant increase in emotional expression and self-reflection compared to earlier exchanges, where they exhibited more factual responses with limited emotional depth. The acknowledgment of feeling \"tense and anxious\" and describing the \"heavy weight\" on their chest demonstrates a deeper emotional awareness and vulnerability that was less evident at the beginning of the session. The client is now able to articulate feelings of frustration and inadequacy, indicating a step toward greater openness.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they started expressing feelings of anxiety and tension associated with their career and personal situation. The moment they articulated their fear of being seen as weak or incapable marked a shift from a more defensive stance to a willingness to explore their vulnerabilities. This moment illustrates a breakthrough in their engagement with the therapeutic process, as the client began to confront deeper feelings about their self-worth and how they perceive their responsibilities."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel really tense and anxious when I think about it. Like there's this heavy weight on my chest, and sometimes I just want to yell because it all feels so pointless. It\u2019s exhausting, honestly.\"\n2. **Current Openness:** \"I think the pressure shows that I\u2019m really desperate for some stability and success, like I need it to feel okay about myself. But it feels like I'm stuck in this loop where I'm just criticizing myself and Ivan, which only makes me more anxious.\"\n\n**Progression:** In the most recent interactions, the client exhibits a notable increase in emotional expression, especially in discussing feelings of tension, anxiety, and the weight of expectations. Previous exchanges indicated a more defensive stance, where the client was more focused on factual responses rather than exploring deeper emotional content. The shift towards sharing feelings of being overwhelmed and expressing a desire for stability reflects significant progress in their emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth began to shift around the moment they articulated their feelings of being judged and not good enough: \"I guess I worry that if I share, people will see me as weak or incapable.\" This acknowledgment of vulnerability marked a critical turning point, indicating a willingness to explore deeper emotional concerns rather than maintaining a surface-level discussion focused solely on external circumstances like job status. The current state demonstrates a growing comfort with the therapeutic process and a readiness to engage in self-reflection."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State**: \"I feel this tightness in my chest when I think about it, like I can't breathe properly. My thoughts just spiral, making me feel even more anxious and helpless.\"\n2. **Current Openness**: \"I guess I could try to be more open, but that feels risky.\"\n\n**Progression**: In the latest exchanges, Rachel demonstrates a notable shift from earlier sessions characterized by factual responses and emotional hesitance. Her recent expressions about feeling \"tense and anxious\" and the physical sensations of \"tightness in my chest\" indicate a deeper emotional engagement. Furthermore, her acknowledgment of needing reassurance and exploring the risks involved in opening up to Ivan exhibit meaningful self-reflection and a willingness to engage emotionally.\n\n**Turning Point**: Rachel's emotional depth began to shift significantly when she articulated her feelings of fear and guilt associated with asking Ivan for reassurance. This moment marked a transition from a more guarded stance to a recognition of vulnerability, opening the door for deeper exploration of her emotions and needs. Her expression of wanting to share her feelings, despite feeling it is risky, indicates a growing comfort with the therapeutic process and the development of rapport with the therapist. This willingness to engage more fully reflects a significant turning point in her emotional openness."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3 (Engaged Exploration)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel this tightness in my chest when I think about it, like I can't breathe properly. My thoughts just spiral, making me feel even more anxious and helpless.\"\n2. **Current Openness:** \"I think the pressure shows that I\u2019m really desperate for some stability and success, like I need it to feel okay about myself. But it feels like I'm stuck in this loop where I'm just criticizing myself and Ivan, which only makes me more anxious.\"\n\n**Progression Analysis:** \nIn this session, Rachel demonstrates a significant progression in her emotional disclosure and self-reflection. Initially, she expresses frustration about feeling stuck in her current situation with her husband and careers. As the dialogue progresses, she starts to articulate deeper feelings of anxiety and helplessness, particularly around the themes of vulnerability and the need for reassurance. Rachel's ability to articulate her physical sensations and emotional struggles indicates a growing comfort level with the therapist and a willingness to explore her feelings more deeply. The mention of feeling a \u201ctightness in her chest\u201d while reflecting on her emotions shows a heightened awareness of her internal state, which is a clear indicator of emotional exploration.\n\n**Notable Turning Point:** \nA notable turning point occurs when Rachel acknowledges the fear of being judged or seen as weak if she shares her feelings with Ivan. This moment marks a shift from primarily expressing frustration to a deeper level of self-reflection, where she identifies specific fears and anxieties that contribute to her emotional struggle. Her willingness to explore what reassurance means to her and her recognition of the internal conflict between wanting to be strong and needing support illustrates her movement into a more introspective space.\n\nOverall, Rachel is moving into the \"Engaged Exploration"
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Rachel, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, I guess I\u2019m just really frustrated with where things are at with my husband and our careers. It feels like we\u2019re both stuck.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re dealing with a lot of frustration around both your relationship and your careers. That must be tough. Can you share a bit more about what feeling stuck looks like for you right now? What specific aspects are causing the most frustration?",
+      "client": "Feeling stuck means I can't find a decent job, and Ivan's kind of coasting at his. It\u2019s like we\u2019re both just waiting for something to change, but nothing ever does. I mean, I can't even finish college and I feel like... I don't know, like I\u2019m just falling behind.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like you're experiencing a lot of pressure and disappointment around your job situation and college. It\u2019s understandable to feel like you\u2019re falling behind when everything seems to be at a standstill. What do you notice in your body or your emotions when you think about these feelings of being stuck?",
+      "client": "I feel really tense and anxious when I think about it. Like there's this heavy weight on my chest, and sometimes I just want to yell because it all feels so pointless. It\u2019s exhausting, honestly.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds incredibly exhausting to carry that weight and feel the urge to yell. That tension and anxiety can be so overwhelming. What do you think it would feel like to express that frustration in a different way, or to find a moment of relief from it?",
+      "client": "I don't know if expressing it would really help. It just feels like nothing changes anyway, you know? I guess I mostly just bottle it up because what's the point?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It makes sense that you feel hesitant about expressing your frustration when it seems like nothing changes. Bottling things up can feel like a way to cope, even if it doesn\u2019t bring you relief. I\u2019m curious\u2014what do you think keeps you from wanting to let that frustration out, even just a little?",
+      "client": "I don\u2019t want to burden anyone with my problems. It feels like I should just deal with it myself. Plus, what if it just makes things worse?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It\u2019s understandable to feel that way, wanting to handle things on your own without feeling like you're a burden to others. That sense of responsibility can be really heavy. I wonder, what do you think keeps you feeling like you should manage everything by yourself? What do you worry might happen if you did share your feelings with someone?",
+      "client": "I guess I worry that if I share, people will see me as weak or incapable. It's like I'm supposed to have it all together, especially with Ivan and my family. I don\u2019t want anyone to think I can\u2019t handle my life.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"Feeling stuck means I can't find a decent job, and Ivan's kind of coasting at his. It\u2019s like we\u2019re both just waiting for something to change, but nothing ever does. I mean, I can't even finish college and I feel like... I don't know, like I\u2019m just falling behind.\"\n- \"I guess I worry that if I share, people will see me as weak or incapable. It's like I'm supposed to have it all together, especially with Ivan and my family. I don\u2019t want anyone to think I can\u2019t handle my life.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a significant increase in emotional expression and self-reflection compared to earlier exchanges, where they exhibited more factual responses with limited emotional depth. The acknowledgment of feeling \"tense and anxious\" and describing the \"heavy weight\" on their chest demonstrates a deeper emotional awareness and vulnerability that was less evident at the beginning of the session. The client is now able to articulate feelings of frustration and inadequacy, indicating a step toward greater openness.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they started expressing feelings of anxiety and tension associated with their career and personal situation. The moment they articulated their fear of being seen as weak or incapable marked a shift from a more defensive stance to a willingness to explore their vulnerabilities. This moment illustrates a breakthrough in their engagement with the therapeutic process, as the client began to confront deeper feelings about their self-worth and how they perceive their responsibilities."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a lot of pressure for you to appear strong and capable, especially with Ivan and your family. That expectation can feel really isolating. What do you notice in your body or mind as you think about the possibility of being seen as weak or incapable? How does that affect your decision to keep things to yourself?",
+      "client": "I feel this tightness in my chest when I think about it, like I'm constantly on edge. It\u2019s hard to even imagine being vulnerable because I just keep thinking that if I show any weakness, it\u2019ll prove all those critical thoughts I have about myself. It's frustrating because I know I shouldn't feel this way, but I can't help it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It sounds really challenging to experience that tightness in your chest and the weight of those critical thoughts. It\u2019s frustrating to feel caught between knowing you shouldn't feel this way and still experiencing those emotions. As you describe this tension, what do you think it says about what you believe you need to protect within yourself? Can we slow down and explore what that vulnerability looks like for you, even just a little?",
+      "client": "I think it says that I\u2019m afraid of being judged or not being good enough. Maybe if I let my guard down, people will see all those things I worry about, like not finishing college or what I really think about Ivan\u2019s job. But I don\u2019t know if I\u2019m ready to explore that right now.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a lot of fear wrapped up in the idea of being judged and not feeling good enough. It\u2019s completely understandable to feel hesitant about exploring those deeper thoughts right now. What would feel most comfortable for you in this moment? Would it help to talk about other aspects of your experience, or would you prefer to take a step back and reflect on how you\u2019re feeling overall?",
+      "client": "I think it might be easier to talk about other things for now. There's just so much going on with my career and Ivan's job that I can't shake off. I guess focusing on those aspects would help me feel a little more in control.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It makes sense that focusing on your career and Ivan\u2019s job feels like a way to regain some control amidst everything else. It can be really grounding to direct your attention to those areas. What specific aspects of your career or Ivan's job have been on your mind lately? How are they impacting you?",
+      "client": "I've been thinking a lot about how I can't seem to find a job after being laid off, and it feels like I'm just stuck. Ivan's job situation is frustrating too because I keep questioning whether he\u2019s doing enough. It just makes me feel like everything is a mess, and I don\u2019t know how to fix it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds really tough to feel stuck after being laid off, and it\u2019s understandable that you\u2019d be feeling overwhelmed with everything going on. The uncertainty in both your job search and Ivan\u2019s situation can create a lot of pressure. What do you notice in your body or emotions as you talk about these feelings? And how do you think your thoughts about these situations might be influencing how you\u2019re feeling right now?",
+      "client": "I feel this tightness in my chest when I think about it, like I can't breathe properly. My thoughts just spiral, making me feel even more anxious and helpless. I guess I keep telling myself that if I could just find a job or if Ivan would work harder, everything would be better, but it doesn't seem to work that way.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It\u2019s really important to recognize that tightness in your chest and how it connects to your thoughts. That feeling can be quite distressing, especially when paired with the anxiety and helplessness you mentioned. It sounds like there\u2019s a lot of pressure you\u2019re putting on yourself regarding finding a job and on Ivan about his efforts. What do you think that pressure says about what you hope to achieve or feel in those situations? And how do you feel about the way those thoughts are affecting your sense of control?",
+      "client": "I think the pressure shows that I\u2019m really desperate for some stability and success, like I need it to feel okay about myself. But it feels like I'm stuck in this loop where I'm just criticizing myself and Ivan, which only makes me more anxious. I guess it just makes me feel even less in control, like everything\u2019s slipping away.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3 (ENGAGED EXPLORATION)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel really tense and anxious when I think about it. Like there's this heavy weight on my chest, and sometimes I just want to yell because it all feels so pointless. It\u2019s exhausting, honestly.\"\n2. **Current Openness:** \"I think the pressure shows that I\u2019m really desperate for some stability and success, like I need it to feel okay about myself. But it feels like I'm stuck in this loop where I'm just criticizing myself and Ivan, which only makes me more anxious.\"\n\n**Progression:** In the most recent interactions, the client exhibits a notable increase in emotional expression, especially in discussing feelings of tension, anxiety, and the weight of expectations. Previous exchanges indicated a more defensive stance, where the client was more focused on factual responses rather than exploring deeper emotional content. The shift towards sharing feelings of being overwhelmed and expressing a desire for stability reflects significant progress in their emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth began to shift around the moment they articulated their feelings of being judged and not good enough: \"I guess I worry that if I share, people will see me as weak or incapable.\" This acknowledgment of vulnerability marked a critical turning point, indicating a willingness to explore deeper emotional concerns rather than maintaining a surface-level discussion focused solely on external circumstances like job status. The current state demonstrates a growing comfort with the therapeutic process and a readiness to engage in self-reflection."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you recognize the connection between the pressure you feel and your desire for stability and success. That loop of self-criticism and concern for Ivan sounds really exhausting and seems to amplify your anxiety. It\u2019s completely valid to want to feel okay about yourself, especially during such uncertain times. What do you notice about how that desire for control impacts your daily life or your interactions with Ivan? And as you reflect on that feeling of things slipping away, what do you think you might need right now to help you feel a bit more grounded?",
+      "client": "I think my desire for control makes me really nitpicky with Ivan, and it creates this tension between us. I'm always on edge, looking for signs that things are getting better, but they just don\u2019t seem to be. I guess what I really need right now is some reassurance, but I\u2019m not sure how to ask for it without feeling vulnerable.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It sounds like you're recognizing how that desire for control impacts not only your own feelings but also your relationship with Ivan. Being on edge and looking for signs of improvement can be such a heavy burden to carry. Wanting reassurance is completely natural, especially when you're feeling vulnerable. \n\nAs you think about asking for what you need, what do you notice about the feelings or thoughts that come up for you? What do you think might help you feel more comfortable expressing that need to him?",
+      "client": "I feel a mix of fear and guilt when I think about asking Ivan for reassurance. Part of me thinks he should just know what I need, but another part worries he\u2019ll see me as weak or needy. I guess I could try to be more open, but that feels risky.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It sounds like you're navigating a complex mix of emotions when it comes to asking for reassurance from Ivan. Feeling fear and guilt is completely understandable, especially when there's that conflict between wanting him to intuitively understand your needs and the concern about appearing vulnerable. Opening up can indeed feel risky, and it\u2019s okay to acknowledge that.\n\nAs you sit with those feelings, what do you notice in your body when you think about expressing your needs? And if you were to take a small step towards being open, what might that look like for you?",
+      "client": "When I think about expressing my needs, I feel this tightness in my chest and my stomach drops. It\u2019s like my body is bracing for something bad to happen. A small step? Maybe I could just start with mentioning how I\u2019ve been feeling lately; that seems less scary than asking outright for reassurance.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you're noticing those physical sensations in your body when you think about expressing your needs. That tightness can really signal how much weight these feelings carry for you. Starting with sharing how you've been feeling lately sounds like a thoughtful approach and may help ease some of that tension.\n\nAs you consider that small step, what thoughts or feelings come up for you about how Ivan might respond? Does thinking about that influence how you feel about sharing your feelings?",
+      "client": "I guess I worry he might not respond the way I hope. Part of me thinks he\u2019ll be supportive, but another part fears he\u2019ll just dismiss me or get annoyed. It\u2019s almost like my mind goes to the worst-case scenario, and then I feel even more hesitant to open up.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It makes sense that you're feeling hesitant, especially when there's that push and pull between the hope for support and the fear of being dismissed. It sounds like your mind is naturally gravitating toward the worst-case scenarios, which can amplify the uncertainty around being vulnerable. \n\nAs you hold those thoughts and feelings, what do you notice about how they influence your desire to open up to Ivan? Can we explore what it would mean for you if he did respond in a way that felt supportive?",
+      "client": "I think if he responded supportively, it would give me a sense of relief and maybe even validate my feelings. But that feels like a big \"if.\" I can't help but think it's more likely I\u2019ll be met with indifference, which just makes me want to hold back even more. I guess I wish things were different, but I'm not sure how to change them.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a significant weight to the \"what ifs\" in this situation, where the desire for validation clashes with the fear of indifference. That uncertainty can really complicate your feelings about opening up to him. \n\nAs you think about wishing things were different, what does that change look like for you? Can you share a bit more about what you hope for in your interactions with Ivan?",
+      "client": "I guess I hope for more understanding and connection between us. It would be great if we could have conversations where I feel heard, instead of feeling like I have to tiptoe around his feelings. But it just feels like we\u2019re stuck in this cycle, and I don\u2019t really know how to break it.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State**: \"I feel this tightness in my chest when I think about it, like I can't breathe properly. My thoughts just spiral, making me feel even more anxious and helpless.\"\n2. **Current Openness**: \"I guess I could try to be more open, but that feels risky.\"\n\n**Progression**: In the latest exchanges, Rachel demonstrates a notable shift from earlier sessions characterized by factual responses and emotional hesitance. Her recent expressions about feeling \"tense and anxious\" and the physical sensations of \"tightness in my chest\" indicate a deeper emotional engagement. Furthermore, her acknowledgment of needing reassurance and exploring the risks involved in opening up to Ivan exhibit meaningful self-reflection and a willingness to engage emotionally.\n\n**Turning Point**: Rachel's emotional depth began to shift significantly when she articulated her feelings of fear and guilt associated with asking Ivan for reassurance. This moment marked a transition from a more guarded stance to a recognition of vulnerability, opening the door for deeper exploration of her emotions and needs. Her expression of wanting to share her feelings, despite feeling it is risky, indicates a growing comfort with the therapeutic process and the development of rapport with the therapist. This willingness to engage more fully reflects a significant turning point in her emotional openness."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "That desire for understanding and connection is really important, and it sounds frustrating to feel like you're in a cycle that\u2019s hard to break. It makes sense that you would want those conversations to feel safe and open. \n\nAs you think about that cycle, what do you believe keeps it going? Are there specific moments or patterns that come to mind when you reflect on your interactions with Ivan?",
+      "client": "I think part of it is that I often feel like I can't express my true feelings without worrying about how he'll react. Sometimes I just avoid talking about things altogether, which probably just adds to the tension. It's frustrating because I know we need to communicate better, but I don't know how to start without it turning into a fight or him shutting down.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a lot of internal conflict for you when it comes to expressing your feelings. The worry about his reaction seems to really influence how you approach conversations, leading to avoidance, which can create more tension. I can see how that would be frustrating, especially when you recognize the need for better communication.\n\nAs you think about those moments when you feel you need to hold back, what goes through your mind when you consider sharing your feelings? What do you notice in your body during those times?",
+      "client": "I just feel this knot in my stomach, like I\u2019m afraid of what might happen if I say the wrong thing. My mind races with thoughts like, \u201cWhat if he gets angry?\u201d or \u201cWhat if he just shuts down?\u201d It's hard to ignore that anxiety, and I end up just clamming up instead.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "That knot in your stomach sounds really uncomfortable, and it makes sense that those racing thoughts would create a barrier to expressing yourself. It must be difficult to sit with that anxiety, especially when you\u2019re trying to navigate the conversation. \n\nAs you explore those feelings and thoughts, what do you think would help you feel a bit more at ease in those moments? Are there small steps you could imagine taking to share your feelings without feeling so overwhelmed?",
+      "client": "I guess it might help if I could find a way to express myself that feels a bit safer, like maybe writing things down first. But then again, I worry that even that won't be enough to prevent a fight or misunderstandings. It's just hard to imagine feeling at ease when everything feels so charged.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Writing things down sounds like a constructive approach, and it\u2019s understandable that you\u2019re concerned about how it might be received. It seems like you\u2019re trying to find a way to express yourself while also managing the potential for conflict, which can feel like a delicate balance. \n\nWhat do you notice when you think about writing down your thoughts? Does that create any specific feelings or reactions for you?",
+      "client": "When I think about writing things down, it feels like a double-edged sword. Part of me thinks it could help organize my thoughts, but another part worries that it might come off as too formal or distant, almost like I'm hiding behind the words. It\u2019s frustrating because I just want to be honest without it turning into a big deal.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re experiencing a real tension between wanting to be open and honest and the fear that writing might create distance. That frustration is valid\u2014wanting to connect while also feeling vulnerable can be really challenging. \n\nWhat do you think it would feel like to find a balance between those two parts of you? Is there a way to express your thoughts that feels both authentic and comfortable for you?",
+      "client": "I don't know, maybe just talking it out in a calm moment could work. But then I worry that if I don\u2019t choose my words perfectly, it could spiral into a mess. It\u2019s just hard to find that sweet spot where I feel both safe and genuine.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re seeking that ideal moment where you can share your thoughts without the pressure of getting everything just right. The concern about how your words might be received adds an extra layer of complexity to your desire for connection. \n\nWhat do you notice about the moments you feel calm enough to talk things out? Are there specific situations or environments that help you feel more at ease?",
+      "client": "I guess when I'm at home and things are quiet, it feels safer to talk, but even then, there's this nagging feeling that I\u2019m not communicating well enough. I think I just need that reassurance that it's okay to not have everything figured out in one conversation. It\u2019s like I keep second-guessing myself, which doesn\u2019t help.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3 (Engaged Exploration)\n\n**Key Examples:**\n1. **Emotional State:** \"I feel this tightness in my chest when I think about it, like I can't breathe properly. My thoughts just spiral, making me feel even more anxious and helpless.\"\n2. **Current Openness:** \"I think the pressure shows that I\u2019m really desperate for some stability and success, like I need it to feel okay about myself. But it feels like I'm stuck in this loop where I'm just criticizing myself and Ivan, which only makes me more anxious.\"\n\n**Progression Analysis:** \nIn this session, Rachel demonstrates a significant progression in her emotional disclosure and self-reflection. Initially, she expresses frustration about feeling stuck in her current situation with her husband and careers. As the dialogue progresses, she starts to articulate deeper feelings of anxiety and helplessness, particularly around the themes of vulnerability and the need for reassurance. Rachel's ability to articulate her physical sensations and emotional struggles indicates a growing comfort level with the therapist and a willingness to explore her feelings more deeply. The mention of feeling a \u201ctightness in her chest\u201d while reflecting on her emotions shows a heightened awareness of her internal state, which is a clear indicator of emotional exploration.\n\n**Notable Turning Point:** \nA notable turning point occurs when Rachel acknowledges the fear of being judged or seen as weak if she shares her feelings with Ivan. This moment marks a shift from primarily expressing frustration to a deeper level of self-reflection, where she identifies specific fears and anxieties that contribute to her emotional struggle. Her willingness to explore what reassurance means to her and her recognition of the internal conflict between wanting to be strong and needing support illustrates her movement into a more introspective space.\n\nOverall, Rachel is moving into the \"Engaged Exploration"
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It makes sense that being in a quiet environment at home helps you feel safer to express yourself. The second-guessing and desire for reassurance can really add to the pressure of sharing your thoughts. It\u2019s perfectly okay to not have everything figured out right away, and recognizing that is an important step.\n\nWhat do you think could help you feel more at ease in those moments when you\u2019re unsure about communicating? Are there small things you can do to remind yourself that it\u2019s okay to take your time with this?",
+      "client": "I guess maybe I could try reminding myself that it's a process, not a performance. Like, just letting go of the idea that I have to get everything right might help me focus more on just being honest. But then again, I still feel that pressure, like I should be better at this by now.",
+      "openness_judgment": null
+    }
+  ]
+}

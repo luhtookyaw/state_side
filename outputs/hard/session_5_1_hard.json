@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "5-1",
+  "patient_name": "Chris",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\"\n2. \"Just sitting with that doubt makes me really tense; I want to run away from it.\"\n\n**Progression:** The client demonstrates a mix of emotional expression and self-reflection in their recent interactions. They are articulating feelings of anxiety and frustration, indicating a notable shift from earlier responses that were likely more factual and less emotionally charged. The current exchanges show a willingness to explore deeper feelings related to self-worth and the pressure associated with their project, marking a significant change from a potential earlier state characterized by minimal emotional disclosure.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their physical sensations and emotional states, specifically when they expressed the tightness in their chest and the racing of their heart while reflecting on their doubts. This moment represents a transition from a more defensive stance to a place of vulnerability, as they began to confront their feelings of frustration and the implications of feeling \"stuck.\""
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\u201d This statement reveals the client's struggle with self-doubt and anxiety, indicating an emotional depth that has progressed from earlier exchanges.\n  \n2. **Current Openness:** \u201cAcknowledging the uncertainty feels like standing on the edge of a cliff, looking down at all the possibilities.\u201d Here, the client demonstrates a meaningful self-reflection and a willingness to explore their discomfort, indicating a growing comfort in discussing emotions.\n\n**Progression:**\nIn recent interactions, the client has moved from primarily expressing frustration and anxiety towards a deeper level of self-reflection and vulnerability. Initially, the client was hesitant and defensive, focusing on factual descriptions of their situation and feelings (e.g., \"I don\u2019t know what gives it meaning, honestly\"). However, the latest exchanges show a marked improvement in emotional expression, with the client actively engaging in dialogue about their feelings of panic and uncertainty regarding the project. This shift signals a deeper exploration of their emotional state, allowing for more authentic communication with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth significantly shifted when they began to articulate their feelings of panic associated with questioning their project: \u201cIt brings up this feeling of panic, like if I start questioning everything, I might end up realizing I shouldn\u2019t have even started this project in the first place.\u201d This moment represents a breakthrough in acknowledging their fears and uncertainties, illustrating a willingness to confront their discomfort rather than immediately distract themselves. This reflection marks a notable progression in their emotional openness and rapport with the therapist."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\"\n2. \"I guess it just feels frustrating. I don't know, I think about how I've put in so much effort, and then it feels like it might not mean anything at all.\"\n\n**Progression:** In the recent exchanges, the client demonstrated a meaningful progression in emotional expression and self-reflection. Initially, they expressed feelings of being \"stuck\" and anxious about the website project, indicating a mix of frustration and self-doubt. However, as the conversation progressed, the client began to articulate their feelings more deeply, using phrases such as \"feels like pressure,\" and discussing physical sensations tied to their anxiety. This marks a shift from a more defensive stance at the beginning of the session to a willingness to explore their emotions and the significance of their project, reflecting a deeper engagement with their internal experience.\n\n**Turning Point:** A notable turning point occurred when the client began expressing their fears about questioning the worth of their project: \"I guess part of me thinks if I sit here too long, I\u2019ll just end up questioning everything I\u2019ve done.\" This moment marked a shift toward greater vulnerability, as the client acknowledged their fear of facing uncertainty and the implications it holds for their sense of self-worth and effort. It represents a significant step in the therapeutic process, allowing for deeper exploration of their emotions and the underlying pressures they feel."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI guess it just feels frustrating. I don't know, I think about how I've put in so much effort, and then it feels like it might not mean anything at all. Just sitting with that doubt makes me really tense; I want to run away from it.\u201d\n   \n2. **Openness:** \u201cI can feel my heart racing, and it's like my mind just wants to escape. Breathing into it? I don't know if that really helps; it just feels like I'm stuck in this loop of frustration. I just want to get past this part and move on already.\u201d\n\n**Progression:** In recent exchanges, Chris demonstrates a notable increase in emotional expression and self-reflection compared to earlier interactions. Initially, he presented a more defensive stance, primarily speaking about feeling \"stuck\" without delving deeply into the emotions behind it. As the session progressed, he began to articulate feelings of frustration, tension, and anxiety more openly, marking a significant shift towards engaging with his emotional experience. The dialogue reflects a growing comfort in sharing his struggles, as evidenced by his willingness to explore the sensations in his body and the emotional impact of his thoughts.\n\n**Turning Point:** The client's emotional depth shifted during the moment when he shared, \u201cI want to feel like it matters, but when I\u2019m stuck, it feels pointless.\u201d This statement illustrates a deeper level of vulnerability and acknowledgment of his feelings of inadequacy and frustration related to his project. This moment signifies a turning point in his willingness to confront the emotions underlying his deflection and avoidance strategies, ultimately leading to a more authentic engagement with the therapeutic process."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Chris, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, I guess I\u2019m just feeling stuck with this website project. It\u2019s like I get all excited, but then it just fizzles out.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like there\u2019s a cycle of excitement and then a feeling of being stuck that you\u2019re experiencing with the website project. That can be really frustrating. What do you notice in your thoughts or feelings when that excitement starts to fade?",
+      "client": "I just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up. It\u2019s easier to scroll through social media than deal with it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like that shift from excitement to doubt is really challenging for you. Feeling anxious and then finding comfort in distractions like social media is something many people experience when they feel overwhelmed. What do you think that says about what\u2019s important to you in this project? And as you mention freezing up, what kind of physical sensations or thoughts come up for you in those moments?",
+      "client": "I don\u2019t know, it just feels like pressure, like I\u2019m not good enough. My thoughts race, and I can\u2019t focus; it\u2019s like my brain shuts down. I guess I just want to feel like it matters, but when I\u2019m stuck, it feels pointless.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds like that pressure and feeling of not being good enough really weighs heavily on you, especially when you\u2019re trying to engage with something that matters to you. It\u2019s understandable to feel like it\u2019s pointless when you hit that wall of being stuck. When you think about what gives the project meaning for you, what comes to mind? And as you describe your brain shutting down, what sensations do you notice in your body during those moments?",
+      "client": "I don\u2019t know what gives it meaning, honestly. It's just a project. When I get stuck, my chest feels tight, and my hands get all sweaty. I just wish I could feel like it was worth my time, but it\u2019s like I\u2019m constantly doubting myself.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like the physical sensations you're experiencing\u2014tightness in your chest and sweaty hands\u2014are really connected to that feeling of doubt and questioning the value of your time and effort. It\u2019s completely understandable to wish for that sense of worth in what you\u2019re doing. \n\nIf you\u2019re comfortable, we could explore what you feel when you think about the project being just a project. What thoughts or feelings come up for you in those moments? And how does it feel to just sit with that doubt for a little while?",
+      "client": "I guess it just feels frustrating. I don't know, I think about how I've put in so much effort, and then it feels like it might not mean anything at all. Just sitting with that doubt makes me really tense; I want to run away from it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Frustration seems to be a big part of your experience, especially when you reflect on the effort you've invested. It makes sense that the thought of it possibly not meaning anything could feel overwhelming and cause that tension. \n\nAs you think about wanting to run away from that feeling, what do you notice in your body or your thoughts? Can you find a moment to pause and just breathe into that tension, even if it\u2019s just for a few seconds?",
+      "client": "I can feel my heart racing, and it's like my mind just wants to escape. Breathing into it? I don't know if that really helps; it just feels like I'm stuck in this loop of frustration. I just want to get past this part and move on already.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\"\n2. \"Just sitting with that doubt makes me really tense; I want to run away from it.\"\n\n**Progression:** The client demonstrates a mix of emotional expression and self-reflection in their recent interactions. They are articulating feelings of anxiety and frustration, indicating a notable shift from earlier responses that were likely more factual and less emotionally charged. The current exchanges show a willingness to explore deeper feelings related to self-worth and the pressure associated with their project, marking a significant change from a potential earlier state characterized by minimal emotional disclosure.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their physical sensations and emotional states, specifically when they expressed the tightness in their chest and the racing of their heart while reflecting on their doubts. This moment represents a transition from a more defensive stance to a place of vulnerability, as they began to confront their feelings of frustration and the implications of feeling \"stuck.\""
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It sounds like you're experiencing a lot of intensity right now, with your heart racing and that urge to escape. It's tough to feel stuck in a cycle of frustration, especially when you're eager to move forward. \n\nWhat do you think is making it hard to break that loop? If you were to sit with that frustration a little longer, what do you imagine it might reveal about what you really want or need in this situation?",
+      "client": "I don't know, maybe it's that I want reassurance that what I'm doing is worth it. Sitting with the frustration just feels like I\u2019m admitting defeat or something. I guess part of me thinks if I sit here too long, I\u2019ll just end up questioning everything I\u2019ve done.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It sounds like wanting reassurance is really important to you, and I can see how sitting with that frustration might feel like a risk, almost like you\u2019re questioning your own efforts. Acknowledging that fear of defeat is significant\u2014it speaks to how much you care about what you\u2019re doing. \n\nIf you were to explore that fear of questioning everything, what do you notice about what it brings up for you? What would it feel like to allow those questions to be there without needing to have all the answers right away?",
+      "client": "It brings up this feeling of panic, like if I start questioning everything, I might end up realizing I shouldn\u2019t have even started this project in the first place. It\u2019s like, what if I\u2019m just wasting my time? I don\u2019t know if I can handle that kind of uncertainty right now.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "That sense of panic around questioning your project is really understandable. It sounds like there's a lot at stake for you, and the fear of realizing you might have wasted your time feels heavy. It\u2019s okay to feel that way\u2014uncertainty can be really challenging to sit with.\n\nWhat do you think it would mean for you to acknowledge that uncertainty without having to make any decisions right now? If you could just notice it for a moment, what would that look like for you?",
+      "client": "Acknowledging the uncertainty feels like standing on the edge of a cliff, looking down at all the possibilities. I guess it would mean allowing myself to be uncomfortable for a bit, without rushing to conclusions. But it's hard to just sit there when my instinct is to jump back into action or avoid it altogether.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like you're recognizing that sitting with that discomfort can feel quite daunting, almost like being on a precipice while your instinct is to leap into action. That image of standing at the edge conveys a lot about the intensity of those feelings. \n\nWhat do you think makes it challenging to allow yourself that space to be uncomfortable? And how do you typically respond to that instinct to jump back into action?",
+      "client": "I think what makes it challenging is that sitting with discomfort feels like I'm just waiting for something bad to happen. I usually respond by diving into something else, like scrolling through social media or getting lost in my thoughts. It\u2019s like I need to distract myself to avoid facing whatever's looming over me.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It seems like the discomfort leads you to seek out distractions, almost as a way to protect yourself from that looming sense of unease. It\u2019s understandable to want to avoid those feelings, especially when they feel heavy or uncertain. \n\nWhat do you notice in your body when you start to feel that discomfort? And when you choose to distract yourself, does that bring you any relief, or does it create a different kind of feeling?",
+      "client": "When I feel that discomfort, I notice my shoulders get really tense and my stomach feels tight. Diving into distractions gives me a temporary escape, but it often leaves me feeling more anxious afterward, like I\u2019m just pushing things aside instead of dealing with them. It\u2019s frustrating because I know I\u2019m not really solving anything.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It sounds frustrating to recognize that while distractions might offer a brief escape, they ultimately leave you feeling more anxious and like the underlying issues are still there. That tension in your shoulders and the tightness in your stomach must add to that sense of being stuck. \n\nWhat do you think it would be like to acknowledge those physical sensations without immediately reaching for distractions? And how might you start to explore the discomfort instead?",
+      "client": "I guess it would be a bit intimidating to just sit with those feelings. Part of me thinks I\u2019d just spiral further into anxiety if I confronted them directly. I don\u2019t know if I\u2019m ready to really explore what's behind that discomfort yet.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\u201d This statement reveals the client's struggle with self-doubt and anxiety, indicating an emotional depth that has progressed from earlier exchanges.\n  \n2. **Current Openness:** \u201cAcknowledging the uncertainty feels like standing on the edge of a cliff, looking down at all the possibilities.\u201d Here, the client demonstrates a meaningful self-reflection and a willingness to explore their discomfort, indicating a growing comfort in discussing emotions.\n\n**Progression:**\nIn recent interactions, the client has moved from primarily expressing frustration and anxiety towards a deeper level of self-reflection and vulnerability. Initially, the client was hesitant and defensive, focusing on factual descriptions of their situation and feelings (e.g., \"I don\u2019t know what gives it meaning, honestly\"). However, the latest exchanges show a marked improvement in emotional expression, with the client actively engaging in dialogue about their feelings of panic and uncertainty regarding the project. This shift signals a deeper exploration of their emotional state, allowing for more authentic communication with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth significantly shifted when they began to articulate their feelings of panic associated with questioning their project: \u201cIt brings up this feeling of panic, like if I start questioning everything, I might end up realizing I shouldn\u2019t have even started this project in the first place.\u201d This moment represents a breakthrough in acknowledging their fears and uncertainties, illustrating a willingness to confront their discomfort rather than immediately distract themselves. This reflection marks a notable progression in their emotional openness and rapport with the therapist."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel intimidated by the idea of sitting with those feelings, especially when they seem overwhelming. Recognizing that part of you is concerned about spiraling further is important. \n\nWe don\u2019t have to rush into exploring those feelings if it doesn\u2019t feel right. Would it be helpful to take some time to think about what it might look like to approach them gradually, or perhaps explore how you might manage that discomfort in smaller doses?",
+      "client": "I think taking it gradually could make it feel less overwhelming. Maybe I could try acknowledging those sensations for just a few moments instead of diving right into everything. It seems a bit less scary that way, but I'm still not sure how I'd manage it in practice.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Acknowledging those sensations for just a few moments sounds like a thoughtful approach. It makes sense that breaking it down into smaller steps could help it feel more manageable. \n\nWhat do you think would feel most comfortable for you in those moments of acknowledgment? Would it help to have a specific focus, like your breathing or the physical sensations themselves?",
+      "client": "Maybe focusing on my breathing could help. It feels like something I can control, unlike everything else going on in my head. I think if I can just take a few deep breaths and notice the tension, it might not feel as overwhelming.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Focusing on your breathing sounds like a great way to create a sense of control in those moments. It\u2019s a practical tool to ground yourself and connect with your body amid the tension. \n\nAs you think about taking those deep breaths and noticing the tension, what sensations or feelings do you anticipate you might encounter? How do you imagine it might feel to acknowledge those sensations while focusing on your breath?",
+      "client": "I guess I could expect to feel a mix of anxiety and maybe some tightness in my chest. Acknowledging those sensations while trying to breathe might be uncomfortable, but part of me thinks it could also help me see them for what they are\u2014just sensations, not necessarily overwhelming. It\u2019s just hard to imagine really staying with that feeling instead of wanting to escape it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re anticipating a challenging but potentially insightful experience as you consider staying with those sensations. Acknowledging the mix of anxiety and tightness in your chest while focusing on your breath could indeed create a different relationship with those feelings. \n\nWhat do you think might help you stay present with those sensations, even if it feels uncomfortable? And how do you feel about the idea of seeing them as just sensations, rather than something overwhelming?",
+      "client": "I think maybe reminding myself that it's okay to feel uncomfortable could help. I mean, it's just part of the process, right? But then again, there's this voice in my head that tells me to just avoid it or distract myself instead. It feels like a tug-of-war between wanting to confront those feelings and just running away from them.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you recognize this tug-of-war between wanting to confront those feelings and the urge to avoid them. Acknowledging that discomfort is part of the process is a valuable perspective, even when it feels challenging. \n\nAs you think about those two opposing voices, what do you notice in your body or your thoughts when you\u2019re leaning toward one side or the other? How does it feel to hold both desires\u2014the wish to confront and the impulse to escape?",
+      "client": "I can feel this tension in my shoulders when I lean towards confronting those feelings, like there's this weight pushing down on me. But when I think about escaping, it\u2019s almost like a release, even if it\u2019s just temporary. Part of me knows that confronting them might lead to something better, but I can't shake that urge to just avoid it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re really tuning into the physical sensations that accompany each choice you\u2019re facing. The tension in your shoulders when you think about confronting those feelings suggests there\u2019s a significant weight there, while the release you feel when considering escape offers a momentary sense of relief. \n\nWhat do you think that tension and release say about what this struggle means for you? Can you share more about how it feels to hold both the desire for confrontation and the urge to avoid?",
+      "client": "I guess the tension feels like a reminder of all the pressure I put on myself, like I'm expected to handle everything perfectly. But the release when I think about avoiding it is so tempting\u2014it's almost like a little break from that pressure. It's frustrating because I know facing it might be better in the long run, but that immediate relief is hard to resist.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I just start thinking maybe it\u2019s not worth it, like I\u2019ll never make it good enough. Then I feel anxious, and I just freeze up.\"\n2. \"I guess it just feels frustrating. I don't know, I think about how I've put in so much effort, and then it feels like it might not mean anything at all.\"\n\n**Progression:** In the recent exchanges, the client demonstrated a meaningful progression in emotional expression and self-reflection. Initially, they expressed feelings of being \"stuck\" and anxious about the website project, indicating a mix of frustration and self-doubt. However, as the conversation progressed, the client began to articulate their feelings more deeply, using phrases such as \"feels like pressure,\" and discussing physical sensations tied to their anxiety. This marks a shift from a more defensive stance at the beginning of the session to a willingness to explore their emotions and the significance of their project, reflecting a deeper engagement with their internal experience.\n\n**Turning Point:** A notable turning point occurred when the client began expressing their fears about questioning the worth of their project: \"I guess part of me thinks if I sit here too long, I\u2019ll just end up questioning everything I\u2019ve done.\" This moment marked a shift toward greater vulnerability, as the client acknowledged their fear of facing uncertainty and the implications it holds for their sense of self-worth and effort. It represents a significant step in the therapeutic process, allowing for deeper exploration of their emotions and the underlying pressures they feel."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It\u2019s really valuable that you\u2019re recognizing how that tension reflects the pressure you feel to handle everything perfectly. It makes sense that the promise of immediate relief is so tempting when you're under that kind of strain. \n\nAs you navigate these feelings, what do you notice about the expectations you\u2019ve placed on yourself? What does that sense of frustration reveal to you about what you need or want right now?",
+      "client": "The expectations I've put on myself feel almost suffocating at times, like I have to prove my worth through my projects. That frustration makes me realize I might need to be kinder to myself and allow for mistakes. I guess deep down, I want to feel like I can try without it being a matter of life or death.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you\u2019re recognizing the suffocating nature of those expectations and how they tie into your sense of worth. The idea of wanting to be kinder to yourself and allowing space for mistakes is a powerful realization. \n\nAs you consider this need for self-compassion, what do you think it would look like to give yourself that allowance? How might it change your relationship with your projects and your own sense of worth?",
+      "client": "I\u2019m not sure what self-compassion really looks like for me. I guess it could mean giving myself time to explore my projects without the pressure to have everything perfect right away. Maybe if I could approach them with more curiosity instead of fear, I wouldn't feel so stuck.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like the idea of approaching your projects with curiosity rather than fear is a significant shift for you. Giving yourself that time to explore could really open up new possibilities. \n\nAs you think about this shift in perspective, what do you notice about the feelings that come up when you imagine exploring your projects more freely? What might that curiosity feel like in your body or mind?",
+      "client": "Imagining that curiosity makes me feel a bit lighter, like there's less weight on my chest. But there's also this nagging fear that if I let go of the pressure, I might just end up not finishing anything at all. It's like a tug-of-war between wanting to explore and the fear of just drifting away from my goals.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It's interesting to hear how imagining that curiosity brings a sense of lightness, while also feeling that tug-of-war with fear. It makes sense that there would be conflicting feelings about letting go of pressure, especially when goals are involved. \n\nCan we slow that down a bit? What do you notice about that fear of not finishing anything? What does it bring up for you when you think about the possibility of drifting away from your goals?",
+      "client": "That fear of not finishing anything feels like a reminder of past projects I abandoned. It makes me anxious because it ties back to this belief that if I don't succeed, I'm somehow not valuable. It\u2019s frustrating, you know? Like I can\u2019t shake off the feeling that everyone is watching and judging my every move.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like that fear is connected to some deeper feelings about your value and how you perceive others' judgments. The anxiety linked to past projects can be really heavy, especially when it feels like there\u2019s pressure from others watching your progress. \n\nWhat do you notice about how these thoughts and feelings impact your motivation or your approach to your current projects? How does it feel in your body when those reminders come up?",
+      "client": "I think those thoughts definitely drain my motivation. Whenever I feel that pressure, it\u2019s like my body tenses up, and I just want to avoid the work altogether. It\u2019s frustrating because I know I could create something valuable, but then I get stuck in this cycle of anxiety and doubt.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds really challenging to feel that tension in your body when pressure mounts, leading to avoidance instead of engagement. It\u2019s understandable to feel frustrated when you recognize the potential for creating something valuable but find yourself caught in anxiety and doubt. \n\nWhat do you notice in those moments when you feel that urge to avoid the work? How do you usually respond to that tension and the cycle of feelings that follow?",
+      "client": "When I feel that urge to avoid the work, I often end up scrolling through social media or daydreaming about what I could be doing instead. It\u2019s like a temporary escape, but then I just feel worse afterward. I guess part of me thinks it\u2019s easier to distract myself than to face the anxiety of actually working on the project.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \u201cI guess it just feels frustrating. I don't know, I think about how I've put in so much effort, and then it feels like it might not mean anything at all. Just sitting with that doubt makes me really tense; I want to run away from it.\u201d\n   \n2. **Openness:** \u201cI can feel my heart racing, and it's like my mind just wants to escape. Breathing into it? I don't know if that really helps; it just feels like I'm stuck in this loop of frustration. I just want to get past this part and move on already.\u201d\n\n**Progression:** In recent exchanges, Chris demonstrates a notable increase in emotional expression and self-reflection compared to earlier interactions. Initially, he presented a more defensive stance, primarily speaking about feeling \"stuck\" without delving deeply into the emotions behind it. As the session progressed, he began to articulate feelings of frustration, tension, and anxiety more openly, marking a significant shift towards engaging with his emotional experience. The dialogue reflects a growing comfort in sharing his struggles, as evidenced by his willingness to explore the sensations in his body and the emotional impact of his thoughts.\n\n**Turning Point:** The client's emotional depth shifted during the moment when he shared, \u201cI want to feel like it matters, but when I\u2019m stuck, it feels pointless.\u201d This statement illustrates a deeper level of vulnerability and acknowledgment of his feelings of inadequacy and frustration related to his project. This moment signifies a turning point in his willingness to confront the emotions underlying his deflection and avoidance strategies, ultimately leading to a more authentic engagement with the therapeutic process."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like those distractions provide a bit of relief, even if it's just temporary. It makes sense that you might choose to escape rather than confront the anxiety of diving into your work. The cycle of distraction and then feeling worse afterward can be really frustrating.\n\nWhat do you notice about your feelings or thoughts after you\u2019ve distracted yourself? Is there something about that experience that stands out to you?",
+      "client": "After I distract myself, I often feel a sense of guilt or regret. I think about how much time I've wasted, and it just adds to the anxiety. It's like I know I should be doing something productive, but instead, I just end up feeling worse about myself.",
+      "openness_judgment": null
+    }
+  ]
+}

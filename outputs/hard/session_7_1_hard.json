@@ -1,0 +1,226 @@
+{
+  "mode": "hard",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "patient_id": "7-1",
+  "patient_name": "Bryce",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I don't know, maybe it's just that I've always tied my self-worth to work and being productive. If I'm not getting paid or recognized, it feels like a waste of time.\"\n2. \"It feels like if I stop trying to achieve, I\u2019ll just fall into this pit of doing nothing. It\u2019s scary to think about what that would look like.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant level of emotional expression surrounding their self-worth and productivity. They articulate feelings of doubt and depression about their projects, reflecting a deeper emotional quality than earlier sessions. This progression indicates they are beginning to confront underlying beliefs about their value and the pressures they face regarding achievement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their fear of failing to achieve and the implications of feeling like they are wasting their time. This moment marked a transition where the client moved from a more generalized expression of doubt to a deeper acknowledgment of the fear that underlies their beliefs about productivity and self-worth. This acknowledgment signifies a growing awareness of their emotional state and a willingness to explore it further."
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit. My mind races with all the things I should be doing instead.\"\n2. \"I think it highlights that I value both productivity and some form of self-care, but I end up feeling like I have to choose one over the other.\"\n\n**Progression:** The client\u2019s recent interactions reveal a noticeable increase in emotional expression, particularly regarding their feelings of pressure and self-worth connected to productivity. Earlier in the session, the client expressed doubts about their projects and feelings of worthlessness, indicating a more defensive and fact-based stance. However, as the session progressed, their emotional depth increased, exemplified by the articulation of physical sensations related to their anxiety and a clearer acknowledgment of their internal conflict between productivity and self-care. This transition marks significant growth in emotional openness and reflects a developing trust in the therapeutic relationship.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate the physical sensations accompanying their emotional struggles, specifically during the exchange about feeling a \"tightness in [their] chest.\" This moment signified a deepening awareness of their emotional state and a willingness to explore the underlying causes of their discomfort, indicating a move towards deeper engagement in the therapeutic process."
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit.\"\n2. \"I think it shows that I equate my worth with my output. If I\u2019m not creating or accomplishing something, it feels like I\u2019m just\u2026taking up space.\"\n\n**Progression:** The client has demonstrated a marked increase in emotional expression and self-reflection during the most recent exchanges. Initially, they presented more factual responses and a sense of internal conflict. However, as the session progressed, they began to articulate feelings of depression and frustration regarding their productivity, revealing a deeper level of emotional openness. The recent exchanges reflect a significant shift toward exploring complex feelings around self-worth, achievement, and the pressure to be productive. The client is starting to connect their emotions to tangible physical sensations, indicating a deeper level of engagement in the therapeutic process.\n\n**Turning Point:** A notable turning point occurred when the client discussed the tightness in their chest associated with the idea of taking a break. This moment highlighted their internal struggle between the desire for self-care and the pressure to be productive. It was here that the client began to articulate the emotional weight of their beliefs more clearly, moving from a phase of avoidance to a deeper exploration of their emotional state. This shift reflects an emerging recognition of their internal conflicts, which is pivotal for future therapeutic work."
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit. My mind races with all the things I should be doing instead.\"\n2. **Openness:** \"I think it highlights that I value both productivity and some form of self-care, but I end up feeling like I have to choose one over the other.\"\n\n**Progression Analysis:** \nThe client demonstrates clear progression towards deeper emotional exploration in recent exchanges. Initially, there were signs of ambivalence and defensiveness, particularly in the client's hesitance to acknowledge deeper feelings around productivity and self-worth. However, the latest interactions show a marked increase in emotional expression, with the client articulating feelings of sadness, anxiety, and pressure tied to their self-worth. They are beginning to engage more actively with the therapist's prompts, reflecting meaningfully on their experiences, which indicates a growing comfort level. The client has moved from a place of merely identifying feelings to expressing them in a more nuanced manner, suggesting an increase in both self-awareness and vulnerability.\n\n**Notable Turning Point:** \nA notable turning point occurred when the client articulated their internal conflict about productivity versus self-care: \u201cI guess it\u2019s just that I\u2019ve always tied my self-worth to work and being productive.\u201d This moment marked a shift in the client's emotional state, as they began acknowledging not only their feelings about their work but also the deeper reasons behind those feelings. This recognition of the conflicting pressures they face represents significant emotional depth, contributing to their current level of engagement in the therapeutic process."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Bryce, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I guess I've been thinking about these projects I've started, like the website. But honestly, what's the point? It feels like no one would care, and I'm not even getting paid for it.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re grappling with some doubts about the value of your projects and how they fit into your life right now. That's a tough place to be in. What do you think has led you to feel that way about the website and your other projects?",
+      "client": "I don't know, maybe it's just that I've always tied my self-worth to work and being productive. If I'm not getting paid or recognized, it feels like a waste of time. I just end up scrolling through social media instead, and it\u2019s not really fulfilling.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like there's a strong connection for you between your self-worth and your productivity, which can create a lot of pressure. It\u2019s understandable to feel that way, especially when you\u2019re not getting the recognition you hoped for. As you share this, what do you notice about how it feels to think of your projects in that light?",
+      "client": "I don\u2019t know, it just feels kind of depressing. Like why even bother when it seems pointless? I always feel like I should be doing something that matters, you know?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It\u2019s understandable to feel that way when you\u2019re questioning the meaning behind your efforts. That sense of wanting your work to matter can weigh heavily, especially when you\u2019re feeling stuck. What do you think it is about doing something that matters that feels important to you?",
+      "client": "I guess it\u2019s just that I\u2019ve always been taught that hard work leads to recognition and success. If I\u2019m not making an impact or getting acknowledged, it feels like I\u2019m failing somehow. It\u2019s like I\u2019m just wasting my time, and that\u2019s hard to accept.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "That perspective really highlights the expectations you've carried about work and success. It sounds like those teachings have created a strong sense of pressure around how you evaluate your efforts. Accepting that feeling of potentially wasting time can be challenging. What do you think makes it hard to accept that idea?",
+      "client": "I don\u2019t know, maybe because I've always been told that time is valuable. If I\u2019m not working or doing something \"productive,\" then what am I really doing with my life? It just feels like I should be achieving something, you know?",
+      "openness_judgment": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds like the idea of productivity is deeply ingrained for you, and that adds to the pressure you feel. It\u2019s understandable that questioning what you\u2019re doing with your life can lead to feelings of unease. What do you think it would feel like to step away from that pressure to achieve and just be for a moment?",
+      "client": "I don\u2019t think I can just be. It feels like if I stop trying to achieve, I\u2019ll just fall into this pit of doing nothing. It\u2019s scary to think about what that would look like.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I don't know, maybe it's just that I've always tied my self-worth to work and being productive. If I'm not getting paid or recognized, it feels like a waste of time.\"\n2. \"It feels like if I stop trying to achieve, I\u2019ll just fall into this pit of doing nothing. It\u2019s scary to think about what that would look like.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant level of emotional expression surrounding their self-worth and productivity. They articulate feelings of doubt and depression about their projects, reflecting a deeper emotional quality than earlier sessions. This progression indicates they are beginning to confront underlying beliefs about their value and the pressures they face regarding achievement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their fear of failing to achieve and the implications of feeling like they are wasting their time. This moment marked a transition where the client moved from a more generalized expression of doubt to a deeper acknowledgment of the fear that underlies their beliefs about productivity and self-worth. This acknowledgment signifies a growing awareness of their emotional state and a willingness to explore it further."
+      }
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "That fear of falling into a pit of doing nothing sounds really significant for you. It makes sense that the thought of stepping back could feel overwhelming, especially when you've been conditioned to equate your worth with achievement. What do you notice in your body or mind when you think about stopping or slowing down?",
+      "client": "When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit. My mind races with all the things I should be doing instead. It\u2019s almost like I can\u2019t let myself relax or I\u2019ll just spiral down.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest sounds really uncomfortable, and it seems like there's a lot of pressure coming from your thoughts about what you should be doing. It's understandable to feel that way when you're caught between the desire to achieve and the fear of not doing enough. What do you think happens in those moments when your mind starts racing with all those thoughts?",
+      "client": "I guess when my mind starts racing, I just end up shutting down. It\u2019s like I can\u2019t focus on anything, so I just scroll through social media or find some distraction to avoid facing it all. But then I just feel worse afterward, like I wasted more time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It sounds like that cycle of shutting down and seeking distractions leaves you feeling pretty frustrated and perhaps even more overwhelmed afterward. It\u2019s understandable to want to avoid those racing thoughts, especially when they feel so heavy. When you notice yourself scrolling through social media or seeking distractions, what do you think you\u2019re hoping to find in those moments?",
+      "client": "I guess I\u2019m just looking for a break, something to take my mind off everything. But then it\u2019s like I just trade one problem for another, you know? I don\u2019t really find anything fulfilling there; it just feels empty.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It makes sense that you're seeking a break when everything feels so overwhelming. That feeling of trading one problem for another can be really frustrating, especially when the distractions don\u2019t bring any real satisfaction. As you reflect on this, what do you notice about your experience in those moments when you're looking for a break? Are there specific feelings or thoughts that come up for you?",
+      "client": "When I'm looking for a break, I usually feel this mix of sadness and disappointment. Part of me thinks I should be doing something more productive, but another part just wants to escape. It\u2019s confusing because I know I need a breather, but it often just leads to more frustration.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a real tension between wanting to give yourself a break and feeling the pressure to be productive. The mix of sadness and disappointment you mentioned can be difficult to navigate, especially when you're seeking relief but end up feeling more frustrated. Can we slow down a bit and explore what that confusion feels like for you? What thoughts or emotions come up when you're caught between those two parts of yourself?",
+      "client": "It\u2019s like I\u2019m in this tug-of-war with myself. One part feels guilty for not working on my projects, thinking I should be more productive, while the other just wants to relax for a bit. I guess it just makes me feel even more unhappy, like I can\u2019t win either way.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That tug-of-war sounds really exhausting, Bryce. Feeling like you're stuck in that cycle of guilt and the desire to relax can create a lot of unhappiness. It\u2019s understandable to want to find balance, but it seems like each side is pulling you in different directions. As you notice those feelings of unhappiness, what do you think that tells you about what you need or value in those moments?",
+      "client": "I think it highlights that I value both productivity and some form of self-care, but I end up feeling like I have to choose one over the other. Part of me knows I should allow myself to take a break without feeling guilty, but it feels like a luxury I can\u2019t afford. It's frustrating because I know those projects mean something to me, yet I also recognize I need to recharge.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit. My mind races with all the things I should be doing instead.\"\n2. \"I think it highlights that I value both productivity and some form of self-care, but I end up feeling like I have to choose one over the other.\"\n\n**Progression:** The client\u2019s recent interactions reveal a noticeable increase in emotional expression, particularly regarding their feelings of pressure and self-worth connected to productivity. Earlier in the session, the client expressed doubts about their projects and feelings of worthlessness, indicating a more defensive and fact-based stance. However, as the session progressed, their emotional depth increased, exemplified by the articulation of physical sensations related to their anxiety and a clearer acknowledgment of their internal conflict between productivity and self-care. This transition marks significant growth in emotional openness and reflects a developing trust in the therapeutic relationship.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to articulate the physical sensations accompanying their emotional struggles, specifically during the exchange about feeling a \"tightness in [their] chest.\" This moment signified a deepening awareness of their emotional state and a willingness to explore the underlying causes of their discomfort, indicating a move towards deeper engagement in the therapeutic process."
+      }
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re really grappling with the importance of both productivity and self-care. It\u2019s insightful that you recognize the value in both, yet feel caught in a position where you have to choose. That recognition of needing to recharge speaks to a deeper understanding of your limits. \n\nAs you reflect on that feeling of needing to recharge, what do you notice in your body or in your thoughts when you consider taking a break without guilt?",
+      "client": "When I think about taking a break without guilt, I start to feel tightness in my chest. It\u2019s like my brain just won\u2019t let me relax; I keep thinking about everything I should be doing instead. Part of me knows I need that break, but another part feels like it\u2019s just not allowed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest when you think about taking a break sounds really significant. It seems like there's a strong internal conflict happening between your body\u2019s need for rest and your mind\u2019s push to be productive. That tension can make it hard to find a moment of peace.\n\nAs you sit with that feeling, what else comes up for you? Are there specific thoughts or beliefs that you notice reinforcing that sense of being \"not allowed\" to take a break?",
+      "client": "I guess I keep thinking that I should be constantly working on something meaningful, like my projects. It\u2019s like I\u2019ve internalized this belief that if I\u2019m not productive, I\u2019m wasting time. It\u2019s tough to shake that off, especially when I feel like I\u2019m already falling behind.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a strong sense of obligation tied to your projects and productivity, which makes it difficult to allow yourself to take a break. That belief about wasting time if you\u2019re not working can really weigh heavily, especially when you feel like you\u2019re falling behind. \n\nAs you explore this belief, what do you think it says about what you value or how you define meaning in your work?",
+      "client": "I think it shows that I equate my worth with my output. If I\u2019m not creating or accomplishing something, it feels like I\u2019m just\u2026taking up space. It\u2019s hard to see value in anything outside of that.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It\u2019s powerful to hear you articulate that connection between your worth and your output. Recognizing that can be a significant insight. It seems like there's a lot of pressure for you to always be creating, and that can create a cycle that\u2019s hard to break.\n\nAs you reflect on that feeling of taking up space when you're not being productive, what do you notice in your body or your emotions? Does the thought of that bring up any particular sensations or feelings for you?",
+      "client": "When I think about just taking up space, it feels heavy, like I\u2019m just\u2026 existing without purpose. It makes me feel sad and a bit anxious, like I should be doing something more important. I can\u2019t help but think that if I\u2019m not contributing, then I\u2019m just wasting my time.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like the idea of just existing without a specific purpose brings up some really heavy emotions for you, like sadness and anxiety. That feeling of needing to contribute can be quite overwhelming. \n\nAs you sit with those emotions, what do you notice about how they affect your thoughts or your day-to-day experiences? Is there something in particular that feels especially challenging when you\u2019re grappling with that sense of weight?",
+      "client": "It definitely makes it hard to start anything, you know? I just end up scrolling on social media or doing mindless stuff to avoid that heaviness. It\u2019s like I\u2019m stuck between feeling like I should be doing something and just not wanting to deal with the pressure of it all.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable that feeling caught between that pressure and the desire to avoid it can lead to feeling stuck. It sounds like those moments of scrolling or doing mindless activities might be a way to cope with that heaviness. \n\nWhat do you think it is about starting something that feels so challenging in those moments? Can you describe what goes through your mind when you try to shift from that avoidance to taking action?",
+      "client": "I guess when I try to start something, my mind just fills with doubts, like, \u201cWhat\u2019s the point?\u201d It feels like I need to be perfect right away, or else I shouldn\u2019t even bother. It's frustrating because I know I want to do something, but that pressure just shuts me down.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit.\"\n2. \"I think it shows that I equate my worth with my output. If I\u2019m not creating or accomplishing something, it feels like I\u2019m just\u2026taking up space.\"\n\n**Progression:** The client has demonstrated a marked increase in emotional expression and self-reflection during the most recent exchanges. Initially, they presented more factual responses and a sense of internal conflict. However, as the session progressed, they began to articulate feelings of depression and frustration regarding their productivity, revealing a deeper level of emotional openness. The recent exchanges reflect a significant shift toward exploring complex feelings around self-worth, achievement, and the pressure to be productive. The client is starting to connect their emotions to tangible physical sensations, indicating a deeper level of engagement in the therapeutic process.\n\n**Turning Point:** A notable turning point occurred when the client discussed the tightness in their chest associated with the idea of taking a break. This moment highlighted their internal struggle between the desire for self-care and the pressure to be productive. It was here that the client began to articulate the emotional weight of their beliefs more clearly, moving from a phase of avoidance to a deeper exploration of their emotional state. This shift reflects an emerging recognition of their internal conflicts, which is pivotal for future therapeutic work."
+      }
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "That pressure to be perfect right away sounds really overwhelming, especially when you already have the desire to do something. It\u2019s frustrating to feel like that doubt can shut you down before you even begin. \n\nAs you reflect on those thoughts\u2014like questioning the point of what you're about to do\u2014what do you notice about how they interact with your feelings in that moment? Are there physical sensations or specific emotions that come up for you when those doubts arise?",
+      "client": "When those doubts hit, I feel this tightness in my chest and it\u2019s like my energy just drains away. I get sad, too, because I want to create something meaningful, but then I just keep telling myself it won\u2019t matter anyway. It\u2019s like there's this wall that makes it hard to even get started.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds really tough to experience that tightness in your chest and the draining of your energy when those doubts come up. The sadness about wanting to create something meaningful, yet feeling like it won\u2019t matter, must add to that sense of frustration. \n\nCan we take a moment to explore that wall you mentioned? What does it feel like to you in those moments when you encounter that barrier to starting?",
+      "client": "It feels heavy, like something is pushing down on me, making it hard to breathe. It\u2019s almost like a mental fog that just settles in, and I can't see a way through it. I guess I just don\u2019t know how to break it down or even if I should try.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "That heaviness and mental fog sound really challenging to navigate. It\u2019s understandable to feel uncertain about how to approach that barrier, especially when it feels so overwhelming. \n\nAs you describe that experience, what do you notice about your thoughts in those moments? Are there specific beliefs or messages that seem to come up alongside the heaviness and fog?",
+      "client": "I think my thoughts get really critical, like I start telling myself that I\u2019m just wasting my time. It\u2019s almost like I hear this voice saying I should be doing something more productive, which makes me feel even worse. I guess part of me feels like if I can't do it perfectly, then I shouldn't bother at all.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It sounds like those critical thoughts really amplify the heaviness you\u2019re feeling. Hearing that voice telling you to be more productive or that you should be perfect can be a heavy burden to carry. It makes sense that this would add to your hesitation to start creating.\n\nWhat do you notice in your body or emotions when those thoughts come up? Do they shift anything for you physically or how you feel in that moment?",
+      "client": "When those thoughts hit, I can feel my shoulders tense up, and there's this knot in my stomach. I just feel more isolated, like I'm stuck in a loop of self-criticism. It\u2019s frustrating because I know I want to do something, but then I just get overwhelmed.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "The tension in your shoulders and the knot in your stomach really highlight how much those critical thoughts are impacting you physically and emotionally. It sounds frustrating to feel that desire to take action but then get caught in that overwhelming loop of self-criticism. \n\nAs you sit with those feelings of frustration and isolation, what do you think you need most right now? Is there a particular aspect of this experience that feels most important for us to explore together?",
+      "client": "I guess what I really need is to figure out why I feel so paralyzed by this pressure to be productive. It's like I can't shake off this belief that if I'm not working on something that matters, then I'm just wasting my time. But part of me wonders if that's even true.",
+      "openness_judgment": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s insightful that you\u2019re questioning the belief that your worth is tied to being productive. That kind of pressure can create a heavy burden, and it\u2019s understandable to want to unpack where it\u2019s coming from. \n\nAs you reflect on this pressure, what do you think it says about your values or what\u2019s important to you? Can you connect it to any experiences or expectations you\u2019ve had in the past?",
+      "client": "I think it connects to this idea that I've always been expected to achieve something significant, like working long hours. My family, especially my dad, always emphasized hard work and productivity. It feels like if I\u2019m not constantly moving forward, I\u2019m somehow failing, and that\u2019s just... suffocating.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"When I think about stopping, I feel this tightness in my chest, like I\u2019m suffocating a bit. My mind races with all the things I should be doing instead.\"\n2. **Openness:** \"I think it highlights that I value both productivity and some form of self-care, but I end up feeling like I have to choose one over the other.\"\n\n**Progression Analysis:** \nThe client demonstrates clear progression towards deeper emotional exploration in recent exchanges. Initially, there were signs of ambivalence and defensiveness, particularly in the client's hesitance to acknowledge deeper feelings around productivity and self-worth. However, the latest interactions show a marked increase in emotional expression, with the client articulating feelings of sadness, anxiety, and pressure tied to their self-worth. They are beginning to engage more actively with the therapist's prompts, reflecting meaningfully on their experiences, which indicates a growing comfort level. The client has moved from a place of merely identifying feelings to expressing them in a more nuanced manner, suggesting an increase in both self-awareness and vulnerability.\n\n**Notable Turning Point:** \nA notable turning point occurred when the client articulated their internal conflict about productivity versus self-care: \u201cI guess it\u2019s just that I\u2019ve always tied my self-worth to work and being productive.\u201d This moment marked a shift in the client's emotional state, as they began acknowledging not only their feelings about their work but also the deeper reasons behind those feelings. This recognition of the conflicting pressures they face represents significant emotional depth, contributing to their current level of engagement in the therapeutic process."
+      }
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like the expectations around hard work and achievement have really shaped how you view your value and productivity. That pressure to constantly move forward can indeed feel suffocating, especially when it\u2019s tied to family beliefs and messages you\u2019ve received. \n\nAs you think about these expectations from your family, what feelings or thoughts come up for you? How do you experience that suffocation in your day-to-day life?",
+      "client": "It's like a weight on my chest, this constant reminder that I should be doing more. I feel sad when I think about it, like I'm letting myself down or not living up to some standard. I guess I just end up scrolling through social media to escape it, but even that feels pointless.",
+      "openness_judgment": null
+    }
+  ]
+}
