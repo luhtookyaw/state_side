@@ -50,22 +50,11 @@ MODE_BY_NAME = {
 }
 
 
-def recent_client_turns(conversation: list[Any], max_client_turns: int = 3) -> list[Any]:
-    return [turn for turn in conversation if turn.speaker == "Client"][-max_client_turns:]
-
-
-def format_recent_client_utterances(conversation: list[Any]) -> str:
-    client_turns = recent_client_turns(conversation)
-    if not client_turns:
-        return "No client utterances yet."
-    return "\n".join(f"Client: {turn.text}" for turn in client_turns)
-
-
 def format_readiness_judge_prompt(template: str, conversation: list[Any]) -> str:
     return (
         f"{template.rstrip()}\n\n"
-        "Recent client utterances to evaluate, oldest to newest:\n"
-        f"{format_recent_client_utterances(conversation)}"
+        "Dialogue Context:\n"
+        f"{format_history(conversation, max_turns=6)}"
     )
 
 

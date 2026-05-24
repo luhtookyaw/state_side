@@ -50,7 +50,8 @@ THERAPIST_TYPES = ("standard", "adaptive")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
-    return max(current_level - 1, min(current_level + 1, raw_level))
+    next_level = max(current_level - 1, min(current_level + 1, raw_level))
+    return max(current_level, next_level)
 
 
 def parse_args() -> argparse.Namespace:
