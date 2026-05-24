@@ -6,6 +6,7 @@ import argparse
 import random
 from pathlib import Path
 import re
+import sys
 from typing import Any
 
 from chat_runtime import (  # noqa: E402
@@ -19,6 +20,16 @@ from chat_runtime import (  # noqa: E402
     load_environment,
     load_text,
     openai_model,
+)
+
+SRC_DIR = ROOT_DIR / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from client_response_styles import (  # noqa: E402
+    HIGH_OPENNESS_STYLE,
+    LOW_OPENNESS_STYLE,
+    MEDIUM_OPENNESS_STYLE,
 )
 
 
@@ -44,6 +55,14 @@ DEFAULT_CLIENT_PROMPT = ROOT_DIR / "prompts" / "client_response.txt"
 DEFAULT_OPENNESS_JUDGE_PROMPT = ROOT_DIR / "prompts" / "judges" / "openness_judge.txt"
 
 
+def response_style_for_openness(openness_level: int) -> str:
+    if openness_level >= 4:
+        return HIGH_OPENNESS_STYLE.strip()
+    if openness_level >= 2:
+        return MEDIUM_OPENNESS_STYLE.strip()
+    return LOW_OPENNESS_STYLE.strip()
+
+
 def join_value(value: Any) -> str:
     if value is None:
         return "Not specified."
@@ -52,17 +71,18 @@ def join_value(value: Any) -> str:
     return str(value)
 
 
-def format_history(turns: list[Any], max_turns: int = 5) -> str:
+def format_history(turns: list[Any], max_turns: int = 6) -> str:
     if not turns:
         return "No previous turns."
     recent_turns = turns[-max_turns:]
     return "\n".join(f"{turn.speaker}: {turn.text}" for turn in recent_turns)
 
 
-def format_dialogue(turns: list[Any]) -> str:
+def format_dialogue(turns: list[Any], max_turns: int = 6) -> str:
     if not turns:
         return "No previous turns."
-    return "\n".join(f"{turn.speaker}: {turn.text}" for turn in turns)
+    recent_turns = turns[-max_turns:]
+    return "\n".join(f"{turn.speaker}: {turn.text}" for turn in recent_turns)
 
 
 def join_client_types(client_types: list[str]) -> str:
@@ -115,6 +135,7 @@ def format_client_prompt(
         "worthless_belief": join_value(patient.get("worthless_belief")),
         "coping_strategies": join_value(patient.get("coping_strategies")),
         "openness_level": openness_level,
+        "response_style": response_style_for_openness(openness_level),
         "conversation_history": format_history(conversation),
     }
     return template.format(**fields)

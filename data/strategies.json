@@ -1,0 +1,58 @@
+{
+  "strategies": [
+    {
+      "id": "MI_Open_Ended_Questions",
+      "mode": "MI",
+      "name": "Open-ended Questions",
+      "goal": "Ask questions that cannot be answered with yes or no to invite the client to elaborate freely on their thoughts, feelings, and experiences. The therapist should avoid leading questions or questions with implied answers. The goal is to create space for the client to explore their own ambivalence, surface their own reasons for change, and feel heard without being directed. A good open-ended question follows the client's last statement and opens a new dimension rather than narrowing toward a conclusion."
+    },
+    {
+      "id": "MI_Reflections",
+      "mode": "MI",
+      "name": "Reflections",
+      "goal": "Mirror back what the client just said using the therapist's own words to show accurate understanding without adding interpretation or judgment. Simple reflections repeat or rephrase the surface content. Complex reflections go deeper by naming the unspoken emotion, implication, or meaning beneath what the client said. The therapist should not add new information, offer opinions, or redirect the topic. The goal is to make the client feel genuinely understood, lower defensiveness, and encourage deeper self-disclosure. A good reflection lands slightly ahead of what the client explicitly said without overshooting into interpretation."
+    },
+    {
+      "id": "MI_Affirmations",
+      "mode": "MI",
+      "name": "Affirmations",
+      "goal": "Acknowledge a specific client strength, effort, value, or past success that is directly relevant to the current therapeutic challenge. The therapist must name something concrete and observable rather than offering generic praise. The goal is to build the client's self-efficacy, reinforce their belief that change is possible for them specifically, and strengthen the therapeutic alliance. A good affirmation is specific enough that the client could not dismiss it as flattery, and it connects their demonstrated capability to the challenge they are currently facing."
+    },
+    {
+      "id": "MI_Summaries",
+      "mode": "MI",
+      "name": "Summaries",
+      "goal": "Collect two or three threads of change talk, ambivalence, or key themes that the client has expressed across recent turns and reflect them back together as a coherent picture. The therapist should prioritize change talk over sustain talk when selecting what to include. The goal is to help the client hear their own reasons for change spoken back to them, consolidate progress made in the MI phase, and signal readiness to move toward structured work. A good summary ends with a transition question or statement that invites the client to respond to the picture being reflected."
+    },
+    {
+      "id": "CBT_Psychoeducation",
+      "mode": "CBT",
+      "name": "Psychoeducation",
+      "goal": "Briefly explain one specific concept from the cognitive model and immediately connect it to something the client just said or experienced. The therapist should explain in plain language without jargon and keep the explanation to one or two sentences before linking it directly to the client's situation. The goal is to help the client understand why their thoughts matter, normalize the connection between thoughts, feelings, and behaviors, and build a shared framework for the work ahead. A good psychoeducation turn ends by checking whether the explanation resonates with the client's own experience rather than delivering it as a lecture."
+    },
+    {
+      "id": "CBT_Cognitive_Restructuring",
+      "mode": "CBT",
+      "name": "Cognitive Restructuring",
+      "goal": "Help the client identify a specific maladaptive or distorted thought and collaboratively develop a more balanced alternative. The therapist should first name the unhelpful thought pattern explicitly, then offer a reframed perspective as a question rather than a statement to preserve the client's autonomy. The goal is not to eliminate negative thoughts but to help the client develop a more accurate and flexible way of interpreting their situation. A good cognitive restructuring turn asks the client how the alternative thought feels rather than assuming they accept it, leaving room for the client to refine or reject the reframe."
+    },
+    {
+      "id": "CBT_Socratic_Questioning",
+      "mode": "CBT",
+      "name": "Socratic Questioning",
+      "goal": "Ask a carefully chosen question that guides the client to examine the evidence for and against their own distorted belief without the therapist stating the conclusion directly. The therapist should follow the client's reasoning rather than leading toward a predetermined answer, and should ask only one question at a time. The goal is for the client to arrive at a more balanced perspective through their own reasoning process so that the insight feels self-generated rather than imposed. A good Socratic question is genuinely curious rather than rhetorical, and it opens up rather than closes down the client's thinking."
+    },
+    {
+      "id": "CBT_Behavioral_Activation",
+      "mode": "CBT",
+      "name": "Behavioral Activation",
+      "goal": "Collaboratively identify one specific, concrete, and achievable approach behavior that the client can take before the next session to interrupt an avoidance pattern or low mood cycle. The therapist should frame the action as a small experiment rather than a prescription, emphasizing that the goal is to gather information rather than to succeed. The suggested action should be small enough that the client feels it is genuinely possible given their current state. A good behavioral activation turn ends with the client verbally committing to the specific action and the therapist confirming the details of when, where, and how it will happen."
+    },
+    {
+      "id": "CBT_Exposure",
+      "mode": "CBT",
+      "name": "Exposure",
+      "goal": "Collaboratively plan a graded and structured confrontation of a specific avoided situation, stimulus, or feeling that is maintaining the client's distress. The therapist should normalize the discomfort the client will feel during exposure as an expected and necessary part of the process rather than a sign of failure. The hierarchy of exposure steps should be developed together with the client starting from the least anxiety-provoking situation. A good exposure turn ensures the client understands the rationale for why confronting rather than avoiding will reduce distress over time, and it ends with a specific agreed first step that the client feels capable of attempting."
+    }
+  ]
+}

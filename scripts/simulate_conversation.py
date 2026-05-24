@@ -37,10 +37,20 @@ from client import (  # noqa: E402
     OpennessJudge,
     SimulatedClient,
 )
+from adaptive_therapist import (  # noqa: E402
+    DEFAULT_ADAPTIVE_THERAPIST_PROMPT,
+    DEFAULT_READINESS_JUDGE_PROMPT,
+    AdaptiveTherapist,
+)
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
+THERAPIST_TYPES = ("standard", "adaptive")
+
+
+def clamp_openness_transition(raw_level: int, current_level: int) -> int:
+    return max(current_level - 1, min(current_level + 1, raw_level))
 
 
 def parse_args() -> argparse.Namespace:
@@ -86,6 +96,19 @@ def parse_args() -> argparse.Namespace:
         help="Sampling temperature for both speakers. Defaults to 0.8.",
     )
     parser.add_argument(
+        "--therapist-type",
+        choices=THERAPIST_TYPES,
+        default="standard",
+        help="Therapist implementation to use. Defaults to standard.",
+    )
+    parser.add_argument(
+        "--readiness-judge-model",
+        help=(
+            "OpenAI model name for adaptive therapist readiness judging. Defaults "
+            "to READINESS_JUDGE_MODEL, then --model."
+        ),
+    )
+    parser.add_argument(
         "--dataset",
         type=Path,
         default=DEFAULT_DATASET,
@@ -100,14 +123,22 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--therapist-prompt",
         type=Path,
-        default=DEFAULT_THERAPIST_PROMPT,
-        help="Path to therapist prompt template.",
+        help=(
+            "Path to therapist prompt template. Defaults to therapist_response.txt "
+            "for standard and adaptive_therapist_response.txt for adaptive."
+        ),
     )
     parser.add_argument(
         "--openness-judge-prompt",
         type=Path,
         default=DEFAULT_OPENNESS_JUDGE_PROMPT,
         help="Path to openness judge prompt template.",
+    )
+    parser.add_argument(
+        "--readiness-judge-prompt",
+        type=Path,
+        default=DEFAULT_READINESS_JUDGE_PROMPT,
+        help="Path to readiness judge prompt template for adaptive therapist.",
     )
     parser.add_argument(
         "--output",
@@ -128,6 +159,8 @@ def print_turn(
     client: Turn,
     openness_level: int,
     openness_judgment: dict[str, Any] | None,
+    readiness_judgment: dict[str, Any] | None,
+    selected_strategy: str | None,
 ) -> None:
     print(f"Turn: {turn_number}")
     print(f"Openness level used: {openness_level}")
@@ -138,6 +171,18 @@ def print_turn(
             "Openness judge: ran "
             f"(new openness level: {openness_judgment['openness_level']})"
         )
+    if readiness_judgment is None:
+        print("Readiness judge: not run")
+    else:
+        print(
+            "Readiness judge: ran "
+            f"(score: {readiness_judgment['readiness_score']}, "
+            f"mode: {readiness_judgment['mode']})"
+        )
+    if selected_strategy is None:
+        print("Selected strategy: not recorded")
+    else:
+        print(f"Selected strategy: {selected_strategy}")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -153,6 +198,9 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     model = args.model or openai_model()
     openness_judge_model = args.openness_judge_model or os.getenv(
         "OPENNESS_JUDGE_MODEL", model
+    )
+    readiness_judge_model = args.readiness_judge_model or os.getenv(
+        "READINESS_JUDGE_MODEL", model
     )
     dataset = load_dataset(args.dataset)
     patient = choose_patient(dataset, args.patient_id, rng)
@@ -171,12 +219,30 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         args.temperature,
         prompt_path=args.openness_judge_prompt,
     )
-    therapist_role = StandardTherapist(
-        openai_client,
-        model,
-        args.temperature,
-        prompt_path=args.therapist_prompt,
-    )
+    therapist_prompt = args.therapist_prompt
+    if therapist_prompt is None:
+        therapist_prompt = (
+            DEFAULT_ADAPTIVE_THERAPIST_PROMPT
+            if args.therapist_type == "adaptive"
+            else DEFAULT_THERAPIST_PROMPT
+        )
+
+    if args.therapist_type == "adaptive":
+        therapist_role = AdaptiveTherapist(
+            openai_client,
+            model,
+            args.temperature,
+            prompt_path=therapist_prompt,
+            readiness_judge_model=readiness_judge_model,
+            readiness_judge_prompt_path=args.readiness_judge_prompt,
+        )
+    else:
+        therapist_role = StandardTherapist(
+            openai_client,
+            model,
+            args.temperature,
+            prompt_path=therapist_prompt,
+        )
 
     conversation: list[Turn] = []
     paired_turns: list[dict[str, Any]] = []
@@ -184,14 +250,40 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     openness_level = INITIAL_OPENNESS_LEVEL
     openness_judge_interval = mode_settings["openness_judge_interval"]
     openness_judgments: list[dict[str, Any]] = []
+    readiness_judgments: list[dict[str, Any]] = []
+    selected_strategies: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
+        readiness_judgment: dict[str, Any] | None = None
+        selected_strategy: str | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
         else:
             text = therapist_role.reply(patient, conversation)
             therapist_turn = Turn("Therapist", text)
+            if args.therapist_type == "adaptive":
+                readiness_judgment = therapist_role.last_readiness_judgment
+                if readiness_judgment is not None:
+                    readiness_judgment = {
+                        "turn": turn_number,
+                        **readiness_judgment,
+                    }
+                    readiness_judgments.append(readiness_judgment)
+                response_json = therapist_role.last_response_json
+                if response_json is not None:
+                    raw_strategy = response_json.get("strategy_used")
+                    if isinstance(raw_strategy, str) and raw_strategy.strip():
+                        selected_strategy = raw_strategy.strip()
+                        selected_strategies.append(
+                            {
+                                "turn": turn_number,
+                                "strategy_used": selected_strategy,
+                                "readiness_mode": readiness_judgment["mode"]
+                                if readiness_judgment is not None
+                                else None,
+                            }
+                        )
 
         conversation.append(therapist_turn)
 
@@ -202,7 +294,13 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         openness_judgment: dict[str, Any] | None = None
         if turn_number % openness_judge_interval == 0:
             openness_judgment = openness_judge.judge(conversation, turn_number)
-            openness_level = openness_judgment["openness_level"]
+            raw_openness_level = openness_judgment["openness_level"]
+            openness_level = clamp_openness_transition(
+                raw_openness_level,
+                openness_level_before_turn,
+            )
+            openness_judgment["raw_openness_level"] = raw_openness_level
+            openness_judgment["openness_level"] = openness_level
             openness_judgments.append(openness_judgment)
 
         paired_turns.append(
@@ -212,6 +310,8 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "therapist": therapist_turn.text,
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
+                "readiness_judgment": readiness_judgment,
+                "strategy_used": selected_strategy,
             }
         )
         if args.print:
@@ -221,19 +321,27 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 client_turn,
                 openness_level_before_turn,
                 openness_judgment,
+                readiness_judgment,
+                selected_strategy,
             )
 
     return {
         "mode": args.mode,
+        "therapist_type": args.therapist_type,
         "initial_openness_level": INITIAL_OPENNESS_LEVEL,
         "final_openness_level": openness_level,
         "openness_judge_interval": openness_judge_interval,
         "model": model,
         "openness_judge_model": openness_judge_model,
+        "readiness_judge_model": readiness_judge_model
+        if args.therapist_type == "adaptive"
+        else None,
         "patient_id": patient.get("id"),
         "patient_name": patient.get("name"),
         "client_type": client_role.client_type,
         "openness_judgments": openness_judgments,
+        "readiness_judgments": readiness_judgments,
+        "selected_strategies": selected_strategies,
         "turns": paired_turns,
     }
 
@@ -242,7 +350,10 @@ def write_output(result: dict[str, Any], output_path: Path | None) -> Path:
     if output_path is None:
         DEFAULT_OUTPUT_DIR.mkdir(exist_ok=True)
         patient_id = str(result["patient_id"]).replace("/", "-")
-        filename = f"conversation_{patient_id}_{result['mode']}.json"
+        therapist_suffix = (
+            "_adaptive" if result.get("therapist_type") == "adaptive" else ""
+        )
+        filename = f"conversation_{patient_id}_{result['mode']}{therapist_suffix}.json"
         output_path = DEFAULT_OUTPUT_DIR / filename
 
     output_path.parent.mkdir(parents=True, exist_ok=True)

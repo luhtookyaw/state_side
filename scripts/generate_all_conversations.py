@@ -16,6 +16,7 @@ DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
+THERAPIST_TYPES = ("standard", "adaptive")
 
 
 def parse_args() -> argparse.Namespace:
@@ -59,6 +60,26 @@ def parse_args() -> argparse.Namespace:
         type=float,
         default=0.8,
         help="Sampling temperature passed through to simulate_conversation.py.",
+    )
+    parser.add_argument(
+        "--therapist-type",
+        choices=THERAPIST_TYPES,
+        default="standard",
+        help="Therapist implementation passed through to simulate_conversation.py.",
+    )
+    parser.add_argument(
+        "--therapist-prompt",
+        type=Path,
+        help="Optional therapist prompt path passed through to simulate_conversation.py.",
+    )
+    parser.add_argument(
+        "--readiness-judge-model",
+        help="Optional readiness judge model for adaptive therapist runs.",
+    )
+    parser.add_argument(
+        "--readiness-judge-prompt",
+        type=Path,
+        help="Optional readiness judge prompt path for adaptive therapist runs.",
     )
     parser.add_argument(
         "--max-clients",
@@ -105,17 +126,24 @@ def safe_patient_id(patient_id: Any) -> str:
     return safe_id or "unknown"
 
 
-def output_path(outputs_dir: Path, patient_id: Any, mode: str) -> Path:
-    filename = f"session_{safe_patient_id(patient_id)}_{mode}.json"
+def output_path(
+    outputs_dir: Path, patient_id: Any, mode: str, therapist_type: str
+) -> Path:
+    therapist_suffix = "_adaptive" if therapist_type == "adaptive" else ""
+    filename = f"session_{safe_patient_id(patient_id)}_{mode}{therapist_suffix}.json"
     return outputs_dir / mode / filename
 
 
-def simulator_command(args: argparse.Namespace, patient_id: Any, mode: str, output: Path) -> list[str]:
+def simulator_command(
+    args: argparse.Namespace, patient_id: Any, mode: str, output: Path
+) -> list[str]:
     command = [
         sys.executable,
         str(SIMULATOR),
         "--mode",
         mode,
+        "--therapist-type",
+        args.therapist_type,
         "--turns",
         str(args.turns),
         "--patient-id",
@@ -129,6 +157,12 @@ def simulator_command(args: argparse.Namespace, patient_id: Any, mode: str, outp
     ]
     if args.model:
         command.extend(["--model", args.model])
+    if args.therapist_prompt:
+        command.extend(["--therapist-prompt", str(args.therapist_prompt)])
+    if args.readiness_judge_model:
+        command.extend(["--readiness-judge-model", args.readiness_judge_model])
+    if args.readiness_judge_prompt:
+        command.extend(["--readiness-judge-prompt", str(args.readiness_judge_prompt)])
     if args.print_turns:
         command.append("--print")
     return command
@@ -152,8 +186,8 @@ def main() -> None:
             raise SystemExit("Every patient record must include an 'id'.")
 
         for mode in args.modes:
-            path = output_path(args.outputs_dir, patient_id, mode)
-            label = f"{patient_id} {mode}"
+            path = output_path(args.outputs_dir, patient_id, mode, args.therapist_type)
+            label = f"{patient_id} {mode} {args.therapist_type}"
 
             if path.exists() and not args.overwrite:
                 skipped += 1

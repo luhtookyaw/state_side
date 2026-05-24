@@ -28,7 +28,7 @@ def join_value(value: Any) -> str:
     return str(value)
 
 
-def format_history(turns: list[Any], max_turns: int = 5) -> str:
+def format_history(turns: list[Any], max_turns: int = 6) -> str:
     if not turns:
         return "No previous turns."
     recent_turns = turns[-max_turns:]
