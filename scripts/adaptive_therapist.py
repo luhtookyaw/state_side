@@ -43,11 +43,29 @@ READINESS_LEVEL_SCORES = {
     "Medium": 2,
     "High": 3,
 }
+READINESS_VALUE_ALIASES = {
+    "Sentiment": {
+        "Low": "Negative",
+        "Medium": "Neutral",
+        "High": "Positive",
+    },
+    "Motivation": {
+        "Negative": "Low",
+        "Neutral": "Medium",
+        "Positive": "High",
+    },
+    "Engagement": {
+        "Negative": "Low",
+        "Neutral": "Medium",
+        "Positive": "High",
+    },
+}
 MODE_BY_NAME = {
     "MI": MI_MODE,
     "MI-supported CBT": MI_SUPPORTED_CBT_MODE,
     "CBT": CBT_MODE,
 }
+RECENT_STRATEGY_LIMIT = 3
 
 
 def format_readiness_judge_prompt(template: str, conversation: list[Any]) -> str:
@@ -117,14 +135,28 @@ def normalized_choice(value: Any, allowed: set[str], field_name: str) -> str:
     )
 
 
+def normalized_readiness_choice(value: Any, allowed: set[str], field_name: str) -> str:
+    try:
+        return normalized_choice(value, allowed, field_name)
+    except ValueError:
+        if not isinstance(value, str):
+            raise
+
+        aliases = READINESS_VALUE_ALIASES.get(field_name, {})
+        for alias, normalized_value in aliases.items():
+            if value.strip().lower() == alias.lower():
+                return normalized_value
+        raise
+
+
 def compute_readiness_score(judgment: dict[str, Any]) -> int:
-    motivation = normalized_choice(
+    motivation = normalized_readiness_choice(
         judgment.get("Motivation"), set(READINESS_LEVEL_SCORES), "Motivation"
     )
-    engagement = normalized_choice(
+    engagement = normalized_readiness_choice(
         judgment.get("Engagement"), set(READINESS_LEVEL_SCORES), "Engagement"
     )
-    sentiment = normalized_choice(
+    sentiment = normalized_readiness_choice(
         judgment.get("Sentiment"), set(SENTIMENT_SCORES), "Sentiment"
     )
     return (
@@ -165,15 +197,29 @@ def readiness_mode_name(readiness_score: int) -> str:
     return "CBT"
 
 
+def format_recent_strategies(
+    strategies: list[str],
+    max_strategies: int = RECENT_STRATEGY_LIMIT,
+) -> str:
+    recent = [strategy for strategy in strategies[-max_strategies:] if strategy.strip()]
+    if not recent:
+        return "None yet."
+    return "\n".join(
+        f"{index}. {strategy}" for index, strategy in enumerate(recent, start=1)
+    )
+
+
 def format_adaptive_therapist_prompt(
     template: str,
     patient: dict[str, Any],
     conversation: list[Any],
     mode: str,
+    recent_strategies: list[str] | None = None,
 ) -> str:
     return template.format(
         name=join_value(patient.get("name")),
         mode=mode,
+        recent_strategies=format_recent_strategies(recent_strategies or []),
         conversation_history=format_history(conversation),
     )
 
@@ -217,13 +263,13 @@ class ReadinessJudge:
         readiness_score = compute_readiness_score(judgment)
         mode_name = readiness_mode_name(readiness_score)
         return {
-            "sentiment": normalized_choice(
+            "sentiment": normalized_readiness_choice(
                 judgment.get("Sentiment"), set(SENTIMENT_SCORES), "Sentiment"
             ),
-            "motivation": normalized_choice(
+            "motivation": normalized_readiness_choice(
                 judgment.get("Motivation"), set(READINESS_LEVEL_SCORES), "Motivation"
             ),
-            "engagement": normalized_choice(
+            "engagement": normalized_readiness_choice(
                 judgment.get("Engagement"), set(READINESS_LEVEL_SCORES), "Engagement"
             ),
             "readiness_score": readiness_score,
@@ -256,6 +302,7 @@ class AdaptiveTherapist:
         )
         self.last_readiness_judgment: dict[str, Any] | None = None
         self.last_response_json: dict[str, Any] | None = None
+        self.recent_strategies: list[str] = []
 
     def opening(self, patient: dict[str, Any]) -> str:
         return opening_therapist_message(patient)
@@ -269,6 +316,7 @@ class AdaptiveTherapist:
             patient,
             conversation,
             mode,
+            self.recent_strategies,
         )
         response_text = call_model(
             self.openai_client,
@@ -279,6 +327,9 @@ class AdaptiveTherapist:
         )
         therapist_response, response_json = parse_therapist_response(response_text)
         self.last_response_json = response_json
+        strategy_used = response_json.get("strategy_used")
+        if isinstance(strategy_used, str) and strategy_used.strip():
+            self.recent_strategies.append(strategy_used.strip())
         return therapist_response
 
 

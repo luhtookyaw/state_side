@@ -1,0 +1,984 @@
+{
+  "mode": "hard",
+  "therapist_type": "adaptive",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": "gpt-4o-mini",
+  "patient_id": "1-1",
+  "patient_name": "Alex",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client:* \"I guess I just keep myself busy or ignore it. I mean, it\u2019s easier than dealing with all the questions and expectations. I don't want to get into it, so I just move on.\"\n2. *Client:* \"I don\u2019t know. I just try to focus on my own stuff, like work or hobbies. It's not really about them; I just have other things going on that I\u2019d rather think about.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a developing emotional openness, demonstrating a mix of emotional expression and self-reflection. The statements reflect a certain level of awareness regarding their emotional state, particularly their tendency to avoid family dynamics due to fear of judgment and expectations. This is a notable change from earlier exchanges, where the client may have been more defensive and factual in their responses.\n\n**Turning Point:**\nThe turning point appears to have occurred when the therapist acknowledged the client\u2019s desire to avoid judgment and the burden they perceive in family dynamics. This recognition seems to have prompted the client to reflect on their coping mechanisms, leading to a more genuine exploration of feelings and motivations. The client\u2019s disclosure about keeping busy as a coping strategy signifies a willingness to engage with their emotions, albeit still with some hesitance. This shift reflects a movement toward a more engaged exploration of their emotional landscape.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n\n1. **Emotional State:** \"I mean, maybe there\u2019s a bit of sadness when I think about my family. It\u2019s like, I know we should be close, but it feels really distant and awkward. Sometimes I think about how I just want to connect, but then I remember all the times it felt like I didn\u2019t belong or that they didn\u2019t really care. It\u2019s kind of frustrating, I guess.\"\n\n2. **Openness:** \"I guess setting a timer could help make it feel less daunting. I mean, the idea of only doing it for a few minutes sounds a bit easier to handle. But then again, what if I can't stop once I start? Like, what if it ends up being more than I expected? I don't want to take a step back when I'm trying to move forward, you know? It's just hard to find that balance.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly through their acknowledgment of sadness and frustration regarding family dynamics. This marks a change from earlier interactions where emotional expression was more limited. The client is beginning to articulate complex feelings and the tension between wanting to connect and the fear of becoming overwhelmed, indicating a deeper level of self-reflection and engagement than previously observed.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing complex feelings about family during discussions about sadness. This moment marked a departure from a primarily factual stance to a more engaged exploration of their emotions, demonstrating their willingness to confront difficult feelings while still being cautious about the process. This duality of wanting to explore yet fearing the emotional fallout indicates a growing self-awareness and a nascent therapeutic alliance, suggesting potential for further development in future sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I mean, that might be worth trying. Just a word or a phrase doesn\u2019t sound too intense, I guess. But I still worry that even that could lead me somewhere I\u2019m not ready to go.\"\n2. Client: \"I guess I could try to think about just a normal moment in my day, like when I'm cooking or something. Maybe I could jot down a word about how I feel while I\u2019m doing that, but it still feels a bit risky.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a noticeable shift towards greater emotional openness, as they articulate their feelings of being torn between the desire to explore their memories and the fear of becoming overwhelmed. This marks a significant change from earlier stages where responses were more factual and guarded. The client is beginning to engage with emotional concepts, showing some vulnerability regarding their fears about facing past memories. While they still express uncertainty, their willingness to consider small steps indicates a move towards deeper self-reflection and engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began expressing the conflict between wanting to confront their feelings while simultaneously fearing the potential consequences of doing so. By identifying a specific activity (like cooking) where they might begin to explore their feelings in a manageable way, the client is demonstrating not only self-awareness but also a readiness for exploration, which reflects a growing trust in the therapeutic process. This moment of insight, where they acknowledged their fears while also expressing a willingness to try something new, marks a pivotal development in their emotional openness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess I could try to pinpoint just one moment when that pressure hits. Maybe something from the last week or so? It feels less overwhelming to just focus on a small piece instead of everything at once.\"\n2. Client: \"I mean, it\u2019s still a bit nerve-wracking, thinking about what I might come up with. But maybe if I keep it simple, it won\u2019t feel like such a big deal. I\u2019ll give it a shot, I suppose.\"\n\n**Progression:** The client\u2019s recent exchanges exhibit a noticeable progression in emotional openness, highlighting their willingness to engage with uncomfortable feelings rather than avoiding them. Earlier in the session, the client expressed hesitation and a desire to keep things at arm's length, indicating a more defensive stance. However, their willingness to identify \"just one moment\" when pressure arises signals a significant shift toward engagement and self-reflection. The client is beginning to articulate their emotions and thoughts more freely, illustrating a deeper level of self-awareness and readiness to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged that focusing on just one moment felt more manageable. This moment demonstrated a breakthrough in their willingness to confront their emotions, moving from avoidance to a commitment to explore issues in a controlled way. The acknowledgment of feeling \"nerve-wracking\" alongside a determination to try highlights an emerging vulnerability and an openness to engage with their emotional experiences.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "### Rating: 3\n\n### Key Examples:\n- **Example 1:** \"I mean, I can try to think about how I felt talking to my friend. I remember feeling a little lighter afterward, like I could breathe a bit easier.\"  \n- **Example 2:** \"It\u2019s just that every time I think about the feelings I\u2019ve been avoiding, it feels like they\u2019re just waiting to explode or something, you know? I don\u2019t want to dive into that chaos if I can help it.\"\n\n### Progression:\nThe client\u2019s recent interactions reveal a blend of emotional expression and self-reflection. They demonstrate an awareness of their emotional state, stating that discussing positive feelings from the interaction with their friend made them feel \"a little lighter.\" This acknowledgment of positive emotions signifies growth compared to earlier sessions, where the client tended to be more defensive and focused primarily on negative aspects without exploring any positive experiences. The recognition of wanting to move forward, despite feeling \"stuck in this loop,\" shows an emerging capacity for self-reflection and a desire for progress, though there remains fear about delving deeper into negative emotions.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted during the exchange when they articulated the tension between wanting to explore their feelings and the fear of being overwhelmed. This moment, particularly when they expressed, \"It's just frustrating because I want to move forward, but it feels like there's always this wall in the way,\" highlights a significant increase in emotional openness. The client's willingness to consider small steps in addressing their feelings indicates a pivotal moment in their engagement with the therapeutic process, reflecting a deeper level of self-awareness and a budding trust in the therapeutic relationship.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [
+    {
+      "turn": 2,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 3,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 4,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 5,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 6,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 7,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 8,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 9,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 10,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 11,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 12,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 13,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 14,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "```json\n{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}\n```"
+    },
+    {
+      "turn": 15,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 16,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 17,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 18,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 19,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 20,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 21,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 22,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 23,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"Medium\"}"
+    },
+    {
+      "turn": 24,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 25,
+      "sentiment": "Positive",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 8,
+      "mode": "CBT",
+      "judge_response": "{\"Sentiment\": \"Positive\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 26,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 27,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 28,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 29,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 30,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    }
+  ],
+  "selected_strategies": [
+    {
+      "turn": 2,
+      "strategy_used": "Open-ended Question",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 3,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 4,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 5,
+      "strategy_used": "Affirmation",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 6,
+      "strategy_used": "Open-ended Question",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 7,
+      "strategy_used": "Summary",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 8,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 9,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 10,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 11,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Cognitive Restructuring",
+      "readiness_mode": "CBT"
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Psychoeducation with Autonomy Support",
+      "readiness_mode": "MI-supported CBT"
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Alex, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know. I guess I\u2019m just still thinking about that wedding invitation. I mean, it\u2019s not a big deal, right? It\u2019s just a wedding.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It seems like there\u2019s a lot of emotion tied up in that invitation for you. What about the wedding invitation is making you feel this way?",
+      "client": "I don\u2019t really think about it like that. It\u2019s just a wedding, and I don\u2019t want to deal with all the questions. It\u2019s not like anyone is going to miss me if I don\u2019t go.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 2,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Open-ended Question"
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like you're feeling a sense of disconnection about the wedding, as if it wouldn\u2019t make much of a difference to anyone if you weren't there.",
+      "client": "I don\u2019t think it\u2019s that deep. It\u2019s just family stuff, you know? People have their own lives, and I don\u2019t see why my presence would change anything. I\u2019m not really concerned about it.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 3,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "You\u2019re expressing that family dynamics feel pretty distant for you, and it seems like you don\u2019t see how your presence at the wedding would have an impact on anyone\u2019s life. That makes it feel more like a burden than something meaningful.",
+      "client": "I don\u2019t really want to get into all that. I mean, it\u2019s just a wedding, and I have my own things to worry about. It\u2019s not like I\u2019m going to change anyone\u2019s mind or anything. I just don\u2019t want to feel judged or have to explain myself.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 4,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It's understandable to want to protect yourself from judgment and to focus on your own concerns. It takes strength to prioritize your well-being, especially when family situations can feel overwhelming. What do you think helps you manage those feelings in moments like this?",
+      "client": "I guess I just keep myself busy or ignore it. I mean, it\u2019s easier than dealing with all the questions and expectations. I don't want to get into it, so I just move on.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 5,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation"
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Keeping busy can be a way to cope with those feelings. What do you find yourself focusing on when you try to move past the family expectations?",
+      "client": "I don\u2019t know. I just try to focus on my own stuff, like work or hobbies. It's not really about them; I just have other things going on that I\u2019d rather think about.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client:* \"I guess I just keep myself busy or ignore it. I mean, it\u2019s easier than dealing with all the questions and expectations. I don't want to get into it, so I just move on.\"\n2. *Client:* \"I don\u2019t know. I just try to focus on my own stuff, like work or hobbies. It's not really about them; I just have other things going on that I\u2019d rather think about.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a developing emotional openness, demonstrating a mix of emotional expression and self-reflection. The statements reflect a certain level of awareness regarding their emotional state, particularly their tendency to avoid family dynamics due to fear of judgment and expectations. This is a notable change from earlier exchanges, where the client may have been more defensive and factual in their responses.\n\n**Turning Point:**\nThe turning point appears to have occurred when the therapist acknowledged the client\u2019s desire to avoid judgment and the burden they perceive in family dynamics. This recognition seems to have prompted the client to reflect on their coping mechanisms, leading to a more genuine exploration of feelings and motivations. The client\u2019s disclosure about keeping busy as a coping strategy signifies a willingness to engage with their emotions, albeit still with some hesitance. This shift reflects a movement toward a more engaged exploration of their emotional landscape.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 6,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Open-ended Question"
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "You seem to find comfort in focusing on your own work and hobbies to avoid the family expectations. On one hand, it helps you move past those feelings, but on the other hand, it sounds like there's still a part of you that feels the weight of those family dynamics. What do you think about that balance?",
+      "client": "I don\u2019t know, maybe you\u2019re right. I mean, I guess I can feel that weight sometimes, but I try not to dwell on it. It\u2019s like, part of me wants to just ignore it all and focus on what makes me feel better, but then there's this nagging feeling that I'm missing something important. I just don\u2019t want to get caught up in family drama, you know? It\u2019s easier to just keep my distance.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 7,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary"
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It sounds like you're navigating a tough balance between wanting to avoid family drama and feeling that you might be missing something important by not addressing those dynamics. Maybe we could explore one small step that feels manageable for you in terms of acknowledging those feelings without getting overwhelmed. What do you think about that?",
+      "client": "I mean, I guess I can see the point in exploring it. But I\u2019m not sure how to start without feeling totally overwhelmed. It feels like there\u2019s so much going on, and I don't want to dive into a big emotional mess. Maybe just acknowledging some feelings could be okay, but then I worry about where that might lead. I don\u2019t want to get too deep into it all, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 8,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "It's great that you're open to the idea of acknowledging your feelings, even if it feels a bit daunting right now. One possibility might be to start by jotting down just one feeling that comes to mind when you think about your family. It could be a safe way to begin exploring without diving too deep. Would that be okay to try?",
+      "client": "I don\u2019t know, maybe writing it down could help, but I\u2019m still a bit hesitant. What if I end up feeling more confused or upset by it? I guess it\u2019s just that I\u2019m not sure what feeling to even start with. It\u2019s all jumbled up in my head. Part of me thinks it could be useful, but another part just wants to avoid it altogether. I don\u2019t want to make things bigger than they are, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 9,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "You're feeling unsure about where to start because everything feels jumbled, which makes the idea of exploring feelings seem overwhelming. I wonder, when you think about your family, is there a particular feeling that stands out to you as more prominent than the others, even if it feels confusing?",
+      "client": "I mean, maybe there\u2019s a bit of sadness when I think about my family. It\u2019s like, I know we should be close, but it feels really distant and awkward. Sometimes I think about how I just want to connect, but then I remember all the times it felt like I didn\u2019t belong or that they didn\u2019t really care. It\u2019s kind of frustrating, I guess. I just don\u2019t want to get lost in those feelings and feel worse, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 10,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "It's really valuable that you're recognizing the sadness and frustration in your family dynamics. It takes courage to even acknowledge those feelings. One small step you might consider is to write down just that sense of sadness when it comes up, without having to explore it too deeply. Would it feel okay to try that, just to see what comes up without pressure?",
+      "client": "I don\u2019t know, maybe writing down the sadness could be a start, but I\u2019m still a bit wary. It feels like I might just end up opening a can of worms or something, and I\u2019m not sure I\u2019m ready for that. Part of me thinks it could be helpful, but then I worry it\u2019ll just bring up all the stuff I\u2019ve been trying to avoid. I guess I just want to find a way to deal with this without feeling completely overwhelmed.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 11,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "You're noticing a real tension between wanting to explore your feelings and the fear of becoming overwhelmed by them. It makes sense to want to protect yourself from that. Maybe we could identify just one small thing you feel ready to try, like setting a timer for a short period to jot down that sadness when it comes up, just for a few minutes? Would that feel manageable to you?",
+      "client": "I guess setting a timer could help make it feel less daunting. I mean, the idea of only doing it for a few minutes sounds a bit easier to handle. But then again, what if I can't stop once I start? Like, what if it ends up being more than I expected? I don't want to take a step back when I'm trying to move forward, you know? It's just hard to find that balance.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n\n1. **Emotional State:** \"I mean, maybe there\u2019s a bit of sadness when I think about my family. It\u2019s like, I know we should be close, but it feels really distant and awkward. Sometimes I think about how I just want to connect, but then I remember all the times it felt like I didn\u2019t belong or that they didn\u2019t really care. It\u2019s kind of frustrating, I guess.\"\n\n2. **Openness:** \"I guess setting a timer could help make it feel less daunting. I mean, the idea of only doing it for a few minutes sounds a bit easier to handle. But then again, what if I can't stop once I start? Like, what if it ends up being more than I expected? I don't want to take a step back when I'm trying to move forward, you know? It's just hard to find that balance.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth, particularly through their acknowledgment of sadness and frustration regarding family dynamics. This marks a change from earlier interactions where emotional expression was more limited. The client is beginning to articulate complex feelings and the tension between wanting to connect and the fear of becoming overwhelmed, indicating a deeper level of self-reflection and engagement than previously observed.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing complex feelings about family during discussions about sadness. This moment marked a departure from a primarily factual stance to a more engaged exploration of their emotions, demonstrating their willingness to confront difficult feelings while still being cautious about the process. This duality of wanting to explore yet fearing the emotional fallout indicates a growing self-awareness and a nascent therapeutic alliance, suggesting potential for further development in future sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 12,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "You're weighing the potential benefits of writing against the fear it might lead to more than you\u2019re ready for. I wonder, what makes you feel most concerned about losing control once you start writing? What do you think might happen in that situation?",
+      "client": "I think it\u2019s partly about feeling like I might get too caught up in the past or those memories that I don\u2019t want to relive. Like, if I start writing, I might end up spiraling into all the old stuff that\u2019s really painful. I guess it just feels safer to keep it all bottled up instead of risking that. But then again, I know ignoring it isn\u2019t helping either, so it's frustrating. I don\u2019t want to feel out of control, like I\u2019m just letting everything come flooding back.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 13,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "You're expressing a real struggle between wanting to protect yourself from painful memories and recognizing that keeping everything bottled up isn't helping. I wonder, what have you noticed about how those memories affect you when they come up unexpectedly, compared to when you might choose to face them in a controlled way like writing?",
+      "client": "I guess when those memories come up unexpectedly, it\u2019s like a punch to the gut. They just hit me out of nowhere, and I feel really overwhelmed. But if I\u2019m writing about them, at least I could maybe prepare myself a little. I mean, it feels like I\u2019d be in control of it somehow, rather than just having it crash over me without warning. But then, I still worry about getting sucked back into all that pain, you know? It\u2019s a tough spot to be in.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 14,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "```json\n{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}\n```"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It's really insightful that you're recognizing the difference between feeling overwhelmed by memories when they unexpectedly hit you and the potential for some control when writing them down. It sounds like you're putting a lot of thought into this. One small step you might consider is to write down just one specific memory or thought that feels manageable for you. Would that feel okay to explore together?",
+      "client": "I can kind of see how that might help, but I don\u2019t know if I\u2019m ready to dive into anything specific just yet. I mean, it feels like picking one memory could lead to a whole flood of stuff. I guess I\u2019m just worried about what might come up if I start, like it could end up being too much. It\u2019s just hard to take that first step, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 15,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "You're feeling torn between the potential benefits of addressing these memories and the fear that it might become overwhelming. That makes a lot of sense. Maybe we could think about finding a very small, less intense memory or thought to write about, just as a way to dip your toes in without feeling overwhelmed. What do you think would feel manageable for you in this moment?",
+      "client": "I guess that could be a good idea, but I really don\u2019t know what that small memory would even be. It feels like everything is tied together, and I can\u2019t separate them out. Part of me thinks it would be easier to just avoid it all. I mean, maybe if I just keep pushing it aside, I won\u2019t have to deal with it. But then again, I\u2019m not sure that\u2019s really helping me either. I just don\u2019t want to end up in a worse place than I already am.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 16,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It's clear that you're navigating a complex mix of thoughts and feelings around these memories, and it's valid to feel unsure about where to start. I appreciate your willingness to explore this. One gentle idea might be to try noticing any small moments in your day when a memory surfaces, even if it feels vague. Writing down just a word or a phrase about that moment could offer a starting point without diving too deep right away. Would that feel okay to consider?",
+      "client": "I mean, that might be worth trying. Just a word or a phrase doesn\u2019t sound too intense, I guess. But I still worry that even that could lead me somewhere I\u2019m not ready to go. It\u2019s like, part of me wants to give it a shot, but another part thinks it might just stir things up too much. I know avoiding it isn\u2019t the answer, but I just feel stuck sometimes. Maybe I could give it a try, but I\u2019m still not completely sure.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 17,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "You're caught in a pull between wanting to try but fearing it might stir up too much. It's completely understandable to feel stuck in that space. Maybe we could identify one very small situation where you might notice a memory without pressure to explore it deeply. What might that look like for you, or how could we keep it light?",
+      "client": "I guess I could try to think about just a normal moment in my day, like when I'm cooking or something. Maybe I could jot down a word about how I feel while I\u2019m doing that, but it still feels a bit risky. It\u2019s like, part of me wants to see if it leads anywhere, but another part is worried it might just bring up stuff I\u2019m not ready to handle. I mean, it\u2019s hard to keep it light when there\u2019s so much going on in my head. I don\u2019t want to make it bigger than it is, but I also don\u2019t want to ignore it, you know?",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I mean, that might be worth trying. Just a word or a phrase doesn\u2019t sound too intense, I guess. But I still worry that even that could lead me somewhere I\u2019m not ready to go.\"\n2. Client: \"I guess I could try to think about just a normal moment in my day, like when I'm cooking or something. Maybe I could jot down a word about how I feel while I\u2019m doing that, but it still feels a bit risky.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a noticeable shift towards greater emotional openness, as they articulate their feelings of being torn between the desire to explore their memories and the fear of becoming overwhelmed. This marks a significant change from earlier stages where responses were more factual and guarded. The client is beginning to engage with emotional concepts, showing some vulnerability regarding their fears about facing past memories. While they still express uncertainty, their willingness to consider small steps indicates a move towards deeper self-reflection and engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began expressing the conflict between wanting to confront their feelings while simultaneously fearing the potential consequences of doing so. By identifying a specific activity (like cooking) where they might begin to explore their feelings in a manageable way, the client is demonstrating not only self-awareness but also a readiness for exploration, which reflects a growing trust in the therapeutic process. This moment of insight, where they acknowledged their fears while also expressing a willingness to try something new, marks a pivotal development in their emotional openness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 18,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "You're recognizing that wanting to explore your feelings can feel risky, especially when there's a lot going on in your head. I wonder, when you think about cooking and the feelings that might surface there, what do you think those feelings are trying to tell you about your current experiences?",
+      "client": "I don\u2019t know, it\u2019s hard to say. Cooking is kind of my safe space, I guess, but sometimes it reminds me of family gatherings, and that brings up all these mixed feelings. Part of me just feels anxious about how I might react or what I might remember. I mean, maybe it\u2019s telling me that I still care about those connections, but I also feel so disconnected. It\u2019s like I want to enjoy it, but there\u2019s this weight of expectation that I can\u2019t shake off.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 19,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re able to identify that cooking is a safe space for you, even as it brings up those mixed feelings about connections and expectations. One small step might be to notice not just the feelings, but also the specific thoughts that come to you during those moments. Would it be okay to try just writing down one thought that pops up while you\u2019re cooking, without judgment? It could be a way to gently explore that weight without feeling overwhelmed.",
+      "client": "I guess writing down just one thought could work. It's like a little way to check in with myself without diving too deep. Sometimes I think about how everyone else seems so much more put together, and then I feel like I'm just... not. I mean, maybe that\u2019s part of the weight I feel, like I have to live up to something that\u2019s just not me. But then again, it might help to see those thoughts on paper, kind of like making them less heavy. I don\u2019t know if I\u2019m ready to go deeper, but it might be a start.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 20,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "You're noticing that writing down your thoughts could help lighten that weight, especially the pressure to be 'put together.' I wonder, when you think about the expectation to live up to something that feels out of reach, what evidence do you have that supports or challenges that belief?",
+      "client": "I guess there\u2019s a part of me that feels like I don\u2019t really measure up to what others expect, especially in my family. Like, I see my cousins doing well and having these perfect lives, and then there\u2019s me, feeling like I\u2019m just stuck. But part of me knows that it\u2019s not like everyone\u2019s life is as perfect as it looks. I mean, maybe I just see the highlights and not the struggles. I don\u2019t know, it\u2019s confusing. I guess it challenges that belief a bit, but it doesn\u2019t always change how I feel in the moment. It\u2019s like I can kind of see it, but it doesn\u2019t make the pressure go away.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 21,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It's really insightful that you can see the difference between the highlights of others' lives and the struggles they might face. That recognition shows a lot of self-awareness. One possibility might be to try noticing when those feelings of pressure arise, and gently asking yourself what thought or belief is behind it. Would that be something you\u2019d be open to exploring a bit more?",
+      "client": "I mean, I can see why that might be helpful. It\u2019s like, if I could take a step back and recognize what\u2019s bubbling up, maybe I\u2019d understand it better. But at the same time, it feels like opening a can of worms, you know? I'm not sure I really want to dig into it all right now. I guess part of me is just worried about what I might find. It's easier to keep things at arm's length.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 22,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "You're recognizing that exploring those feelings might lead to some uncomfortable discoveries, and at the same time, you want to understand what\u2019s behind them. Maybe we could focus on just one small moment when you feel that pressure arise, without diving too deep? What would feel manageable for you to try?",
+      "client": "I guess I could try to pinpoint just one moment when that pressure hits. Maybe something from the last week or so? It feels less overwhelming to just focus on a small piece instead of everything at once. I mean, I don\u2019t know if I\u2019ll get anywhere with it, but I can kind of see how just a little bit might help. It\u2019s just that I really don\u2019t want to end up spiraling into all the feelings I usually avoid. That part makes me anxious.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 23,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "You're acknowledging that focusing on just one moment feels more manageable, even if there's still some anxiety about what might come up. It\u2019s great that you\u2019re willing to try that approach. What if we set a goal to identify that moment and maybe even jot down just a sentence or two about it? How does that sound to you?",
+      "client": "I guess that could work. Writing down just a sentence or two feels less daunting than trying to unpack everything at once. I mean, it\u2019s still a bit nerve-wracking, thinking about what I might come up with. But maybe if I keep it simple, it won\u2019t feel like such a big deal. I\u2019ll give it a shot, I suppose.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess I could try to pinpoint just one moment when that pressure hits. Maybe something from the last week or so? It feels less overwhelming to just focus on a small piece instead of everything at once.\"\n2. Client: \"I mean, it\u2019s still a bit nerve-wracking, thinking about what I might come up with. But maybe if I keep it simple, it won\u2019t feel like such a big deal. I\u2019ll give it a shot, I suppose.\"\n\n**Progression:** The client\u2019s recent exchanges exhibit a noticeable progression in emotional openness, highlighting their willingness to engage with uncomfortable feelings rather than avoiding them. Earlier in the session, the client expressed hesitation and a desire to keep things at arm's length, indicating a more defensive stance. However, their willingness to identify \"just one moment\" when pressure arises signals a significant shift toward engagement and self-reflection. The client is beginning to articulate their emotions and thoughts more freely, illustrating a deeper level of self-awareness and readiness to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged that focusing on just one moment felt more manageable. This moment demonstrated a breakthrough in their willingness to confront their emotions, moving from avoidance to a commitment to explore issues in a controlled way. The acknowledgment of feeling \"nerve-wracking\" alongside a determination to try highlights an emerging vulnerability and an openness to engage with their emotional experiences.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 24,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Writing down just a sentence or two sounds like a great plan. It's understandable to feel nervous about what might come up, but let's consider the thought that might be causing that anxiety. Instead of thinking, 'This will be overwhelming,' what if we tried a more balanced thought like, 'I can handle this small piece, and I can stop if it gets too much'? How does that feel to you?",
+      "client": "I mean, that sounds like it could help, but I\u2019m still a bit skeptical. It\u2019s just hard to believe that I can handle even a small piece without getting overwhelmed. Part of me thinks it\u2019s easier to just avoid it, you know? Like, if I don\u2019t dig into it, I won\u2019t have to feel all that pressure. But maybe, if I remind myself I can stop, it won\u2019t feel so scary? I don\u2019t know, it\u2019s just tricky to wrap my head around.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 25,
+        "sentiment": "Positive",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 8,
+        "mode": "CBT",
+        "judge_response": "{\"Sentiment\": \"Positive\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Cognitive Restructuring"
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "You\u2019re really grappling with the tension between wanting to avoid the pressure and recognizing that facing it might actually help. I wonder, what kind of evidence do you have that suggests facing just a small piece could lead to feeling overwhelmed? Is there a time when it turned out differently for you?",
+      "client": "I guess I don\u2019t have a ton of evidence, to be honest. There have been times when I\u2019ve tried to face things, and it didn\u2019t feel as bad as I thought it would. Like, I remember a time I talked to a friend about something that was bothering me, and it actually felt kind of relieving. But then there are other times when I really got into it and just ended up feeling worse, like it brought up a lot of stuff I wasn\u2019t ready to deal with. So it\u2019s like I have this back-and-forth in my head about it. Maybe I\u2019m just too focused on the negative experiences? It\u2019s confusing.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 26,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "It's really insightful that you\u2019re recognizing the back-and-forth in your experiences. It\u2019s a significant step to notice that there might be a balance between the positive and negative ones. One small place to start could be to try and identify one specific positive experience you had when facing something challenging. Would it be okay to jot that down and see how it feels to reflect on it?",
+      "client": "I can kind of see how that might be helpful, but I\u2019m still not entirely sure. I mean, I guess I could think of a specific time, but it feels a bit daunting to pick just one. There was that time with my friend, but I think I\u2019m still stuck on all the times it didn\u2019t go well. It\u2019s like, I know there were good moments, but they\u2019re buried under the bad ones, you know? So, I don\u2019t know if it\u2019s that easy for me.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 27,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "You're facing the challenge of recognizing the positive moments while the negative experiences feel more prominent. It\u2019s understandable to be concerned about picking just one moment to focus on. Maybe we could consider reflecting on just the time with your friend, even briefly. How does that sound to you? Would it feel manageable to explore that experience a little more together?",
+      "client": "I mean, I guess that could work, but I\u2019m still hesitant. It's like, thinking about that moment feels easier than digging into the bad stuff, but what if it opens a whole can of worms? I don\u2019t want to end up spiraling down into all the negative feelings again. I can see how it might be manageable, but part of me is still worried about where it could lead. I don\u2019t know if I'm ready to go there just yet.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 28,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "It's completely valid to feel hesitant about opening up that can of worms. You're doing a great job of recognizing your limits and what feels right for you. One small step might be to simply take a moment to think about how talking to your friend made you feel, without diving too deep into anything else for now. Would that feel okay to try?",
+      "client": "I mean, I can try to think about how I felt talking to my friend. I remember feeling a little lighter afterward, like I could breathe a bit easier. But I guess part of me is still stuck on how it could all turn into something heavier if I go deeper. It\u2019s just frustrating because I want to move forward, but it feels like there's always this wall in the way. I don\u2019t know if I\u2019m ready to really explore those feelings right now. It's like, I want to feel better, but the thought of getting there feels overwhelming.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 29,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re noticing the mix of wanting to move forward while feeling that wall in the way. Sometimes, our feelings can create a sense of heaviness that makes it hard to see the path ahead. One possibility is that the feelings we\u2019re avoiding might not be as overwhelming when we allow ourselves to acknowledge them step by step. This may not fit your situation perfectly, but it could be worth exploring how you feel about taking those small steps when you\u2019re ready. What do you think about that idea?",
+      "client": "I can kind of see how taking small steps might be a good way to approach it. It\u2019s just that every time I think about the feelings I\u2019ve been avoiding, it feels like they\u2019re just waiting to explode or something, you know? I don\u2019t want to dive into that chaos if I can help it. But maybe if I just take it a bit at a time, it wouldn't be as bad. It still feels daunting though, like I'm stuck in this loop of wanting to move forward but being held back by all that weight. I don\u2019t know if I\u2019m ready to tackle it just yet, but I guess it\u2019s something to consider.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "### Rating: 3\n\n### Key Examples:\n- **Example 1:** \"I mean, I can try to think about how I felt talking to my friend. I remember feeling a little lighter afterward, like I could breathe a bit easier.\"  \n- **Example 2:** \"It\u2019s just that every time I think about the feelings I\u2019ve been avoiding, it feels like they\u2019re just waiting to explode or something, you know? I don\u2019t want to dive into that chaos if I can help it.\"\n\n### Progression:\nThe client\u2019s recent interactions reveal a blend of emotional expression and self-reflection. They demonstrate an awareness of their emotional state, stating that discussing positive feelings from the interaction with their friend made them feel \"a little lighter.\" This acknowledgment of positive emotions signifies growth compared to earlier sessions, where the client tended to be more defensive and focused primarily on negative aspects without exploring any positive experiences. The recognition of wanting to move forward, despite feeling \"stuck in this loop,\" shows an emerging capacity for self-reflection and a desire for progress, though there remains fear about delving deeper into negative emotions.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted during the exchange when they articulated the tension between wanting to explore their feelings and the fear of being overwhelmed. This moment, particularly when they expressed, \"It's just frustrating because I want to move forward, but it feels like there's always this wall in the way,\" highlights a significant increase in emotional openness. The client's willingness to consider small steps in addressing their feelings indicates a pivotal moment in their engagement with the therapeutic process, reflecting a deeper level of self-awareness and a budding trust in the therapeutic relationship.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 30,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Psychoeducation with Autonomy Support"
+    }
+  ]
+}

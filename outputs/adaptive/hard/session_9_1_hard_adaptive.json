@@ -1,0 +1,984 @@
+{
+  "mode": "hard",
+  "therapist_type": "adaptive",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": "gpt-4o-mini",
+  "patient_id": "9-1",
+  "patient_name": "Fiona",
+  "client_type": "prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "Rating: 2\n\nKey Examples:\n- \"I just try to keep busy with my own stuff and not think about it too much.\"\n- \"I don\u2019t really see the point in thinking about it too much when I can just keep moving.\"\n\nProgression: The client\u2019s most recent interactions demonstrate a mix of factual and emotional responses, indicating a tentative beginning to emotional exploration. While they express a desire to focus on responsibilities and avoid deeper emotions, their acknowledgment of the challenges of balancing their needs shows some level of self-reflection. This marks a significant shift from earlier parts of the session where they may have been more defensive and less willing to engage in emotional dialogue.\n\nTurning Point: The client\u2019s emotional depth shifted when they began expressing their coping strategy of staying busy as a response to feeling overwhelmed. The moment they acknowledged the burden of their responsibilities and the desire to avoid heavier emotions indicates a slight opening towards self-awareness, even if they still maintain a practical stance on their coping mechanisms.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent emotional state:** \"I mean, I guess I worry I might start feeling really overwhelmed or even sad, and then it could just snowball from there.\"\n2. **Current openness:** \"I guess part of me just feels like I\u2019ve been so good at pushing things aside that I\u2019m not sure how I\u2019d even start to let them in without losing control.\"\n\n**Progression:** The client\u2019s recent interactions illustrate a growing awareness and willingness to explore their emotional landscape. They express a mix of apprehension and curiosity about processing their feelings, highlighting a shift from earlier sessions where emotional expression was either limited or heavily guarded. The client\u2019s acknowledgment of their fears surrounding emotional openness and the potential for overwhelm signals an important development in their self-reflection abilities. \n\n**Turning Point:** The client\u2019s emotional depth appears to have shifted during the exchange where they articulated their struggle between wanting to stay in control and needing to process their emotions. This moment shows a newfound ability to articulate complex feelings, indicating their movement towards a more engaged exploration of their emotional state. The client is beginning to navigate the balance between fear and the necessity of emotional expression, which is a significant step forward in their therapeutic journey.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I don\u2019t know, it\u2019s like, I just feel a sense of responsibility for her well-being, especially after everything she\u2019s been through.\"\n- \"I mean, that sounds okay, I guess. I just don\u2019t really know what feels affirming to me right now.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional vulnerability, particularly in expressing their sense of responsibility and the internal conflict they feel regarding their support for Jersey. This marks a significant change from earlier sessions, where their responses were likely more factual and guarded, indicating a gradual warming up to deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their feelings of responsibility and the pressures associated with supporting Jersey. This occurred in the exchange where they expressed the conflict of wanting to be there for Jersey while feeling overwhelmed by their own circumstances. This moment demonstrates a willingness to explore their emotional landscape more deeply, indicating a shift from a previously more superficial engagement with their feelings.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess when I feel that guilt, I often think about how I should be doing more for her, like being there physically or helping out in a big way. It\u2019s like I keep measuring my support against what I think is 'enough,' and that just makes me feel more anxious.\"\n2. \"I guess I could think about small ways to check in on her, like sending a message or a quick call instead of trying to be there in person all the time. It feels a bit less overwhelming, maybe? But I\u2019m still not sure if that would really feel like enough.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable emotional quality characterized by self-reflection and the emergence of vulnerability. In earlier exchanges, the client displayed a more defensive stance, often relying on factual responses and hesitance to explore feelings. However, the latest dialogues reveal the client actively engaging with their emotional struggles surrounding guilt and support, indicating a progression from a more guarded position to an openness in discussing their conflicting feelings and thoughts about their relationship with Jersey. The client is beginning to recognize the complexity of their emotions and is showing signs of starting to develop a more flexible mindset regarding their support.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted noticeably when they began to articulate their thoughts about guilt and support in a way that integrated both anxiety and a desire to connect. This was particularly evident when they stated, \u201cIt\u2019s hard to shake off, you know?\u201d highlighting their struggle and internal conflict. This moment represents a turning point where the client expresses awareness of their emotional challenges, marking a move from initial defensiveness to a more engaged exploration of their feelings. The introduction of",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3  \n\n**Key Examples:**  \n- \"I remember when she was in the hospital after her amputation, I spent a lot of time with her, helping her adjust. It felt good to be there then, but now it\u2019s hard to shake this feeling that I\u2019m not doing enough.\"  \n- \"I can see where you're coming from, and writing down how I felt during that time could maybe help me reconnect with those positive feelings. But I also worry that it might just remind me of how different things are now, you know?\"  \n\n**Progression:** The client's most recent interactions reveal a significant emotional state characterized by vulnerability and self-reflection. They express a mix of gratitude and frustration regarding their ability to support Jersey, indicating a deeper understanding of their feelings. This marks a change from earlier sessions where their emotional expression was more limited and defensive. The client is beginning to engage more meaningfully, demonstrating a willingness to explore their feelings, despite expressing concerns about the potential for negative emotions to resurface.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they recalled a specific instance of support during Jersey\u2019s hospitalization. This moment marked a transition from a defensive stance to a more reflective and engaged approach as they navigated the complexities of their feelings about the past and present. This openness to consider both positive memories and current challenges signals growth in their emotional processing and rapport with the therapist.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [
+    {
+      "turn": 2,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 3,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 4,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 5,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 6,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 7,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 8,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 9,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 10,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 11,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 12,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 13,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 14,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 15,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 16,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 17,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 18,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 19,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 20,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 21,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 22,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 23,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 24,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 25,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 26,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 27,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 28,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 29,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 30,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Negative\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    }
+  ],
+  "selected_strategies": [
+    {
+      "turn": 2,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 3,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 4,
+      "strategy_used": "Affirmation",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 5,
+      "strategy_used": "Open-ended Question",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 6,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 7,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 8,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 9,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 10,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 11,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Psychoeducation with Autonomy Support",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Fiona, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don't know. I guess I've just been thinking about Jersey's surgery and how I can't really be there for her right now. It's just frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It feels really tough to be in a situation where you want to support Jersey but feel unable to do so right now. That frustration must be really hard to carry.",
+      "client": "I don\u2019t think it\u2019s that deep. I mean, it\u2019s just how things are right now. I have my own stuff going on, and I can't really drop everything for her.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 2,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like you're feeling like you have your own responsibilities that make it hard to prioritize Jersey right now. That can create a sense of conflict when you care about someone but also have to focus on your own life.",
+      "client": "I don\u2019t really think about it like that. I mean, I get that I have my things going on, but it\u2019s just how it is. I can\u2019t just be there for everyone all the time.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 3,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It's clear that you have a lot on your plate, and it takes strength to recognize your own limits. Balancing your own needs with wanting to support others is a challenging position to be in. What do you think helps you manage that balance?",
+      "client": "I don\u2019t know. I just try to keep busy with my own stuff and not think about it too much. I mean, I have my own responsibilities, so I just focus on those. It\u2019s not like I can change the situation anyway.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 4,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation"
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Keeping busy sounds like a way to cope with everything that's going on for you. What do you find yourself focusing on most when you're trying to manage your responsibilities?",
+      "client": "I guess I just do what I have to do, like work and deal with the roommate stuff. I mean, there\u2019s always something that needs my attention. I don\u2019t really see the point in thinking about it too much when I can just keep moving.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 5,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Open-ended Question"
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It feels like staying busy and focusing on your responsibilities helps you avoid the heavier emotions connected to everything else. You\u2019re just trying to keep moving forward without getting stuck in those thoughts.",
+      "client": "I don\u2019t really see it that way. I mean, yeah, staying busy helps, but it\u2019s just a practical thing. I don\u2019t want to get stuck thinking about the emotions. There's too much going on already, so keeping my head down and pushing through seems easier.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "Rating: 2\n\nKey Examples:\n- \"I just try to keep busy with my own stuff and not think about it too much.\"\n- \"I don\u2019t really see the point in thinking about it too much when I can just keep moving.\"\n\nProgression: The client\u2019s most recent interactions demonstrate a mix of factual and emotional responses, indicating a tentative beginning to emotional exploration. While they express a desire to focus on responsibilities and avoid deeper emotions, their acknowledgment of the challenges of balancing their needs shows some level of self-reflection. This marks a significant shift from earlier parts of the session where they may have been more defensive and less willing to engage in emotional dialogue.\n\nTurning Point: The client\u2019s emotional depth shifted when they began expressing their coping strategy of staying busy as a response to feeling overwhelmed. The moment they acknowledged the burden of their responsibilities and the desire to avoid heavier emotions indicates a slight opening towards self-awareness, even if they still maintain a practical stance on their coping mechanisms.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": {
+        "turn": 6,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "It makes sense that focusing on practical matters feels easier for you right now, especially when there\u2019s so much going on. There's a sense of wanting to keep moving forward without dwelling on the emotions that might feel overwhelming.",
+      "client": "I guess that kind of makes sense. It\u2019s just that when I think about Jersey and her surgery, it feels heavy, you know? I mean, I care about her and want to be there for her, but I also feel like I have to manage my own stuff first. It's a lot to juggle, and sometimes I wonder if I\u2019m doing any of it right.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 7,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It's clear that you're really putting a lot of thought into balancing your own needs with being there for Jersey. That shows a lot of care and responsibility. One small idea might be to notice the thoughts that come up when you feel that heaviness about her surgery. Would that be something you\u2019d be open to trying?",
+      "client": "I don\u2019t know, maybe. I mean, I can see how it could be helpful to notice those thoughts, but part of me is just worried about getting too caught up in them. I guess it feels risky to go there when there's so much to handle already. I just don\u2019t want to make things harder for myself, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 8,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "It sounds like you're feeling caught between wanting to support Jersey and the worry that exploring your own feelings might add to your load. It\u2019s understandable to feel that way. Maybe we could find a very small way to start noticing those thoughts without getting overwhelmed. What do you think would feel manageable for you?",
+      "client": "I guess I could try to notice those thoughts in a small way, but I\u2019m not sure what that would look like. I mean, maybe just jotting down a few things when I feel that heaviness? But then again, part of me is worried that once I start, I might not be able to stop, you know? It feels like I might end up spiraling into a lot of emotions that I just don\u2019t have time for right now.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 9,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "You're noticing that the thought of writing down your feelings feels risky, and you\u2019re concerned it could lead to a spiral of emotions. I wonder what you believe would happen if you did allow yourself to jot down just a few thoughts in those moments of heaviness. What would that look like for you?",
+      "client": "I mean, I guess I worry I might start feeling really overwhelmed or even sad, and then it could just snowball from there. It\u2019s like, if I open that door, I might have to deal with more than I\u2019m ready for right now. But, on the other hand, maybe jotting things down could help me sort it out a little. I just don\u2019t want to get lost in it all or feel like I can\u2019t come back. It\u2019s a bit confusing, honestly.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 10,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "You're recognizing that opening up those feelings might feel overwhelming, yet there's also a part of you that sees potential benefits in sorting things out. I wonder what evidence you have that you might get lost in those emotions, and if there are ways you could set limits to keep it from feeling too heavy?",
+      "client": "I guess part of me just feels like I\u2019ve been so good at pushing things aside that I\u2019m not sure how I\u2019d even start to let them in without losing control. I mean, maybe I could set some limits, like just writing for a few minutes or something. But then I think about how I might feel after, and it worries me. I don\u2019t know... it just feels like a balancing act between wanting to stay in control and needing to process all this stuff.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 11,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "It's great that you're considering setting some limits, like writing for just a few minutes. That shows a lot of self-awareness and a desire to find balance. One small step might be to notice the specific feelings that come up while you're writing, without trying to dive too deeply into them. Would it be okay to explore how that could look for you?",
+      "client": "I guess I could try that. Maybe just focusing on what I'm feeling in the moment without getting too caught up in everything would help. But, I don\u2019t know if I\u2019d be able to keep it that simple. It feels like once I start, I might want to unpack everything all at once, you know? It\u2019s hard to imagine just dipping my toes in when I feel like there's so much to wade through.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent emotional state:** \"I mean, I guess I worry I might start feeling really overwhelmed or even sad, and then it could just snowball from there.\"\n2. **Current openness:** \"I guess part of me just feels like I\u2019ve been so good at pushing things aside that I\u2019m not sure how I\u2019d even start to let them in without losing control.\"\n\n**Progression:** The client\u2019s recent interactions illustrate a growing awareness and willingness to explore their emotional landscape. They express a mix of apprehension and curiosity about processing their feelings, highlighting a shift from earlier sessions where emotional expression was either limited or heavily guarded. The client\u2019s acknowledgment of their fears surrounding emotional openness and the potential for overwhelm signals an important development in their self-reflection abilities. \n\n**Turning Point:** The client\u2019s emotional depth appears to have shifted during the exchange where they articulated their struggle between wanting to stay in control and needing to process their emotions. This moment shows a newfound ability to articulate complex feelings, indicating their movement towards a more engaged exploration of their emotional state. The client is beginning to navigate the balance between fear and the necessity of emotional expression, which is a significant step forward in their therapeutic journey.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 12,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "You're feeling a tension between wanting to dip your toes in and the overwhelming urge to unpack everything at once. That balance can be tricky. Maybe we could identify one small aspect of your feelings to focus on during your writing. What might that look like for you, or is there a specific feeling that feels more manageable to start with?",
+      "client": "I think maybe I could focus on what I'm feeling about Jersey and her surgery, since that's been on my mind a lot lately. I mean, it\u2019s definitely triggering my worries, and there\u2019s so much I wish I could do for her, but I can\u2019t. It just feels heavy, you know? I guess if I could just write about my worries without getting too deep into them, that might help me feel a bit more grounded. But I still worry about how it could spiral, especially if I start feeling guilty for not being there for her like I want to be.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 13,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It's understandable to feel heavy about your worries for Jersey, especially when you wish you could do more. Sometimes, our feelings can be influenced by the meaning we attach to situations. For instance, the guilt you're mentioning might be tied to the belief that you should always be there for her. We could gently explore what that feeling means for you and how it shapes your thoughts. Would that be alright?",
+      "client": "I guess that makes sense. I do feel like I should be there for her, and it\u2019s kind of hard to shake that thought. Sometimes, I wonder if I\u2019m being too hard on myself. I mean, I can\u2019t be there all the time, but then I end up feeling guilty for not doing enough. It\u2019s like this cycle that just keeps going. Maybe if I could find a way to see things differently, it wouldn\u2019t feel so heavy? But I\u2019m not sure how to start doing that.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 14,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Psychoeducation with Autonomy Support"
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It's really insightful that you're recognizing this cycle of feeling guilty and wondering if you're too hard on yourself. That awareness is a significant first step. One possibility to explore might be to challenge that thought of 'not doing enough' by identifying specific actions you've taken for Jersey. Would it be okay to look at a few ways you've supported her, even if they're small?",
+      "client": "I can see how looking at the specific things I've done might help shift my perspective, but I'm still a little hesitant. I mean, I guess I have supported her in some ways, like checking in on her and sending messages, but it just feels like it\u2019s not enough sometimes. I don\u2019t want to downplay what I\u2019ve done, but part of me still feels like I should be doing more, you know? It's just hard to reconcile that feeling with the reality of my situation.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 15,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "You\u2019re recognizing that even though you've taken steps to support Jersey, there's still this strong feeling that it might not be enough. I wonder what evidence you might have for that belief that you should be doing more? Are there specific examples that lead you to feel that way?",
+      "client": "I don\u2019t know, it\u2019s like, I just feel a sense of responsibility for her well-being, especially after everything she\u2019s been through. Maybe it\u2019s because I\u2019ve been there for her during past surgeries, so I keep thinking I should be the one helping her, you know? But at the same time, I have my own stuff going on, and it feels overwhelming to juggle it all. I guess part of me thinks that if I don\u2019t do enough, I\u2019m letting her down. It\u2019s hard to shake that belief, even though I know I\u2019ve done things for her.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 16,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It's great that you're acknowledging the weight of your responsibility for Jersey while also recognizing your own challenges. That balance is not easy to find. One small step we could consider is to keep track of the specific actions you\u2019ve taken to support her. Maybe writing them down could help you see the impact you\u2019ve made more clearly. Would that be something you'd be open to trying?",
+      "client": "I guess keeping track of what I\u2019ve done might help me see it more clearly, but I\u2019m a little unsure about writing it down. I don\u2019t want to feel like I\u2019m just counting my efforts, you know? Maybe it could help, but part of me thinks it might just add more pressure. It\u2019s hard to know if that\u2019s a good idea or not. I mean, I do want to feel like I\u2019m doing enough, but I also don\u2019t want to make it feel like a chore.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 17,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "You're feeling caught between wanting to recognize your efforts and not wanting to turn it into a chore. It sounds like you're open to exploring how to acknowledge your support for Jersey without the pressure of counting actions. Maybe we could brainstorm a way to do that that feels more like an affirmation of your efforts rather than a checklist. What do you think might work for you?",
+      "client": "I mean, that sounds okay, I guess. I just don\u2019t really know what feels affirming to me right now. Maybe I could think about what I appreciate about our friendship or what I\u2019ve learned from being there for her? But part of me worries that it won\u2019t feel genuine if I\u2019m just trying to come up with things. It's just tough to balance everything, you know? I don't want to dismiss my feelings, but I also want to be there for her.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I don\u2019t know, it\u2019s like, I just feel a sense of responsibility for her well-being, especially after everything she\u2019s been through.\"\n- \"I mean, that sounds okay, I guess. I just don\u2019t really know what feels affirming to me right now.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a growing emotional vulnerability, particularly in expressing their sense of responsibility and the internal conflict they feel regarding their support for Jersey. This marks a significant change from earlier sessions, where their responses were likely more factual and guarded, indicating a gradual warming up to deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their feelings of responsibility and the pressures associated with supporting Jersey. This occurred in the exchange where they expressed the conflict of wanting to be there for Jersey while feeling overwhelmed by their own circumstances. This moment demonstrates a willingness to explore their emotional landscape more deeply, indicating a shift from a previously more superficial engagement with their feelings.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 18,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It's wonderful that you're willing to think about what you appreciate about your friendship with Jersey while also being aware of your feelings. That balance is so important. One small idea might be to try jotting down just one positive thought or memory each week that feels genuine to you. Would that be something you\u2019d be open to exploring?",
+      "client": "I guess jotting down just one positive thought could be manageable, but I\u2019m still not entirely sure if it would feel genuine. I mean, it\u2019s like, I want to honor our friendship, but I don\u2019t want it to feel forced. Maybe if I just let it come naturally, it would work better? I\u2019m just worried that I\u2019ll get stuck trying to find the \u201cperfect\u201d thing to write down, you know? It feels like there's a lot of pressure, even if it\u2019s just one thought.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 19,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "You're recognizing the pressure of trying to find the 'perfect' thought to capture your friendship, while also wanting it to feel natural. I wonder what it might be like to explore a time when you felt that connection without the pressure of finding the right words. What do you think might help you tap into those genuine feelings without feeling forced?",
+      "client": "I guess thinking about a time when I felt that connection could be helpful. Maybe I could remember a specific moment we shared that really meant something. It\u2019s just that sometimes I get so caught up in everything else that it's hard to focus on those memories. I mean, I know they\u2019re there, but sometimes it feels like they\u2019re overshadowed by all this worry. But I can kind of see how tapping into those genuine feelings might ease some of that pressure.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 20,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "You're noticing that those genuine memories are sometimes overshadowed by your worries, but you can see the potential for them to ease the pressure. I wonder what specific worry comes up for you when you try to focus on those memories? How does that impact your ability to connect with the positive moments?",
+      "client": "I think a lot of my worry comes from feeling like I\u2019m not doing enough for Jersey, especially with her surgery coming up. It makes it hard to focus on those positive memories because my mind keeps racing back to what I should be doing instead. I know I care about her, but I guess I just feel guilty for not being there in the way I want to be. It\u2019s like the anxiety clouds everything, and I can\u2019t really tap into those good moments.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 21,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It's clear that your care for Jersey is significant, and feeling guilty can really get in the way of connecting with those positive memories. One small step might be to notice the specific thoughts that come up when you feel that guilt. Would it be okay to explore what those thoughts are, just to see if they offer any insight into how you\u2019re feeling?",
+      "client": "I guess when I feel that guilt, I often think about how I should be doing more for her, like being there physically or helping out in a big way. It\u2019s like I keep measuring my support against what I think is \"enough,\" and that just makes me feel more anxious. Part of me knows I can\u2019t always be there, but another part feels like I\u2019m letting her down. I don\u2019t know if that\u2019s a fair thought, but it feels real to me. It's hard to shake off, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 22,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It's commendable that you're aware of how you're measuring your support against what's 'enough,' even though it leads to increased anxiety. One possibility might be to gently challenge that thought by asking yourself if there's a different way to define what being there for Jersey looks like. Would it be okay to explore that idea together?",
+      "client": "I can kind of see what you're saying about redefining support, but I don\u2019t know if I\u2019m ready to let go of that idea of \u201cenough.\u201d It feels like a really high standard, and I worry that if I lower it, I might not be there for her as much as I should be. I mean, I get that everyone has limits, but I don\u2019t want to think about those limits, you know? It\u2019s confusing because part of me thinks I should be more flexible, but another part feels like that\u2019s just making excuses. It\u2019s hard to find a balance when I feel so anxious.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 23,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like you're grappling with a lot of conflicting feelings about what it means to be there for Jersey, balancing high standards with the reality of your limits. Finding that balance can indeed be challenging, especially with anxiety in the mix. Maybe we could consider one small step toward exploring what flexibility might look like for you in supporting her. What do you think would feel manageable to try?",
+      "client": "I guess I could think about small ways to check in on her, like sending a message or a quick call instead of trying to be there in person all the time. It feels a bit less overwhelming, maybe? But I\u2019m still not sure if that would really feel like enough. I mean, I worry that even those small gestures won\u2019t measure up to what she really needs, you know? It\u2019s like I want to help, but then I get stuck in my head about whether it\u2019s truly helpful or just a way to ease my guilt.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess when I feel that guilt, I often think about how I should be doing more for her, like being there physically or helping out in a big way. It\u2019s like I keep measuring my support against what I think is 'enough,' and that just makes me feel more anxious.\"\n2. \"I guess I could think about small ways to check in on her, like sending a message or a quick call instead of trying to be there in person all the time. It feels a bit less overwhelming, maybe? But I\u2019m still not sure if that would really feel like enough.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable emotional quality characterized by self-reflection and the emergence of vulnerability. In earlier exchanges, the client displayed a more defensive stance, often relying on factual responses and hesitance to explore feelings. However, the latest dialogues reveal the client actively engaging with their emotional struggles surrounding guilt and support, indicating a progression from a more guarded position to an openness in discussing their conflicting feelings and thoughts about their relationship with Jersey. The client is beginning to recognize the complexity of their emotions and is showing signs of starting to develop a more flexible mindset regarding their support.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted noticeably when they began to articulate their thoughts about guilt and support in a way that integrated both anxiety and a desire to connect. This was particularly evident when they stated, \u201cIt\u2019s hard to shake off, you know?\u201d highlighting their struggle and internal conflict. This moment represents a turning point where the client expresses awareness of their emotional challenges, marking a move from initial defensiveness to a more engaged exploration of their feelings. The introduction of",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 24,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "You're noticing that even small gestures like a message or call feel like they might not measure up to what Jersey really needs, which is understandable. I wonder what evidence you have that those small gestures wouldn\u2019t be helpful to her?",
+      "client": "I don\u2019t know if I have specific evidence, but it just feels like I should be doing more, you know? Maybe I\u2019m just overthinking it, but it\u2019s like I can\u2019t help but compare my actions to what I think would be truly supportive. Part of me thinks sending a message is nice, but another part feels like it\u2019s not enough because I\u2019m not there in person. It\u2019s frustrating because I want to be there for her, but I also feel overwhelmed with everything else going on in my life.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 25,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "It's great that you're considering small gestures like sending a message, and it makes sense to feel overwhelmed by wanting to do more. One small way to approach this might be to notice the thoughts that arise when you think about supporting Jersey. Would it be okay to explore what specific thoughts come up for you in those moments?",
+      "client": "I guess I can try to pay attention to those thoughts when I think about supporting her. It\u2019s hard to pinpoint exactly what they are, though. I mean, part of me thinks I should be doing everything I can, but then another part says that might not be realistic. Sometimes I just catch myself feeling guilty for not being there more, and then I spiral into thinking I'm not a good friend. It's a lot to untangle, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 26,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "You're recognizing that guilt and thoughts about being a good friend are creating a spiral that makes it hard to untangle your feelings. I wonder what it might look like to explore the specific thoughts that lead you to feel guilty or like you\u2019re not doing enough. What evidence do you have that those thoughts reflect the reality of your support for Jersey?",
+      "client": "It\u2019s tough to say what evidence I have, honestly. I guess I just feel like I should be more proactive because of everything Jersey's going through. Maybe I think about all those times I was there for her before, and now it feels like I\u2019m falling short. Part of me knows that life gets busy and complicated, but another part just keeps telling me that I should be doing better. It's like I\u2019m stuck between wanting to do what I can and feeling like it's not enough, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 27,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It's really commendable that you're so attuned to Jersey's needs and that you care deeply about being there for her. Balancing your feelings of guilt with the reality of your situation can be difficult. One small step might be to jot down one or two specific instances when you have supported her in the past, just to remind yourself of the positive impact you've made. Would it be okay to try that and see how it feels?",
+      "client": "I can see how that might be helpful, but I\u2019m not sure if I\u2019ll remember specific instances. I mean, there have been times when I\u2019ve really tried to be there for her, like when she was in the hospital or after her surgeries. But it\u2019s hard to pinpoint them now, especially when I\u2019m feeling overwhelmed with everything else going on in my life. I guess I worry that it won't feel like enough, you know? I kind of want to remind myself of those moments, but another part of me feels like it might just highlight how I\u2019m not doing enough right now.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 28,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "You\u2019re feeling caught between wanting to remind yourself of the times you\u2019ve supported Jersey and the fear that it might not feel sufficient right now. It\u2019s understandable to want to focus on the positives while also feeling the weight of your current situation. Maybe we could look for just one specific memory that stands out to you as a meaningful moment with Jersey. Would that feel doable for you?",
+      "client": "I guess I could try to think of one moment that stands out. It seems a bit daunting, but maybe if I focus on just one, it won\u2019t feel so overwhelming. I remember when she was in the hospital after her amputation, I spent a lot of time with her, helping her adjust. It felt good to be there then, but now it\u2019s hard to shake this feeling that I\u2019m not doing enough. I mean, it's just frustrating to think about how things have changed.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 29,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "It's really meaningful that you remember that time you were able to support Jersey during such a challenging moment. Acknowledging those moments can be powerful, even if it feels daunting. One possibility to explore might be to take a moment to write down how being there for her made you feel back then. This could help remind you of the positive role you've played, even in the midst of everything else going on. Would it be okay to try that?",
+      "client": "I can see where you're coming from, and writing down how I felt during that time could maybe help me reconnect with those positive feelings. But I also worry that it might just remind me of how different things are now, you know? I guess it\u2019s a bit of a double-edged sword for me. Part of me wants to hold onto that good feeling, but another part feels like I\u2019m just going to end up feeling worse if I focus too much on the past. It's confusing.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3  \n\n**Key Examples:**  \n- \"I remember when she was in the hospital after her amputation, I spent a lot of time with her, helping her adjust. It felt good to be there then, but now it\u2019s hard to shake this feeling that I\u2019m not doing enough.\"  \n- \"I can see where you're coming from, and writing down how I felt during that time could maybe help me reconnect with those positive feelings. But I also worry that it might just remind me of how different things are now, you know?\"  \n\n**Progression:** The client's most recent interactions reveal a significant emotional state characterized by vulnerability and self-reflection. They express a mix of gratitude and frustration regarding their ability to support Jersey, indicating a deeper understanding of their feelings. This marks a change from earlier sessions where their emotional expression was more limited and defensive. The client is beginning to engage more meaningfully, demonstrating a willingness to explore their feelings, despite expressing concerns about the potential for negative emotions to resurface.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they recalled a specific instance of support during Jersey\u2019s hospitalization. This moment marked a transition from a defensive stance to a more reflective and engaged approach as they navigated the complexities of their feelings about the past and present. This openness to consider both positive memories and current challenges signals growth in their emotional processing and rapport with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 30,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Negative\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    }
+  ]
+}

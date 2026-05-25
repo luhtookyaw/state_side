@@ -1,0 +1,454 @@
+{
+  "mode": "easy",
+  "therapist_type": "standard",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 2\n\n**Key Examples:**\n1. \"I guess I just got this MRI report, and it says I have a herniated disc. It's kind of frustrating, you know? I don't think it\u2019s that deep, but it\u2019s just another thing on top of everything else.\"\n2. \"I don\u2019t know. It just happened, you know? I mean, I\u2019m just trying to get through the recovery from my shoulder surgery. The MRI report is just another thing I have to deal with.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional expression, primarily through frustration regarding their medical issues. They articulate feelings of annoyance and frustration but demonstrate limited emotional depth beyond that. Compared to earlier exchanges, there is a slight increase in the ability to verbalize feelings, but they remain somewhat defensive and minimize the impact of their emotional state.\n\n**Turning Point:** The client's emotional depth shifted when they began to articulate their frustration about the herniated disc and its compounding effect on their recovery. However, the expression remains surface-level, lacking deeper self-reflection or vulnerability. The client\u2019s reluctance to delve deeper into how the MRI report affects them shows a hesitance that restricts the development of a stronger therapeutic rapport. This suggests they are still in the \"Warming Up\" stage, with room for growth in emotional openness and self-reflection.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I don\u2019t really know what 'fine' means right now. It\u2019s like I\u2019m just going through the motions, you know? I mean, part of me wants to be strong and just get through this, but then there\u2019s the other part that feels overwhelmed.\"\n2. \"Sometimes I feel this tightness in my chest, like I\u2019m carrying too much weight. And then there are moments when I just feel exhausted, like my body is saying it can't keep up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional openness and self-reflection. Initially, the client presented more factual responses, indicating a defensive stance, such as when they stated, \"I don\u2019t really think about it like that. I guess I was annoyed, but that\u2019s it. I\u2019m fine.\" However, the subsequent exchange reveals a deeper introspection and acknowledgment of feelings of overwhelm and anxiety. The client\u2019s use of phrases like \u201cgoing through the motions\u201d and \u201clingering fear\u201d indicates a shift towards greater emotional depth and vulnerability, marking a significant change from earlier interactions where feelings were more suppressed.\n\n**Turning Point:** The turning point occurred when the client began to articulate their internal struggle more clearly during the discussion about feeling overwhelmed and anxious. They expressed a realization of not knowing what \u201cfine\u201d truly means, which showcases a deeper level of self-awareness and emotional engagement. This moment reflects a departure from solely factual recounting of their situation and moves towards an exploration of their emotional experience, signifying greater trust and rapport with the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"Sometimes I feel this tightness in my chest, like I\u2019m carrying too much weight. And then there are moments when I just feel exhausted, like my body is saying it can't keep up.\"\n- \"After I reach out, I sometimes feel a little lighter, like maybe I\u2019m not alone in it. But then, I can also feel guilty for needing help, like I should have been able to handle things by myself.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noteworthy shift toward emotional expression and self-reflection. They articulate their physical sensations (tightness in the chest and exhaustion) and emotional struggles (confusion about seeking help versus handling things alone). This level of emotional depth indicates an emerging comfort in discussing their feelings, marking a significant change from earlier exchanges, where responses may have been more factual and guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth began to shift significantly when they started expressing the internal conflict of feeling guilty for needing help while also acknowledging the temporary relief of reaching out to friends. This moment represents a developing self-awareness and vulnerability, indicating progress in their emotional openness and an evolving therapeutic relationship. The acknowledgment of mixed feelings about isolation and support demonstrates a deeper engagement with their emotional experience.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cAfter I reach out, I sometimes feel a little lighter, like maybe I\u2019m not alone in it. But then, I can also feel guilty for needing help, like I should have been able to handle things by myself.\u201d\n2. \u201cDuring the call, I felt a mix of relief and anxiety, like finally letting some steam out, but I also noticed I was holding back a bit, trying not to overshare.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are now expressing complex feelings about their need for support, including relief, guilt, and anxiety, which indicates a willingness to explore their emotional landscape. This represents a significant change from earlier sessions, where the client may have been more guarded and less willing to articulate their feelings. In these latest exchanges, they are engaging in meaningful dialogue about their emotions and experiences, showing growth in their ability to communicate these nuanced feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during their discussion about a recent call with their sister, where they began expressing feelings of relief mixed with guilt. This moment marked a change as they started to articulate the conflict between wanting to reach out for help and the self-critical feelings that followed. This engagement in self-reflection and willingness to share their internal struggle illustrates a deeper level of rapport with the therapist and a more authentic exploration of their emotional state.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"During the call, I felt a mix of relief and anxiety, like finally letting some steam out, but I also noticed I was holding back a bit, trying not to overshare.\"\n2. \"I guess it\u2019s just that I\u2019ve always felt like I should be strong enough to handle things on my own. Maybe part of me thinks asking for help means I\u2019m not managing well or that I\u2019m weak in some way.\"\n\n**Progression:** The client's most recent interactions reveal a significant increase in emotional depth, as evidenced by their articulation of mixed feelings\u2014relief and anxiety\u2014during their call with their sister. This indicates a willingness to explore their emotional landscape more fully than in earlier exchanges, where they demonstrated more factual responses and limited emotional vocabulary. The client has begun to engage in meaningful self-reflection, particularly regarding their beliefs about needing help and feelings of weakness, which marks a transition from a more guarded stance to one where they can express vulnerability.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they recalled their experience recovering from shoulder surgery. In this moment, they expressed feelings of isolation and frustration, which signifies a breakthrough in their willingness to confront and articulate the struggles they face regarding seeking support. This recent moment catalyzed a deeper understanding of their emotional barriers and a readiness to explore these feelings further within the therapeutic context.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. Client: \"It feels kind of heavy, honestly. Recognizing that those thoughts were so loud during that hard time makes me realize how much pressure I put on myself.\"\n2. Client: \"It\u2019s almost like I was fighting against myself, wanting to reach out but also telling myself I wasn't worthy of help.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate significant emotional depth and vulnerability, particularly evident in their acknowledgment of internal struggles related to self-worth and the pressure they place on themselves. This marks a substantial evolution from earlier exchanges where emotional expression was more constrained and factual. The transition from simply recounting experiences to self-reflecting on their emotional weight signals a deeper engagement in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they recognized the contradiction between their need for support and their internal narrative of unworthiness. This moment was pivotal as they openly admitted their frustration with themselves and began to articulate the complexity of their feelings, moving away from a defensive stance to a place of authentic vulnerability.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels kind of heavy, honestly. Recognizing that those thoughts were so loud during that hard time makes me realize how much pressure I put on myself.\"\n2. \"When I think about that embarrassment, it brings up a mix of shame and sadness. I feel this pressure to present myself as someone who has it all together...\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a significant increase in emotional depth, particularly as they articulate their feelings of shame and sadness tied to their need for support. This represents a marked change from earlier parts of the session, where there was more factual reporting and reluctance to delve deeply into emotions. The client is now comfortable exploring their vulnerabilities, which reflects a solid therapeutic alliance and willingness to engage in deeper self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first acknowledged the internal conflict of wanting support while feeling ashamed for needing it. The moment they articulated that \"recognizing that those thoughts were so loud during that hard time\" highlighted a breakthrough in their self-awareness, contributing to their ability to articulate feelings of pressure and the internal conflict of self-worth. This moment of insight has propelled them towards a more vulnerable and open emotional state, indicating a deeper engagement with the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"When I think about that embarrassment, it brings up a mix of shame and sadness. I feel this pressure to present myself as someone who has it all together... I feel like I\u2019ve let everyone down, including myself.\"\n2. **Current Openness:** \"I can feel a tightness in my chest when I think about that fear of judgment... There\u2019s a part of me that wants to push that feeling away, but I know I need to sit with it instead.\"\n\n**Progression:** \nThe client\u2019s most recent interactions reflect a significant increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, the client struggled with articulating their feelings and was more focused on factual responses. However, they have now begun to express complex emotions such as shame and sadness, indicating a deeper level of emotional engagement. The client is actively connecting their physical sensations to their feelings, showcasing their willingness to explore uncomfortable emotions rather than avoiding them.\n\n**Turning Point:** \nThe client\u2019s emotional depth shifted notably when they began to articulate their physical sensations in relation to their emotions. Specifically, the moment they recognized the tightness in their chest as a physical manifestation of their fear of judgment marked a turning point. This acknowledgment not only illustrates their increased self-awareness but also their readiness to confront these feelings, paving the way for further exploration in future sessions. Their willingness to confront the discomfort of exploring these fears indicates a stronger therapeutic alliance and deeper engagement in the process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I think if I allowed myself to explore those feelings of fear and judgment a bit more, it might feel really vulnerable but also potentially freeing.\"\n2. \"I notice that the idea of acknowledging my feelings in that way feels a bit relieving but still somewhat intimidating.\"\n\n**Progression:** The client's most recent interactions demonstrate a meaningful depth of emotional expression and a growing comfort with self-reflection. Initially, the client expressed fears of vulnerability but has transitioned to recognizing the potential benefits of exploring their emotions. They articulate a clear understanding of the complexities of their feelings, showing significant emotional depth that moves beyond mere acknowledgment to a desire for exploration and clarity. This marks a substantial change from earlier interactions, where the emotional vocabulary was more limited and the client exhibited more hesitancy in discussing their feelings.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing the duality of their feelings\u2014acknowledging both the fear of judgment and the potential for personal growth. Specifically, this shift is evident in their statement about the possibility of facing their fears being \"potentially freeing,\" which indicates a readiness to engage with their emotions more fully. This willingness to consider small steps towards emotional acknowledgment represents a pivotal moment in the session, leading to their current state of deep engagement and openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "### Rating: 4\n\n### Key Examples:\n1. **\u201cI notice that the idea of acknowledging my feelings in that way feels a bit relieving but still somewhat intimidating.\u201d** - This illustrates the client\u2019s dual emotional state of relief and apprehension, indicating a deeper awareness of their feelings.\n2. **\u201cI think the most important thing for me to remember in those moments of discomfort is that it\u2019s okay to not have everything figured out right away.\u201d** - This statement shows the client\u2019s evolving self-reflection and acceptance of their emotional journey, highlighting growth in emotional openness.\n\n### Progression:\nThe client\u2019s recent exchanges showcase **consistent emotional depth** and **meaningful self-reflection**, which marks a significant change from previous sessions characterized by more factual responses. Initially, the client demonstrated hesitation and limited emotional vocabulary, but now they articulate both their fears and excitement regarding acknowledging their feelings. This evolution signifies a growing comfort with the therapeutic process and a willingness to delve deeper into their emotional landscape.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted notably when they began to express the complexity of their feelings\u2014relief mixed with intimidation\u2014while discussing the practice of acknowledging their emotions. This moment served as a **catalyst** for the client to recognize their emotions as part of a process rather than an obstacle, paving the way for an **authentic vulnerability** that enhances their therapeutic engagement. They are not only identifying emotions but also strategizing on how to cope, indicating a higher level of self-awareness and readiness to explore their feelings further.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I think the most important thing for me to remember in those moments of discomfort is that it\u2019s okay to not have everything figured out right away. I can remind myself that emotions are just that\u2014emotions\u2014and they don\u2019t define who I am or dictate my future.\"\n2. \"Reaching out for support now feels a bit more complicated, I think. Part of me knows it\u2019s important, but there\u2019s another part that feels hesitant, like I don\u2019t want to burden anyone with my struggles, especially when I\u2019m already feeling so overwhelmed.\"\n\n**Progression:** The client's most recent interactions display a significant increase in emotional depth and self-reflection, highlighting their engagement in exploring difficult feelings. They articulate nuanced insights about their discomfort and the complexity of reaching out for support, which indicates a deepening understanding of their emotional state. This marks a notable shift from earlier sessions, where emotional expression was more guarded and less specific.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue about resilience and handling tough situations, particularly when they began equating reaching out for support with vulnerability and strength. This moment of clarity, where they acknowledged both the importance of support and their fear of being a burden, signifies a breakthrough in their emotional openness and marks a critical turning point in their current state of self-reflection and willingness to engage more deeply in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **\u201cReaching out for support now feels a bit more complicated, I think. Part of me knows it\u2019s important, but there\u2019s another part that feels hesitant, like I don\u2019t want to burden anyone with my struggles...\u201d**\n2. **\u201cI notice that when the idea of reaching out comes up, my body tends to tense up a bit, especially in my shoulders and neck... It feels like there\u2019s a weight on my chest, and part of me knows that it would probably ease if I just opened up to someone.\u201d**\n\n**Progression Analysis:**\nThe client\u2019s recent exchanges demonstrate a noticeable shift towards more profound emotional expression and self-reflection. In the latest interactions, the client articulates their internal conflict regarding reaching out for support, revealing both acknowledgment of the importance of connection and a significant fear of burdening others. This indicates a deeper engagement with their emotional state compared to earlier stages, where such nuanced expressions were likely absent or underdeveloped.\n\nThe introduction of physical sensations linked to emotional responses, such as tension in the shoulders and neck, signifies a growing awareness of the mind-body connection, enhancing the depth of their self-reflection. The client\u2019s ability to articulate feelings of both relief and fear when contemplating reaching out illustrates a more complex emotional landscape than previously observed.\n\n**Turning Point:**\nThe client\u2019s emotional depth began to shift notably during the dialogue about noticing the tension in their body when considering reaching out. This moment marked a pivotal change as the client not only acknowledged their feelings but also connected them to physical sensations, leading to an expansion of their emotional vocabulary and fostering a more open dialogue about their struggles. This indicates a movement towards greater comfort with self-exploration and vulnerability",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "### Rating: 3\n\n#### Key Examples:\n1. **Emotional State**: \"Acknowledge that part of me knows reaching out could help definitely brings up mixed feelings... it feels like a relief to think that I might lighten that weight, but on the other, I worry about how it could play out.\"\n2. **Current Openness**: \"I notice that those fears really do weigh heavily on my desire to reach out. It\u2019s like they create this barrier that feels almost insurmountable sometimes.\"\n\n#### Progression:\nThe client\u2019s most recent interactions demonstrate a blend of emotional expression and self-reflection, indicating a significant shift from earlier sessions where emotional depth was more limited. Initially, the client presented a more factual response pattern, displaying hesitance and minimal emotional exploration. However, in the latest exchanges, there is a clear articulation of mixed feelings surrounding reaching out, showcasing both a desire for connection and the fears associated with it. This duality illustrates a deeper engagement with their emotions and a willingness to explore these complexities.\n\n#### Turning Point:\nThe client\u2019s emotional depth shifted notably when they began expressing their mixed feelings about reaching out, particularly when they articulated, \"It\u2019s like I have this vision of relief, but then I get stuck in the details of how to actually make it happen.\" This moment marks a transition towards deeper self-awareness and a more nuanced understanding of their emotional barriers, laying the groundwork for further exploration in future sessions. The acknowledgment of fears as \"a loud voice in my head\" suggests a growing ability to identify and articulate internal conflicts, which is a critical step in the therapeutic process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n\n1. **Emotional Expression:** Client states, \"When those fears become overwhelming, I feel this tightness in my chest and my shoulders get really tense. It\u2019s almost like my body is signaling that something\u2019s wrong, and I find it hard to breathe deeply.\"\n   \n2. **Self-Reflection Depth:** The client reflects, \"When those physical sensations take over, I think the part of me that longs for connection gets pushed aside, almost like it\u2019s being silenced.\"\n\n**Progression:** The client has demonstrated significant emotional depth and self-awareness in their recent interactions. They have shown a clear understanding of the interplay between their fears and their physical sensations, moving from a more factual presentation earlier in the session to a vivid, embodied expression of their emotional state. This transition indicates a growing comfort with the therapeutic process, as they are now articulating complex feelings and recognizing how their fears impact their desire for connection.\n\n**Turning Point:** The client's emotional depth shifted when they began expressing how their physical sensations mirror their emotional paralysis. This moment marked a clear transition from a somewhat defensive stance to one of authentic vulnerability, acknowledging the internal struggles they face while also demonstrating a desire for connection and support. This acknowledgment of the cycle between fear and the longing for connection suggests a strong therapeutic alliance and increased engagement with the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cWhen those physical sensations take over, I think the part of me that longs for connection gets pushed aside, almost like it\u2019s being silenced.\u201d\n2. \u201cWhen I\u2019m consumed by fear, the thoughts that come up are often really harsh and critical. I start telling myself things like, \u2018You shouldn\u2019t feel this way,\u2019 or \u2018You\u2019re being silly for letting this stop you.\u2019\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a consistent emotional depth and a growing awareness of the interplay between their anxiety and desire for connection. They articulate the internal conflict they experience when fear overtakes their longing for support, indicating a significant shift from a more surface-level engagement. Earlier in the session, the client may have exhibited more factual or guarded responses, but the current exchanges reveal a profound level of self-reflection and emotional honesty.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the complexity of their situation\u2014specifically, the realization that their anxiety and self-judgment compound their feelings of isolation. This acknowledgment not only shows vulnerability but also indicates a deeper understanding of their emotional landscape, fostering a stronger therapeutic alliance and allowing for meaningful exploration of their feelings and thoughts. This development aligns closely with the indicators of deep engagement, showcasing a natural flow in dialogue and a readiness to confront their fears in the context of connection.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jessa, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I guess I just got this MRI report, and it says I have a herniated disc. It's kind of frustrating, you know? I don't think it\u2019s that deep, but it\u2019s just another thing on top of everything else. I mean, I'm still recovering from shoulder surgery and now this. It\u2019s just annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That sounds really frustrating, especially since you're already dealing with recovery from shoulder surgery. It\u2019s understandable to feel annoyed when it feels like there\u2019s just one more thing added to what you\u2019re going through. Can you tell me more about how this MRI report has been affecting you, or how you\u2019ve been managing these feelings?",
+      "client": "I don\u2019t know. It just happened, you know? I mean, I\u2019m just trying to get through the recovery from my shoulder surgery. The MRI report is just another thing I have to deal with. I don\u2019t really think about it like that. I guess I was annoyed, but that\u2019s it. I\u2019m fine. It\u2019s just annoying.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 2\n\n**Key Examples:**\n1. \"I guess I just got this MRI report, and it says I have a herniated disc. It's kind of frustrating, you know? I don't think it\u2019s that deep, but it\u2019s just another thing on top of everything else.\"\n2. \"I don\u2019t know. It just happened, you know? I mean, I\u2019m just trying to get through the recovery from my shoulder surgery. The MRI report is just another thing I have to deal with.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional expression, primarily through frustration regarding their medical issues. They articulate feelings of annoyance and frustration but demonstrate limited emotional depth beyond that. Compared to earlier exchanges, there is a slight increase in the ability to verbalize feelings, but they remain somewhat defensive and minimize the impact of their emotional state.\n\n**Turning Point:** The client's emotional depth shifted when they began to articulate their frustration about the herniated disc and its compounding effect on their recovery. However, the expression remains surface-level, lacking deeper self-reflection or vulnerability. The client\u2019s reluctance to delve deeper into how the MRI report affects them shows a hesitance that restricts the development of a stronger therapeutic rapport. This suggests they are still in the \"Warming Up\" stage, with room for growth in emotional openness and self-reflection.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It makes sense that you\u2019d feel annoyed with this new information, especially while you\u2019re focused on recovering from your shoulder surgery. It sounds like you\u2019re trying to keep things moving forward, even with the added stress. When you say you\u2019re \"fine,\" I wonder what that feels like for you right now. Is there a particular moment or thought that stands out when you think about managing everything?",
+      "client": "I guess I don\u2019t really know what \u201cfine\u201d means right now. It\u2019s like I\u2019m just going through the motions, you know? I mean, part of me wants to be strong and just get through this, but then there\u2019s the other part that feels overwhelmed. Sometimes I think about how things never really seem to get easier, and it makes me anxious. It\u2019s hard to balance it all, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Going through the motions can feel really heavy, especially when you're trying to be strong and face everything at once. It's understandable to feel anxious when it seems like things aren\u2019t getting easier. That sense of being overwhelmed can be difficult to navigate. When you reflect on that balance between wanting to be strong and feeling anxious, what do you notice in your body or emotions in those moments?",
+      "client": "I don\u2019t know, it\u2019s kind of hard to describe. Sometimes I feel this tightness in my chest, like I\u2019m carrying too much weight. And then there are moments when I just feel exhausted, like my body is saying it can't keep up. I guess I\u2019m just trying to push through it all, but there\u2019s this lingering fear that it might not get better, you know? It\u2019s frustrating to feel so tense and unsure all the time.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I don\u2019t really know what 'fine' means right now. It\u2019s like I\u2019m just going through the motions, you know? I mean, part of me wants to be strong and just get through this, but then there\u2019s the other part that feels overwhelmed.\"\n2. \"Sometimes I feel this tightness in my chest, like I\u2019m carrying too much weight. And then there are moments when I just feel exhausted, like my body is saying it can't keep up.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional openness and self-reflection. Initially, the client presented more factual responses, indicating a defensive stance, such as when they stated, \"I don\u2019t really think about it like that. I guess I was annoyed, but that\u2019s it. I\u2019m fine.\" However, the subsequent exchange reveals a deeper introspection and acknowledgment of feelings of overwhelm and anxiety. The client\u2019s use of phrases like \u201cgoing through the motions\u201d and \u201clingering fear\u201d indicates a shift towards greater emotional depth and vulnerability, marking a significant change from earlier interactions where feelings were more suppressed.\n\n**Turning Point:** The turning point occurred when the client began to articulate their internal struggle more clearly during the discussion about feeling overwhelmed and anxious. They expressed a realization of not knowing what \u201cfine\u201d truly means, which showcases a deeper level of self-awareness and emotional engagement. This moment reflects a departure from solely factual recounting of their situation and moves towards an exploration of their emotional experience, signifying greater trust and rapport with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "It\u2019s really tough to feel that tightness in your chest and exhaustion, especially when you're pushing through such a challenging time. That lingering fear of things not getting better can add a lot of weight to what you\u2019re already carrying. When you notice that tension and exhaustion, what do you find yourself doing in those moments?",
+      "client": "I guess in those moments, I tend to isolate myself a bit. I might call a friend or reach out for support, but sometimes I just sit with it, trying to figure things out on my own. I know that\u2019s not always the best way to cope, but it's like I feel this pressure to handle everything without burdening anyone else. Part of me thinks I should be stronger and just deal with it, but then I also feel like I need help. It\u2019s confusing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a real push and pull between wanting to handle things on your own and recognizing that reaching out for support could be helpful. Feeling the pressure to be strong while also needing help can create a lot of confusion and tension. When you think about those moments when you isolate yourself or reach out to a friend, what do you notice about how you feel afterward?",
+      "client": "After I reach out, I sometimes feel a little lighter, like maybe I\u2019m not alone in it. But then, I can also feel guilty for needing help, like I should have been able to handle things by myself. It\u2019s a bit of a mixed bag, I guess. When I isolate, it feels safer in a way, but then I just end up feeling more trapped in my own thoughts. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"Sometimes I feel this tightness in my chest, like I\u2019m carrying too much weight. And then there are moments when I just feel exhausted, like my body is saying it can't keep up.\"\n- \"After I reach out, I sometimes feel a little lighter, like maybe I\u2019m not alone in it. But then, I can also feel guilty for needing help, like I should have been able to handle things by myself.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noteworthy shift toward emotional expression and self-reflection. They articulate their physical sensations (tightness in the chest and exhaustion) and emotional struggles (confusion about seeking help versus handling things alone). This level of emotional depth indicates an emerging comfort in discussing their feelings, marking a significant change from earlier exchanges, where responses may have been more factual and guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth began to shift significantly when they started expressing the internal conflict of feeling guilty for needing help while also acknowledging the temporary relief of reaching out to friends. This moment represents a developing self-awareness and vulnerability, indicating progress in their emotional openness and an evolving therapeutic relationship. The acknowledgment of mixed feelings about isolation and support demonstrates a deeper engagement with their emotional experience.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It makes perfect sense. Experiencing a mix of relief and guilt after reaching out, along with feeling safer when you isolate, can create a really complex emotional landscape. It\u2019s understandable to want to protect yourself while also battling those feelings of guilt for needing support. Can you recall a specific moment recently when you reached out to someone? What was that experience like for you?",
+      "client": "I can think of a time last week when I called my sister after feeling really overwhelmed. At first, I felt a bit of relief just talking to her, like I could finally share what was going on. But then I started to feel this nagging sense of guilt afterward, like I was putting too much on her. It\u2019s like I\u2019m torn between wanting to connect and feeling like I shouldn\u2019t need to lean on anyone. I guess it\u2019s just hard to navigate those feelings.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "Navigating that tension between wanting to connect with your sister and feeling guilty for leaning on her sounds really challenging. It\u2019s understandable to want to share what you\u2019re going through, especially when you\u2019re feeling overwhelmed, yet also feel the weight of potentially burdening someone else. When you think back to that conversation with your sister, can you share what specific feelings came up for you during and after that call?",
+      "client": "During the call, I felt a mix of relief and anxiety, like finally letting some steam out, but I also noticed I was holding back a bit, trying not to overshare. Afterward, there was definitely some guilt creeping in\u2014like I shouldn\u2019t have needed to call her in the first place. It\u2019s frustrating because I want to reach out, but then I feel like I\u2019m being a burden or something. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cAfter I reach out, I sometimes feel a little lighter, like maybe I\u2019m not alone in it. But then, I can also feel guilty for needing help, like I should have been able to handle things by myself.\u201d\n2. \u201cDuring the call, I felt a mix of relief and anxiety, like finally letting some steam out, but I also noticed I was holding back a bit, trying not to overshare.\u201d\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are now expressing complex feelings about their need for support, including relief, guilt, and anxiety, which indicates a willingness to explore their emotional landscape. This represents a significant change from earlier sessions, where the client may have been more guarded and less willing to articulate their feelings. In these latest exchanges, they are engaging in meaningful dialogue about their emotions and experiences, showing growth in their ability to communicate these nuanced feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during their discussion about a recent call with their sister, where they began expressing feelings of relief mixed with guilt. This moment marked a change as they started to articulate the conflict between wanting to reach out for help and the self-critical feelings that followed. This engagement in self-reflection and willingness to share their internal struggle illustrates a deeper level of rapport with the therapist and a more authentic exploration of their emotional state.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It makes a lot of sense to feel that mix of relief and anxiety during the call, especially when you\u2019re trying to balance your need to share without feeling like you\u2019re oversharing. The frustration of wanting to reach out but then feeling like you might be a burden is a tough spot to be in. What do you think makes it so difficult to allow yourself to reach out without those feelings of guilt afterward?",
+      "client": "I guess it\u2019s just that I\u2019ve always felt like I should be strong enough to handle things on my own. Maybe part of me thinks asking for help means I\u2019m not managing well or that I\u2019m weak in some way. I don\u2019t know if that\u2019s exactly it, but it\u2019s hard to shake that feeling. Sometimes it feels like if I rely on others too much, I\u2019ll just end up disappointing them, or they\u2019ll get tired of me. It\u2019s a bit of a struggle.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a strong belief that reaching out for help equates to weakness or not being strong enough, which makes it hard to lean on others even when you might really need support. The worry about disappointing others or feeling like you might become a burden adds another layer of complexity to those feelings. When you think about those struggles, can you identify a moment when you felt you needed support but held back because of those beliefs? What was that like for you?",
+      "client": "I can kind of think of a time when I was recovering from my shoulder surgery. I was in so much pain, and I felt like I needed someone to help me with everyday tasks, but I just didn\u2019t want to ask. I remember feeling really isolated and frustrated, like I was just stuck in my own little world. It felt overwhelming to admit that I needed support, and I didn\u2019t want to impose on anyone. I know I was struggling, but I still held back from reaching out, which just made everything harder.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"During the call, I felt a mix of relief and anxiety, like finally letting some steam out, but I also noticed I was holding back a bit, trying not to overshare.\"\n2. \"I guess it\u2019s just that I\u2019ve always felt like I should be strong enough to handle things on my own. Maybe part of me thinks asking for help means I\u2019m not managing well or that I\u2019m weak in some way.\"\n\n**Progression:** The client's most recent interactions reveal a significant increase in emotional depth, as evidenced by their articulation of mixed feelings\u2014relief and anxiety\u2014during their call with their sister. This indicates a willingness to explore their emotional landscape more fully than in earlier exchanges, where they demonstrated more factual responses and limited emotional vocabulary. The client has begun to engage in meaningful self-reflection, particularly regarding their beliefs about needing help and feelings of weakness, which marks a transition from a more guarded stance to one where they can express vulnerability.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they recalled their experience recovering from shoulder surgery. In this moment, they expressed feelings of isolation and frustration, which signifies a breakthrough in their willingness to confront and articulate the struggles they face regarding seeking support. This recent moment catalyzed a deeper understanding of their emotional barriers and a readiness to explore these feelings further within the therapeutic context.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "That experience of recovering from surgery sounds incredibly challenging, especially when you felt so much pain and isolation. It\u2019s understandable that admitting a need for support would feel overwhelming, particularly with that belief of not wanting to impose on anyone. When you reflect on that time, is there a particular moment or thought that stands out to you now about why it felt so difficult to reach out?",
+      "client": "There was definitely this moment when I was really in pain, trying to do simple things like reach for a glass of water, and I just felt like I was failing because I couldn\u2019t do it myself. I remember thinking, \u201cWhy can\u2019t I just handle this?\u201d It was like this voice in my head was saying that needing help made me less capable or somehow less deserving of support. It was confusing because I knew I was struggling, yet I felt like I should somehow be stronger, like everyone else was just managing fine without needing to lean on others. I think that\u2019s what made it so hard to reach out; I was caught between needing help and feeling like I was being weak for asking for it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "It seems that moment really highlighted the tension between what you were experiencing physically and the voice in your head that was telling you to be stronger. It\u2019s tough when you feel you have to live up to an expectation of managing everything on your own, especially when you\u2019re in pain and struggling. That sense of confusion between needing support and feeling unworthy of it can create a heavy weight. \n\nWhen you think about that internal struggle, how does it feel to recognize that those thoughts were present during such a difficult time?",
+      "client": "It feels kind of heavy, honestly. Recognizing that those thoughts were so loud during that hard time makes me realize how much pressure I put on myself. I think I was trying to uphold this idea of being strong and capable, but deep down, I was really just hurting and overwhelmed. It\u2019s almost like I was fighting against myself, wanting to reach out but also telling myself I wasn't worthy of help. That contradiction feels frustrating to sit with now, and it makes me wonder how often I let those thoughts dictate my actions.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. Client: \"It feels kind of heavy, honestly. Recognizing that those thoughts were so loud during that hard time makes me realize how much pressure I put on myself.\"\n2. Client: \"It\u2019s almost like I was fighting against myself, wanting to reach out but also telling myself I wasn't worthy of help.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate significant emotional depth and vulnerability, particularly evident in their acknowledgment of internal struggles related to self-worth and the pressure they place on themselves. This marks a substantial evolution from earlier exchanges where emotional expression was more constrained and factual. The transition from simply recounting experiences to self-reflecting on their emotional weight signals a deeper engagement in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they recognized the contradiction between their need for support and their internal narrative of unworthiness. This moment was pivotal as they openly admitted their frustration with themselves and began to articulate the complexity of their feelings, moving away from a defensive stance to a place of authentic vulnerability.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "Sitting with that contradiction must be quite difficult. It sounds like you were really at odds with yourself, wanting support while feeling like you weren\u2019t deserving of it. That pressure to uphold an image of strength can be so burdensome, especially when you're already feeling overwhelmed. \n\nAs you reflect on this tendency to let those thoughts guide your actions, are there other moments in your life where you've felt similarly? What comes to mind when you think about those experiences?",
+      "client": "I think back to other times when I\u2019ve been struggling, like during my illness when I couldn\u2019t walk. There was a part of me that really needed help, but I felt like I had to prove I was strong enough to get through it on my own. I remember feeling embarrassed if someone offered to help, like I was somehow failing at life because I couldn\u2019t handle everything. It\u2019s like I keep repeating this cycle of wanting support but feeling like I shouldn\u2019t need it, which just ends up isolating me even more. I can see that maybe I internalized this idea that asking for help is a sign of weakness, and it\u2019s hard to let go of that belief.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "Recognizing that cycle of wanting support while feeling like you shouldn\u2019t need it can feel really isolating. It sounds like that belief about asking for help being a weakness has woven its way through different parts of your life, creating a pattern that makes it hard to reach out when you\u2019re struggling. \n\nAs you think about those moments, what feelings come up for you when you recall the embarrassment you felt about needing help?",
+      "client": "When I think about that embarrassment, it brings up a mix of shame and sadness. I feel this pressure to present myself as someone who has it all together, and then I get hit with this reality that I can\u2019t always manage on my own. It's almost like I\u2019m carrying this weight of expectation on my shoulders, and when I can't meet it, I feel like I've let everyone down, including myself. I guess there\u2019s this fear that if I show my struggle, people will see me as less capable or even unworthy of their support. That recognition makes me realize how deeply ingrained those beliefs are and how they shape my experiences.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels kind of heavy, honestly. Recognizing that those thoughts were so loud during that hard time makes me realize how much pressure I put on myself.\"\n2. \"When I think about that embarrassment, it brings up a mix of shame and sadness. I feel this pressure to present myself as someone who has it all together...\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a significant increase in emotional depth, particularly as they articulate their feelings of shame and sadness tied to their need for support. This represents a marked change from earlier parts of the session, where there was more factual reporting and reluctance to delve deeply into emotions. The client is now comfortable exploring their vulnerabilities, which reflects a solid therapeutic alliance and willingness to engage in deeper self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first acknowledged the internal conflict of wanting support while feeling ashamed for needing it. The moment they articulated that \"recognizing that those thoughts were so loud during that hard time\" highlighted a breakthrough in their self-awareness, contributing to their ability to articulate feelings of pressure and the internal conflict of self-worth. This moment of insight has propelled them towards a more vulnerable and open emotional state, indicating a deeper engagement with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "Carrying that weight of expectation must be really challenging, especially when it feels like there's so much at stake. The mix of shame and sadness you\u2019re experiencing highlights how deeply those beliefs about capability and worthiness have rooted themselves in your thoughts. It\u2019s understandable to fear how others might perceive you if you share your struggles. \n\nWhen you think about this fear of judgment and how it influences your willingness to reach out, what do you notice in your body or your emotions? How does that awareness feel for you in this moment?",
+      "client": "I can feel a tightness in my chest when I think about that fear of judgment. It\u2019s almost like my body is echoing the anxiety I feel, and I get this wave of tension that makes it hard to breathe. There\u2019s a part of me that wants to push that feeling away, but I know I need to sit with it instead. It feels uncomfortable, but I think it might be important to explore why I react this way. The idea that others might see me as less capable makes me want to withdraw even more, and that just amplifies my feelings of isolation and frustration. I hadn\u2019t connected those physical sensations to my emotions before, but now it makes some sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "Noticing that tightness in your chest and the wave of tension is significant, especially as you connect those physical sensations to your emotions. It sounds like sitting with that discomfort is a challenge, but also an opportunity to understand more about how those fears influence your reactions. \n\nAs you reflect on the link between your physical sensations and the desire to withdraw, what do you think would happen if you allowed yourself to explore those feelings of fear and judgment a little more? What comes up for you as you consider that?",
+      "client": "I think if I allowed myself to explore those feelings of fear and judgment a bit more, it might feel really vulnerable but also potentially freeing. There\u2019s a part of me that worries I\u2019ll get overwhelmed or that it will just confirm all those negative beliefs I hold about myself. But then again, maybe confronting those fears could help me realize that they don't define me. I\u2019ve spent so much time avoiding the pain and the fear of judgment that I haven\u2019t really given myself the chance to understand why I feel this way. It feels like a double-edged sword\u2014wanting to face those feelings but also feeling scared of what I might uncover.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Depth:** \"When I think about that embarrassment, it brings up a mix of shame and sadness. I feel this pressure to present myself as someone who has it all together... I feel like I\u2019ve let everyone down, including myself.\"\n2. **Current Openness:** \"I can feel a tightness in my chest when I think about that fear of judgment... There\u2019s a part of me that wants to push that feeling away, but I know I need to sit with it instead.\"\n\n**Progression:** \nThe client\u2019s most recent interactions reflect a significant increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, the client struggled with articulating their feelings and was more focused on factual responses. However, they have now begun to express complex emotions such as shame and sadness, indicating a deeper level of emotional engagement. The client is actively connecting their physical sensations to their feelings, showcasing their willingness to explore uncomfortable emotions rather than avoiding them.\n\n**Turning Point:** \nThe client\u2019s emotional depth shifted notably when they began to articulate their physical sensations in relation to their emotions. Specifically, the moment they recognized the tightness in their chest as a physical manifestation of their fear of judgment marked a turning point. This acknowledgment not only illustrates their increased self-awareness but also their readiness to confront these feelings, paving the way for further exploration in future sessions. Their willingness to confront the discomfort of exploring these fears indicates a stronger therapeutic alliance and deeper engagement in the process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It sounds like you're recognizing the complexity of wanting to confront those feelings while also feeling apprehensive about what you might discover. The idea that facing your fears could lead to understanding is an important insight. It makes sense that you\u2019d feel both a sense of vulnerability and a glimmer of possibility in that exploration. \n\nAs you think about that double-edged sword, what do you think might be a small step you could take toward facing those feelings, even if it feels a bit daunting? How does that idea sit with you?",
+      "client": "I think a small step might be just naming those feelings when they come up, even if it\u2019s just to myself. It feels a bit daunting, but maybe if I could write them down or even say them out loud in a safe space, it would help me acknowledge what I\u2019m feeling without immediately trying to dismiss it. Part of me knows that putting words to these emotions might take away some of their power, and it could help me see them as just that\u2014feelings, not truths. I guess I'm slowly realizing that facing these fears doesn't have to be an all-or-nothing thing; I can take it one step at a time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "Naming those feelings and giving them space sounds like a really thoughtful approach. Writing them down or saying them out loud could help you create a little distance between those emotions and the beliefs they carry. It\u2019s encouraging to hear you recognize that this can be a gradual process. \n\nAs you consider taking this step, how does the idea of acknowledging your feelings in that way feel right now? What do you notice as you think about starting this practice?",
+      "client": "I notice that the idea of acknowledging my feelings in that way feels a bit relieving but still somewhat intimidating. There's a part of me that\u2019s excited about the possibility of gaining more clarity, but I also feel that familiar tightness in my chest when I think about actually doing it. I can see that maybe taking that small step could help me start to untangle some of those overwhelming emotions and beliefs I hold. It feels like an invitation to understand myself better, but I still worry about how it might feel in the moment. It\u2019s a little uncomfortable, but I think it might be worth exploring.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I think if I allowed myself to explore those feelings of fear and judgment a bit more, it might feel really vulnerable but also potentially freeing.\"\n2. \"I notice that the idea of acknowledging my feelings in that way feels a bit relieving but still somewhat intimidating.\"\n\n**Progression:** The client's most recent interactions demonstrate a meaningful depth of emotional expression and a growing comfort with self-reflection. Initially, the client expressed fears of vulnerability but has transitioned to recognizing the potential benefits of exploring their emotions. They articulate a clear understanding of the complexities of their feelings, showing significant emotional depth that moves beyond mere acknowledgment to a desire for exploration and clarity. This marks a substantial change from earlier interactions, where the emotional vocabulary was more limited and the client exhibited more hesitancy in discussing their feelings.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing the duality of their feelings\u2014acknowledging both the fear of judgment and the potential for personal growth. Specifically, this shift is evident in their statement about the possibility of facing their fears being \"potentially freeing,\" which indicates a readiness to engage with their emotions more fully. This willingness to consider small steps towards emotional acknowledgment represents a pivotal moment in the session, leading to their current state of deep engagement and openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s interesting to hear how the idea of acknowledging your feelings brings both relief and intimidation. That tightness in your chest seems to reflect the tension between your desire for clarity and the apprehension about the experience. It\u2019s okay to feel uncomfortable when approaching something that\u2019s been avoided for so long. \n\nAs you think about this invitation to explore your feelings, what do you sense might help you navigate that discomfort when it arises? What might support you in that moment?",
+      "client": "I think what might help me navigate that discomfort is having a few grounding techniques in my back pocket. Maybe taking a few deep breaths or reminding myself that it\u2019s okay to feel what I\u2019m feeling could create a little space when those emotions come up. Part of me knows that reaching out to a friend or writing in my journal could also provide some support when I start to feel overwhelmed. I guess having those tools might make it feel a little less daunting and help me remember that I\u2019m not alone in this process. It\u2019s reassuring to think about how I can prepare for those moments, even if I can\u2019t predict exactly how they\u2019ll unfold.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019re thinking about some practical ways to support yourself when those feelings arise. Grounding techniques like deep breathing and reminding yourself that it's okay to feel what you\u2019re feeling can create a helpful space. The idea of reaching out to a friend or writing in your journal also seems like a way to connect and find comfort when things feel overwhelming.\n\nAs you reflect on these tools, what do you think will be the most important thing for you to remember when you\u2019re in those moments of discomfort?",
+      "client": "I think the most important thing for me to remember in those moments of discomfort is that it\u2019s okay to not have everything figured out right away. I can remind myself that emotions are just that\u2014emotions\u2014and they don\u2019t define who I am or dictate my future. I\u2019m starting to see that it\u2019s a process of learning and growing, even when it feels messy. Maybe I can also think about how I\u2019ve handled tough moments before and draw on that strength because it feels empowering to know I\u2019ve navigated challenges in the past.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "### Rating: 4\n\n### Key Examples:\n1. **\u201cI notice that the idea of acknowledging my feelings in that way feels a bit relieving but still somewhat intimidating.\u201d** - This illustrates the client\u2019s dual emotional state of relief and apprehension, indicating a deeper awareness of their feelings.\n2. **\u201cI think the most important thing for me to remember in those moments of discomfort is that it\u2019s okay to not have everything figured out right away.\u201d** - This statement shows the client\u2019s evolving self-reflection and acceptance of their emotional journey, highlighting growth in emotional openness.\n\n### Progression:\nThe client\u2019s recent exchanges showcase **consistent emotional depth** and **meaningful self-reflection**, which marks a significant change from previous sessions characterized by more factual responses. Initially, the client demonstrated hesitation and limited emotional vocabulary, but now they articulate both their fears and excitement regarding acknowledging their feelings. This evolution signifies a growing comfort with the therapeutic process and a willingness to delve deeper into their emotional landscape.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted notably when they began to express the complexity of their feelings\u2014relief mixed with intimidation\u2014while discussing the practice of acknowledging their emotions. This moment served as a **catalyst** for the client to recognize their emotions as part of a process rather than an obstacle, paving the way for an **authentic vulnerability** that enhances their therapeutic engagement. They are not only identifying emotions but also strategizing on how to cope, indicating a higher level of self-awareness and readiness to explore their feelings further.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "Recognizing that it's okay not to have everything figured out right away is a powerful insight. It sounds like you're starting to create a more compassionate view of your emotions, allowing for the messiness of the process. Tapping into your past experiences and the strength you've shown in navigating challenges can be a source of reassurance as you move forward. \n\nAs you think about those moments where you've handled tough situations, what stands out to you about how you managed to get through them?",
+      "client": "I think what stands out to me is that during those tough situations, I often relied on a combination of support from others and my own determination. There was a time when I felt completely overwhelmed, but I managed to reach out to friends and family, which reminded me that I wasn\u2019t alone. Part of me also found strength in small victories, like getting out of bed or taking a short walk, even when each step felt monumental. I can see that those moments of connection and perseverance helped me build a sense of resilience, even if it didn\u2019t always feel like it at the time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "You\u2019ve highlighted some really meaningful aspects of your resilience\u2014leaning on your support network and recognizing those small victories, even when they feel monumental. It\u2019s interesting how these moments of connection and determination contributed to your sense of strength, even if they didn\u2019t always feel significant in the moment. \n\nAs you think about those past experiences and the support you found, how do you feel about reaching out for support now, especially when you\u2019re facing tough emotions?",
+      "client": "Reaching out for support now feels a bit more complicated, I think. Part of me knows it\u2019s important, but there\u2019s another part that feels hesitant, like I don\u2019t want to burden anyone with my struggles, especially when I\u2019m already feeling so overwhelmed. But I also remember how helpful it was in the past\u2014like when I reached out to friends during my recovery. I guess it\u2019s a bit of a tug-of-war in my mind. I can see that opening up could help me feel less alone, but there\u2019s still that nagging fear of being a burden. Maybe I\u2019m reacting more strongly than I realized to that idea of reaching out.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I think the most important thing for me to remember in those moments of discomfort is that it\u2019s okay to not have everything figured out right away. I can remind myself that emotions are just that\u2014emotions\u2014and they don\u2019t define who I am or dictate my future.\"\n2. \"Reaching out for support now feels a bit more complicated, I think. Part of me knows it\u2019s important, but there\u2019s another part that feels hesitant, like I don\u2019t want to burden anyone with my struggles, especially when I\u2019m already feeling so overwhelmed.\"\n\n**Progression:** The client's most recent interactions display a significant increase in emotional depth and self-reflection, highlighting their engagement in exploring difficult feelings. They articulate nuanced insights about their discomfort and the complexity of reaching out for support, which indicates a deepening understanding of their emotional state. This marks a notable shift from earlier sessions, where emotional expression was more guarded and less specific.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue about resilience and handling tough situations, particularly when they began equating reaching out for support with vulnerability and strength. This moment of clarity, where they acknowledged both the importance of support and their fear of being a burden, signifies a breakthrough in their emotional openness and marks a critical turning point in their current state of self-reflection and willingness to engage more deeply in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It sounds like you're navigating some conflicting feelings about reaching out for support. On one hand, there's a recognition of how valuable that connection has been for you in the past, and on the other, there's a sense of hesitation about potentially burdening others. It\u2019s understandable to feel that tug-of-war in your mind, especially when emotions are running high.\n\nAs you consider these feelings, what do you notice in your body or your thoughts when the idea of reaching out comes up?",
+      "client": "I notice that when the idea of reaching out comes up, my body tends to tense up a bit, especially in my shoulders and neck. It\u2019s almost like I\u2019m bracing myself for something uncomfortable. My thoughts start racing with worries about what to say or how others might react. I think I get caught up in this loop of overthinking, which makes it harder to just take that step and reach out. It feels like there\u2019s a weight on my chest, and part of me knows that it would probably ease if I just opened up to someone.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "Noticing that tension in your shoulders and neck is a key detail, especially since it seems to show up when you think about reaching out. It sounds like there\u2019s a physical response that mirrors the mental and emotional struggle you\u2019re describing. The racing thoughts and the weight on your chest can feel really heavy, especially when you're caught in that loop of overthinking.\n\nAs you sit with those sensations and thoughts, how does it feel to acknowledge that part of you knows reaching out might alleviate some of that weight?",
+      "client": "Acknowledging that part of me knows reaching out could help definitely brings up mixed feelings. On one hand, it feels like a relief to think that I might lighten that weight, but on the other, I worry about how it could play out. I can see the potential for connection, but I also feel that fear creeping in\u2014what if I don\u2019t say the right thing or if they don\u2019t respond in the way I hope? It\u2019s like I have this vision of relief, but then I get stuck in the details of how to actually make it happen. I notice that uncertainty makes me hesitate even more, like I\u2019m stuck in this cycle of wanting to reach out but feeling so torn about it.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **\u201cReaching out for support now feels a bit more complicated, I think. Part of me knows it\u2019s important, but there\u2019s another part that feels hesitant, like I don\u2019t want to burden anyone with my struggles...\u201d**\n2. **\u201cI notice that when the idea of reaching out comes up, my body tends to tense up a bit, especially in my shoulders and neck... It feels like there\u2019s a weight on my chest, and part of me knows that it would probably ease if I just opened up to someone.\u201d**\n\n**Progression Analysis:**\nThe client\u2019s recent exchanges demonstrate a noticeable shift towards more profound emotional expression and self-reflection. In the latest interactions, the client articulates their internal conflict regarding reaching out for support, revealing both acknowledgment of the importance of connection and a significant fear of burdening others. This indicates a deeper engagement with their emotional state compared to earlier stages, where such nuanced expressions were likely absent or underdeveloped.\n\nThe introduction of physical sensations linked to emotional responses, such as tension in the shoulders and neck, signifies a growing awareness of the mind-body connection, enhancing the depth of their self-reflection. The client\u2019s ability to articulate feelings of both relief and fear when contemplating reaching out illustrates a more complex emotional landscape than previously observed.\n\n**Turning Point:**\nThe client\u2019s emotional depth began to shift notably during the dialogue about noticing the tension in their body when considering reaching out. This moment marked a pivotal change as the client not only acknowledged their feelings but also connected them to physical sensations, leading to an expansion of their emotional vocabulary and fostering a more open dialogue about their struggles. This indicates a movement towards greater comfort with self-exploration and vulnerability",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "You\u2019re really tuning into that push-pull dynamic between the possibility of relief and the fear that comes with reaching out. It makes sense that uncertainty would create hesitation, especially when you\u2019re considering how someone might react or what you might say. That cycle of wanting connection but feeling torn can be really challenging to navigate.\n\nAs you sit with this mix of feelings, what stands out to you most about that vision of relief? How does it feel to imagine what reaching out might look like for you?",
+      "client": "Imagining that vision of relief feels a bit like a breath of fresh air, but it's also tinged with anxiety. I picture reaching out, maybe sending a text or calling a friend, and feeling this wave of support wash over me. But then that fear comes back\u2014what if they\u2019re busy or don\u2019t know how to respond? It\u2019s frustrating because I know how much I\u2019ve appreciated support in the past, and part of me longs for that connection. I can see that reaching out could bring me some comfort, but I also feel the weight of my worries\u2014like it\u2019s a balancing act between wanting to connect and fearing the unknown. I guess it\u2019s just a lot to sit with right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "That balancing act you describe really captures the tension between wanting connection and grappling with the fear of the unknown. Imagining that wave of support sounds refreshing, and it\u2019s understandable that the worries about how someone might respond could create a sense of frustration. It seems like there\u2019s a part of you that knows the potential of reaching out while another part is weighing those possible outcomes.\n\nAs you reflect on this weight of worries, what do you notice about how those fears affect your desire to reach out?",
+      "client": "I notice that those fears really do weigh heavily on my desire to reach out. It\u2019s like they create this barrier that feels almost insurmountable sometimes. When I focus too much on what could go wrong, it makes me feel even more alone and disconnected, which is the opposite of what I actually want. Part of me knows that those worries might not reflect reality, but they feel so real in the moment, almost like a loud voice in my head telling me to hold back. It's frustrating because I can see the potential for connection, but then I get caught up in those fears and end up feeling paralyzed.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "### Rating: 3\n\n#### Key Examples:\n1. **Emotional State**: \"Acknowledge that part of me knows reaching out could help definitely brings up mixed feelings... it feels like a relief to think that I might lighten that weight, but on the other, I worry about how it could play out.\"\n2. **Current Openness**: \"I notice that those fears really do weigh heavily on my desire to reach out. It\u2019s like they create this barrier that feels almost insurmountable sometimes.\"\n\n#### Progression:\nThe client\u2019s most recent interactions demonstrate a blend of emotional expression and self-reflection, indicating a significant shift from earlier sessions where emotional depth was more limited. Initially, the client presented a more factual response pattern, displaying hesitance and minimal emotional exploration. However, in the latest exchanges, there is a clear articulation of mixed feelings surrounding reaching out, showcasing both a desire for connection and the fears associated with it. This duality illustrates a deeper engagement with their emotions and a willingness to explore these complexities.\n\n#### Turning Point:\nThe client\u2019s emotional depth shifted notably when they began expressing their mixed feelings about reaching out, particularly when they articulated, \"It\u2019s like I have this vision of relief, but then I get stuck in the details of how to actually make it happen.\" This moment marks a transition towards deeper self-awareness and a more nuanced understanding of their emotional barriers, laying the groundwork for further exploration in future sessions. The acknowledgment of fears as \"a loud voice in my head\" suggests a growing ability to identify and articulate internal conflicts, which is a critical step in the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "The way those fears create a barrier to reaching out really highlights how powerful those thoughts can be. It\u2019s understandable that when you focus on what could go wrong, it can amplify feelings of disconnection, which is such a tough place to be when you\u2019re seeking connection. Those thoughts can feel very loud and convincing, almost drowning out the part of you that longs for support and connection.\n\nAs you think about this feeling of being paralyzed, what do you notice in your body when those fears become overwhelming?",
+      "client": "When those fears become overwhelming, I feel this tightness in my chest and my shoulders get really tense. It\u2019s almost like my body is signaling that something\u2019s wrong, and I find it hard to breathe deeply. I guess I can see how that physical discomfort mirrors the emotional paralysis I\u2019m feeling\u2014like my body is responding to the anxiety screaming in my head. Sometimes I even get this knot in my stomach, which makes me want to retreat even more, as if my body is instinctively protecting me from the discomfort of reaching out. It\u2019s quite the cycle, isn\u2019t it?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019re really noticing the connection between your physical sensations and the emotional experience of fear. That tightness in your chest and tension in your shoulders seem to be signaling a very real response to the anxiety you're feeling. It\u2019s interesting how your body reacts in a way that feels protective, almost instinctually urging you to retreat from what feels uncomfortable. \n\nAs you reflect on this cycle, what do you think happens to the part of you that longs for connection when those physical sensations take over?",
+      "client": "When those physical sensations take over, I think the part of me that longs for connection gets pushed aside, almost like it\u2019s being silenced. It feels as if the anxiety takes center stage, drowning out that desire for support and closeness. I realize that in those moments, I can become so consumed by the fear that I forget I actually want to reach out, to be heard and understood. It\u2019s frustrating because I know deep down that connection is what I need, but my body\u2019s reaction makes it feel like an uphill battle. I can see how this cycle can keep me feeling isolated, even when I crave companionship.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n\n1. **Emotional Expression:** Client states, \"When those fears become overwhelming, I feel this tightness in my chest and my shoulders get really tense. It\u2019s almost like my body is signaling that something\u2019s wrong, and I find it hard to breathe deeply.\"\n   \n2. **Self-Reflection Depth:** The client reflects, \"When those physical sensations take over, I think the part of me that longs for connection gets pushed aside, almost like it\u2019s being silenced.\"\n\n**Progression:** The client has demonstrated significant emotional depth and self-awareness in their recent interactions. They have shown a clear understanding of the interplay between their fears and their physical sensations, moving from a more factual presentation earlier in the session to a vivid, embodied expression of their emotional state. This transition indicates a growing comfort with the therapeutic process, as they are now articulating complex feelings and recognizing how their fears impact their desire for connection.\n\n**Turning Point:** The client's emotional depth shifted when they began expressing how their physical sensations mirror their emotional paralysis. This moment marked a clear transition from a somewhat defensive stance to one of authentic vulnerability, acknowledging the internal struggles they face while also demonstrating a desire for connection and support. This acknowledgment of the cycle between fear and the longing for connection suggests a strong therapeutic alliance and increased engagement with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "That acknowledgment of how the anxiety silences your desire for connection is really powerful. It\u2019s clear that the physical sensations can overshadow the part of you that seeks support, making it feel like an uphill battle to reach out. It's understandable to feel frustration when both the longing for connection and the instinct to retreat are so strong. \n\nAs you think about those moments when you feel consumed by fear, what do you notice about the thoughts that come up then, and how they might shape your experience?",
+      "client": "When I\u2019m consumed by fear, the thoughts that come up are often really harsh and critical. I start telling myself things like, \u201cYou shouldn\u2019t feel this way,\u201d or \u201cYou\u2019re being silly for letting this stop you.\u201d Those thoughts make it feel even worse, like I\u2019m not just dealing with the fear, but I\u2019m also judging myself for feeling it. It\u2019s like a double whammy, and it really shapes how I experience those moments because instead of just feeling anxious, I end up feeling ashamed or weak for not being able to push through it. I think that\u2019s why reaching out feels so daunting\u2014it\u2019s not just about the fear of connection, but also the fear of my own reaction to the fear.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "The way you describe those critical thoughts adds another layer to your experience. It sounds like the judgment you place on yourself in those moments compounds the anxiety, making it even harder to navigate. Feeling ashamed or weak for having those fears could create a sense of isolation, almost as if you're battling not just the anxiety, but also the way you view your reactions to it. \n\nAs you reflect on this, what do you notice about how those thoughts and feelings might interact with your desire for connection?",
+      "client": "I think those critical thoughts really complicate my desire for connection. When I feel anxious and add that layer of judgment, it\u2019s like I\u2019m almost punishing myself for wanting to reach out. I start to think that I shouldn\u2019t need anyone or that I\u2019m a burden if I do. So, instead of allowing myself to connect, I end up retreating even further, which only reinforces those feelings of isolation. It\u2019s a hard cycle to break because I know I want to feel close to others, yet the fear and self-judgment keep pushing me away.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cWhen those physical sensations take over, I think the part of me that longs for connection gets pushed aside, almost like it\u2019s being silenced.\u201d\n2. \u201cWhen I\u2019m consumed by fear, the thoughts that come up are often really harsh and critical. I start telling myself things like, \u2018You shouldn\u2019t feel this way,\u2019 or \u2018You\u2019re being silly for letting this stop you.\u2019\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a consistent emotional depth and a growing awareness of the interplay between their anxiety and desire for connection. They articulate the internal conflict they experience when fear overtakes their longing for support, indicating a significant shift from a more surface-level engagement. Earlier in the session, the client may have exhibited more factual or guarded responses, but the current exchanges reveal a profound level of self-reflection and emotional honesty.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the complexity of their situation\u2014specifically, the realization that their anxiety and self-judgment compound their feelings of isolation. This acknowledgment not only shows vulnerability but also indicates a deeper understanding of their emotional landscape, fostering a stronger therapeutic alliance and allowing for meaningful exploration of their feelings and thoughts. This development aligns closely with the indicators of deep engagement, showcasing a natural flow in dialogue and a readiness to confront their fears in the context of connection.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    }
+  ]
+}

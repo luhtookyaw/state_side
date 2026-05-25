@@ -1,0 +1,315 @@
+{
+  "file": "outputs/adaptive/easy/session_10_3_easy_adaptive.json",
+  "mode": "easy",
+  "patient_id": "10-3",
+  "patient_name": "Grace",
+  "client_type": "plain, verbose, and ingratiating",
+  "turn_count": 30,
+  "evaluations": {
+    "alliance": {
+      "by_question": {
+        "Q1": {
+          "Q1": "There are doubts or a lack of understanding about what participants are trying to accomplish in therapy.",
+          "score": "4",
+          "reason": "The counselor and client do not explicitly mention the goals but are working towards a common objective. The counselor addresses the client’s concerns immediately and adjusts the therapeutic process to meet the client’s needs. The client is satisfied with the progress made, as seen in their willingness to explore expressing their feelings and considering small steps to communicate with their parents."
+        },
+        "Q2": {
+          "Q2": "The client and counselor are working on mutually agreed upon goals.",
+          "score": "4",
+          "reason": "The counselor and client have made some progress through discussing relevant topics, such as the client's feelings about their parents' mixed messages and potential ways to communicate. While there may still be areas that need further exploration, both parties generally agree on the current direction and topics of therapy."
+        },
+        "Q3": {
+          "Q3": "The client and counselor have same ideas about what the client’s real problems are.",
+          "score": "4",
+          "reason": "The counselor and client have a certain level of consensus on the client’s issues, such as the stress from the parents' mixed signals and the client's feelings of anxiety and vulnerability. Both parties are making efforts to understand each other and demonstrate open and cooperative attitudes in discussions."
+        },
+        "Q4": {
+          "Q4": "The client and counselor have established a good understanding of the changes that would be good for the client.",
+          "score": "4",
+          "reason": "Both the counselor and the client are aware of changes that would benefit the client, such as expressing feelings and using 'I' statements. The client is working to clarify the path and direction of change, although there is still some hesitation about the effectiveness of these changes."
+        },
+        "Q5": {
+          "Q5": "There is agreement about the steps taken to help improve the client’s situation.",
+          "score": "4",
+          "reason": "The client shows interest and involvement in therapy tasks, such as writing down feelings and practicing communication. There is an understanding behind the tasks, leading the client to gradually acknowledge and engage in them, despite occasional concerns about their effectiveness."
+        },
+        "Q6": {
+          "Q6": "There is agreement about the usefulness of the current activity in therapy (i.e., the client is seeing new ways to look at his/her problem).",
+          "score": "4",
+          "reason": "The client actively participates in therapy tasks and shows a common understanding of the tasks’ principles. The client is gradually accepting and participating in the tasks, such as considering balanced thoughts and practicing communication, despite some initial resistance."
+        },
+        "Q7": {
+          "Q7": "There is agreement on what is important for the client to work on.",
+          "score": "4",
+          "reason": "The client and the counselor respond to each other’s focus and needs, exploring and accepting each other’s views. They strive to seek a common understanding and progress the therapy process, focusing on the client's communication with their parents and managing anxiety."
+        },
+        "Q8": {
+          "Q8": "The client believes that the way they are working with his/her problem is correct.",
+          "score": "4",
+          "reason": "The client partially agrees with certain aspects of therapy tasks and shows a level of agreement with the collaboration with the counselor. The client is more actively involved in certain aspects of therapy, such as practicing communication and considering balanced thoughts."
+        },
+        "Q9": {
+          "Q9": "There is a mutual liking between the client and counselor.",
+          "score": "4",
+          "reason": "In the majority of the sessions, the counselor and the client have positive interactions. The counselor shows enthusiasm and care for the client, frequently communicating with empathy and encouragement, and the client responds positively to the counselor's guidance."
+        },
+        "Q10": {
+          "Q10": "The client feels confident in the counselor’s ability to help the client.",
+          "score": "4",
+          "reason": "The client expresses a certain level of confidence in the therapist’s abilities, reflected in positive responses to the therapist’s guidance and an optimistic attitude towards resolving current counseling issues. The client trusts the therapist’s competency and appreciates the effectiveness of the therapy."
+        },
+        "Q11": {
+          "Q11": "The client feels that the counselor appreciates him/her as a person.",
+          "score": "4",
+          "reason": "The therapist demonstrates acceptance, warmth, and empathy towards the client, and the client perceives and responds to this caring attitude. The client acknowledges the therapist’s warmth and understanding during the therapy process."
+        },
+        "Q12": {
+          "Q12": "There is mutual trust between the client and counselor.",
+          "score": "4",
+          "reason": "The client is willing to disclose personal concerns, and the therapist accepts the client’s statements without overturning or interrupting them. The therapist maintains focus, and there is a level of trust that enhances the overall smoothness and efficiency of the therapeutic process."
+        }
+      },
+      "raw": "```json\n{\n  \"Q1\": \"There are doubts or a lack of understanding about what participants are trying to accomplish in therapy.\",\n  \"score\": \"4\",\n  \"reason\": \"The counselor and client do not explicitly mention the goals but are working towards a common objective. The counselor addresses the client’s concerns immediately and adjusts the therapeutic process to meet the client’s needs. The client is satisfied with the progress made, as seen in their willingness to explore expressing their feelings and considering small steps to communicate with their parents.\"\n},\n{\n  \"Q2\": \"The client and counselor are working on mutually agreed upon goals.\",\n  \"score\": \"4\",\n  \"reason\": \"The counselor and client have made some progress through discussing relevant topics, such as the client's feelings about their parents' mixed messages and potential ways to communicate. While there may still be areas that need further exploration, both parties generally agree on the current direction and topics of therapy.\"\n},\n{\n  \"Q3\": \"The client and counselor have same ideas about what the client’s real problems are.\",\n  \"score\": \"4\",\n  \"reason\": \"The counselor and client have a certain level of consensus on the client’s issues, such as the stress from the parents' mixed signals and the client's feelings of anxiety and vulnerability. Both parties are making efforts to understand each other and demonstrate open and cooperative attitudes in discussions.\"\n},\n{\n  \"Q4\": \"The client and counselor have established a good understanding of the changes that would be good for the client.\",\n  \"score\": \"4\",\n  \"reason\": \"Both the counselor and the client are aware of changes that would benefit the client, such as expressing feelings and using 'I' statements. The client is working to clarify the path and direction of change, although there is still some hesitation about the effectiveness of these changes.\"\n},\n{\n  \"Q5\": \"There is agreement about the steps taken to help improve the client’s situation.\",\n  \"score\": \"4\",\n  \"reason\": \"The client shows interest and involvement in therapy tasks, such as writing down feelings and practicing communication. There is an understanding behind the tasks, leading the client to gradually acknowledge and engage in them, despite occasional concerns about their effectiveness.\"\n},\n{\n  \"Q6\": \"There is agreement about the usefulness of the current activity in therapy (i.e., the client is seeing new ways to look at his/her problem).\",\n  \"score\": \"4\",\n  \"reason\": \"The client actively participates in therapy tasks and shows a common understanding of the tasks’ principles. The client is gradually accepting and participating in the tasks, such as considering balanced thoughts and practicing communication, despite some initial resistance.\"\n},\n{\n  \"Q7\": \"There is agreement on what is important for the client to work on.\",\n  \"score\": \"4\",\n  \"reason\": \"The client and the counselor respond to each other’s focus and needs, exploring and accepting each other’s views. They strive to seek a common understanding and progress the therapy process, focusing on the client's communication with their parents and managing anxiety.\"\n},\n{\n  \"Q8\": \"The client believes that the way they are working with his/her problem is correct.\",\n  \"score\": \"4\",\n  \"reason\": \"The client partially agrees with certain aspects of therapy tasks and shows a level of agreement with the collaboration with the counselor. The client is more actively involved in certain aspects of therapy, such as practicing communication and considering balanced thoughts.\"\n},\n{\n  \"Q9\": \"There is a mutual liking between the client and counselor.\",\n  \"score\": \"4\",\n  \"reason\": \"In the majority of the sessions, the counselor and the client have positive interactions. The counselor shows enthusiasm and care for the client, frequently communicating with empathy and encouragement, and the client responds positively to the counselor's guidance.\"\n},\n{\n  \"Q10\": \"The client feels confident in the counselor’s ability to help the client.\",\n  \"score\": \"4\",\n  \"reason\": \"The client expresses a certain level of confidence in the therapist’s abilities, reflected in positive responses to the therapist’s guidance and an optimistic attitude towards resolving current counseling issues. The client trusts the therapist’s competency and appreciates the effectiveness of the therapy.\"\n},\n{\n  \"Q11\": \"The client feels that the counselor appreciates him/her as a person.\",\n  \"score\": \"4\",\n  \"reason\": \"The therapist demonstrates acceptance, warmth, and empathy towards the client, and the client perceives and responds to this caring attitude. The client acknowledges the therapist’s warmth and understanding during the therapy process.\"\n},\n{\n  \"Q12\": \"There is mutual trust between the client and counselor.\",\n  \"score\": \"4\",\n  \"reason\": \"The client is willing to disclose personal concerns, and the therapist accepts the client’s statements without overturning or interrupting them. The therapist maintains focus, and there is a level of trust that enhances the overall smoothness and efficiency of the therapeutic process.\"\n}\n```"
+    },
+    "therapist_skills": {
+      "guided_discovery": {
+        "score": 4,
+        "raw": "4, The therapist primarily used guided discovery techniques to help the client explore their feelings and consider new perspectives. They encouraged the client to examine their thoughts and emotions, consider alternative viewpoints, and weigh the advantages and disadvantages of different actions. However, there were moments where the therapist's interventions could have been more focused on deepening the client's insight or exploring the client's thoughts more thoroughly. While the therapist's style was supportive and facilitated self-reflection, there were opportunities for more skillful questioning to achieve a higher level of insight."
+      },
+      "focus": {
+        "score": 4,
+        "raw": "4, The therapist focused on specific cognitions and behaviors relevant to the client's problem, such as the client's feelings of anxiety and the need for support. However, the therapist could have focused more on central cognitions, such as the client's fear of vulnerability and past experiences influencing current perceptions, which might have offered greater promise for progress."
+      },
+      "strategy": {
+        "score": 4,
+        "raw": "4, The therapist demonstrated a generally coherent strategy for change by incorporating cognitive-behavioral techniques, such as identifying and challenging unhelpful thoughts, using 'I' statements, and encouraging the client to practice expressing their needs. However, while the strategy showed reasonable promise, it lacked the consistency and depth required to be considered very promising. The therapist could have further strengthened the approach by more explicitly linking the techniques to the client's specific goals and ensuring a more structured plan for change."
+      },
+      "understanding": {
+        "score": 4,
+        "raw": "4, The therapist generally seemed to grasp the client's internal reality, as evidenced by their ability to reflect and rephrase both explicit statements and more subtle communications from the client. However, there were moments where the therapist's responses could have been more attuned to the client's deeper emotional struggles, indicating room for improvement in demonstrating a thorough understanding and empathy."
+      },
+      "interpersonal": {
+        "score": 6,
+        "raw": "6, The therapist displayed optimal levels of warmth, concern, confidence, genuineness, and professionalism throughout the session. They consistently validated the client's feelings, encouraged exploration of thoughts and emotions, and provided supportive and constructive feedback. The therapist maintained a positive and therapeutic relationship, fostering an environment where the client felt comfortable expressing vulnerabilities and exploring new perspectives."
+      },
+      "collaboration": {
+        "score": 6,
+        "raw": "6, The therapist demonstrated excellent collaboration with the client throughout the session. They consistently encouraged the client to take an active role in the conversation by offering choices and exploring the client's thoughts and feelings. The therapist focused on problems that were important to the client, such as handling mixed signals from their parents and expressing their needs. The therapist also established a strong rapport, creating a supportive environment where the client felt comfortable exploring their emotions and considering new perspectives."
+      }
+    },
+    "ctrs": {
+      "part_I": {
+        "1_agenda": {
+          "score": 4,
+          "justification": "The therapist set a clear agenda by focusing on the client's stress related to her parents' mixed signals and explored manageable steps to address it."
+        },
+        "2_feedback": {
+          "score": 5,
+          "justification": "The therapist consistently checked the client's understanding and reactions, adjusting interventions to align with the client's comfort level."
+        },
+        "3_understanding": {
+          "score": 5,
+          "justification": "The therapist demonstrated a strong empathic understanding of the client's feelings of frustration, anxiety, and vulnerability."
+        },
+        "4_interpersonal_effectiveness": {
+          "score": 5,
+          "justification": "The therapist maintained warmth, concern, and professionalism throughout the session, fostering a supportive environment."
+        },
+        "5_collaboration": {
+          "score": 5,
+          "justification": "The therapist effectively collaborated with the client, encouraging her to explore her feelings and thoughts in a way that felt safe and manageable."
+        },
+        "6_pacing_and_time_use": {
+          "score": 4,
+          "justification": "The therapist paced the session well, allowing the client to explore her thoughts and feelings without rushing, though some areas could have been more focused."
+        }
+      },
+      "part_II": {
+        "7_guided_discovery": {
+          "score": 5,
+          "justification": "The therapist used skillful questioning to help the client explore her thoughts and feelings, facilitating her own insights and conclusions."
+        },
+        "8_key_cognitions_behaviors": {
+          "score": 5,
+          "justification": "The therapist identified key cognitions related to the client's anxiety and fear of vulnerability, working to address these central issues."
+        },
+        "9_strategy_for_change": {
+          "score": 5,
+          "justification": "The therapist developed a coherent strategy for change, focusing on small, manageable steps to help the client express her needs to her parents."
+        },
+        "10_cb_techniques_application": {
+          "score": 5,
+          "justification": "The therapist skillfully applied CBT techniques, such as cognitive restructuring and behavioral experiments, to help the client manage her anxiety."
+        },
+        "11_homework": {
+          "score": 5,
+          "justification": "The therapist assigned appropriate homework, encouraging the client to practice expressing her needs and using affirmations to support her progress."
+        }
+      },
+      "total_score": 53,
+      "global_comments": "The therapist demonstrated strong skills in creating a supportive and collaborative environment, effectively using CBT techniques to address the client's concerns. The session was well-paced, with a clear focus on helping the client explore her feelings and develop strategies for change. The therapist's empathic understanding and ability to adjust interventions based on client feedback were particularly noteworthy."
+    },
+    "miti": {
+      "session_id": "session",
+      "segment_type": "MI",
+      "target_behavior": "General",
+      "global_ratings": {
+        "partnership": {
+          "score": 5,
+          "justification": "The therapist consistently collaborates with the client, inviting them to explore their feelings and thoughts together, and respects their autonomy in decision-making."
+        },
+        "empathy": {
+          "score": 5,
+          "justification": "The therapist demonstrates a high level of empathy by accurately reflecting the client's feelings and acknowledging their struggles, creating a warm and understanding environment."
+        },
+        "cultivating_change_talk": {
+          "score": 4,
+          "justification": "The therapist effectively encourages the client to consider small steps towards change, such as expressing feelings and using 'I' statements, which supports the client's exploration of change."
+        },
+        "softening_sustain_talk": {
+          "score": 5,
+          "justification": "The therapist skillfully addresses sustain talk by validating the client's concerns and gently guiding them towards considering alternative perspectives without confrontation."
+        },
+        "direction": {
+          "score": 4,
+          "justification": "The therapist maintains a clear focus on the client's goals, such as improving communication with their parents, while ensuring the client feels in control of the process."
+        }
+      },
+      "behavior_counts": {
+        "open_questions": 8,
+        "closed_questions": 0,
+        "simple_reflections": 0,
+        "complex_reflections": 12,
+        "affirmations": 8,
+        "summaries": 0,
+        "mi_consistent_behaviors": 10,
+        "mi_inconsistent_behaviors": 0
+      },
+      "overall_comments": "This segment demonstrates strong MI quality, with the therapist effectively supporting the client's readiness for CBT work. The therapist's empathetic reflections and collaborative approach foster a safe space for the client to explore their feelings and consider change."
+    },
+    "wai_o": {
+      "observers": [
+        {
+          "name": "Observer",
+          "scores": {
+            "bond_score": 78,
+            "bond_analysis": "The therapist and client demonstrate a strong bond characterized by mutual respect, understanding, and trust. The therapist consistently validates the client's feelings and encourages open communication, which the client responds to positively, indicating a strong therapeutic alliance.",
+            "goal_score": 75,
+            "goal_analysis": "There is a clear agreement on the goals of therapy, with both the therapist and client working collaboratively to address the client's concerns about family dynamics. The therapist helps the client explore manageable steps towards expressing their needs, showing alignment on therapy goals.",
+            "task_score": 76,
+            "task_analysis": "The therapist and client agree on the tasks necessary to achieve the client's goals, such as practicing communication strategies and exploring emotions. The client expresses some apprehension but is willing to engage in the suggested tasks, indicating a strong task alliance.",
+            "total_score": 229,
+            "item_scores": {
+              "1": 7,
+              "2": 6,
+              "3": 6,
+              "4": 6,
+              "5": 7,
+              "6": 6,
+              "7": 6,
+              "8": 7,
+              "9": 6,
+              "10": 6,
+              "11": 6,
+              "12": 6,
+              "13": 6,
+              "14": 6,
+              "15": 6,
+              "16": 6,
+              "17": 7,
+              "18": 6,
+              "19": 7,
+              "20": 7,
+              "21": 7,
+              "22": 6,
+              "23": 7,
+              "24": 6,
+              "25": 6,
+              "26": 7,
+              "27": 6,
+              "28": 7,
+              "29": 7,
+              "30": 6,
+              "31": 6,
+              "32": 6,
+              "33": 6,
+              "34": 6,
+              "35": 7,
+              "36": 7
+            }
+          }
+        }
+      ]
+    },
+    "wai_o_s": {
+      "item_scores": {
+        "Q1": {
+          "raw_score": 2,
+          "normalized_score": 4,
+          "reason": "The counselor and client are working towards a common objective, but goals are not explicitly mentioned."
+        },
+        "Q2": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "There is some progress and discussion on relevant topics, with minor disagreements."
+        },
+        "Q3": {
+          "raw_score": 2,
+          "normalized_score": 4,
+          "reason": "There is a certain level of consensus on the client's issues and goals."
+        },
+        "Q4": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "Both parties are aware of beneficial changes, but there is room for further exploration."
+        },
+        "Q5": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client shows interest and involvement in therapy tasks."
+        },
+        "Q6": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client actively participates in therapy tasks without skepticism."
+        },
+        "Q7": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client and counselor respond to each other's focus and needs."
+        },
+        "Q8": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client partially agrees with certain aspects of therapy tasks."
+        },
+        "Q9": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "Positive interactions are present in the majority of sessions."
+        },
+        "Q10": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client expresses a certain level of confidence in the therapist's abilities."
+        },
+        "Q11": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The therapist demonstrates acceptance and warmth, perceived by the client."
+        },
+        "Q12": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client is willing to disclose some personal concerns, indicating trust."
+        }
+      },
+      "dimension_scores": {
+        "goal": 4.0,
+        "approach": 4.0,
+        "bond": 4.0
+      },
+      "total_score": 4.0
+    }
+  }
+}

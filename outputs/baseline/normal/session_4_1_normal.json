@@ -1,0 +1,366 @@
+{
+  "mode": "normal",
+  "therapist_type": "standard",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I guess I feel a bit anxious about it, but honestly, I don\u2019t think it\u2019s that deep. It\u2019s just another thing I have to deal with.\"\n2. **Self-Reflection Depth:** \"I don't really think about how I feel in those moments. I just try to push through it, you know? It\u2019s just pain, and I've dealt with worse before.\"\n\n**Progression:** The client's most recent interactions indicate a blend of factual and emotional responses, showing some level of discomfort tied to their medical issues. While the client acknowledges feeling anxious, they downplay their emotions by stating it's \"not that deep,\" reflecting a hesitance to explore deeper emotional layers. This marks a significant change from earlier sessions where the client may have avoided emotional topics altogether. The client demonstrates basic emotional vocabulary but does not delve into deeper self-reflection, which limits their engagement.\n\n**Turning Point:** The emotional depth shifted slightly when the client acknowledged feeling anxious regarding the MRI report. This acknowledgment, albeit minimal, indicates a movement away from strictly factual responses towards a more nuanced, albeit cautious, emotional engagement. However, the client still tends to focus on practical aspects of their recovery rather than allowing space for deeper emotional exploration.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "### Rating: 3\n\n### Key Examples:\n1. **Emotional State**: \u201cI guess part of me thinks that if I stop to think, I might just spiral into worrying about everything else, like the herniated disc or my shoulder recovery. So maybe I tell myself it\u2019s better to just keep pushing through instead of getting caught up in that. But then I wonder if that\u2019s actually helping or just making things harder in the long run.\u201d\n   \n2. **Current Openness**: \u201cI guess it\u2019s a bit of both, really. I mean, part of it is definitely rooted in my past experiences, like when I was really ill and couldn\u2019t walk. That time was just so overwhelming, and I think I still carry that worry that if I stop, all those feelings will come rushing back.\u201d\n\n### Progression:\nIn the most recent interactions, the client demonstrates a more nuanced emotional state characterized by a mix of awareness and vulnerability concerning their feelings. They openly articulate the tension between the desire to avoid overwhelming feelings and the need for awareness. This marks a significant change from earlier sessions, where the client may have provided more factual responses with limited emotional depth.\n\nInitially, the client exhibited hesitance and a more defensive stance regarding their emotions, focusing on avoidance rather than exploration. However, in recent exchanges, they have begun to reflect on their fears and past experiences, indicating a shift toward deeper self-reflection and engagement with their emotional landscape.\n\n### Turning Point:\nThe client's emotional depth shifted notably in the exchange where they began expressing the connection between their current feelings and past traumatic experiences, specifically when they mentioned being ill and unable to walk. This acknowledgment of their past and its impact on their current emotional state represents a significant turning point, as it reflects a willingness to confront",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cI can think of a time recently when I was at my physical therapy appointment. I was trying really hard to keep up with the exercises, even though I was feeling pretty overwhelmed by the pain in my shoulder and the stuff with my neck. I just kept thinking about how I needed to prove to everyone that I was getting better, like if I slowed down, they\u2019d think I wasn\u2019t trying hard enough.\u201d\n2. Client: \u201cI guess I kind of see what you mean about listening to both sides. It's just really hard because part of me wants to push through and not let anyone down, but another part knows that my body is trying to communicate something important.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth, particularly in their ability to articulate their feelings of frustration and tension. Initially, the client showed signs of anxiety and pressure to perform, but now they are beginning to recognize the inner conflict between their determination to prove themselves and the need to listen to their body. This marks a significant change from earlier sessions, where emotional expression was minimal, and the client often resorted to factual responses or defensive stances.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing vulnerability about their experiences during physical therapy, particularly the acknowledgment of feeling overwhelmed and the pressure to be perceived as strong. The moment they articulated their fear of being seen as weak and the internal battle between pushing through pain and honoring their body\u2019s signals represents a shift towards greater self-reflection and emotional exploration. This has led to a more engaged and open dialogue with the therapist, showcasing a willingness to confront difficult emotions and the complexities of their recovery process",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it would take some rethinking of what it means to slow down for me. It\u2019s just that I\u2019ve always felt like I need to keep up with everyone else or else I\u2019ll be left behind, you know?\"\n2. \"I guess when I think back to those moments after my shoulder surgery, there\u2019s a mix of relief and anxiety. I mean, it felt good to give myself permission to rest because I really needed it, but at the same time, there was this nagging feeling that I was falling behind or losing progress.\"\n\n**Progression:** The client's recent interactions illustrate a growing emotional depth as they begin to articulate complex feelings about rest and productivity. Initially, there were signs of hesitation and a more defensive stance regarding their worth and the concept of slowing down. However, the latest exchanges reveal a blend of emotional expression and self-reflection. The client recognizes the internal conflict between the need for rest and the fear of losing progress, signaling a notable shift from more factual responses to a deeper exploration of their feelings.\n\n**Turning Point:** The turning point in the client's emotional openness appears to be during their discussion of their shoulder surgery and the mixed feelings associated with rest. The moment they expressed the \"mix of relief and anxiety\" indicates their capacity for vulnerability and a willingness to engage with the discomfort that comes with redefining productivity and rest. This illustrates a significant step toward deeper emotional engagement and self-awareness in therapy.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess my body is trying to tell me that I really need to listen to myself more... Maybe there have been moments... when I\u2019ve felt a tiny bit of relief.\"\n2. \"I mean, when I think about those moments, it feels like they happen when I\u2019m really intentional about taking a break, like I\u2019m almost giving myself permission to just pause.\"\n\n**Progression:** The client\u2019s recent interactions reveal a significant emotional depth characterized by increasing self-awareness and vulnerability. In earlier exchanges, the client exhibited more factual responses and hesitancy to delve into their feelings. However, the latest dialogues reflect a marked transition. The client openly discusses physical sensations tied to their emotional state and acknowledges a desire to listen to their body's needs. This progression indicates a growing comfort in sharing emotions and an ability to reflect on their experiences in a more nuanced manner.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of needing to listen to themselves more. This moment, when they recognized their body\u2019s signals and articulated feelings of frustration and conflict regarding rest, marked a pivotal change. It reflects a move towards authenticity and a willingness to explore the complexities of their emotional landscape, setting a foundation for deeper engagement in the therapeutic process. The client has moved beyond initial hesitance to a point where they are willing to confront and articulate the struggle between their obligations and their need for self-care.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression**: \"When I think about embracing that pause, it feels almost like a weight is lifted off my shoulders, even if it's just for a moment.\"\n2. **Self-Reflection Depth**: \"I guess it might help if I have a visual reminder, like a sticky note or a reminder on my phone, to nudge me into that pause without feeling disruptive.\"\n\n**Progression**: The client\u2019s recent exchanges demonstrate a significant shift toward deeper emotional expression and self-reflection. Initially, they expressed anxiety about taking breaks, indicating a struggle between their desire for rest and their responsibilities. In their latest interactions, however, they articulate a growing awareness of this conflict, recognizing the physical sensations tied to their emotional states. The client is moving away from purely factual responses and is increasingly engaging in meaningful dialogue about their feelings, illustrating an enhanced emotional depth.\n\n**Turning Point**: The turning point in the session appears to be when the client reflected on their feelings about embracing rest, where they identified the contrasting sensations in their body. This moment of recognition led to a deeper exploration of their thoughts and feelings around taking breaks. The acknowledgment of potential strategies to integrate short pauses into their routine indicates a willingness to embrace change, suggesting a transformative shift in their mindset and emotional processing.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "### Rating: 4 (DEEP ENGAGEMENT)\n\n#### Key Examples:\n1. **Emotional State**: \u201cWhen I think about embracing these breaks, I feel a little flutter of excitement in my chest, like there\u2019s this hopeful energy that maybe I can actually turn my routine around. It\u2019s like a lightness, almost a release of pressure, when I imagine taking that time for myself.\"\n   \n2. **Current Openness**: \u201cI can see that maybe part of me is really yearning for something different, but it\u2019s also hard not to get caught up in the what-ifs. I think that feeling of nervousness is just my mind trying to protect me, maybe because I\u2019ve set such high expectations for myself in the past. I\u2019m willing to look at that and see how I can balance the excitement with the reality that change takes time.\u201d\n\n#### Progression:\nThe client\u2019s recent exchanges reflect a significant increase in emotional depth and engagement compared to earlier sessions. Initially, they exhibited a mix of factual and emotional responses, but now, they express authentic vulnerability by acknowledging their excitement and anxiety regarding implementing breaks into their routine. This clear progression illustrates a growing comfort with the therapist and a willingness to explore their feelings more deeply.\n\n#### Turning Point:\nA notable turning point occurred when the client discussed their feelings of excitement and anxiety about embracing breaks. The moment they articulated the contrasting sensations in their body\u2014lightness and flutter of excitement versus tightness and a knot of anxiety\u2014marked a shift towards deeper self-reflection. This acknowledgment of internal conflict demonstrates a more nuanced understanding of their emotional landscape, which has led to a more profound engagement with the therapeutic process.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jessa, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, I just got this MRI report with the herniated disc, and it\u2019s honestly just annoying. I mean, I\u2019ve been through enough with my shoulder surgery. It feels like my body just doesn\u2019t want to cooperate. I don\u2019t really want to get into all that. It\u2019s not like there\u2019s much I can do about it right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "Dealing with medical issues can be really frustrating, especially when it feels like your body is constantly throwing challenges your way. It\u2019s understandable to feel annoyed and not want to dive into it all right now. When you think about the situation with your MRI report, what emotions come up for you?",
+      "client": "I guess I feel a bit anxious about it, but honestly, I don\u2019t think it\u2019s that deep. It\u2019s just another thing I have to deal with. I mean, it\u2019s not like I can change what the report says. I'm more focused on just getting through this recovery and trying to keep my life on track.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It makes sense that you would feel anxious, especially with everything you've already been managing. It sounds like you're trying to stay focused on recovery and maintaining some stability in your life, which is important. When you think about your current recovery process, what does that look like for you day-to-day?",
+      "client": "My day-to-day is pretty normal, I guess. I try to keep busy with work and stuff, and I\u2019m doing my physical therapy exercises. Nothing too exciting, just managing the pain as best as I can. I don't really have time to dwell on things too much; I just focus on what needs to get done.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Keeping busy and focusing on what needs to be done can be a way to manage, especially when things feel overwhelming. It sounds like you\u2019re maintaining a sense of normalcy through work and your physical therapy. When you find yourself managing the pain, how do you feel in those moments? Are there any particular thoughts or physical sensations that come up for you?",
+      "client": "I don't really think about how I feel in those moments. I just try to push through it, you know? It\u2019s just pain, and I've dealt with worse before. I guess I just focus on getting through the exercises and not letting it stop me. There\u2019s not much else to say about it.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I guess I feel a bit anxious about it, but honestly, I don\u2019t think it\u2019s that deep. It\u2019s just another thing I have to deal with.\"\n2. **Self-Reflection Depth:** \"I don't really think about how I feel in those moments. I just try to push through it, you know? It\u2019s just pain, and I've dealt with worse before.\"\n\n**Progression:** The client's most recent interactions indicate a blend of factual and emotional responses, showing some level of discomfort tied to their medical issues. While the client acknowledges feeling anxious, they downplay their emotions by stating it's \"not that deep,\" reflecting a hesitance to explore deeper emotional layers. This marks a significant change from earlier sessions where the client may have avoided emotional topics altogether. The client demonstrates basic emotional vocabulary but does not delve into deeper self-reflection, which limits their engagement.\n\n**Turning Point:** The emotional depth shifted slightly when the client acknowledged feeling anxious regarding the MRI report. This acknowledgment, albeit minimal, indicates a movement away from strictly factual responses towards a more nuanced, albeit cautious, emotional engagement. However, the client still tends to focus on practical aspects of their recovery rather than allowing space for deeper emotional exploration.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "Pushing through pain can take a lot of strength and determination. It seems like you\u2019re really focused on not letting it hold you back. When you think about those moments of managing the pain during your exercises, are there any physical sensations or feelings in your body that you notice, even if they're subtle?",
+      "client": "I mean, I guess there are some sensations I notice, like a tightness or maybe a little bit of tingling when I\u2019m doing certain exercises. It\u2019s not super intense, but it\u2019s there, kind of like a reminder that I\u2019m still working through all of this. I don\u2019t know if I pay attention to it too much though; I just sort of try to get it done and move on. Part of me knows I should probably be more aware, but it feels easier to just keep going.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "Noticing those sensations, like the tightness or tingling, can be a part of how your body is responding to the exercises. It\u2019s interesting that you feel some awareness of them but also prefer to keep moving forward. Sometimes, it can feel easier to push through rather than pause and reflect. When you think about the idea of being more aware during those moments, what do you notice about that?",
+      "client": "I guess I kind of feel like being more aware could just slow me down, you know? Like if I stop to think about how I\u2019m feeling, I might get overwhelmed or anxious about it. Part of me thinks it\u2019s good to be aware, but another part just wants to keep pushing through so I don\u2019t get stuck in my head. It\u2019s hard to balance that, I suppose.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Balancing awareness and action can indeed feel tricky, especially when there's a concern about getting overwhelmed. It sounds like part of you values the idea of staying in touch with your feelings, while another part prefers to keep moving forward to avoid that potential anxiety. When you consider those moments of pushing through, do you notice any specific thoughts that come up for you about that balance?",
+      "client": "I don\u2019t know if I really notice specific thoughts in those moments. It\u2019s more like I just feel this urge to keep going, like I can\u2019t afford to slow down. I guess part of me thinks that if I stop to think, I might just spiral into worrying about everything else, like the herniated disc or my shoulder recovery. So maybe I tell myself it\u2019s better to just keep pushing through instead of getting caught up in that. But then I wonder if that\u2019s actually helping or just making things harder in the long run.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It makes sense that you feel that urge to keep moving, especially with concerns like your herniated disc and shoulder recovery in the background. It sounds like there's a tension between wanting to stay proactive and the fear of what might come up if you pause. When you think about that worry of spiraling, does it feel like it\u2019s rooted in past experiences, or is it more about what you imagine might happen if you were to slow down?",
+      "client": "I guess it\u2019s a bit of both, really. I mean, part of it is definitely rooted in my past experiences, like when I was really ill and couldn\u2019t walk. That time was just so overwhelming, and I think I still carry that worry that if I stop, all those feelings will come rushing back. But there's also this fear of the unknown, like I just imagine that if I slow down now, I\u2019ll get lost in all the thoughts about my current situation\u2014like the herniated disc. So maybe I try to avoid it as a way to cope, but I don\u2019t know if that\u2019s really working for me. It\u2019s confusing, I suppose.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "### Rating: 3\n\n### Key Examples:\n1. **Emotional State**: \u201cI guess part of me thinks that if I stop to think, I might just spiral into worrying about everything else, like the herniated disc or my shoulder recovery. So maybe I tell myself it\u2019s better to just keep pushing through instead of getting caught up in that. But then I wonder if that\u2019s actually helping or just making things harder in the long run.\u201d\n   \n2. **Current Openness**: \u201cI guess it\u2019s a bit of both, really. I mean, part of it is definitely rooted in my past experiences, like when I was really ill and couldn\u2019t walk. That time was just so overwhelming, and I think I still carry that worry that if I stop, all those feelings will come rushing back.\u201d\n\n### Progression:\nIn the most recent interactions, the client demonstrates a more nuanced emotional state characterized by a mix of awareness and vulnerability concerning their feelings. They openly articulate the tension between the desire to avoid overwhelming feelings and the need for awareness. This marks a significant change from earlier sessions, where the client may have provided more factual responses with limited emotional depth.\n\nInitially, the client exhibited hesitance and a more defensive stance regarding their emotions, focusing on avoidance rather than exploration. However, in recent exchanges, they have begun to reflect on their fears and past experiences, indicating a shift toward deeper self-reflection and engagement with their emotional landscape.\n\n### Turning Point:\nThe client's emotional depth shifted notably in the exchange where they began expressing the connection between their current feelings and past traumatic experiences, specifically when they mentioned being ill and unable to walk. This acknowledgment of their past and its impact on their current emotional state represents a significant turning point, as it reflects a willingness to confront",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Carrying those past experiences and worries sounds heavy, especially when they feel tied to your current situation. It\u2019s understandable to want to avoid that overwhelming feeling from the past, while also being concerned about how slowing down might lead to more anxiety about your herniated disc. The confusion you\u2019re feeling about whether this approach is truly helping is a valid struggle. \n\nWhen you reflect on those moments where you feel the urge to push through, can you notice any physical sensations or emotions that come up for you in connection with that urge?",
+      "client": "I guess when I feel that urge to push through, I notice my heart racing a bit and sometimes I feel this tightness in my chest. It\u2019s like my body is responding to that pressure to keep moving, but then I also feel this, um, heaviness in my shoulders, which makes sense considering my shoulder surgery. I think the emotions that come up are mostly anxiety and fear about what will happen if I slow down, but I also feel a bit of frustration at myself for not being able to just relax and be okay with where I\u2019m at. Sometimes it feels like I\u2019m stuck in this loop of pushing through but also wanting to be more aware, you know? It\u2019s hard to untangle all of that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Noticing those physical sensations, like your racing heart and the tightness in your chest, seems significant, especially as they connect to that urge to keep moving. The heaviness in your shoulders adds another layer, particularly with your recovery in mind. It\u2019s understandable that you\u2019re feeling a mix of anxiety, fear, and frustration\u2014those emotions often seem to swirl together, especially when there\u2019s a desire to be more aware while also feeling stuck.\n\nWhen you think about that loop of pushing through and wanting to be aware, can you pinpoint a recent moment when you felt that tension particularly strongly? What was happening, and how did you respond?",
+      "client": "I can think of a time recently when I was at my physical therapy appointment. I was trying really hard to keep up with the exercises, even though I was feeling pretty overwhelmed by the pain in my shoulder and the stuff with my neck. I just kept thinking about how I needed to prove to everyone that I was getting better, like if I slowed down, they\u2019d think I wasn\u2019t trying hard enough. So, I guess I pushed through more than I should have, even when my body was screaming at me to take a break. It\u2019s tricky because part of me wants to show that I can handle it, but another part knows I might just be making things worse for myself. I don\u2019t know, it\u2019s just really frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like that moment at your physical therapy appointment brought a lot of conflicting feelings to the surface. The pressure to prove your progress and keep up, despite your body signaling for a break, can definitely create a frustrating tension. It's understandable to want to show that you\u2019re working hard, especially when you\u2019re in a recovery process.\n\nWhen you reflect on that experience, how did your body feel in those moments when you were pushing through despite the pain? Were there any particular thoughts or feelings that stood out as you navigated that situation?",
+      "client": "When I was pushing through, my body felt really tense, like every muscle was just coiled up. I remember thinking that if I didn\u2019t keep going, I\u2019d somehow be seen as weak or like I wasn\u2019t trying hard enough. It\u2019s almost like I had this voice in my head telling me I had to keep proving myself. I felt a mix of determination and dread\u2014like I wanted to show I could handle it, but at the same time, I was really scared I\u2019d end up hurting myself more. Honestly, it\u2019s just so exhausting to feel that way, and I\u2019m not sure how to balance it all.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That tension in your muscles and the voice pushing you to prove yourself certainly adds to the exhaustion you\u2019re feeling. It seems like there\u2019s a constant dance between determination and fear happening within you. Wanting to show your strength while also being scared of potential setbacks is understandably overwhelming.\n\nAs you think about that mix of feelings, is there a part of you that recognizes what your body is telling you, even amidst that pressure to keep going? Maybe there\u2019s a way to listen to both sides of your experience?",
+      "client": "I guess I kind of see what you mean about listening to both sides. It's just really hard because part of me wants to push through and not let anyone down, but another part knows that my body is trying to communicate something important. Sometimes I feel like I'm in this battle with myself, you know? Like if I listen to that part, it\u2019ll mean I\u2019m giving up, and I don\u2019t want to be perceived that way. I don\u2019t know if I\u2019m ready to trust that listening to my body could actually help me in the long run. It feels like a risk.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cI can think of a time recently when I was at my physical therapy appointment. I was trying really hard to keep up with the exercises, even though I was feeling pretty overwhelmed by the pain in my shoulder and the stuff with my neck. I just kept thinking about how I needed to prove to everyone that I was getting better, like if I slowed down, they\u2019d think I wasn\u2019t trying hard enough.\u201d\n2. Client: \u201cI guess I kind of see what you mean about listening to both sides. It's just really hard because part of me wants to push through and not let anyone down, but another part knows that my body is trying to communicate something important.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth, particularly in their ability to articulate their feelings of frustration and tension. Initially, the client showed signs of anxiety and pressure to perform, but now they are beginning to recognize the inner conflict between their determination to prove themselves and the need to listen to their body. This marks a significant change from earlier sessions, where emotional expression was minimal, and the client often resorted to factual responses or defensive stances.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing vulnerability about their experiences during physical therapy, particularly the acknowledgment of feeling overwhelmed and the pressure to be perceived as strong. The moment they articulated their fear of being seen as weak and the internal battle between pushing through pain and honoring their body\u2019s signals represents a shift towards greater self-reflection and emotional exploration. This has led to a more engaged and open dialogue with the therapist, showcasing a willingness to confront difficult emotions and the complexities of their recovery process",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Navigating that battle between wanting to push through and listening to your body sounds really challenging. It\u2019s understandable to feel hesitant about trusting that listening to your body could be beneficial, especially when there\u2019s a fear of being perceived as giving up. This tension can create a sense of urgency and pressure that feels hard to navigate.\n\nAs you consider this risk, can you identify what it might feel like to take a small step toward listening to your body, even just in a minor way? What thoughts come up when you think about that idea?",
+      "client": "I mean, maybe it could feel a little freeing to just take a break instead of pushing through all the time, but I also worry about what that would look like. Like, would I be letting myself down? I guess part of me thinks it\u2019s not okay to slow down because then I might fall behind, you know? I really don\u2019t want to be perceived as weak or unable to handle things. It feels like this constant pressure to just keep moving forward, even when my body is saying otherwise. I don\u2019t know if I\u2019m ready to make that shift yet.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Taking a break does sound like it could bring some relief, but the worry about falling behind and how that might affect how you see yourself is definitely significant. The pressure to keep moving forward can be really heavy, especially when you feel like you have to prove something to yourself or others. \n\nWhat do you think it would take for you to start considering the idea of slowing down, even if just for a moment? What feelings or thoughts come up when you think about giving yourself that permission?",
+      "client": "I guess it would take some rethinking of what it means to slow down for me. It\u2019s just that I\u2019ve always felt like I need to keep up with everyone else or else I\u2019ll be left behind, you know? I can\u2019t help but think that if I allow myself to take a break, maybe I\u2019d feel guilty or like I'm wasting time. It\u2019s hard to shake that feeling of needing to prove my worth, so giving myself permission to rest feels really scary. I mean, what if I just fall into a pattern of not pushing myself at all? I don\u2019t want to go back to feeling stuck or like I\u2019m not making progress. It\u2019s a lot to consider, honestly.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Rethinking what slowing down means for you could open up some new perspectives. It seems like that fear of falling behind and feeling guilty about taking a break is really strong, and there's a definite weight to those thoughts about proving your worth. The idea of resting being linked to not pushing yourself at all sounds like a tough place to be.\n\nAs you explore this further, what might it look like to define rest or slowing down in a way that feels more aligned with your values? Are there moments where you\u2019ve felt progress and rest could coexist, even just a little?",
+      "client": "I mean, maybe it could be kind of helpful to think about rest as something that doesn\u2019t mean I\u2019m not progressing. Like, I\u2019ve heard that rest can actually help with recovery and everything, but it\u2019s just hard to really believe that. Sometimes, I feel like I\u2019ve pushed myself too hard for so long that it\u2019s hard to imagine a different way. Maybe there have been times when I\u2019ve felt okay taking a breather, like after my shoulder surgery when I had to really focus on healing. I guess I just don\u2019t want to get too comfortable with the idea of slowing down, because then what if I don't want to go back to pushing myself? It's all so confusing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Imagining rest as part of the process rather than a barrier to progress seems like an important shift to consider. It sounds like there\u2019s a conflict between what you know intellectually, like the idea that rest can aid recovery, and how you\u2019ve experienced pushing through for so long. The memory of needing to focus on healing after your surgery might bring up both the relief of rest and the discomfort of feeling like you're not progressing.\n\nAs you think about that confusion, what feelings arise when you reflect on those moments of needing to rest and the care you gave yourself then? How does that connect with your current feelings about slowing down?",
+      "client": "I guess when I think back to those moments after my shoulder surgery, there\u2019s a mix of relief and anxiety. I mean, it felt good to give myself permission to rest because I really needed it, but at the same time, there was this nagging feeling that I was falling behind or losing progress. It\u2019s like I can see that taking care of myself was important, but part of me still carries that worry about being perceived as lazy or not strong enough. I don\u2019t know if I fully believe that rest can be part of progress; it just feels like I\u2019m stuck in this cycle of needing to be productive all the time. It\u2019s tough to imagine a different way of being.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it would take some rethinking of what it means to slow down for me. It\u2019s just that I\u2019ve always felt like I need to keep up with everyone else or else I\u2019ll be left behind, you know?\"\n2. \"I guess when I think back to those moments after my shoulder surgery, there\u2019s a mix of relief and anxiety. I mean, it felt good to give myself permission to rest because I really needed it, but at the same time, there was this nagging feeling that I was falling behind or losing progress.\"\n\n**Progression:** The client's recent interactions illustrate a growing emotional depth as they begin to articulate complex feelings about rest and productivity. Initially, there were signs of hesitation and a more defensive stance regarding their worth and the concept of slowing down. However, the latest exchanges reveal a blend of emotional expression and self-reflection. The client recognizes the internal conflict between the need for rest and the fear of losing progress, signaling a notable shift from more factual responses to a deeper exploration of their feelings.\n\n**Turning Point:** The turning point in the client's emotional openness appears to be during their discussion of their shoulder surgery and the mixed feelings associated with rest. The moment they expressed the \"mix of relief and anxiety\" indicates their capacity for vulnerability and a willingness to engage with the discomfort that comes with redefining productivity and rest. This illustrates a significant step toward deeper emotional engagement and self-awareness in therapy.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "Reflecting on those mixed feelings of relief and anxiety when you think about your recovery after surgery really highlights the struggle you\u2019re facing. It sounds like acknowledging the importance of rest brings up a lot of tension with that worry about how you\u2019re perceived or the fear of losing your edge. The cycle of needing to be productive can feel really confining, especially when you recognize that your well-being is tied to how you treat yourself.\n\nAs you sit with those feelings, what do you notice about the thoughts that come up when you consider the idea of being productive versus the need for rest? Are there specific moments where you felt that tension more acutely?",
+      "client": "Well, I guess when I think about productivity versus rest, it\u2019s like my brain goes into overdrive. I mean, there\u2019s this constant voice telling me that I should be doing something, anything, or else I\u2019m wasting time. It makes me feel really anxious, like I\u2019m racing against a clock that\u2019s always ticking. I can think of times, especially when I was recovering from being ill, where I felt that tension really strongly. I wanted to just relax and heal, but then I\u2019d get this sinking feeling, like I was falling behind in life or letting others down. It\u2019s hard to shake that sense of urgency, you know? Sometimes, I just wish I could quiet that voice and find a balance, but it feels really elusive.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "The racing thoughts and that persistent voice pushing you to do something instead of resting seem to create a lot of inner chaos for you. It\u2019s understandable that after experiencing illness, the pressure to catch up can feel overwhelming, especially when you want to prioritize your healing. That sense of urgency can really drown out the quieter moments of self-care and relaxation.\n\nAs you reflect on those feelings of wanting to relax but being pulled by the fear of falling behind, what do you notice in your body? Are there any physical sensations or reactions that come up when you think about allowing yourself to rest?",
+      "client": "I mean, when I think about allowing myself to rest, my shoulders feel tight, and I often find myself clenching my jaw. It\u2019s like my body knows I\u2019m supposed to be relaxing, but the tension just builds up because of that fear of falling behind. I guess there\u2019s this heaviness in my chest too, like a weight that makes it hard to breathe sometimes. It's frustrating because I want to give myself that space to rest, but my body seems to be reflecting all that anxiety instead. I don\u2019t know, maybe it\u2019s just that constant battle between what I think I should be doing and what I actually need.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Noticing the tightness in your shoulders and the heaviness in your chest when you think about resting is really important. It sounds like your body is communicating a lot about the anxiety tied to those expectations of productivity. The conflict between what you feel you should be doing and what you need can create a lot of discomfort.\n\nAs you sit with those sensations, what do you think your body might be trying to tell you about the need for rest versus the pressure to be productive? Are there moments when you\u2019ve felt even a small shift towards easing that tension?",
+      "client": "I guess my body is trying to tell me that I really need to listen to myself more. I\u2019ve been so focused on that pressure to keep up that I often ignore what my body is saying. Maybe there have been moments, like after I\u2019ve done some gentle stretching or even just sat quietly for a little while, when I\u2019ve felt a tiny bit of relief. It\u2019s not always easy to find that shift, though. I mean, part of me wants to embrace it, but another part feels like I\u2019m just making excuses. It\u2019s like I\u2019m stuck in this push-and-pull, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "That push-and-pull you\u2019re experiencing is such a common struggle, especially when you\u2019re trying to navigate the pressure to keep up while also recognizing your body\u2019s needs. It\u2019s interesting to hear that moments of gentle stretching or sitting quietly have offered you some relief, even if it feels small. That acknowledgment of needing to listen to yourself more suggests a deeper awareness that might be worth exploring further.\n\nAs you think about those times when you\u2019ve felt that tiny bit of relief, what do you notice about what you were doing or how you were feeling in those moments? How does that connect to your desire for balance?",
+      "client": "I mean, when I think about those moments, it feels like they happen when I\u2019m really intentional about taking a break, like I\u2019m almost giving myself permission to just pause. I guess during those times, I felt a little more in tune with my body, and it was like I could actually breathe a bit easier. It\u2019s hard to describe, but there\u2019s something calming about being present without that nagging feeling of urgency. Still, I wonder if I\u2019m just fooling myself into thinking I can rest without actually addressing the bigger picture of everything that feels like it\u2019s piling up. It\u2019s a bit confusing, right? Like trying to find balance while feeling like I\u2019m juggling so many things at once.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I guess my body is trying to tell me that I really need to listen to myself more... Maybe there have been moments... when I\u2019ve felt a tiny bit of relief.\"\n2. \"I mean, when I think about those moments, it feels like they happen when I\u2019m really intentional about taking a break, like I\u2019m almost giving myself permission to just pause.\"\n\n**Progression:** The client\u2019s recent interactions reveal a significant emotional depth characterized by increasing self-awareness and vulnerability. In earlier exchanges, the client exhibited more factual responses and hesitancy to delve into their feelings. However, the latest dialogues reflect a marked transition. The client openly discusses physical sensations tied to their emotional state and acknowledges a desire to listen to their body's needs. This progression indicates a growing comfort in sharing emotions and an ability to reflect on their experiences in a more nuanced manner.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of needing to listen to themselves more. This moment, when they recognized their body\u2019s signals and articulated feelings of frustration and conflict regarding rest, marked a pivotal change. It reflects a move towards authenticity and a willingness to explore the complexities of their emotional landscape, setting a foundation for deeper engagement in the therapeutic process. The client has moved beyond initial hesitance to a point where they are willing to confront and articulate the struggle between their obligations and their need for self-care.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It makes sense that trying to find that balance feels confusing, especially with the weight of everything you feel is piling up. Recognizing those moments of intentional breaks where you felt more in tune with your body is a significant step. It sounds like when you allow yourself that pause, you experience a bit of calm, even if it feels fleeting. \n\nAs you reflect on that nagging sense of urgency, how does it feel to consider that giving yourself permission to pause might be just as important as addressing the tasks at hand? What do you think would happen if you leaned into those moments of rest a bit more?",
+      "client": "It feels like a bit of a double-edged sword, you know? On one hand, I know that taking that time to pause is important, but there\u2019s this voice in my head that insists I\u2019ll fall behind or that everything will just spiral out of control. I mean, what if I lean into those moments of rest and everything I\u2019m trying to juggle just crashes down? I think part of me fears that if I slow down too much, I won\u2019t be able to catch back up, and it makes me anxious just thinking about it. It's like I can see the value in resting and recharging, but then the worry creeps in about what might happen if I do. It\u2019s frustrating to feel that conflict because I want to trust that I can find that balance without it feeling so overwhelming.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "That conflict you\u2019re describing really highlights the tension between wanting to take care of yourself and the worry about what may happen if you step back. It\u2019s understandable to feel anxious when there\u2019s this fear of falling behind or losing control. The pressure to keep everything balanced can feel heavy, especially when you know that resting is valuable but also feel that nagging worry.\n\nAs you sit with this fear of what could happen if you lean into rest a bit more, is there a specific moment or thought that stands out to you? What does it feel like in your body when you imagine embracing that pause versus when you think about the tasks ahead?",
+      "client": "When I think about embracing that pause, it feels almost like a weight is lifted off my shoulders, even if it's just for a moment. I can actually feel my muscles start to relax, and there\u2019s a small sense of relief washing over me. But then, when I turn my attention back to all the tasks ahead, my stomach tightens, and I get this rush of anxiety. It\u2019s like my body knows the difference between those two states, but my mind keeps trying to pull me back into that frantic pace. I guess part of me worries that if I give myself too much space to breathe, I might forget about everything I should be doing, and that thought just spirals into a panic. It\u2019s a tricky balance to navigate, and I\u2019m not sure how to break that cycle.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "Feeling that weight lift when you think about pausing, contrasted with the tightness in your stomach when you focus on your tasks, really highlights the struggle between those two states. It\u2019s interesting that your body seems to recognize the difference so clearly. It\u2019s understandable to feel apprehensive about giving yourself space to breathe, especially if it feels like it could lead to forgetting your responsibilities.\n\nAs you explore this tricky balance, what would it feel like to acknowledge both the need for rest and the tasks you want to accomplish? How might you create a small space where you can honor both sides without feeling like one will overshadow the other?",
+      "client": "I think acknowledging both sides feels a bit overwhelming, to be honest. I mean, part of me knows that I need rest to recharge, but there's this constant nagging that if I stop, everything else will just fall apart. Maybe that\u2019s why I struggle to create that space\u2014I keep thinking I have to choose one over the other, like resting means neglecting my responsibilities. It feels like a tightrope walk, and I just don\u2019t want to tip over into chaos. \n\nBut when I really dig into it, I wonder if I could carve out just a few minutes here and there to breathe without letting go of everything else. Like, perhaps setting a timer for a short break could help me feel like I\u2019m still in control while also allowing myself that moment of pause. It's definitely a work in progress, and I\u2019m still figuring out how to let both coexist without spiraling into panic.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "Creating those few minutes for yourself sounds like a promising step, especially since it feels more manageable to carve out short breaks rather than completely stepping away from everything. It\u2019s okay to feel overwhelmed by the idea of balancing both rest and responsibility. Finding that small window where you can allow yourself to breathe might help ease some of that tension, and it\u2019s great that you\u2019re thinking about ways to stay in control while still giving yourself some space.\n\nAs you consider setting a timer for those short breaks, what do you think might help you remember to take that break without feeling like it\u2019s a risk to your responsibilities? How would it feel to integrate that small pause into your routine?",
+      "client": "I think integrating those short pauses into my routine feels like a challenge but also kind of exciting. Part of me envisions setting a timer and maybe attaching it to something more pleasant, like taking a moment to sip tea or listen to a favorite song, so it feels less like an obligation and more like a treat. It could shift my mindset about taking breaks, making them feel like a reward rather than a risk. \n\nYet, I also worry about forgetting or getting caught up in whatever I\u2019m doing at the moment and missing that time. I guess it might help if I have a visual reminder, like a sticky note or a reminder on my phone, to nudge me into that pause without feeling disruptive. I\u2019m just not sure how effective that would be or if I\u2019d actually follow through when the time comes. It\u2019s a bit daunting to think about, but I see the potential.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression**: \"When I think about embracing that pause, it feels almost like a weight is lifted off my shoulders, even if it's just for a moment.\"\n2. **Self-Reflection Depth**: \"I guess it might help if I have a visual reminder, like a sticky note or a reminder on my phone, to nudge me into that pause without feeling disruptive.\"\n\n**Progression**: The client\u2019s recent exchanges demonstrate a significant shift toward deeper emotional expression and self-reflection. Initially, they expressed anxiety about taking breaks, indicating a struggle between their desire for rest and their responsibilities. In their latest interactions, however, they articulate a growing awareness of this conflict, recognizing the physical sensations tied to their emotional states. The client is moving away from purely factual responses and is increasingly engaging in meaningful dialogue about their feelings, illustrating an enhanced emotional depth.\n\n**Turning Point**: The turning point in the session appears to be when the client reflected on their feelings about embracing rest, where they identified the contrasting sensations in their body. This moment of recognition led to a deeper exploration of their thoughts and feelings around taking breaks. The acknowledgment of potential strategies to integrate short pauses into their routine indicates a willingness to embrace change, suggesting a transformative shift in their mindset and emotional processing.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s encouraging to hear how you\u2019re envisioning those short pauses as something enjoyable, like a little reward for yourself. Adding something pleasant, like a favorite song or a warm cup of tea, could really shift the experience of taking a break into something positive rather than an obligation. It seems like you\u2019re recognizing that this could be a way to nurture yourself.\n\nFeeling uncertain about following through is also completely natural, especially when you\u2019re trying to create new habits. Having a visual reminder could be helpful, and it might be worth experimenting with what feels right for you. As you think about potentially integrating these reminders, what kind of feeling or thought do you want to hold onto to help guide you back to that pause, even when you might get caught up in your tasks?",
+      "client": "I think holding onto the idea of self-nurturing could be really helpful. When I remember that taking a pause is a way to show myself kindness, it feels less like I\u2019m abandoning my responsibilities and more like I\u2019m investing in myself. I could remind myself that those short breaks are actually essential for my well-being and that they can help me be more focused and productive when I return to my tasks.\n\nPart of me also feels that acknowledging my need for rest could be empowering. I\u2019ve spent so long pushing through pain and discomfort that embracing rest might feel a bit foreign, but it\u2019s also exciting to think about how it could change my mindset. I just need to find a way to keep that thought in the forefront, possibly by reflecting on how I feel after taking a break, so I remember it\u2019s worth it. \n\nThere\u2019s definitely a bit of uncertainty there, but I want to explore how I can make these pauses feel like a normal part of my day rather than something I have to fight for or feel guilty about. It\u2019s a work in progress, but I think there\u2019s",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "Embracing the idea of self-nurturing as a guiding thought sounds like a powerful shift for you. Recognizing that those breaks can actually enhance your focus and productivity is an important realization. It\u2019s understandable that it might feel foreign at first, especially if you\u2019ve been used to pushing through discomfort for a long time. \n\nReflecting on how you feel after a break could provide a strong incentive to help you integrate those pauses into your routine. As you think about making this a normal part of your day, what small step might feel manageable to start with, so it doesn't feel like a battle but rather a gentle addition to your life?",
+      "client": "I think starting small with maybe just one scheduled break each day could be a manageable step. It feels less overwhelming to think about just one moment where I can pause, breathe, and do something nice for myself. I could pick a specific time when I usually hit a slump in my energy or focus, so it feels natural to take that break. \n\nI also wonder if it might help to keep a little journal or note about how I felt during those moments afterward. That way, I can look back and remind myself why it\u2019s worth it, and maybe even build on it from there. Part of me is excited about this\u2014like, what if I actually start to look forward to that time? But I can also feel the anxiety creeping in about whether I\u2019ll really stick with it. It\u2019s all a bit new, and I\u2019m still figuring out how to make it work for me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "Starting with just one scheduled break each day sounds like a thoughtful approach, especially when you can choose a time that aligns with your natural energy cycles. That can make it feel more intuitive and less like a chore. The idea of keeping a little journal or notes about how you feel during those breaks could really reinforce the positive impact they have on you, helping you remember the benefits over time.\n\nIt\u2019s natural to feel some anxiety about sticking with a new routine, especially when it\u2019s something unfamiliar. As you think about this potential change, what do you think might help you notice and celebrate those moments where taking a break feels rewarding?",
+      "client": "I think recognizing and celebrating even the smallest successes could be really important for me. Maybe I could treat myself with something small, like a favorite snack or a little bit of time doing something I enjoy after I\u2019ve taken my break. That way, I\u2019m creating a positive association with it, and it feels like a reward rather than just a box I\u2019ve checked off. \n\nI also wonder if sharing my progress with a friend might help, too. Just talking about it could make it feel more real and give me a little boost of motivation. I guess part of me just wants to make sure that I\u2019m not just going through the motions but actually feeling the benefits of these breaks. It\u2019s kind of exciting to think about how this could shift my routine, but I\u2019m still a bit nervous about whether I\u2019ll follow through.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "Creating a positive association with those breaks sounds like a lovely way to celebrate your efforts. Treating yourself to a favorite snack or engaging in something enjoyable afterward could really reinforce the idea that these moments are special and worthwhile. Sharing your progress with a friend can also add a layer of accountability and support, helping you feel more connected to your journey.\n\nIt\u2019s completely natural to feel nervous about following through on something new. As you think about the excitement and the nerves, how do you feel in your body when you consider both the possibility of embracing these breaks and the worries about sticking with them?",
+      "client": "When I think about embracing these breaks, I feel a little flutter of excitement in my chest, like there\u2019s this hopeful energy that maybe I can actually turn my routine around. It\u2019s like a lightness, almost a release of pressure, when I imagine taking that time for myself. But then, when the worries creep in about whether I\u2019ll stick with it, my stomach tightens, and I get this knot of anxiety. It\u2019s a strange contrast, this tug-of-war between wanting to feel good about the changes and the fear of slipping back into old habits. \n\nI can see that maybe part of me is really yearning for something different, but it\u2019s also hard not to get caught up in the what-ifs. I think that feeling of nervousness is just my mind trying to protect me, maybe because I\u2019ve set such high expectations for myself in the past. I\u2019m willing to look at that and see how I can balance the excitement with the reality that change takes time.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "### Rating: 4 (DEEP ENGAGEMENT)\n\n#### Key Examples:\n1. **Emotional State**: \u201cWhen I think about embracing these breaks, I feel a little flutter of excitement in my chest, like there\u2019s this hopeful energy that maybe I can actually turn my routine around. It\u2019s like a lightness, almost a release of pressure, when I imagine taking that time for myself.\"\n   \n2. **Current Openness**: \u201cI can see that maybe part of me is really yearning for something different, but it\u2019s also hard not to get caught up in the what-ifs. I think that feeling of nervousness is just my mind trying to protect me, maybe because I\u2019ve set such high expectations for myself in the past. I\u2019m willing to look at that and see how I can balance the excitement with the reality that change takes time.\u201d\n\n#### Progression:\nThe client\u2019s recent exchanges reflect a significant increase in emotional depth and engagement compared to earlier sessions. Initially, they exhibited a mix of factual and emotional responses, but now, they express authentic vulnerability by acknowledging their excitement and anxiety regarding implementing breaks into their routine. This clear progression illustrates a growing comfort with the therapist and a willingness to explore their feelings more deeply.\n\n#### Turning Point:\nA notable turning point occurred when the client discussed their feelings of excitement and anxiety about embracing breaks. The moment they articulated the contrasting sensations in their body\u2014lightness and flutter of excitement versus tightness and a knot of anxiety\u2014marked a shift towards deeper self-reflection. This acknowledgment of internal conflict demonstrates a more nuanced understanding of their emotional landscape, which has led to a more profound engagement with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "Noticing the excitement and the nervousness in your body is a really insightful observation. It\u2019s understandable to feel that tug-of-war, especially when you\u2019re considering meaningful changes. The flutter of excitement shows that there\u2019s a part of you that truly wants to embrace this shift, while the tightness in your stomach highlights the weight of those expectations you\u2019ve carried.\n\nAs you reflect on this balance between excitement and anxiety, what do you think might help you honor both feelings as you move forward?",
+      "client": "I think taking a moment to acknowledge both feelings could really help. Maybe when I feel that flutter of excitement, I could pause and remind myself that it\u2019s okay to feel anxious too\u2014it doesn\u2019t mean I can\u2019t move forward. I could also try to practice some self-compassion, telling myself that it\u2019s perfectly normal to have mixed emotions about change. \n\nI wonder if I could set aside a little time each week to reflect on how I\u2019m feeling overall. That way, I can check in with myself and adjust my expectations if needed. It\u2019s definitely a balancing act, but I think I\u2019m starting to see that both excitement and anxiety can coexist without derailing my progress.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "Acknowledging both the excitement and anxiety is a compassionate approach to navigating change. It sounds like you\u2019re leaning into the idea that having mixed emotions is part of the process, rather than something to avoid. Setting aside time each week to reflect on your feelings could be a valuable way to stay in tune with yourself and adjust your expectations as needed. \n\nAs you think about that reflection time, what do you imagine it might look like for you?",
+      "client": "I imagine that reflection time could be pretty open and maybe a little informal, like just sitting with a journal or even talking it out with a friend. I\u2019d probably just find a quiet spot where I can think without distractions. I think I\u2019d like to write down what I\u2019m feeling, maybe even doodle a bit, just to let my thoughts flow without pressure. \n\nIt feels important to create a space where I can be honest with myself, but also kind\u2014like reminding myself that it\u2019s okay if I\u2019m not perfect. I could also set a timer, so I don\u2019t feel overwhelmed by it, just to keep it manageable. I think I\u2019d want to celebrate the small moments too, like noting when I feel that excitement or when I handle my anxiety a little better than before. That feels doable, and part of me thinks it could really help me stay connected to where I\u2019m at emotionally.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    }
+  ]
+}

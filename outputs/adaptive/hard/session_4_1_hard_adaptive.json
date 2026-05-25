@@ -1,0 +1,984 @@
+{
+  "mode": "hard",
+  "therapist_type": "adaptive",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": "gpt-4o-mini",
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"I just keep busy, I guess. I try to ignore it most of the time. It\u2019s not like I have a choice, right? I just deal with it and move on.\"\n2. **Latest exchange demonstrating current openness:** \"I don\u2019t really think about it like that. I just don\u2019t want to sit and dwell on everything. I mean, what\u2019s the point? It\u2019s just easier to keep moving and not get stuck in my head about it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of factual responses and the emergence of basic emotional vocabulary, indicating an evolving comfort level in the therapeutic relationship. While they express a desire to avoid deeper reflection, their willingness to engage in dialogue about their coping strategies suggests a gradual warming up toward emotional openness compared to an earlier phase where they might have been more factual and defensive.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the strategy of keeping busy as a coping mechanism. This moment reflects a growing self-awareness, as they begin to articulate their avoidance of emotional reflection and the rationale behind it, marking a notable shift from a more defensive stance to a willingness to explore their feelings, albeit still superficially. \n\nOverall, the client is in a developmental phase focused on understanding their coping mechanisms, indicating the need for further exploration to deepen emotional engagement in future sessions.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. *Client*: \"I can kind of see the value in easing into it, but it still feels like a lot to handle.\"\n2. *Client*: \"I guess in the past, I\u2019ve tried to just push those feelings away or distract myself, like diving into work or hanging out with friends.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a growing willingness to explore their emotions, transitioning from prior defensive and hesitant responses to a more engaged and reflective dialogue. They are beginning to articulate their fears and recognize their coping mechanisms, indicating a movement towards deeper self-reflection and emotional expression. This marks a significant change from earlier exchanges where there was a predominant focus on avoidance and minimal emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their past coping strategies and acknowledging the difficulty of facing their emotions directly. This moment reveals a willingness to confront their feelings, suggesting a pivotal shift towards openness and recognition of their internal struggles. The metaphor of \"teetering on the edge\" reflects their current emotional state, indicating both fear and a desire to engage, thus demonstrating a mix of vulnerability and emerging self-awareness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I just hope I don\u2019t overthink it and make it more complicated than it needs to be. It\u2019s like, part of me wants to believe this could work, but another part is still a bit skeptical, you know?\"\n2. **Current Openness:** \"I mean, I like the idea of having that visual cue when I start to feel overwhelmed. But I also worry I might forget to check for it or just not pay attention. It feels like I have to remember so many things already, you know? It\u2019s just frustrating because I want to make progress, but then there\u2019s all this stuff in my head that makes it harder.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and openness compared to earlier exchanges in the session. They express both hope and skepticism, indicating a mix of emotions that suggest a greater willingness to explore their feelings. The client articulates their frustration and desire for progress, which showcases a deeper level of self-reflection than before.\n\n**Turning Point:** Client's emotional depth shifted during their acknowledgment of past negative experiences with techniques that didn't work for them. This moment marks a significant change as they began to articulate their internal conflict between hope and skepticism, revealing a more nuanced understanding of their emotional landscape. The progression from primarily factual responses to a more layered emotional expression signifies a shift towards a more engaged exploration of their feelings.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"It feels less daunting, maybe? But there's still that nagging feeling that it won\u2019t be enough when things get tough.\"\n- \"I guess it just feels like a lot to manage, and I don\u2019t want to get disappointed again.\"\n\n**Progression:** The client's most recent interactions show a blend of emotional acknowledgment and self-doubt, indicating a more significant engagement with their feelings than earlier in the session. They are beginning to articulate their emotions more clearly, expressing both hope and apprehension about implementing new coping strategies. This marks a notable change from earlier sessions where they might have only presented factual responses and limited emotional insight.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about managing their feelings and the potential for disappointment. This occurred during the exchange where they articulated their worry about remembering the color technique in moments of panic, indicating a deeper level of self-reflection and vulnerability, which is a step forward from earlier evasiveness or defensive responses.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Emotional Expression:** \"Sometimes, it feels like I\u2019m just analyzing myself too much, and I don\u2019t know if that\u2019s helpful.\"\n- **Engagement Level:** \"I mean, maybe that could work. I guess if I pick a time that feels natural... it might not feel like such a chore... But then again, I still worry about remembering to do it or if it'll just feel like another thing I\u2019m supposed to do.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear movement towards greater emotional openness and self-reflection. Initially, they expressed worries about over-analyzing themselves and feeling overwhelmed by the process, but they are now willing to consider manageable steps, indicating an increasing level of engagement. Their willingness to explore jotting down thoughts shows a notable shift from earlier exchanges, where they were more fact-based and defensive.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the dialogue when they acknowledged their internal conflict about trying new strategies while fearing it might add to their feelings of being overwhelmed. This moment illustrates their growing awareness of their emotional landscape and willingness to engage in the therapeutic process, marking a significant advancement from their earlier hesitance and superficial responses.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [
+    {
+      "turn": 2,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 3,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 4,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 5,
+      "sentiment": "Neutral",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 4,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 6,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 7,
+      "sentiment": "Negative",
+      "motivation": "Low",
+      "engagement": "Medium",
+      "readiness_score": 3,
+      "mode": "MI",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 8,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 9,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 10,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "```json\n{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}\n```"
+    },
+    {
+      "turn": 11,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 12,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+    },
+    {
+      "turn": 13,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 14,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 15,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 16,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 17,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 18,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 19,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\":\"Negative\",\"Motivation\":\"Medium\",\"Engagement\":\"Medium\"}"
+    },
+    {
+      "turn": 20,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 21,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 22,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 23,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 24,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 25,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 7,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 26,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 27,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "High",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+    },
+    {
+      "turn": 28,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 29,
+      "sentiment": "Negative",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 5,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    },
+    {
+      "turn": 30,
+      "sentiment": "Neutral",
+      "motivation": "Medium",
+      "engagement": "Medium",
+      "readiness_score": 6,
+      "mode": "MI-supported CBT",
+      "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+    }
+  ],
+  "selected_strategies": [
+    {
+      "turn": 2,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 3,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 4,
+      "strategy_used": "Affirmation",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 5,
+      "strategy_used": "Open-ended Question",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 6,
+      "strategy_used": "Reflection",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 7,
+      "strategy_used": "Summary",
+      "readiness_mode": "MI"
+    },
+    {
+      "turn": 8,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 9,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 10,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 11,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Psychoeducation with Autonomy Support",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Reflective Socratic Question",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Affirmation + Gentle CBT Suggestion",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Summary + Collaborative Next Step",
+      "readiness_mode": "MI-supported CBT"
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jessa, I'm glad you're here. What feels most important for us to talk about today?",
+      "client": "I don\u2019t know, I just got this MRI report, and now there's a herniated disc. It\u2019s just frustrating. I mean, I just had shoulder surgery, and now this? It\u2019s like one thing after another.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds really overwhelming to deal with one health issue after another, especially when it feels like things just keep piling up. That frustration must be really heavy to carry right now.",
+      "client": "I guess it is heavy, but I don't really think it\u2019s that deep. It\u2019s just annoying that I\u2019m dealing with all of this. I mean, people have worse problems, right? It's just my body acting up again.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 2,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like you're feeling a mix of annoyance and perhaps a bit of resignation about your body not cooperating, especially when you see how others struggle with bigger issues. That must make it hard to focus on what you're experiencing right now.",
+      "client": "I don\u2019t see how that connects. I mean, sure, it\u2019s annoying, but it\u2019s just how things are for me. I\u2019ve had issues before, and I just have to deal with it. It\u2019s not like I can change anything.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 3,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "You've shown a lot of strength in managing these ongoing challenges. It takes resilience to just keep dealing with what comes your way, even when it feels like that's all you can do. What has helped you cope with these experiences in the past?",
+      "client": "I don\u2019t know. I just keep busy, I guess. I try to ignore it most of the time. It\u2019s not like I have a choice, right? I just deal with it and move on.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 4,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation"
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Keeping busy and trying to ignore it can be a way to manage things when they feel overwhelming. What do you think that helps you avoid or protect yourself from in those moments?",
+      "client": "I don\u2019t really think about it like that. I just don\u2019t want to sit and dwell on everything. I mean, what\u2019s the point? It\u2019s just easier to keep moving and not get stuck in my head about it.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 5,
+        "sentiment": "Neutral",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 4,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Open-ended Question"
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It seems like keeping busy feels like a way to prevent getting overwhelmed by your thoughts and feelings. It makes sense that not dwelling on things feels easier for you right now. What do you think it would be like to pause and reflect on those feelings instead?",
+      "client": "I don\u2019t know. It just seems unnecessary to pause and reflect. It\u2019s not like that\u2019s going to change anything. I\u2019ve got stuff to deal with, and sitting around thinking about it isn\u2019t going to help me.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"I just keep busy, I guess. I try to ignore it most of the time. It\u2019s not like I have a choice, right? I just deal with it and move on.\"\n2. **Latest exchange demonstrating current openness:** \"I don\u2019t really think about it like that. I just don\u2019t want to sit and dwell on everything. I mean, what\u2019s the point? It\u2019s just easier to keep moving and not get stuck in my head about it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of factual responses and the emergence of basic emotional vocabulary, indicating an evolving comfort level in the therapeutic relationship. While they express a desire to avoid deeper reflection, their willingness to engage in dialogue about their coping strategies suggests a gradual warming up toward emotional openness compared to an earlier phase where they might have been more factual and defensive.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the strategy of keeping busy as a coping mechanism. This moment reflects a growing self-awareness, as they begin to articulate their avoidance of emotional reflection and the rationale behind it, marking a notable shift from a more defensive stance to a willingness to explore their feelings, albeit still superficially. \n\nOverall, the client is in a developmental phase focused on understanding their coping mechanisms, indicating the need for further exploration to deepen emotional engagement in future sessions.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": {
+        "turn": 6,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflection"
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "You've shared that keeping busy helps you avoid feeling overwhelmed, and the idea of pausing to reflect seems unnecessary since it doesn't feel like it would lead to any change. It sounds like you're managing a lot and trying to stay focused on what needs to be done right now. What do you think about the balance between moving forward and taking a moment to check in with yourself?",
+      "client": "I guess balancing both seems really hard. Part of me thinks I should just keep pushing forward because there\u2019s always something that needs to be dealt with. But then another part wonders if I might miss something important if I don\u2019t take a moment to check in. It feels like I\u2019m just trying to survive day by day, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 7,
+        "sentiment": "Negative",
+        "motivation": "Low",
+        "engagement": "Medium",
+        "readiness_score": 3,
+        "mode": "MI",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Low\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary"
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It sounds like you're feeling the tension between pushing forward and the concern that you might be missing something important by not pausing. It\u2019s understandable to want to just survive day by day. Maybe we could explore one small way to check in with yourself that feels manageable, like taking just a minute to notice how you're feeling before moving on to the next task. Would that be okay to consider?",
+      "client": "I mean, I guess that could be okay to consider, but it feels kind of overwhelming to think about even that small pause. Like, what if I start thinking about all the things I\u2019m trying to avoid? It just seems risky, you know? But, at the same time, I get that maybe I should figure out what I'm feeling. It\u2019s just hard to know where to start without getting too tangled up in it.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 8,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "You're noticing that taking a small pause feels risky because it might lead to thinking about all the things you're trying to avoid. I wonder, what do you think might happen if you let yourself sit with just one feeling for a moment, rather than thinking about everything at once?",
+      "client": "I don\u2019t know, it feels like if I focus on just one feeling, it might just spiral into a whole mess. Like, what if it\u2019s something really heavy? I mean, part of me thinks it could be helpful, but another part is scared of what I might uncover. It\u2019s like I\u2019ve been avoiding it for a reason, right? But I guess I can kind of see how it might help me understand what\u2019s going on, even if it feels risky.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 9,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "It\u2019s really encouraging that you can see the potential for understanding, even while feeling scared of what you might uncover. One small step could be to simply notice what feeling comes up first, without needing to dive deep into it right away. Would it be okay to try that, just as a way to ease into the process?",
+      "client": "I mean, that sounds somewhat manageable, I guess. Just noticing the first feeling without diving deep could be a way to take a step back. But what if I find out something I don\u2019t want to deal with? It just feels like I\u2019m walking a tightrope, you know? I can kind of see the value in easing into it, but it still feels like a lot to handle.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 10,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "```json\n{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}\n```"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "You're feeling like you're on a tightrope, balancing between the potential for discovery and the fear of uncovering something overwhelming. I wonder, what have you noticed in the past about how you cope when you encounter feelings that feel too heavy to handle?",
+      "client": "I guess in the past, I\u2019ve tried to just push those feelings away or distract myself, like diving into work or hanging out with friends. It\u2019s easier to focus on something else, you know? But then, eventually, it all catches up to me, and I feel even worse. Part of me thinks maybe I should try to face it instead of avoiding it, but it\u2019s just so hard to take that leap. I don\u2019t know if I really have the energy for that right now.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 11,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "You're recognizing that while avoiding feelings through distractions seems easier, it often leads to feeling worse in the long run. At the same time, the idea of facing those feelings feels daunting and requires energy you\u2019re not sure you have right now. Maybe we could think about one tiny step that feels a bit more manageable for you. What do you think could be a small way to start addressing a feeling without it feeling overwhelming?",
+      "client": "I mean, I can see why a tiny step might help, but I\u2019m not sure what that would be. Maybe just paying attention to the first feeling that pops up could be a start, but what if it ends up being something too big? It feels like I\u2019m teetering on the edge; I don\u2019t want to fall into something heavy. I guess asking myself what I'm feeling could be a small thing, but it\u2019s so hard to know if I\u2019m ready.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. *Client*: \"I can kind of see the value in easing into it, but it still feels like a lot to handle.\"\n2. *Client*: \"I guess in the past, I\u2019ve tried to just push those feelings away or distract myself, like diving into work or hanging out with friends.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a growing willingness to explore their emotions, transitioning from prior defensive and hesitant responses to a more engaged and reflective dialogue. They are beginning to articulate their fears and recognize their coping mechanisms, indicating a movement towards deeper self-reflection and emotional expression. This marks a significant change from earlier exchanges where there was a predominant focus on avoidance and minimal emotional engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their past coping strategies and acknowledging the difficulty of facing their emotions directly. This moment reveals a willingness to confront their feelings, suggesting a pivotal shift towards openness and recognition of their internal struggles. The metaphor of \"teetering on the edge\" reflects their current emotional state, indicating both fear and a desire to engage, thus demonstrating a mix of vulnerability and emerging self-awareness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 12,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Neutral\",\"Motivation\":\"Medium\",\"Engagement\":\"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "You're feeling on the edge, caught between wanting to pay attention to your feelings and the worry that it might lead to something overwhelming. I wonder, when you think about asking yourself what you\u2019re feeling, what makes you feel most ready or hesitant to explore that in the moment?",
+      "client": "I guess when I think about asking myself what I\u2019m feeling, part of me wants to dive in and figure it out, but another part is really scared of what I might find. It\u2019s like, what if I discover something that just makes everything worse? It\u2019s frustrating because I know I should be able to handle it, but it feels like I\u2019m just not there yet. I don\u2019t know, maybe I need to feel more grounded first before I can really start exploring those feelings.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 13,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "It's understandable to feel that way; wanting to feel more grounded before diving into those feelings makes a lot of sense. Sometimes, grounding techniques can help create a sense of safety before we explore difficult emotions. That could look different for everyone\u2014maybe something like focusing on your breath or noticing your surroundings. Would you be open to considering any of those techniques, or is there something else that feels more comfortable for you?",
+      "client": "I mean, I can see how grounding techniques might be helpful, but I\u2019m not sure I\u2019d really know how to do them. Focusing on my breath sounds simple, but when I'm in the moment, it feels like everything just spirals. I guess I could try to notice my surroundings, but I worry that I\u2019d just get distracted or overwhelmed again. Maybe I just need to find something that feels right for me, but I don\u2019t know what that is yet. It\u2019s like I\u2019m stuck in this loop of wanting to feel better but not knowing how to start.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 14,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Psychoeducation with Autonomy Support"
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It's really great that you're considering what might work for you, even if it feels challenging right now. One small step could be to notice just one thing in your environment that catches your attention, maybe even when you're feeling a bit overwhelmed. It doesn't have to be perfect or last long\u2014just a moment of curiosity. Would that be something you might be willing to try?",
+      "client": "I guess noticing just one thing could be manageable, but I don\u2019t know if I\u2019d remember to do it in the moment. I mean, when things get overwhelming, it feels like everything just blurs together, and I can\u2019t focus on anything. Maybe if I could pick something specific to look at before it gets too much, that might help? I just worry I\u2019ll forget or get distracted. It\u2019s frustrating because I want to try, but it feels like there\u2019s so much getting in the way.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 15,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "You've highlighted the challenge of wanting to try something new while feeling like distractions might get in the way. It's understandable to worry about remembering to focus on that one thing when things feel overwhelming. Maybe we could think about a specific object or even a color to look for in your environment ahead of time? That way, when you're in the moment, you have something concrete to guide your attention. What do you think about that idea?",
+      "client": "I mean, that makes sense. Having something specific in mind could help me focus better instead of just trying to grab at anything. Maybe if I pick a color, like blue or something, I could keep an eye out for that when I start feeling overwhelmed. I just hope I don\u2019t overthink it and make it more complicated than it needs to be. It\u2019s like, part of me wants to believe this could work, but another part is still a bit skeptical, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 16,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "You're noticing that part of you is hopeful this could work, while another part feels skeptical about it. I wonder what has made you feel skeptical in the past when trying similar techniques? What kind of evidence do you have that this might be different?",
+      "client": "I guess I\u2019ve tried other techniques before that just didn\u2019t really do anything for me. Like, I remember going to therapy sessions where they\u2019d suggest breathing exercises or mindfulness, but when I actually needed them, it just felt impossible to use those tools. Maybe it\u2019s because I was already so overwhelmed, and I don't know, it just made me feel more frustrated than anything. Part of me thinks this could be different, but it's hard to shake off that past experience of feeling let down.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 17,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It's completely understandable to feel let down by past experiences, and it\u2019s great that you\u2019re still open to the idea of trying something different. One small step could be to just jot down that color you're interested in, like blue, on a sticky note or your phone. That way, you have a reminder to look for it when things start to feel overwhelming. Would that feel manageable to you?",
+      "client": "I suppose writing it down could be helpful, like a little reminder. I mean, I like the idea of having that visual cue when I start to feel overwhelmed. But I also worry I might forget to check for it or just not pay attention. It feels like I have to remember so many things already, you know? It\u2019s just frustrating because I want to make progress, but then there\u2019s all this stuff in my head that makes it harder. I guess I\u2019m just not sure if it\u2019ll really help in the moment.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I just hope I don\u2019t overthink it and make it more complicated than it needs to be. It\u2019s like, part of me wants to believe this could work, but another part is still a bit skeptical, you know?\"\n2. **Current Openness:** \"I mean, I like the idea of having that visual cue when I start to feel overwhelmed. But I also worry I might forget to check for it or just not pay attention. It feels like I have to remember so many things already, you know? It\u2019s just frustrating because I want to make progress, but then there\u2019s all this stuff in my head that makes it harder.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and openness compared to earlier exchanges in the session. They express both hope and skepticism, indicating a mix of emotions that suggest a greater willingness to explore their feelings. The client articulates their frustration and desire for progress, which showcases a deeper level of self-reflection than before.\n\n**Turning Point:** Client's emotional depth shifted during their acknowledgment of past negative experiences with techniques that didn't work for them. This moment marks a significant change as they began to articulate their internal conflict between hope and skepticism, revealing a more nuanced understanding of their emotional landscape. The progression from primarily factual responses to a more layered emotional expression signifies a shift towards a more engaged exploration of their feelings.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 18,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "You're feeling frustrated by the weight of everything you have to remember, and it's understandable to question if this new strategy will truly help in the moment. I wonder, when you think back to those situations when you felt overwhelmed, what do you think was the biggest barrier to using the tools you had then? What did your mind tell you in those moments?",
+      "client": "I think the biggest barrier was probably just the sheer panic I felt at the time. My mind would just race, and I\u2019d get stuck in this loop of negative thoughts, like it was all too much to handle. I don\u2019t know if I could even remember the tools I had or if I just convinced myself they wouldn't work anyway. It\u2019s like I felt paralyzed, and I didn\u2019t know how to break out of that feeling. Part of me wants to believe that having a simple reminder like the color could help, but then there's that other part that worries it won't be enough when I'm really struggling.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 19,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\":\"Negative\",\"Motivation\":\"Medium\",\"Engagement\":\"Medium\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It's really insightful that you're recognizing how panic and negative thoughts can create that paralysis, and it\u2019s great that you see potential in the color reminder. One possibility might be to simply take a moment when you feel that panic rising to pause and notice what thoughts are racing through your mind. Would it be okay to explore that idea together?",
+      "client": "I guess it might be helpful to pause and notice those racing thoughts, but it also feels a bit scary. Like, what if I get too caught up in them again, and I can\u2019t pull myself out? I mean, part of me thinks it could work, but another part worries it\u2019ll just spiral into more panic. I don\u2019t know if I\u2019m ready to dive into all that yet, you know? It\u2019s hard to trust that pausing would actually make a difference when everything feels so overwhelming.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 20,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "You\u2019re feeling torn between the potential benefits of pausing to notice your thoughts and the fear that it might lead to more panic. It\u2019s understandable to be cautious about diving into those feelings. Maybe we could identify one small step that feels a bit safer for you\u2014like just taking a moment to breathe or noticing the color you mentioned earlier when you start to feel overwhelmed. What do you think could work for you?",
+      "client": "I can kind of see how taking a moment to breathe or focusing on that color might help, but it still feels like a big leap for me. I mean, what if I just get stuck in my thoughts anyway? It\u2019s frustrating because I want to try, but I also don\u2019t want to get overwhelmed again. Part of me thinks starting small could be good\u2014maybe just noticing the color\u2014but another part worries it won\u2019t be enough to keep me from spiraling. I don\u2019t know, it\u2019s all just really confusing right now.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 21,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It's completely valid to feel that confusion and frustration when considering taking that leap. Your willingness to explore even small steps, like noticing the color, is an important part of this process. One gentle suggestion could be to try just focusing on that color in a moment of calm, even outside of those overwhelming feelings. How does that sound to you as a starting point?",
+      "client": "I guess focusing on the color during a calm moment could be a good way to ease into it. It feels less daunting, maybe? But there's still that nagging feeling that it won\u2019t be enough when things get tough. I mean, what if I can\u2019t remember to do it when I'm panicking? I don\u2019t want to get my hopes up or feel disappointed if it doesn\u2019t help. It's just so hard to see a clear path right now.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 22,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "You're acknowledging that focusing on the color might feel less daunting during calm moments, yet you're still worried about remembering to do it when panic hits. I wonder what helps you remember other things that are important to you in those moments. Could we explore that a bit?",
+      "client": "I mean, I guess when I think about it, I usually have little reminders\u2014like sticky notes or my phone buzzing. But when I'm in the thick of things, it\u2019s like everything just blurs, and I can\u2019t think straight. Part of me wonders if I could use something similar for the color idea, but I\u2019m not sure how to make it stick. It's frustrating because I want to be proactive, but then I just get lost in the chaos of it all. I don\u2019t know if I\u2019m explaining it well, though.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 23,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It's great that you have some reminders that usually help you, even though it can feel chaotic in the moment. One possibility could be to think about how you might create a reminder for the color idea\u2014maybe a sticky note in a spot you often look at, or an alarm on your phone that gently nudges you to check in with that color. Would it be okay to explore how that might fit into your routine?",
+      "client": "I can see how having a sticky note or an alarm could be a good reminder, but I just worry about adding more to my plate. Sometimes it feels like anything extra is just too much, you know? Maybe I could try putting a note in my bathroom or something where I see it every day. But there\u2019s still that part of me that questions if I\u2019ll actually remember to look at it when I need it most. I guess it just feels like a lot to manage, and I don\u2019t want to get disappointed again.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"It feels less daunting, maybe? But there's still that nagging feeling that it won\u2019t be enough when things get tough.\"\n- \"I guess it just feels like a lot to manage, and I don\u2019t want to get disappointed again.\"\n\n**Progression:** The client's most recent interactions show a blend of emotional acknowledgment and self-doubt, indicating a more significant engagement with their feelings than earlier in the session. They are beginning to articulate their emotions more clearly, expressing both hope and apprehension about implementing new coping strategies. This marks a notable change from earlier sessions where they might have only presented factual responses and limited emotional insight.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fears about managing their feelings and the potential for disappointment. This occurred during the exchange where they articulated their worry about remembering the color technique in moments of panic, indicating a deeper level of self-reflection and vulnerability, which is a step forward from earlier evasiveness or defensive responses.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 24,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "You're recognizing that adding reminders feels overwhelming, yet you also see the potential for something like a sticky note in your bathroom as a daily prompt. It makes sense to want to keep things manageable and avoid disappointment. Maybe we could explore together a very small step you could take to simplify this process\u2014like simply placing that note and seeing how it feels without any pressure to remember it perfectly. How does that sound to you?",
+      "client": "I guess that sounds okay, but I\u2019m still not sure if I can really take that small step without the pressure. It feels like everything piles up so quickly, and then I just freeze. I mean, maybe placing the note would help, but then I worry about whether it\u2019ll actually make a difference. It\u2019s just hard to trust that it\u2019ll work out. I don\u2019t want to feel let down again, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 25,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 7,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "You're feeling uncertain about whether a small step like placing a note will truly make a difference, and that concern about disappointment is very real. I wonder what past experiences have led you to feel hesitant about trusting these small changes. What have you noticed when you've tried something similar before?",
+      "client": "I mean, I guess I\u2019ve tried little things before, like journaling or using apps, and sometimes they worked for a bit, but then it just fizzled out. It's like I keep expecting it to be a magic fix, and when it\u2019s not, I just feel defeated. Maybe part of me thinks I should be able to figure it out on my own, but then when I can\u2019t, I feel like I\u2019m just failing again. It's frustrating because I want to believe that these small changes can help, but I don\u2019t know\u2026 it just feels like I\u2019m setting myself up for another letdown.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 26,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "You're experiencing frustration with trying small changes that sometimes feel like they don\u2019t lead to lasting results, and it\u2019s understandable to feel like you\u2019re setting yourself up for disappointment. I wonder, what kind of evidence or experiences have you had that made you feel those small changes might not be enough to make a difference?",
+      "client": "I mean, I guess I\u2019ve had times where I thought I was making progress, but then things would just go back to how they were before. Like, I\u2019d feel a little better for a while, but then something would happen, and I\u2019d end up right back where I started. It\u2019s like a cycle I can\u2019t break out of. Part of me thinks maybe I just need to try harder or something, but then that just adds to the pressure, you know? I don\u2019t really know if that makes sense.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 27,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "High",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"High\"}"
+      },
+      "strategy_used": "Reflective Socratic Question"
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It\u2019s really significant that you\u2019re reflecting on your past experiences and recognizing that pressure can make it harder. It sounds like you\u2019ve been through a lot with these ups and downs. One small step could be to simply notice the specific thoughts that come up when you feel like you\u2019re not making progress. Would it be okay to explore that together?",
+      "client": "I guess that could be okay. I mean, I can see how noticing those thoughts might help, but part of me worries it\u2019ll just be another thing I struggle with. Sometimes, it feels like I\u2019m just analyzing myself too much, and I don\u2019t know if that\u2019s helpful. I guess I could try to pay attention, but I\u2019m also scared it\u2019ll just reinforce how stuck I feel. It\u2019s a lot to think about, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 28,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Affirmation + Gentle CBT Suggestion"
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "You've highlighted the challenge of feeling stuck and the concern that analyzing your thoughts might add to that feeling. It's understandable that you're cautious about this process. Maybe we could look for one small way to start observing those thoughts without it feeling overwhelming. What would feel manageable for you, perhaps just noting a thought when it comes to mind during the day?",
+      "client": "I mean, I guess I could try to jot down a thought or two when it happens. It sounds simple, but I\u2019m not sure if I\u2019ll remember to do it. I worry about getting caught up in my head and then not wanting to deal with it later. It feels like I have so much going on already, and adding another task could just make me feel even more overwhelmed. But maybe if I keep it really basic, it won\u2019t be too bad? I don\u2019t know\u2026 it\u2019s hard to say.",
+      "openness_judgment": null,
+      "readiness_judgment": {
+        "turn": 29,
+        "sentiment": "Negative",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 5,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Negative\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "You've captured the tension between wanting to try something new and the worry that it might feel like just another task on your plate. It\u2019s a lot to navigate. What if we focused on just one thought to jot down when you feel ready, perhaps at a time that already feels natural, like when you're taking a break? Would that feel like a manageable step to you?",
+      "client": "I mean, maybe that could work. I guess if I pick a time that feels natural, like during a break, it might not feel like such a chore, you know? But then again, I still worry about remembering to do it or if it'll just feel like another thing I\u2019m supposed to do. It\u2019s like I want to make progress, but part of me is scared I\u2019ll just end up feeling more overwhelmed. I don't know if that makes sense, but I guess I could give it a shot.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Emotional Expression:** \"Sometimes, it feels like I\u2019m just analyzing myself too much, and I don\u2019t know if that\u2019s helpful.\"\n- **Engagement Level:** \"I mean, maybe that could work. I guess if I pick a time that feels natural... it might not feel like such a chore... But then again, I still worry about remembering to do it or if it'll just feel like another thing I\u2019m supposed to do.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear movement towards greater emotional openness and self-reflection. Initially, they expressed worries about over-analyzing themselves and feeling overwhelmed by the process, but they are now willing to consider manageable steps, indicating an increasing level of engagement. Their willingness to explore jotting down thoughts shows a notable shift from earlier exchanges, where they were more fact-based and defensive.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the dialogue when they acknowledged their internal conflict about trying new strategies while fearing it might add to their feelings of being overwhelmed. This moment illustrates their growing awareness of their emotional landscape and willingness to engage in the therapeutic process, marking a significant advancement from their earlier hesitance and superficial responses.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": {
+        "turn": 30,
+        "sentiment": "Neutral",
+        "motivation": "Medium",
+        "engagement": "Medium",
+        "readiness_score": 6,
+        "mode": "MI-supported CBT",
+        "judge_response": "{\"Sentiment\": \"Neutral\", \"Motivation\": \"Medium\", \"Engagement\": \"Medium\"}"
+      },
+      "strategy_used": "Summary + Collaborative Next Step"
+    }
+  ]
+}
