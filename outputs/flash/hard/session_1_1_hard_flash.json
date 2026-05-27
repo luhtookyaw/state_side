@@ -1,0 +1,2958 @@
+{
+  "mode": "hard",
+  "therapist_type": "flash",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "1-1",
+  "patient_name": "Alex",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "### Rating: 2 (WARMING UP)\n\n### Key Examples:\n1. **Emotional State**: \"I guess I just watch some TV or something. It\u2019s not a big deal, really. I mean, it\u2019s just something to pass the time. I don\u2019t need to overthink it.\"\n2. **Current Openness**: \"I don\u2019t really pay attention to that stuff. It\u2019s just noise, you know? I mean, I just zone out and it keeps me occupied. I don\u2019t need to think about it too much.\"\n\n### Progression:\nThe client\u2019s most recent interactions show a limited emotional expression, primarily focusing on the functional aspect of their TV watching as a means of escaping thoughts or feelings. This marks a significant change from earlier sessions where the client may have been more closed off or factual. However, the phrasing remains somewhat dismissive, indicating a hesitance to delve deeper into their emotional experiences or to engage with the potential comfort or nostalgia that could be derived from the shows they watch.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted when they began articulating their experience with watching TV as a way to escape. Although their current stance is defensive and they downplay the importance of these activities, this represents a step toward self-reflection. They are beginning to acknowledge how they interact with their environment, even if they remain resistant to exploring the underlying feelings associated with these activities. Overall, while there is some progress in self-reflection and comfort with the therapist, the client is still in the early stages of emotional engagement, hence the rating of 2.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I think what I enjoy most is just getting a little bit of space, you know? When I'm outside or listening to music, it's like a small break from everything that\u2019s going on in my head. It\u2019s nice to not have to think about family or whatever stresses I\u2019ve got going on for a little while.\"\n2. Client: \"I guess they kind of help me reset a little, like I can breathe again for a moment. But then I come back to all the same worries, and it feels like they just pile up again.\"\n\n**Progression:** In recent interactions, the client demonstrates a noticeable shift toward greater emotional expression and self-reflection. Initially, their responses were more factual and less connected to their emotional state, but now they articulate specific feelings related to their need for breaks from stressors. The client\u2019s acknowledgment of feeling overwhelmed with family responsibilities and wedding pressures marks a significant improvement in their willingness to explore deeper emotional themes. This indicates they are beginning to engage more actively with their feelings and thoughts, rather than simply deflecting them.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing how these small escapes provide only temporary relief from their overwhelming worries. This moment reflects a deeper awareness of their emotional state, as they articulate both the value of these breaks and the realization that they do not resolve their underlying issues. This insight suggests a growing comfort in discussing their vulnerabilities and a willingness to delve deeper into their emotional landscape.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It\u2019s like, what if I end up feeling worse instead of better? Part of me kind of wants to try it just to see, but then another part is like, what\u2019s the point if it just leads to more stress?\"\n2. \"I guess allowing myself to feel whatever comes up could be a way to take some of the pressure off. It\u2019s like, if I know it\u2019s okay to feel uncomfortable, maybe that makes it a little easier to face those conversations.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression, moving beyond factual responses to a deeper exploration of their fears and feelings regarding potential conversations. They articulate a clear internal struggle about wanting to explore while also fearing the emotional overwhelm that might result, indicating a more nuanced emotional state than earlier in the session. This represents significant change from earlier exchanges where the client exhibited more guardedness and a primarily factual approach.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their fears about the potential consequences of engaging in conversation. This was evident when they said, \"It feels like a balancing act, and I\u2019m not sure I can handle it,\" which marked a transition from merely discussing the concept of exploration to actively engaging with their own emotional vulnerabilities. This moment highlights their willingness to confront discomfort, suggesting growing trust in the therapeutic process and a readiness for deeper self-reflection. \n\nOverall, while there are still hesitations present, the client\u2019s progress indicates a movement towards greater emotional exploration and engagement with the therapy process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I guess practicing a couple of techniques together could be helpful. It feels like if I actually know what to do, maybe I\u2019d be less likely to freeze up in the moment.\"\n2. \"I can kind of see how a reminder could help. It's like having something to nudge me to use the breathing technique when I'm feeling overwhelmed.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a blend of emotional expression and self-reflection, indicating a notable shift from earlier sessions where emotional engagement was more limited. Initially, the client displayed skepticism and hesitation about therapeutic techniques, but has recently begun to articulate the potential benefits of practicing grounding techniques. Their willingness to explore deep breathing exercises and acknowledge the complexity of their feelings shows a greater comfort level and engagement with the therapeutic process. This represents a significant movement from a more defensive stance towards one of active exploration and openness.\n\n**Turning Point:**\nThe client\u2019s emotional depth appears to have shifted notably during the exchange where they started recognizing the potential impact of practicing grounding techniques in the moment. This realization\u2014\"if I actually know what to do, maybe I\u2019d be less likely to freeze up\"\u2014marks an important transition, as it indicates they are beginning to connect the dots between practice and emotional readiness, thus fostering a more proactive approach to their anxiety rather than remaining in a state of doubt and skepticism.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \u201cI guess part of me just worries that I\u2019ll get caught up in the stress and lose sight of it completely. It feels like I\u2019m always battling this feeling of being overwhelmed in those situations.\u201d\n- \u201cI guess I could try practicing the phrase when I\u2019m just at home, maybe when I'm doing something chill like watching TV. It feels a bit safer there, you know? But then there\u2019s still that nagging voice in my head telling me it won\u2019t actually help when I\u2019m really stressed.\u201d\n\n**Progression:**\nThe client's most recent interactions reveal an increasing emotional depth characterized by a blend of skepticism and a desire to engage with the therapeutic process. In earlier exchanges, the client displayed a more defensive posture with limited emotional expression, primarily focusing on doubts without fully delving into feelings. However, their current state shows a willingness to acknowledge their fears and concerns about self-trust and emotional regulation. This marks a significant shift from a more factual and hesitant stance to one where they are exploring the possibility of change while grappling with their inner conflicts.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began expressing their internal battle with doubt and overwhelm, particularly in their statement about the nagging voice in their head. This moment illuminated their vulnerability and willingness to confront their fears, indicating a realignment toward more honest self-reflection and engagement with the therapeutic process. It suggests they are beginning to reconcile their aspirations for change with their apprehensions, thus fostering greater rapport with the therapist.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "flash_responses": [
+    {
+      "turn": 1,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Hello! I\u2019m so glad you\u2019re here today. How are you feeling as we begin our session?",
+      "therapy_mode": "Greeting",
+      "technique": "Greeting",
+      "completed_turn": 0,
+      "patient_state": {},
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.0,
+      "storage_time_ms": 0.0
+    },
+    {
+      "turn": 2,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "That sounds pretty tough, feeling like every day is just blending into the next. If you could imagine a day that felt different or more meaningful, what might that look like for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 1,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Low",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Low (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.7810580009390833,
+      "storage_time_ms": 0.006024998583598062
+    },
+    {
+      "turn": 3,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It seems like you're feeling pretty skeptical about the idea of a different kind of day, especially when everything feels so repetitive. What if we just explored what you\u2019d want, even if it feels unrealistic? What tiny change could make a day feel a bit more special for you?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 2,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.889698001628858,
+      "storage_time_ms": 0.024834000214468688
+    },
+    {
+      "turn": 4,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "I get that\u2014just getting through the day can feel like enough sometimes. If you think about the things you do get through each day, is there anything, no matter how small, that brings you even a little bit of comfort or joy?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 3,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2217130006320076,
+      "storage_time_ms": 0.016416001017205417
+    },
+    {
+      "turn": 5,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Watching TV has become your way to pass the time, and it makes sense to stick with what feels easy. Even if it feels minor, do you ever find any moments in those shows that bring a smile or a sense of nostalgia?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 4,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3544770008593332,
+      "storage_time_ms": 0.01471900031901896
+    },
+    {
+      "turn": 6,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Totally get it\u2014just zoning out can be a way to escape. If you ever did find yourself paying attention to something in the background, what do you think it might be that catches your interest, even just a little?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 5,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.7704589990898967,
+      "storage_time_ms": 0.019105000319541432
+    },
+    {
+      "turn": 7,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "That makes sense; it\u2019s like having something familiar in the background. If you could choose something to have on as background noise, what kind of show or genre do you think you\u2019d pick?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 6,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.7192880004586186,
+      "storage_time_ms": 0.018553999325376935
+    },
+    {
+      "turn": 8,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Comedy and crime shows do have a way of keeping things light and engaging without needing too much thought. Even if it feels like just passing the time, are there any moments or characters in those shows that you find yourself enjoying, even a little?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 7,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.8075090008787811,
+      "storage_time_ms": 0.007991000529727899
+    },
+    {
+      "turn": 9,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It sounds like those funny or clever characters provide a bit of lightness, even if it\u2019s not something you want to dive into. Just enjoying the jokes and laughter can still be a nice break. If you ever find yourself laughing at something, even if it feels minor, how does that moment feel for you amid everything else?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 8,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.9805530007724883,
+      "storage_time_ms": 0.007579001248814166
+    },
+    {
+      "turn": 10,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "That brief escape can definitely feel refreshing, especially when life feels overwhelming. It\u2019s okay to enjoy those moments without putting pressure on them to mean more. Do you think there are other little escapes in your day that give you a similar feeling?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 9,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Reflections",
+          "mode": "MI",
+          "trajectory_before": "stable",
+          "readiness_before": 4.0,
+          "sentiment_before": "Neutral",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 2.0,
+          "delta_sentiment": 0.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium",
+          "flashbulb_score": 0.52,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 9
+        }
+      ],
+      "retrieval_time_ms": 0.873365999723319,
+      "storage_time_ms": 4.019527001219103
+    },
+    {
+      "turn": 11,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Breaking up the day with walks and music can be really helpful, even if they feel short-lived. What do you think you enjoy most about those moments, even if they\u2019re just brief?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 10,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 2.222633000201313,
+      "storage_time_ms": 0.015940000594127923
+    },
+    {
+      "turn": 12,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Finding that space sounds really valuable, especially when things feel heavy. Even if it doesn\u2019t solve everything, how do you think those small breaks influence your mood or mindset when you go back to your daily stresses?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 11,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6859790011949372,
+      "storage_time_ms": 0.13953800043964293
+    },
+    {
+      "turn": 13,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It makes perfect sense. Those breaks give you a chance to breathe and reset, but returning to the piled-up worries can feel daunting. What if, instead of seeing those moments as just distractions, you viewed them as necessary pauses that might help you approach your challenges with a bit more clarity?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 12,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5206649986794218,
+      "storage_time_ms": 0.022714999431627803
+    },
+    {
+      "turn": 14,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "That pressure can be really heavy, and it\u2019s understandable to see those breaks as avoiding the real issues. Facing big challenges like family dynamics and the wedding can feel overwhelming, especially when it seems like they\u2019re looming over you. What do you think it would take for you to feel more ready to confront those issues, even just a little bit?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 13,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Socratic Questioning",
+          "mode": "CBT",
+          "trajectory_before": "stable",
+          "readiness_before": 7.0,
+          "sentiment_before": "Neutral",
+          "motivation_before": "Medium",
+          "engagement_before": "High",
+          "delta_readiness": -4.0,
+          "delta_sentiment": -5.0,
+          "delta_motivation": -5.0,
+          "delta_engagement": "high\u2192medium",
+          "flashbulb_score": 0.64,
+          "reinforcement_count": 1,
+          "pool": "bad",
+          "turn": 13
+        }
+      ],
+      "retrieval_time_ms": 1.2087739996786695,
+      "storage_time_ms": 2.481289999195724
+    },
+    {
+      "turn": 15,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Feeling stuck can be an exhausting place to be, especially with the weight of those expectations. It sounds like having a sense of control over your reactions could really help you feel more prepared. What do you think might be the first small step toward feeling more in control, without it feeling too overwhelming?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 14,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.8247469997731969,
+      "storage_time_ms": 0.0203159997909097
+    },
+    {
+      "turn": 16,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "Imagining those conversations could be a helpful way to prepare, even if it feels a bit risky. What if you approached it as an exercise in exploration, rather than aiming for perfection? How might it change your feelings about the process if you focused on curiosity\u2014like what questions might arise or how you could respond\u2014rather than worrying about getting everything right?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 15,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Open-ended Questions",
+          "mode": "MI",
+          "trajectory_before": "stable",
+          "readiness_before": 3.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 4.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium\u2192high",
+          "flashbulb_score": 0.64,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 15
+        }
+      ],
+      "retrieval_time_ms": 0.9288270011893474,
+      "storage_time_ms": 5.565982000916847
+    },
+    {
+      "turn": 17,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It really does sound like a balancing act, and those worries about feeling worse are completely valid. What if you approached this exploration in small, manageable doses? Maybe just setting aside a few minutes to think about one specific conversation, rather than diving into all the possibilities at once, could help keep it from feeling overwhelming. How does that idea sit with you?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 16,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5506920008192537,
+      "storage_time_ms": 0.02378699900873471
+    },
+    {
+      "turn": 18,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s completely understandable to have that fear of falling back into overwhelming feelings. Breaking things down can help, but it\u2019s still normal to worry about how you might react. What if you allowed yourself to take those small steps at your own pace and gave yourself permission to feel whatever comes up, even if it\u2019s uncomfortable? How might that change your approach to these conversations?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 17,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.0607679996610386,
+      "storage_time_ms": 0.03897199894709047
+    },
+    {
+      "turn": 19,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It sounds like you\u2019re recognizing the potential benefit of allowing discomfort while also being aware of the risks involved. What if you set a time limit for those moments of feeling uncomfortable, like just a few minutes? This way, you could practice facing that discomfort in a controlled way, knowing there\u2019s an endpoint. How does that strategy sound to you?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 18,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3996420002513332,
+      "storage_time_ms": 0.01860900010797195
+    },
+    {
+      "turn": 20,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It makes sense to be hesitant with all those what-ifs swirling around. Maybe instead of thinking of it as switching off, you could view it as a way to acknowledge those feelings without judgment. What if you allowed yourself to explore those feelings within that time limit, but also gave yourself some gentle space afterward to reflect on how you felt? How might that help you feel more prepared for whatever comes up?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 19,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.0864069990930147,
+      "storage_time_ms": 0.010015999578172341
+    },
+    {
+      "turn": 21,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It's completely valid to worry about filling that space with anxiety instead of clarity. What if you approached those moments with a plan for grounding yourself? Maybe you could identify a few quick techniques\u2014like deep breathing or focusing on your surroundings\u2014that you can use if you start to feel overwhelmed. How would it feel to have those tools ready to help you regain a sense of control?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 20,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.9557379999023397,
+      "storage_time_ms": 0.00998799987428356
+    },
+    {
+      "turn": 22,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s understandable to feel that doubt, especially when faced with overwhelming emotions. What if we started with just one or two grounding techniques that resonate with you? We could practice them together now, so they feel more familiar. That way, if you find yourself in a tough moment, you might have a better chance of remembering them. How does that sound?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 21,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 2.811705000567599,
+      "storage_time_ms": 0.020728999515995383
+    },
+    {
+      "turn": 23,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s perfectly normal to have that skepticism, especially when anxiety takes over. Let\u2019s keep it really simple\u2014just one technique to start. How about we try a quick deep breathing exercise together? We can do it a few times, and you can see how it feels. The goal is to make it second nature, so when anxiety hits, you have something to fall back on. Ready to give it a try?",
+      "therapy_mode": "CBT",
+      "technique": "Behavioral Activation",
+      "completed_turn": 22,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1447420001786668,
+      "storage_time_ms": 0.01766599962138571
+    },
+    {
+      "turn": 24,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s great that you\u2019re open to trying the deep breathing exercise! That hesitation is completely understandable. What if you also created a little reminder for yourself, like a note or a visualization, to help trigger the technique when you need it? Sometimes having a cue can make it easier to remember. How do you think that might work for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 23,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2614030001714127,
+      "storage_time_ms": 0.014290999388322234
+    },
+    {
+      "turn": 25,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It's completely okay to feel that way; many people struggle with overthinking when trying to implement new strategies. How about we brainstorm some simple reminders together that might feel less overwhelming? Maybe something you can easily integrate into your daily routine, like setting an alarm on your phone or placing a note somewhere you\u2019ll see it often. What do you think would feel manageable for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 24,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.9726629996293923,
+      "storage_time_ms": 0.007688999176025391
+    },
+    {
+      "turn": 26,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "That doubt can be really frustrating, especially when you\u2019re trying to make positive changes. It\u2019s good to hear that a sticky note feels like a simple option. Maybe you could even personalize it with a phrase that resonates with you, something that reminds you of your strength. That way, when you see it, it could help counter that doubt. How do you feel about creating a reminder that\u2019s both visible and meaningful to you?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 25,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 2.3981729991646716,
+      "storage_time_ms": 0.019054999938816763
+    },
+    {
+      "turn": 27,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s definitely a cycle that many people experience, and it\u2019s okay to feel that way. The key might be to keep the phrase simple and meaningful, something that really resonates with you. What\u2019s a phrase or word that reminds you of your strength or ability to handle tough moments? Even if you feel like you might forget it sometimes, having it there could be a gentle nudge when you need it. What comes to mind for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 26,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6217880001931917,
+      "storage_time_ms": 0.024000000848900527
+    },
+    {
+      "turn": 28,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It makes sense that you want something that feels just right\u2014something you truly connect with. \u201cI can handle this\u201d and \u201cbreathe through it\u201d are actually powerful reminders, even if they seem basic. The important part is how they resonate with you. You\u2019re looking for something that feels authentic, and that\u2019s a great step towards making a change. What if we play around with those phrases a bit? You could tweak them or combine ideas until you find something that feels more personalized and empowering. What do you think?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 27,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1538229991856497,
+      "storage_time_ms": 0.012696998965111561
+    },
+    {
+      "turn": 29,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s totally understandable to feel skeptical, especially when trying something new. Finding a phrase that feels like it\u2019s truly yours is a great start, but it\u2019s also about building that trust in yourself over time. Maybe you could think of it as a practice rather than a one-time solution. The more you engage with the phrase in calm moments, the more familiar it will become when things get tough. What if you started using it in small, everyday situations first? That way, you can slowly build that connection and confidence. How does that sound to you?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 28,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 2.8802630004065577,
+      "storage_time_ms": 0.017709000530885532
+    },
+    {
+      "turn": 30,
+      "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+      "therapist_message": "It\u2019s really valid to feel that way, especially when stress can cloud your thoughts. Starting small is a great way to build that trust gradually. Even if it feels like a leap, remember that every small step counts. You might surprise yourself with how it can help in those overwhelming moments. Perhaps you can start by practicing your chosen phrase during low-stress times, so it becomes a familiar tool when things get tough. What small step feels most manageable for you right now?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 29,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 9
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -4.0,
+            "flashbulb_score": 0.64,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 2.1541189998970367,
+      "storage_time_ms": 0.01911100116558373
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hello! I\u2019m so glad you\u2019re here today. How are you feeling as we begin our session?",
+      "client": "I don\u2019t know. It just feels like another day, I guess. Not really anything special about it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 1,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Hello! I\u2019m so glad you\u2019re here today. How are you feeling as we begin our session?",
+        "therapy_mode": "Greeting",
+        "technique": "Greeting",
+        "completed_turn": 0,
+        "patient_state": {},
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.0,
+        "storage_time_ms": 0.0
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That sounds pretty tough, feeling like every day is just blending into the next. If you could imagine a day that felt different or more meaningful, what might that look like for you?",
+      "client": "I don't know. I mean, it just seems unrealistic, right? Every day is pretty much the same. It's just another day of dealing with the same stuff. Who really has days like that?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 2,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "That sounds pretty tough, feeling like every day is just blending into the next. If you could imagine a day that felt different or more meaningful, what might that look like for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 1,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Low",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Low (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.7810580009390833,
+        "storage_time_ms": 0.006024998583598062
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like you're feeling pretty skeptical about the idea of a different kind of day, especially when everything feels so repetitive. What if we just explored what you\u2019d want, even if it feels unrealistic? What tiny change could make a day feel a bit more special for you?",
+      "client": "I don\u2019t really think about it like that. I mean, it\u2019s not like I\u2019m looking for something special. I just get through the day, you know? Things are what they are. A tiny change isn\u2019t going to make much of a difference.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 3,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It seems like you're feeling pretty skeptical about the idea of a different kind of day, especially when everything feels so repetitive. What if we just explored what you\u2019d want, even if it feels unrealistic? What tiny change could make a day feel a bit more special for you?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 2,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.889698001628858,
+        "storage_time_ms": 0.024834000214468688
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "I get that\u2014just getting through the day can feel like enough sometimes. If you think about the things you do get through each day, is there anything, no matter how small, that brings you even a little bit of comfort or joy?",
+      "client": "I guess I just watch some TV or something. It\u2019s not a big deal, really. I mean, it\u2019s just something to pass the time. I don\u2019t need to overthink it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 4,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "I get that\u2014just getting through the day can feel like enough sometimes. If you think about the things you do get through each day, is there anything, no matter how small, that brings you even a little bit of comfort or joy?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 3,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2217130006320076,
+        "storage_time_ms": 0.016416001017205417
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Watching TV has become your way to pass the time, and it makes sense to stick with what feels easy. Even if it feels minor, do you ever find any moments in those shows that bring a smile or a sense of nostalgia?",
+      "client": "I don\u2019t really pay attention to that stuff. It\u2019s just noise, you know? I mean, I just zone out and it keeps me occupied. I don\u2019t need to think about it too much.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 5,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Watching TV has become your way to pass the time, and it makes sense to stick with what feels easy. Even if it feels minor, do you ever find any moments in those shows that bring a smile or a sense of nostalgia?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 4,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3544770008593332,
+        "storage_time_ms": 0.01471900031901896
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Totally get it\u2014just zoning out can be a way to escape. If you ever did find yourself paying attention to something in the background, what do you think it might be that catches your interest, even just a little?",
+      "client": "I don\u2019t know. It just happens to be on while I\u2019m doing other stuff. I\u2019m not really looking for anything specific. It\u2019s just background noise.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "### Rating: 2 (WARMING UP)\n\n### Key Examples:\n1. **Emotional State**: \"I guess I just watch some TV or something. It\u2019s not a big deal, really. I mean, it\u2019s just something to pass the time. I don\u2019t need to overthink it.\"\n2. **Current Openness**: \"I don\u2019t really pay attention to that stuff. It\u2019s just noise, you know? I mean, I just zone out and it keeps me occupied. I don\u2019t need to think about it too much.\"\n\n### Progression:\nThe client\u2019s most recent interactions show a limited emotional expression, primarily focusing on the functional aspect of their TV watching as a means of escaping thoughts or feelings. This marks a significant change from earlier sessions where the client may have been more closed off or factual. However, the phrasing remains somewhat dismissive, indicating a hesitance to delve deeper into their emotional experiences or to engage with the potential comfort or nostalgia that could be derived from the shows they watch.\n\n### Turning Point:\nThe client\u2019s emotional depth shifted when they began articulating their experience with watching TV as a way to escape. Although their current stance is defensive and they downplay the importance of these activities, this represents a step toward self-reflection. They are beginning to acknowledge how they interact with their environment, even if they remain resistant to exploring the underlying feelings associated with these activities. Overall, while there is some progress in self-reflection and comfort with the therapist, the client is still in the early stages of emotional engagement, hence the rating of 2.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 6,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Totally get it\u2014just zoning out can be a way to escape. If you ever did find yourself paying attention to something in the background, what do you think it might be that catches your interest, even just a little?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 5,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.7704589990898967,
+        "storage_time_ms": 0.019105000319541432
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "That makes sense; it\u2019s like having something familiar in the background. If you could choose something to have on as background noise, what kind of show or genre do you think you\u2019d pick?",
+      "client": "I guess if I had to pick, maybe something like a comedy or a crime show. They\u2019re kind of easy to follow, and I don\u2019t really have to invest too much in them. It just feels like a way to pass the time without thinking too hard, you know? But I don\u2019t want to say it matters too much; it\u2019s just whatever\u2019s on.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 7,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "That makes sense; it\u2019s like having something familiar in the background. If you could choose something to have on as background noise, what kind of show or genre do you think you\u2019d pick?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 6,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.7192880004586186,
+        "storage_time_ms": 0.018553999325376935
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Comedy and crime shows do have a way of keeping things light and engaging without needing too much thought. Even if it feels like just passing the time, are there any moments or characters in those shows that you find yourself enjoying, even a little?",
+      "client": "I mean, sometimes there are characters that are kind of funny or clever, and I guess I enjoy that, but I don\u2019t really think about it much. It\u2019s more like a distraction than anything else. I wouldn't say it really resonates with me deeply or anything. I just laugh at the jokes or whatever, and then it\u2019s back to my own stuff. It\u2019s not like I\u2019m looking for something meaningful; it\u2019s just easier that way.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 8,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Comedy and crime shows do have a way of keeping things light and engaging without needing too much thought. Even if it feels like just passing the time, are there any moments or characters in those shows that you find yourself enjoying, even a little?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 7,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.8075090008787811,
+        "storage_time_ms": 0.007991000529727899
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "It sounds like those funny or clever characters provide a bit of lightness, even if it\u2019s not something you want to dive into. Just enjoying the jokes and laughter can still be a nice break. If you ever find yourself laughing at something, even if it feels minor, how does that moment feel for you amid everything else?",
+      "client": "I guess it feels nice in the moment, like a little escape from everything else that's going on. But then it\u2019s back to reality, you know? I don\u2019t want to overthink it or make it seem more important than it is. It\u2019s just a brief distraction, and I kind of like that it doesn\u2019t ask too much of me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 9,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It sounds like those funny or clever characters provide a bit of lightness, even if it\u2019s not something you want to dive into. Just enjoying the jokes and laughter can still be a nice break. If you ever find yourself laughing at something, even if it feels minor, how does that moment feel for you amid everything else?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 8,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.9805530007724883,
+        "storage_time_ms": 0.007579001248814166
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "That brief escape can definitely feel refreshing, especially when life feels overwhelming. It\u2019s okay to enjoy those moments without putting pressure on them to mean more. Do you think there are other little escapes in your day that give you a similar feeling?",
+      "client": "I guess there are a few things I do to escape, like going for a walk or listening to music. Those moments feel nice too, but they\u2019re usually pretty short-lived. I don't know if they really change anything, though. It\u2019s just something to do, you know? I don\u2019t want to think too much about it, but I guess they help break up the day a bit.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 10,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "That brief escape can definitely feel refreshing, especially when life feels overwhelming. It\u2019s okay to enjoy those moments without putting pressure on them to mean more. Do you think there are other little escapes in your day that give you a similar feeling?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 9,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 4.0,
+            "sentiment_before": "Neutral",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 2.0,
+            "delta_sentiment": 0.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium",
+            "flashbulb_score": 0.52,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 9
+          }
+        ],
+        "retrieval_time_ms": 0.873365999723319,
+        "storage_time_ms": 4.019527001219103
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "Breaking up the day with walks and music can be really helpful, even if they feel short-lived. What do you think you enjoy most about those moments, even if they\u2019re just brief?",
+      "client": "I think what I enjoy most is just getting a little bit of space, you know? When I'm outside or listening to music, it's like a small break from everything that\u2019s going on in my head. It\u2019s nice to not have to think about family or whatever stresses I\u2019ve got going on for a little while. But I guess I still feel like it doesn\u2019t really solve anything in the long run.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 11,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Breaking up the day with walks and music can be really helpful, even if they feel short-lived. What do you think you enjoy most about those moments, even if they\u2019re just brief?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 10,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 2.222633000201313,
+        "storage_time_ms": 0.015940000594127923
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "Finding that space sounds really valuable, especially when things feel heavy. Even if it doesn\u2019t solve everything, how do you think those small breaks influence your mood or mindset when you go back to your daily stresses?",
+      "client": "I guess they kind of help me reset a little, like I can breathe again for a moment. But then I come back to all the same worries, and it feels like they just pile up again. It\u2019s hard to shake that feeling of being overwhelmed, especially with family stuff or when I think about the wedding. Part of me thinks maybe those breaks just make it harder to face everything when I return to it. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I think what I enjoy most is just getting a little bit of space, you know? When I'm outside or listening to music, it's like a small break from everything that\u2019s going on in my head. It\u2019s nice to not have to think about family or whatever stresses I\u2019ve got going on for a little while.\"\n2. Client: \"I guess they kind of help me reset a little, like I can breathe again for a moment. But then I come back to all the same worries, and it feels like they just pile up again.\"\n\n**Progression:** In recent interactions, the client demonstrates a noticeable shift toward greater emotional expression and self-reflection. Initially, their responses were more factual and less connected to their emotional state, but now they articulate specific feelings related to their need for breaks from stressors. The client\u2019s acknowledgment of feeling overwhelmed with family responsibilities and wedding pressures marks a significant improvement in their willingness to explore deeper emotional themes. This indicates they are beginning to engage more actively with their feelings and thoughts, rather than simply deflecting them.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing how these small escapes provide only temporary relief from their overwhelming worries. This moment reflects a deeper awareness of their emotional state, as they articulate both the value of these breaks and the realization that they do not resolve their underlying issues. This insight suggests a growing comfort in discussing their vulnerabilities and a willingness to delve deeper into their emotional landscape.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 12,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Finding that space sounds really valuable, especially when things feel heavy. Even if it doesn\u2019t solve everything, how do you think those small breaks influence your mood or mindset when you go back to your daily stresses?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 11,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6859790011949372,
+        "storage_time_ms": 0.13953800043964293
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It makes perfect sense. Those breaks give you a chance to breathe and reset, but returning to the piled-up worries can feel daunting. What if, instead of seeing those moments as just distractions, you viewed them as necessary pauses that might help you approach your challenges with a bit more clarity?",
+      "client": "Maybe that\u2019s true, but I\u2019m not sure how much clarity I actually gain. It feels like I\u2019m just avoiding the real issues. I mean, I get the idea of taking necessary pauses, but when I look at it, I just see it as running away, you know? And if I\u2019m not ready to face things like the wedding or my family, then what\u2019s the point? It\u2019s hard to see it differently when all I feel is that pressure building up again.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 13,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It makes perfect sense. Those breaks give you a chance to breathe and reset, but returning to the piled-up worries can feel daunting. What if, instead of seeing those moments as just distractions, you viewed them as necessary pauses that might help you approach your challenges with a bit more clarity?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 12,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5206649986794218,
+        "storage_time_ms": 0.022714999431627803
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "That pressure can be really heavy, and it\u2019s understandable to see those breaks as avoiding the real issues. Facing big challenges like family dynamics and the wedding can feel overwhelming, especially when it seems like they\u2019re looming over you. What do you think it would take for you to feel more ready to confront those issues, even just a little bit?",
+      "client": "I don\u2019t know, maybe it would help if I felt a bit more in control of my reactions or something. It\u2019s like, if I could just anticipate the questions that are going to come up or how people might react, I wouldn\u2019t feel so blindsided. But honestly, part of me feels like I\u2019ll never be ready enough for that. It\u2019s just this heavy weight I can\u2019t shake off, and the thought of facing it all feels like too much. I guess I\u2019m just kind of stuck right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 14,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "That pressure can be really heavy, and it\u2019s understandable to see those breaks as avoiding the real issues. Facing big challenges like family dynamics and the wedding can feel overwhelming, especially when it seems like they\u2019re looming over you. What do you think it would take for you to feel more ready to confront those issues, even just a little bit?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 13,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "sentiment_before": "Neutral",
+            "motivation_before": "Medium",
+            "engagement_before": "High",
+            "delta_readiness": -4.0,
+            "delta_sentiment": -5.0,
+            "delta_motivation": -5.0,
+            "delta_engagement": "high\u2192medium",
+            "flashbulb_score": 0.64,
+            "reinforcement_count": 1,
+            "pool": "bad",
+            "turn": 13
+          }
+        ],
+        "retrieval_time_ms": 1.2087739996786695,
+        "storage_time_ms": 2.481289999195724
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Feeling stuck can be an exhausting place to be, especially with the weight of those expectations. It sounds like having a sense of control over your reactions could really help you feel more prepared. What do you think might be the first small step toward feeling more in control, without it feeling too overwhelming?",
+      "client": "I guess maybe it could start with just imagining some of those conversations, like playing them out in my head or something. I don\u2019t know if that would really help, but it feels like a way to kind of prepare, even if it\u2019s just a little bit. But then again, what if I get it all wrong? I mean, part of me thinks it might just make me more anxious thinking about it too much. It's like I want to feel prepared, but I also want to avoid the stress.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 15,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Feeling stuck can be an exhausting place to be, especially with the weight of those expectations. It sounds like having a sense of control over your reactions could really help you feel more prepared. What do you think might be the first small step toward feeling more in control, without it feeling too overwhelming?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 14,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.8247469997731969,
+        "storage_time_ms": 0.0203159997909097
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Imagining those conversations could be a helpful way to prepare, even if it feels a bit risky. What if you approached it as an exercise in exploration, rather than aiming for perfection? How might it change your feelings about the process if you focused on curiosity\u2014like what questions might arise or how you could respond\u2014rather than worrying about getting everything right?",
+      "client": "I guess that makes sense, like thinking of it as a way to explore rather than a test. But I still worry that if I do that, I\u2019ll just get overwhelmed by all the possibilities. It\u2019s like, what if I end up feeling worse instead of better? Part of me kind of wants to try it just to see, but then another part is like, what\u2019s the point if it just leads to more stress? I don\u2019t know, it feels like a balancing act, and I\u2019m not sure I can handle it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 16,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "Imagining those conversations could be a helpful way to prepare, even if it feels a bit risky. What if you approached it as an exercise in exploration, rather than aiming for perfection? How might it change your feelings about the process if you focused on curiosity\u2014like what questions might arise or how you could respond\u2014rather than worrying about getting everything right?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 15,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 4.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium\u2192high",
+            "flashbulb_score": 0.64,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 15
+          }
+        ],
+        "retrieval_time_ms": 0.9288270011893474,
+        "storage_time_ms": 5.565982000916847
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It really does sound like a balancing act, and those worries about feeling worse are completely valid. What if you approached this exploration in small, manageable doses? Maybe just setting aside a few minutes to think about one specific conversation, rather than diving into all the possibilities at once, could help keep it from feeling overwhelming. How does that idea sit with you?",
+      "client": "I can kind of see how breaking it down into smaller pieces might help. It feels a bit less daunting that way, like I wouldn\u2019t be throwing myself into the deep end right away. But I still wonder if even that would be too much for me sometimes. I mean, what if I still end up feeling all those overwhelming feelings anyway? It\u2019s just hard to shake off that fear that I\u2019ll get pulled back into the same old cycle.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 17,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It really does sound like a balancing act, and those worries about feeling worse are completely valid. What if you approached this exploration in small, manageable doses? Maybe just setting aside a few minutes to think about one specific conversation, rather than diving into all the possibilities at once, could help keep it from feeling overwhelming. How does that idea sit with you?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 16,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5506920008192537,
+        "storage_time_ms": 0.02378699900873471
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to have that fear of falling back into overwhelming feelings. Breaking things down can help, but it\u2019s still normal to worry about how you might react. What if you allowed yourself to take those small steps at your own pace and gave yourself permission to feel whatever comes up, even if it\u2019s uncomfortable? How might that change your approach to these conversations?",
+      "client": "I guess allowing myself to feel whatever comes up could be a way to take some of the pressure off. It\u2019s like, if I know it\u2019s okay to feel uncomfortable, maybe that makes it a little easier to face those conversations. But I still worry that if I do that, I\u2019ll just end up spiraling again, you know? Part of me thinks that could work, but then another part is like, what if I can\u2019t handle the discomfort? It just feels risky, like walking a tightrope or something.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It\u2019s like, what if I end up feeling worse instead of better? Part of me kind of wants to try it just to see, but then another part is like, what\u2019s the point if it just leads to more stress?\"\n2. \"I guess allowing myself to feel whatever comes up could be a way to take some of the pressure off. It\u2019s like, if I know it\u2019s okay to feel uncomfortable, maybe that makes it a little easier to face those conversations.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression, moving beyond factual responses to a deeper exploration of their fears and feelings regarding potential conversations. They articulate a clear internal struggle about wanting to explore while also fearing the emotional overwhelm that might result, indicating a more nuanced emotional state than earlier in the session. This represents significant change from earlier exchanges where the client exhibited more guardedness and a primarily factual approach.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their fears about the potential consequences of engaging in conversation. This was evident when they said, \"It feels like a balancing act, and I\u2019m not sure I can handle it,\" which marked a transition from merely discussing the concept of exploration to actively engaging with their own emotional vulnerabilities. This moment highlights their willingness to confront discomfort, suggesting growing trust in the therapeutic process and a readiness for deeper self-reflection. \n\nOverall, while there are still hesitations present, the client\u2019s progress indicates a movement towards greater emotional exploration and engagement with the therapy process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 18,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s completely understandable to have that fear of falling back into overwhelming feelings. Breaking things down can help, but it\u2019s still normal to worry about how you might react. What if you allowed yourself to take those small steps at your own pace and gave yourself permission to feel whatever comes up, even if it\u2019s uncomfortable? How might that change your approach to these conversations?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 17,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.0607679996610386,
+        "storage_time_ms": 0.03897199894709047
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re recognizing the potential benefit of allowing discomfort while also being aware of the risks involved. What if you set a time limit for those moments of feeling uncomfortable, like just a few minutes? This way, you could practice facing that discomfort in a controlled way, knowing there\u2019s an endpoint. How does that strategy sound to you?",
+      "client": "I mean, setting a time limit could be a thing, I guess. It feels a bit safer, knowing there\u2019s a stop point. But then I worry that once the time is up, I\u2019ll still be stuck with all those feelings I tried to face. What if I can\u2019t just switch it off, you know? Maybe it could work, but part of me is still hesitant about how it might play out. It just feels like there are so many what-ifs.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 19,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It sounds like you\u2019re recognizing the potential benefit of allowing discomfort while also being aware of the risks involved. What if you set a time limit for those moments of feeling uncomfortable, like just a few minutes? This way, you could practice facing that discomfort in a controlled way, knowing there\u2019s an endpoint. How does that strategy sound to you?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 18,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3996420002513332,
+        "storage_time_ms": 0.01860900010797195
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It makes sense to be hesitant with all those what-ifs swirling around. Maybe instead of thinking of it as switching off, you could view it as a way to acknowledge those feelings without judgment. What if you allowed yourself to explore those feelings within that time limit, but also gave yourself some gentle space afterward to reflect on how you felt? How might that help you feel more prepared for whatever comes up?",
+      "client": "I can kind of see how reflecting afterward might help me process everything. It sounds like a way to not just ignore the feelings but actually acknowledge them, which feels a bit less scary. But I still worry about getting overwhelmed in that moment, like what if I can't handle it? I guess it's just hard to trust that I won\u2019t end up spiraling out of control again. I mean, maybe it\u2019s just a way to open up some space, but then what if I just fill it with more anxiety?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 20,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It makes sense to be hesitant with all those what-ifs swirling around. Maybe instead of thinking of it as switching off, you could view it as a way to acknowledge those feelings without judgment. What if you allowed yourself to explore those feelings within that time limit, but also gave yourself some gentle space afterward to reflect on how you felt? How might that help you feel more prepared for whatever comes up?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 19,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.0864069990930147,
+        "storage_time_ms": 0.010015999578172341
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It's completely valid to worry about filling that space with anxiety instead of clarity. What if you approached those moments with a plan for grounding yourself? Maybe you could identify a few quick techniques\u2014like deep breathing or focusing on your surroundings\u2014that you can use if you start to feel overwhelmed. How would it feel to have those tools ready to help you regain a sense of control?",
+      "client": "I mean, having some grounding techniques makes sense. It seems like a way to keep myself from completely losing it. But then I think, what if I can\u2019t even remember to use them when I really need them? It feels like I\u2019d be relying on something that might not work in the moment. I guess it's just hard to believe I could handle it all, you know? Like, there\u2019s a part of me that thinks it could help, but there\u2019s also this nagging doubt that I\u2019ll just get overwhelmed and forget everything.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 21,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It's completely valid to worry about filling that space with anxiety instead of clarity. What if you approached those moments with a plan for grounding yourself? Maybe you could identify a few quick techniques\u2014like deep breathing or focusing on your surroundings\u2014that you can use if you start to feel overwhelmed. How would it feel to have those tools ready to help you regain a sense of control?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 20,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.9557379999023397,
+        "storage_time_ms": 0.00998799987428356
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that doubt, especially when faced with overwhelming emotions. What if we started with just one or two grounding techniques that resonate with you? We could practice them together now, so they feel more familiar. That way, if you find yourself in a tough moment, you might have a better chance of remembering them. How does that sound?",
+      "client": "I guess practicing a couple of techniques together could be helpful. It feels like if I actually know what to do, maybe I\u2019d be less likely to freeze up in the moment. But part of me is still skeptical\u2014like, what if I get so anxious that I just can\u2019t focus on anything? I don\u2019t know, it\u2019s like I want to believe it could work, but that fear of not being able to remember them is still there. I mean, it\u2019s hard to shake that doubt.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 22,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s understandable to feel that doubt, especially when faced with overwhelming emotions. What if we started with just one or two grounding techniques that resonate with you? We could practice them together now, so they feel more familiar. That way, if you find yourself in a tough moment, you might have a better chance of remembering them. How does that sound?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 21,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 2.811705000567599,
+        "storage_time_ms": 0.020728999515995383
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It\u2019s perfectly normal to have that skepticism, especially when anxiety takes over. Let\u2019s keep it really simple\u2014just one technique to start. How about we try a quick deep breathing exercise together? We can do it a few times, and you can see how it feels. The goal is to make it second nature, so when anxiety hits, you have something to fall back on. Ready to give it a try?",
+      "client": "I can give the deep breathing exercise a shot, I guess. It seems straightforward enough, and maybe if I practice it a few times, it could help me remember it when things get tough. But I still feel that hesitation\u2014like, what if I\u2019m just not in the right headspace to focus on it when I really need it? I mean, part of me thinks it could be useful, but I don\u2019t know if I\u2019ll actually follow through in the moment.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 23,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s perfectly normal to have that skepticism, especially when anxiety takes over. Let\u2019s keep it really simple\u2014just one technique to start. How about we try a quick deep breathing exercise together? We can do it a few times, and you can see how it feels. The goal is to make it second nature, so when anxiety hits, you have something to fall back on. Ready to give it a try?",
+        "therapy_mode": "CBT",
+        "technique": "Behavioral Activation",
+        "completed_turn": 22,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1447420001786668,
+        "storage_time_ms": 0.01766599962138571
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re open to trying the deep breathing exercise! That hesitation is completely understandable. What if you also created a little reminder for yourself, like a note or a visualization, to help trigger the technique when you need it? Sometimes having a cue can make it easier to remember. How do you think that might work for you?",
+      "client": "I can kind of see how a reminder could help. It's like having something to nudge me to use the breathing technique when I'm feeling overwhelmed. But I still wonder if I\u2019d just ignore it or forget it in the moment. I guess I\u2019ve been trying to find ways to keep things simple, but then I overthink it and talk myself out of actually doing anything. I mean, maybe it would help, but I don\u2019t know if I\u2019d really rely on it when I need to.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I guess practicing a couple of techniques together could be helpful. It feels like if I actually know what to do, maybe I\u2019d be less likely to freeze up in the moment.\"\n2. \"I can kind of see how a reminder could help. It's like having something to nudge me to use the breathing technique when I'm feeling overwhelmed.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a blend of emotional expression and self-reflection, indicating a notable shift from earlier sessions where emotional engagement was more limited. Initially, the client displayed skepticism and hesitation about therapeutic techniques, but has recently begun to articulate the potential benefits of practicing grounding techniques. Their willingness to explore deep breathing exercises and acknowledge the complexity of their feelings shows a greater comfort level and engagement with the therapeutic process. This represents a significant movement from a more defensive stance towards one of active exploration and openness.\n\n**Turning Point:**\nThe client\u2019s emotional depth appears to have shifted notably during the exchange where they started recognizing the potential impact of practicing grounding techniques in the moment. This realization\u2014\"if I actually know what to do, maybe I\u2019d be less likely to freeze up\"\u2014marks an important transition, as it indicates they are beginning to connect the dots between practice and emotional readiness, thus fostering a more proactive approach to their anxiety rather than remaining in a state of doubt and skepticism.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 24,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s great that you\u2019re open to trying the deep breathing exercise! That hesitation is completely understandable. What if you also created a little reminder for yourself, like a note or a visualization, to help trigger the technique when you need it? Sometimes having a cue can make it easier to remember. How do you think that might work for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 23,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2614030001714127,
+        "storage_time_ms": 0.014290999388322234
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It's completely okay to feel that way; many people struggle with overthinking when trying to implement new strategies. How about we brainstorm some simple reminders together that might feel less overwhelming? Maybe something you can easily integrate into your daily routine, like setting an alarm on your phone or placing a note somewhere you\u2019ll see it often. What do you think would feel manageable for you?",
+      "client": "I mean, I can see how setting an alarm or leaving a note could be easier than overcomplicating things. It's just that sometimes I feel like I\u2019ll get so caught up in my thoughts that I won\u2019t even notice a reminder. But maybe if it was something really simple, like a sticky note on my fridge, I might see it often enough to remember. I guess part of me worries that I\u2019ll still forget, though. It's frustrating, you know? I want to believe I can do it, but there\u2019s always that doubt lurking in the back of my mind.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 25,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It's completely okay to feel that way; many people struggle with overthinking when trying to implement new strategies. How about we brainstorm some simple reminders together that might feel less overwhelming? Maybe something you can easily integrate into your daily routine, like setting an alarm on your phone or placing a note somewhere you\u2019ll see it often. What do you think would feel manageable for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 24,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.9726629996293923,
+        "storage_time_ms": 0.007688999176025391
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "That doubt can be really frustrating, especially when you\u2019re trying to make positive changes. It\u2019s good to hear that a sticky note feels like a simple option. Maybe you could even personalize it with a phrase that resonates with you, something that reminds you of your strength. That way, when you see it, it could help counter that doubt. How do you feel about creating a reminder that\u2019s both visible and meaningful to you?",
+      "client": "I guess that could be a good idea, personalizing it with something that actually means something to me. It might make it feel more relevant when I see it. But, like, I still have this nagging feeling that even if I write something powerful, I could just ignore it when I'm in the moment. I mean, it\u2019s kind of a cycle where I want to improve, but then I doubt if I actually can. I don\u2019t know, maybe finding a phrase will help\u2014if I can just remember to look at it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 26,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "That doubt can be really frustrating, especially when you\u2019re trying to make positive changes. It\u2019s good to hear that a sticky note feels like a simple option. Maybe you could even personalize it with a phrase that resonates with you, something that reminds you of your strength. That way, when you see it, it could help counter that doubt. How do you feel about creating a reminder that\u2019s both visible and meaningful to you?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 25,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 2.3981729991646716,
+        "storage_time_ms": 0.019054999938816763
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "It\u2019s definitely a cycle that many people experience, and it\u2019s okay to feel that way. The key might be to keep the phrase simple and meaningful, something that really resonates with you. What\u2019s a phrase or word that reminds you of your strength or ability to handle tough moments? Even if you feel like you might forget it sometimes, having it there could be a gentle nudge when you need it. What comes to mind for you?",
+      "client": "I don\u2019t know, maybe something like \u201cI can handle this\u201d or \u201cbreathe through it\u201d could work. They sound kind of basic, though. I mean, part of me thinks it could be enough, but another part worries it won\u2019t really do anything when I'm feeling overwhelmed. It\u2019s just hard to find something that feels right, you know? I guess I just want to believe that I can actually make a change. But then again, I\u2019m not sure if that\u2019s even realistic.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 27,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s definitely a cycle that many people experience, and it\u2019s okay to feel that way. The key might be to keep the phrase simple and meaningful, something that really resonates with you. What\u2019s a phrase or word that reminds you of your strength or ability to handle tough moments? Even if you feel like you might forget it sometimes, having it there could be a gentle nudge when you need it. What comes to mind for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 26,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6217880001931917,
+        "storage_time_ms": 0.024000000848900527
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It makes sense that you want something that feels just right\u2014something you truly connect with. \u201cI can handle this\u201d and \u201cbreathe through it\u201d are actually powerful reminders, even if they seem basic. The important part is how they resonate with you. You\u2019re looking for something that feels authentic, and that\u2019s a great step towards making a change. What if we play around with those phrases a bit? You could tweak them or combine ideas until you find something that feels more personalized and empowering. What do you think?",
+      "client": "I guess that could work. Playing around with the phrases might help me find something that feels more me. But I still have this nagging doubt that even if I come up with something good, I might just forget it when I'm actually in a tough moment. It\u2019s like I want to believe it can help, but I\u2019m not sure if I\u2019ll really lean on it when I need to. I mean, part of me wants to make that change, but another part is just\u2026 skeptical, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 28,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It makes sense that you want something that feels just right\u2014something you truly connect with. \u201cI can handle this\u201d and \u201cbreathe through it\u201d are actually powerful reminders, even if they seem basic. The important part is how they resonate with you. You\u2019re looking for something that feels authentic, and that\u2019s a great step towards making a change. What if we play around with those phrases a bit? You could tweak them or combine ideas until you find something that feels more personalized and empowering. What do you think?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 27,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1538229991856497,
+        "storage_time_ms": 0.012696998965111561
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "It\u2019s totally understandable to feel skeptical, especially when trying something new. Finding a phrase that feels like it\u2019s truly yours is a great start, but it\u2019s also about building that trust in yourself over time. Maybe you could think of it as a practice rather than a one-time solution. The more you engage with the phrase in calm moments, the more familiar it will become when things get tough. What if you started using it in small, everyday situations first? That way, you can slowly build that connection and confidence. How does that sound to you?",
+      "client": "I can kind of see where you\u2019re coming from. Practicing it in smaller moments might help, but it still feels like a leap to trust myself to remember it when I really need it. I guess part of me just worries that I\u2019ll get caught up in the stress and lose sight of it completely. It feels like I\u2019m always battling this feeling of being overwhelmed in those situations. Maybe starting small is the right idea, but I don\u2019t know if I can really make it work.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 29,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s totally understandable to feel skeptical, especially when trying something new. Finding a phrase that feels like it\u2019s truly yours is a great start, but it\u2019s also about building that trust in yourself over time. Maybe you could think of it as a practice rather than a one-time solution. The more you engage with the phrase in calm moments, the more familiar it will become when things get tough. What if you started using it in small, everyday situations first? That way, you can slowly build that connection and confidence. How does that sound to you?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 28,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 2.8802630004065577,
+        "storage_time_ms": 0.017709000530885532
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "It\u2019s really valid to feel that way, especially when stress can cloud your thoughts. Starting small is a great way to build that trust gradually. Even if it feels like a leap, remember that every small step counts. You might surprise yourself with how it can help in those overwhelming moments. Perhaps you can start by practicing your chosen phrase during low-stress times, so it becomes a familiar tool when things get tough. What small step feels most manageable for you right now?",
+      "client": "I guess I could try practicing the phrase when I\u2019m just at home, maybe when I'm doing something chill like watching TV. It feels a bit safer there, you know? But then there\u2019s still that nagging voice in my head telling me it won\u2019t actually help when I\u2019m really stressed. I mean, I want to believe it could make a difference, but it feels like I\u2019d just forget everything in the heat of the moment. I don\u2019t know\u2026 maybe starting small is a good idea, but I\u2019m not sure if I can really stick with it.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \u201cI guess part of me just worries that I\u2019ll get caught up in the stress and lose sight of it completely. It feels like I\u2019m always battling this feeling of being overwhelmed in those situations.\u201d\n- \u201cI guess I could try practicing the phrase when I\u2019m just at home, maybe when I'm doing something chill like watching TV. It feels a bit safer there, you know? But then there\u2019s still that nagging voice in my head telling me it won\u2019t actually help when I\u2019m really stressed.\u201d\n\n**Progression:**\nThe client's most recent interactions reveal an increasing emotional depth characterized by a blend of skepticism and a desire to engage with the therapeutic process. In earlier exchanges, the client displayed a more defensive posture with limited emotional expression, primarily focusing on doubts without fully delving into feelings. However, their current state shows a willingness to acknowledge their fears and concerns about self-trust and emotional regulation. This marks a significant shift from a more factual and hesitant stance to one where they are exploring the possibility of change while grappling with their inner conflicts.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began expressing their internal battle with doubt and overwhelm, particularly in their statement about the nagging voice in their head. This moment illuminated their vulnerability and willingness to confront their fears, indicating a realignment toward more honest self-reflection and engagement with the therapeutic process. It suggests they are beginning to reconcile their aspirations for change with their apprehensions, thus fostering greater rapport with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 30,
+        "conversation_id": "4da92267-19d2-4e09-a5e0-fd6f8592ec0a",
+        "therapist_message": "It\u2019s really valid to feel that way, especially when stress can cloud your thoughts. Starting small is a great way to build that trust gradually. Even if it feels like a leap, remember that every small step counts. You might surprise yourself with how it can help in those overwhelming moments. Perhaps you can start by practicing your chosen phrase during low-stress times, so it becomes a familiar tool when things get tough. What small step feels most manageable for you right now?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 29,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 4.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 9
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 15
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -4.0,
+              "flashbulb_score": 0.64,
+              "pool": "bad",
+              "turn": 13
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 2.1541189998970367,
+        "storage_time_ms": 0.01911100116558373
+      },
+      "strategy_used": null
+    }
+  ]
+}

@@ -42,11 +42,12 @@ from adaptive_therapist import (  # noqa: E402
     DEFAULT_READINESS_JUDGE_PROMPT,
     AdaptiveTherapist,
 )
+from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "adaptive")
+THERAPIST_TYPES = ("standard", "adaptive", "flash")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
@@ -110,6 +111,14 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--flash-api-url",
+        default=os.getenv("FLASH_API_URL", DEFAULT_FLASH_API_URL),
+        help=(
+            "Base URL for the flash therapist API. Defaults to FLASH_API_URL, "
+            "then http://localhost:8000."
+        ),
+    )
+    parser.add_argument(
         "--dataset",
         type=Path,
         default=DEFAULT_DATASET,
@@ -154,6 +163,10 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def therapist_type_suffix(therapist_type: str) -> str:
+    return "" if therapist_type == "standard" else f"_{therapist_type}"
+
+
 def print_turn(
     turn_number: int,
     therapist: Turn,
@@ -162,6 +175,7 @@ def print_turn(
     openness_judgment: dict[str, Any] | None,
     readiness_judgment: dict[str, Any] | None,
     selected_strategy: str | None,
+    flash_response: dict[str, Any] | None,
 ) -> None:
     print(f"Turn: {turn_number}")
     print(f"Openness level used: {openness_level}")
@@ -184,6 +198,12 @@ def print_turn(
         print("Selected strategy: not recorded")
     else:
         print(f"Selected strategy: {selected_strategy}")
+    if flash_response is not None:
+        technique = flash_response.get("technique")
+        if isinstance(technique, str) and technique.strip():
+            print(f"Technique: {technique.strip()}")
+        else:
+            print("Technique: not recorded")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -228,7 +248,9 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             else DEFAULT_THERAPIST_PROMPT
         )
 
-    if args.therapist_type == "adaptive":
+    if args.therapist_type == "flash":
+        therapist_role = FlashTherapist(args.flash_api_url)
+    elif args.therapist_type == "adaptive":
         therapist_role = AdaptiveTherapist(
             openai_client,
             model,
@@ -253,13 +275,17 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     openness_judgments: list[dict[str, Any]] = []
     readiness_judgments: list[dict[str, Any]] = []
     selected_strategies: list[dict[str, Any]] = []
+    flash_responses: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         readiness_judgment: dict[str, Any] | None = None
         selected_strategy: str | None = None
+        flash_response: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
+            if args.therapist_type == "flash":
+                flash_response = therapist_role.last_response_json
         else:
             text = therapist_role.reply(patient, conversation)
             therapist_turn = Turn("Therapist", text)
@@ -285,6 +311,15 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                                 else None,
                             }
                         )
+            elif args.therapist_type == "flash":
+                flash_response = therapist_role.last_response_json
+
+        if flash_response is not None:
+            flash_response = {
+                "turn": turn_number,
+                **flash_response,
+            }
+            flash_responses.append(flash_response)
 
         conversation.append(therapist_turn)
 
@@ -312,6 +347,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
                 "readiness_judgment": readiness_judgment,
+                "flash_response": flash_response,
                 "strategy_used": selected_strategy,
             }
         )
@@ -324,6 +360,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 openness_judgment,
                 readiness_judgment,
                 selected_strategy,
+                flash_response,
             )
 
     return {
@@ -343,6 +380,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "openness_judgments": openness_judgments,
         "readiness_judgments": readiness_judgments,
         "selected_strategies": selected_strategies,
+        "flash_responses": flash_responses,
         "turns": paired_turns,
     }
 
@@ -351,9 +389,7 @@ def write_output(result: dict[str, Any], output_path: Path | None) -> Path:
     if output_path is None:
         DEFAULT_OUTPUT_DIR.mkdir(exist_ok=True)
         patient_id = str(result["patient_id"]).replace("/", "-")
-        therapist_suffix = (
-            "_adaptive" if result.get("therapist_type") == "adaptive" else ""
-        )
+        therapist_suffix = therapist_type_suffix(str(result.get("therapist_type")))
         filename = f"conversation_{patient_id}_{result['mode']}{therapist_suffix}.json"
         output_path = DEFAULT_OUTPUT_DIR / filename
 

@@ -16,7 +16,7 @@ DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "adaptive")
+THERAPIST_TYPES = ("standard", "adaptive", "flash")
 
 
 def parse_args() -> argparse.Namespace:
@@ -82,6 +82,13 @@ def parse_args() -> argparse.Namespace:
         help="Optional readiness judge prompt path for adaptive therapist runs.",
     )
     parser.add_argument(
+        "--flash-api-url",
+        help=(
+            "Optional flash therapist API base URL passed through to "
+            "simulate_conversation.py."
+        ),
+    )
+    parser.add_argument(
         "--max-clients",
         type=int,
         help="Optional limit on number of patients from the dataset.",
@@ -129,7 +136,7 @@ def safe_patient_id(patient_id: Any) -> str:
 def output_path(
     outputs_dir: Path, patient_id: Any, mode: str, therapist_type: str
 ) -> Path:
-    therapist_suffix = "_adaptive" if therapist_type == "adaptive" else ""
+    therapist_suffix = "" if therapist_type == "standard" else f"_{therapist_type}"
     filename = f"session_{safe_patient_id(patient_id)}_{mode}{therapist_suffix}.json"
     return outputs_dir / mode / filename
 
@@ -163,6 +170,8 @@ def simulator_command(
         command.extend(["--readiness-judge-model", args.readiness_judge_model])
     if args.readiness_judge_prompt:
         command.extend(["--readiness-judge-prompt", str(args.readiness_judge_prompt)])
+    if args.flash_api_url:
+        command.extend(["--flash-api-url", args.flash_api_url])
     if args.print_turns:
         command.append("--print")
     return command
