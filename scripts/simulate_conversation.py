@@ -336,20 +336,16 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             elif args.therapist_type == "hybrid":
                 recommendation = therapist_role.last_cbt_recommendation
                 if therapist_role.last_response_mode == "CBT":
-                    if (
-                        recommendation is not None
-                        and therapist_role.last_cbt_recommendation_updated
-                    ):
-                        cbt_recommendations.append(
-                            {
-                                "turn": turn_number,
-                                **recommendation,
-                            }
-                        )
                     if recommendation is None:
                         raise SystemExit(
                             "Hybrid CBT route did not record a recommendation."
                         )
+                    cbt_recommendations.append(
+                        {
+                            "turn": turn_number,
+                            **recommendation,
+                        }
+                    )
                     selected_strategy = recommendation.get("recommended_cbt_technique")
                     selected_strategies.append(
                         {

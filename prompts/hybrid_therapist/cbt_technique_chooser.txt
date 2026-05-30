@@ -21,7 +21,7 @@ Based only on the conversation history above, identify the client’s most recen
 Previous CBT techniques:
 {previous_cbt_techniques}
 
-Use the previous CBT technique as context. Do not use the same technique again.
+Use the previous CBT technique as context.
 Return only valid JSON. Do not include markdown, comments, or extra text.
 
 Use exactly this JSON structure:
@@ -30,5 +30,4 @@ Use exactly this JSON structure:
   "recommended_cbt_technique": "one technique from the list only",
   "goal": "the therapeutic goal for using this CBT technique",
   "reasoning": "2-4 sentences explaining why this technique fits",
-  "suggestion": "3-5 therapist-friendly questions or instructions for using this technique with the client"
 }

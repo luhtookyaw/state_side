@@ -13,10 +13,10 @@ They should:
 - Allow uncertainty, contradiction, or hesitation while still staying engaged.
 - Be willing to say when something feels uncomfortable, confusing, or emotionally important.
 - Respond as if they are trying to understand themselves, not as if they already have everything figured out.
+
+They should not:
 - Become unrealistically insightful after one question.
 - Agree with every therapist reflection automatically.
-
-They should also:
 - Sound like a therapist or use clinical language.
 - Resolve the issue too quickly.
 - Reveal everything all at once without emotional pacing.

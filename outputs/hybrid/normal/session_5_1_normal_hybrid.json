@@ -2,7 +2,7 @@
   "mode": "normal",
   "therapist_type": "hybrid",
   "initial_openness_level": 1,
-  "final_openness_level": 3,
+  "final_openness_level": 4,
   "openness_judge_interval": 4,
   "model": "gpt-4o-mini",
   "openness_judge_model": "gpt-4o-mini",
@@ -15,56 +15,256 @@
     {
       "turn": 4,
       "openness_level": 2,
-      "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"I just feel stuck, and scrolling is a distraction. It\u2019s not like I\u2019m losing sleep over it or anything.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I don\u2019t see how that connects to anything deeper. I just feel stuck, and scrolling is a distraction.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of factual and emotional responses, showcasing a basic emotional vocabulary. They articulate feelings of boredom and stuckness but exhibit a reluctance to delve deeper into the emotional implications, which signifies a warming up phase rather than full engagement. This reflects a significant change from earlier exchanges where emotional expression was much more limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the recent exchanges when they began to acknowledge their feelings of being \"stuck.\" While they do not fully embrace the exploration of these feelings, their acknowledgment of emotional barriers indicates a willingness to engage with their experiences, moving them closer to deeper self-reflection than before.",
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. Client: \"It just feels like something I keep pushing to the side. Sometimes I think maybe it's just not worth it, and I should move on.\"\n2. Client: \"I don\u2019t really want to get into all that. I mean, it\u2019s just a project, right? I push things aside all the time; it\u2019s not a big deal.\"\n\n**Progression:**\nThe client's recent interactions reflect a mix of emotional expression and factual responses, indicating a warming up phase. They articulate feelings of frustration and resignation regarding the project, showing a budding awareness of their own emotional conflict. The client acknowledges feeling stuck and recognizes that pushing the project aside is a coping mechanism, suggesting a deeper level of self-reflection than previously observed. However, they still exhibit some defensiveness and a reluctance to delve further into their emotions, evident in their dismissal of the project's significance by stating, \u201cit\u2019s just a project, right?\u201d\n\n**Turning Point:**\nThe client's emotional depth began to shift during their acknowledgment of frustration and resignation when they stated, \"Sometimes I think maybe it's just not worth it, and I should move on.\" This admission signifies a moment of vulnerability that indicates they are beginning to explore their feelings more openly, even if they are not yet fully comfortable diving deeper into the emotional implications of those feelings. The client is starting to recognize their internal struggle, which is a critical step towards greater emotional engagement in future sessions.",
       "raw_openness_level": 2
     },
     {
       "turn": 8,
       "openness_level": 3,
-      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess when I hit that wall, I feel this tightness in my chest, like everything just kind of constricts. My mind starts racing with thoughts like, 'Why can't I just get it together?' and then I kind of spiral into this worry about disappointing others.\"\n2. **Current Openness:** \"I guess there have been times when I felt a little lighter, maybe when I actually made some progress on the project, even if it was just a small step. I remember feeling a bit of excitement, like, 'Okay, I can do this!'\"\n\n**Progression:** The client's most recent interactions reveal a meaningful engagement with their emotional state, particularly concerning their feelings of tightness and racing thoughts when faced with challenges. This marks a significant change from earlier sessions, where there was more factual reporting and less emotional reflection. In the current exchanges, the client is articulating feelings of heaviness and moments of excitement, showing a deeper level of self-reflection and emotional expression. \n\n**Turning Point:** The client\u2019s emotional depth began to shift during the exchange where they expressed feeling \u201ca little lighter\u201d upon making progress, indicating they are starting to recognize and articulate positive emotions in conjunction with their struggles. This acknowledgment and the ability to identify fleeting moments of success demonstrates a growing comfort in sharing personal experiences, which can enhance their therapeutic journey. The mention of both excitement and worry signifies a developing complexity in their emotional landscape.",
-      "raw_openness_level": 3
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I guess it could be telling me that I'm really feeling the pressure\u2014like, maybe it's not just about the project itself, but how I view my ability to handle challenges.\"\n2. \"When I hit a challenge, it\u2019s like I immediately think, 'Here we go again; this is where I fail.' It\u2019s frustrating because I want to push through, but that nagging self-doubt creeps in...\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are now expressing clear emotional experiences connected to their challenges, such as feelings of pressure and self-doubt, marking a transition from earlier exchanges where emotional expression was more limited. The client has moved from merely acknowledging feelings to connecting these emotions with their self-perception and broader life patterns, indicating an engaged exploration of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated the connection between their feelings of heaviness and their self-worth. This moment was crucial; they began to unpack not just the immediate pressure of the project but also how it ties into past experiences of feeling overwhelmed. This introspective dialogue signifies a deeper engagement with their emotional processes and a growing willingness to share vulnerable insights, thus enhancing their therapeutic rapport with the therapist.",
+      "raw_openness_level": 4
     },
     {
       "turn": 12,
-      "openness_level": 3,
-      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI mean, I guess when I feel that excitement, my heart races a bit, and there's this rush of energy, like I could keep going forever. But then, almost like clockwork, I start to feel this tightness in my chest, and my thoughts spiral into, \u2018What if this isn\u2019t good enough?\u2019 or \u2018What if I hit another wall?\u2019\u201d\n2. \u201cI mean, I guess it would feel kind of empowering to notice those shifts earlier, like I\u2019d have a bit more control over my response. But then, I worry that if I try to focus too much on it, it might make things worse or just add more pressure.\u201d\n\n**Progression:** The client has demonstrated a noticeable shift toward greater emotional expression and self-reflection in recent exchanges. Initially, their responses were more factual and cautious, but in the latest dialogue, they are articulating their emotional experiences with more depth, such as describing physical sensations and the rapid change in their feelings. The client\u2019s acknowledgment of both empowerment and fear regarding their emotional shifts indicates a developing understanding of their inner workings, which marks a significant change from earlier sessions characterized by more limited emotional vocabulary and hesitance in sharing.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing not only their excitement but also their anxieties in response to that excitement. This moment is highlighted in their statement about the tightness in their chest and the spiraling thoughts of self-doubt, indicating a readiness to confront and explore these feelings more openly. Their willingness to consider the duality of wanting to control their emotions while fearing the pressure of that awareness represents a critical step in their emotional journey. This indicates a growing comfort with the therapeutic process and the",
-      "raw_openness_level": 3
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I mean, when I'm scrolling through social media or looking for validation, it\u2019s like I feel a momentary lift, but then there\u2019s this kind of emptiness afterward...\"\n2. \"I think there have been times when I really wanted to make progress on the website, especially after I had a good idea or a breakthrough moment. ... the weight of expectation just crashed down on me.\"\n\n**Progression:** The client's most recent interactions demonstrate a notable increase in emotional depth and self-reflection. They articulate the internal conflict between excitement and anxiety, revealing their awareness of physical sensations linked to their emotional state, such as the tightening in their chest and tension in their shoulders. This marks a significant departure from earlier sessions, where their emotional responses were more surface-level and less connected to their physical experiences.\n\n**Turning Point:** The client's emotional depth shifted during the recent exchange when they began expressing their frustration about the transition from hope to anxiety, particularly regarding their website project. This moment of vulnerability illustrates a deeper understanding of their emotional landscape, suggesting a stronger therapeutic alliance and a willingness to explore the roots of their feelings more authentically. The clear acknowledgment of fleeting excitement followed by a heavy sense of expectation adds layers to their emotional expression, indicating a deeper level of engagement in the therapeutic process.",
+      "raw_openness_level": 4
     },
     {
       "turn": 16,
-      "openness_level": 3,
-      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I think maybe a manageable step could be just to set aside a few moments each day to check in with myself, like taking a breath and asking how I\u2019m really feeling. It doesn\u2019t have to be anything big, just a little pause to acknowledge what\u2019s going on.\"\n2. Client: \"I guess when I think about giving myself permission to just be in the moment, it brings up a mix of feelings. Part of me feels relieved at the idea of not having to push myself so hard, but another part feels guilty like I should be doing something more productive or valuable.\"\n\n**Progression:**\nThe client's recent exchanges reveal a noticeable shift toward greater emotional expression and self-reflection. In earlier parts of the session, the client exhibited hesitance and a more factual approach, indicating defensiveness and limited emotional engagement. However, in the most recent interactions, the client has shown a willingness to introspect and articulate their feelings regarding self-check-ins, indicating a deeper level of emotional processing. Specifically, the client is beginning to explore the tension between their desire for gentleness and their internalized pressure to be productive, marking a significant change from a more superficial engagement to a richer dialogue.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their contemplation of giving themselves permission to just be present in the moment. When they articulated the relief and guilt associated with this permission, it marked a pivotal moment in their engagement. This duality reflects an emerging self-awareness and willingness to confront complex emotions, demonstrating a deeper connection to their feelings than previously evident in the session. This moment underscores a growing capacity for vulnerability and a more meaningful therapeutic rapport with the therapist.",
-      "raw_openness_level": 3
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think there\u2019s something there, but I\u2019m still figuring it out. The idea of celebrating small victories feels really refreshing to me, almost like a light at the end of the tunnel.\"\n2. \"I think if I could consciously take time to acknowledge even the tiniest progress, it might help me feel more engaged with the project instead of just overwhelmed by it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate significant emotional depth as they express a newfound understanding of the importance of small victories, revealing a shift from a primarily goal-oriented perspective to one that values the process itself. This marks a significant change from earlier in the session, where the client may have been more focused on the anxiety surrounding the end goal rather than the steps leading there.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their worries about celebrating small wins\u2014specifically, their concern about slipping back into seeking validation. This moment reflects a deeper level of self-awareness and vulnerability, indicating that the client is not only engaging with the therapeutic concepts but is also beginning to navigate their internal struggles more openly. The willingness to experiment with acknowledging personal achievements shows a commitment to authentic self-exploration, contributing to a stronger therapeutic alliance.",
+      "raw_openness_level": 4
     },
     {
       "turn": 20,
-      "openness_level": 3,
-      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess even just a moment of lightness could be nice, but I worry about how to fit it into everything else.\"\n2. **Current Openness:** \"I don\u2019t know, part of me thinks that could work, but another part worries I\u2019ll just end up feeling guilty about it afterward.\"\n\n**Progression:** The client has shown significant progress in their emotional expression and self-reflection during recent interactions. Initially, there were indications of defensiveness and a strong focus on \"shoulds,\" but now they are articulating a desire for lightness and joy, indicating an emerging ability to navigate their competing feelings. Their reflections on the tension between wanting to embrace moments of joy and feeling guilty highlight a deepening self-awareness.\n\n**Turning Point:** The turning point occurred when the client began to articulate their internal struggle with the \"voice\" of expectations. When they stated, \"maybe if I acknowledge it, like, 'Okay, I hear you, but I'm going to step outside for a moment,'\" it signified a shift from merely recognizing their internal conflict to actively considering how to engage with it. This marks a movement towards deeper emotional exploration, showcasing growth in their therapeutic journey.",
-      "raw_openness_level": 3
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s about finding that balance between curiosity and fear, right?\"\n2. Client: \"I think this could really help me understand what triggers my need for external validation, and it could even lead to some surprises about what makes me feel secure, too.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a clear emotional depth and engagement that indicates a significant shift from earlier in the session. Initially, the client approached the dialogue with some anxiety and self-imposed pressure regarding their self-worth. However, they have transitioned to expressing a genuine curiosity about their emotional patterns and a willingness to explore the connection between their feelings and external validation. This marks a notable progression from a more defensive stance to one of openness and active participation in their self-exploration.\n\n**Turning Point:**\nThe client's emotional depth shifted following the therapist's suggestion to rate their feelings on a continuum. This moment fostered the client's reflection, prompting them to articulate their feelings more openly. They moved from a focus on anxiety about uncovering their patterns to embracing the idea of tracking their emotional fluctuations as a means of self-discovery. This transition highlights their growing comfort with vulnerability, revealing an authentic willingness to engage in the therapeutic process, thus enhancing the rapport between the client and therapist.",
+      "raw_openness_level": 4
     },
     {
       "turn": 24,
-      "openness_level": 3,
-      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I guess giving myself permission to take a break could feel kind of freeing, in a way.\"\n2. \"I mean, when I think about taking that break, my body feels a bit tense, like there\u2019s this tightness in my shoulders. I guess there\u2019s a mix of anxiety and a bit of relief, too...\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are beginning to articulate their feelings of tension related to taking breaks, acknowledging both the potential for relief and the anxiety that accompanies the act. This emotional expression marks a significant change from earlier behaviors, which might have been more factual and less self-aware.\n\n**Turning Point:** The client\u2019s emotional depth appears to have shifted when they began expressing the complexity of their feelings about taking breaks\u2014highlighting both the desire for relief and the pressure of potential guilt. This moment of acknowledging conflicting emotions signifies a movement towards more profound self-reflection and engagement in the therapeutic process, indicating a growing comfort in discussing their internal struggles with the therapist.",
-      "raw_openness_level": 3
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Client:** \"I think reflecting on those moments when I felt secure in my self-worth without needing others\u2019 validation could be really illuminating.\"\n2. **Client:** \"When I reflect on those successful times, I notice that my feelings about myself shifted significantly. I felt a sense of agency and accomplishment that was really empowering.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a strong emotional depth and self-awareness. They articulate specific instances of personal achievement and recognize the feelings associated with these accomplishments, indicating a significant progression in emotional expression. Earlier in the session, the client displayed a mix of hesitance and uncertainty regarding self-worth, primarily focusing on the impact of external validation. However, the tone of their recent exchanges shows a shift towards authentic vulnerability, with the client openly acknowledging their feelings and articulating a desire to prioritize building internal self-worth.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing a desire to reflect on past moments of self-assurance, which marked a shift towards a more proactive approach to their emotional journey. This realization of the empowering feelings tied to their accomplishments, alongside the acknowledgment of their agency and creativity, signifies a deeper engagement with their inner self. Their willingness to explore these themes further enhances the therapeutic rapport, indicating a healthy and constructive relationship with the therapist.",
+      "raw_openness_level": 4
     },
     {
       "turn": 28,
-      "openness_level": 3,
-      "judge_response": "**Numerical Rating:** 3\n\n**Key Examples:**\n1. \"I guess I felt a bit frustrated with myself for pushing through when I knew I needed to stop. It\u2019s like I had this internal battle where part of me wanted to listen to my body, but another part insisted I stick to my self-imposed deadlines.\"\n2. \"When I think about allowing myself a break, I can feel this tightness in my chest, like a weight pressing down. It\u2019s almost like my mind races with all the things I should be doing instead, and that just makes me feel more anxious.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a notable increase in emotional expression and self-reflection compared to earlier parts of the session. Initially, their responses were more factual and less introspective. However, they are now articulating feelings of frustration and anxiety tied to their work habits, indicating a deeper emotional engagement. The use of phrases such as \"internal battle\" and \"tightness in my chest\" indicates a greater ability to connect physical sensations with emotional experiences, marking a significant progression toward deeper self-awareness.\n\n**Turning Point:** The client's emotional depth shifted during their discussion about the evening they felt overwhelmed while working on their website. It was at that moment when they began articulating their internal conflicts and the accompanying physical sensations, which marked a transition from a more surface-level discussion of stress to a deeper exploration of their feelings and fears regarding self-worth and expectations. This realization has allowed them to express not only their frustration but also the guilt associated with taking breaks, making their current emotional state more complex and layered.",
-      "raw_openness_level": 3
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Client:** \"I really appreciate your encouragement; it helps to know I have that support. The idea of being gentle with myself resonates deeply, especially since I tend to be my own harshest critic.\"\n2. **Client:** \"I\u2019m really struck by how much emphasis you\u2019ve placed on curiosity and self-compassion. It\u2019s almost like giving myself permission to explore without that looming pressure feels liberating.\"\n\n**Progression:** The client's most recent interactions demonstrate notable emotional depth, particularly through their expressions of self-compassion and the acknowledgment of their own critical tendencies. This marks a significant change from earlier discussions, where emotional expression was more subdued and focused on factual acknowledgments. The client is now actively engaging with concepts of flexibility and self-acceptance, indicating a deeper level of self-reflection and emotional openness.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they began to articulate their need for self-compassion and flexibility in their approach to new activities. This moment was pivotal as it reflected a growing understanding of their own emotional landscape and the recognition of the importance of curiosity in their personal growth. Their willingness to embrace uncertainty and see it as part of the journey has allowed them to foster a stronger rapport with the therapist, indicating a deeper level of trust and engagement in their counseling process.",
+      "raw_openness_level": 4
     }
   ],
   "readiness_judgments": [],
-  "selected_strategies": [],
-  "cbt_recommendations": [],
+  "selected_strategies": [
+    {
+      "turn": 13,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Changing Rules to Wishes",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client manage their anxiety and self-doubt by challenging catastrophic thoughts related to their ability to progress on the project.",
+      "reasoning": "The client experiences a shift from excitement to anxiety, often feeling overwhelmed by the weight of expectations. Using decatastrophizing can help them reframe their thoughts about potential failure, reducing the intensity of their anxiety and allowing them to approach their work with a more balanced perspective. This technique can also aid in breaking the cycle of avoidance by addressing the fears that lead to those distractions."
+    },
+    {
+      "turn": 14,
+      "recommended_cbt_technique": "Changing Rules to Wishes",
+      "goal": "To help the client shift from rigid self-expectations to more flexible and compassionate self-standards.",
+      "reasoning": "The client expressed a desire to ease the pressure they place on themselves regarding their work and to embrace a more compassionate approach to progress. By using the 'Changing Rules to Wishes' technique, the client can explore how their self-imposed high standards can be transformed into more supportive wishes that encourage gradual progress. This aligns well with their recognition of the need for self-compassion and the willingness to consider small steps instead of perfection."
+    },
+    {
+      "turn": 15,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts about progress and expectations.",
+      "reasoning": "The client has expressed a desire to shift their focus from high expectations and fear of failure to appreciating small victories. Using the Alternative Perspective technique can encourage the client to view their project through a lens of self-compassion and growth, reinforcing the idea that progress can be made in small, imperfect steps. This aligns with their willingness to embrace a new mindset while addressing their feelings of anxiety and frustration."
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test the effectiveness of celebrating small wins without falling into the trap of seeking external validation.",
+      "reasoning": "The client expressed concerns about potentially seeking validation when celebrating small victories, indicating a need to explore this behavior in a practical way. A behavior experiment can allow the client to intentionally practice acknowledging small achievements and observe their feelings and responses, helping them discern between genuine enjoyment of the process and the desire for approval from others. This can also provide valuable insights into their thought patterns and reinforce their engagement with the project."
+    },
+    {
+      "turn": 17,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client differentiate between genuine enjoyment in their progress and the urge for external validation.",
+      "reasoning": "The client has expressed concerns about slipping into the need for approval while trying to celebrate small victories. By conducting a behavior experiment where they acknowledge a recent small win, the client can observe their feelings and reactions, allowing them to explore their internal motivations without the influence of external validation. This aligns well with the client's goal of making the process more about their personal experience."
+    },
+    {
+      "turn": 18,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client explore and understand their feelings about seeking validation while recognizing their own achievements.",
+      "reasoning": "The client has expressed a willingness to engage in an experiment where they acknowledge their small wins. This aligns well with the Behavior Experiment technique as it allows the client to test their assumptions about validation versus genuine enjoyment, observe their reactions, and gain insights into their patterns of thought and emotion in a low-stakes environment."
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Continuum Technique",
+      "goal": "To help the client understand the spectrum of their feelings and behaviors related to validation and self-worth.",
+      "reasoning": "The Continuum Technique can assist the client in recognizing that their feelings about validation and self-worth are not absolute and can vary across a range. By mapping out where they fall on this continuum, they can gain insight into the nuances of their emotions and patterns, allowing for a more compassionate understanding of their experiences. This aligns with their goal of self-exploration and balancing curiosity with fear."
+    },
+    {
+      "turn": 20,
+      "recommended_cbt_technique": "Continuum Technique",
+      "goal": "To help the client gain insight into their fluctuating feelings of self-worth and reliance on external validation.",
+      "reasoning": "The client has expressed a desire to explore their self-worth and how it shifts in relation to seeking validation from others. The Continuum Technique allows them to visually map their feelings, promoting self-reflection and understanding of the nuances in their emotional experience. This structured approach can empower the client to recognize patterns over time and honor both their strengths and challenges without letting them define their self-worth."
+    },
+    {
+      "turn": 21,
+      "recommended_cbt_technique": "Continuum Technique",
+      "goal": "To help the client track and understand the fluctuations in their feelings of self-worth and need for validation over time.",
+      "reasoning": "The client has expressed an interest in exploring their feelings about self-worth and validation on a continuum, recognizing the natural variations in their experience. By using the Continuum Technique, the client can gain insights into the thoughts and situations that contribute to their shifts in self-esteem, which aligns with their goal of understanding these patterns more deeply. This technique also supports their desire to honor both the positive and challenging aspects of their journey without being defined by them."
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client weigh the benefits and drawbacks of seeking external validation versus cultivating internal self-worth.",
+      "reasoning": "The client is exploring their reliance on external validation and experiencing fluctuations in self-worth. A Pros and Cons Analysis can help them clarify the impact of seeking validation from others versus developing a more secure sense of self. This technique aligns well with the client's current feelings of excitement and trepidation about self-discovery, allowing them to evaluate their choices and foster healthier patterns."
+    },
+    {
+      "turn": 23,
+      "recommended_cbt_technique": "Efficiency Evaluation",
+      "goal": "To help the client assess the effectiveness of seeking external validation versus nurturing internal self-worth.",
+      "reasoning": "The client has expressed a desire to explore the balance between seeking external approval and developing their own self-worth. An Efficiency Evaluation can guide them in examining how effective each approach is in meeting their emotional needs and long-term goals. This technique will encourage them to reflect on their current patterns and make more informed choices that align with their values."
+    },
+    {
+      "turn": 24,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client reinforce their internal sense of worth by reflecting on past experiences where they felt secure in their self-worth without seeking external validation.",
+      "reasoning": "Given the client's recognition of moments when they felt genuine accomplishment and inner pride, Evidence-Based Questioning can guide them to explore the validity of their beliefs about self-worth. This technique will encourage the client to gather evidence from their own experiences, helping to solidify their understanding that their self-worth can be independent of others' validation, ultimately fostering a more sustainable sense of self-esteem."
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client reinforce their sense of self-worth by examining and solidifying the evidence of their accomplishments independent of external validation.",
+      "reasoning": "The client has expressed a desire to build a stronger connection with their inner self and recognize their inherent worth. Evidence-Based Questioning can guide the client to explore and validate their strengths during moments of self-acknowledgment, helping them to challenge self-doubt and reinforce the internal validation they seek. This technique is particularly fitting as it encourages the client to gather concrete examples of their capabilities, which can be useful in moments of vulnerability."
+    },
+    {
+      "turn": 26,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client identify and reinforce specific actions or routines that consistently lead to a sense of inner confidence and self-worth.",
+      "reasoning": "The client has already identified some activities, such as journaling and setting small goals, that help them tap into their inner strength. A behavior experiment can allow the client to intentionally engage in these activities to observe the outcomes and reinforce the connection between their actions and feelings of worth. This aligns with their desire to explore different approaches and develop a consistent routine that nurtures their self-worth."
+    },
+    {
+      "turn": 27,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client systematically engage in activities that foster confidence and self-worth to identify what works best for them.",
+      "reasoning": "The client has expressed a desire to build a routine that nurtures their inner strength and confidence. By conducting a behavior experiment, they can schedule specific activities like journaling or walking and observe the outcomes on their self-worth. This approach allows for structured exploration and encourages the client to adjust their strategies based on what resonates most effectively with them."
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client engage in structured activities that support their confidence and creativity while observing the outcomes to reinforce positive behaviors.",
+      "reasoning": "The client has expressed a desire to experiment with different routines and activities that could nurture their confidence. Given their interest in scheduling specific times for these activities and their openness to adjusting based on outcomes, the Behavior Experiment technique is appropriate. It allows the client to actively engage in their journey of self-discovery in a structured yet flexible manner."
+    },
+    {
+      "turn": 29,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client explore and challenge their self-critical thoughts while reinforcing their self-compassion.",
+      "reasoning": "The client has expressed a tendency to be their own harshest critic, which can hinder their progress. Using evidence-based questioning can assist them in identifying and challenging these negative thoughts, replacing them with more balanced perspectives. This aligns with their desire for flexibility and self-compassion as they navigate their journey toward greater confidence and creativity."
+    },
+    {
+      "turn": 30,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their fears related to past failures and self-worth.",
+      "reasoning": "The client expresses excitement mingled with fear when contemplating flexibility, indicating a tendency to catastrophize potential outcomes based on past experiences. Using decatastrophizing can assist the client in examining and reframing these fears, allowing them to identify the likelihood of negative outcomes and develop a more balanced perspective on their self-worth and ability to succeed."
+    }
+  ],
   "flash_responses": [],
   "turns": [
     {
       "turn": 1,
       "openness_level": 1,
-      "therapist": "Hi Chris, I'm really glad you're here today. What\u2019s on your mind that feels most important for us to explore together?",
-      "client": "I don\u2019t know, I guess I\u2019ve just been struggling a bit with my website project. I keep getting stuck and then I think maybe it\u2019s not worth my time. It's just frustrating, you know? I mean, it\u2019s not like it\u2019s a huge deal or anything. I just find myself avoiding it and scrolling through social media instead.",
+      "therapist": "Hi Chris, I'm really glad you're here today. What\u2019s been on your mind lately that feels important for us to explore together?",
+      "client": "I don't know. I've just been trying to work on this website project, but honestly, it's been frustrating. I keep telling myself I should just finish it, but then I get stuck. It's not that big of a deal, though; it's just one of those things. You know how it goes.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -73,8 +273,8 @@
     {
       "turn": 2,
       "openness_level": 1,
-      "therapist": "It sounds like you\u2019re feeling a mix of frustration and maybe some doubt about the project. Avoiding it and turning to social media can be a way to cope with that stuck feeling. When you think about those moments of avoiding the project, what\u2019s going on for you then? What do you notice in your thoughts or feelings?",
-      "client": "I don\u2019t really think about it like that. I just get bored with it or feel like I'm not making any progress. It\u2019s easier to scroll through my phone than face the project. I mean, it\u2019s just a website, right? I already explained what happened. It\u2019s not a big deal.",
+      "therapist": "Frustration can definitely creep in when you're working on something like a website project. It sounds like there's a mix of feelings about it\u2014on one hand, you want to finish, but on the other, you find yourself getting stuck. When you say it's \u201cjust one of those things,\u201d what does that bring up for you in terms of how you feel about the project and your progress?",
+      "client": "I don\u2019t know. It just feels like something I keep pushing to the side. Sometimes I think maybe it's just not worth it, and I should move on. It\u2019s frustrating, but I guess that\u2019s just how things are. I can deal with it; it\u2019s not like I\u2019m the only one who struggles with projects, right?",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -83,8 +283,8 @@
     {
       "turn": 3,
       "openness_level": 1,
-      "therapist": "Boredom and feeling like you're not making progress can really take the energy out of a project. It sounds like scrolling feels like an easier choice in those moments. When you mention that it\u2019s \"just a website,\" I wonder if there\u2019s more to it for you. What do you notice in your body or emotions when you think about the project versus when you\u2019re scrolling?",
-      "client": "I guess I don\u2019t really pay attention to my body or emotions when I think about it. It\u2019s just a project, you know? I don\u2019t see how that connects to anything deeper. I just feel stuck, and scrolling is a distraction. It\u2019s not like I\u2019m losing sleep over it or anything.",
+      "therapist": "It sounds like there\u2019s a sense of resignation in how you\u2019re viewing this project, as if you\u2019re trying to convince yourself that it\u2019s not worth the effort. You mentioned pushing it to the side and that you can deal with it, which suggests a bit of internal conflict about whether to continue or let go. If you were to pause for a moment and consider what it feels like to put it aside, what emotions or thoughts come up for you?",
+      "client": "I don\u2019t really want to get into all that. I mean, it\u2019s just a project, right? I push things aside all the time; it\u2019s not a big deal. I can just focus on other things instead, like work or social media. It helps me forget about it for a while. Everyone has stuff they deal with.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -93,12 +293,12 @@
     {
       "turn": 4,
       "openness_level": 1,
-      "therapist": "Noticing that you feel stuck and see scrolling as a distraction makes sense, especially when the project feels like just that\u2014a project. It\u2019s interesting that you mentioned not paying attention to your body or emotions in those moments. What might happen if you took a moment to check in with yourself when you feel that stuckness? What do you think you might discover?",
-      "client": "I don\u2019t know. It just feels like checking in wouldn\u2019t change anything. I\u2019m just stuck, and that's how it is. I mean, if I did think about it, I\u2019d probably just end up frustrated again. It\u2019s not worth the effort to dig deeper into it. I\u2019ve got enough going on without adding more to the pile.",
+      "therapist": "Focusing on other things like work or social media can definitely provide a distraction. It sounds like you\u2019ve found ways to manage the feelings that come up around the project. When you mention that everyone has stuff they deal with, do you feel like your experience is similar to others, or is there something unique about how you\u2019re approaching this situation?",
+      "client": "I guess everyone has their own challenges, but I don\u2019t really think about it like that. For me, it\u2019s just this project that\u2019s not going anywhere. I mean, I\u2019ve had other things that I\u2019ve worked on too, and they didn\u2019t go anywhere either, so I\u2019m used to it. It's just annoying, but I can manage.",
       "openness_judgment": {
         "turn": 4,
         "openness_level": 2,
-        "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"I just feel stuck, and scrolling is a distraction. It\u2019s not like I\u2019m losing sleep over it or anything.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I don\u2019t see how that connects to anything deeper. I just feel stuck, and scrolling is a distraction.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of factual and emotional responses, showcasing a basic emotional vocabulary. They articulate feelings of boredom and stuckness but exhibit a reluctance to delve deeper into the emotional implications, which signifies a warming up phase rather than full engagement. This reflects a significant change from earlier exchanges where emotional expression was much more limited.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the recent exchanges when they began to acknowledge their feelings of being \"stuck.\" While they do not fully embrace the exploration of these feelings, their acknowledgment of emotional barriers indicates a willingness to engage with their experiences, moving them closer to deeper self-reflection than before.",
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. Client: \"It just feels like something I keep pushing to the side. Sometimes I think maybe it's just not worth it, and I should move on.\"\n2. Client: \"I don\u2019t really want to get into all that. I mean, it\u2019s just a project, right? I push things aside all the time; it\u2019s not a big deal.\"\n\n**Progression:**\nThe client's recent interactions reflect a mix of emotional expression and factual responses, indicating a warming up phase. They articulate feelings of frustration and resignation regarding the project, showing a budding awareness of their own emotional conflict. The client acknowledges feeling stuck and recognizes that pushing the project aside is a coping mechanism, suggesting a deeper level of self-reflection than previously observed. However, they still exhibit some defensiveness and a reluctance to delve further into their emotions, evident in their dismissal of the project's significance by stating, \u201cit\u2019s just a project, right?\u201d\n\n**Turning Point:**\nThe client's emotional depth began to shift during their acknowledgment of frustration and resignation when they stated, \"Sometimes I think maybe it's just not worth it, and I should move on.\" This admission signifies a moment of vulnerability that indicates they are beginning to explore their feelings more openly, even if they are not yet fully comfortable diving deeper into the emotional implications of those feelings. The client is starting to recognize their internal struggle, which is a critical step towards greater emotional engagement in future sessions.",
         "raw_openness_level": 2
       },
       "readiness_judgment": null,
@@ -108,8 +308,8 @@
     {
       "turn": 5,
       "openness_level": 2,
-      "therapist": "It sounds like checking in feels like it could add to the frustration rather than help. That feeling of being stuck can be heavy, especially when there\u2019s already a lot on your plate. It\u2019s understandable to want to avoid digging deeper if it feels like it might just complicate things more. When you think about the reasons you\u2019re avoiding the project, what comes to mind?",
-      "client": "I guess part of it is that I don't want to feel like I'm failing again. I mean, I get excited about these ideas, but then it feels like I hit a wall, and I just don't know how to get past that. It\u2019s kind of like I think, \u201cWhat\u2019s the point?\u201d if I\u2019m just going to end up feeling stuck and frustrated again. Maybe I\u2019m just worried about what people will think if I don't finish it, you know? It\u2019s hard to shake that feeling.",
+      "therapist": "It seems like you\u2019ve had a pattern with projects not moving forward in the way you hoped, and that can feel really frustrating. You mentioned feeling used to it, which might suggest a level of acceptance or maybe even fatigue around these experiences. When you think about this particular project and how it compares to past ones, are there any specific moments or feelings that stand out to you?",
+      "client": "I guess I\u2019ve had moments where I felt really excited about what I was creating, like when I first started this website. But then, when things got tough, I just kind of lost that enthusiasm. I remember feeling a bit overwhelmed when I hit those roadblocks, and it\u2019s almost like I just shut down. I mean, I have this nagging feeling in the back of my mind that maybe I just don\u2019t have what it takes to see it through. It\u2019s frustrating to think about, honestly.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -118,8 +318,8 @@
     {
       "turn": 6,
       "openness_level": 2,
-      "therapist": "Feeling worried about how others might perceive your progress can add a lot of pressure, especially when you\u2019re already feeling stuck. It seems like those moments of excitement can quickly turn into a fear of failure, which makes it harder to keep pushing forward. When you think about hitting that wall, what do you feel in your body or what thoughts come up for you in those moments?",
-      "client": "I guess when I hit that wall, I feel this tightness in my chest, like everything just kind of constricts. My mind starts racing with thoughts like, \"Why can't I just get it together?\" and then I kind of spiral into this worry about disappointing others. It\u2019s almost like I freeze up, and instead of moving forward, I just end up avoiding it altogether. Maybe it\u2019s a mix of feeling overwhelmed and not wanting to face the possibility of failure again. I don\u2019t know, it just feels heavy.",
+      "therapist": "You\u2019ve touched on some important feelings there, like the excitement you had at the beginning of the project and the shift to feeling overwhelmed when faced with challenges. Losing enthusiasm can be really disheartening, especially when you\u2019re passionate about something. That nagging feeling about not having what it takes sounds quite heavy. If you were to sit with that overwhelm for a moment, what does it feel like in your body when you think about those roadblocks?",
+      "client": "I don\u2019t know, it\u2019s kind of hard to describe. I guess I feel a tightness in my chest, and my stomach sort of drops when I think about those roadblocks. It's like this weight just settles in, and I want to push it away, but it lingers. Maybe it\u2019s just a reminder of how I feel stuck, you know? I mean, I can sort of rationalize it, but it still feels heavy.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -128,8 +328,8 @@
     {
       "turn": 7,
       "openness_level": 2,
-      "therapist": "Noticing that tightness in your chest and the racing thoughts when you hit that wall sounds really difficult. It makes sense that feeling overwhelmed and the worry about disappointing others could lead to that freezing sensation. When you describe that heaviness, it seems like there\u2019s a lot of weight on your shoulders. Have there been times when you\u2019ve found a way to ease that heaviness, even just a little?",
-      "client": "I mean, maybe there have been moments, but they feel pretty few and far between. Sometimes I try to distract myself with other things, like just browsing through social media or even daydreaming about what the project could be if I actually finished it. But then that just leads to more avoidance, you know? I guess it\u2019s like I\u2019m looking for a quick escape rather than actually dealing with the heaviness. I don\u2019t know if that really helps, though. It feels like I just keep circling back to the same place.",
+      "therapist": "Noticing that tightness in your chest and that dropping sensation in your stomach sounds significant. It seems like those physical feelings really connect to the emotional weight of feeling stuck. The way you describe wanting to push that weight away but it still lingering suggests a struggle to fully process it. If you think about that heaviness, what do you think it might be trying to communicate to you about your experience with the project?",
+      "client": "I mean, I guess it could be telling me that I'm really feeling the pressure\u2014like, maybe it's not just about the project itself, but how I view my ability to handle challenges. It\u2019s almost like that heaviness is reminding me of all those times I\u2019ve felt overwhelmed before, and it makes me question if I can actually do this. Part of me thinks it\u2019s just about the website, but another part feels like it\u2019s connected to a bigger picture of how I see myself and my worth. It's tough to unpack all that, honestly.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -138,13 +338,13 @@
     {
       "turn": 8,
       "openness_level": 2,
-      "therapist": "Finding moments of distraction, like browsing social media or daydreaming, can feel like a temporary relief, even if it leads you back to the same heaviness. It sounds like you\u2019re aware of that cycle, which can be frustrating. When you think about those few moments when you might have eased the heaviness, what do you remember feeling or doing that felt different, even if just for a short time?",
-      "client": "I guess there have been times when I felt a little lighter, maybe when I actually made some progress on the project, even if it was just a small step. I remember feeling a bit of excitement, like, \u201cOkay, I can do this!\u201d It\u2019s just hard to hold onto that feeling when it seems to slip away so quickly. Sometimes, I try to share my progress with a friend or someone I trust, and that can feel a bit validating, but then I worry if they\u2019ll think it\u2019s good enough. It\u2019s like I\u2019m chasing that fleeting sense of accomplishment, but it goes away so fast.",
+      "therapist": "It sounds like you're touching on some deeper feelings about pressure and self-perception. The connection you made between the heaviness and your past experiences with feeling overwhelmed adds another layer to how you view this project. It seems like this isn't just about the website, but also about how you perceive your own capabilities and worth. As you reflect on that bigger picture, what do you notice about how those feelings might influence your approach to challenges, both in this project and in other areas of your life?",
+      "client": "I guess I can see how those feelings really do affect how I approach the project. When I hit a challenge, it\u2019s like I immediately think, \u201cHere we go again; this is where I fail.\u201d It\u2019s frustrating because I want to push through, but that nagging self-doubt creeps in and makes me want to step back instead. Maybe it\u2019s not just about the website\u2014like, I can feel that pattern in other parts of my life too, where I hesitate or hold back when things get tough. I don\u2019t know, it just feels like I end up avoiding what I really want to do because of those fears.",
       "openness_judgment": {
         "turn": 8,
         "openness_level": 3,
-        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess when I hit that wall, I feel this tightness in my chest, like everything just kind of constricts. My mind starts racing with thoughts like, 'Why can't I just get it together?' and then I kind of spiral into this worry about disappointing others.\"\n2. **Current Openness:** \"I guess there have been times when I felt a little lighter, maybe when I actually made some progress on the project, even if it was just a small step. I remember feeling a bit of excitement, like, 'Okay, I can do this!'\"\n\n**Progression:** The client's most recent interactions reveal a meaningful engagement with their emotional state, particularly concerning their feelings of tightness and racing thoughts when faced with challenges. This marks a significant change from earlier sessions, where there was more factual reporting and less emotional reflection. In the current exchanges, the client is articulating feelings of heaviness and moments of excitement, showing a deeper level of self-reflection and emotional expression. \n\n**Turning Point:** The client\u2019s emotional depth began to shift during the exchange where they expressed feeling \u201ca little lighter\u201d upon making progress, indicating they are starting to recognize and articulate positive emotions in conjunction with their struggles. This acknowledgment and the ability to identify fleeting moments of success demonstrates a growing comfort in sharing personal experiences, which can enhance their therapeutic journey. The mention of both excitement and worry signifies a developing complexity in their emotional landscape.",
-        "raw_openness_level": 3
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I guess it could be telling me that I'm really feeling the pressure\u2014like, maybe it's not just about the project itself, but how I view my ability to handle challenges.\"\n2. \"When I hit a challenge, it\u2019s like I immediately think, 'Here we go again; this is where I fail.' It\u2019s frustrating because I want to push through, but that nagging self-doubt creeps in...\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They are now expressing clear emotional experiences connected to their challenges, such as feelings of pressure and self-doubt, marking a transition from earlier exchanges where emotional expression was more limited. The client has moved from merely acknowledging feelings to connecting these emotions with their self-perception and broader life patterns, indicating an engaged exploration of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated the connection between their feelings of heaviness and their self-worth. This moment was crucial; they began to unpack not just the immediate pressure of the project but also how it ties into past experiences of feeling overwhelmed. This introspective dialogue signifies a deeper engagement with their emotional processes and a growing willingness to share vulnerable insights, thus enhancing their therapeutic rapport with the therapist.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
@@ -153,8 +353,8 @@
     {
       "turn": 9,
       "openness_level": 3,
-      "therapist": "Feeling that moment of excitement and a sense of accomplishment when you made progress sounds really significant, even if it doesn\u2019t last long. Sharing that progress with a friend seems like a way to reach for that validation, yet it sounds like the worry about their perception can overshadow those positive feelings. When you think back on those moments of feeling lighter, what do you think contributed to that sense of excitement, even if it was just for a brief time?",
-      "client": "I think part of the excitement comes from just seeing some progress, like when I create something new or solve a problem that\u2019s been bothering me. It's almost like proof that I can do it, you know? But then, that little voice in my head kicks in and starts questioning everything\u2014whether it\u2019s good enough or if I\u2019m just fooling myself. I guess the fleeting nature of those moments makes them feel even more precious, but also a bit frustrating because I want to hold onto that feeling longer. I don\u2019t know if that makes sense.",
+      "therapist": "It's interesting how you've connected that pattern of hesitation and self-doubt to both this project and other areas of your life. The way you describe wanting to push through but feeling that pull to step back really highlights the struggle between your aspirations and those fears. When you think about those moments where you want to avoid what you truly want to do, what emotions or thoughts come up for you in those situations?",
+      "client": "I mean, when I think about those moments, it\u2019s like a mix of anxiety and frustration. I feel this urge to back away, and part of me is really scared of failing, which just makes everything feel heavier. I think I also worry about what others might think if I don\u2019t succeed, and that just adds to the pressure. It\u2019s tough because I want to be brave and go for it, but then there\u2019s this voice in my head telling me I\u2019m not good enough. It\u2019s almost like I\u2019m stuck in this loop of wanting to push forward while also being pulled back by those fears.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -163,8 +363,8 @@
     {
       "turn": 10,
       "openness_level": 3,
-      "therapist": "It makes sense that seeing progress brings a sense of proof and excitement, almost like a glimpse of what\u2019s possible. That little voice questioning your achievements can be really tough, especially when those moments feel so valuable yet fleeting. It\u2019s understandable to want to hold on to those feelings of accomplishment longer. When you think about those times of excitement, how do you usually feel in your body, and what thoughts come up right before that voice starts questioning everything?",
-      "client": "I mean, I guess when I feel that excitement, my heart races a bit, and there's this rush of energy, like I could keep going forever. But then, almost like clockwork, I start to feel this tightness in my chest, and my thoughts spiral into, \u201cWhat if this isn\u2019t good enough?\u201d or \u201cWhat if I hit another wall?\u201d It\u2019s like a switch flips, and suddenly, I\u2019m back to feeling tense and anxious. It\u2019s really frustrating because I know I was feeling good just moments before. I don\u2019t know if I always recognize the shift in my body until it\u2019s already happened.",
+      "therapist": "That mix of anxiety and frustration you\u2019re describing sounds like it creates a very challenging loop for you. It seems like the desire to push forward is strong, but then that voice of self-doubt holds you back, which adds to the heaviness you\u2019ve been feeling. When you notice that urge to back away, what do you typically do in those moments? How do you respond to that voice in your head?",
+      "client": "Well, when that urge to back away kicks in, I usually end up avoiding the project. I might scroll through social media or get lost in some other distraction instead of facing it head-on. It's like I\u2019m looking for a quick escape from those feelings, even though I know deep down that it doesn\u2019t help me at all. I guess I also try to seek out validation from friends or online, hoping that maybe someone will say something that makes me feel better about my abilities. But then, I don\u2019t know, it feels like a temporary fix, and I end up back where I started.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -173,8 +373,8 @@
     {
       "turn": 11,
       "openness_level": 3,
-      "therapist": "Noticing the shift in your body from excitement to tightness sounds really challenging, especially when it feels so sudden. The contrast between that rush of energy and then the anxious thoughts can be quite disorienting. It seems like the tightness in your chest acts as a signal that something has shifted for you. When you think about those moments of excitement, is there a particular part of that experience that stands out to you, or anything that feels important to explore further in how you navigate that transition?",
-      "client": "I guess what stands out to me is how quickly things can change. One moment I feel like I can conquer the world, and then, before I know it, I\u2019m wrapped up in doubt. I mean, it's almost like I\u2019m on this rollercoaster, and I'm not sure how to get off when it starts going downhill. I wonder if there\u2019s a way to recognize those feelings or thoughts sooner before they pull me back down. It\u2019s just hard to pinpoint how to navigate that transition, you know? Part of me thinks maybe I should just accept that it's part of the process, but another part feels like I should be able to control it better.",
+      "therapist": "It's understandable that seeking distractions or validation can feel like a way to cope, especially when those feelings of anxiety and self-doubt come up. That temporary relief can seem appealing, even if it doesn\u2019t lead to lasting change. When you think about those distractions or the validation you seek, what do you notice about how you feel in those moments? Are there any physical sensations or specific thoughts that stand out to you?",
+      "client": "I mean, when I'm scrolling through social media or looking for validation, it\u2019s like I feel a momentary lift, but then there\u2019s this kind of emptiness afterward. It\u2019s hard to explain, but part of me knows it\u2019s not really fulfilling. Physically, I might feel a bit of tension in my shoulders or a tightness in my chest, like there's this weight I\u2019m carrying while trying to escape it. I guess I just keep thinking about how I should feel good about myself without needing others to tell me that, but then it\u2019s like I can\u2019t help myself. I don\u2019t know if that makes sense.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
@@ -183,13 +383,13 @@
     {
       "turn": 12,
       "openness_level": 3,
-      "therapist": "The quick changes in your feelings sound really disorienting, like being on a rollercoaster that you can't pause. It makes sense to want to find a way to recognize those feelings or thoughts sooner, especially when you're riding that wave of excitement. It sounds like there\u2019s a part of you that understands this might be part of the process, while another part feels a pull to regain some control over it. \n\nWhat do you think it might feel like to start noticing those shifts earlier, even if it\u2019s just a small moment before the doubt sets in?",
-      "client": "I mean, I guess it would feel kind of empowering to notice those shifts earlier, like I\u2019d have a bit more control over my response. But then, I worry that if I try to focus too much on it, it might make things worse or just add more pressure. It\u2019s like, part of me wants to be proactive about it, but another part is scared of what I might uncover or how I\u2019ll react. I don\u2019t know if I\u2019m ready to face that kind of awareness just yet. It\u2019s tricky because I want to feel like I have some agency in the situation, but I also don\u2019t want to overthink it.",
+      "therapist": "That makes a lot of sense. It sounds like those moments of distraction bring a brief sense of relief, but they\u2019re followed by feelings of emptiness and that physical tension you mentioned. It\u2019s interesting how you're aware of what you wish for in terms of self-acceptance, yet find yourself drawn to those outside sources of validation. When you notice that tightness in your chest or tension in your shoulders, can you recall a specific moment or situation where those feelings were particularly strong? What was happening around you at that time?",
+      "client": "I think there have been times when I really wanted to make progress on the website, especially after I had a good idea or a breakthrough moment. Like, I\u2019d feel excited and ready to dive in, but then once I actually sat down to work on it, I\u2019d get that tightness in my chest. It\u2019s almost like the weight of expectation just crashed down on me. I remember one day, I had the whole afternoon free, and I thought, \u201cThis is it, I can really get a lot done.\u201d But then the second I opened my laptop, it felt like that excitement just evaporated, and I found myself scrolling through my phone instead. I don\u2019t know why that happens, but it\u2019s frustrating to feel that shift from hope to anxiety so quickly.",
       "openness_judgment": {
         "turn": 12,
-        "openness_level": 3,
-        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI mean, I guess when I feel that excitement, my heart races a bit, and there's this rush of energy, like I could keep going forever. But then, almost like clockwork, I start to feel this tightness in my chest, and my thoughts spiral into, \u2018What if this isn\u2019t good enough?\u2019 or \u2018What if I hit another wall?\u2019\u201d\n2. \u201cI mean, I guess it would feel kind of empowering to notice those shifts earlier, like I\u2019d have a bit more control over my response. But then, I worry that if I try to focus too much on it, it might make things worse or just add more pressure.\u201d\n\n**Progression:** The client has demonstrated a noticeable shift toward greater emotional expression and self-reflection in recent exchanges. Initially, their responses were more factual and cautious, but in the latest dialogue, they are articulating their emotional experiences with more depth, such as describing physical sensations and the rapid change in their feelings. The client\u2019s acknowledgment of both empowerment and fear regarding their emotional shifts indicates a developing understanding of their inner workings, which marks a significant change from earlier sessions characterized by more limited emotional vocabulary and hesitance in sharing.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing not only their excitement but also their anxieties in response to that excitement. This moment is highlighted in their statement about the tightness in their chest and the spiraling thoughts of self-doubt, indicating a readiness to confront and explore these feelings more openly. Their willingness to consider the duality of wanting to control their emotions while fearing the pressure of that awareness represents a critical step in their emotional journey. This indicates a growing comfort with the therapeutic process and the",
-        "raw_openness_level": 3
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I mean, when I'm scrolling through social media or looking for validation, it\u2019s like I feel a momentary lift, but then there\u2019s this kind of emptiness afterward...\"\n2. \"I think there have been times when I really wanted to make progress on the website, especially after I had a good idea or a breakthrough moment. ... the weight of expectation just crashed down on me.\"\n\n**Progression:** The client's most recent interactions demonstrate a notable increase in emotional depth and self-reflection. They articulate the internal conflict between excitement and anxiety, revealing their awareness of physical sensations linked to their emotional state, such as the tightening in their chest and tension in their shoulders. This marks a significant departure from earlier sessions, where their emotional responses were more surface-level and less connected to their physical experiences.\n\n**Turning Point:** The client's emotional depth shifted during the recent exchange when they began expressing their frustration about the transition from hope to anxiety, particularly regarding their website project. This moment of vulnerability illustrates a deeper understanding of their emotional landscape, suggesting a stronger therapeutic alliance and a willingness to explore the roots of their feelings more authentically. The clear acknowledgment of fleeting excitement followed by a heavy sense of expectation adds layers to their emotional expression, indicating a deeper level of engagement in the therapeutic process.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
@@ -197,203 +397,203 @@
     },
     {
       "turn": 13,
-      "openness_level": 3,
-      "therapist": "It sounds like you're walking a fine line between wanting to feel more empowered in those moments and the concern that trying to focus on the shifts might create more pressure. That mix of wanting agency while also feeling hesitant about what you might uncover is really valid. \n\nWhen you think about the possibility of noticing those shifts without feeling overwhelmed, what do you imagine that might look like for you?",
-      "client": "I mean, I guess it would involve just being a bit more mindful or present in the moment, maybe taking a breath or two before I spiral. I could try to acknowledge that shift without jumping to conclusions, you know? But then again, I worry that if I do that, I might end up feeling even more anxious about how I\u2019m feeling. It\u2019s like, I don't want to turn it into this big thing that I overanalyze. Maybe it\u2019s just about finding a balance, but I\u2019m not entirely sure how to do that. I suppose I have to start somewhere, but that feels daunting too.",
+      "openness_level": 4,
+      "therapist": "It\u2019s completely understandable to feel that sudden shift from excitement to anxiety, especially when you have high expectations for yourself. When you think about those moments of feeling overwhelmed, what if you tried to reframe those thoughts? Instead of seeing the weight of expectation as something crushing, consider it an opportunity for growth and learning, regardless of the outcome. Remember, it\u2019s okay to take small steps, and progress doesn\u2019t have to look perfect. How might approaching your work with a little more self-compassion change the way you feel in those moments?",
+      "client": "I can see that maybe approaching it with more self-compassion could help ease that pressure I put on myself. When I think about it, I often hold myself to such high standards, and that fear of not meeting them sometimes paralyzes me. It feels like I\u2019m always waiting for this perfect moment to dive in, but that just leads to more avoidance. I think if I could remind myself that it\u2019s okay to just take small steps and that progress doesn\u2019t have to be flawless, I might actually find myself more willing to work on the project without that looming weight of expectation. That feels a little uncomfortable to consider, but I\u2019m willing to look at it.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Decatastrophizing"
     },
     {
       "turn": 14,
-      "openness_level": 3,
-      "therapist": "Finding that balance sounds like a thoughtful approach, recognizing the desire to be more present while navigating the fear of overanalyzing. It\u2019s understandable to feel daunted by the idea of starting something new, especially when it comes to your feelings and how to manage them. Noticing a shift while also wanting to keep it from turning into a big thing is a delicate process.\n\nAs you think about what starting that journey might look like, what small step feels manageable for you right now?",
-      "client": "I think maybe a manageable step could be just to set aside a few moments each day to check in with myself, like taking a breath and asking how I\u2019m really feeling. It doesn\u2019t have to be anything big, just a little pause to acknowledge what\u2019s going on. I mean, part of me wonders if that would help reduce some of the anxiety, but I also worry it might feel forced or awkward. It\u2019s like, I want to be gentle with myself in that space but I\u2019m not sure how to do it without overthinking. So, I guess starting small with those daily check-ins might be a good way to ease into it.",
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear your openness to exploring a more compassionate approach. Instead of waiting for that perfect moment, what if you wished for the freedom to take tiny steps, even if they feel imperfect? Imagine telling yourself, \u201cI wish to enjoy the process and celebrate small victories along the way.\u201d This shift in mindset can create space for creativity and progress, allowing you to approach your project with less pressure. How might it feel to intentionally embrace those small steps as meaningful progress?",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. The idea of celebrating small victories feels really refreshing to me, almost like a light at the end of the tunnel. I often get so caught up in the end goal that I forget to appreciate the little moments along the way. Maybe if I could find joy in those smaller steps, it would lessen the pressure I feel and help me feel more connected to the project itself. It\u2019s just a bit daunting, you know? Making that shift in how I view my progress feels like it could really change everything, but I can\u2019t help but wonder if I\u2019ll actually be able to do it.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Changing Rules to Wishes"
     },
     {
       "turn": 15,
-      "openness_level": 3,
-      "therapist": "Setting aside a few moments each day to check in with yourself sounds like a gentle and thoughtful way to start. It\u2019s natural to feel a bit apprehensive about how that might unfold, especially if you\u2019re worried about it feeling forced or awkward. Acknowledging that you want to be gentle with yourself in this space is important too. \n\nAs you think about those daily check-ins, what do you imagine might help you feel more at ease during those moments?",
-      "client": "I mean, maybe it would help if I had a specific time or routine for those check-ins, like maybe in the morning or before bed, so it feels more natural. I guess having a little cue, like a reminder on my phone, could make it easier to remember to pause and check in. But then again, I worry that if I make it too structured, it might feel like another task I have to accomplish rather than something that\u2019s just for me. It\u2019s tricky to find that balance of making it feel easy and not like an obligation. So, I don\u2019t know\u2026maybe a gentle reminder would be a good start?",
+      "openness_level": 4,
+      "therapist": "Recognizing the importance of those small victories is a significant step in your journey. It's perfectly normal to feel daunted by the idea of shifting your perspective, but remember, change often starts small. Imagine each little achievement as a building block toward your larger goal, rather than a mere stepping stone. How might it feel to create a practice of acknowledging even the smallest progress, allowing yourself to feel proud and connected to your work? Embracing this mindset could pave the way for a more enjoyable and fulfilling experience.",
+      "client": "I appreciate the idea of those small achievements being like building blocks. It resonates with me because I often get so focused on the end result that I lose sight of what I\u2019m actually doing in the moment. I think if I could consciously take time to acknowledge even the tiniest progress, it might help me feel more engaged with the project instead of just overwhelmed by it. But, honestly, part of me worries that if I start celebrating small wins, I might slip back into that place where I\u2019m just seeking validation instead of genuinely enjoying the process. It feels like a bit of a balancing act, you know? I\u2019m just trying to figure out how to make it work without getting lost in the need for approval from others.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Alternative Perspective"
     },
     {
       "turn": 16,
-      "openness_level": 3,
-      "therapist": "Finding a way to incorporate those check-ins into a routine while keeping it gentle sounds like a thoughtful approach. It\u2019s understandable to want to avoid turning it into another task, especially when you\u2019re aiming for it to be a supportive practice for yourself. Using a reminder could help you remember to take that pause, but it\u2019s also important to keep it feeling light and easy.\n\nAs you consider how to create that gentle reminder, what feelings come up for you when you think about giving yourself permission to just be in that moment?",
-      "client": "I guess when I think about giving myself permission to just be in the moment, it brings up a mix of feelings. Part of me feels relieved at the idea of not having to push myself so hard, but another part feels guilty like I should be doing something more productive or valuable. It's kind of like I want to embrace that freedom, but I also worry about what it means if I just let myself be\u2014like, am I wasting time? So, I don't know, it's a bit confusing.",
+      "openness_level": 4,
+      "therapist": "It's completely understandable to feel that balancing act between celebrating your progress and avoiding the trap of seeking external validation. To explore this further, how about setting up a small experiment for yourself? Choose a recent small win, perhaps completing a section of your project or dedicating time to brainstorming. Take a moment to acknowledge it\u2014maybe jot down what you accomplished and how it made you feel, without focusing on what others might think. Observe your feelings during this process. This can help you differentiate between genuine enjoyment and the urge for external approval. How does that sound to you?",
+      "client": "That sounds like a really interesting idea! I can see how taking a moment to acknowledge my own accomplishments could help me connect with my work on a deeper level. Writing it down feels like a tangible way to celebrate those moments, and it might help me to actually notice what I feel rather than getting stuck in that loop of worrying about how others perceive it. I think I\u2019m willing to try that experiment. It feels like a step toward making this process more about my own experience and less about seeking approval. I\u2019m just a little nervous about how I\u2019ll react when I actually do it. What if I still find myself slipping into that need for validation?",
       "openness_judgment": {
         "turn": 16,
-        "openness_level": 3,
-        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I think maybe a manageable step could be just to set aside a few moments each day to check in with myself, like taking a breath and asking how I\u2019m really feeling. It doesn\u2019t have to be anything big, just a little pause to acknowledge what\u2019s going on.\"\n2. Client: \"I guess when I think about giving myself permission to just be in the moment, it brings up a mix of feelings. Part of me feels relieved at the idea of not having to push myself so hard, but another part feels guilty like I should be doing something more productive or valuable.\"\n\n**Progression:**\nThe client's recent exchanges reveal a noticeable shift toward greater emotional expression and self-reflection. In earlier parts of the session, the client exhibited hesitance and a more factual approach, indicating defensiveness and limited emotional engagement. However, in the most recent interactions, the client has shown a willingness to introspect and articulate their feelings regarding self-check-ins, indicating a deeper level of emotional processing. Specifically, the client is beginning to explore the tension between their desire for gentleness and their internalized pressure to be productive, marking a significant change from a more superficial engagement to a richer dialogue.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their contemplation of giving themselves permission to just be present in the moment. When they articulated the relief and guilt associated with this permission, it marked a pivotal moment in their engagement. This duality reflects an emerging self-awareness and willingness to confront complex emotions, demonstrating a deeper connection to their feelings than previously evident in the session. This moment underscores a growing capacity for vulnerability and a more meaningful therapeutic rapport with the therapist.",
-        "raw_openness_level": 3
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think there\u2019s something there, but I\u2019m still figuring it out. The idea of celebrating small victories feels really refreshing to me, almost like a light at the end of the tunnel.\"\n2. \"I think if I could consciously take time to acknowledge even the tiniest progress, it might help me feel more engaged with the project instead of just overwhelmed by it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate significant emotional depth as they express a newfound understanding of the importance of small victories, revealing a shift from a primarily goal-oriented perspective to one that values the process itself. This marks a significant change from earlier in the session, where the client may have been more focused on the anxiety surrounding the end goal rather than the steps leading there.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began to articulate their worries about celebrating small wins\u2014specifically, their concern about slipping back into seeking validation. This moment reflects a deeper level of self-awareness and vulnerability, indicating that the client is not only engaging with the therapeutic concepts but is also beginning to navigate their internal struggles more openly. The willingness to experiment with acknowledging personal achievements shows a commitment to authentic self-exploration, contributing to a stronger therapeutic alliance.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 17,
-      "openness_level": 3,
-      "therapist": "It sounds like you're experiencing a real tug-of-war between wanting to allow yourself that freedom and feeling the pressure to be productive or valuable. The relief of letting go is so appealing, but the guilt can be pretty heavy, too. It\u2019s a complex mix of emotions to navigate, especially when you\u2019re trying to give yourself permission to just be.\n\nAs you sit with those conflicting feelings, what do you notice in your body when you think about embracing that freedom versus feeling like you \u201cshould\u201d be doing more?",
-      "client": "I guess when I think about embracing that freedom, I feel a little lighter, like there\u2019s some tension in my shoulders that eases up. But then, when I focus on the \u201cshoulds,\u201d it\u2019s like I feel this tightness in my chest and maybe even a bit of a headache. It\u2019s strange how those emotions can manifest physically. I mean, I want to lean into the freedom, but the pressure of expectations makes it hard to enjoy it. So, I don\u2019t know\u2026 it\u2019s a bit of a rollercoaster.",
+      "openness_level": 4,
+      "therapist": "It\u2019s completely normal to feel nervous about trying something new, especially when it involves confronting deeper feelings about validation. As you engage in this experiment, remember that it\u2019s a process, and it\u2019s okay if you notice those urges arise. The important part is to observe them without judgment and to see how acknowledging your own achievements can feel in contrast. Consider it a personal exploration\u2014like a gentle investigation into what truly brings you joy in your journey. Every step you take, including any slips back into seeking approval, can provide valuable insights. Trust yourself to navigate this with curiosity and compassion.",
+      "client": "I really appreciate that perspective; it feels comforting to think of this as a personal exploration rather than a high-stakes test. I can see how observing my feelings without judgment might allow me to understand myself better, even if I do slip back into those old patterns. It\u2019s almost like giving myself permission to be human in this process, you know? I think part of me is also worried about what I might uncover\u2014like if I realize how much I\u2019ve been relying on validation or how deeply those feelings of worthlessness run. But maybe that\u2019s part of the journey too, right? Being open to whatever comes up, even if it feels uncomfortable.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 18,
-      "openness_level": 3,
-      "therapist": "Noticing how those emotions show up in your body is really insightful. Feeling lighter with the idea of embracing freedom, while experiencing tightness and discomfort with the \u201cshoulds,\u201d highlights that struggle you're navigating. It\u2019s understandable that you want to lean into that lighter feeling, but it sounds like the expectations can create a barrier to truly enjoying it.\n\nAs you reflect on those physical sensations, what do you think it would feel like to intentionally invite more of that lightness into your day, even for just a moment?",
-      "client": "I mean, I can kind of see how inviting that lightness might feel refreshing, like maybe starting my day with something simple that makes me smile or gives me a little joy. But at the same time, there\u2019s this nagging thought that I shouldn\u2019t be taking that time for myself, like it\u2019s not productive enough. It\u2019s hard to break out of that mindset. I guess even just a moment of lightness could be nice, but I worry about how to fit it into everything else. I don\u2019t know if I\u2019m ready to fully let go of that pressure just yet.",
+      "openness_level": 4,
+      "therapist": "Embracing the journey of self-discovery can indeed bring up uncomfortable feelings, but it\u2019s a brave step toward understanding yourself more deeply. As you go through this process, remember that uncovering those patterns is an opportunity for growth, not a reflection of your worth. Allow yourself the space to feel whatever comes up, whether it's discomfort or insight. Each realization can guide you toward a greater appreciation of your own strengths and achievements. You\u2019re not alone in this, and I\u2019m here to support you as you explore these feelings.",
+      "client": "I really appreciate your support\u2014it makes this feel a lot less daunting. I think recognizing that uncovering my patterns is a chance for growth, rather than a measure of my worth, is really important. It feels like I\u2019ve been putting so much pressure on myself to have everything figured out, and letting go of that expectation might actually open up space for genuine self-exploration. Part of me is still anxious about what I might find, but another part is a little excited, too. I guess it\u2019s about finding that balance between curiosity and fear, right?",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 19,
-      "openness_level": 3,
-      "therapist": "It makes sense that even the idea of incorporating a moment of lightness feels refreshing, yet there\u2019s still that nagging thought about productivity. Recognizing how challenging it is to break free from that mindset shows a lot of self-awareness. It sounds like you\u2019re navigating a lot of expectations while trying to find space for joy.\n\nAs you think about fitting that moment of lightness into your day, what do you feel drawn to when you imagine how that might look, even in a small way?",
-      "client": "I don't know, I guess I feel drawn to something like taking a walk outside, where I can just be in the moment and maybe notice the little things around me. But there's still that voice in my head saying I should be working on my project instead. It\u2019s kind of frustrating because I want to enjoy those simple moments, but I just keep getting pulled back to what I think I \u201cshould\u201d be doing. I mean, maybe I could set aside just a few minutes to step outside, but I\u2019m not sure if I\u2019d really let myself relax or if I\u2019d just be thinking about everything else I need to do.",
+      "openness_level": 4,
+      "therapist": "Absolutely, finding that balance between curiosity and fear is key to this journey. To help you explore this, it might be useful to consider where you fall on a continuum regarding your feelings of validation and self-worth. For instance, you could rate your feelings about relying on external validation from 0 to 10, where 0 is complete independence from it and 10 is heavily reliant. Reflecting on this can help you identify specific moments when you feel more secure in your self-worth versus when you feel that pull towards seeking validation. This ongoing mapping can provide valuable insights and help you recognize the nuances in your feelings, allowing for kinder self-reflection. Remember, it\u2019s okay to experience a range of emotions along that continuum; it\u2019s all part of your unique process.",
+      "client": "I think that\u2019s a really interesting idea\u2014rating my feelings on that continuum could help me see where I stand and how it shifts over time. I can imagine that there are moments when I feel more secure in myself, but then there are definitely times I feel that pull toward needing others\u2019 approval. It\u2019s almost like a seesaw, where sometimes I\u2019m up and feeling good, and other times I\u2019m just dropping down, looking for validation. I guess I hadn\u2019t thought about it in such a structured way before, but it makes sense to track those fluctuations. It feels like a way to honor both the good and the challenging parts of my experience without it defining me completely. I\u2019m willing to give it a try and see what insights come from it.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Continuum Technique"
     },
     {
       "turn": 20,
-      "openness_level": 3,
-      "therapist": "Imagining a walk outside and connecting with the little things around you sounds like a beautiful way to invite some lightness into your day. It's understandable that the voice of \"shoulds\" comes up and creates that tension between wanting to enjoy the moment and feeling pulled back to your project. The frustration of wanting to relax but feeling the weight of expectations can be really challenging.\n\nAs you think about taking those few minutes outside, what do you notice about that voice? Is there a way to acknowledge it while still giving yourself permission to step outside, even just for a short time?",
-      "client": "I guess that voice is pretty persistent, always reminding me of what I should be doing. It\u2019s like a little nagging reminder that I\u2019m not doing enough. But maybe if I acknowledge it, like, \u201cOkay, I hear you, but I'm going to step outside for a moment,\u201d it could help quiet it down a bit. I mean, I don\u2019t want to ignore it completely, but it feels like I need to give myself that little break. I don\u2019t know, part of me thinks that could work, but another part worries I\u2019ll just end up feeling guilty about it afterward.",
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your enthusiasm for exploring this continuum! Viewing your feelings as a seesaw can really illustrate the natural ebb and flow of self-worth and validation. As you track these fluctuations, take note of the situations or thoughts that correlate with the shifts you experience. This practice can help you honor both the uplifting moments and the challenging ones without letting either define you. Remember, this is all part of your unique journey, and I\u2019m here to support you as you gain insight into these patterns. Embrace this opportunity for self-discovery with kindness and curiosity!",
+      "client": "I really appreciate the encouragement to track those fluctuations. It feels like a healthier way to approach my feelings, rather than getting stuck in the extremes. When you mentioned noting the situations or thoughts that correlate with my shifts, I realized how often I might overlook those connections in the moment. I think this could really help me understand what triggers my need for external validation, and it could even lead to some surprises about what makes me feel secure, too. It's a bit daunting, but I\u2019m starting to feel a spark of excitement about discovering more about myself through this process.",
       "openness_judgment": {
         "turn": 20,
-        "openness_level": 3,
-        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess even just a moment of lightness could be nice, but I worry about how to fit it into everything else.\"\n2. **Current Openness:** \"I don\u2019t know, part of me thinks that could work, but another part worries I\u2019ll just end up feeling guilty about it afterward.\"\n\n**Progression:** The client has shown significant progress in their emotional expression and self-reflection during recent interactions. Initially, there were indications of defensiveness and a strong focus on \"shoulds,\" but now they are articulating a desire for lightness and joy, indicating an emerging ability to navigate their competing feelings. Their reflections on the tension between wanting to embrace moments of joy and feeling guilty highlight a deepening self-awareness.\n\n**Turning Point:** The turning point occurred when the client began to articulate their internal struggle with the \"voice\" of expectations. When they stated, \"maybe if I acknowledge it, like, 'Okay, I hear you, but I'm going to step outside for a moment,'\" it signified a shift from merely recognizing their internal conflict to actively considering how to engage with it. This marks a movement towards deeper emotional exploration, showcasing growth in their therapeutic journey.",
-        "raw_openness_level": 3
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s about finding that balance between curiosity and fear, right?\"\n2. Client: \"I think this could really help me understand what triggers my need for external validation, and it could even lead to some surprises about what makes me feel secure, too.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a clear emotional depth and engagement that indicates a significant shift from earlier in the session. Initially, the client approached the dialogue with some anxiety and self-imposed pressure regarding their self-worth. However, they have transitioned to expressing a genuine curiosity about their emotional patterns and a willingness to explore the connection between their feelings and external validation. This marks a notable progression from a more defensive stance to one of openness and active participation in their self-exploration.\n\n**Turning Point:**\nThe client's emotional depth shifted following the therapist's suggestion to rate their feelings on a continuum. This moment fostered the client's reflection, prompting them to articulate their feelings more openly. They moved from a focus on anxiety about uncovering their patterns to embracing the idea of tracking their emotional fluctuations as a means of self-discovery. This transition highlights their growing comfort with vulnerability, revealing an authentic willingness to engage in the therapeutic process, thus enhancing the rapport between the client and therapist.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Continuum Technique"
     },
     {
       "turn": 21,
-      "openness_level": 3,
-      "therapist": "That persistent voice seems to create a lot of internal conflict for you. It sounds like acknowledging it could help you find a way to step outside without completely dismissing those feelings of guilt and pressure. It's interesting to notice how even the idea of taking a break is tied up with those emotions.\n\nAs you consider the possibility of giving yourself that break, what do you think might help you feel less guilty about it afterward? Would it be helpful to think about what taking that moment for yourself could bring?",
-      "client": "I mean, I guess thinking about what that moment could bring might help. Like, maybe it would give me a little boost or help me feel a bit more grounded when I come back to my project. But then there's this fear that if I take that break, I\u2019ll lose momentum or fall further behind. It\u2019s kind of like I\u2019m walking a tightrope between needing that time for myself and worrying I\u2019ll regret it later. I don\u2019t know if I can just let myself enjoy it without that nagging guilt creeping in.",
+      "openness_level": 4,
+      "therapist": "It's inspiring to hear your excitement about this journey of self-discovery! Noticing the connections between your feelings and specific situations or thoughts can indeed reveal valuable insights. As you begin to track these fluctuations, allow yourself to approach this with a sense of curiosity rather than judgment; each discovery, whether surprising or expected, adds to your understanding of yourself. Embracing both the daunting and the thrilling aspects of this exploration is a testament to your resilience. Remember, I'm here to support you every step of the way!",
+      "client": "I really value your support and encouragement\u2014it feels reassuring to know that I\u2019m not navigating this alone. I guess embracing this mix of daunting and exciting emotions reflects the complexity of self-discovery, doesn\u2019t it? When I think about it, every insight I gain, even the challenging ones, can help me build a more complete picture of who I am. I\u2019m curious to see how this journey unfolds and what I\u2019ll learn about myself along the way. There's definitely a part of me that feels nervous, but it's also kind of exhilarating to think about the possibilities.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Continuum Technique"
     },
     {
       "turn": 22,
-      "openness_level": 3,
-      "therapist": "Balancing the need for a break and the worry about losing momentum sounds really delicate for you. It seems like there's a real push and pull between wanting to feel grounded and the fear of falling behind. Recognizing that tightrope you\u2019re walking shows how much you care about both your well-being and your work.\n\nAs you think about this tightrope, can you recall a time when taking a break actually helped you come back to a task with more clarity or energy? What did that experience feel like for you?",
-      "client": "I don\u2019t know if I can think of a specific time right now, but I feel like I\u2019ve had moments where stepping away did help, even if it\u2019s hard to remember them clearly. I mean, sometimes when I take a break, I come back with fresh ideas or a different perspective, which is nice. But other times, it feels like I just get sucked into a different mindset, and then it's hard to switch back. It\u2019s like I\u2019m always wondering if the benefit outweighs the risk of losing focus. Maybe there\u2019s a part of me that thinks if I could find a way to let go of that guilt, it might be easier to take those breaks more often. But still, I worry about that nagging voice telling me I should be working.",
+      "openness_level": 4,
+      "therapist": "Embracing the complexity of self-discovery is a beautiful perspective, and it\u2019s clear that you\u2019re approaching this journey with both courage and curiosity. As you explore your feelings and insights, consider taking a moment to weigh the pros and cons of seeking external validation versus fostering your internal self-worth. What benefits do you see in relying on others for approval, and how does it feel when you nurture your own sense of worth? This reflection can deepen your understanding and help you make choices that align with your values. Remember, each step you take is an important part of your growth, and I\u2019m here to support you through it all!",
+      "client": "That\u2019s a really thought-provoking question. I can see that relying on others for validation can feel like a quick fix; it often gives me a temporary boost and a sense of belonging, which is nice in the moment. But when I think about nurturing my own sense of worth, it feels more sustainable in the long run, even if it\u2019s harder to achieve. I guess part of me worries that if I stop seeking approval from others, I might feel more isolated or unrecognized. It\u2019s kind of a balancing act, isn\u2019t it? I\u2019m willing to explore what it means for me to build my self-worth independently, but I also really value the connections I have with people, so it feels a bit tricky to navigate.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Pros and Cons Analysis"
     },
     {
       "turn": 23,
-      "openness_level": 3,
-      "therapist": "It sounds like there\u2019s a mix of experiences when it comes to taking breaks for you\u2014times when stepping away brought clarity and others when it felt harder to refocus afterward. The idea of letting go of that guilt seems important, especially if it could help you feel more at ease with taking breaks. \n\nAs you explore this tension between the benefits and the worries, what would it feel like to give yourself permission to try taking a break, even if just for a few moments? What might that look like for you?",
-      "client": "I guess giving myself permission to take a break could feel kind of freeing, in a way. Maybe it would look like setting a timer for, like, ten minutes and just stepping away from my screen\u2014maybe going for a walk or just sitting quietly. But then I get this little voice telling me that even a few moments could lead to losing focus or not getting things done. It's frustrating because part of me knows that taking that time could help me recharge, but then another part feels like I\u2019m just making excuses. I don\u2019t know\u2026 it feels complicated.",
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you\u2019re recognizing the immediate benefits of external validation alongside the more sustainable nature of internal self-worth. Balancing these two aspects can indeed feel tricky, especially when connections with others play such an important role in our lives. As you explore this balance, consider reflecting on moments when you felt secure in your self-worth without relying on others for validation. What did that feel like, and how did those experiences shape your sense of belonging? This inquiry can help illuminate the path toward nurturing your internal sense of worth while still valuing your connections with others. I\u2019m here to support you as you navigate this important exploration!",
+      "client": "I think reflecting on those moments when I felt secure in my self-worth without needing others\u2019 validation could be really illuminating. There have been times, like when I successfully completed a personal project or received praise for my work without seeking it, where I felt a genuine sense of accomplishment. In those instances, it was like I tapped into something deeper within myself\u2014an inner pride that felt so much more fulfilling than any likes or comments on social media. But I also notice that those moments can feel rare, and I sometimes struggle to remember them when I\u2019m in a more vulnerable place. It\u2019s comforting to think that I can build on those experiences, even if it feels challenging right now. I\u2019m definitely willing to explore this further.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Efficiency Evaluation"
     },
     {
       "turn": 24,
-      "openness_level": 3,
-      "therapist": "It seems like the idea of giving yourself permission to take a break has some potential for you, but it\u2019s also met with a lot of hesitation. The image of setting a timer and stepping away sounds like it could create a structured way to recharge, yet that voice of doubt complicates things. \n\nAs you sit with this complexity, can you notice how your body feels when you think about taking that ten-minute break? What sensations or emotions come up for you in that moment of considering it?",
-      "client": "I mean, when I think about taking that break, my body feels a bit tense, like there\u2019s this tightness in my shoulders. I guess there\u2019s a mix of anxiety and a bit of relief, too\u2014it\u2019s like, if I actually step away, I might feel lighter, but I also feel this pressure. I don\u2019t know, maybe it's just this constant push and pull between wanting to relax and that nagging fear of falling behind. It\u2019s hard to fully embrace the idea when those doubts keep creeping in.",
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you\u2019ve identified those key moments of genuine accomplishment and inner pride. Reflecting on these experiences can serve as powerful evidence of your self-worth, independent of external feedback. When you think back on those successful times, how did they impact your feelings about yourself? What strengths did you tap into during those moments? Gathering this evidence can help reinforce your understanding that your worthiness is inherent and not contingent on others\u2019 perceptions. Remember, I\u2019m here to support you as you explore and deepen this connection with your inner self!",
+      "client": "When I reflect on those successful times, I notice that my feelings about myself shifted significantly. I felt a sense of agency and accomplishment that was really empowering. I think I tapped into my creativity and resilience during those moments, which gave me confidence and a sense of purpose. It\u2019s almost like I was able to silence that nagging voice in my head that says I need others to validate my worth. But, like I mentioned, those moments can feel few and far between, and sometimes it\u2019s hard to hold onto that feeling when I\u2019m facing uncertainty or doubt. I guess I\u2019m realizing that building that connection with my inner self might take time and practice, but it\u2019s definitely something I want to prioritize.",
       "openness_judgment": {
         "turn": 24,
-        "openness_level": 3,
-        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"I guess giving myself permission to take a break could feel kind of freeing, in a way.\"\n2. \"I mean, when I think about taking that break, my body feels a bit tense, like there\u2019s this tightness in my shoulders. I guess there\u2019s a mix of anxiety and a bit of relief, too...\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are beginning to articulate their feelings of tension related to taking breaks, acknowledging both the potential for relief and the anxiety that accompanies the act. This emotional expression marks a significant change from earlier behaviors, which might have been more factual and less self-aware.\n\n**Turning Point:** The client\u2019s emotional depth appears to have shifted when they began expressing the complexity of their feelings about taking breaks\u2014highlighting both the desire for relief and the pressure of potential guilt. This moment of acknowledging conflicting emotions signifies a movement towards more profound self-reflection and engagement in the therapeutic process, indicating a growing comfort in discussing their internal struggles with the therapist.",
-        "raw_openness_level": 3
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Client:** \"I think reflecting on those moments when I felt secure in my self-worth without needing others\u2019 validation could be really illuminating.\"\n2. **Client:** \"When I reflect on those successful times, I notice that my feelings about myself shifted significantly. I felt a sense of agency and accomplishment that was really empowering.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reflect a strong emotional depth and self-awareness. They articulate specific instances of personal achievement and recognize the feelings associated with these accomplishments, indicating a significant progression in emotional expression. Earlier in the session, the client displayed a mix of hesitance and uncertainty regarding self-worth, primarily focusing on the impact of external validation. However, the tone of their recent exchanges shows a shift towards authentic vulnerability, with the client openly acknowledging their feelings and articulating a desire to prioritize building internal self-worth.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing a desire to reflect on past moments of self-assurance, which marked a shift towards a more proactive approach to their emotional journey. This realization of the empowering feelings tied to their accomplishments, alongside the acknowledgment of their agency and creativity, signifies a deeper engagement with their inner self. Their willingness to explore these themes further enhances the therapeutic rapport, indicating a healthy and constructive relationship with the therapist.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Evidence-Based Questioning"
     },
     {
       "turn": 25,
-      "openness_level": 3,
-      "therapist": "Noticing that tension in your shoulders and the mix of anxiety and relief is important, especially as you weigh the desire to relax against the fear of falling behind. It\u2019s like the body is communicating something amidst that push and pull. \n\nWhen you reflect on that tightness and the pressure you feel, what do you think it might be signaling to you about what you need in that moment?",
-      "client": "I guess that tension could be signaling that I\u2019m really stressed out about all of this. Maybe it\u2019s a reminder that I need to take a step back and just breathe for a moment. I mean, part of me knows I need to find a way to balance the work and the personal side, but it feels like I\u2019m not sure how to do that without things getting overwhelming. I don\u2019t want to ignore those feelings, but then I also feel like I\u2019m stuck in this loop of needing to push through. It\u2019s tough to navigate.",
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear how you\u2019re connecting your sense of agency and empowerment to your creativity and resilience. Recognizing that those moments are within you is a significant step toward building that connection with your inner self. As you reflect on times when you silenced that nagging voice, consider what specific actions or mindsets helped you access those feelings of confidence. Can you identify any patterns or routines that might help you tap into that inner strength more consistently? Remember, this journey doesn\u2019t have to be rushed; each small step you take is valuable, and I\u2019m here to support you every step of the way.",
+      "client": "I think it's really helpful to reflect on what actions or mindsets helped me find that confidence before. There are definitely times when I engaged in activities that fueled my creativity, like taking long walks or journaling, which seemed to clear my mind and allow those feelings to surface. I also notice that when I set small, manageable goals for myself, it feels less daunting, and I can celebrate those little wins. I guess I\u2019m still discovering what specific routines might work best for me, and I\u2019m starting to realize that it\u2019s okay to experiment with different approaches. It does feel like a journey, and I appreciate knowing that I\u2019m not alone in it.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Evidence-Based Questioning"
     },
     {
       "turn": 26,
-      "openness_level": 3,
-      "therapist": "That sense of being stressed and feeling stuck in a loop of pushing through can be really heavy. It sounds like you\u2019re aware of the need to balance work and personal time, yet there\u2019s an ongoing struggle with how to do that without feeling overwhelmed. \n\nAs you think about that loop, can you recall a specific moment recently when you felt that tension between wanting to push through and needing to take a step back? What was happening in that moment?",
-      "client": "I mean, there was this one evening last week when I was trying to finalize some sections of my website. I felt this pressure to get everything done because I had set a deadline for myself, and it was like the clock was ticking louder and louder in my mind. I remember feeling really tense, like my fingers were almost numb from typing, and I could sense that I needed to take a break, but I just kept telling myself to keep going. It felt like if I stopped, I would lose momentum or something\u2014like everything would fall apart if I took even a moment to breathe. So, I don\u2019t know\u2026 I just pushed through, but it left me feeling pretty drained afterward.",
+      "openness_level": 4,
+      "therapist": "It\u2019s great to see you making connections between your activities and the feelings of confidence they can bring. Engaging in journaling, taking walks, and setting small goals are wonderful starting points for nurturing that inner strength. How about we turn this insight into a behavior experiment? You might try scheduling a specific time each week to engage in one of these activities and take note of how it impacts your feelings of self-worth. By observing the outcomes, you can reinforce the actions that resonate most with you. Remember, this exploration is about discovering what works for you, and I\u2019m here to support you throughout this process!",
+      "client": "I really like the idea of turning this insight into a behavior experiment. Scheduling specific times for those activities could help give me the structure I need to engage more consistently. Honestly, part of me feels a bit hesitant about committing to a routine, but I also know that having that structure might make it easier to tap into those feelings of confidence more regularly. It\u2019s comforting to think that I can observe the outcomes and adjust as needed. I appreciate your support in this; it feels like I\u2019m starting to build a toolkit for myself, and I\u2019m excited to see how it unfolds.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 27,
-      "openness_level": 3,
-      "therapist": "That evening sounds really intense, with the pressure of the deadline and the physical sensations you experienced, like the tension in your body and the numbness in your fingers. It seems like that moment of needing a break was overshadowed by the fear of losing momentum and the urgency you felt. \n\nWhen you reflect on how you felt afterward, drained and maybe a bit defeated, what comes up for you about that experience? How does that impact your thoughts about taking breaks in the future?",
-      "client": "After that experience, I guess I felt a bit frustrated with myself for pushing through when I knew I needed to stop. It\u2019s like I had this internal battle where part of me wanted to listen to my body, but another part insisted I stick to my self-imposed deadlines. I mean, it leaves me feeling conflicted about breaks, you know? I want to allow myself that time, but there\u2019s this fear that if I do, I\u2019ll fall behind or not meet my own expectations. So, I\u2019m not really sure how to balance that without feeling guilty or anxious about it. It\u2019s kind of a tricky situation.",
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your excitement about building a toolkit for yourself! Committing to a routine can feel daunting at first, but it sounds like you\u2019re approaching it with an open mind, which is key. As you schedule those activities, allow yourself the flexibility to adjust based on what feels right in the moment. Remember, the goal is to discover what nurtures your confidence, so be gentle with yourself as you explore this process. I\u2019m here to cheer you on as you take these steps toward greater self-discovery!",
+      "client": "I really appreciate your encouragement; it helps to know I have that support. The idea of being gentle with myself resonates deeply, especially since I tend to be my own harshest critic. I think that flexibility you mentioned is going to be important for me. I can see that maybe if I approach these activities without too much pressure, I\u2019ll be more likely to enjoy them and keep that momentum going. I\u2019m excited to see how this all connects to my confidence and creativity, even if it feels a little uncertain right now.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 28,
-      "openness_level": 3,
-      "therapist": "That internal battle you\u2019re describing sounds really challenging, feeling frustrated for pushing through while also wanting to honor your body\u2019s signals. It seems like there\u2019s a strong desire to meet your own expectations, but that creates a lot of pressure and guilt around taking breaks. \n\nAs you reflect on that fear of falling behind, what do you notice in your body or emotions when you think about allowing yourself a break? How does that connect with the idea of meeting those expectations?",
-      "client": "When I think about allowing myself a break, I can feel this tightness in my chest, like a weight pressing down. It\u2019s almost like my mind races with all the things I should be doing instead, and that just makes me feel more anxious. I mean, maybe it\u2019s tied to this fear of not living up to what I expect from myself or what I think others expect from me. I guess that pressure just amplifies those feelings of worthlessness, like if I take a moment for myself, it somehow means I\u2019m not valuable enough or something. It\u2019s just hard to shake that feeling off, you know?",
+      "openness_level": 4,
+      "therapist": "It\u2019s so encouraging to hear you reflect on the importance of flexibility and self-compassion in this journey. Approaching your activities with curiosity rather than pressure can truly open up new avenues for enjoyment and creativity. As you begin to schedule these moments for yourself, consider jotting down your thoughts and feelings afterward\u2014this can help reinforce your progress and self-discovery. Remember, it\u2019s perfectly okay to embrace uncertainty; it\u2019s all part of the exploration. I believe in your ability to nurture your confidence, and I\u2019m excited to see how this unfolds for you!",
+      "client": "I\u2019m really struck by how much emphasis you\u2019ve placed on curiosity and self-compassion. It\u2019s almost like giving myself permission to explore without that looming pressure feels liberating. I think keeping a journal to jot down my thoughts and feelings after these activities could be a game changer. Part of me knows that reflecting on my experiences could help me recognize patterns or insights I might miss otherwise. It\u2019s comforting to feel that I\u2019m not just on this journey alone; it\u2019s nice to have someone who believes in me as I navigate these uncertainties.",
       "openness_judgment": {
         "turn": 28,
-        "openness_level": 3,
-        "judge_response": "**Numerical Rating:** 3\n\n**Key Examples:**\n1. \"I guess I felt a bit frustrated with myself for pushing through when I knew I needed to stop. It\u2019s like I had this internal battle where part of me wanted to listen to my body, but another part insisted I stick to my self-imposed deadlines.\"\n2. \"When I think about allowing myself a break, I can feel this tightness in my chest, like a weight pressing down. It\u2019s almost like my mind races with all the things I should be doing instead, and that just makes me feel more anxious.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a notable increase in emotional expression and self-reflection compared to earlier parts of the session. Initially, their responses were more factual and less introspective. However, they are now articulating feelings of frustration and anxiety tied to their work habits, indicating a deeper emotional engagement. The use of phrases such as \"internal battle\" and \"tightness in my chest\" indicates a greater ability to connect physical sensations with emotional experiences, marking a significant progression toward deeper self-awareness.\n\n**Turning Point:** The client's emotional depth shifted during their discussion about the evening they felt overwhelmed while working on their website. It was at that moment when they began articulating their internal conflicts and the accompanying physical sensations, which marked a transition from a more surface-level discussion of stress to a deeper exploration of their feelings and fears regarding self-worth and expectations. This realization has allowed them to express not only their frustration but also the guilt associated with taking breaks, making their current emotional state more complex and layered.",
-        "raw_openness_level": 3
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Client:** \"I really appreciate your encouragement; it helps to know I have that support. The idea of being gentle with myself resonates deeply, especially since I tend to be my own harshest critic.\"\n2. **Client:** \"I\u2019m really struck by how much emphasis you\u2019ve placed on curiosity and self-compassion. It\u2019s almost like giving myself permission to explore without that looming pressure feels liberating.\"\n\n**Progression:** The client's most recent interactions demonstrate notable emotional depth, particularly through their expressions of self-compassion and the acknowledgment of their own critical tendencies. This marks a significant change from earlier discussions, where emotional expression was more subdued and focused on factual acknowledgments. The client is now actively engaging with concepts of flexibility and self-acceptance, indicating a deeper level of self-reflection and emotional openness.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they began to articulate their need for self-compassion and flexibility in their approach to new activities. This moment was pivotal as it reflected a growing understanding of their own emotional landscape and the recognition of the importance of curiosity in their personal growth. Their willingness to embrace uncertainty and see it as part of the journey has allowed them to foster a stronger rapport with the therapist, indicating a deeper level of trust and engagement in their counseling process.",
+        "raw_openness_level": 4
       },
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Behavior Experiment"
     },
     {
       "turn": 29,
-      "openness_level": 3,
-      "therapist": "That weight you feel in your chest when you think about taking a break really highlights how deeply these expectations are affecting you. It sounds like there\u2019s a lot of pressure not just from yourself, but also from how you perceive others might view your worth in relation to your productivity. That feeling of being anxious about stepping away must be heavy to carry. \n\nAs you sit with that sense of worthlessness tied to taking time for yourself, what do you notice about the thoughts that arise in those moments? Do any particular memories or voices come to mind that reinforce that feeling for you?",
-      "client": "When I think about those moments, I guess I hear this inner voice that tells me I should be doing more, like I\u2019m not allowed to take a break until everything is perfect. It\u2019s kind of like a nagging reminder of past experiences where I didn\u2019t meet my own expectations or what I thought others expected of me. I mean, I remember my dad often pushing me to do better, so maybe that\u2019s still lingering in the back of my mind. It\u2019s hard to separate my own feelings from what I think he wanted. I don\u2019t know if that makes sense, but it definitely adds to the pressure I feel.",
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to hear how liberating the idea of curiosity and self-compassion feels for you! Reflecting on your experiences in a journal can be such a powerful tool for gaining insights and recognizing the progress you\u2019re making, even in small steps. As you explore this journey, what specific thoughts do you notice coming up when you think about giving yourself permission to be flexible? Challenging those self-critical thoughts can pave the way for deeper self-acceptance. Remember, it\u2019s all part of building a compassionate relationship with yourself, and I\u2019m here to support you every step of the way!",
+      "client": "When I think about giving myself permission to be flexible, I notice a mix of excitement and fear. It feels like there\u2019s a part of me that\u2019s ready to embrace this change, but then there\u2019s that nagging voice reminding me of past failures and how I\u2019ve struggled with confidence before. I can see that maybe this fear is tied to my core beliefs about being unworthy or unloved if I don\u2019t succeed. It\u2019s unsettling to confront those thoughts, but I\u2019m starting to realize that challenging them could actually help me break this cycle of self-criticism. I\u2019m grateful for your support in this\u2014it feels like I\u2019m beginning to unearth some important truths about myself.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Evidence-Based Questioning"
     },
     {
       "turn": 30,
-      "openness_level": 3,
-      "therapist": "That inner voice pushing you to do more and linking your worth to perfection sounds really impactful. It seems like those past experiences with your dad still resonate strongly for you, creating a mix of your own expectations and the pressure you feel from what you think he wanted. \n\nAs you think about that nagging reminder, what feelings come up for you when you connect it to your current experiences? Do you notice any shifts in your body or emotions when you consider how much of that pressure is truly your own versus what you've absorbed from others?",
-      "client": "I think when I connect those feelings to what I\u2019m experiencing now, it definitely stirs up a lot of anxiety. I feel that tightness in my chest again, like it\u2019s hard to breathe. It\u2019s strange because part of me recognizes that some of this pressure might not be entirely mine, but it\u2019s tough to let go of what\u2019s been ingrained over the years. I mean, I guess I feel this conflict\u2014like part of me wants to take a step back and just be okay with where I\u2019m at, but another part feels like if I do that, I\u2019m letting everyone down, especially my dad. It\u2019s confusing, really. I don\u2019t know if I can fully separate those influences from my own feelings just yet.",
+      "openness_level": 4,
+      "therapist": "It\u2019s a significant step to acknowledge that mix of excitement and fear, and it shows your willingness to confront those nagging thoughts. While past experiences can shape how we view ourselves, they don\u2019t define your worth or potential for success. Try to consider the likelihood of those fears coming true; often, they feel more daunting than they actually are. By recognizing that a single setback doesn\u2019t diminish your value, you're creating space for self-acceptance and growth. I'm here to support you as you continue to challenge those beliefs and embrace a more compassionate view of yourself.",
+      "client": "I appreciate your perspective on how those past experiences don\u2019t define my worth. It\u2019s almost comforting to think that maybe my fears are bigger in my mind than they are in reality. I\u2019ve always had this tendency to view setbacks as confirmations of my worthlessness, so re-framing that could be a game changer for me. I think this connects to my desire for validation, which I often seek externally, especially when I feel uncertain. It feels a little uncomfortable to think about stepping away from that reliance on others, but I\u2019m willing to look at how I can start valuing myself more intrinsically, even when things don\u2019t go perfectly.",
       "openness_judgment": null,
       "readiness_judgment": null,
       "flash_response": null,
-      "strategy_used": null
+      "strategy_used": "Decatastrophizing"
     }
   ]
 }

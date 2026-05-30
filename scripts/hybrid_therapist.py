@@ -35,7 +35,6 @@ DEFAULT_CBT_THERAPIST_PROMPT = (
     DEFAULT_HYBRID_PROMPT_DIR / "cbt_therapist_response.txt"
 )
 CBT_OPENNESS_THRESHOLD = 3
-CBT_TECHNIQUE_INTERVAL = 3
 
 
 def strip_code_fence(text: str) -> str:
@@ -131,13 +130,9 @@ def format_cbt_therapist_prompt(
         template,
         {
             "conversation_history": format_history(conversation),
-            "cbt_recommendation_json": json.dumps(cbt_recommendation, indent=2),
+            "cbt_recommendation": format_cbt_recommendation(cbt_recommendation),
         },
     )
-
-
-def count_client_turns(conversation: list[Any]) -> int:
-    return sum(1 for turn in conversation if turn.speaker == "Client")
 
 
 def format_previous_cbt_techniques(techniques: list[str]) -> str:
@@ -147,6 +142,18 @@ def format_previous_cbt_techniques(techniques: list[str]) -> str:
         f"{index}. {technique}"
         for index, technique in enumerate(techniques, start=1)
     )
+
+
+def format_cbt_recommendation(recommendation: dict[str, Any]) -> str:
+    fields = [
+        ("Recommended technique", recommendation.get("recommended_cbt_technique")),
+        ("Goal", recommendation.get("goal")),
+        ("Reasoning", recommendation.get("reasoning")),
+    ]
+    lines = []
+    for label, value in fields:
+        lines.append(f"{label}: {join_value(value)}")
+    return "\n".join(lines)
 
 
 class HybridTherapist:
@@ -175,8 +182,6 @@ class HybridTherapist:
         self.cbt_therapist_template = load_text(cbt_therapist_prompt_path)
         self.previous_cbt_techniques: list[str] = []
         self.last_cbt_recommendation: dict[str, Any] | None = None
-        self.last_cbt_recommendation_updated = False
-        self.last_cbt_technique_turn: int | None = None
         self.last_mi_response: str | None = None
         self.last_cbt_response: str | None = None
         self.last_response_mode: str | None = None
@@ -212,10 +217,9 @@ class HybridTherapist:
         if not isinstance(technique, str) or not technique.strip():
             raise ValueError(
                 f"Missing recommended_cbt_technique in model output: {response!r}"
-            )
+        )
         self.previous_cbt_techniques.append(technique.strip())
         self.last_cbt_recommendation = recommendation
-        self.last_cbt_recommendation_updated = True
         return recommendation
 
     def _cbt_reply(
@@ -249,36 +253,17 @@ class HybridTherapist:
             max_tokens=160,
         )
 
-    def should_choose_cbt_technique(self, completed_turns: int) -> bool:
-        return (
-            self.last_cbt_recommendation is None
-            or self.last_cbt_technique_turn is None
-            or self.last_response_mode != "CBT"
-            or completed_turns - self.last_cbt_technique_turn
-            >= CBT_TECHNIQUE_INTERVAL
-        )
-
     def reply(
         self,
         patient: dict[str, Any],
         conversation: list[Any],
         openness_level: int = 1,
     ) -> str:
-        completed_turns = count_client_turns(conversation)
         if openness_level <= CBT_OPENNESS_THRESHOLD:
-            self.last_cbt_recommendation_updated = False
             self.last_cbt_response = None
             return self._mi_reply(patient, conversation)
 
-        if self.should_choose_cbt_technique(completed_turns):
-            cbt_recommendation = self._choose_cbt_technique(conversation)
-            self.last_cbt_technique_turn = completed_turns
-        else:
-            self.last_cbt_recommendation_updated = False
-            cbt_recommendation = self.last_cbt_recommendation
-
-        if cbt_recommendation is None:
-            raise ValueError("CBT route requires a CBT recommendation.")
+        cbt_recommendation = self._choose_cbt_technique(conversation)
         return self._cbt_reply(conversation, cbt_recommendation)
 
 
@@ -385,8 +370,7 @@ def main() -> None:
                 print(
                     "Hybrid> "
                     f"CBT route (openness={args.openness_level}), "
-                    f"cbt_technique={recommendation.get('recommended_cbt_technique')}, "
-                    f"chooser_ran={therapist.last_cbt_recommendation_updated}"
+                    f"cbt_technique={recommendation.get('recommended_cbt_technique')}"
                 )
         print(f"Therapist> {text}")
 
