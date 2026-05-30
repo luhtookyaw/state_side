@@ -1,0 +1,377 @@
+{
+  "mode": "hard",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "2-3",
+  "patient_name": "Blaise",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Emotional State:** \u201cIt just feels like I\u2019m trying to keep everyone happy, and I don\u2019t even know if that\u2019s possible. Sure, I want it to be nice, but I\u2019m just focused on getting through it. It\u2019s not really about what I\u2019m looking forward to; it\u2019s more about avoiding issues.\u201d\n2. **Current Openness:** \u201cI don\u2019t really think about it like that. I mean, it\u2019s just about getting through the day without a meltdown. I guess I want it to go smoothly, but it\u2019s hard to focus on anything else when I\u2019m worried about how everyone else is going to react.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal a blend of emotional expression and factual responses. While there is a hint of vulnerability in their acknowledgment of their worries, they continue to avoid deeper self-reflection. They express an ongoing struggle with the pressure of keeping others happy, indicating a recognition of their emotional state but not yet fully engaging with it. This marks a change from earlier exchanges, where they were more focused on defending against exploration of their feelings and maintaining a more surface-level engagement.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of trying to keep everyone happy and the resultant pressure they feel, as seen in their statement about wanting to avoid issues. This began to hint at their emotional complexity but still lacks the depth needed for a higher rating. The shift from outright defensiveness to a reluctant admission of their struggles indicates a nascent progression towards deeper engagement.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I think those thoughts made me feel even more anxious, like I was just spiraling. It\u2019s hard to focus on what I want when I\u2019m so caught up in worrying about what everyone else is feeling.\"\n2. \"I can kind of feel that heaviness in my chest, like a weight that just won\u2019t lift. It's almost like there's this tightness that just won\u2019t go away. I guess I\u2019m just really worn out from all of it.\"\n\n**Progression:**\nThe client\u2019s most recent exchanges demonstrate a marked increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, their responses were more factual and guarded, but they have evolved into articulate expressions of anxiety and frustration, reflecting a struggle between their desires and responsibilities. This shift indicates a deeper awareness of their emotional state and a willingness to explore it, highlighting an engagement with the therapeutic process.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate the physical sensations accompanying their emotional turmoil, such as the \"knot in my stomach\" and the \"heaviness in my chest.\" This shift towards recognizing and verbalizing bodily sensations tied to their emotional state signifies a deeper level of engagement and self-reflection. It shows the client is beginning to connect their internal experience with their feelings of anxiety and frustration, which is essential for their therapeutic progress.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I kind of wish I could feel more connected to myself, but it\u2019s hard when I\u2019m so caught up in everyone else\u2019s expectations.\"\n2. **Current Openness:** \"I guess I could try to set aside some time just for me, like actually making space to think about what I want instead of slipping into what others expect.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a deeper engagement with their internal struggles. Initially, their responses were more factual and guarded, but they are now articulating feelings of disconnection and the tension between personal desires and external expectations. This reflects a significant shift from earlier sessions where they might have been more hesitant to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they expressed their wish to connect with themselves and acknowledged the challenge of managing family expectations. This moment marked a critical transition as they began to articulate their desires for self-exploration, signaling a greater willingness to confront their feelings and a deeper understanding of their internal conflicts. The mention of potentially setting aside time for themselves highlights a newfound openness to engaging with their own needs, which is a significant step forward.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. Client: \"I guess that relief kind of tells me that maybe I need to be more gentle with myself. It feels like I\u2019m telling myself it\u2019s okay to take my time and not push too hard.\"\n2. Client: \"I guess when I think about reaching out to him, it feels like this heavy weight in my chest, almost like I can\u2019t breathe. My mind starts racing with all the possible ways it could go wrong.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a meaningful increase in emotional expression and self-reflection compared to previous sessions. The client demonstrates a clearer understanding of their feelings, particularly around self-compassion and the fear of confronting their father, which reflects a greater engagement with their emotional landscape. This stage marks a notable change from earlier, where responses were more factual and less emotionally connected.\n\n**Turning Point:**\nThe pivotal moment leading to the current emotional level appears to be when the client began articulating their need for gentleness and time in processing their feelings. This shift took place when they acknowledged the mix of bravery and fear, expressing a deeper recognition of their internal conflict and vulnerability. Their willingness to explore physical sensations and emotional weight related to their family dynamics signifies a significant step in their therapeutic journey.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess keeping it simple might mean setting a timer for just a minute or something, so I don\u2019t feel like I have to sit there forever trying to figure everything out.\"\n2. Client: \"Maybe I\u2019d feel a bit lighter if I could just let go of the need to control it all. But it\u2019s also kind of scary to think about what might come up if I really let myself experience those thoughts.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a noticeable increase in emotional expression and self-reflection. They are beginning to articulate feelings of tension and conflicting desires surrounding their thoughts, indicating a deeper level of engagement compared to earlier sessions that may have been more fact-based and guarded. The client is now not only recognizing their emotional state but also exploring strategies to manage it, which demonstrates an evolution in their comfort level with vulnerability.\n\n**Turning Point:** The turning point appears to be when the client acknowledged their physical tension in their shoulders while contemplating the fear of letting thoughts flow freely. This moment of self-awareness marks a shift as they moved from merely discussing thoughts to revealing deeper emotional conflicts related to control and acceptance. The client expressing, \u201cit\u2019s okay to feel uncomfortable,\u201d signifies a critical moment of acceptance that paves the way for further exploration of their emotional landscape.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Blaise, it's great to see you today. What\u2019s on your mind or feels most important for us to explore together?",
+      "client": "I don't know. I guess I'm just thinking about how my dad's going to react to me not inviting certain family members to my wedding. It feels like a whole mess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That sounds like a really significant concern for you, especially when it comes to family dynamics around such an important event. It seems like there's a lot of emotion tied to how your dad might respond. Can you share more about what you're feeling as you think about that situation?",
+      "client": "I don\u2019t think it\u2019s that deep. It\u2019s just a wedding, and people get upset about these things. I\u2019m more worried about my dad\u2019s reaction, you know? Like, he tends to take sides, and I don\u2019t want to deal with that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like your dad's tendency to take sides is weighing heavily on your mind. You mentioned that you're more focused on his reaction than the wedding itself. What emotions come up for you when you consider how he might respond?",
+      "client": "I don\u2019t really want to get into all that. It\u2019s just annoying to think about how he\u2019ll react. I mean, it\u2019s not like I can control it. I just want to get through the wedding without any drama.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds like the thought of your dad's reaction is creating a sense of frustration for you, especially with the desire to keep things as smooth as possible for the wedding. That wish for a drama-free experience is understandable. When you think about the wedding itself, away from those concerns, what feelings or thoughts come to mind?",
+      "client": "I already explained what happened. I just want to focus on the wedding, not all this other stuff. It\u2019s supposed to be a happy day, and I'm tired of worrying about how everyone else feels. I just want it to be simple, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Wanting the wedding to be simple and happy makes a lot of sense, especially with everything else you\u2019re navigating. It seems like there's a desire for peace amidst the potential for conflict. As you think about the day itself, what are some moments or elements that you\u2019re looking forward to, or that feel meaningful to you?",
+      "client": "I don\u2019t know. It just feels like I\u2019m trying to keep everyone happy, and I don\u2019t even know if that\u2019s possible. Sure, I want it to be nice, but I\u2019m just focused on getting through it. It\u2019s not really about what I\u2019m looking forward to; it\u2019s more about avoiding issues.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Focusing on avoiding issues can feel really heavy, especially during a time that's meant to be joyful. It sounds like there's a sense of pressure to manage everyone else's happiness, which can overshadow your own experience of the day. If you take a moment to picture the wedding, even just a small part of it, what do you think you might want to hold onto for yourself, beyond the concerns of others?",
+      "client": "I don\u2019t really think about it like that. I mean, it\u2019s just about getting through the day without a meltdown. I guess I want it to go smoothly, but it\u2019s hard to focus on anything else when I\u2019m worried about how everyone else is going to react.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. **Emotional State:** \u201cIt just feels like I\u2019m trying to keep everyone happy, and I don\u2019t even know if that\u2019s possible. Sure, I want it to be nice, but I\u2019m just focused on getting through it. It\u2019s not really about what I\u2019m looking forward to; it\u2019s more about avoiding issues.\u201d\n2. **Current Openness:** \u201cI don\u2019t really think about it like that. I mean, it\u2019s just about getting through the day without a meltdown. I guess I want it to go smoothly, but it\u2019s hard to focus on anything else when I\u2019m worried about how everyone else is going to react.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal a blend of emotional expression and factual responses. While there is a hint of vulnerability in their acknowledgment of their worries, they continue to avoid deeper self-reflection. They express an ongoing struggle with the pressure of keeping others happy, indicating a recognition of their emotional state but not yet fully engaging with it. This marks a change from earlier exchanges, where they were more focused on defending against exploration of their feelings and maintaining a more surface-level engagement.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of trying to keep everyone happy and the resultant pressure they feel, as seen in their statement about wanting to avoid issues. This began to hint at their emotional complexity but still lacks the depth needed for a higher rating. The shift from outright defensiveness to a reluctant admission of their struggles indicates a nascent progression towards deeper engagement.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Worrying about how others will react can really take away from your own experience of the day. It sounds like there's a lot of weight on your shoulders, just trying to ensure everything goes smoothly. If you take a moment, is there a particular part of the wedding where you feel even a hint of personal joy or connection, even if it's small?",
+      "client": "I don\u2019t know if I see it that way. I guess maybe if everything kind of goes according to plan, I might feel relieved, but joy? I\u2019m not sure. It\u2019s just hard to think about anything positive when I\u2019m so focused on the chaos. I mean, part of me wants to enjoy it, but another part just feels overwhelmed by all the expectations. It\u2019s like I can\u2019t really let myself feel anything good when there\u2019s so much pressure.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Feeling overwhelmed by expectations can really cloud the possibility of experiencing joy. It seems like there\u2019s a tension between wanting to enjoy the day and the pressure you feel to manage everything. If you take a moment to notice how that pressure shows up in your body or mind, what do you find? Are there any sensations, thoughts, or feelings that stand out for you?",
+      "client": "I guess I feel this tightness in my chest, like I\u2019m holding my breath. It\u2019s almost like I can\u2019t let go, you know? My mind keeps racing with all the things that could go wrong, and I can\u2019t shake off this anxious feeling. Part of me thinks I should just relax, but I don\u2019t know how. It\u2019s frustrating because I want to enjoy this, but then there\u2019s that nagging voice saying I have to control everything.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "That tightness in your chest sounds quite uncomfortable, especially when you're trying to navigate such a significant day. It seems like that racing mind is making it hard for you to find any sense of peace or enjoyment. The conflict between wanting to relax and feeling the need to maintain control must be really frustrating.  \n\nCan you recall a moment in the lead-up to the wedding when that tightness felt particularly strong? What was happening then, and what thoughts were going through your mind?",
+      "client": "I guess there was this moment when we were finalizing the guest list, and I felt this intense pressure. Like, my dad kept bringing up who should be invited and what he thought about it, and it just made me anxious. I started to worry about whether I was disappointing him or if he'd feel torn about it. I mean, part of me thought it should be my day, but another part was just fixated on keeping him happy. It\u2019s like I can\u2019t help but feel responsible for everyone\u2019s feelings, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "It sounds like that moment with the guest list brought a lot of conflicting feelings to the surface. The pressure to keep your dad happy while also wanting to prioritize your own day seems really challenging. Feeling responsible for everyone\u2019s feelings can add to that weight, especially when you're trying to navigate your own desires.  \n\nWhen you think back to that conversation, what stands out for you in terms of how you felt in your body or what thoughts were running through your mind? Did anything shift when you were trying to balance those expectations?",
+      "client": "It was just really tense, you know? I felt like I had this knot in my stomach, almost like I was on a tightrope, trying not to fall. I kept going back and forth in my head about what I wanted and what I thought my dad would want. I think I started to overthink everything, just worrying if I was going to upset him or if I was being selfish for wanting to make it about me. It\u2019s like there's this little voice that says I should just do whatever keeps the peace, even if it means sacrificing my own feelings. It\u2019s frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "That tension in your stomach and the imagery of being on a tightrope really captures the precariousness of trying to balance everyone\u2019s expectations with your own feelings. It\u2019s understandable to feel frustrated when that little voice nudges you to prioritize peace over your own desires. \n\nAs you reflect on that moment of overthinking, what do you notice about how those thoughts impacted your emotions or your body? Did any specific feelings emerge as you navigated that tightrope?",
+      "client": "I think those thoughts made me feel even more anxious, like I was just spiraling. It\u2019s hard to focus on what I want when I\u2019m so caught up in worrying about what everyone else is feeling. I could feel my heart racing, and I just wanted to escape the whole situation, but at the same time, I didn\u2019t want to let my dad down. So, I guess I just ended up feeling trapped, like I had to choose between my own happiness and keeping the peace for everyone else. It\u2019s kind of exhausting, really.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "That feeling of being trapped between your own happiness and the desire to keep the peace sounds really exhausting. The way your heart raced and the urge to escape reflects just how intense that pressure can feel. It\u2019s understandable to want to avoid upsetting your dad, yet it sounds like it's also taking a toll on you. \n\nAs you think about that exhaustion, what do you notice in your body right now? Is there any part of you that feels particularly heavy or tight as you sit with these thoughts?",
+      "client": "I mean, I can kind of feel that heaviness in my chest, like a weight that just won\u2019t lift. It's almost like there's this tightness that just won\u2019t go away. I guess I\u2019m just really worn out from all of it. I don\u2019t want to keep feeling like this, but it\u2019s hard to shake off. It\u2019s like I\u2019m stuck in this loop of trying to please everyone else and forgetting about what I actually want. It\u2019s frustrating, you know?",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I think those thoughts made me feel even more anxious, like I was just spiraling. It\u2019s hard to focus on what I want when I\u2019m so caught up in worrying about what everyone else is feeling.\"\n2. \"I can kind of feel that heaviness in my chest, like a weight that just won\u2019t lift. It's almost like there's this tightness that just won\u2019t go away. I guess I\u2019m just really worn out from all of it.\"\n\n**Progression:**\nThe client\u2019s most recent exchanges demonstrate a marked increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, their responses were more factual and guarded, but they have evolved into articulate expressions of anxiety and frustration, reflecting a struggle between their desires and responsibilities. This shift indicates a deeper awareness of their emotional state and a willingness to explore it, highlighting an engagement with the therapeutic process.\n\n**Turning Point:**\nA notable turning point occurred when the client began to articulate the physical sensations accompanying their emotional turmoil, such as the \"knot in my stomach\" and the \"heaviness in my chest.\" This shift towards recognizing and verbalizing bodily sensations tied to their emotional state signifies a deeper level of engagement and self-reflection. It shows the client is beginning to connect their internal experience with their feelings of anxiety and frustration, which is essential for their therapeutic progress.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That heaviness in your chest and the feeling of being worn out really illustrate how deeply this affects you. It\u2019s understandable to feel frustrated when you\u2019re caught in that loop of prioritizing others' needs over your own. The tightness you describe seems to reflect the struggle between wanting to please and wanting to honor your own feelings. \n\nAs you sit with that frustration, what do you notice about the loop itself? Is there a particular moment or thought that seems to trigger that cycle for you?",
+      "client": "I don\u2019t know, I guess it kind of starts when I think about what my dad would want or how he might react. Like, I can almost hear his voice in my head saying I should just keep things smooth. Then I spiral into all these \"what ifs,\" and it makes it hard to just focus on my own feelings. I don't want to upset him, but I also don\u2019t want to lose myself in the process. It\u2019s like I\u2019m constantly balancing on that edge, and it\u2019s exhausting to keep it up.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Hearing your dad's voice and thinking about how he might react really seems to pull you into that spiral of \"what ifs.\" It makes sense that this would feel exhausting when you\u2019re trying to balance his expectations with your own feelings. The imagery of constantly balancing on that edge captures a sense of fragility in managing these pressures. \n\nAs you reflect on that balance, what do you notice about the moments when you feel closest to losing yourself? Do you remember a specific situation where that felt especially intense?",
+      "client": "I guess one moment that stands out is when I was trying to plan my wedding list with my parents. I thought I knew what I wanted, but then I started second-guessing myself, thinking about who my dad would want there or how he might feel if I didn\u2019t include certain family members. It got really complicated, and I felt like I was just trying to keep everyone happy instead of focusing on what I really wanted. I mean, it\u2019s supposed to be my day, right? But instead, I felt like I was running around trying to manage everyone else\u2019s feelings. It left me feeling really lost.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Planning your wedding list sounds like it became a significant moment of confusion for you, especially given the expectations you felt from your dad and others. It\u2019s understandable to feel lost when the focus shifts away from what you truly want for your special day. That pressure to manage everyone else\u2019s feelings can overshadow your own desires and make the experience feel overwhelming. \n\nAs you think back to that moment, what emotions come up for you now? How does reflecting on that experience affect how you view your own needs versus others' expectations?",
+      "client": "It\u2019s hard to say exactly what I feel, but I guess there\u2019s a mix of frustration and a bit of sadness. I mean, I wanted it to be a happy time, but instead, it felt like I was just trying to avoid conflict. Thinking about it now, it kind of makes me realize how often I put myself second, like my needs don\u2019t matter as much. I don\u2019t know, maybe it feels like I\u2019m just trapped in this cycle of trying to keep everyone else happy while I just\u2026 drift away. It\u2019s like I don\u2019t even know what I want anymore sometimes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "The mix of frustration and sadness you\u2019re feeling really highlights the difficulty of wanting to celebrate a joyful occasion while feeling pulled in so many directions. It\u2019s natural to feel like your needs are getting lost when you\u2019re focused on maintaining harmony for others. The way you describe drifting away suggests a sense of disconnection from your own desires, which can be unsettling. \n\nAs you sit with that feeling of drifting, can you identify any moments or activities that make you feel more in touch with what you want?",
+      "client": "I don\u2019t know, it\u2019s tough to pinpoint specific moments. I guess there are times when I\u2019m just doing something I enjoy, like playing music or going for a walk, where I can kind of forget about everything else for a bit. But then that feeling of drifting comes back, and I wonder if I'm just escaping instead of really confronting what I want. I mean, maybe those moments are just brief distractions rather than actually figuring things out. I kind of wish I could feel more connected to myself, but it\u2019s hard when I\u2019m so caught up in everyone else\u2019s expectations.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like those moments of playing music or going for a walk provide you with a brief sense of relief, but there's also a tension between enjoying those activities and feeling like they're just distractions. It\u2019s understandable to want deeper connection and clarity about your own desires, especially when it feels like so much of your energy is spent on meeting others' expectations. \n\nAs you reflect on that desire for connection with yourself, what do you think might help you explore your own wants more fully, even in the midst of those external pressures?",
+      "client": "I guess I could try to set aside some time just for me, like actually making space to think about what I want instead of slipping into what others expect. But then, part of me worries that taking that time could upset my dad or other family members, and I don't want to create more conflict. It feels like I\u2019m stuck in this tug-of-war between wanting to understand myself and not wanting to rock the boat. Maybe if I had some kind of support or a way to talk about it without feeling judged, that could help? But I don\u2019t know, it\u2019s complicated\u2026",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Finding that balance between understanding your own needs and managing family expectations sounds really challenging. It\u2019s understandable to feel hesitant about making space for yourself, especially when you\u2019re concerned about how it might affect your relationships. The idea of having support to explore this could be a valuable step, particularly if it feels like a safe space where you won't be judged.\n\nAs you think about setting aside that time for yourself, what do you imagine it might look like? Would it involve certain activities or perhaps a specific environment that makes it feel less daunting?",
+      "client": "I don't know, maybe it could involve just finding a quiet spot at home where I won\u2019t be interrupted. I think it would help if I could write things down or even just sit with my thoughts, but then I wonder if I\u2019d end up overthinking everything. It\u2019s like I want to be honest with myself, but at the same time, I\u2019m scared of what I might find. I guess I could try something simple, like taking a walk alone and really focusing on how I feel instead of getting lost in my head about what everyone else thinks. But then again, it feels like a risk\u2026 like I\u2019m opening up a can of worms. I just don\u2019t know if I\u2019m ready for that.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I kind of wish I could feel more connected to myself, but it\u2019s hard when I\u2019m so caught up in everyone else\u2019s expectations.\"\n2. **Current Openness:** \"I guess I could try to set aside some time just for me, like actually making space to think about what I want instead of slipping into what others expect.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a deeper engagement with their internal struggles. Initially, their responses were more factual and guarded, but they are now articulating feelings of disconnection and the tension between personal desires and external expectations. This reflects a significant shift from earlier sessions where they might have been more hesitant to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange where they expressed their wish to connect with themselves and acknowledged the challenge of managing family expectations. This moment marked a critical transition as they began to articulate their desires for self-exploration, signaling a greater willingness to confront their feelings and a deeper understanding of their internal conflicts. The mention of potentially setting aside time for themselves highlights a newfound openness to engaging with their own needs, which is a significant step forward.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Finding a quiet spot at home and writing down your thoughts sounds like it could be a gentle way to start making space for yourself. It\u2019s clear that there's a part of you that wants to explore what you feel, but that apprehension about what you might uncover is also present. Taking a walk alone could offer a sense of freedom to connect with your feelings without the noise of outside expectations.\n\nAs you consider the possibility of opening up this \"can of worms,\" what do you think might help you feel more grounded or supported as you navigate that exploration?",
+      "client": "I guess having some kind of plan might help me feel more grounded, like knowing I won\u2019t just be wandering aimlessly in my thoughts. Maybe if I set a specific time for it, that could create a little structure. But I still worry about how my family might react if they knew I was taking time for myself. It feels like I\u2019m walking a tightrope between self-care and family obligations. I mean, part of me wants to just dive in and figure things out, but another part says it\u2019s not that simple. It\u2019s like, what if I find something I don't want to face?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Creating a plan with some structure could be a useful way to approach this and might give you a sense of control over your time. It makes sense to feel that tension between wanting to prioritize yourself and worrying about family obligations. The fear of uncovering something you're not ready to face can feel quite daunting.\n\nAs you think about this potential exploration, what do you think it might be like to approach it slowly, allowing yourself to sit with any feelings or thoughts that arise without needing to rush for answers?",
+      "client": "I don\u2019t know, maybe taking it slow could help, but it also feels frustrating. Part of me thinks I should just go for it and see what comes up, but then I can't help but wonder if that would just make everything messier. I mean, I guess it\u2019s about finding the right balance, right? I just don\u2019t want to end up feeling overwhelmed or spiraling into something I can\u2019t control. It\u2019s like, how do you even know when you\u2019re ready to sit with those feelings?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like you're feeling a real push and pull between wanting to dive into your feelings and the concern that it might lead to overwhelm. That mix of wanting to be open and the fear of becoming lost in those emotions can be really tough to navigate. Finding that balance does seem essential for you.\n\nAs you think about sitting with your feelings, what do you notice in your body or your mind when you consider the idea of taking things slow versus diving in? Are there particular sensations or thoughts that arise?",
+      "client": "I guess when I think about taking it slow, I feel a bit of relief, like maybe it wouldn\u2019t be as scary if I just eased into it. But then, when I imagine diving right in, my chest tightens a little, and I feel this surge of anxiety. It\u2019s like my mind is racing with all the \"what ifs,\" and I worry I\u2019ll get lost in it all. I mean, I want to be honest with myself, but I don\u2019t want to drown in emotions I\u2019m not ready to face. It's hard to find that sweet spot, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Noticing that relief when you think about taking it slow is important. It seems like that approach might offer a sense of safety and space to explore your feelings without feeling overwhelmed. The tightness in your chest and the racing thoughts when you consider diving in really highlight how intense that fear can be.\n\nAs you reflect on these sensations, what do you think that relief signals for you about how you want to approach this exploration?",
+      "client": "I guess that relief kind of tells me that maybe I need to be more gentle with myself. It feels like I\u2019m telling myself it\u2019s okay to take my time and not push too hard. On the other hand, it\u2019s frustrating because there\u2019s a part of me that thinks I should just jump in and deal with it all at once. I don\u2019t know, it\u2019s like I want to be brave, but then I get scared of what that really means.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "Being gentle with yourself sounds really important, especially when you're feeling that mix of bravery and fear. It\u2019s understandable to feel frustrated with the idea of taking your time while also wanting to confront everything head-on. That tension between wanting to be brave and the fear of what that entails can create a lot of inner conflict.\n\nAs you think about this desire to be brave, what does being brave look or feel like for you? Are there moments when you feel like you\u2019ve been brave in the past that you could reflect on?",
+      "client": "I mean, I guess being brave feels like facing my fears, like standing up for what I believe in, especially with my family. But then there are times when I freeze, like when I think about talking to my dad about how I feel. I don\u2019t know if I\u2019ve really been brave in those moments, though. Part of me wants to push through and have those tough conversations, but another part just holds back because I\u2019m scared of how he\u2019ll react. It\u2019s like I want to be that person who can handle it, but I also feel stuck, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "Finding that balance between wanting to face your fears and feeling stuck in those moments can be really challenging. It makes sense that you\u2019d feel torn, especially when it comes to having tough conversations with someone as significant as your dad. The idea of standing up for what you believe in sounds empowering, yet it\u2019s clear that the fear of his reaction creates a barrier for you.\n\nAs you think about those moments when you feel stuck, can you notice any specific thoughts or physical sensations that come up for you? What happens in your body or mind when you think about reaching out to him?",
+      "client": "I guess when I think about reaching out to him, it feels like this heavy weight in my chest, almost like I can\u2019t breathe. My mind starts racing with all the possible ways it could go wrong. I worry he might get upset or disappointed, and then I feel this urge to just back off instead of pushing through. It\u2019s kind of like I want to speak up, but then I get all tangled up in my thoughts and just freeze. I don\u2019t know if that makes sense, but I feel this tension in my body, like I\u2019m ready to run away or just stay quiet instead.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. Client: \"I guess that relief kind of tells me that maybe I need to be more gentle with myself. It feels like I\u2019m telling myself it\u2019s okay to take my time and not push too hard.\"\n2. Client: \"I guess when I think about reaching out to him, it feels like this heavy weight in my chest, almost like I can\u2019t breathe. My mind starts racing with all the possible ways it could go wrong.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a meaningful increase in emotional expression and self-reflection compared to previous sessions. The client demonstrates a clearer understanding of their feelings, particularly around self-compassion and the fear of confronting their father, which reflects a greater engagement with their emotional landscape. This stage marks a notable change from earlier, where responses were more factual and less emotionally connected.\n\n**Turning Point:**\nThe pivotal moment leading to the current emotional level appears to be when the client began articulating their need for gentleness and time in processing their feelings. This shift took place when they acknowledged the mix of bravery and fear, expressing a deeper recognition of their internal conflict and vulnerability. Their willingness to explore physical sensations and emotional weight related to their family dynamics signifies a significant step in their therapeutic journey.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Noticing that heavy weight in your chest and the racing thoughts really highlights how intense that situation feels for you. It sounds like when you think about reaching out, there\u2019s a strong physical reaction and a flood of worries about how it could go wrong. That tension between wanting to speak up and feeling the urge to retreat is significant.\n\nAs you sit with those sensations and thoughts, can you take a moment to explore what it might feel like to acknowledge both the desire to reach out and the fear that's holding you back? What do you think might happen if you allowed yourself to experience both sides of that struggle?",
+      "client": "I guess acknowledging both the desire and the fear feels a bit overwhelming. Part of me thinks it might help to recognize that it\u2019s okay to feel scared, but then another part worries that if I really dive into those feelings, I might just get lost in them. It\u2019s like I\u2019d be giving in to the fear instead of finding a way to move forward. Maybe I need to practice just sitting with those conflicting emotions before I make any decisions, but I don't know if I can do that without feeling even more stuck. It\u2019s hard to find a way to navigate through it all.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Sitting with those conflicting emotions does sound like a tricky balance to strike. It makes sense that you might feel overwhelmed by the idea of diving into your fear, especially if it feels like it could pull you deeper into that sense of being stuck. Recognizing that it\u2019s okay to feel scared while also wanting to move forward can be a lot to hold at once.\n\nWhat does it feel like to think about practicing that awareness of both the desire and the fear, even if it\u2019s just for a moment? Are there small ways you might allow yourself to explore those feelings without feeling like you have to fully engage with them right away?",
+      "client": "I guess thinking about it feels kind of daunting, like I\u2019m standing at the edge of a pool and not sure if I want to jump in. Part of me thinks it could be helpful to sit with those feelings, but another part is like, what if I get overwhelmed? Maybe just acknowledging them for a second, like taking a tiny step back instead of diving in headfirst, would feel a bit safer. I don\u2019t know if that\u2019ll help, but it seems like a less intense way to start. It\u2019s just hard to picture what that would look like when everything feels so tangled up already.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "Imagining that feeling of standing at the edge of a pool captures a lot of what you're experiencing. It sounds like there's a mix of curiosity about exploring those feelings and a real concern about becoming overwhelmed, which is totally understandable. Taking that tiny step back to acknowledge your emotions for just a moment might give you a sense of safety while still making room for what you're feeling.\n\nCan you think of a specific moment or situation where you might try that brief acknowledgment? What might that look like for you?",
+      "client": "I don\u2019t know\u2026 maybe when I\u2019m just sitting quietly at home, I could take a moment to notice how I feel about something small, like deciding what to do for dinner. It\u2019s not as loaded as talking to my dad, but I guess it\u2019s still a chance to recognize what\u2019s going on inside. I might just pause for a second and think about what I\u2019m feeling in that moment. It\u2019s hard to imagine, though, like I said. I mean, what if I start thinking too much and it spirals into something bigger? But I can kind of see the benefit of practice, even if it\u2019s just with little things.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "Sitting quietly at home and pausing to notice your feelings about something like dinner sounds like a gentle way to begin. It\u2019s understandable to worry about spiraling into bigger thoughts, especially when things feel tangled up. That small moment of recognition could be a starting point that feels more manageable.\n\nAs you consider this idea, what do you think might help you keep it simple during that pause? What could you do to remind yourself that it\u2019s okay to just notice, without needing to dive deeper right away?",
+      "client": "I guess keeping it simple might mean setting a timer for just a minute or something, so I don\u2019t feel like I have to sit there forever trying to figure everything out. Maybe I could remind myself that it\u2019s okay to just be in that moment without any pressure to solve anything. I don\u2019t know, though; part of me worries I\u2019ll end up just overthinking it and then feel frustrated if I can\u2019t pinpoint anything. But, I mean, I could just let those thoughts come and go without judging them too much? That might help me ease into it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Setting a timer for a minute sounds like a practical way to create a boundary for yourself, which could help ease that pressure you\u2019re feeling. Allowing thoughts to come and go without judgment might also give you the space to notice what\u2019s happening without feeling overwhelmed. \n\nAs you think about this approach, what do you feel in your body when you imagine allowing those thoughts to flow without needing to pin them down?",
+      "client": "I don\u2019t know\u2026 I guess there\u2019s a bit of tension in my shoulders just thinking about it. It\u2019s like, I want to let those thoughts flow, but part of me feels this tightness, like I\u2019m holding onto something. Maybe I\u2019d feel a bit lighter if I could just let go of the need to control it all. But it\u2019s also kind of scary to think about what might come up if I really let myself experience those thoughts. It\u2019s hard to imagine being okay with whatever happens.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Noticing the tension in your shoulders as you think about this is really important. It seems there's a conflict between wanting to let go and feeling the need to hold on, which can create that tightness. Imagining what it might feel like to be lighter brings up some difficult feelings about the unknown, too.\n\nIn that moment of uncertainty, what do you think could help you feel a bit more grounded or secure, even as you consider allowing those thoughts to come up?",
+      "client": "I don\u2019t know\u2026 maybe reminding myself that it\u2019s okay to feel uncomfortable might help? Like, if I can accept that it\u2019s normal to have those tight feelings without pushing them away, it could make it easier to just be. I guess having some sort of mantra or something simple to repeat, like \"it's okay to not know,\" might ground me a bit. But even that feels a little cheesy, you know? I mean, part of me thinks it could work, but another part is skeptical.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess keeping it simple might mean setting a timer for just a minute or something, so I don\u2019t feel like I have to sit there forever trying to figure everything out.\"\n2. Client: \"Maybe I\u2019d feel a bit lighter if I could just let go of the need to control it all. But it\u2019s also kind of scary to think about what might come up if I really let myself experience those thoughts.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a noticeable increase in emotional expression and self-reflection. They are beginning to articulate feelings of tension and conflicting desires surrounding their thoughts, indicating a deeper level of engagement compared to earlier sessions that may have been more fact-based and guarded. The client is now not only recognizing their emotional state but also exploring strategies to manage it, which demonstrates an evolution in their comfort level with vulnerability.\n\n**Turning Point:** The turning point appears to be when the client acknowledged their physical tension in their shoulders while contemplating the fear of letting thoughts flow freely. This moment of self-awareness marks a shift as they moved from merely discussing thoughts to revealing deeper emotional conflicts related to control and acceptance. The client expressing, \u201cit\u2019s okay to feel uncomfortable,\u201d signifies a critical moment of acceptance that paves the way for further exploration of their emotional landscape.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
 import json
 import re
 import subprocess
@@ -16,7 +18,15 @@ DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "adaptive", "flash")
+THERAPIST_TYPES = ("standard", "adaptive", "flash", "hybrid")
+
+
+@dataclass(frozen=True)
+class ConversationJob:
+    index: int
+    label: str
+    path: Path
+    command: list[str]
 
 
 def parse_args() -> argparse.Namespace:
@@ -77,6 +87,10 @@ def parse_args() -> argparse.Namespace:
         help="Optional readiness judge model for adaptive therapist runs.",
     )
     parser.add_argument(
+        "--cbt-technique-chooser-model",
+        help="Optional CBT technique chooser model for hybrid therapist runs.",
+    )
+    parser.add_argument(
         "--readiness-judge-prompt",
         type=Path,
         help="Optional readiness judge prompt path for adaptive therapist runs.",
@@ -92,6 +106,12 @@ def parse_args() -> argparse.Namespace:
         "--max-clients",
         type=int,
         help="Optional limit on number of patients from the dataset.",
+    )
+    parser.add_argument(
+        "--max-jobs",
+        type=int,
+        default=1,
+        help="Maximum number of conversations to generate in parallel.",
     )
     parser.add_argument(
         "--overwrite",
@@ -168,6 +188,10 @@ def simulator_command(
         command.extend(["--therapist-prompt", str(args.therapist_prompt)])
     if args.readiness_judge_model:
         command.extend(["--readiness-judge-model", args.readiness_judge_model])
+    if args.cbt_technique_chooser_model:
+        command.extend(
+            ["--cbt-technique-chooser-model", args.cbt_technique_chooser_model]
+        )
     if args.readiness_judge_prompt:
         command.extend(["--readiness-judge-prompt", str(args.readiness_judge_prompt)])
     if args.flash_api_url:
@@ -177,8 +201,17 @@ def simulator_command(
     return command
 
 
+def run_job(job: ConversationJob, total: int) -> tuple[ConversationJob, int]:
+    print(f"[run] {job.index}/{total} {job.label} -> {job.path}", flush=True)
+    result = subprocess.run(job.command, cwd=ROOT_DIR, check=False)
+    return job, result.returncode
+
+
 def main() -> None:
     args = parse_args()
+    if args.max_jobs < 1:
+        raise SystemExit("--max-jobs must be at least 1")
+
     patients = load_patients(args.dataset, args.max_clients)
 
     completed = 0
@@ -189,6 +222,7 @@ def main() -> None:
     for mode in args.modes:
         (args.outputs_dir / mode).mkdir(parents=True, exist_ok=True)
 
+    jobs: list[ConversationJob] = []
     for patient in patients:
         patient_id = patient.get("id")
         if patient_id is None:
@@ -208,20 +242,55 @@ def main() -> None:
                 print(f"[dry-run] {label} -> {path}")
                 continue
 
-            print(f"[run] {completed + skipped + failed + 1}/{total} {label} -> {path}")
-            try:
-                subprocess.run(command, cwd=ROOT_DIR, check=True)
-            except subprocess.CalledProcessError as exc:
+            jobs.append(
+                ConversationJob(
+                    index=completed + skipped + failed + len(jobs) + 1,
+                    label=label,
+                    path=path,
+                    command=command,
+                )
+            )
+
+    first_failure_code = 0
+    if args.max_jobs == 1:
+        for job in jobs:
+            job, returncode = run_job(job, total)
+            if returncode:
                 failed += 1
-                print(f"[fail] {label} exited with code {exc.returncode}")
+                print(f"[fail] {job.label} exited with code {returncode}", flush=True)
                 if not args.continue_on_error:
-                    raise SystemExit(exc.returncode) from exc
+                    raise SystemExit(returncode)
             else:
                 completed += 1
+                print(f"[done] {job.label} -> {job.path}", flush=True)
+
+        print(
+            f"Done. completed={completed}, skipped={skipped}, failed={failed}, "
+            f"total={total}"
+        )
+        return
+
+    with ThreadPoolExecutor(max_workers=args.max_jobs) as executor:
+        futures = {
+            executor.submit(run_job, job, total): job
+            for job in jobs
+        }
+
+        for future in as_completed(futures):
+            job, returncode = future.result()
+            if returncode:
+                failed += 1
+                first_failure_code = first_failure_code or returncode
+                print(f"[fail] {job.label} exited with code {returncode}", flush=True)
+            else:
+                completed += 1
+                print(f"[done] {job.label} -> {job.path}", flush=True)
 
     print(
         f"Done. completed={completed}, skipped={skipped}, failed={failed}, total={total}"
     )
+    if first_failure_code and not args.continue_on_error:
+        raise SystemExit(first_failure_code)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,377 @@
+{
+  "mode": "hard",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "3-1",
+  "patient_name": "Caleb",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (Warming Up)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"When I'm working on the PhD, it's all stress and pressure, so I just switch gears.\" This indicates the client's awareness of their stress and a basic acknowledgment of their emotional state, though they downplay it.\n2. **Latest exchange demonstrating current openness:** \"I just want to get through my PhD without it driving me crazy, you know?\" Here, the client reveals a desire for relief from pressure, suggesting a mix of factual reporting and an emotional undertone indicating their current state.\n\n**Progression:** The client\u2019s most recent interactions demonstrate an emerging recognition of their emotional landscape, particularly the distinction between their stress while working on their PhD and the relief they seek through painting. This marks a significant change from earlier sessions, where the client may have been more guarded and focused primarily on factual responses without acknowledging their emotional experience.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their desire to \"get through my PhD without it driving me crazy.\" This reflects a moment of vulnerability where they acknowledge not just the pressure but their emotional need for coping mechanisms, marking a step towards deeper self-reflection. \n\nOverall, while the client is still primarily in a factual mode, there are signs of warming up to exploring their emotional experiences, albeit with some hesitance. Their capacity for self-reflection is beginning to emerge, but they remain resistant to fully engaging in the emotional aspects of their experiences.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "### Rating: 3 (ENGAGED EXPLORATION)\n\n#### Key Examples:\n1. **Emotional State:** \"There's this voice in my head saying I\u2019m not good enough if I can't finish it. Sometimes I feel like I\u2019m just frozen, like I can\u2019t even get started on the last bits.\"\n2. **Current Openness:** \"I guess it\u2019s a mix of excitement and anxiety, maybe? I mean, part of me thinks it could be a great opportunity, like a chance to explore new directions. But then there\u2019s this nagging fear that I won\u2019t be good enough in whatever comes next.\"\n\n#### Progression:\nThe client's recent interactions demonstrate a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, their responses carried a more factual tone with limited emotional vocabulary. However, the recent dialogue reveals a clear shift towards articulating complex feelings, such as the anxiety tied to identity and the fear of moving on from being a PhD student. The client now engages actively in exploring these feelings, indicating a growing comfort in expressing deeper emotions and acknowledging their internal conflicts.\n\n#### Turning Point:\nThe client's emotional depth shifted during the moment when they began expressing their fears about identity and change. Specifically, when they stated, \"I guess I\u2019ve never thought about it that way, but maybe part of me is worried about what comes next,\" there was a significant moment of self-awareness. This realization indicates a layer of introspection that was previously absent, marking a transition from simply discussing their academic pressures to reflecting on their identity and future. This represents a deeper engagement with their emotional landscape and a burgeoning trust in the therapeutic process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n- **Emotional State:** \"I think the guilt makes everything feel heavier, like I'm not allowed to enjoy my time away from the project. It\u2019s like a nagging voice saying I should be more productive, like I\u2019m wasting time.\"\n- **Current Openness:** \"I guess it feels like I'm caught in this tug-of-war, where the guilt kind of pulls me back to the work, but then the desire to enjoy painting pushes me away from that pressure.\"\n\n**Progression:** The client's most recent interactions demonstrate a growing level of emotional expression and self-reflection. They articulate their feelings of guilt and the internal conflict between productivity and enjoyment, which signifies a shift from earlier exchanges where they may have been more guarded or less aware of their emotional landscape. The client is actively engaging in dialogue about their feelings, indicating a deeper level of self-awareness and vulnerability, which marks significant progress from a prior state of limited disclosure.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their response about feeling \"caught in this tug-of-war.\" This moment showcases their recognition of the conflicting emotions within them, reflecting a newfound insight into their internal struggle between the need to be productive and the desire to enjoy their creative outlet. This acknowledgment of complexity in their feelings represents a deeper engagement with their emotional state, facilitating a more meaningful exploration of their experiences in the therapeutic setting.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess there\u2019s a part of me that\u2019s a little curious about what it would feel like to let go, but it\u2019s hard to shake off that fear.\"\n2. Client: \"Maybe I could think about setting aside just a little time to explore something I enjoy, like painting, without feeling guilty about it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked evolution from an earlier stage characterized by defensiveness and limited emotional vocabulary. They are now articulating fears and curiosities about their emotional state, indicating a deeper emotional awareness and willingness to engage in self-reflection. The client expresses a blend of curiosity and apprehension regarding the idea of letting go of their burdens, which illustrates a significant shift towards emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth appeared to shift during the exchange where they openly acknowledged their curiosity about letting go of pressure but simultaneously expressed their fears of losing control. This moment signified a deeper engagement with their emotional experience, suggesting a growing trust in the therapeutic relationship and a readiness to explore complex feelings. They are beginning to navigate the tension between wanting to explore their interests and the fear of falling off track, which reflects a deeper level of self-awareness and emotional complexity than seen earlier in their sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"During that time, I felt really light, almost like I could breathe better. It was like my mind quieted down for a bit, and I could focus on just the colors and the process.\"\n2. **Current Openness:** \"I guess it definitely makes it harder to focus on my work. When I feel that knot in my stomach, I just want to avoid everything.\"\n\n**Progression:** The client's most recent interactions exhibit a notable shift towards deeper emotional expression and self-reflection, particularly evident in their description of feeling both light during painting and subsequently experiencing a knot of tension when confronted with responsibilities. This demonstrates an increased willingness to explore emotional nuances compared to earlier exchanges, which were more factual and less emotionally laden. The client shows a growing understanding of their emotional landscape, indicating a transition from merely stating feelings to articulating complex emotional experiences.\n\n**Turning Point:** The client's emotional depth appears to have shifted during the reflection on their painting experience. Initially, the client acknowledged moments of balance but expressed them as fleeting and overshadowed by stress. When they began to articulate the contrasting feelings of lightness and tension, it became a breakthrough moment, allowing them to connect these emotions to their choices and actions. This new level of insight marks a significant turn towards self-reflection and deeper engagement in the therapeutic process.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Caleb, I\u2019m really glad you\u2019re here today. What\u2019s been on your mind lately that feels most important for us to talk about?",
+      "client": "I don\u2019t know. It\u2019s just the same old PhD stuff, you know? I\u2019ve got this project that feels like it\u2019s dragging on forever. It's just annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like this project is feeling really frustrating and maybe overwhelming for you. When you say it feels like it\u2019s dragging on, what kind of impact does that have on your day-to-day experience?",
+      "client": "It just makes everything feel like a chore, you know? I get distracted and then I feel guilty for not working. It's just how it is; I can't change that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like the weight of the project makes your daily routine feel heavier and more burdensome. That sense of distraction and subsequent guilt sounds really challenging to navigate. When you notice yourself getting distracted, can you recall what thoughts or feelings come up for you in those moments?",
+      "client": "I don't really think about it like that. I just get sidetracked, maybe start painting or something. It\u2019s not a big deal; it\u2019s just how I cope with it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Finding ways to cope, like painting, can be a natural response when things feel heavy. It sounds like that activity offers you a break from the project. When you shift to painting, what do you notice about how you feel in those moments compared to when you\u2019re focused on your PhD work?",
+      "client": "I don\u2019t really pay attention to that. When I\u2019m painting, it\u2019s just a way to pass the time, not something deep. I guess it\u2019s just nice to do something different for a bit. When I\u2019m working on the PhD, it\u2019s all stress and pressure, so I just switch gears. That\u2019s all there is to it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Shifting gears to painting sounds like a way for you to create some distance from the stress and pressure of your PhD work. It\u2019s interesting how that change in activity helps you feel a bit lighter, even if it feels like just a simple distraction. When you think about those moments of switching to painting, do you notice any specific emotions or sensations that come up for you, even if they seem subtle?",
+      "client": "I don\u2019t really notice anything specific. I just get into the zone when I\u2019m painting. It\u2019s not some big emotional thing; it\u2019s just a break from the pressure of everything else. I just want to get through my PhD without it driving me crazy, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Getting through your PhD while managing that pressure sounds like a significant focus for you. It\u2019s understandable to seek out breaks like painting to give yourself some relief. When you mention getting into the zone while painting, it seems like there\u2019s a sense of immersion that pulls you away from the stress. Can you recall a recent moment when you were painting? What was that experience like for you in that moment?",
+      "client": "I don\u2019t know. It was just me with my paints and canvas, trying to create something. I wasn\u2019t really thinking about anything else. It was just nice to zone out for a bit. That\u2019s all there is to it.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (Warming Up)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"When I'm working on the PhD, it's all stress and pressure, so I just switch gears.\" This indicates the client's awareness of their stress and a basic acknowledgment of their emotional state, though they downplay it.\n2. **Latest exchange demonstrating current openness:** \"I just want to get through my PhD without it driving me crazy, you know?\" Here, the client reveals a desire for relief from pressure, suggesting a mix of factual reporting and an emotional undertone indicating their current state.\n\n**Progression:** The client\u2019s most recent interactions demonstrate an emerging recognition of their emotional landscape, particularly the distinction between their stress while working on their PhD and the relief they seek through painting. This marks a significant change from earlier sessions, where the client may have been more guarded and focused primarily on factual responses without acknowledging their emotional experience.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their desire to \"get through my PhD without it driving me crazy.\" This reflects a moment of vulnerability where they acknowledge not just the pressure but their emotional need for coping mechanisms, marking a step towards deeper self-reflection. \n\nOverall, while the client is still primarily in a factual mode, there are signs of warming up to exploring their emotional experiences, albeit with some hesitance. Their capacity for self-reflection is beginning to emerge, but they remain resistant to fully engaging in the emotional aspects of their experiences.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Being in that space with your paints and canvas sounds like a peaceful escape, a time when your mind is able to rest from everything else. It\u2019s interesting how, even in those moments when you\u2019re just trying to create something, you find a way to zone out and take a break from the pressures surrounding your PhD. What do you think allows you to feel that freedom in those moments of painting?",
+      "client": "I guess it\u2019s just the act of creating, you know? When I\u2019m painting, I\u2019m not thinking about deadlines or what my supervisor wants. I mean, maybe it\u2019s just a way to escape all the expectations that come with the PhD. It\u2019s like, in those moments, I can just be myself without all the pressure. But then again, I also wonder if I\u2019m just avoiding what I need to do.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "The way you describe painting as a time to just be yourself, free from expectations, really highlights how important that space is for you. It sounds like there\u2019s a mix of relief and maybe a bit of doubt about whether it's an escape or a necessary break. When you think about the moments of painting, do you find it helps you reconnect with your own thoughts or feelings in a way that feels different from when you\u2019re focused on your PhD work?",
+      "client": "I don\u2019t know, it\u2019s hard to say. When I\u2019m painting, it\u2019s like I\u2019m just in my own world, and I\u2019m not really analyzing anything. I guess it feels different than when I\u2019m trying to tackle my PhD project, which is full of pressure and expectations. Sometimes, I think painting helps me clear my head a little, but then I worry that I\u2019m just using it as a way to avoid the hard stuff. It\u2019s like I\u2019m caught between needing that break and feeling guilty for not working on my project.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "It seems like you\u2019re navigating a complex space between finding relief in painting and feeling the weight of guilt regarding your PhD work. This tension between taking a break and the pressure to be productive can really create an inner conflict. When you think about those moments of clearing your head while painting, how does that contrast with the feelings that come up when you return to your PhD project?",
+      "client": "I guess when I come back to the PhD work, it all feels heavy again, like I have this mountain to climb. Painting feels light, almost like a breath of fresh air, but then I dive back into the project, and it\u2019s like, here we go again with the stress and anxiety. I know I need to finish, but I just feel overwhelmed by everything that\u2019s left to do. It\u2019s like I want to keep the painting vibe, but the reality of the PhD just pulls me back down.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "The contrast you\u2019re describing is striking\u2014that lightness from painting versus the heaviness of returning to your PhD work. It sounds like the painting offers you a refreshing escape, but then diving back into the project brings up all that stress and anxiety. When you think about that feeling of being overwhelmed by what\u2019s left to do, what are some of the thoughts or sensations that arise for you as you transition back to your academic work?",
+      "client": "I don\u2019t know, it\u2019s like I start thinking about how I should be done by now or how I\u2019m just dragging my feet, you know? There's this voice in my head saying I\u2019m not good enough if I can't finish it. Sometimes I feel like I\u2019m just frozen, like I can\u2019t even get started on the last bits. It\u2019s frustrating because I want to be excited about the end, but it just feels so far away. Maybe part of me is scared of what happens if I actually finish?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "You mentioned feeling a heavy pressure from the voice in your head that makes you question your worth if you can\u2019t finish your PhD. That must be really frustrating, especially when you're so close to the end. The sensation of being frozen and the mix of wanting to feel excited but instead feeling overwhelmed could create quite a struggle. When you reflect on the fear of what happens if you actually finish, what does that bring up for you?",
+      "client": "I guess I\u2019ve never thought about it that way, but maybe part of me is worried about what comes next. Like, if I finish, then what? I mean, it\u2019s almost like I\u2019ve built this whole identity around being a PhD student, and once it\u2019s over, I\u2019m not sure what that means for me. It feels strange to think about stepping into something new, even if it\u2019s supposed to be a good thing. I don\u2019t know, it just adds another layer of pressure, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "The idea of identity tied to being a PhD student and the uncertainty of what comes next sounds really significant. It\u2019s understandable that stepping into something new, even if it\u2019s positive, can feel daunting and add to the pressure you\u2019re already experiencing. For you, it seems like finishing the PhD isn\u2019t just about completing a project; it also means navigating a shift in how you see yourself and your place in the world. What kind of feelings or thoughts arise when you sit with the idea of this change in identity?",
+      "client": "I guess it\u2019s a mix of excitement and anxiety, maybe? I mean, part of me thinks it could be a great opportunity, like a chance to explore new directions. But then there\u2019s this nagging fear that I won\u2019t be good enough in whatever comes next. It\u2019s hard to shake off that feeling of being defined by the PhD work, you know? I kind of wonder if I\u2019ll just feel lost without it. It\u2019s weird because, while I want to move forward, the idea of losing that part of my identity feels a bit scary.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "### Rating: 3 (ENGAGED EXPLORATION)\n\n#### Key Examples:\n1. **Emotional State:** \"There's this voice in my head saying I\u2019m not good enough if I can't finish it. Sometimes I feel like I\u2019m just frozen, like I can\u2019t even get started on the last bits.\"\n2. **Current Openness:** \"I guess it\u2019s a mix of excitement and anxiety, maybe? I mean, part of me thinks it could be a great opportunity, like a chance to explore new directions. But then there\u2019s this nagging fear that I won\u2019t be good enough in whatever comes next.\"\n\n#### Progression:\nThe client's recent interactions demonstrate a notable increase in emotional depth and self-reflection compared to earlier exchanges. Initially, their responses carried a more factual tone with limited emotional vocabulary. However, the recent dialogue reveals a clear shift towards articulating complex feelings, such as the anxiety tied to identity and the fear of moving on from being a PhD student. The client now engages actively in exploring these feelings, indicating a growing comfort in expressing deeper emotions and acknowledging their internal conflicts.\n\n#### Turning Point:\nThe client's emotional depth shifted during the moment when they began expressing their fears about identity and change. Specifically, when they stated, \"I guess I\u2019ve never thought about it that way, but maybe part of me is worried about what comes next,\" there was a significant moment of self-awareness. This realization indicates a layer of introspection that was previously absent, marking a transition from simply discussing their academic pressures to reflecting on their identity and future. This represents a deeper engagement with their emotional landscape and a burgeoning trust in the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "The mix of excitement and anxiety you\u2019re feeling is completely understandable. It sounds like there\u2019s a tension between wanting to explore new opportunities and the fear of not measuring up in whatever comes next. The significance of the PhD work in your identity makes this transition feel quite heavy, and it\u2019s okay to feel scared about losing that familiar part of yourself. When you think about that fear of feeling lost without the PhD work, what do you notice in your body or your thoughts?",
+      "client": "I don\u2019t know, it\u2019s like my chest gets tight when I think about it. I feel this weight, like it\u2019s hard to breathe sometimes. My mind starts racing, going to all these what-ifs, like what if I can\u2019t find a job, or what if I don\u2019t fit in anywhere? It\u2019s frustrating because I want to be excited about the future, but this fear kind of blankets everything. Maybe it\u2019s just a lot to process, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the weight you feel when thinking about the future sounds really intense. It seems like that fear is strong enough to overshadow the excitement you might want to feel. The racing thoughts and \u201cwhat-ifs\u201d can create a lot of noise, making it difficult to focus on what you truly want. As you sit with these sensations and thoughts, what do you notice shifts for you in that moment?",
+      "client": "I guess when I try to sit with it, I feel even more overwhelmed, like I get caught in this loop of thinking. I mean, it\u2019s hard to find clarity when my mind just keeps spiraling with all those worries. Maybe I just want to push it all away and focus on something else, like painting, where it feels easier to control what\u2019s happening. It\u2019s frustrating because I know I should be thinking about the future, but it feels like I\u2019m just avoiding it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Feeling overwhelmed when trying to sit with those thoughts makes sense, especially when they spiral and seem never-ending. It\u2019s understandable to want to shift your focus to something like painting, where you feel a sense of control and ease. The desire to avoid those uncomfortable feelings is quite common, especially when facing uncertainty about the future. As you think about the choice to focus on painting instead, what do you notice about how that feels for you in that moment?",
+      "client": "When I focus on painting, it\u2019s like I can breathe a little easier, you know? There\u2019s something freeing about just getting lost in colors and shapes without all that pressure. But then I think, should I really be doing this instead of working on my PhD? It feels like I\u2019m kind of running away from what I should be dealing with, even if it\u2019s nice to escape for a bit. I guess there\u2019s a part of me that feels guilty about not pushing through the anxiety and just getting it done.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Finding some ease in painting sounds really valuable, especially when it feels freeing to get lost in that creative space. It\u2019s interesting how you\u2019re noticing a conflict between enjoying that escape and the pressure to focus on your PhD work. The guilt you feel about not pushing through can add another layer to the experience. As you reflect on those feelings of guilt, what stands out to you about that part of the conversation with yourself?",
+      "client": "I think the guilt makes everything feel heavier, like I'm not allowed to enjoy my time away from the project. It\u2019s like a nagging voice saying I should be more productive, like I\u2019m wasting time. I guess I kind of know that taking breaks is important, but it feels wrong when there\u2019s still so much left to do. It\u2019s hard to balance that, you know? Part of me thinks maybe I should just be tougher and push through, but another part of me wants to just enjoy painting without feeling guilty about it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like you're navigating a tough balance between the need for productivity and the desire to enjoy your time painting. The heaviness of guilt and that nagging voice can really weigh on you, making it challenging to take a break when you feel there's so much left to do. As you sit with those conflicting feelings, what do you notice about how they interact with each other in your mind and body?",
+      "client": "I guess it feels like I'm caught in this tug-of-war, where the guilt kind of pulls me back to the work, but then the desire to enjoy painting pushes me away from that pressure. It\u2019s almost like my mind and body are at odds with each other, you know? I feel tense when I think about the PhD stuff, and then when I'm painting, I can feel that tension easing up a bit, but the guilt still lingers. Maybe I\u2019m just not sure how to find a way to make both parts work together without feeling like I\u2019m failing at one or the other.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Noticing that tug-of-war between guilt and the desire to enjoy painting is really insightful. It\u2019s interesting how you describe the tension in your body when thinking about the PhD work, and then how that tension eases while painting, even if the guilt lingers. That push and pull sounds quite exhausting. As you think about those two parts of yourself, how do you feel when you imagine what it might be like to let them coexist, even just a little?",
+      "client": "I don\u2019t know, it\u2019s kind of hard to imagine them coexisting. Part of me thinks it could be nice to have both\u2014like I could paint and still feel okay about working on my PhD. But then I worry that if I let go of the pressure, I might never get back to the work. I guess it feels risky to think I could have both parts working together without one overshadowing the other. Maybe it sounds silly, but I\u2019m not sure how that would even look in practice.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n- **Emotional State:** \"I think the guilt makes everything feel heavier, like I'm not allowed to enjoy my time away from the project. It\u2019s like a nagging voice saying I should be more productive, like I\u2019m wasting time.\"\n- **Current Openness:** \"I guess it feels like I'm caught in this tug-of-war, where the guilt kind of pulls me back to the work, but then the desire to enjoy painting pushes me away from that pressure.\"\n\n**Progression:** The client's most recent interactions demonstrate a growing level of emotional expression and self-reflection. They articulate their feelings of guilt and the internal conflict between productivity and enjoyment, which signifies a shift from earlier exchanges where they may have been more guarded or less aware of their emotional landscape. The client is actively engaging in dialogue about their feelings, indicating a deeper level of self-awareness and vulnerability, which marks significant progress from a prior state of limited disclosure.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their response about feeling \"caught in this tug-of-war.\" This moment showcases their recognition of the conflicting emotions within them, reflecting a newfound insight into their internal struggle between the need to be productive and the desire to enjoy their creative outlet. This acknowledgment of complexity in their feelings represents a deeper engagement with their emotional state, facilitating a more meaningful exploration of their experiences in the therapeutic setting.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Imagining those two parts coexisting does seem challenging, especially with the worry that easing up on the pressure might lead to losing focus. It\u2019s understandable to feel that way when there\u2019s so much at stake with your PhD. Recognizing that it feels risky to envision a balance shows how deeply you care about both your work and your passion for painting. If you were to take a moment to picture what that balance could look like, what little steps or moments might allow for both to exist without feeling like one is overshadowing the other?",
+      "client": "I guess if I were to picture that balance, maybe it could start with setting aside specific times for painting, almost like treating it as a scheduled break. I could see how that might help me feel less guilty about it and give me something to look forward to. But then, I worry if I do that, I might end up not wanting to go back to the PhD work at all. It feels like I\u2019m trying to tiptoe around this idea of balance, and I don\u2019t even know if it\u2019s possible. I mean, I want to think it could work, but it\u2019s hard to shake off that worry.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Setting aside specific times for painting as a scheduled break sounds like a thoughtful way to explore that balance between your PhD work and your passion. It's clear that there's a desire to make space for both without feeling guilty. The worry about not wanting to return to the PhD work is understandable, as it seems like you're trying to navigate a fine line. \n\nAs you think about that idea of scheduling time for painting, what feelings or sensations come up for you when you imagine actually putting that plan into action?",
+      "client": "I don\u2019t know, it feels kind of exciting but also scary at the same time. Like, I can imagine the relief of having that time to paint, but then there's this nagging thought that I might just get too comfortable and avoid the PhD work altogether. Maybe part of me thinks it's a good idea, but another part is worried about letting myself enjoy it too much. It\u2019s like I\u2019m second-guessing myself before I even start, you know? I guess I just want to feel like I\u2019m still on track with my project while also allowing myself that break.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a mix of excitement and fear when you think about actually scheduling time to paint. That relief you imagine feels significant, yet the worry about getting too comfortable and avoiding the PhD work creates a tension that's hard to shake off. It\u2019s understandable to want to keep moving forward with your project while also allowing yourself the enjoyment of painting. \n\nAs you sit with these feelings, can you notice where in your body you\u2019re feeling that tension or excitement? What does it feel like to hold both those thoughts at the same time?",
+      "client": "I guess I can feel some of that tension in my chest and shoulders\u2014like a tightness that never really goes away. It\u2019s almost like a weight, you know? I mean, when I think about those conflicting thoughts, it\u2019s hard to find a space where they can just coexist without feeling like I have to choose one over the other. I kind of wish I could just let that excitement take over without all the worry tagging along. It feels like I\u2019m juggling too many things, and I don\u2019t want to drop anything important.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "The tightness you feel in your chest and shoulders really highlights the weight of those conflicting thoughts. It sounds like there's a lot of pressure in trying to hold both your excitement and your worries at the same time. Juggling all of that can be exhausting, especially when it feels like you have to keep everything in balance without dropping something important. \n\nAs you reflect on that sensation, what do you notice about how your body responds when you think about letting go of that pressure, even just a little?",
+      "client": "I don\u2019t know, it feels like... if I even think about letting go of that pressure, my body just kind of tenses up more. It\u2019s like there\u2019s this instinct to hold onto it, like if I let go, everything will spiral out of control. I get that it might be healthier to release some of that pressure, but it feels risky, you know? Like what if I really can\u2019t handle it if I stop worrying for even a moment?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "That instinct to hold onto the pressure makes a lot of sense, especially when it feels like letting go might lead to something out of control. It\u2019s as if the worry acts like a safety net, even though it can be really heavy to carry. There\u2019s a genuine concern behind that fear of not being able to handle things if you step back for a moment.\n\nWhen you think about that tension in your body and the idea of releasing some of it, what do you notice about the feelings that come up? Is there a part of you that might feel curious about what it could be like to let go, even just a little?",
+      "client": "I guess there\u2019s a part of me that\u2019s a little curious about what it would feel like to let go, but it\u2019s hard to shake off that fear. Maybe I\u2019m worried that if I do, I might lose my grip on everything I\u2019ve been working towards. It\u2019s like, I want to explore that idea, but it feels so risky. What if all that pressure is actually what keeps me moving forward? I mean, it sounds good in theory, but in practice, I don\u2019t know if I could really handle it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that way, especially when the pressure has been a driving force behind your efforts. The fear of losing that grip on your goals can make it feel like a risky move to consider letting go, even a little. It sounds like there\u2019s a tension between wanting to explore that curiosity and the worry about what it might mean for your progress.\n\nAs you think about this tension, what comes up for you when you consider how you might balance that curiosity with your current feelings of pressure? Is there a small step that feels less daunting to explore?",
+      "client": "I don\u2019t know, balancing curiosity with all this pressure feels really tricky. Maybe I could think about setting aside just a little time to explore something I enjoy, like painting, without feeling guilty about it. But even that feels like a lot to manage right now. I guess I worry that if I start to let myself feel that curiosity, I might get distracted and lose focus on my project. It's like I'm caught between wanting to take a break and feeling like I can't afford to.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess there\u2019s a part of me that\u2019s a little curious about what it would feel like to let go, but it\u2019s hard to shake off that fear.\"\n2. Client: \"Maybe I could think about setting aside just a little time to explore something I enjoy, like painting, without feeling guilty about it.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked evolution from an earlier stage characterized by defensiveness and limited emotional vocabulary. They are now articulating fears and curiosities about their emotional state, indicating a deeper emotional awareness and willingness to engage in self-reflection. The client expresses a blend of curiosity and apprehension regarding the idea of letting go of their burdens, which illustrates a significant shift towards emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth appeared to shift during the exchange where they openly acknowledged their curiosity about letting go of pressure but simultaneously expressed their fears of losing control. This moment signified a deeper engagement with their emotional experience, suggesting a growing trust in the therapeutic relationship and a readiness to explore complex feelings. They are beginning to navigate the tension between wanting to explore their interests and the fear of falling off track, which reflects a deeper level of self-awareness and emotional complexity than seen earlier in their sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Setting aside time for something you enjoy, like painting, sounds like a meaningful way to explore that curiosity, even if it feels challenging right now. It\u2019s interesting how the thought of distraction can feel overwhelming when you\u2019re trying to maintain focus on your project. The worry about losing that momentum can really create a push-pull feeling.\n\nAs you consider this idea of taking a break, what do you feel in your body when you think about allowing yourself that time? Is there a particular sensation or thought that stands out as you imagine giving yourself permission to engage in something you love?",
+      "client": "When I think about allowing myself that time, my stomach kind of tightens up. It\u2019s like a knot, and I start to feel this wave of guilt wash over me. I mean, I know I should probably give myself permission to take a break, but then I think about all the work I still have to do. It\u2019s hard to shake that feeling that if I indulge in painting, I\u2019ll just end up wasting time. I guess it\u2019s a mix of wanting to relax and that pressure saying I can\u2019t.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your stomach and the wave of guilt is important, especially as you think about allowing yourself to take a break. It sounds like there's a strong pull between wanting to relax and feeling the weight of your responsibilities. The idea of painting feels like it could be a source of enjoyment, yet the pressure to keep pushing forward is very present for you.\n\nAs you sit with that mix of feelings\u2014both the desire to indulge and the voice that tells you not to\u2014what do you notice about how that tension affects your energy or motivation?",
+      "client": "It definitely affects my energy a lot. I feel kind of drained when I think about all the work I have to do. It\u2019s like this heaviness just weighs me down, and then I\u2019m left feeling stuck. When I think about painting, there\u2019s this spark of excitement, but it gets overshadowed by that pressure. I mean, part of me wants to jump into painting, but then I just think about how much I still need to get done. Honestly, it\u2019s exhausting to feel that pulled in two directions.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "Feeling that heaviness and drain while being pulled in two directions sounds really tough. It's interesting how that spark of excitement from painting can briefly light things up, but then it gets dimmed by the weight of your responsibilities. It seems like this struggle between wanting to create and the pressure to complete your work is creating a sense of exhaustion for you.\n\nAs you sit with that exhaustion, what comes to mind when you think about the possibility of giving yourself a moment to reconnect with that excitement, even just for a short while?",
+      "client": "I mean, the idea of reconnecting with that excitement does sound nice, but I don\u2019t know if I can really let myself do it. Part of me worries that if I take even a moment, I\u2019ll just spiral into procrastination and feel guilty about it later. I guess I feel like I should be using that time to work instead. It\u2019s frustrating because I know I need a break, but it feels like a luxury I can\u2019t afford right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "The tension you're feeling between wanting a break and the belief that you should be working is really palpable. It seems frustrating to acknowledge that you need some time to recharge, yet feeling like it\u2019s a luxury you can\u2019t afford adds to the pressure. That worry about spiraling into procrastination and the guilt that might follow can be heavy.\n\nAs you reflect on this conflict, is there a moment or experience that comes to mind where you were able to find a balance, even if just for a short time? What did that look like for you?",
+      "client": "I guess there have been times when I managed to find a bit of balance, but it rarely lasts long. Like, there was this day a few weeks ago when I took a few hours to paint, and it actually felt really refreshing. I remember thinking that maybe I could try to integrate it more into my routine, but then I got back to work and felt like it just wasn\u2019t enough. I started stressing about deadlines again, and all that relaxation felt like it just slipped away. It\u2019s like, I want to enjoy those moments, but I don\u2019t know how to keep that feeling without it turning into guilt later.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "It sounds like those moments of balance you experienced felt refreshing, yet they quickly faded when the pressure of deadlines returned. It\u2019s understandable that wanting to hold onto that enjoyment while fearing the guilt can create a lot of tension. The thought of integrating painting into your routine seems like it had some promise for you, but the weight of your responsibilities can overshadow those moments of joy.\n\nAs you think about that day when you painted, what do you remember about how it felt in your body or mind during and after that experience? What stood out to you in those moments?",
+      "client": "During that time, I felt really light, almost like I could breathe better. It was like my mind quieted down for a bit, and I could focus on just the colors and the process. Afterward, though, there was this knot in my stomach as I started thinking about all the things I still had to do. It's frustrating because I want to hold onto that lightness, but it seems like it vanishes so quickly once I confront the work waiting for me. I guess I thought I could somehow carry that feeling with me, but it just feels impossible.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "That feeling of lightness and being able to breathe better while you painted sounds really significant. It\u2019s understandable that experiencing that quiet in your mind would be so refreshing. The contrast with the knot in your stomach afterward really highlights how quickly those feelings can shift when faced with your responsibilities. \n\nAs you think about that transition from lightness to tension, what do you notice about how those feelings affect your choices or actions?",
+      "client": "I guess it definitely makes it harder to focus on my work. When I feel that knot in my stomach, I just want to avoid everything. So, I end up getting distracted by other things, like painting or even scrolling through my phone. It\u2019s like I can\u2019t really engage with my project when I\u2019m feeling that way, which just makes everything worse, you know? Part of me thinks I should be tougher about it, but then another part just wants to run away from the stress. It\u2019s a mess, really.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"During that time, I felt really light, almost like I could breathe better. It was like my mind quieted down for a bit, and I could focus on just the colors and the process.\"\n2. **Current Openness:** \"I guess it definitely makes it harder to focus on my work. When I feel that knot in my stomach, I just want to avoid everything.\"\n\n**Progression:** The client's most recent interactions exhibit a notable shift towards deeper emotional expression and self-reflection, particularly evident in their description of feeling both light during painting and subsequently experiencing a knot of tension when confronted with responsibilities. This demonstrates an increased willingness to explore emotional nuances compared to earlier exchanges, which were more factual and less emotionally laden. The client shows a growing understanding of their emotional landscape, indicating a transition from merely stating feelings to articulating complex emotional experiences.\n\n**Turning Point:** The client's emotional depth appears to have shifted during the reflection on their painting experience. Initially, the client acknowledged moments of balance but expressed them as fleeting and overshadowed by stress. When they began to articulate the contrasting feelings of lightness and tension, it became a breakthrough moment, allowing them to connect these emotions to their choices and actions. This new level of insight marks a significant turn towards self-reflection and deeper engagement in the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

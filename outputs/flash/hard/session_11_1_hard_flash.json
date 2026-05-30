@@ -1,0 +1,3772 @@
+{
+  "mode": "hard",
+  "therapist_type": "flash",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "11-1",
+  "patient_name": "Ian",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"It's just annoying, you know? I mean, sometimes I just want to hang out and not get into it. It shouldn't have to be so complicated.\"\n2. \"It's frustrating when it feels like every conversation has to be about feelings. I mean, can't we just have fun sometimes?\"\n\n**Progression:** The client\u2019s most recent interactions reflect a mix of emotional expression and factual responses, indicating a gradual warming up to the therapeutic process. They express frustration with the emotional depth expected in conversations, suggesting they are beginning to articulate their feelings, albeit with some defensiveness. There is an evident reluctance to delve into deeper emotional topics, but they are starting to vocalize their needs for lighter interactions, which marks a notable shift from earlier stages where they might have avoided emotional topics completely.\n\n**Turning Point:** The turning point appears to be when the client expressed their annoyance about the expectation to discuss feelings, stating that sometimes they just want to share laughs and engage in light-hearted conversation. This moment indicates a willingness to communicate their preferences and signals a step toward deeper self-awareness about their needs in relationships.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "Rating: 3\n\nKey Examples:\n- \"I just don\u2019t want to risk making things awkward or feel like I\u2019m pushing her away. It\u2019s confusing because part of me thinks it could be good for both of us, but then I worry about how she might react.\"\n- \"Setting a boundary feels a bit weird, though. Like, what if she thinks I\u2019m just trying to avoid her problems or something? It kind of makes me feel guilty, but I can see how it might help.\"\n\nProgression: The client demonstrates a mix of factual and emotional responses, indicating a warming-up phase. They express specific worries and inner conflicts about their friendship, revealing a deeper level of self-reflection compared to earlier in the session. The client is beginning to navigate their emotions more openly, contemplating the balance between maintaining their friend's feelings and expressing their own needs. \n\nTurning Point: The client\u2019s emotional depth shifted when they articulated their confusion and fear of making the relationship awkward, moving from initial hesitance to a more nuanced understanding of their emotional landscape. This marked a significant change from previously holding back their concerns and feelings, allowing for a more honest exploration of their needs in the friendship.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Client's expression of uncertainty:** \u201cI mean, I want to be there for her, but what if I keep dragging my feet and she thinks I\u2019m avoiding her? It's just frustrating because part of me wants to be honest, but then I second-guess myself so much.\u201d\n2. **Client\u2019s acknowledgment of feelings:** \u201cI guess having a couple of phrases in mind could help me feel a bit more prepared, yeah. But then I worry that I\u2019ll sound like I\u2019m just reciting something instead of really connecting with her.\u201d\n\n**Progression:** In the most recent exchanges, the client demonstrates a clearer emotional state characterized by a mix of apprehension and a desire for connection. They articulate their fears about communication and the pressure they feel to be supportive, exemplifying a growing comfort in sharing their internal struggles. This marks a significant shift from earlier stages, where the client displayed more factual responses and limited elaboration on their feelings.\n\n**Turning Point:** The client's emotional depth began to shift noticeably during the exchange where they expressed frustration about wanting to be honest but second-guessing themselves. This moment highlighted their vulnerability and growing self-awareness, as they started to identify and articulate their conflicting feelings about supporting someone close to them. This willingness to explore their emotional landscape represents a notable turning point in their engagement with the therapeutic process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just worry that if I let go of that pressure, I\u2019ll end up saying something really off or just not being helpful at all.\"\n2. **Openness:** \"I guess I need to accept that it\u2019s okay to not have all the answers.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear movement toward greater emotional expression and self-reflection. Initially, they exhibited hesitance and a strong focus on their perceived shortcomings in helping Jamie. However, in the latest exchanges, there is a noticeable willingness to explore their feelings about uncertainty and vulnerability, indicating a significant change from earlier defensiveness. The client is beginning to articulate their concerns more openly, suggesting they are engaging more deeply with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted particularly during the discussion about letting go of perfectionism and the admission of their fears regarding vulnerability. This moment marked a transition from merely expressing frustration to acknowledging the inherent risks of opening up, signifying a readiness to explore these feelings further.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess taking my time could be a good idea. I just worry that if I wait too long, I might miss my chance or lose that connection with Jamie. It feels like there\u2019s always this ticking clock in my head\u2026\u201d\n2. \u201cI don\u2019t want to feel rushed into something that could backfire. It\u2019s just hard to find that balance between wanting to be open and not getting hurt again.\u201d\n\n**Progression:** The client\u2019s most recent interactions indicate a blend of emotional expression and self-reflection, highlighting their struggle with vulnerability and the pressure of needing to communicate effectively. They articulate feelings of anxiety and urgency regarding their relationship, showing a clearer emotional depth than earlier in the session, where they might have been more fact-based or hesitant. This demonstrates a gradual movement towards engaging exploration as they begin to untangle their emotions, indicating a notable improvement in their emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they started expressing their internal conflict and fear of vulnerability, moving beyond a more surface-level discussion to articulate the complexities of their feelings. This was evident when they acknowledged the frustration of feeling \"caught in this loop\" between wanting to be open and fearing potential hurt, which reflects a deeper engagement with their emotional experience.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "flash_responses": [
+    {
+      "turn": 1,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "Hello! I\u2019m really glad you\u2019re here today. It\u2019s a safe space, and I\u2019m here to support you. How are you feeling as we begin our session?",
+      "therapy_mode": "Greeting",
+      "technique": "Greeting",
+      "completed_turn": 0,
+      "patient_state": {},
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.0,
+      "storage_time_ms": 0.0
+    },
+    {
+      "turn": 2,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s totally okay to feel that way. What parts of your life feel significant to you right now?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 1,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Low",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Low (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.46699200013245,
+      "storage_time_ms": 0.00661999911244493
+    },
+    {
+      "turn": 3,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It sounds like Jamie's questions about your feelings are really getting on your nerves. It\u2019s understandable to feel annoyed when someone keeps probing like that. What do you think it is about her questions that feels annoying to you?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 2,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3979719988128636,
+      "storage_time_ms": 0.0074760009738383815
+    },
+    {
+      "turn": 4,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That makes sense. Wanting a more casual conversation can definitely feel more comfortable. What do you think a more friend-like chat with Jamie would look like for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 3,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.046777000738075,
+      "storage_time_ms": 0.006578999091289006
+    },
+    {
+      "turn": 5,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It sounds like you really value those light, easy conversations about things like movies. Keeping it simple feels more enjoyable for you. What are some of your favorite movie topics or shows that you\u2019d love to chat about instead?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 4,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.290127998800017,
+      "storage_time_ms": 0.008364000677829608
+    },
+    {
+      "turn": 6,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That sounds great! Sharing laughs and talking about new releases can really lighten the mood. How do you think you could bring that up with Jamie so she knows you\u2019d prefer those kinds of chats?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 5,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Reflections",
+          "mode": "MI",
+          "trajectory_before": "stable",
+          "readiness_before": 3.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 3.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium",
+          "flashbulb_score": 0.58,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 5
+        }
+      ],
+      "retrieval_time_ms": 1.4917799999238923,
+      "storage_time_ms": 1.6624749987386167
+    },
+    {
+      "turn": 7,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "Absolutely, wanting to have fun and share light moments is totally valid. Your idea of simply asking to talk about movies is a good start. It doesn\u2019t have to sound like shutting her down; you could frame it as wanting to mix things up a bit. How do you think Jamie might respond to that?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 6,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Open-ended Questions",
+          "mode": "MI",
+          "trajectory_before": "improving",
+          "readiness_before": 6.0,
+          "sentiment_before": "Neutral",
+          "motivation_before": "Medium",
+          "engagement_before": "Medium",
+          "delta_readiness": -3.0,
+          "delta_sentiment": -5.0,
+          "delta_motivation": -5.0,
+          "delta_engagement": "medium",
+          "flashbulb_score": 0.58,
+          "reinforcement_count": 1,
+          "pool": "bad",
+          "turn": 6
+        }
+      ],
+      "retrieval_time_ms": 1.152757000454585,
+      "storage_time_ms": 1.845427001171629
+    },
+    {
+      "turn": 8,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s understandable to be concerned about how she might react. It sounds like you want to reassure her that you appreciate her support, but also want to show that you can enjoy lighter moments too. Maybe you could express that directly\u2014something like, \u201cI appreciate you checking in, but I\u2019d love to chat about something fun for a change!\u201d What do you think?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 7,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Reflections",
+          "mode": "MI",
+          "trajectory_before": "declining",
+          "readiness_before": 3.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 4.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium\u2192high",
+          "flashbulb_score": 0.64,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 7
+        }
+      ],
+      "retrieval_time_ms": 1.2845899982494302,
+      "storage_time_ms": 3.9898430004541297
+    },
+    {
+      "turn": 9,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That balancing act is definitely tricky. It\u2019s natural to worry about how it might change your friendship. What do you think would be the worst-case scenario if you did bring it up? And how likely is that to happen?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 8,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6640689991618274,
+      "storage_time_ms": 0.0077429995144484565
+    },
+    {
+      "turn": 10,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It makes sense to worry about her feelings. But if you express that you value her and just want a bit of balance, that might help ease her worries. What if, instead of focusing on the worst-case scenario, you considered the best-case scenario? How might your friendship actually benefit from having those lighter conversations?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 9,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1475629999040393,
+      "storage_time_ms": 0.007200000254670158
+    },
+    {
+      "turn": 11,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It's encouraging to hear that you're seeing the potential benefits! It sounds like you recognize that lighter conversations could actually enhance your friendship. Maybe you can start small\u2014try bringing up a light topic casually to gauge her reaction. That way, you can see how she responds without feeling like you\u2019re making a huge shift all at once. What do you think about that approach?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 10,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2072749996150378,
+      "storage_time_ms": 0.007246999302878976
+    },
+    {
+      "turn": 12,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "Starting small definitely sounds like a good plan, especially if it feels less intimidating for you. It\u2019s okay to feel uncertain about how she\u2019ll respond; that\u2019s part of the process. If she does steer it back to heavier topics, you could gently remind her that you\u2019d like to keep it light for a bit. It\u2019s not forcing it; it\u2019s just setting a boundary that feels right for you. How does that sound to you?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 11,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5735880006104708,
+      "storage_time_ms": 0.009918001524056308
+    },
+    {
+      "turn": 13,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s completely normal to feel weird about setting boundaries, especially when you care about her feelings. It doesn\u2019t make you selfish to want a bit of balance; it actually shows that you value the friendship enough to want to keep it healthy. If you frame it as a way to support each other better, it might help her see it positively. What do you think might help ease that guilt when you think about setting that boundary?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 12,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.362318000246887,
+      "storage_time_ms": 0.007558999641332775
+    },
+    {
+      "turn": 14,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That\u2019s a great perspective! Remembering that taking care of your needs can actually benefit your friendship is key. It\u2019s not about ignoring her struggles; it\u2019s about being in a better place to support her. You can still show you care while also prioritizing your own well-being. Finding that balance takes practice, but you\u2019re already making progress by recognizing these dynamics. How do you feel about trying to communicate that balance to her?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 13,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3527600003726548,
+      "storage_time_ms": 0.0075289990491000935
+    },
+    {
+      "turn": 15,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That knot in your stomach is completely understandable; it shows how much you care. It\u2019s natural to feel anxious about how your words will be received. What if you approached it as a conversation rather than a confrontation? You could express your feelings and concerns openly, which might make it easier for her to respond positively. What do you think might help you feel more prepared for that conversation?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 14,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5564510013064137,
+      "storage_time_ms": 0.007669999831705354
+    },
+    {
+      "turn": 16,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s okay to feel that way\u2014wanting to be supportive while also feeling uncertain about how to express yourself is tough. Writing down your thoughts can actually help clarify what you want to say without making it feel scripted. You could use it as a guide rather than a script, which might ease some of your worries. Remember, it\u2019s about the intention behind your words, not just the words themselves. Taking your time with this is perfectly fine too; there\u2019s no rush to dive in until you feel ready. What would make you feel more comfortable with this process?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 15,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 5,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Socratic Questioning",
+          "mode": "CBT",
+          "trajectory_before": "stable",
+          "readiness_before": 7.0,
+          "sentiment_before": "Neutral",
+          "motivation_before": "Medium",
+          "engagement_before": "High",
+          "delta_readiness": -2.0,
+          "delta_sentiment": -5.0,
+          "delta_motivation": 0.0,
+          "delta_engagement": "high\u2192medium",
+          "flashbulb_score": 0.52,
+          "reinforcement_count": 1,
+          "pool": "bad",
+          "turn": 15
+        }
+      ],
+      "retrieval_time_ms": 1.2585590011440217,
+      "storage_time_ms": 2.1880879994569113
+    },
+    {
+      "turn": 17,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It sounds like you\u2019re caught between wanting to act and feeling the weight of those concerns. It\u2019s okay to want to be honest while also feeling hesitant. You\u2019re not avoiding her; you\u2019re just being mindful of how to approach it. Maybe taking small steps, like a casual check-in, could help ease into the conversation without feeling like you\u2019re dragging your feet. It\u2019s all about finding a pace that feels right for you. What small step do you think you could take to start that process?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 16,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4048649991309503,
+      "storage_time_ms": 0.007569999070256017
+    },
+    {
+      "turn": 18,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That makes total sense! Starting with a casual check-in is a great way to ease into it. If she does open up, you can always listen and validate her feelings without needing to have all the answers. You\u2019re not expected to fix everything; just being there can be incredibly supportive. If you feel overwhelmed, it\u2019s okay to express that too\u2014letting her know you care while also setting limits on how much you can take on. What do you think about having a phrase or two ready for when that happens, to help you feel more prepared?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 17,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6182390008907532,
+      "storage_time_ms": 0.008084000000962988
+    },
+    {
+      "turn": 19,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s totally normal to overthink this, especially when you care so much about how it comes across. Having a few phrases can be a helpful anchor, but you can always personalize them to reflect your genuine feelings. Think of them as a starting point rather than a script; it\u2019s your authenticity that will shine through. If you focus on being present in the moment, that connection will come naturally. You\u2019re doing a great job by being mindful of these concerns. What if you practiced those phrases in a way that feels comfortable for you?",
+      "therapy_mode": "CBT",
+      "technique": "Reflections",
+      "completed_turn": 18,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.434353000149713,
+      "storage_time_ms": 0.008500001058564521
+    },
+    {
+      "turn": 20,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s great that you\u2019re recognizing the balance between wanting to prepare and letting things flow naturally. Trusting your instincts is important, and those feelings of doubt are normal. Practicing doesn\u2019t have to feel forced; think of it more like giving yourself a little boost of confidence. You\u2019re not trying to put on a performance; you\u2019re simply preparing to express your genuine care and support. Trust that you can adapt in the moment\u2014your authenticity will come through, even if you stumble a bit. How about focusing on just one phrase that feels comfortable for you to start?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 19,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6035210010159062,
+      "storage_time_ms": 0.007706001269980334
+    },
+    {
+      "turn": 21,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s completely understandable to want to ensure that your connection feels genuine. Focusing on one phrase can actually help you feel more at ease, allowing you to be more present during the conversation. Remember, it\u2019s not just the words you say, but the intention behind them that matters. If you truly want to connect, that sincerity will shine through. You can also adjust your delivery in the moment based on how you feel. Trust yourself\u2014you\u2019re already showing a lot of care and thoughtfulness in wanting to be there for her. How does that mindset feel to you?",
+      "therapy_mode": "CBT",
+      "technique": "Reflections",
+      "completed_turn": 20,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2936759994772729,
+      "storage_time_ms": 0.007459999324055389
+    },
+    {
+      "turn": 22,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s really reassuring to hear that focusing on intention feels better for you. That doubt is tough to shake, especially when you care about how your words impact Jamie. It\u2019s okay to feel that way; it shows how much you want to support her. Just remember, even if you stumble or say something imperfect, your willingness to be there for her speaks volumes. Sometimes it\u2019s the effort and the empathy that matters more than finding the \u201cperfect\u201d words. How might you remind yourself of that when those doubts creep in?",
+      "therapy_mode": "CBT",
+      "technique": "Reflections",
+      "completed_turn": 21,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.463497999793617,
+      "storage_time_ms": 0.008199000149033964
+    },
+    {
+      "turn": 23,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "Absolutely, it\u2019s perfectly okay to not have all the answers! Accepting that can actually be freeing. Just being present and showing you care is often the most helpful thing you can do. It's natural to feel frustrated when you want to help, but remember that you\u2019re learning and growing in this process. Every interaction is a step forward, even if it feels messy at times. Focusing on your genuine intention to support Jamie can help keep those doubts at bay. What would it look like to give yourself permission to just be there, without the pressure to perform?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 22,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3360069988266332,
+      "storage_time_ms": 0.008130000423989259
+    },
+    {
+      "turn": 24,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s understandable to feel that way, especially when you want to support Jamie so much. Letting go of perfection doesn\u2019t mean you\u2019ll say something off; it just opens space for genuine connection. Trusting that your intention to be there is enough is a process, and it\u2019s okay to take it one step at a time. Sometimes, the most meaningful moments come from being real and vulnerable, even if that feels uncomfortable. What if you allowed yourself to embrace the uncertainty and see it as part of the journey?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 23,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3064189988654107,
+      "storage_time_ms": 0.0074640011007431895
+    },
+    {
+      "turn": 25,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It makes sense that embracing uncertainty feels risky, especially with the stakes involved. You\u2019re navigating a lot of emotions, wanting to be open while also protecting yourself. It\u2019s okay to feel conflicted; many people experience that when it comes to vulnerability. Recognizing that it\u2019s complicated shows how much you care about your relationship with Jamie. Maybe you could think of vulnerability as a gradual process\u2014taking small steps instead of diving in headfirst. What if you started with sharing something small and seeing how that feels? It might help ease that pressure while still allowing for connection.",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 24,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4740140013600467,
+      "storage_time_ms": 0.00800400084699504
+    },
+    {
+      "turn": 26,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s completely understandable to feel exhausted by that tightrope walk. Even small steps can feel daunting when you\u2019re worried about how they\u2019ll be received. It shows how much you care about Jamie and the connection you share. Remember, it\u2019s okay for things not to land perfectly; what\u2019s important is that you\u2019re making an effort to reach out. Sometimes, sharing even a little vulnerability can open the door to deeper understanding, even if it doesn\u2019t go exactly as planned. What if you approached those small steps as opportunities to learn and grow together, rather than as a test? That might help ease some of the pressure you\u2019re feeling.",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 25,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1850699993374292,
+      "storage_time_ms": 0.007521000952692702
+    },
+    {
+      "turn": 27,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s tough to navigate those feelings of judgment and fear of misunderstanding, especially when you\u2019re trying to be brave. That nagging voice can be really loud and discouraging. It\u2019s clear you care deeply about not disappointing Jamie, and that pressure can feel overwhelming. Maybe instead of seeing it as a balance, you could think of it as a journey where both your fears and your desire to connect can coexist. It\u2019s okay to acknowledge those worries while still allowing yourself to take steps forward. What if you gave yourself permission to express those fears to Jamie too? It might help to share how you\u2019re feeling, creating space for both of you to navigate this together.",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 26,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3557399997807806,
+      "storage_time_ms": 0.007124999683583155
+    },
+    {
+      "turn": 28,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "It\u2019s completely normal to feel that risk when thinking about sharing your fears, especially when you\u2019ve been feeling alone. The possibility of a positive outcome is there, but it\u2019s tough to focus on that when disappointment feels so real. It\u2019s okay to acknowledge that uncertainty; it shows how much you care about the relationship. Maybe you could take your time to explore these feelings more before deciding what feels right. There\u2019s no rush, and giving yourself space to process might help you feel more ready when the time comes. What would it look like to take small moments to reflect on your feelings, without the pressure of needing to share them just yet?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 27,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 5,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6998069986584596,
+      "storage_time_ms": 0.008060000254772604
+    },
+    {
+      "turn": 29,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "That ticking clock can definitely add pressure, making it feel like there\u2019s no room for pauses. It\u2019s great that you recognize the importance of taking your time to figure things out. Finding that balance is a journey in itself, and it\u2019s okay to take the time you need to feel ready. Reminding yourself that the connection with Jamie isn\u2019t solely dependent on a single moment can help ease that urgency. It\u2019s about building trust and comfort over time. Maybe you could focus on nurturing the connection in smaller, low-pressure ways while you work through your feelings. That way, when you do feel ready to share, it can come from a place of confidence rather than fear.",
+      "therapy_mode": "CBT",
+      "technique": "Reflections",
+      "completed_turn": 28,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 28
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.74,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Reflections",
+          "mode": "MI",
+          "trajectory_before": "declining",
+          "readiness_before": 5.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Medium",
+          "engagement_before": "Medium",
+          "delta_readiness": 2.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 0.0,
+          "delta_engagement": "medium\u2192high",
+          "flashbulb_score": 0.52,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 28
+        }
+      ],
+      "retrieval_time_ms": 1.688370999545441,
+      "storage_time_ms": 3.222531000574236
+    },
+    {
+      "turn": 30,
+      "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+      "therapist_message": "Being caught in that loop is definitely frustrating, and it\u2019s understandable to feel torn between wanting to say something and fearing the outcome. It sounds like you\u2019re really aware of your thoughts and emotions, which is a big step. Sometimes, just acknowledging those conflicting feelings can help lessen their grip. Maybe instead of pushing through out of pressure, you could sit with those thoughts for a bit, exploring what you really want to say when you feel ready. It could be helpful to write down your feelings or even practice how you might approach the conversation. This way, when the time feels right, you can express yourself more clearly without that overwhelming sense of urgency.",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 29,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 28
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.74,
+            "pool": "good",
+            "turn": 7
+          },
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.68,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "bad": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "delta_readiness": -3.0,
+            "flashbulb_score": 0.58,
+            "pool": "bad",
+            "turn": 6
+          },
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "delta_readiness": -2.0,
+            "flashbulb_score": 0.52,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6440250001323875,
+      "storage_time_ms": 0.008285000149044208
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hello! I\u2019m really glad you\u2019re here today. It\u2019s a safe space, and I\u2019m here to support you. How are you feeling as we begin our session?",
+      "client": "I\u2019m fine. Just trying to figure out what to say, I guess. It\u2019s not a big deal.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 1,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "Hello! I\u2019m really glad you\u2019re here today. It\u2019s a safe space, and I\u2019m here to support you. How are you feeling as we begin our session?",
+        "therapy_mode": "Greeting",
+        "technique": "Greeting",
+        "completed_turn": 0,
+        "patient_state": {},
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.0,
+        "storage_time_ms": 0.0
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It\u2019s totally okay to feel that way. What parts of your life feel significant to you right now?",
+      "client": "I don't know. Nothing really feels that significant. Just the usual stuff, I guess. I talked to Jamie, and it was just... whatever. She keeps asking about my feelings, and it's annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 2,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s totally okay to feel that way. What parts of your life feel significant to you right now?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 1,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Low",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Low (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.46699200013245,
+        "storage_time_ms": 0.00661999911244493
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like Jamie's questions about your feelings are really getting on your nerves. It\u2019s understandable to feel annoyed when someone keeps probing like that. What do you think it is about her questions that feels annoying to you?",
+      "client": "I don\u2019t know. It just feels like she\u2019s treating me like a patient or something. I just want to talk like friends, not have a therapy session. It\u2019s not that deep.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 3,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It sounds like Jamie's questions about your feelings are really getting on your nerves. It\u2019s understandable to feel annoyed when someone keeps probing like that. What do you think it is about her questions that feels annoying to you?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 2,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3979719988128636,
+        "storage_time_ms": 0.0074760009738383815
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "That makes sense. Wanting a more casual conversation can definitely feel more comfortable. What do you think a more friend-like chat with Jamie would look like for you?",
+      "client": "I guess just talking about regular stuff, like movies or whatever. Not all this feelings talk. It's just annoying, you know? I mean, sometimes I just want to hang out and not get into it. It shouldn't have to be so complicated.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 4,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That makes sense. Wanting a more casual conversation can definitely feel more comfortable. What do you think a more friend-like chat with Jamie would look like for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 3,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.046777000738075,
+        "storage_time_ms": 0.006578999091289006
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you really value those light, easy conversations about things like movies. Keeping it simple feels more enjoyable for you. What are some of your favorite movie topics or shows that you\u2019d love to chat about instead?",
+      "client": "I don\u2019t really have a specific topic in mind; it\u2019s just anything that doesn\u2019t involve feelings. Sometimes it\u2019s just nice to share a laugh or joke around. I don\u2019t know, like talking about new releases or something funny that happened in a show. Just less serious stuff.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 5,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It sounds like you really value those light, easy conversations about things like movies. Keeping it simple feels more enjoyable for you. What are some of your favorite movie topics or shows that you\u2019d love to chat about instead?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 4,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.290127998800017,
+        "storage_time_ms": 0.008364000677829608
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "That sounds great! Sharing laughs and talking about new releases can really lighten the mood. How do you think you could bring that up with Jamie so she knows you\u2019d prefer those kinds of chats?",
+      "client": "I don't know. I guess I could just say something like, \"Can we talk about movies instead?\" But I don't want it to sound like I'm shutting her down or anything. It's just frustrating when it feels like every conversation has to be about feelings. I mean, can't we just have fun sometimes?",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"It's just annoying, you know? I mean, sometimes I just want to hang out and not get into it. It shouldn't have to be so complicated.\"\n2. \"It's frustrating when it feels like every conversation has to be about feelings. I mean, can't we just have fun sometimes?\"\n\n**Progression:** The client\u2019s most recent interactions reflect a mix of emotional expression and factual responses, indicating a gradual warming up to the therapeutic process. They express frustration with the emotional depth expected in conversations, suggesting they are beginning to articulate their feelings, albeit with some defensiveness. There is an evident reluctance to delve into deeper emotional topics, but they are starting to vocalize their needs for lighter interactions, which marks a notable shift from earlier stages where they might have avoided emotional topics completely.\n\n**Turning Point:** The turning point appears to be when the client expressed their annoyance about the expectation to discuss feelings, stating that sometimes they just want to share laughs and engage in light-hearted conversation. This moment indicates a willingness to communicate their preferences and signals a step toward deeper self-awareness about their needs in relationships.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 6,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That sounds great! Sharing laughs and talking about new releases can really lighten the mood. How do you think you could bring that up with Jamie so she knows you\u2019d prefer those kinds of chats?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 5,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 3.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium",
+            "flashbulb_score": 0.58,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 5
+          }
+        ],
+        "retrieval_time_ms": 1.4917799999238923,
+        "storage_time_ms": 1.6624749987386167
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Absolutely, wanting to have fun and share light moments is totally valid. Your idea of simply asking to talk about movies is a good start. It doesn\u2019t have to sound like shutting her down; you could frame it as wanting to mix things up a bit. How do you think Jamie might respond to that?",
+      "client": "I don\u2019t know how she\u2019d take it, honestly. Part of me thinks she might be okay with it, but another part worries she\u2019d feel like I\u2019m brushing her off. I mean, I get that she wants to help, but it just feels like a lot sometimes. I guess I just want her to see that I can still enjoy things, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 7,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "Absolutely, wanting to have fun and share light moments is totally valid. Your idea of simply asking to talk about movies is a good start. It doesn\u2019t have to sound like shutting her down; you could frame it as wanting to mix things up a bit. How do you think Jamie might respond to that?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 6,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "improving",
+            "readiness_before": 6.0,
+            "sentiment_before": "Neutral",
+            "motivation_before": "Medium",
+            "engagement_before": "Medium",
+            "delta_readiness": -3.0,
+            "delta_sentiment": -5.0,
+            "delta_motivation": -5.0,
+            "delta_engagement": "medium",
+            "flashbulb_score": 0.58,
+            "reinforcement_count": 1,
+            "pool": "bad",
+            "turn": 6
+          }
+        ],
+        "retrieval_time_ms": 1.152757000454585,
+        "storage_time_ms": 1.845427001171629
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It\u2019s understandable to be concerned about how she might react. It sounds like you want to reassure her that you appreciate her support, but also want to show that you can enjoy lighter moments too. Maybe you could express that directly\u2014something like, \u201cI appreciate you checking in, but I\u2019d love to chat about something fun for a change!\u201d What do you think?",
+      "client": "I can kind of see that, but I don\u2019t know if I\u2019d actually say it like that. It feels like a balancing act, you know? I don\u2019t want to come off as dismissive. It\u2019s just hard when I\u2019m feeling overwhelmed but also want to maintain my friendships. I guess I\u2019m worried about how it might change things between us.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 8,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s understandable to be concerned about how she might react. It sounds like you want to reassure her that you appreciate her support, but also want to show that you can enjoy lighter moments too. Maybe you could express that directly\u2014something like, \u201cI appreciate you checking in, but I\u2019d love to chat about something fun for a change!\u201d What do you think?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 7,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 3.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 4.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium\u2192high",
+            "flashbulb_score": 0.64,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "retrieval_time_ms": 1.2845899982494302,
+        "storage_time_ms": 3.9898430004541297
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "That balancing act is definitely tricky. It\u2019s natural to worry about how it might change your friendship. What do you think would be the worst-case scenario if you did bring it up? And how likely is that to happen?",
+      "client": "I guess the worst-case scenario would be her taking it the wrong way and thinking I don\u2019t want her around or something. Like, what if she feels rejected? I don\u2019t want to hurt her feelings, but at the same time, it\u2019s exhausting to keep talking about heavy stuff all the time. I mean, it\u2019s not like I expect her to just drop it completely, but a break would be nice. I don\u2019t know how likely that is to happen, though. It feels like it could go either way.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 9,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That balancing act is definitely tricky. It\u2019s natural to worry about how it might change your friendship. What do you think would be the worst-case scenario if you did bring it up? And how likely is that to happen?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 8,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6640689991618274,
+        "storage_time_ms": 0.0077429995144484565
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "It makes sense to worry about her feelings. But if you express that you value her and just want a bit of balance, that might help ease her worries. What if, instead of focusing on the worst-case scenario, you considered the best-case scenario? How might your friendship actually benefit from having those lighter conversations?",
+      "client": "I guess the best-case scenario would be that she understands where I'm coming from and appreciates that I want to keep things light sometimes. Maybe it could even strengthen our friendship, you know? I just don\u2019t want to risk making things awkward or feel like I\u2019m pushing her away. It\u2019s confusing because part of me thinks it could be good for both of us, but then I worry about how she might react. I don\u2019t know if I\u2019m ready to take that chance yet.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 10,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It makes sense to worry about her feelings. But if you express that you value her and just want a bit of balance, that might help ease her worries. What if, instead of focusing on the worst-case scenario, you considered the best-case scenario? How might your friendship actually benefit from having those lighter conversations?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 9,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1475629999040393,
+        "storage_time_ms": 0.007200000254670158
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "It's encouraging to hear that you're seeing the potential benefits! It sounds like you recognize that lighter conversations could actually enhance your friendship. Maybe you can start small\u2014try bringing up a light topic casually to gauge her reaction. That way, you can see how she responds without feeling like you\u2019re making a huge shift all at once. What do you think about that approach?",
+      "client": "That could be a good idea, I guess. Starting small might make it feel less intimidating. I mean, I don\u2019t want to just throw everything out there at once, you know? It\u2019s just hard to know what to say, or if she\u2019ll even be open to it. I could try mentioning something funny or light, but part of me thinks she might just steer it back to the heavy stuff anyway. I don\u2019t want to feel like I\u2019m forcing it, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 11,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It's encouraging to hear that you're seeing the potential benefits! It sounds like you recognize that lighter conversations could actually enhance your friendship. Maybe you can start small\u2014try bringing up a light topic casually to gauge her reaction. That way, you can see how she responds without feeling like you\u2019re making a huge shift all at once. What do you think about that approach?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 10,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2072749996150378,
+        "storage_time_ms": 0.007246999302878976
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "Starting small definitely sounds like a good plan, especially if it feels less intimidating for you. It\u2019s okay to feel uncertain about how she\u2019ll respond; that\u2019s part of the process. If she does steer it back to heavier topics, you could gently remind her that you\u2019d like to keep it light for a bit. It\u2019s not forcing it; it\u2019s just setting a boundary that feels right for you. How does that sound to you?",
+      "client": "I mean, that sounds reasonable, I guess. Setting a boundary feels a bit weird, though. Like, what if she thinks I\u2019m just trying to avoid her problems or something? It kind of makes me feel guilty, but I can see how it might help. I just hope it doesn\u2019t come off the wrong way. I don\u2019t want to sound selfish or anything. It\u2019s just tough trying to balance everything.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "Rating: 3\n\nKey Examples:\n- \"I just don\u2019t want to risk making things awkward or feel like I\u2019m pushing her away. It\u2019s confusing because part of me thinks it could be good for both of us, but then I worry about how she might react.\"\n- \"Setting a boundary feels a bit weird, though. Like, what if she thinks I\u2019m just trying to avoid her problems or something? It kind of makes me feel guilty, but I can see how it might help.\"\n\nProgression: The client demonstrates a mix of factual and emotional responses, indicating a warming-up phase. They express specific worries and inner conflicts about their friendship, revealing a deeper level of self-reflection compared to earlier in the session. The client is beginning to navigate their emotions more openly, contemplating the balance between maintaining their friend's feelings and expressing their own needs. \n\nTurning Point: The client\u2019s emotional depth shifted when they articulated their confusion and fear of making the relationship awkward, moving from initial hesitance to a more nuanced understanding of their emotional landscape. This marked a significant change from previously holding back their concerns and feelings, allowing for a more honest exploration of their needs in the friendship.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 12,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "Starting small definitely sounds like a good plan, especially if it feels less intimidating for you. It\u2019s okay to feel uncertain about how she\u2019ll respond; that\u2019s part of the process. If she does steer it back to heavier topics, you could gently remind her that you\u2019d like to keep it light for a bit. It\u2019s not forcing it; it\u2019s just setting a boundary that feels right for you. How does that sound to you?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 11,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5735880006104708,
+        "storage_time_ms": 0.009918001524056308
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely normal to feel weird about setting boundaries, especially when you care about her feelings. It doesn\u2019t make you selfish to want a bit of balance; it actually shows that you value the friendship enough to want to keep it healthy. If you frame it as a way to support each other better, it might help her see it positively. What do you think might help ease that guilt when you think about setting that boundary?",
+      "client": "I guess I could remind myself that it\u2019s okay to take care of my own needs too. Maybe if I think of it as a way to keep our friendship strong, it won't feel so selfish. I mean, I just worry that if I focus too much on what I need, I\u2019ll seem like I don\u2019t care about her struggles. It\u2019s like, part of me wants to be there for her, but another part knows I can\u2019t always handle the heaviness. It\u2019s just hard to find that balance.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 13,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s completely normal to feel weird about setting boundaries, especially when you care about her feelings. It doesn\u2019t make you selfish to want a bit of balance; it actually shows that you value the friendship enough to want to keep it healthy. If you frame it as a way to support each other better, it might help her see it positively. What do you think might help ease that guilt when you think about setting that boundary?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 12,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.362318000246887,
+        "storage_time_ms": 0.007558999641332775
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "That\u2019s a great perspective! Remembering that taking care of your needs can actually benefit your friendship is key. It\u2019s not about ignoring her struggles; it\u2019s about being in a better place to support her. You can still show you care while also prioritizing your own well-being. Finding that balance takes practice, but you\u2019re already making progress by recognizing these dynamics. How do you feel about trying to communicate that balance to her?",
+      "client": "I mean, yeah, I can see that. It\u2019s just that when I think about talking to her like that, I get this knot in my stomach. What if she doesn't get it or thinks I'm being really insensitive? I guess I just feel a bit anxious about how it\u2019ll come across. Part of me wants to try, but another part is worried it\u2019ll blow up in my face or something. I don\u2019t want to ruin our friendship, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 14,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That\u2019s a great perspective! Remembering that taking care of your needs can actually benefit your friendship is key. It\u2019s not about ignoring her struggles; it\u2019s about being in a better place to support her. You can still show you care while also prioritizing your own well-being. Finding that balance takes practice, but you\u2019re already making progress by recognizing these dynamics. How do you feel about trying to communicate that balance to her?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 13,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3527600003726548,
+        "storage_time_ms": 0.0075289990491000935
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "That knot in your stomach is completely understandable; it shows how much you care. It\u2019s natural to feel anxious about how your words will be received. What if you approached it as a conversation rather than a confrontation? You could express your feelings and concerns openly, which might make it easier for her to respond positively. What do you think might help you feel more prepared for that conversation?",
+      "client": "I guess thinking of it as a conversation makes it sound less intimidating. But I still worry I won\u2019t say the right things or that I\u2019ll mess it up somehow. Maybe I could write down what I want to say, but then I feel like I\u2019d sound scripted or something. It\u2019s just frustrating because I really do want to be there for her, but I also can\u2019t help feeling like I\u2019m going to let her down. I don\u2019t know if I\u2019m ready to dive into that yet.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 15,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That knot in your stomach is completely understandable; it shows how much you care. It\u2019s natural to feel anxious about how your words will be received. What if you approached it as a conversation rather than a confrontation? You could express your feelings and concerns openly, which might make it easier for her to respond positively. What do you think might help you feel more prepared for that conversation?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 14,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5564510013064137,
+        "storage_time_ms": 0.007669999831705354
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It\u2019s okay to feel that way\u2014wanting to be supportive while also feeling uncertain about how to express yourself is tough. Writing down your thoughts can actually help clarify what you want to say without making it feel scripted. You could use it as a guide rather than a script, which might ease some of your worries. Remember, it\u2019s about the intention behind your words, not just the words themselves. Taking your time with this is perfectly fine too; there\u2019s no rush to dive in until you feel ready. What would make you feel more comfortable with this process?",
+      "client": "I guess knowing that there's no rush helps a bit. It kind of takes off some pressure. But at the same time, I feel like I should just get it over with, you know? I mean, I want to be there for her, but what if I keep dragging my feet and she thinks I\u2019m avoiding her? It's just frustrating because part of me wants to be honest, but then I second-guess myself so much. I don\u2019t want to mess it up or make things worse.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 16,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s okay to feel that way\u2014wanting to be supportive while also feeling uncertain about how to express yourself is tough. Writing down your thoughts can actually help clarify what you want to say without making it feel scripted. You could use it as a guide rather than a script, which might ease some of your worries. Remember, it\u2019s about the intention behind your words, not just the words themselves. Taking your time with this is perfectly fine too; there\u2019s no rush to dive in until you feel ready. What would make you feel more comfortable with this process?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 15,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 5,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Socratic Questioning",
+            "mode": "CBT",
+            "trajectory_before": "stable",
+            "readiness_before": 7.0,
+            "sentiment_before": "Neutral",
+            "motivation_before": "Medium",
+            "engagement_before": "High",
+            "delta_readiness": -2.0,
+            "delta_sentiment": -5.0,
+            "delta_motivation": 0.0,
+            "delta_engagement": "high\u2192medium",
+            "flashbulb_score": 0.52,
+            "reinforcement_count": 1,
+            "pool": "bad",
+            "turn": 15
+          }
+        ],
+        "retrieval_time_ms": 1.2585590011440217,
+        "storage_time_ms": 2.1880879994569113
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re caught between wanting to act and feeling the weight of those concerns. It\u2019s okay to want to be honest while also feeling hesitant. You\u2019re not avoiding her; you\u2019re just being mindful of how to approach it. Maybe taking small steps, like a casual check-in, could help ease into the conversation without feeling like you\u2019re dragging your feet. It\u2019s all about finding a pace that feels right for you. What small step do you think you could take to start that process?",
+      "client": "Maybe a casual check-in could work. I could just ask her how she\u2019s doing without diving into anything heavy right away. I guess it feels less risky that way, you know? But then I worry\u2014what if she opens up and I feel unprepared to handle it? It\u2019s like part of me wants to help, but another part is just scared of saying the wrong thing or not being supportive enough. I don\u2019t know if that makes sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 17,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It sounds like you\u2019re caught between wanting to act and feeling the weight of those concerns. It\u2019s okay to want to be honest while also feeling hesitant. You\u2019re not avoiding her; you\u2019re just being mindful of how to approach it. Maybe taking small steps, like a casual check-in, could help ease into the conversation without feeling like you\u2019re dragging your feet. It\u2019s all about finding a pace that feels right for you. What small step do you think you could take to start that process?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 16,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4048649991309503,
+        "storage_time_ms": 0.007569999070256017
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "That makes total sense! Starting with a casual check-in is a great way to ease into it. If she does open up, you can always listen and validate her feelings without needing to have all the answers. You\u2019re not expected to fix everything; just being there can be incredibly supportive. If you feel overwhelmed, it\u2019s okay to express that too\u2014letting her know you care while also setting limits on how much you can take on. What do you think about having a phrase or two ready for when that happens, to help you feel more prepared?",
+      "client": "I guess having a couple of phrases in mind could help me feel a bit more prepared, yeah. But then I worry that I\u2019ll sound like I\u2019m just reciting something instead of really connecting with her. It\u2019s like, I want to be sincere but also not come off as robotic or rehearsed. Part of me thinks it might ease my nerves, but another part is just like, what if it doesn\u2019t land the way I hope? I don't know, maybe I'm overthinking it again.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Client's expression of uncertainty:** \u201cI mean, I want to be there for her, but what if I keep dragging my feet and she thinks I\u2019m avoiding her? It's just frustrating because part of me wants to be honest, but then I second-guess myself so much.\u201d\n2. **Client\u2019s acknowledgment of feelings:** \u201cI guess having a couple of phrases in mind could help me feel a bit more prepared, yeah. But then I worry that I\u2019ll sound like I\u2019m just reciting something instead of really connecting with her.\u201d\n\n**Progression:** In the most recent exchanges, the client demonstrates a clearer emotional state characterized by a mix of apprehension and a desire for connection. They articulate their fears about communication and the pressure they feel to be supportive, exemplifying a growing comfort in sharing their internal struggles. This marks a significant shift from earlier stages, where the client displayed more factual responses and limited elaboration on their feelings.\n\n**Turning Point:** The client's emotional depth began to shift noticeably during the exchange where they expressed frustration about wanting to be honest but second-guessing themselves. This moment highlighted their vulnerability and growing self-awareness, as they started to identify and articulate their conflicting feelings about supporting someone close to them. This willingness to explore their emotional landscape represents a notable turning point in their engagement with the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 18,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That makes total sense! Starting with a casual check-in is a great way to ease into it. If she does open up, you can always listen and validate her feelings without needing to have all the answers. You\u2019re not expected to fix everything; just being there can be incredibly supportive. If you feel overwhelmed, it\u2019s okay to express that too\u2014letting her know you care while also setting limits on how much you can take on. What do you think about having a phrase or two ready for when that happens, to help you feel more prepared?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 17,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6182390008907532,
+        "storage_time_ms": 0.008084000000962988
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It\u2019s totally normal to overthink this, especially when you care so much about how it comes across. Having a few phrases can be a helpful anchor, but you can always personalize them to reflect your genuine feelings. Think of them as a starting point rather than a script; it\u2019s your authenticity that will shine through. If you focus on being present in the moment, that connection will come naturally. You\u2019re doing a great job by being mindful of these concerns. What if you practiced those phrases in a way that feels comfortable for you?",
+      "client": "I guess practicing them could be useful. I mean, it might just help me feel less anxious about the whole thing. But even thinking about it feels kind of awkward, like I\u2019m trying to force something that should just happen naturally. Part of me wants to just trust that I\u2019ll know what to say when the time comes, you know? But then there\u2019s that nagging doubt that I won\u2019t. I don\u2019t want to turn this into some big performance.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 19,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s totally normal to overthink this, especially when you care so much about how it comes across. Having a few phrases can be a helpful anchor, but you can always personalize them to reflect your genuine feelings. Think of them as a starting point rather than a script; it\u2019s your authenticity that will shine through. If you focus on being present in the moment, that connection will come naturally. You\u2019re doing a great job by being mindful of these concerns. What if you practiced those phrases in a way that feels comfortable for you?",
+        "therapy_mode": "CBT",
+        "technique": "Reflections",
+        "completed_turn": 18,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.434353000149713,
+        "storage_time_ms": 0.008500001058564521
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re recognizing the balance between wanting to prepare and letting things flow naturally. Trusting your instincts is important, and those feelings of doubt are normal. Practicing doesn\u2019t have to feel forced; think of it more like giving yourself a little boost of confidence. You\u2019re not trying to put on a performance; you\u2019re simply preparing to express your genuine care and support. Trust that you can adapt in the moment\u2014your authenticity will come through, even if you stumble a bit. How about focusing on just one phrase that feels comfortable for you to start?",
+      "client": "I can see the value in focusing on one phrase to start with. It does feel less overwhelming that way. But part of me still worries about whether it\u2019ll feel genuine enough when I actually use it. I guess I just want to make sure I don\u2019t come off as insincere or like I\u2019m just going through the motions. I don\u2019t know; it\u2019s like I want to connect, but I also don\u2019t want to mess it up.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 20,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s great that you\u2019re recognizing the balance between wanting to prepare and letting things flow naturally. Trusting your instincts is important, and those feelings of doubt are normal. Practicing doesn\u2019t have to feel forced; think of it more like giving yourself a little boost of confidence. You\u2019re not trying to put on a performance; you\u2019re simply preparing to express your genuine care and support. Trust that you can adapt in the moment\u2014your authenticity will come through, even if you stumble a bit. How about focusing on just one phrase that feels comfortable for you to start?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 19,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6035210010159062,
+        "storage_time_ms": 0.007706001269980334
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to want to ensure that your connection feels genuine. Focusing on one phrase can actually help you feel more at ease, allowing you to be more present during the conversation. Remember, it\u2019s not just the words you say, but the intention behind them that matters. If you truly want to connect, that sincerity will shine through. You can also adjust your delivery in the moment based on how you feel. Trust yourself\u2014you\u2019re already showing a lot of care and thoughtfulness in wanting to be there for her. How does that mindset feel to you?",
+      "client": "I guess it feels a bit reassuring to think about it that way. I mean, maybe I can focus more on the intention rather than just the words. It\u2019s just that sometimes I worry that I won\u2019t be able to express myself in the right way, you know? I want to be there for Jamie, but what if I just end up saying the wrong thing? I don\u2019t want to make things worse. It\u2019s hard to shake that feeling of doubt.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 21,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s completely understandable to want to ensure that your connection feels genuine. Focusing on one phrase can actually help you feel more at ease, allowing you to be more present during the conversation. Remember, it\u2019s not just the words you say, but the intention behind them that matters. If you truly want to connect, that sincerity will shine through. You can also adjust your delivery in the moment based on how you feel. Trust yourself\u2014you\u2019re already showing a lot of care and thoughtfulness in wanting to be there for her. How does that mindset feel to you?",
+        "therapy_mode": "CBT",
+        "technique": "Reflections",
+        "completed_turn": 20,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2936759994772729,
+        "storage_time_ms": 0.007459999324055389
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It\u2019s really reassuring to hear that focusing on intention feels better for you. That doubt is tough to shake, especially when you care about how your words impact Jamie. It\u2019s okay to feel that way; it shows how much you want to support her. Just remember, even if you stumble or say something imperfect, your willingness to be there for her speaks volumes. Sometimes it\u2019s the effort and the empathy that matters more than finding the \u201cperfect\u201d words. How might you remind yourself of that when those doubts creep in?",
+      "client": "I can kind of see that. I mean, maybe I could try to remind myself that just being there is enough sometimes. It\u2019s just frustrating, you know? Like, I want to help, but I get all tangled up in my head thinking about what I might say wrong. Part of me feels like I should be better at this, like I should just know how to handle it. But I guess I need to accept that it\u2019s okay to not have all the answers.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 22,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s really reassuring to hear that focusing on intention feels better for you. That doubt is tough to shake, especially when you care about how your words impact Jamie. It\u2019s okay to feel that way; it shows how much you want to support her. Just remember, even if you stumble or say something imperfect, your willingness to be there for her speaks volumes. Sometimes it\u2019s the effort and the empathy that matters more than finding the \u201cperfect\u201d words. How might you remind yourself of that when those doubts creep in?",
+        "therapy_mode": "CBT",
+        "technique": "Reflections",
+        "completed_turn": 21,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.463497999793617,
+        "storage_time_ms": 0.008199000149033964
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "Absolutely, it\u2019s perfectly okay to not have all the answers! Accepting that can actually be freeing. Just being present and showing you care is often the most helpful thing you can do. It's natural to feel frustrated when you want to help, but remember that you\u2019re learning and growing in this process. Every interaction is a step forward, even if it feels messy at times. Focusing on your genuine intention to support Jamie can help keep those doubts at bay. What would it look like to give yourself permission to just be there, without the pressure to perform?",
+      "client": "I mean, I guess it could be helpful to think of it that way. Like, maybe I could just tell myself it\u2019s okay if things don\u2019t go perfectly. I just worry that if I let go of that pressure, I\u2019ll end up saying something really off or just not being helpful at all. It\u2019s tough because I want to be there for Jamie, but part of me feels like I need to have it all figured out first. I don\u2019t know if I can fully trust that it\u2019ll be enough.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 23,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "Absolutely, it\u2019s perfectly okay to not have all the answers! Accepting that can actually be freeing. Just being present and showing you care is often the most helpful thing you can do. It's natural to feel frustrated when you want to help, but remember that you\u2019re learning and growing in this process. Every interaction is a step forward, even if it feels messy at times. Focusing on your genuine intention to support Jamie can help keep those doubts at bay. What would it look like to give yourself permission to just be there, without the pressure to perform?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 22,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3360069988266332,
+        "storage_time_ms": 0.008130000423989259
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that way, especially when you want to support Jamie so much. Letting go of perfection doesn\u2019t mean you\u2019ll say something off; it just opens space for genuine connection. Trusting that your intention to be there is enough is a process, and it\u2019s okay to take it one step at a time. Sometimes, the most meaningful moments come from being real and vulnerable, even if that feels uncomfortable. What if you allowed yourself to embrace the uncertainty and see it as part of the journey?",
+      "client": "I don\u2019t know, it\u2019s just hard to think about embracing the uncertainty when it feels like such a big risk. I mean, part of me gets that being real and vulnerable could create a stronger connection, but then there\u2019s that other part that worries I\u2019ll just mess it up. It\u2019s like, I want to be open, but I also feel like I need to protect myself from the possibility of rejection or disappointment. I guess I just wish it didn\u2019t feel so complicated all the time.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I just worry that if I let go of that pressure, I\u2019ll end up saying something really off or just not being helpful at all.\"\n2. **Openness:** \"I guess I need to accept that it\u2019s okay to not have all the answers.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a clear movement toward greater emotional expression and self-reflection. Initially, they exhibited hesitance and a strong focus on their perceived shortcomings in helping Jamie. However, in the latest exchanges, there is a noticeable willingness to explore their feelings about uncertainty and vulnerability, indicating a significant change from earlier defensiveness. The client is beginning to articulate their concerns more openly, suggesting they are engaging more deeply with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted particularly during the discussion about letting go of perfectionism and the admission of their fears regarding vulnerability. This moment marked a transition from merely expressing frustration to acknowledging the inherent risks of opening up, signifying a readiness to explore these feelings further.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 24,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s understandable to feel that way, especially when you want to support Jamie so much. Letting go of perfection doesn\u2019t mean you\u2019ll say something off; it just opens space for genuine connection. Trusting that your intention to be there is enough is a process, and it\u2019s okay to take it one step at a time. Sometimes, the most meaningful moments come from being real and vulnerable, even if that feels uncomfortable. What if you allowed yourself to embrace the uncertainty and see it as part of the journey?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 23,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3064189988654107,
+        "storage_time_ms": 0.0074640011007431895
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It makes sense that embracing uncertainty feels risky, especially with the stakes involved. You\u2019re navigating a lot of emotions, wanting to be open while also protecting yourself. It\u2019s okay to feel conflicted; many people experience that when it comes to vulnerability. Recognizing that it\u2019s complicated shows how much you care about your relationship with Jamie. Maybe you could think of vulnerability as a gradual process\u2014taking small steps instead of diving in headfirst. What if you started with sharing something small and seeing how that feels? It might help ease that pressure while still allowing for connection.",
+      "client": "I guess starting small makes sense. I mean, it\u2019s probably less scary if I don\u2019t throw everything out there all at once. But I still worry about even those small steps. What if I share something that doesn\u2019t land well? It feels like I\u2019m always walking this tightrope between wanting to connect and fearing that I\u2019ll just end up disappointing Jamie again. I know it\u2019s complicated, but it just feels exhausting to think about all the time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 25,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It makes sense that embracing uncertainty feels risky, especially with the stakes involved. You\u2019re navigating a lot of emotions, wanting to be open while also protecting yourself. It\u2019s okay to feel conflicted; many people experience that when it comes to vulnerability. Recognizing that it\u2019s complicated shows how much you care about your relationship with Jamie. Maybe you could think of vulnerability as a gradual process\u2014taking small steps instead of diving in headfirst. What if you started with sharing something small and seeing how that feels? It might help ease that pressure while still allowing for connection.",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 24,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4740140013600467,
+        "storage_time_ms": 0.00800400084699504
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel exhausted by that tightrope walk. Even small steps can feel daunting when you\u2019re worried about how they\u2019ll be received. It shows how much you care about Jamie and the connection you share. Remember, it\u2019s okay for things not to land perfectly; what\u2019s important is that you\u2019re making an effort to reach out. Sometimes, sharing even a little vulnerability can open the door to deeper understanding, even if it doesn\u2019t go exactly as planned. What if you approached those small steps as opportunities to learn and grow together, rather than as a test? That might help ease some of the pressure you\u2019re feeling.",
+      "client": "I mean, that makes sense, I guess. It\u2019s just hard to shake the feeling that every little thing I say will be judged or misunderstood. I want to learn and grow, but I can\u2019t help but think that I might just end up messing it all up anyway. It\u2019s like, I\u2019m trying to be brave, but then there\u2019s this nagging voice telling me I\u2019ll only disappoint her again. I don\u2019t know how to balance that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 26,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s completely understandable to feel exhausted by that tightrope walk. Even small steps can feel daunting when you\u2019re worried about how they\u2019ll be received. It shows how much you care about Jamie and the connection you share. Remember, it\u2019s okay for things not to land perfectly; what\u2019s important is that you\u2019re making an effort to reach out. Sometimes, sharing even a little vulnerability can open the door to deeper understanding, even if it doesn\u2019t go exactly as planned. What if you approached those small steps as opportunities to learn and grow together, rather than as a test? That might help ease some of the pressure you\u2019re feeling.",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 25,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1850699993374292,
+        "storage_time_ms": 0.007521000952692702
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "It\u2019s tough to navigate those feelings of judgment and fear of misunderstanding, especially when you\u2019re trying to be brave. That nagging voice can be really loud and discouraging. It\u2019s clear you care deeply about not disappointing Jamie, and that pressure can feel overwhelming. Maybe instead of seeing it as a balance, you could think of it as a journey where both your fears and your desire to connect can coexist. It\u2019s okay to acknowledge those worries while still allowing yourself to take steps forward. What if you gave yourself permission to express those fears to Jamie too? It might help to share how you\u2019re feeling, creating space for both of you to navigate this together.",
+      "client": "I can kind of see how sharing my fears could help, but it still feels a bit risky. Like, what if she doesn\u2019t respond the way I hope? I mean, part of me thinks it might actually lead to something good, but then there's that other part that worries it'll just make everything more awkward. I just don\u2019t want to put myself out there and feel even more disappointed or misunderstood. I guess I just... I don\u2019t know if I\u2019m ready to take that step yet. It\u2019s hard to imagine it going well when I\u2019ve felt so alone in all of this.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 27,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s tough to navigate those feelings of judgment and fear of misunderstanding, especially when you\u2019re trying to be brave. That nagging voice can be really loud and discouraging. It\u2019s clear you care deeply about not disappointing Jamie, and that pressure can feel overwhelming. Maybe instead of seeing it as a balance, you could think of it as a journey where both your fears and your desire to connect can coexist. It\u2019s okay to acknowledge those worries while still allowing yourself to take steps forward. What if you gave yourself permission to express those fears to Jamie too? It might help to share how you\u2019re feeling, creating space for both of you to navigate this together.",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 26,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3557399997807806,
+        "storage_time_ms": 0.007124999683583155
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely normal to feel that risk when thinking about sharing your fears, especially when you\u2019ve been feeling alone. The possibility of a positive outcome is there, but it\u2019s tough to focus on that when disappointment feels so real. It\u2019s okay to acknowledge that uncertainty; it shows how much you care about the relationship. Maybe you could take your time to explore these feelings more before deciding what feels right. There\u2019s no rush, and giving yourself space to process might help you feel more ready when the time comes. What would it look like to take small moments to reflect on your feelings, without the pressure of needing to share them just yet?",
+      "client": "I guess taking my time could be a good idea. I just worry that if I wait too long, I might miss my chance or lose that connection with Jamie. It feels like there\u2019s always this ticking clock in my head, but maybe I need to remind myself that it\u2019s okay to pause and figure things out. I don\u2019t want to feel rushed into something that could backfire. It\u2019s just hard to find that balance between wanting to be open and not getting hurt again.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 28,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "It\u2019s completely normal to feel that risk when thinking about sharing your fears, especially when you\u2019ve been feeling alone. The possibility of a positive outcome is there, but it\u2019s tough to focus on that when disappointment feels so real. It\u2019s okay to acknowledge that uncertainty; it shows how much you care about the relationship. Maybe you could take your time to explore these feelings more before deciding what feels right. There\u2019s no rush, and giving yourself space to process might help you feel more ready when the time comes. What would it look like to take small moments to reflect on your feelings, without the pressure of needing to share them just yet?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 27,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 5,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6998069986584596,
+        "storage_time_ms": 0.008060000254772604
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "That ticking clock can definitely add pressure, making it feel like there\u2019s no room for pauses. It\u2019s great that you recognize the importance of taking your time to figure things out. Finding that balance is a journey in itself, and it\u2019s okay to take the time you need to feel ready. Reminding yourself that the connection with Jamie isn\u2019t solely dependent on a single moment can help ease that urgency. It\u2019s about building trust and comfort over time. Maybe you could focus on nurturing the connection in smaller, low-pressure ways while you work through your feelings. That way, when you do feel ready to share, it can come from a place of confidence rather than fear.",
+      "client": "I can see what you mean about the connection not being just about one conversation. I guess focusing on smaller moments might help take some pressure off, but it\u2019s still in the back of my mind that I don\u2019t want to miss out on really talking about what\u2019s going on. It\u2019s just... I don\u2019t know, I feel like I keep getting stuck in my head about this. Part of me thinks I should just push through and say something already, but then I worry it\u2019ll just make things worse. It\u2019s frustrating to feel like I\u2019m caught in this loop.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 29,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "That ticking clock can definitely add pressure, making it feel like there\u2019s no room for pauses. It\u2019s great that you recognize the importance of taking your time to figure things out. Finding that balance is a journey in itself, and it\u2019s okay to take the time you need to feel ready. Reminding yourself that the connection with Jamie isn\u2019t solely dependent on a single moment can help ease that urgency. It\u2019s about building trust and comfort over time. Maybe you could focus on nurturing the connection in smaller, low-pressure ways while you work through your feelings. That way, when you do feel ready to share, it can come from a place of confidence rather than fear.",
+        "therapy_mode": "CBT",
+        "technique": "Reflections",
+        "completed_turn": 28,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 28
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.74,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Reflections",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Medium",
+            "engagement_before": "Medium",
+            "delta_readiness": 2.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 0.0,
+            "delta_engagement": "medium\u2192high",
+            "flashbulb_score": 0.52,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 28
+          }
+        ],
+        "retrieval_time_ms": 1.688370999545441,
+        "storage_time_ms": 3.222531000574236
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Being caught in that loop is definitely frustrating, and it\u2019s understandable to feel torn between wanting to say something and fearing the outcome. It sounds like you\u2019re really aware of your thoughts and emotions, which is a big step. Sometimes, just acknowledging those conflicting feelings can help lessen their grip. Maybe instead of pushing through out of pressure, you could sit with those thoughts for a bit, exploring what you really want to say when you feel ready. It could be helpful to write down your feelings or even practice how you might approach the conversation. This way, when the time feels right, you can express yourself more clearly without that overwhelming sense of urgency.",
+      "client": "I guess writing things down could help, but I\u2019m not sure if I\u2019d really do it. It feels like another thing to add to my list, and I already struggle to keep up with everything. But maybe just sitting with those thoughts could give me some clarity. I don\u2019t know, it\u2019s just hard to know what I want to say when I\u2019m all mixed up inside. I mean, part of me wants to be clear and honest, but then I worry about being too vulnerable again. What if it just leads to more confusion? It\u2019s just... I don\u2019t know.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess taking my time could be a good idea. I just worry that if I wait too long, I might miss my chance or lose that connection with Jamie. It feels like there\u2019s always this ticking clock in my head\u2026\u201d\n2. \u201cI don\u2019t want to feel rushed into something that could backfire. It\u2019s just hard to find that balance between wanting to be open and not getting hurt again.\u201d\n\n**Progression:** The client\u2019s most recent interactions indicate a blend of emotional expression and self-reflection, highlighting their struggle with vulnerability and the pressure of needing to communicate effectively. They articulate feelings of anxiety and urgency regarding their relationship, showing a clearer emotional depth than earlier in the session, where they might have been more fact-based or hesitant. This demonstrates a gradual movement towards engaging exploration as they begin to untangle their emotions, indicating a notable improvement in their emotional openness.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly when they started expressing their internal conflict and fear of vulnerability, moving beyond a more surface-level discussion to articulate the complexities of their feelings. This was evident when they acknowledged the frustration of feeling \"caught in this loop\" between wanting to be open and fearing potential hurt, which reflects a deeper engagement with their emotional experience.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 30,
+        "conversation_id": "8650ba9d-e23b-4c62-9a82-8bdfacb73f1a",
+        "therapist_message": "Being caught in that loop is definitely frustrating, and it\u2019s understandable to feel torn between wanting to say something and fearing the outcome. It sounds like you\u2019re really aware of your thoughts and emotions, which is a big step. Sometimes, just acknowledging those conflicting feelings can help lessen their grip. Maybe instead of pushing through out of pressure, you could sit with those thoughts for a bit, exploring what you really want to say when you feel ready. It could be helpful to write down your feelings or even practice how you might approach the conversation. This way, when the time feels right, you can express yourself more clearly without that overwhelming sense of urgency.",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 29,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 28
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.74,
+              "pool": "good",
+              "turn": 7
+            },
+            {
+              "technique": "Reflections",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.68,
+              "pool": "good",
+              "turn": 5
+            }
+          ],
+          "bad": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "improving",
+              "readiness_before": 6.0,
+              "delta_readiness": -3.0,
+              "flashbulb_score": 0.58,
+              "pool": "bad",
+              "turn": 6
+            },
+            {
+              "technique": "Socratic Questioning",
+              "mode": "CBT",
+              "trajectory_before": "stable",
+              "readiness_before": 7.0,
+              "delta_readiness": -2.0,
+              "flashbulb_score": 0.52,
+              "pool": "bad",
+              "turn": 15
+            }
+          ],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6440250001323875,
+        "storage_time_ms": 0.008285000149044208
+      },
+      "strategy_used": null
+    }
+  ]
+}

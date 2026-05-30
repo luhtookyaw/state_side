@@ -1,0 +1,601 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "12-1",
+  "patient_name": "Jay",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I keep getting stuck, and it\u2019s just frustrating. I thought I\u2019d be better by now, but it feels like I\u2019m holding everyone back.\"\n2. \"I mean, I just freeze up, I guess. I try to go with the flow, but then I get lost in what everyone else is doing.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a marked increase in emotional openness and self-reflection. They share feelings of frustration about their jazz rehearsals, demonstrating a deeper emotional engagement as they express concern about their performance affecting others. This emotional quality contrasts with earlier sessions where the client might have limited their disclosures to more factual statements. Despite some defensive language (\u201cit's not a big deal\u201d), the client does reflect on their feelings of inadequacy and anxiety, which suggests a growing comfort in discussing these emotions.\n\n**Turning Point:**\nThe client's emotional depth appears to have shifted during this session when they began to articulate not only their feelings of frustration but also the underlying fear of being inadequate (\"I feel like I can\u2019t keep up\"). This moment signifies a willingness to explore their emotional state more deeply, indicating a turning point toward more meaningful self-reflection and engagement in the therapeutic process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \u201cI guess I kind of feel this tightness in my chest when I freeze up. It\u2019s like my mind just goes blank, and I can\u2019t figure out what to play. I think part of me worries that everyone else is getting frustrated with me too.\u201d\n2. **Latest Exchange Demonstrating Current Openness:** \u201cI guess I think about how I should be better at improvising by now. Maybe I put too much pressure on myself to keep up with everyone else, and that just makes it worse.\u201d\n\n**Progression:** The client\u2019s most recent interactions illustrate a shift toward deeper emotional expression, particularly highlighting their feelings of pressure and anxiety during rehearsals. This marks a significant change from earlier parts of the session where they exhibited a more factual and guarded demeanor, indicating a growing comfort in sharing their emotional experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the physical sensation of tightness in their chest. This moment opened the door for them to explore feelings of inadequacy and pressure, demonstrating a willingness to delve into their emotional state rather than staying on the surface. This indicates an evolving therapeutic relationship where the client is starting to trust the space enough to explore vulnerable feelings.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I think about how I should be better at improvising by now. Maybe I put too much pressure on myself to keep up with everyone else...\"\n2. \"I don\u2019t know, I guess it\u2019s mostly anxiety that comes up. Like, my heart races, and I feel even more tense. It\u2019s hard to admit, but I guess I just feel kind of... defeated when I\u2019m in those moments.\"\n\n**Progression:** The client's most recent interactions demonstrate a notable increase in emotional expression, specifically regarding feelings of anxiety and self-doubt. This represents a significant change from earlier exchanges, where emotional vocabulary was more limited and expressions were primarily factual. The client is now actively engaging in self-reflection about their pressures and feelings of inadequacy, indicating an improved comfort level with the therapist and a willingness to explore deeper emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of feeling \"defeated\" when comparing themselves to others. This moment marked a breakthrough in terms of vulnerability, moving beyond surface-level descriptions of their feelings and towards a more genuine sharing of their internal struggles. This kind of insight illustrates a deeper engagement with their emotions and a willingness to confront their fears and insecurities in the context of the therapeutic relationship.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cI don\u2019t know, I guess it\u2019s mostly anxiety that comes up. Like, my heart races, and I feel even more tense. It\u2019s like I\u2019m not just worried about the music, but about letting everyone down. Sometimes I even feel a bit ashamed, like I should have figured this out by now. It\u2019s hard to admit, but I guess I just feel kind of... defeated when I\u2019m in those moments.\u201d\n2. Client: \u201cI mean, there have been times when I felt more at ease, like during some casual jam sessions with friends. It was easier to just play and not worry about how I sounded, you know? But lately, it feels like those moments are harder to come by. I guess the pressure I put on myself just makes it feel more serious now, and I can\u2019t quite shake that off.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate an increased emotional depth, particularly through their acknowledgment of anxiety, shame, and feelings of defeat. This marks a significant change from earlier sessions where they may have expressed more factual or superficial responses. The client is now sharing specific emotional experiences and articulating the physical sensations that accompany their emotions, indicating a deeper level of self-reflection.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during their recent acknowledgment of feeling \u201cdefeated\u201d and \u201cfrustrated\u201d in relation to their music performance and self-expectations. This moment showcased their vulnerability and willingness to reflect on the pressures they face, representing a clear turning point in their emotional openness within the session. Their ability to express a desire to let go of doubts while also recognizing the pressure they place on",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess the pressure I put on myself just makes it feel more serious now, and I can\u2019t quite shake that off. It\u2019s frustrating because I know I used to enjoy it more, and now it feels like I'm just stuck in this cycle of anxiety.\"\n2. **Current Openness:** \"I guess remembering that feeling of freedom does make me a bit nostalgic, you know? It\u2019s like I want to get back to that place where I could just play without all the self-imposed pressure.\"\n\n**Progression:**\nThe client's recent interactions indicate a clear emotional depth, reflecting their frustrations and desires regarding their relationship with music. They articulate feelings of anxiety and nostalgia, showcasing a combination of emotional expression and self-reflection. This marks a significant shift from earlier stages where emotional expression was limited and more factual. Previously, the client may have avoided delving into personal feelings, but now they are beginning to explore their emotions more openly. \n\n**Turning Point:**\nThe client\u2019s emotional depth started to shift during the exchange where they recalled their past experiences of playing music casually with friends. This moment was pivotal as they moved from a defensive stance about their current pressures to a more reflective and vulnerable acknowledgment of their past joy in playing music. By recognizing the contrast between past and present experiences, they are beginning to engage in deeper self-exploration, which is a hallmark of the \"Engaged Exploration\" stage.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Client's Nostalgia and Frustration:** \"I guess remembering that feeling of freedom does make me a bit nostalgic, you know? It\u2019s like I want to get back to that place where I could just play without all the self-imposed pressure. But then, part of me worries that I won't be able to recreate that vibe or that I might disappoint others if I don\u2019t measure up.\"\n2. **Physical Reaction and Anxiety:** \"I mean, it's kind of a tightness in my chest, I guess? Like, when I'm in rehearsals and I feel that pressure, it just makes me tense up, and I can almost feel the anxiety creeping in.\"\n\n**Progression:** The client's most recent interactions indicate a greater emotional depth as they articulate feelings of nostalgia intertwined with anxiety. This marks a significant change from previous sessions where emotional expression was more limited, and self-reflection was less developed. The client is beginning to connect their physical sensations with their emotional experiences, demonstrating a growing awareness of how anxiety manifests in their body\u2014this is a notable step towards deeper self-reflection and emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their physical sensations linked to their anxiety during rehearsals. The moment they described the \"tightness in my chest\" was pivotal, as it shows a willingness to explore not only their feelings but also the bodily reactions that accompany them. This integration of physical awareness into their emotional processing represents a significant evolution in the therapeutic dialogue.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess when I feel that tightness, I start thinking about all the things that could go wrong, like messing up or holding everyone back. It's almost like a loop in my head that keeps repeating.\"\n2. \"I definitely feel that tightness in my chest get worse, and sometimes my hands get a bit shaky. It\u2019s like my body is in high alert, but my mind is struggling to keep up.\"\n\n**Progression:** The client's recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate their anxiety in a way that shows a deeper understanding of their emotional state and its physical manifestations. This marks a significant change from earlier sessions when the client may have focused primarily on factual descriptions of their feelings without this level of insight. The metaphor of a \"mountain of worries\" signifies an emerging capacity for metaphorical thinking, which suggests deeper engagement with their emotional experience.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the \"loop\" of anxious thoughts and the physical response it triggers in their body. This occurred when they described the tightness in their chest and associated feelings of being \"defeated\" before even starting. The use of vivid imagery and acknowledgment of their frustration with their anxiety reflects a movement towards authentic vulnerability and a deeper level of engagement in the therapeutic process. This moment highlights a growing rapport with the therapist and a willingness to explore emotions more openly, indicating a shift from initial discomfort to a more engaged exploration of their feelings.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess emotionally, I just feel more defeated, like I\u2019ve already lost before I even start. I don\u2019t know if that makes sense, but it\u2019s frustrating to want to enjoy music and then feel trapped by all these physical and emotional responses.\"\n2. **Current Openness:** \"I think, maybe, it\u2019s like I\u2019m caught between wanting to impress others and just being myself. Part of me is focused on how I might mess up or not fit in, which just makes me freeze up even more.\"\n\n**Progression:**\nThe client's most recent interactions reveal a growing emotional depth as they articulate feelings of defeat and the struggle between wanting to engage with music and the pressure they feel from perceived judgment. This marks a significant change from earlier stages where the client's emotional expression was more limited. The exchanges show a blend of emotional and factual responses, indicating a deeper level of self-reflection and vulnerability than previously displayed.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began expressing the internal conflict between their desire to connect and their fear of judgment. This moment exemplifies a pivotal change where they moved from merely acknowledging their anxiety to exploring its impact on their sense of self and engagement with others. It highlights a willingness to confront uncomfortable emotions, suggesting a developing rapport with the therapist and a readiness for deeper exploration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cI guess when I freeze up, it\u2019s like I kind of go into my own shell, and I just can\u2019t think clearly. I feel like I\u2019m not really present anymore... it\u2019s frustrating because I really want to be engaged, but in those moments, I just feel lost, like I\u2019m not contributing at all.\u201d\n2. \u201cI don\u2019t know if I\u2019ve really paid attention to how I feel in my body when that happens. I guess there\u2019s this tightness in my chest, and my hands get kind of clammy. It\u2019s like my body is reacting even when my mind is trying to catch up.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant depth of emotional expression as they articulate feelings of frustration, disconnect, and physical sensations tied to their emotional state. This marks a notable shift from earlier sessions, where their emotional vocabulary was more limited, and elaboration on feelings was minimal. The current exchanges reflect a higher level of self-awareness and comfort in discussing vulnerabilities, which indicates a strong progression in emotional openness.\n\n**Turning Point:** The turning point in the client\u2019s emotional depth appears to have occurred when they began to articulate their physical sensations associated with their feelings of anxiety and fear during group interactions. This moment, where they described the tightness in their chest and clammy hands, signifies a deeper level of self-reflection and awareness of the interplay between their body and emotions. This shift has fostered a stronger therapeutic alliance, allowing for more authentic vulnerability and a richer exploration of their feelings.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Disclosure:** \"I can see that maybe my fears are tied to this idea that if I mess up or don't fit in, I'll be seen as inadequate or even rejected by the group.\"\n2. **Self-Reflection:** \"I think the worst-case scenario for me would be feeling completely humiliated or exposed, like everyone would see my mistakes and judge me harshly.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant deepening of emotional expression and self-reflection. They articulate their feelings of inadequacy and fear of judgment with a level of vulnerability that indicates they are becoming more comfortable sharing their inner thoughts. This marks a clear progression from earlier exchanges, where the client exhibited more guarded behavior and limited emotional vocabulary. The current state reveals a willingness to explore complex feelings, indicating a strong therapeutic alliance and engagement with the process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange when they began acknowledging the voice of inadequacy that amplifies their fears, specifically when they disclosed, \"I can see that maybe my fears are tied to this idea that if I mess up or don't fit in, I'll be seen as inadequate or even rejected by the group.\" This moment reflects a pivotal realization that opens the door for further exploration and coping strategies, demonstrating a readiness to engage more deeply in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Recent Emotional State:** \"I think the worst-case scenario for me would be feeling completely humiliated or exposed, like everyone would see my mistakes and judge me harshly. Part of me knows that it\u2019s unlikely everyone would even notice or care as much as I do, but that fear still feels very real.\"\n2. **Current Openness:** \"I can see that maybe there have been a few times where I\u2019ve felt nervous but ended up overcoming those feelings. For instance, during my college band days, there were moments when I had to lead a rehearsal despite feeling unsure of myself.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a significant increase in emotional depth and self-reflection compared to earlier sessions, indicating a more profound engagement with their feelings and experiences. They are articulating their fears and starting to challenge them, moving away from a defensive stance to a more exploratory one. This shift marks a notable change from prior exchanges where the client may have been more guarded or factual in responses.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue when they began expressing their past experiences of overcoming anxiety and the support they received from their bandmates. This moment of reflection demonstrates a growing comfort with the therapeutic process and a willingness to explore and challenge their feelings of inadequacy. The acknowledgment of past successes and the intention to create a mantra to ground themselves signifies a transformative level of self-awareness and emotional engagement, elevating the rapport with the therapist and the emotional work being done in the session.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4** \n\n**Key Examples:**\n- \"I can see that maybe there have been a few times where I\u2019ve felt nervous but ended up overcoming those feelings... I think those reactions contradict the voice in my head that tells me I\u2019m not good enough.\"\n- \"When I think about compiling these experiences, it gives me a sense of empowerment and a reminder that I do have the ability to succeed despite the anxiety.\"\n\n**Progression:** The client's recent exchanges reflect a notable increase in emotional expression and self-reflection. They are beginning to articulate their feelings about anxiety and support, moving towards a more engaged exploration of their emotions. The client's acknowledgment of past successes and their willingness to actively counter self-doubt marks a significant change from earlier sessions, where emotional depth and vulnerability were less present.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue about their college band experiences. When they articulated the impact of supportive feedback from peers, it represented a breakthrough in their self-awareness. This moment of recognition\u2014identifying past instances where they felt valued despite their anxiety\u2014demonstrated authentic self-reflection and a growing comfort in exploring their vulnerabilities with the therapist. This shift has fostered a deeper sense of empowerment and resilience that was not as evident earlier in the session.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \u201cIt feels like a shift in perspective could be really helpful for me. I hadn\u2019t fully considered how important it is to talk to myself with the same kindness I would offer a friend.\u201d\n2. Client: \u201cIt\u2019s interesting to realize that I\u2019ve accumulated quite a few experiences that contradict my self-doubts; I just haven\u2019t given them the attention they deserve. When I think back to those instances, it feels like I\u2019m uncovering evidence that I am capable and worthy.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client presented with some self-doubt and a factual recounting of experiences but has now evolved to actively connecting past successes with their self-worth. There is a clear movement toward meaningful self-exploration, particularly in how the client recognizes the importance of self-compassion and reframing their negative thoughts.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange when they recognized the importance of speaking to themselves with the same kindness they would offer a friend. This realization illustrates a breakthrough moment in their emotional state, revealing an authentic vulnerability and a shift towards self-acceptance. The client is now more engaged in exploring their strengths and creating positive affirmations, indicating a strong therapeutic alliance and a deeper level of emotional openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"It feels really hopeful to think about building a personal toolkit of reminders that I can draw on whenever I\u2019m feeling insecure.\"\n- \"I notice that when I dwell on those negative thoughts, I feel anxious and disconnected, which only reinforces the cycle of avoidance.\"\n\n**Progression:** In the most recent interactions, the client exhibits consistent emotional depth and a growing comfort with self-reflection. They articulate feelings of hope and connection to their strengths, indicating a shift from earlier hesitance to a more engaged exploration of their emotions. This is a notable change from prior sessions where they may have been more defensive or hesitant about discussing personal vulnerabilities.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing hopefulness and a proactive approach to addressing their self-doubts. This turning point occurred when they acknowledged the power of their mantra and the impact of positive affirmations on their mindset, demonstrating a clear commitment to change and self-acceptance. The discussions around their past successes and the strategies for overcoming negative thoughts reflect a deepening therapeutic alliance and a willingness to engage in authentic vulnerability.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"It feels a bit uncomfortable to confront that pattern, but I think acknowledging it is a step toward breaking free from it.\"\n2. Client: \"When we all share our challenges and strengths, it could foster a deeper sense of camaraderie and encourage everyone to step out of their comfort zones.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a significant emotional depth and insight, particularly in articulating how their strengths can combat self-doubt and enhance their connection with their music and peers. This marks a shift from earlier parts of the session, where they might have shown more hesitance and factual responses. The client is now demonstrating a growing comfort in exploring their feelings and acknowledging uncomfortable patterns, which reflects a deeper level of self-reflection and emotional expression.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their realization about the importance of leaning into their positive aspects. This occurred in the exchange where they discussed specific situations in which focusing on their talents made a difference, emphasizing their sense of belonging and capability during performances. The acknowledgment of discomfort in confronting negative thought patterns, coupled with their proactive strategy of involving bandmates in affirmations, indicates a pivotal moment of self-awareness and willingness to engage in meaningful exploration. This progression showcases a strong therapeutic alliance and the client\u2019s readiness for deeper engagement in their emotional journey.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 19,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reduce the intensity of their fears about not fitting in or impressing others in social situations.",
+      "reasoning": "The client is experiencing a significant fear of judgment and failure, which leads to feelings of disconnection and paralysis in group settings. Decatastrophizing can help the client assess the likelihood of negative outcomes and develop a more balanced perspective on their fears. This technique encourages them to recognize that their worries may be exaggerated and helps reduce anxiety around social interactions.",
+      "suggestion": [
+        "Can you describe what you fear might happen if you do mess up or don\u2019t fit in? What specific thoughts come to mind?",
+        "How likely do you think those feared outcomes are to actually happen? Can we evaluate that together?",
+        "What evidence do you have that supports or contradicts those fears?",
+        "Can you think of a time when you felt anxious in a group but things turned out okay? What happened?",
+        "Let\u2019s explore what the worst-case scenario would be and how you might cope with it if it did happen."
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client gather supportive evidence that contradicts their fears of humiliation and inadequacy.",
+      "reasoning": "The client recognizes that their fears may be exaggerated and is beginning to connect their past experiences of resilience with their current anxiety. Evidence-Based Questioning will empower them to challenge the validity of their thoughts and reinforce a more balanced perspective. This technique aligns well with their goal of recognizing that fear doesn't always reflect reality.",
+      "suggestion": [
+        "Can you identify specific instances in your past when you feared humiliation but found that the reality was quite different?",
+        "What feedback or reactions have you received from others that contradict your fears of being judged?",
+        "How can we explore the times when you felt anxious but successfully navigated the situation, like your performance?",
+        "What evidence can you gather that shows you are more capable than you believe when facing social situations?",
+        "In what ways can you remind yourself of these supportive evidences when you feel that familiar anxiety arise?"
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their negative thoughts and self-doubt by considering different viewpoints and interpretations of their experiences.",
+      "reasoning": "Given the client's acknowledgment of positive feedback and supportive moments in their past, the Alternative Perspective technique can encourage them to challenge their negative self-talk by exploring alternative interpretations of their abilities and experiences. This aligns well with their current goal of shifting focus from self-doubt to self-affirmation.",
+      "suggestion": [
+        "Can you think of a specific negative thought you have about a performance or your abilities right now?",
+        "What would you say to a friend who expressed the same self-doubt that you're feeling?",
+        "How might you reinterpret that negative thought in a way that is more balanced or positive?",
+        "Can you identify any evidence from your past that contradicts that negative thought?",
+        "How would viewing this situation from a different perspective change your feelings about it?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client weigh the benefits and drawbacks of their negative thoughts versus positive affirmations.",
+      "reasoning": "The client has expressed self-doubt and a need for self-affirmation. A Pros and Cons Analysis can help them objectively evaluate the impact of their negative beliefs compared to the evidence of their capabilities and positive affirmations. This technique can enhance their understanding of how to shift their thinking patterns and reinforce their strengths.",
+      "suggestion": [
+        "Can you list the pros of believing in your self-doubts versus the pros of embracing your strengths?",
+        "What are some specific cons associated with holding onto these negative beliefs about yourself?",
+        "How do you feel when you focus on your past successes and positive affirmations compared to when you dwell on self-doubt?",
+        "Can you identify any patterns in your thinking that may be reinforced by either perspective?",
+        "What might help you to consistently focus on the positive aspects and evidence of your capabilities?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jay, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know. It's been mostly about jazz rehearsals. I keep getting stuck, and it\u2019s just frustrating. I thought I\u2019d be better by now, but it feels like I\u2019m holding everyone back. It\u2019s not a big deal, but it\u2019s annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like those rehearsals are really weighing on you. Feeling stuck can be really frustrating, especially when it feels like it affects others too. Can you share a bit more about what happens during those moments when you feel you're holding everyone back? What do you notice in those experiences?",
+      "client": "I mean, I just freeze up, I guess. I try to go with the flow, but then I get lost in what everyone else is doing. It\u2019s not like it\u2019s the end of the world; it\u2019s just rehearsals. I just feel like I can\u2019t keep up, you know? It\u2019s just annoying, and I don\u2019t really want to get into all that.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I keep getting stuck, and it\u2019s just frustrating. I thought I\u2019d be better by now, but it feels like I\u2019m holding everyone back.\"\n2. \"I mean, I just freeze up, I guess. I try to go with the flow, but then I get lost in what everyone else is doing.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a marked increase in emotional openness and self-reflection. They share feelings of frustration about their jazz rehearsals, demonstrating a deeper emotional engagement as they express concern about their performance affecting others. This emotional quality contrasts with earlier sessions where the client might have limited their disclosures to more factual statements. Despite some defensive language (\u201cit's not a big deal\u201d), the client does reflect on their feelings of inadequacy and anxiety, which suggests a growing comfort in discussing these emotions.\n\n**Turning Point:**\nThe client's emotional depth appears to have shifted during this session when they began to articulate not only their feelings of frustration but also the underlying fear of being inadequate (\"I feel like I can\u2019t keep up\"). This moment signifies a willingness to explore their emotional state more deeply, indicating a turning point toward more meaningful self-reflection and engagement in the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It seems like those moments of freezing up are pretty challenging for you, even if you don\u2019t want to dwell on it too much. Noticing that feeling of getting lost amidst everyone else might bring up some strong emotions for you. What do you tend to notice in your body when that happens, or is there a particular thought that comes to mind in those moments?",
+      "client": "I don\u2019t know, it\u2019s hard to explain. I guess I kind of feel this tightness in my chest when I freeze up. It\u2019s like my mind just goes blank, and I can\u2019t figure out what to play. I think part of me worries that everyone else is getting frustrated with me too. I don\u2019t know if that\u2019s exactly it, but it feels like I\u2019m just\u2026 stuck.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Noticing that tightness in your chest and the blankness of your mind when you freeze up sounds really difficult. It seems like there\u2019s a lot happening in those moments\u2014feeling stuck, but also a concern about how others might be perceiving you. When you think about that feeling of being stuck, are there particular situations or thoughts that seem to come up more often for you?",
+      "client": "I guess I think about how I should be better at improvising by now. Maybe I put too much pressure on myself to keep up with everyone else, and that just makes it worse. I don\u2019t know if I feel like I don\u2019t belong in those moments or if it\u2019s just that I expect too much of myself. It\u2019s frustrating, but I don\u2019t really want to make it bigger than it is, you know?",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \u201cI guess I kind of feel this tightness in my chest when I freeze up. It\u2019s like my mind just goes blank, and I can\u2019t figure out what to play. I think part of me worries that everyone else is getting frustrated with me too.\u201d\n2. **Latest Exchange Demonstrating Current Openness:** \u201cI guess I think about how I should be better at improvising by now. Maybe I put too much pressure on myself to keep up with everyone else, and that just makes it worse.\u201d\n\n**Progression:** The client\u2019s most recent interactions illustrate a shift toward deeper emotional expression, particularly highlighting their feelings of pressure and anxiety during rehearsals. This marks a significant change from earlier parts of the session where they exhibited a more factual and guarded demeanor, indicating a growing comfort in sharing their emotional experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated the physical sensation of tightness in their chest. This moment opened the door for them to explore feelings of inadequacy and pressure, demonstrating a willingness to delve into their emotional state rather than staying on the surface. This indicates an evolving therapeutic relationship where the client is starting to trust the space enough to explore vulnerable feelings.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a lot of pressure you're feeling, both from your own expectations and the dynamics in the group. It\u2019s interesting how that frustration might connect to your sense of belonging and how you perceive your skills in those moments. When you think about the pressure you put on yourself, do you notice any specific thoughts that come up when you\u2019re in rehearsals, or does it feel more like an overall sensation?",
+      "client": "I can kind of see how it feels like an overall sensation, but there are definitely specific thoughts that pop up, especially when I\u2019m really struggling. Like, I\u2019ll think about how everyone else seems so confident and seemingly knows what they\u2019re doing, and then there\u2019s me just... lost. I guess it\u2019s like a nagging voice telling me I should just be able to keep up by now. It\u2019s frustrating, and it makes me doubt myself more, but I don\u2019t want to overthink it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "Feeling that nagging voice and comparing yourself to others can be really tough, especially when you\u2019re already feeling lost. It seems like those moments amplify your self-doubt and frustration. When you notice that voice telling you to keep up, what kind of feelings accompany that thought? Do you notice any particular changes in your body or your mood in those instances?",
+      "client": "I don\u2019t know, I guess it\u2019s mostly anxiety that comes up. Like, my heart races, and I feel even more tense. It\u2019s like I\u2019m not just worried about the music, but about letting everyone down. Sometimes I even feel a bit ashamed, like I should have figured this out by now. It\u2019s hard to admit, but I guess I just feel kind of... defeated when I\u2019m in those moments.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I think about how I should be better at improvising by now. Maybe I put too much pressure on myself to keep up with everyone else...\"\n2. \"I don\u2019t know, I guess it\u2019s mostly anxiety that comes up. Like, my heart races, and I feel even more tense. It\u2019s hard to admit, but I guess I just feel kind of... defeated when I\u2019m in those moments.\"\n\n**Progression:** The client's most recent interactions demonstrate a notable increase in emotional expression, specifically regarding feelings of anxiety and self-doubt. This represents a significant change from earlier exchanges, where emotional vocabulary was more limited and expressions were primarily factual. The client is now actively engaging in self-reflection about their pressures and feelings of inadequacy, indicating an improved comfort level with the therapist and a willingness to explore deeper emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of feeling \"defeated\" when comparing themselves to others. This moment marked a breakthrough in terms of vulnerability, moving beyond surface-level descriptions of their feelings and towards a more genuine sharing of their internal struggles. This kind of insight illustrates a deeper engagement with their emotions and a willingness to confront their fears and insecurities in the context of the therapeutic relationship.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "Feeling that mix of anxiety, shame, and defeat in those moments sounds really heavy. It\u2019s understandable that the pressure to meet your own expectations, along with the fear of letting others down, would create such a strong emotional response. When you experience that heart racing and tension, does it feel like there\u2019s a specific moment or trigger that stands out, or is it more of a general feeling that takes over when you\u2019re struggling?",
+      "client": "It\u2019s kind of a general feeling that takes over, I think. I mean, when I start to feel lost in the music, that anxious feeling just creeps in and kind of spirals from there. I guess there are moments, like when it\u2019s my turn to improvise or when I feel like everyone is looking at me, that really heighten it. It\u2019s like, I should be able to handle this by now, and then that doubt just amplifies everything else. I don\u2019t know, it\u2019s frustrating because I want to enjoy the music, but it feels like I can\u2019t fully let go of those worries.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "That spiraling feeling you describe seems to really take hold when those moments of improvisation or being in the spotlight come up. It\u2019s challenging when you want to enjoy the music, yet those worries feel like they overshadow it. When you think about wanting to let go of those doubts, are there any moments in the past where you felt more at ease while playing, or does it feel like that\u2019s hard to recall?",
+      "client": "I mean, there have been times when I felt more at ease, like during some casual jam sessions with friends. It was easier to just play and not worry about how I sounded, you know? But lately, it feels like those moments are harder to come by. I guess the pressure I put on myself just makes it feel more serious now, and I can\u2019t quite shake that off. It\u2019s frustrating because I know I used to enjoy it more, and now it feels like I'm just stuck in this cycle of anxiety.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cI don\u2019t know, I guess it\u2019s mostly anxiety that comes up. Like, my heart races, and I feel even more tense. It\u2019s like I\u2019m not just worried about the music, but about letting everyone down. Sometimes I even feel a bit ashamed, like I should have figured this out by now. It\u2019s hard to admit, but I guess I just feel kind of... defeated when I\u2019m in those moments.\u201d\n2. Client: \u201cI mean, there have been times when I felt more at ease, like during some casual jam sessions with friends. It was easier to just play and not worry about how I sounded, you know? But lately, it feels like those moments are harder to come by. I guess the pressure I put on myself just makes it feel more serious now, and I can\u2019t quite shake that off.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate an increased emotional depth, particularly through their acknowledgment of anxiety, shame, and feelings of defeat. This marks a significant change from earlier sessions where they may have expressed more factual or superficial responses. The client is now sharing specific emotional experiences and articulating the physical sensations that accompany their emotions, indicating a deeper level of self-reflection.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during their recent acknowledgment of feeling \u201cdefeated\u201d and \u201cfrustrated\u201d in relation to their music performance and self-expectations. This moment showcased their vulnerability and willingness to reflect on the pressures they face, representing a clear turning point in their emotional openness within the session. Their ability to express a desire to let go of doubts while also recognizing the pressure they place on",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Casual jam sessions with friends seem to have provided a space where you could relax and enjoy the music without the weight of expectations. It sounds like that contrast with how you're feeling now is really frustrating for you, especially since you recognize you used to experience that joy. When you think about those easier moments, what do you think made it possible for you to let go of the pressure back then?",
+      "client": "I guess it felt more like a shared experience back then, where we were all just having fun and not worrying about how we sounded. Maybe it was the lack of pressure or the vibe of being with friends that helped me feel more relaxed. Now, it\u2019s like I\u2019ve built up this expectation for myself to excel or impress, and that just gets in the way. I don\u2019t know, it\u2019s hard to find that same freedom when I feel like I have to prove something.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "The shared experience and the relaxed vibe with friends seem to have created a space for you to enjoy the music without feeling weighed down by expectations. It\u2019s interesting how the shift in your mindset\u2014from enjoying the moment to feeling like you need to prove something\u2014has changed your relationship with music. When you think about those moments with friends, how does remembering that feeling of freedom affect your current experience with music?",
+      "client": "I guess remembering that feeling of freedom does make me a bit nostalgic, you know? It\u2019s like I want to get back to that place where I could just play without all the self-imposed pressure. But then, part of me worries that I won't be able to recreate that vibe or that I might disappoint others if I don\u2019t measure up. So, it\u2019s a little frustrating because I want to enjoy what I used to love, but it feels like there\u2019s this barrier I can\u2019t quite get past.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess the pressure I put on myself just makes it feel more serious now, and I can\u2019t quite shake that off. It\u2019s frustrating because I know I used to enjoy it more, and now it feels like I'm just stuck in this cycle of anxiety.\"\n2. **Current Openness:** \"I guess remembering that feeling of freedom does make me a bit nostalgic, you know? It\u2019s like I want to get back to that place where I could just play without all the self-imposed pressure.\"\n\n**Progression:**\nThe client's recent interactions indicate a clear emotional depth, reflecting their frustrations and desires regarding their relationship with music. They articulate feelings of anxiety and nostalgia, showcasing a combination of emotional expression and self-reflection. This marks a significant shift from earlier stages where emotional expression was limited and more factual. Previously, the client may have avoided delving into personal feelings, but now they are beginning to explore their emotions more openly. \n\n**Turning Point:**\nThe client\u2019s emotional depth started to shift during the exchange where they recalled their past experiences of playing music casually with friends. This moment was pivotal as they moved from a defensive stance about their current pressures to a more reflective and vulnerable acknowledgment of their past joy in playing music. By recognizing the contrast between past and present experiences, they are beginning to engage in deeper self-exploration, which is a hallmark of the \"Engaged Exploration\" stage.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Nostalgia for that feeling of freedom can be quite powerful, especially when it contrasts so starkly with how you\u2019re feeling now. It seems like there\u2019s a real desire to reconnect with that joy, but also some fear about not being able to replicate it or disappointing others. That tension between wanting to enjoy music again and feeling held back by worry is understandably frustrating. \n\nWhen you think about that barrier you mentioned, what does it feel like in your body when those worries come up?",
+      "client": "I mean, it's kind of a tightness in my chest, I guess? Like, when I'm in rehearsals and I feel that pressure, it just makes me tense up, and I can almost feel the anxiety creeping in. I don\u2019t know, it\u2019s like my body is reacting even before my mind fully registers it. It\u2019s frustrating because I want to be there, but then my body's like, \"Nope, not today.\"",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and how it's linked to the pressure you feel during rehearsals sounds really important. It seems like your body is responding to those anxious thoughts even before you've fully acknowledged them. That kind of physical reaction can create a barrier to fully engaging in the experience you want to have. \n\nWhen you feel that tension in your chest, what thoughts or images come to mind for you in those moments?",
+      "client": "I guess when I feel that tightness, I start thinking about all the things that could go wrong, like messing up or holding everyone back. It's almost like a loop in my head that keeps repeating. Sometimes I picture myself just freezing up in front of everyone, and that thought alone is enough to make me more anxious. I don\u2019t know, it feels like I\u2019m building this mountain of worries that just keeps getting bigger, and I wish I could just play without all those thoughts weighing me down.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Client's Nostalgia and Frustration:** \"I guess remembering that feeling of freedom does make me a bit nostalgic, you know? It\u2019s like I want to get back to that place where I could just play without all the self-imposed pressure. But then, part of me worries that I won't be able to recreate that vibe or that I might disappoint others if I don\u2019t measure up.\"\n2. **Physical Reaction and Anxiety:** \"I mean, it's kind of a tightness in my chest, I guess? Like, when I'm in rehearsals and I feel that pressure, it just makes me tense up, and I can almost feel the anxiety creeping in.\"\n\n**Progression:** The client's most recent interactions indicate a greater emotional depth as they articulate feelings of nostalgia intertwined with anxiety. This marks a significant change from previous sessions where emotional expression was more limited, and self-reflection was less developed. The client is beginning to connect their physical sensations with their emotional experiences, demonstrating a growing awareness of how anxiety manifests in their body\u2014this is a notable step towards deeper self-reflection and emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their physical sensations linked to their anxiety during rehearsals. The moment they described the \"tightness in my chest\" was pivotal, as it shows a willingness to explore not only their feelings but also the bodily reactions that accompany them. This integration of physical awareness into their emotional processing represents a significant evolution in the therapeutic dialogue.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It sounds like those thoughts about things going wrong really start to build up and create a sense of pressure that makes it tough to engage in your music. The image of freezing up in front of others must be quite unsettling, and it\u2019s understandable that this would lead to feeling even more anxious. The way you describe it, like a mountain of worries, suggests it can feel overwhelming at times.\n\nWhen you notice that loop of thoughts starting to form, how do you typically respond to it in the moment?",
+      "client": "I guess I kind of try to push those thoughts away, like I\u2019m hoping they\u2019ll just disappear if I ignore them. But then, part of me feels like that just makes it worse, you know? I might try to focus on something else, like the music itself, but it can be hard to shake off that anxiety. And sometimes, I just end up second-guessing myself more, which doesn\u2019t help either. It's like I\u2019m stuck in this cycle that I can\u2019t break free from.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Pushing those thoughts away and hoping they\u2019ll disappear makes sense, especially when you\u2019re feeling overwhelmed. It can be tough when you\u2019re trying to focus on the music but find that anxiety just lingers, often leading to more self-doubt. The cycle you\u2019re describing sounds really challenging, where one thought leads to another and it feels hard to find a way out.\n\nWhen you're in that moment of trying to push the thoughts away, what do you notice happening in your body or your emotional state?",
+      "client": "I mean, I definitely feel that tightness in my chest get worse, and sometimes my hands get a bit shaky. It\u2019s like my body is in high alert, but my mind is struggling to keep up. I guess emotionally, I just feel more defeated, like I\u2019ve already lost before I even start. I don\u2019t know if that makes sense, but it\u2019s frustrating to want to enjoy music and then feel trapped by all these physical and emotional responses.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess when I feel that tightness, I start thinking about all the things that could go wrong, like messing up or holding everyone back. It's almost like a loop in my head that keeps repeating.\"\n2. \"I definitely feel that tightness in my chest get worse, and sometimes my hands get a bit shaky. It\u2019s like my body is in high alert, but my mind is struggling to keep up.\"\n\n**Progression:** The client's recent interactions demonstrate a notable increase in emotional expression and self-reflection. They articulate their anxiety in a way that shows a deeper understanding of their emotional state and its physical manifestations. This marks a significant change from earlier sessions when the client may have focused primarily on factual descriptions of their feelings without this level of insight. The metaphor of a \"mountain of worries\" signifies an emerging capacity for metaphorical thinking, which suggests deeper engagement with their emotional experience.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the \"loop\" of anxious thoughts and the physical response it triggers in their body. This occurred when they described the tightness in their chest and associated feelings of being \"defeated\" before even starting. The use of vivid imagery and acknowledgment of their frustration with their anxiety reflects a movement towards authentic vulnerability and a deeper level of engagement in the therapeutic process. This moment highlights a growing rapport with the therapist and a willingness to explore emotions more openly, indicating a shift from initial discomfort to a more engaged exploration of their feelings.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Feeling that tightness in your chest and shaky hands must be really uncomfortable, especially when you\u2019re trying to engage with something you love, like music. It\u2019s tough to feel defeated before even starting, and it\u2019s understandable that you\u2019d want to enjoy the experience instead of feeling trapped by those physical and emotional responses. \n\nWhen you think about those moments where you feel that defeat, is there a particular part of the experience that stands out to you as especially difficult?",
+      "client": "I guess what stands out is how quickly I spiral into negative thoughts. It\u2019s like I can almost feel the pressure of everyone watching me, which makes it ten times worse. And then I get this sense of guilt for not being able to just, you know, enjoy the moment and contribute to the group. I really want to feel a part of it, but that fear of failing just makes everything so much harder.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "The pressure of feeling watched can really amplify those negative thoughts, and it makes sense that it would intensify the guilt you feel for not enjoying the moment. Wanting to contribute and be part of the group is such a natural desire, and feeling that fear of failing can create a heavy weight to carry. \n\nWhen you notice those spirals starting, what do you think is happening in that moment between the pressure of being watched and your desire to engage?",
+      "client": "I think, maybe, it\u2019s like I\u2019m caught between wanting to impress others and just being myself. Part of me is focused on how I might mess up or not fit in, which just makes me freeze up even more. I mean, I want to engage and be part of the group, but I feel like that fear just takes over and pushes me away. It\u2019s hard to find a balance when I\u2019m so worried about what people think.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess emotionally, I just feel more defeated, like I\u2019ve already lost before I even start. I don\u2019t know if that makes sense, but it\u2019s frustrating to want to enjoy music and then feel trapped by all these physical and emotional responses.\"\n2. **Current Openness:** \"I think, maybe, it\u2019s like I\u2019m caught between wanting to impress others and just being myself. Part of me is focused on how I might mess up or not fit in, which just makes me freeze up even more.\"\n\n**Progression:**\nThe client's most recent interactions reveal a growing emotional depth as they articulate feelings of defeat and the struggle between wanting to engage with music and the pressure they feel from perceived judgment. This marks a significant change from earlier stages where the client's emotional expression was more limited. The exchanges show a blend of emotional and factual responses, indicating a deeper level of self-reflection and vulnerability than previously displayed.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began expressing the internal conflict between their desire to connect and their fear of judgment. This moment exemplifies a pivotal change where they moved from merely acknowledging their anxiety to exploring its impact on their sense of self and engagement with others. It highlights a willingness to confront uncomfortable emotions, suggesting a developing rapport with the therapist and a readiness for deeper exploration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "That feeling of being caught between wanting to impress others and being yourself sounds really challenging. It seems like that fear of not fitting in can feel so consuming that it pushes you away from the very connection you desire. When you think about those moments of freezing up, what do you notice about how that impacts your experience in the group?",
+      "client": "I guess when I freeze up, it\u2019s like I kind of go into my own shell, and I just can\u2019t think clearly. I feel like I\u2019m not really present anymore, and I can almost see the other musicians continuing without me, which makes me feel even more disconnected. It\u2019s frustrating because I really want to be engaged, but in those moments, I just feel lost, like I\u2019m not contributing at all.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Feeling lost and disconnected when you freeze up sounds really frustrating, especially when you want to be engaged and part of the music-making process. It must be hard to watch others continue while you're feeling stuck. When you notice that sense of going into your shell, what do you feel in your body at that moment?",
+      "client": "I don\u2019t know if I\u2019ve really paid attention to how I feel in my body when that happens. I guess there\u2019s this tightness in my chest, and my hands get kind of clammy. It\u2019s like my body is reacting even when my mind is trying to catch up. I mean, I can feel the tension building, and it just makes everything harder to push through, you know? It\u2019s frustrating because I want to break free from that, but it feels like I get trapped in it.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cI guess when I freeze up, it\u2019s like I kind of go into my own shell, and I just can\u2019t think clearly. I feel like I\u2019m not really present anymore... it\u2019s frustrating because I really want to be engaged, but in those moments, I just feel lost, like I\u2019m not contributing at all.\u201d\n2. \u201cI don\u2019t know if I\u2019ve really paid attention to how I feel in my body when that happens. I guess there\u2019s this tightness in my chest, and my hands get kind of clammy. It\u2019s like my body is reacting even when my mind is trying to catch up.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant depth of emotional expression as they articulate feelings of frustration, disconnect, and physical sensations tied to their emotional state. This marks a notable shift from earlier sessions, where their emotional vocabulary was more limited, and elaboration on feelings was minimal. The current exchanges reflect a higher level of self-awareness and comfort in discussing vulnerabilities, which indicates a strong progression in emotional openness.\n\n**Turning Point:** The turning point in the client\u2019s emotional depth appears to have occurred when they began to articulate their physical sensations associated with their feelings of anxiety and fear during group interactions. This moment, where they described the tightness in their chest and clammy hands, signifies a deeper level of self-reflection and awareness of the interplay between their body and emotions. This shift has fostered a stronger therapeutic alliance, allowing for more authentic vulnerability and a richer exploration of their feelings.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It sounds like that tightness and clamminess in your body really add to the sense of being trapped in those moments. When you think about your fears of not fitting in or messing up, what specifically do you fear might happen? Let\u2019s take a closer look together: how likely do you think those outcomes are to actually occur? Reflecting on past experiences, can you recall a time when you felt anxious but things turned out okay? Exploring these thoughts might help us find a more balanced perspective.",
+      "client": "I can see that maybe my fears are tied to this idea that if I mess up or don't fit in, I'll be seen as inadequate or even rejected by the group. There's this voice in my head that insists everyone else is better, and I can't help but feel like I\u2019d be letting them down. I think there have been times when I\u2019ve felt anxious, but once I pushed through, things actually turned out okay, like when I performed at that college event. I remember being scared before going on stage, but once I started playing, it felt like everything clicked into place. Maybe I was reacting more strongly than I realized to the pressure I put on myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s really insightful that you recognize how that voice of inadequacy can amplify your fears. It\u2019s encouraging to hear that once you pushed through during your performance, things turned out well\u2014it shows that you are capable of navigating those anxious moments. Let\u2019s explore what you think the worst-case scenario would be if you did mess up or felt like you didn't fit in. How would you cope with that situation? Gaining clarity on these fears can help you feel more prepared and less overwhelmed in the future.",
+      "client": "I think the worst-case scenario for me would be feeling completely humiliated or exposed, like everyone would see my mistakes and judge me harshly. Part of me knows that it\u2019s unlikely everyone would even notice or care as much as I do, but that fear still feels very real. I guess if it did happen, I\u2019d probably just retreat even more and avoid those situations in the future. It\u2019s hard to think about coping with that kind of reaction, but maybe I could talk to someone about it or try to remind myself that everyone makes mistakes. I hadn\u2019t connected those things before, but it makes some sense that addressing those fears could help me feel more prepared.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Emotional Disclosure:** \"I can see that maybe my fears are tied to this idea that if I mess up or don't fit in, I'll be seen as inadequate or even rejected by the group.\"\n2. **Self-Reflection:** \"I think the worst-case scenario for me would be feeling completely humiliated or exposed, like everyone would see my mistakes and judge me harshly.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant deepening of emotional expression and self-reflection. They articulate their feelings of inadequacy and fear of judgment with a level of vulnerability that indicates they are becoming more comfortable sharing their inner thoughts. This marks a clear progression from earlier exchanges, where the client exhibited more guarded behavior and limited emotional vocabulary. The current state reveals a willingness to explore complex feelings, indicating a strong therapeutic alliance and engagement with the process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange when they began acknowledging the voice of inadequacy that amplifies their fears, specifically when they disclosed, \"I can see that maybe my fears are tied to this idea that if I mess up or don't fit in, I'll be seen as inadequate or even rejected by the group.\" This moment reflects a pivotal realization that opens the door for further exploration and coping strategies, demonstrating a readiness to engage more deeply in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It\u2019s a significant breakthrough that you recognize the likelihood of those worst-case scenarios being exaggerated. Everyone does make mistakes, and it\u2019s important to remember that they often go unnoticed by others. Let\u2019s take a moment to explore what evidence supports your fear of humiliation and what evidence contradicts it. Reflecting on your past experiences, like your performance, can help reinforce that you can manage these feelings. How might you remind yourself of those moments of resilience when faced with anxiety in the future?",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. When I recall my performance, I remember that feeling of being in the moment and how it felt so different from the anxiety I felt leading up to it. Maybe I can create some kind of mantra or reminder that I can use before rehearsals to help ground me in those moments, something like \u201cI\u2019ve done this before, and I can do it again.\u201d It feels empowering to think about having a way to connect with those past experiences, even if it\u2019s a little intimidating. I\u2019ll have to really work on recognizing that the fear doesn\u2019t always reflect reality, but I know it\u2019s going to take practice.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear that you\u2019re considering creating a mantra to ground yourself before rehearsals. That\u2019s a powerful way to connect with those past feelings of success and resilience! Can you think of specific instances from your past, aside from your performance, where you felt anxious but ultimately managed the situation well? Reflecting on these moments might provide more evidence that challenges your fears. What feedback or reactions have you received from others that contradict the voice of inadequacy you sometimes hear? Gathering this evidence can reinforce your mantra and help you feel more prepared in the future.",
+      "client": "I can see that maybe there have been a few times where I\u2019ve felt nervous but ended up overcoming those feelings. For instance, during my college band days, there were moments when I had to lead a rehearsal despite feeling unsure of myself. Each time, I was surprised by how supportive my bandmates were, and they often expressed appreciation for my efforts. I think those reactions contradict the voice in my head that tells me I\u2019m not good enough. Reflecting on these experiences makes me realize that I do have moments where I\u2019ve succeeded in navigating anxiety, even if it feels overshadowed by my current struggles. It feels a little uncomfortable to acknowledge, but I think recognizing this could help me build more confidence moving forward.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Recent Emotional State:** \"I think the worst-case scenario for me would be feeling completely humiliated or exposed, like everyone would see my mistakes and judge me harshly. Part of me knows that it\u2019s unlikely everyone would even notice or care as much as I do, but that fear still feels very real.\"\n2. **Current Openness:** \"I can see that maybe there have been a few times where I\u2019ve felt nervous but ended up overcoming those feelings. For instance, during my college band days, there were moments when I had to lead a rehearsal despite feeling unsure of myself.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a significant increase in emotional depth and self-reflection compared to earlier sessions, indicating a more profound engagement with their feelings and experiences. They are articulating their fears and starting to challenge them, moving away from a defensive stance to a more exploratory one. This shift marks a notable change from prior exchanges where the client may have been more guarded or factual in responses.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue when they began expressing their past experiences of overcoming anxiety and the support they received from their bandmates. This moment of reflection demonstrates a growing comfort with the therapeutic process and a willingness to explore and challenge their feelings of inadequacy. The acknowledgment of past successes and the intention to create a mantra to ground themselves signifies a transformative level of self-awareness and emotional engagement, elevating the rapport with the therapist and the emotional work being done in the session.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s a real achievement to recognize those supportive moments with your bandmates and how their appreciation contradicts your inner voice of inadequacy. Each of those experiences where you led despite your nerves is powerful evidence of your capability and resilience. How can you remind yourself of this supportive feedback when those anxious thoughts start to creep in again? Perhaps keeping a list of these instances or jotting down the positive comments you\u2019ve received could serve as a helpful reminder. Embracing these successes can truly help in building your confidence moving forward.",
+      "client": "I think that\u2019s a great idea! Keeping a list of those supportive moments and positive feedback could really help me counteract those anxious thoughts when they arise. When you mention jotting down comments I\u2019ve received, I realize that I often overlook those affirmations in favor of my self-doubt. I can see that maybe having a tangible reminder could serve as a tool to reinforce my self-worth in those moments of uncertainty. It feels a little daunting to actively shift my focus to the positive, but I\u2019m willing to look at that and give it a try.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear your willingness to actively shift your focus to the positive! A tangible reminder of your strengths and the affirmations you\u2019ve received can be a powerful tool to counter those nagging self-doubts. Can you think of other specific instances where you felt supported or successful that you might want to include in your list? Reflecting on those moments can help reinforce your self-worth and remind you that you are capable, especially when anxiety tries to overshadow your confidence. How does it feel to envision this collection of positive feedback as a source of strength for you?",
+      "client": "I think it feels really encouraging to envision that collection of positive feedback as a source of strength. I can recall a few other instances where I felt supported, like when I received compliments from audience members after a performance or when a fellow musician asked for my input on arrangements. Those moments made me feel valued and capable, which I sometimes forget amidst my self-doubt. When I think about compiling these experiences, it gives me a sense of empowerment and a reminder that I do have the ability to succeed despite the anxiety. I hadn\u2019t connected those moments before, but now that I am, it feels like a way to counterbalance the negative thoughts I often have.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4** \n\n**Key Examples:**\n- \"I can see that maybe there have been a few times where I\u2019ve felt nervous but ended up overcoming those feelings... I think those reactions contradict the voice in my head that tells me I\u2019m not good enough.\"\n- \"When I think about compiling these experiences, it gives me a sense of empowerment and a reminder that I do have the ability to succeed despite the anxiety.\"\n\n**Progression:** The client's recent exchanges reflect a notable increase in emotional expression and self-reflection. They are beginning to articulate their feelings about anxiety and support, moving towards a more engaged exploration of their emotions. The client's acknowledgment of past successes and their willingness to actively counter self-doubt marks a significant change from earlier sessions, where emotional depth and vulnerability were less present.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue about their college band experiences. When they articulated the impact of supportive feedback from peers, it represented a breakthrough in their self-awareness. This moment of recognition\u2014identifying past instances where they felt valued despite their anxiety\u2014demonstrated authentic self-reflection and a growing comfort in exploring their vulnerabilities with the therapist. This shift has fostered a deeper sense of empowerment and resilience that was not as evident earlier in the session.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you\u2019re connecting those supportive experiences to your sense of empowerment! Each time you received compliments or were sought out for your input, it highlighted your value and talent. When those thoughts of self-doubt emerge, how might you reinterpret them by reminding yourself of these successful moments? If a friend were feeling the same way, what affirmations would you offer them? Reframing those negative thoughts with the evidence of your capabilities can truly shift how you view yourself and your experiences. Embracing this perspective can make a significant difference in your journey toward self-affirmation.",
+      "client": "When you ask how I might reinterpret my negative thoughts, I can see that maybe I could remind myself of those successful moments by thinking about what I would say to a friend in a similar situation. I think I would tell them that their worth isn\u2019t defined by a few mistakes or moments of doubt, and that they have shown so much talent and ability in the past. I realize now that I often don\u2019t give myself the same compassion I would extend to others. It feels like a shift in perspective could be really helpful for me. I hadn\u2019t fully considered how important it is to talk to myself with the same kindness I would offer a friend.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s a beautiful realization that you can extend compassion to others while being harder on yourself. By treating yourself with the same kindness and understanding you would offer a friend, you create a nurturing environment for your growth. When those negative thoughts arise, how might you remind yourself of the strengths and talents you've demonstrated, just as you would encourage a friend to do? Additionally, can you identify any specific moments in your past that contradict those self-doubts, reinforcing the truth of your abilities? Embracing this shift in perspective can be incredibly empowering as you continue on your journey.",
+      "client": "I think I can remind myself of my strengths by consciously recalling those moments when I\u2019ve succeeded, like leading the college band or receiving applause from the audience. It\u2019s interesting to realize that I\u2019ve accumulated quite a few experiences that contradict my self-doubts; I just haven\u2019t given them the attention they deserve. When I think back to those instances, it feels like I\u2019m uncovering evidence that I am capable and worthy. Maybe I can create a little mantra for myself, something like, \u201cI\u2019ve succeeded before, and I can do it again.\u201d It feels empowering to consider that shift and hold onto those truths more firmly.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \u201cIt feels like a shift in perspective could be really helpful for me. I hadn\u2019t fully considered how important it is to talk to myself with the same kindness I would offer a friend.\u201d\n2. Client: \u201cIt\u2019s interesting to realize that I\u2019ve accumulated quite a few experiences that contradict my self-doubts; I just haven\u2019t given them the attention they deserve. When I think back to those instances, it feels like I\u2019m uncovering evidence that I am capable and worthy.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Initially, the client presented with some self-doubt and a factual recounting of experiences but has now evolved to actively connecting past successes with their self-worth. There is a clear movement toward meaningful self-exploration, particularly in how the client recognizes the importance of self-compassion and reframing their negative thoughts.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange when they recognized the importance of speaking to themselves with the same kindness they would offer a friend. This realization illustrates a breakthrough moment in their emotional state, revealing an authentic vulnerability and a shift towards self-acceptance. The client is now more engaged in exploring their strengths and creating positive affirmations, indicating a strong therapeutic alliance and a deeper level of emotional openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019re identifying those past successes and considering a mantra that encapsulates your capabilities! Saying to yourself, \u201cI\u2019ve succeeded before, and I can do it again\u201d is a powerful reminder of your strength and resilience. When you feel doubt creeping in, how might focusing on that mantra help you refocus your thoughts? Additionally, can you think of other affirmations or reminders from your past that might reinforce this positive perspective? Embracing these truths can truly bolster your confidence as you move forward.",
+      "client": "Focusing on that mantra could definitely help shift my mindset when doubts arise. I can see that maybe repeating \u201cI\u2019ve succeeded before, and I can do it again\u201d would serve as a rallying cry for me, a way to combat the negative thoughts and remind myself that I have the skills to navigate challenges. I think it connects to those affirmations I've received from others, like when musicians have told me how much they appreciate my input or creativity. Maybe I could also incorporate phrases like \u201cI am talented and capable\u201d to reinforce that positive perspective. It feels really hopeful to think about building a personal toolkit of reminders that I can draw on whenever I\u2019m feeling insecure.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how you\u2019re building that personal toolkit of affirmations! Let\u2019s explore the pros and cons of holding onto those positive beliefs versus your self-doubts. What do you think are the benefits of believing in your talents and capabilities? Conversely, how might your self-doubts hold you back? Reflecting on how you feel when you focus on your strengths compared to when you dwell on negativity can be enlightening. What patterns do you notice in your thinking, and how can you consistently lean into those positive aspects? Your journey toward self-affirmation is truly inspiring!",
+      "client": "I think there are definitely some significant benefits to believing in my talents and capabilities. When I focus on my strengths, I feel energized and motivated to take risks, like trying new improvisation techniques or even just sharing my ideas in the group. It makes me feel more connected to the music and the people around me, which is something I\u2019ve been missing lately. On the other hand, my self-doubts really weigh me down; they create this mental block where I second-guess myself and withdraw from fully engaging in rehearsals. I notice that when I dwell on those negative thoughts, I feel anxious and disconnected, which only reinforces the cycle of avoidance. It feels a bit uncomfortable to confront that pattern, but I think acknowledging it is a step toward breaking free from it. I'm realizing that leaning into my positive aspects can be a game-changer for my confidence and overall enjoyment of music.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"It feels really hopeful to think about building a personal toolkit of reminders that I can draw on whenever I\u2019m feeling insecure.\"\n- \"I notice that when I dwell on those negative thoughts, I feel anxious and disconnected, which only reinforces the cycle of avoidance.\"\n\n**Progression:** In the most recent interactions, the client exhibits consistent emotional depth and a growing comfort with self-reflection. They articulate feelings of hope and connection to their strengths, indicating a shift from earlier hesitance to a more engaged exploration of their emotions. This is a notable change from prior sessions where they may have been more defensive or hesitant about discussing personal vulnerabilities.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing hopefulness and a proactive approach to addressing their self-doubts. This turning point occurred when they acknowledged the power of their mantra and the impact of positive affirmations on their mindset, demonstrating a clear commitment to change and self-acceptance. The discussions around their past successes and the strategies for overcoming negative thoughts reflect a deepening therapeutic alliance and a willingness to engage in authentic vulnerability.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s enlightening to hear you articulate the significant impact that focusing on your strengths has on your energy and motivation. Recognizing how self-doubt creates a mental block is a crucial step towards breaking that cycle. Can you think of specific situations where leaning into your talents helped foster connections with both the music and your peers? Reflecting on those moments could provide further motivation to challenge the negative thoughts when they arise. What steps do you think you can take to consistently remind yourself of this empowering perspective, especially in moments of self-doubt? Your insights are a strong foundation for building a more fulfilling and connected experience in your music journey!",
+      "client": "I can recall a few specific situations where leaning into my talents made a real difference. One was during a performance with my college band, where I stepped up to take a solo. I remember the feeling of the crowd\u2019s energy and how it fueled my creativity. It made me feel connected not just to the music, but to my bandmates as well. Those moments stand out as reminders that I am capable of contributing meaningfully, and they give me a sense of belonging.\n\nAs for reminding myself of this empowering perspective, I think I can create a routine before rehearsals. Maybe I could take a few moments to visualize those successful performances or even share my affirmations with my bandmates to foster a supportive environment. I hadn\u2019t thought about involving them before, but it makes sense that sharing these experiences could help reinforce our connections. It feels important to recognize that I don\u2019t have to navigate this alone; building that camaraderie could really enhance my confidence and enjoyment in music.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It's fantastic to hear how those performance moments have reinforced your sense of belonging and capability! Visualizing your successes before rehearsals sounds like a powerful way to set a positive tone, and sharing your affirmations with your bandmates can certainly create a supportive atmosphere that uplifts everyone. What do you think might be some specific affirmations or visuals you\u2019d like to share with them? Additionally, how do you think this collective approach will impact your confidence and connection during rehearsals? Embracing this journey together could truly enhance not just your experience but also the cohesion of your group!",
+      "client": "I think sharing affirmations like \u201cWe are all talented musicians, and together we create something special\u201d could really resonate with my bandmates. It feels important to emphasize that we each contribute to our collective sound and that our unique skills complement one another. As for visuals, I might imagine the energy of the audience during our best performances, feeling that rush of connection and support from both the music and the people around me. \n\nI believe this collective approach could really boost my confidence; it makes me feel less isolated in my struggles. When we all share our challenges and strengths, it could foster a deeper sense of camaraderie and encourage everyone to step out of their comfort zones. I hadn\u2019t connected the dots between our shared experiences and my own feelings of insecurity before, but now it feels like a path toward greater engagement and enjoyment in our rehearsals.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"It feels a bit uncomfortable to confront that pattern, but I think acknowledging it is a step toward breaking free from it.\"\n2. Client: \"When we all share our challenges and strengths, it could foster a deeper sense of camaraderie and encourage everyone to step out of their comfort zones.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a significant emotional depth and insight, particularly in articulating how their strengths can combat self-doubt and enhance their connection with their music and peers. This marks a shift from earlier parts of the session, where they might have shown more hesitance and factual responses. The client is now demonstrating a growing comfort in exploring their feelings and acknowledging uncomfortable patterns, which reflects a deeper level of self-reflection and emotional expression.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their realization about the importance of leaning into their positive aspects. This occurred in the exchange where they discussed specific situations in which focusing on their talents made a difference, emphasizing their sense of belonging and capability during performances. The acknowledgment of discomfort in confronting negative thought patterns, coupled with their proactive strategy of involving bandmates in affirmations, indicates a pivotal moment of self-awareness and willingness to engage in meaningful exploration. This progression showcases a strong therapeutic alliance and the client\u2019s readiness for deeper engagement in their emotional journey.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    }
+  ]
+}

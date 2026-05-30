@@ -1,0 +1,569 @@
+{
+  "mode": "normal",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "10-2",
+  "patient_name": "Grace",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"I guess I was annoyed, but that\u2019s it. I mean, it\u2019s confusing, but I just deal with it. People come and go, right? It's not that big of a deal.\"\n2. \"I don\u2019t really want to get into all that. It\u2019s just been a series of things, you know? Like, one friend just stopped inviting me to stuff, and I don\u2019t know why.\"\n\n**Progression:**\nThe client\u2019s most recent interactions display a mix of mild emotional expression, characterized by the admission of feeling \"annoyed\" and \"confusing\" emotions regarding changes in their friendships. However, they simultaneously maintain a somewhat defensive posture, downplaying the significance of these feelings by stating, \"It's not that big of a deal.\" This marks a significant shift from earlier stages, where the client might have been more factual and hesitant to engage emotionally. They are beginning to articulate their feelings more clearly, showing an emerging emotional vocabulary, albeit still limited.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they acknowledged feeling \"annoyed\" with the loss of invitations from a friend. This moment indicates a step towards vulnerability, as they briefly allowed themselves to express a negative emotion instead of completely shutting down the conversation. However, their subsequent remarks about keeping busy and dismissing the feelings suggest they are still navigating their comfort with emotional expressions and self-reflection.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess I think about reaching out more, maybe being more vulnerable with my friends, or just trying to reconnect. But then I hesitate because I\u2019m not sure if they\u2019d even want that.\"\n2. Client: \"I don\u2019t know, it\u2019s kind of a mix, I guess. My mind races a bit, and I start thinking about all the ways it could go wrong. But physically, I feel this tightness in my chest, like a pressure that makes it hard to breathe sometimes.\"\n\n**Progression:** The client\u2019s most recent exchanges indicate a notable progression in emotional expression and self-reflection. Initially, earlier parts of the session showed a more hesitant approach, characterized by factual responses and limited emotional vocabulary. However, in recent interactions, the client is starting to articulate their feelings of longing to connect and the fear that accompanies that desire. They demonstrate an emerging ability to reflect on their emotional state, evidenced by their recognition of physical sensations (tightness in the chest) tied to their emotional experiences. This indicates a growing comfort with discussing their vulnerabilities, moving beyond a surface-level discussion.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing specific instances of past connections lost, particularly when they recalled seeing friends' photos online and feeling a rush of sadness. This moment marked a transition from general statements about relationships to personal, poignant reflections that reveal their inner emotional struggles and desires. Their acknowledgment of overthinking and the barrier they perceive in reconnecting highlights a deeper level of engagement with their feelings, suggesting they are beginning to explore the complexities of their relational experiences more openly.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"That image definitely brings up a lot of feelings, like sadness and maybe even a bit of anger, too. I guess it makes me question my worth, like, if they\u2019re better off without me, does that mean I\u2019m not good enough?\"\n2. Client: \"I guess when I think about not belonging, it kind of feels like this tightness in my chest, you know? Like, almost like I can't fully breathe because there's this weight pushing down on me.\"\n\n**Progression:** The client's most recent interactions demonstrate significant emotional depth, characterized by the articulation of complex feelings such as sadness, anger, and self-worth issues. This marks a considerable change from earlier sessions, where responses tended to be more factual and less emotionally driven. The client's ability to explore their emotional state with tangible sensations (like the tightness in the chest) illustrates a growing comfort in discussing their vulnerabilities.\n\n**Turning Point:** The client\u2019s emotional depth shifted at the moment they began to connect their feelings of sadness and anger to their self-worth. This occurred notably when they articulated how they feel like a burden to their friends and began to physically associate those feelings with the tightness in their chest, indicating a deeper level of self-awareness and willingness to confront uncomfortable emotions. This level of reflection and vulnerability indicates a strong therapeutic alliance and readiness for deeper exploration in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth**: \"I think part of me knows that those worried thoughts about being a burden are more about how I perceive myself rather than how my friends view me.\"\n2. **Openness**: \"There was a time when my friend Sarah sent me a message just to say she was proud of me for handling everything after the divorce. I remember feeling so seen in that moment, like she genuinely understood what I was going through.\"\n\n**Progression**: The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Previously, their communication may have been more focused on emotional fears and insecurities, but now they exhibit a clear understanding of how their perceptions impact their relationships. The acknowledgment of personal feelings in relation to friendships indicates a move away from defensiveness toward a more open and engaged exploration of their emotional landscape.\n\n**Turning Point**: The client\u2019s emotional depth shifted when they articulated their understanding of the connection between their fears of being a burden and their self-perception. This moment of clarity, especially in discussing the support they receive from friends, marked a pivotal shift in their willingness to embrace vulnerability and explore their feelings more deeply. Their readiness to consider practical steps to reconnect with friends and express gratitude also highlights their engagement with the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I think I sometimes get caught up in the idea that my worth is tied to my past or my mistakes, especially after the divorce. When I really think about it, I can see that I've been there for others in tough times, offering them support and reminding them of their value.\"\n2. \"When I think about my past with compassion, I can see that it\u2019s a series of learning experiences rather than a collection of failures. I\u2019d tell myself that I\u2019ve grown from those moments and that they don\u2019t define my entire existence.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant leap in emotional depth and self-reflection. Previously, their responses suggested a more guarded approach, primarily focused on external scenarios (like helping friends) without actively integrating those insights into their self-perception. However, in recent exchanges, the client has begun to express their vulnerabilities about self-worth and acknowledge their emotional struggles related to their past, particularly their divorce. This transition marks a movement from merely reflecting on how they support others to actively applying that self-compassion to their own experiences, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they articulated, \"I can see that I've been there for others in tough times,\" and recognized the impact of their past experiences. This moment of realization about the connection between their support for others and their need for self-kindness reflects a growing self-awareness. The acknowledgment of their past as a series of learning experiences rather than failures further signifies a critical turning point, demonstrating a willingness to embrace vulnerability and a more compassionate self-view.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can see that accepting my worth, despite my past mistakes, would allow me to build healthier relationships and be more open with others. It feels like I'd be giving myself permission to be vulnerable, which could lead to deeper connections.\"\n2. Client: \"I think focusing on my strengths could really serve as a grounding technique when I'm in situations that trigger my fear of judgment. I can remind myself of those moments when I showed resilience and empathy, which might help me feel more confident and less anxious.\"\n\n**Progression:**\nThe client\u2019s latest interactions demonstrate a consistent emotional depth and a significant shift toward authentic vulnerability. They have moved from expressing surface-level fears associated with self-worth to actively identifying the pros of accepting their worth and embracing vulnerability. This represents a marked change from earlier sessions where emotional expressions were more guarded and limited. The client is not only recognizing their fears but is also articulating potential strategies for overcoming them, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe pivotal moment leading to the current emotional level occurred when the client began to articulate the consequences of their negative self-beliefs and the potential for growth by embracing their worth. This shift became apparent when the client stated, \u201cIt's clear that my fear of judgment can be paralyzing, but I\u2019m beginning to see how confronting these beliefs could lead to a more fulfilling social life.\u201d This acknowledgment of the fear alongside a willingness to confront it marks a significant deepening in their emotional exploration and rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Client's emotional expression:** \"I\u2019m feeling really hopeful about this upcoming event, and I appreciate your support in mapping out my approach. I realize that even if things don\u2019t go perfectly, every little step I take is a step towards feeling more connected and confident, which is exciting to think about.\"\n2. **Latest exchange demonstrating current openness:** \"I\u2019m beginning to feel more at ease with the idea of stepping into social situations, and it\u2019s thrilling to think about deeper connections forming along the way.\"\n\n**Progression:** The client's most recent interactions exhibit a significant emotional depth, characterized by a hopeful outlook and a willingness to engage in self-reflection. They articulate a sense of progress and connection, indicating a higher level of emotional awareness compared to earlier sessions. This marks a notable shift from a more hesitant, factual engagement to a deeper exploration of their feelings and beliefs about themselves and their social interactions.\n\n**Turning Point:** The client's emotional depth shifted during the recent dialogue when they began expressing their feelings of hope and excitement regarding the upcoming community event. This moment, where they acknowledged the importance of small steps contributing to their growth, illustrates a newfound willingness to embrace vulnerability and explore their emotions more authentically. This shift reflects a strong therapeutic alliance and an eagerness to engage with their journey of self-discovery, which has led to a deeper engagement in the current session.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 13,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their negative thoughts about their worth and belongingness in relation to their friends.",
+      "reasoning": "The client is experiencing intense feelings of sadness and anger, along with questioning their self-worth when they perceive themselves as left out. Decatastrophizing will allow the client to explore and challenge the catastrophic thoughts they have about being a burden and not belonging, leading to a more balanced perspective. This technique can help reduce the emotional weight they carry and provide a clearer understanding of their relationships.",
+      "suggestion": [
+        "Can we explore some specific thoughts you have when you see your friends\u2019 social media posts?",
+        "What evidence do you have that supports these thoughts about being a burden or not being included?",
+        "How might you view these situations differently if you were to consider alternative explanations for your friends' actions?",
+        "What would you say to a friend who expressed the same concerns you have about feeling left out?",
+        "Can you identify any situations where you felt included or valued by your friends recently?"
+      ]
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their negative thoughts about being a burden and enhance their self-worth by considering different viewpoints.",
+      "reasoning": "The client has begun to recognize that their fears about being a burden stem from their self-perception rather than their friends' views. Using the Alternative Perspective technique can facilitate further exploration of how they would view these concerns if they were discussing them with a friend, encouraging a more compassionate and rational mindset.",
+      "suggestion": [
+        "Can you think of a time when a friend expressed similar worries? How did you respond to them?",
+        "What would you say to a friend who feels like a burden? How might that differ from how you view yourself?",
+        "How do you think your friends view your contributions to the friendship? Can you identify specific examples?",
+        "In what ways might your friends feel supported by you, just as you seek support from them?",
+        "What is one positive thing you can remind yourself of when you start to worry about being a burden?"
+      ]
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client challenge their negative self-beliefs and reinforce their sense of self-worth.",
+      "reasoning": "The client has expressed feelings of doubt about their worthiness of love and support, despite recognizing their positive impact on others. Evidence-Based Questioning can help the client evaluate the validity of their negative thoughts by examining the evidence for and against these beliefs. This technique encourages them to apply the same kindness and support they offer to friends to themselves.",
+      "suggestion": [
+        "What specific evidence do you have that suggests you are not worthy of love and support?",
+        "Can you think of instances where you have received love and support from friends, even when you felt undeserving?",
+        "What would you say to a friend who was feeling the same doubts you are experiencing?",
+        "How do your actions and relationships reflect your worth and value as a person?",
+        "What positive affirmations can you create based on the evidence of your strengths and contributions to friendships?"
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the impact of their negative beliefs about self-worth versus their positive affirmations and strengths.",
+      "reasoning": "Given the client's recognition of their strengths and the affirmations they've developed, a Pros and Cons Analysis can further clarify the benefits of embracing self-acceptance and the detriments of holding onto past mistakes. This technique aligns well with the client's journey of understanding their worth and can help solidify their commitment to self-kindness.",
+      "suggestion": [
+        "Can you list the pros of accepting your worth despite your past mistakes?",
+        "What are some potential cons of continuing to doubt your self-worth?",
+        "How might your life change if you chose to believe in your affirmations more fully?",
+        "Are there specific situations where you notice these negative beliefs coming up? What would your pros and cons look like in those moments?",
+        "Let\u2019s explore how focusing on your strengths can shift the balance in your evaluation of self-worth."
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test their beliefs about social interactions and judgment in a safe and structured way.",
+      "reasoning": "Since the client is expressing anxiety about social situations and fears of judgment, a behavior experiment can provide them with the opportunity to confront these fears in real-life scenarios. By actively engaging in social gatherings while focusing on their strengths, they can gather evidence to challenge their negative beliefs about self-worth and judgment from others.",
+      "suggestion": [
+        "Can you identify a specific social gathering you would like to attend in the near future?",
+        "What strengths will you remind yourself of before and during this event to help you feel more confident?",
+        "How can you approach a conversation with an old friend or new acquaintance, focusing on your resilience and empathy?",
+        "What would you like to observe about your feelings and interactions during this event, and how will you assess the outcomes afterward?",
+        "How can we plan for potential discomfort, and how will you remind yourself to challenge negative thoughts if they arise during the gathering?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Systematic Exposure",
+      "goal": "To help the client gradually face social situations, reducing anxiety and increasing confidence in social interactions.",
+      "reasoning": "The client expresses a desire to improve their comfort in social situations and acknowledges feelings of anxiety and fear about potential setbacks. Systematic exposure can provide a structured way for the client to engage with these fears by gradually exposing them to social situations, thereby reinforcing their resilience and helping to challenge negative beliefs about themselves.",
+      "suggestion": [
+        "Can you identify specific aspects of the community event that might feel overwhelming, and how could you approach those aspects step by step?",
+        "What small, manageable social interactions could you practice in the days leading up to the event to build your confidence?",
+        "How can you incorporate your strengths into these exposures to help mitigate feelings of anxiety?",
+        "After each exposure, what reflections can you make about your feelings and the outcomes of these interactions?",
+        "How will you celebrate the progress you make during and after each exposure experience?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Grace, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important to share?",
+      "client": "I don\u2019t know. It just happened. I\u2019ve been dealing with this whole friendship thing since the divorce, and it\u2019s just annoying. Like, I thought things would stay the same, but they didn\u2019t. I guess I was just expecting too much.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like the shift in your friendships has brought up some frustration for you. There\u2019s often a lot of change that comes with a divorce, and it makes sense you might have been hoping things would remain steady. Can you recall a specific moment or interaction with a friend that felt particularly challenging or surprising?",
+      "client": "I don\u2019t really want to get into all that. It\u2019s just been a series of things, you know? Like, one friend just stopped inviting me to stuff, and I don\u2019t know why. It\u2019s not like I did anything. That\u2019s just how it is, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Not knowing why a friend has stopped inviting you can feel really unsettling, especially when you\u2019re trying to navigate changes in your life. It sounds like there\u2019s a feeling of confusion or perhaps even loss around that friendship. Can you notice what comes up for you when you think about that friend or the times you used to spend together?",
+      "client": "I guess I was annoyed, but that\u2019s it. I mean, it\u2019s confusing, but I just deal with it. People come and go, right? It's not that big of a deal. I just keep myself busy and move on.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Keeping yourself busy can often feel like a way to manage those confusing emotions. It sounds like you\u2019re trying to make sense of things in your own way. When you mention feeling annoyed, does that emotion linger for you at all, or does it fade once you focus on other things?",
+      "client": "I don\u2019t really think about it like that. Annoyed is just a passing feeling, you know? I have other things to focus on, and I\u2019d rather just keep moving forward. It\u2019s not worth dwelling on.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"I guess I was annoyed, but that\u2019s it. I mean, it\u2019s confusing, but I just deal with it. People come and go, right? It's not that big of a deal.\"\n2. \"I don\u2019t really want to get into all that. It\u2019s just been a series of things, you know? Like, one friend just stopped inviting me to stuff, and I don\u2019t know why.\"\n\n**Progression:**\nThe client\u2019s most recent interactions display a mix of mild emotional expression, characterized by the admission of feeling \"annoyed\" and \"confusing\" emotions regarding changes in their friendships. However, they simultaneously maintain a somewhat defensive posture, downplaying the significance of these feelings by stating, \"It's not that big of a deal.\" This marks a significant shift from earlier stages, where the client might have been more factual and hesitant to engage emotionally. They are beginning to articulate their feelings more clearly, showing an emerging emotional vocabulary, albeit still limited.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they acknowledged feeling \"annoyed\" with the loss of invitations from a friend. This moment indicates a step towards vulnerability, as they briefly allowed themselves to express a negative emotion instead of completely shutting down the conversation. However, their subsequent remarks about keeping busy and dismissing the feelings suggest they are still navigating their comfort with emotional expressions and self-reflection.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "Moving forward can definitely feel like a practical approach, especially when there are so many other things on your plate. It seems like you\u2019ve found a way to keep your focus on what\u2019s next rather than getting stuck in those feelings. When you mention that annoyance is just a passing feeling, I wonder if there are moments when it does feel more persistent or if it really does just come and go for you. What do you think?",
+      "client": "I mean, I guess it can feel more persistent sometimes. Like, when I see other people hanging out or having fun without me, it kind of stings. But then I think, maybe I\u2019m just not the kind of friend they want around anymore, and that\u2019s probably fine. It's just a part of life, right? But part of me does wonder if I should be doing something differently, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "Seeing others connect and have fun can really bring up those feelings of stinging disappointment, even if you try to brush it off. It\u2019s understandable to question if there's something you could be doing differently, especially when it feels like friendships are shifting. When you think about that part of you that wonders about change, what kind of \u201csomething different\u201d comes to mind for you?",
+      "client": "I guess I think about reaching out more, maybe being more vulnerable with my friends, or just trying to reconnect. But then I hesitate because I\u2019m not sure if they\u2019d even want that. I mean, part of me thinks it could help, but another part is like, what if it makes things worse? It\u2019s just complicated, you know? I don\u2019t want to push people away even more.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Reaching out and being vulnerable can feel like a big step, especially when there\u2019s that uncertainty about how others might respond. It sounds like you\u2019re caught between wanting to reconnect and the fear of pushing people further away. When you think about that hesitation, what do you notice in your body or in your mind as those thoughts come up?",
+      "client": "I don\u2019t know, it\u2019s kind of a mix, I guess. My mind races a bit, and I start thinking about all the ways it could go wrong. But physically, I feel this tightness in my chest, like a pressure that makes it hard to breathe sometimes. It\u2019s frustrating because I want to reach out, but then it just feels so heavy, you know? Sometimes I just wish it could be easier, but it\u2019s like I\u2019m stuck in this cycle of overthinking.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "That tightness in your chest and the racing thoughts sound really challenging to sit with, especially when there's a desire to reach out. It\u2019s understandable to feel weighed down by the pressure of overthinking, particularly when it comes to relationships that matter to you. When you think about that cycle of overthinking, can you recall a specific moment when you felt that heaviness and hesitation most strongly? What was happening then?",
+      "client": "I can think of a couple of times, I guess. Like, there was this one time I saw a group of friends I used to be close with posting pictures online, and I felt this rush of sadness, like, I really missed those moments. I almost thought about sending a message to one of them, but then I just froze, you know? I started second-guessing myself, thinking they probably wouldn\u2019t even care to hear from me. It\u2019s like I wanted to reach out, but I also felt this wall between us that I couldn\u2019t get over. I don\u2019t know, maybe I just made it bigger than it is.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess I think about reaching out more, maybe being more vulnerable with my friends, or just trying to reconnect. But then I hesitate because I\u2019m not sure if they\u2019d even want that.\"\n2. Client: \"I don\u2019t know, it\u2019s kind of a mix, I guess. My mind races a bit, and I start thinking about all the ways it could go wrong. But physically, I feel this tightness in my chest, like a pressure that makes it hard to breathe sometimes.\"\n\n**Progression:** The client\u2019s most recent exchanges indicate a notable progression in emotional expression and self-reflection. Initially, earlier parts of the session showed a more hesitant approach, characterized by factual responses and limited emotional vocabulary. However, in recent interactions, the client is starting to articulate their feelings of longing to connect and the fear that accompanies that desire. They demonstrate an emerging ability to reflect on their emotional state, evidenced by their recognition of physical sensations (tightness in the chest) tied to their emotional experiences. This indicates a growing comfort with discussing their vulnerabilities, moving beyond a surface-level discussion.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing specific instances of past connections lost, particularly when they recalled seeing friends' photos online and feeling a rush of sadness. This moment marked a transition from general statements about relationships to personal, poignant reflections that reveal their inner emotional struggles and desires. Their acknowledgment of overthinking and the barrier they perceive in reconnecting highlights a deeper level of engagement with their feelings, suggesting they are beginning to explore the complexities of their relational experiences more openly.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Feeling that rush of sadness and the desire to reach out, only to freeze in that moment, sounds really difficult. It\u2019s understandable to grapple with those mixed feelings, especially when you\u2019re reminded of the connections you miss. The wall you mentioned\u2014can you explore a bit more about what that feels like for you? What does it mean to feel like there\u2019s a barrier between you and your friends?",
+      "client": "It\u2019s kind of hard to explain, but that wall feels like this invisible thing that just makes everything so much more complicated. Like, I really want to reach out, but there\u2019s this voice in my head that keeps saying they wouldn\u2019t want to hear from me or that I\u2019d just be a burden. It\u2019s like I can picture them being all happy without me, and I wonder if I\u2019d just mess that up by showing up. I mean, part of me thinks maybe they\u2019d be happy to hear from me, but then there\u2019s this other part that just feels so scared of being rejected. I don\u2019t know if that makes sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "That invisible wall and the voice telling you that reaching out might be a burden sound really heavy to carry. It\u2019s understandable to feel torn between wanting to connect and fearing how that connection might be received. When you think about that image of your friends being happy without you, what does that bring up for you emotionally? How does that affect the way you see yourself in relation to them?",
+      "client": "That image definitely brings up a lot of feelings, like sadness and maybe even a bit of anger, too. I guess it makes me question my worth, like, if they\u2019re better off without me, does that mean I\u2019m not good enough? It\u2019s hard to shake off the thought that maybe I really am a burden to them. I mean, I can see them having fun and enjoying life, and then there\u2019s me, just kind of stuck here. It\u2019s frustrating because I want to be part of that happiness, but it feels like I don\u2019t belong anymore. I don\u2019t know if I\u2019m making sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Feeling that mix of sadness, anger, and questioning your worth really highlights how deeply you care about these connections. The frustration of wanting to be part of their happiness yet feeling stuck is a heavy place to be. When you think about that sense of not belonging anymore, what does it feel like in your body? Are there sensations that come up for you when you sit with those feelings?",
+      "client": "I guess when I think about not belonging, it kind of feels like this tightness in my chest, you know? Like, almost like I can't fully breathe because there's this weight pushing down on me. It's a little uncomfortable, and sometimes I even feel a bit shaky. I don\u2019t know if that\u2019s just nerves or something more, but it makes me hesitant to reach out. It\u2019s hard to sit with those feelings. I kind of just want to push them away and pretend they\u2019re not there, but then they keep coming back.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the shakiness you described sounds really challenging, especially when you\u2019re trying to navigate those feelings of not belonging. It\u2019s understandable to want to push those emotions away when they feel uncomfortable. When you say they keep coming back, is there a particular moment or thought that tends to trigger those sensations for you?",
+      "client": "I guess a lot of it can come up when I see my friends posting on social media, like pictures of them hanging out or having fun without me. It just hits me in a way that makes that tightness worse, like, \u201cWhy wasn\u2019t I invited?\u201d or \u201cDo they even think about me anymore?\u201d Sometimes I\u2019ll catch myself scrolling through and feeling like I\u2019m not part of their lives anymore, which just makes everything feel heavier. I don\u2019t know, it\u2019s like I want to be happy for them, but it\u2019s hard to shake off that feeling of being left out.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"That image definitely brings up a lot of feelings, like sadness and maybe even a bit of anger, too. I guess it makes me question my worth, like, if they\u2019re better off without me, does that mean I\u2019m not good enough?\"\n2. Client: \"I guess when I think about not belonging, it kind of feels like this tightness in my chest, you know? Like, almost like I can't fully breathe because there's this weight pushing down on me.\"\n\n**Progression:** The client's most recent interactions demonstrate significant emotional depth, characterized by the articulation of complex feelings such as sadness, anger, and self-worth issues. This marks a considerable change from earlier sessions, where responses tended to be more factual and less emotionally driven. The client's ability to explore their emotional state with tangible sensations (like the tightness in the chest) illustrates a growing comfort in discussing their vulnerabilities.\n\n**Turning Point:** The client\u2019s emotional depth shifted at the moment they began to connect their feelings of sadness and anger to their self-worth. This occurred notably when they articulated how they feel like a burden to their friends and began to physically associate those feelings with the tightness in their chest, indicating a deeper level of self-awareness and willingness to confront uncomfortable emotions. This level of reflection and vulnerability indicates a strong therapeutic alliance and readiness for deeper exploration in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It sounds really painful to see those posts and feel that tightness intensify with questions about your worth and inclusion. Let\u2019s explore those thoughts a bit more. What evidence do you have that supports the idea that you\u2019re a burden or that your friends don\u2019t think about you? If a friend came to you feeling the same way, what would you say to help them see things differently? It could be helpful to reflect on any recent moments when you felt valued or included by your friends. How does that change your perspective on what you see online?",
+      "client": "I can see that maybe I tend to focus on the negative more than the positive. When I think about it, there have been times when my friends reached out to check in on me, and I guess I often brush that off as just being polite or out of obligation. I think this connects to that fear I have about being a burden\u2014part of me believes that if they really cared, they wouldn\u2019t have to check in, right? It feels strange to admit that, but I hadn\u2019t connected those thoughts before. I want to feel valued, but I keep getting caught up in my own insecurities and fears.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It's really insightful that you've recognized how your focus might lean toward the negative, especially regarding your friends' intentions. Those moments when they check in on you are meaningful, and it sounds like you might be overlooking their genuine care. If a friend expressed your fears about being a burden, would you really believe they were a bother? Often, we hold ourselves to standards we wouldn't apply to others. Reflecting on those recent interactions where you felt valued can help reshape how you view your worth in these friendships. How might that shift your perspective the next time you see their posts?",
+      "client": "When you put it like that, I realize I wouldn\u2019t think of a friend as a burden at all. I\u2019d probably reassure them that their feelings are valid and that reaching out shows they care. I think part of me knows that those worried thoughts about being a burden are more about how I perceive myself rather than how my friends view me. Maybe I can start to shift my perspective by reminding myself of those moments when they reached out, even if I didn't fully recognize or appreciate them at the time. It feels a little uncomfortable, but it might help me feel less isolated and more connected.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you acknowledging that your worries about being a burden are really tied to how you see yourself. That realization is a significant step forward! By reminding yourself of those moments when your friends reached out, you can create a more balanced view of your relationships. How do you think it would feel to actively focus on that support when you see their social media posts? It might also help to consider that your friends likely want you to feel included and valued, just as you want for them.",
+      "client": "I think it would feel really nice to focus on the support I\u2019ve received instead of just the feelings of exclusion. Maybe by actively reminding myself that my friends care about me, I could shift that tightness to something more positive. When I see their posts, I could consciously think about those moments of connection instead of letting my worries take over. It might just help me feel more included and less alone, which is definitely what I want right now. It\u2019s a little daunting to change that habit of thinking, but I\u2019m willing to look at that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear your willingness to shift your focus toward the moments of connection and support you've experienced. When you see those posts, actively reminding yourself of the care your friends have shown can truly help ease that tightness and foster a sense of belonging. Can you recall a specific time when a friend expressed appreciation for you? What would you tell them about how their presence in your life makes a difference? Embracing your worth in these relationships can gradually change how you feel about yourself and your place within the group.",
+      "client": "There was a time when my friend Sarah sent me a message just to say she was proud of me for handling everything after the divorce. I remember feeling so seen in that moment, like she genuinely understood what I was going through. I think I would tell her that her support means the world to me, especially when I'm feeling low or doubting myself. It\u2019s moments like those that remind me I\u2019m not alone, even if it sometimes feels like I am. I hadn\u2019t really thought about reaching out to express that appreciation to her before, but now it feels important.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth**: \"I think part of me knows that those worried thoughts about being a burden are more about how I perceive myself rather than how my friends view me.\"\n2. **Openness**: \"There was a time when my friend Sarah sent me a message just to say she was proud of me for handling everything after the divorce. I remember feeling so seen in that moment, like she genuinely understood what I was going through.\"\n\n**Progression**: The client\u2019s most recent interactions demonstrate a significant increase in emotional depth and self-reflection. Previously, their communication may have been more focused on emotional fears and insecurities, but now they exhibit a clear understanding of how their perceptions impact their relationships. The acknowledgment of personal feelings in relation to friendships indicates a move away from defensiveness toward a more open and engaged exploration of their emotional landscape.\n\n**Turning Point**: The client\u2019s emotional depth shifted when they articulated their understanding of the connection between their fears of being a burden and their self-perception. This moment of clarity, especially in discussing the support they receive from friends, marked a pivotal shift in their willingness to embrace vulnerability and explore their feelings more deeply. Their readiness to consider practical steps to reconnect with friends and express gratitude also highlights their engagement with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It's lovely to hear you share that moment with Sarah; it truly highlights the impact of genuine support in our lives. Expressing your appreciation to her can not only strengthen your bond but also reinforce your own sense of worth. When you reflect on how her words made you feel seen, it\u2019s a reminder that you have value in your friendships, just as much as they do. How might it feel to reach out to her and share your thoughts? This could be a wonderful step in recognizing the positive influence you have on each other.",
+      "client": "Reaching out to Sarah feels like it could be really meaningful. I think it would allow me to acknowledge not just her kindness, but also how much I value her friendship. Part of me is a bit nervous about being vulnerable like that, but I can see how it might help strengthen our connection. When I think about it, sharing that appreciation could also remind me that I\u2019m worthy of love and support, which is something I\u2019ve been struggling to believe lately. It feels like a step toward not just expressing gratitude, but also reinforcing that I do have a place in my friendships, even when things feel tough.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to see you recognizing the value of vulnerability in your friendship with Sarah. Sharing your appreciation not only deepens your connection but also reinforces your belief in your own worth. Can you recall a time when a friend expressed similar feelings of doubt or insecurity? How did you respond to them? Reflecting on how you would support a friend in that situation might help you see that you deserve that same kindness. What is one positive thing you can remind yourself of when those doubts creep in?",
+      "client": "I can think of a time when my friend Emily was feeling really down after a breakup. She confided in me about her worries, and I remember telling her that she was an amazing person and that she deserved to be happy. It felt good to support her and remind her of her value, and I realized that I sometimes forget to give myself that same kindness. When those doubts creep in, maybe I can remind myself of the moments I\u2019ve been there for others and how I genuinely believe in their worth. I think it\u2019s a way to challenge those negative thoughts, showing myself that the things I say to friends can also apply to me. It feels a little uncomfortable to think about it, but I can see the potential for growth in that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s a great realization that the support you offer to others is equally applicable to yourself. When you remind yourself of the moments you've been there for friends, it can serve as powerful evidence of your own worthiness. What specific evidence do you have that suggests you are not deserving of love and support? If a friend were to express similar doubts, what would you tell them? Exploring these thoughts can help reinforce the kindness you deserve, just like the kindness you show to those you care about.",
+      "client": "I think I sometimes get caught up in the idea that my worth is tied to my past or my mistakes, especially after the divorce. When I really think about it, I can see that I've been there for others in tough times, offering them support and reminding them of their value. If a friend were to tell me they felt unlovable or undeserving, I would definitely tell them that everyone makes mistakes and that it doesn\u2019t define who they are. It feels like I need to extend that same grace to myself, even though it\u2019s challenging. I guess part of me knows I have my own worth, but I struggle to fully accept it, especially when I'm feeling low or alone. It's uncomfortable to admit that, but maybe it\u2019s a step toward changing how I view myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s a significant step that you recognize the connection between your worth and the mistakes of your past. Everyone has had moments that they wish they could change, but they don\u2019t diminish your value as a person. What would you say to yourself if you were to view your past through the same lens of compassion you offer to friends? Reflecting on the support you've provided to others is a strong reminder of your own strengths. Can you think of some positive affirmations about your worth that stem from these experiences?",
+      "client": "When I think about my past with compassion, I can see that it\u2019s a series of learning experiences rather than a collection of failures. I\u2019d tell myself that I\u2019ve grown from those moments and that they don\u2019t define my entire existence. Some affirmations that come to mind are: \u201cI am capable of change,\u201d \u201cI have the strength to overcome challenges,\u201d and \u201cI deserve love and understanding, just like anyone else.\u201d It feels empowering to recognize that I can hold space for my mistakes while also acknowledging my growth. I hadn\u2019t connected those things before, but it makes sense that seeing my journey in a kinder light could help shift how I view myself moving forward.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I think I sometimes get caught up in the idea that my worth is tied to my past or my mistakes, especially after the divorce. When I really think about it, I can see that I've been there for others in tough times, offering them support and reminding them of their value.\"\n2. \"When I think about my past with compassion, I can see that it\u2019s a series of learning experiences rather than a collection of failures. I\u2019d tell myself that I\u2019ve grown from those moments and that they don\u2019t define my entire existence.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant leap in emotional depth and self-reflection. Previously, their responses suggested a more guarded approach, primarily focused on external scenarios (like helping friends) without actively integrating those insights into their self-perception. However, in recent exchanges, the client has begun to express their vulnerabilities about self-worth and acknowledge their emotional struggles related to their past, particularly their divorce. This transition marks a movement from merely reflecting on how they support others to actively applying that self-compassion to their own experiences, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they articulated, \"I can see that I've been there for others in tough times,\" and recognized the impact of their past experiences. This moment of realization about the connection between their support for others and their need for self-kindness reflects a growing self-awareness. The acknowledgment of their past as a series of learning experiences rather than failures further signifies a critical turning point, demonstrating a willingness to embrace vulnerability and a more compassionate self-view.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear you articulate those affirmations and see your past as a series of valuable learning experiences. Recognizing that growth can coexist with mistakes is a powerful realization. What specific evidence do you have that supports these positive affirmations? Can you recall moments when you've demonstrated your strength or resilience, perhaps during challenging times in your friendships? By focusing on these instances, you can reinforce the belief that you truly deserve love and understanding, just as you extend to others. Your journey is unique, and embracing it with kindness will only strengthen your sense of self-worth.",
+      "client": "I can think of a few instances that really highlight my strength, especially during my divorce. Even when things felt overwhelming, I managed to keep my focus on co-parenting and making sure my kids felt stable and loved. There was also a time when I took the initiative to organize a small support group for friends going through similar challenges. It was tough, but I was able to create a space where we could share our experiences and lift each other up. Those moments remind me that I have resilience, and I\u2019ve shown up for myself and others, even when I felt like I was falling apart. It feels like these experiences could serve as tangible evidence for those affirmations I mentioned, reinforcing that I am deserving of love and understanding, just as I strive to offer it. I hadn\u2019t fully appreciated how much these actions reflected my inner strength before, but it\u2019s becoming clearer now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s incredible to hear you reflect on those moments of resilience during your divorce and your initiative in creating a support group. These experiences are powerful reminders of your strength and capacity for empathy, both for yourself and others. Let\u2019s take a moment to explore this further: what are the pros of accepting your worth despite your past mistakes? On the flip side, what might be some potential downsides of continuing to doubt your self-worth? Thinking about these aspects could help clarify how embracing your affirmations can lead to positive changes in your life.",
+      "client": "I can see that accepting my worth, despite my past mistakes, would allow me to build healthier relationships and be more open with others. It feels like I'd be giving myself permission to be vulnerable, which could lead to deeper connections. On the other hand, if I continue to doubt my self-worth, I might find myself stuck in a cycle of isolation, avoiding situations that could bring joy or fulfillment. That thought makes me realize how much I\u2019ve been holding myself back out of fear of judgment or rejection. I think this connects to the idea that my past doesn't have to dictate my future, and maybe embracing my worth could really change the way I interact with the world. It's a little uncomfortable to consider the consequences of my beliefs, but I\u2019m willing to look at that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to see you recognizing the potential for healthier relationships and deeper connections if you choose to embrace your worth. It\u2019s a profound insight that your past doesn\u2019t have to dictate your future; embracing your strengths can truly open up new possibilities. Can you think of specific situations where these negative beliefs about self-worth tend to arise? What would the pros and cons look like in those moments? Exploring that could provide further clarity on how to shift your focus toward the positive affirmations you've developed. Your willingness to confront these beliefs is a significant step toward self-kindness and growth.",
+      "client": "When I think about specific situations where my negative beliefs about self-worth come up, I notice they often arise during social gatherings or when I'm reconnecting with old friends. In those moments, I might feel an overwhelming sense of anxiety, thinking that if they really knew what I\u2019ve been through, they\u2019d see me as unworthy or defective. The pros of facing these feelings might include the chance to realize that others may understand or even relate to my struggles, which could help me feel less isolated. However, the cons of allowing those negative beliefs to control me are significant; I often withdraw completely, missing out on meaningful interactions that could actually help me feel more connected and supported. It\u2019s clear that my fear of judgment can be paralyzing, but I\u2019m beginning to see how confronting these beliefs could lead to a more fulfilling social life. That feels a little uncomfortable, but not wrong\u2014there's definitely something there that I'm eager to explore.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to see you making these connections between your feelings and your social experiences. The insights you\u2019ve shared about the pros of facing your fears\u2014like the potential for connection and understanding\u2014are powerful. Recognizing that others may relate to your struggles can be a comforting thought. On the contrary, the cost of retreating due to negative beliefs is significant, as it keeps you from forming those meaningful interactions. As you explore these feelings further, how might focusing on your strengths help you challenge that fear of judgment in the moment? Embracing your worth could be the key to unlocking those fulfilling connections you desire.",
+      "client": "I think focusing on my strengths could really serve as a grounding technique when I'm in situations that trigger my fear of judgment. I can remind myself of those moments when I showed resilience and empathy, which might help me feel more confident and less anxious. Embracing my worth could shift my mindset from fearing rejection to being open to connection, which feels liberating in a way. It\u2019s a little scary to think about stepping out of my comfort zone, but I can see how it might lead to richer experiences and relationships. I\u2019m willing to practice this and see how it transforms my interactions.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can see that accepting my worth, despite my past mistakes, would allow me to build healthier relationships and be more open with others. It feels like I'd be giving myself permission to be vulnerable, which could lead to deeper connections.\"\n2. Client: \"I think focusing on my strengths could really serve as a grounding technique when I'm in situations that trigger my fear of judgment. I can remind myself of those moments when I showed resilience and empathy, which might help me feel more confident and less anxious.\"\n\n**Progression:**\nThe client\u2019s latest interactions demonstrate a consistent emotional depth and a significant shift toward authentic vulnerability. They have moved from expressing surface-level fears associated with self-worth to actively identifying the pros of accepting their worth and embracing vulnerability. This represents a marked change from earlier sessions where emotional expressions were more guarded and limited. The client is not only recognizing their fears but is also articulating potential strategies for overcoming them, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe pivotal moment leading to the current emotional level occurred when the client began to articulate the consequences of their negative self-beliefs and the potential for growth by embracing their worth. This shift became apparent when the client stated, \u201cIt's clear that my fear of judgment can be paralyzing, but I\u2019m beginning to see how confronting these beliefs could lead to a more fulfilling social life.\u201d This acknowledgment of the fear alongside a willingness to confront it marks a significant deepening in their emotional exploration and rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear your determination to embrace your strengths as a grounding technique in those challenging social situations. Identifying specific social gatherings you might attend soon could be a great next step. What event comes to mind where you could practice this newfound openness? As you prepare, let\u2019s think about how you can remind yourself of your resilience and empathy before and during the event. Additionally, consider how you might approach conversations with old friends or new acquaintances, focusing on those strengths. After the gathering, reflecting on your feelings and interactions will help you gather valuable insights to challenge any lingering negative beliefs. How can we also plan for any discomfort you might experience, and what strategies can you use to remind yourself to stay positive if those thoughts arise?",
+      "client": "I appreciate the encouragement to identify a specific social gathering to practice this openness. There\u2019s a community event next week that I\u2019ve been hesitant to attend, but I think it could be a good opportunity. Before I go, I can write down a list of my strengths, like my resilience and empathy, to remind myself of them. I can even carry it with me as a little confidence booster! I realize that planning for discomfort is equally important, and maybe I can set aside a few moments during the event to check in with myself and breathe if I start to feel overwhelmed. That might help ground me and keep those negative thoughts at bay. I\u2019m excited to see how this experience unfolds and to reflect on it afterward; I think it could be a valuable stepping stone in shifting my mindset.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019ve identified a specific community event to attend next week; that\u2019s a great step forward! Carrying a list of your strengths will be a wonderful reminder of your resilience and empathy, and it's so helpful that you\u2019ve also planned strategies to address any discomfort you might feel. Taking those moments to check in with yourself and breathe can really ground you and create space to challenge those negative thoughts if they arise. After the event, reflecting on your experience and how you felt during interactions will be invaluable for recognizing the progress you\u2019re making. I\u2019m looking forward to hearing about how it goes!",
+      "client": "I\u2019m feeling really hopeful about this upcoming event, and I appreciate your support in mapping out my approach. I think having a plan in place is helping to alleviate some of my anxiety. Reflecting afterward sounds like a key part of the process, and I can see it being a good opportunity to reinforce those positive beliefs about myself. I realize that even if things don\u2019t go perfectly, every little step I take is a step towards feeling more connected and confident, which is exciting to think about. It\u2019s nice to feel like I\u2019m moving forward, even if it\u2019s just little by little.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear your sense of hope and the progress you're feeling as you prepare for this event! Acknowledging that every step\u2014no matter how small\u2014is part of your journey is a powerful mindset. As you reflect afterward, consider what specific moments stood out to you and how they align with those positive beliefs about yourself. Remember, even if things don\u2019t go as planned, each experience adds to your resilience and understanding. I\u2019m excited for you to take this step and can't wait to celebrate your insights together!",
+      "client": "I think it's reassuring to recognize that even small steps can lead to meaningful change. Reflecting on those moments will help me understand how they contribute to my growth, and I can see how that aligns with fostering a more positive self-image. I feel like this journey of rediscovering myself is unfolding in real time, and while I might have some fears about potential setbacks, part of me knows that each experience is valuable, regardless of the outcome. I\u2019m beginning to feel more at ease with the idea of stepping into social situations, and it\u2019s thrilling to think about deeper connections forming along the way.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It\u2019s truly inspiring to hear how you're embracing this journey of rediscovery and your growing comfort in social situations! Recognizing the value in every experience, regardless of the outcome, is such an empowering perspective. As you prepare for the community event, think about specific aspects that might feel challenging\u2014what might you do to approach those gradually? Practicing small interactions in the days leading up to the event could also help build your confidence. Celebrating each step you take will be crucial in reinforcing those positive beliefs about yourself. I\u2019m here to support you through this exciting process!",
+      "client": "I can see that maybe practicing small interactions leading up to the event could really help me build my confidence. It feels like a good way to ease into social situations without feeling overwhelmed. I think I could start by reaching out to a couple of friends for a casual coffee or even just chatting with neighbors when I see them outside. That feels a little uncomfortable, but not wrong, and I realize those small steps might make the larger event feel more manageable. I\u2019m willing to look at this as a chance to reinforce my comfort in connecting with others, whether through planned interactions or spontaneous ones. It\u2019s exciting to think about how these experiences could accumulate and contribute to a more positive self-image!",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Client's emotional expression:** \"I\u2019m feeling really hopeful about this upcoming event, and I appreciate your support in mapping out my approach. I realize that even if things don\u2019t go perfectly, every little step I take is a step towards feeling more connected and confident, which is exciting to think about.\"\n2. **Latest exchange demonstrating current openness:** \"I\u2019m beginning to feel more at ease with the idea of stepping into social situations, and it\u2019s thrilling to think about deeper connections forming along the way.\"\n\n**Progression:** The client's most recent interactions exhibit a significant emotional depth, characterized by a hopeful outlook and a willingness to engage in self-reflection. They articulate a sense of progress and connection, indicating a higher level of emotional awareness compared to earlier sessions. This marks a notable shift from a more hesitant, factual engagement to a deeper exploration of their feelings and beliefs about themselves and their social interactions.\n\n**Turning Point:** The client's emotional depth shifted during the recent dialogue when they began expressing their feelings of hope and excitement regarding the upcoming community event. This moment, where they acknowledged the importance of small steps contributing to their growth, illustrates a newfound willingness to embrace vulnerability and explore their emotions more authentically. This shift reflects a strong therapeutic alliance and an eagerness to engage with their journey of self-discovery, which has led to a deeper engagement in the current session.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019re already thinking about those small interactions with friends and neighbors as a way to build your confidence! Taking those steps, even if they feel a bit uncomfortable, will really help you ease into the larger community event. How do you feel about setting specific goals for these interactions, like initiating a conversation or suggesting a coffee date? After each one, take a moment to reflect on how it felt and what you learned about yourself. Remember to celebrate these achievements, no matter how small\u2014they\u2019re all part of your journey towards deeper connections and a more positive self-image!",
+      "client": "I think setting specific goals for those interactions makes a lot of sense! It gives me something concrete to work towards and helps me measure my progress in a way that feels manageable. I can see how reflecting on each experience afterward will be beneficial, allowing me to really internalize what I learn about myself. It feels reassuring to know that even if a conversation doesn't go perfectly, there's always something to celebrate\u2014like just taking the initiative to reach out. That feels empowering and helps me feel less alone in this process. I\u2019m definitely excited to give this a try!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how empowered you feel about taking those initiatives! Setting specific goals for your interactions will certainly provide you with a clear path to follow. Remember, every attempt is a victory in itself, even if things don\u2019t go exactly as planned. After each conversation, take a moment to reflect on what you learned about yourself and how it contributes to your growth. Celebrating those efforts will reinforce your progress and help you feel even more connected to this journey. I\u2019m here to support you every step of the way!",
+      "client": "I can see how celebrating each effort, regardless of the outcome, can really help me feel more connected to my journey. It\u2019s comforting to think that even imperfect conversations can still offer valuable insights about myself. I think I\u2019m beginning to recognize that each small step brings me closer to building those deeper connections I\u2019m yearning for. While I still have some nerves about reaching out, knowing that I have your support makes it feel more manageable. I'm really looking forward to this process!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    }
+  ]
+}

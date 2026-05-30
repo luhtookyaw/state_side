@@ -1,0 +1,713 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "11-1",
+  "patient_name": "Ian",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- *Recent quote showing emotional state:* \"I guess I've been trying to talk to Jamie about some stuff I'm dealing with, but it just felt off. I think she was treating me more like a patient or something. It was kind of frustrating.\"\n- *Latest exchange demonstrating current openness:* \"I don\u2019t really want to get into all that. I just wanted to share what I\u2019m going through, but it felt like she was more interested in giving advice than listening, you know? It just wasn\u2019t what I needed at the moment.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable combination of emotional expression and a willingness to share frustrations about their conversation with Jamie. This marks a significant change from earlier sessions, where the client displayed more factual responses with limited emotional vocabulary. Here, the client articulates feelings of frustration and a need for emotional support, indicating a move towards deeper engagement and self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the moment where they expressed their disappointment with Jamie\u2019s response, specifically when they stated, \"It was kind of frustrating.\" This indicates not just a passing feeling, but a deeper recognition of their emotional needs and expectations in conversations, which they are beginning to articulate more clearly in a therapeutic context. This moment reflects a growing comfort in expressing emotional states, which is vital for rapport development and further engagement in therapy.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I feel a bit heavy, like there's this weight on my chest. It\u2019s just disappointing, you know? I mean, I really wanted to connect, but instead, it made me feel more isolated.\"\n2. \"I don\u2019t know, maybe it\u2019s telling me that I\u2019m not really being heard or understood. I guess it just reminds me of how lonely I can feel sometimes, even when I'm trying to reach out.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a noticeable shift toward deeper emotional expression. While earlier exchanges may have leaned towards factual responses and defensiveness (indicating a more initial stage of exploration), the client is now articulating feelings of disappointment and heaviness, which demonstrates a willingness to engage with their emotional state. This marks a significant change from earlier in the session where emotional depth was less evident.\n\n**Turning Point:** The client's emotional depth shifted notably in the exchange where they described feeling \"heavy\" and \"disappointed\" after the conversation with Jamie. This moment was critical as it led to a more profound reflection on their feelings of isolation and the desire for connection, signifying a move from a more factual and surface-level narrative to one that signals vulnerability and an emerging self-awareness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I guess, when I reach out, I hope to feel understood or, at least, like someone cares enough to listen. It\u2019s like I want that validation, you know? But then, when it doesn\u2019t happen, it feels like I'm just not worthy of that connection.\"\n2. \"It\u2019s kind of a tightness in my chest, like a knot or something, especially when I'm waiting for a response. I mean, maybe it\u2019s a mix of anxiety and hope? I guess I just want to feel that warmth of connection, but when it\u2019s not there, I feel this heaviness.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable shift towards deeper emotional expression, showcasing their struggles with feelings of loneliness and a desire for validation. This marks a significant change from earlier stages where emotional vocabulary was limited, and the client was more factual and defensive. The depth of their current emotional state reflects a growing comfort with vulnerability, indicating a strong therapeutic alliance.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of being \"not worthy of that connection.\" This moment reflects an authentic vulnerability and a deeper self-reflection, showing that they are beginning to integrate their feelings of loneliness and anxiety into their self-understanding. This pivotal moment enhances the therapeutic relationship and encourages further exploration of their emotional landscape.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It\u2019s kind of a tightness in my chest, like a knot or something, especially when I'm waiting for a response. I mean, maybe it\u2019s a mix of anxiety and hope? I guess I just want to feel that warmth of connection, but when it\u2019s not there, I feel this heaviness.\"\n2. \"I can see that maybe my worth isn't just tied to how others respond to me. There are moments in my life\u2014like when I helped a friend through a tough time or even when I made someone laugh\u2014that remind me I can bring something valuable to the table.\"\n\n**Progression:**\nThe client has displayed a significant emotional depth in their most recent interactions, particularly in expressing feelings of tightness and heaviness linked to their need for connection. This marks a clear transition from earlier stages where emotional expressions were minimal or primarily factual. The client is now reflecting meaningfully on their experiences and articulating both the pain of their current emotional state and insights about their self-worth. Their willingness to explore these feelings signifies a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their struggles with the belief of being unlovable and their subsequent realization of having inherent worth independent of others' responses. This moment of vulnerability, coupled with a willingness to explore their mindset, represents a notable turning point in their emotional openness and rapport with the therapist. The client's acknowledgment of moments in life where they contributed positively serves as a foundation for further exploration of their self-worth, indicating a healthy progression in their counseling journey.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I can see that maybe my worth isn't just tied to how others respond to me. There are moments in my life\u2014like when I helped a friend through a tough time or even when I made someone laugh\u2014that remind me I can bring something valuable to the table.\"\n2. **Self-Reflection Depth:** \"I think this connects to my tendency to withdraw when I feel vulnerable, especially after conversations that don't go as I hope. It\u2019s uncomfortable to think about altering that response, but I recognize that it could lead to more fulfilling interactions.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant progression in emotional depth and self-reflection. Earlier in the session, their responses were more factual and less connected to emotional experiences. However, as the session progressed, they began to articulate personal insights and emotional connections, showcasing a growing willingness to explore their thoughts and feelings regarding their self-worth and the impact of fear on their relationships. This shift is marked by their recognition of positive contributions to others and their intention to challenge negative thought patterns.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they acknowledged the discomfort of confronting their anxiety-driven thoughts and their willingness to explore a healthier perspective on social interactions. This moment represents a breakthrough in their understanding of how their mindset affects their relationships, indicating a deeper engagement with the therapeutic process. Their readiness to challenge previous beliefs signifies an important step toward personal growth and connection.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \u201cI think that allowing those positive memories to guide me could really change how I approach future interactions. When I imagine myself feeling deserving of joy and connection, it feels liberating\u2014like there\u2019s a whole new set of possibilities.\u201d\n- \u201cMaybe something like, \u2018I am worthy of genuine connections,\u2019 or \u2018It\u2019s okay to feel vulnerable; it\u2019s part of being human.\u2019 I can see how reminding myself of those affirmations could help counteract the anxiety I feel in social situations.\u201d\n\n**Progression:**\nThe client's recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, there were signs of reluctance and anxiety surrounding social situations, but the most recent exchanges reveal a willingness to explore positive memories and affirmations. This shift indicates a growing comfort level and an active engagement with the therapeutic process, illustrating a deeper connection with their emotional state and an openness to change.\n\n**Turning Point:**\nThe client\u2019s emotional depth notably shifted during the exchange where they first articulated the liberating feeling of imagining themselves as deserving of joy and connection. This moment marked a turning point where the client began to embrace vulnerability instead of retreating into anxiety, indicating a stronger therapeutic alliance and a readiness to engage in self-exploration. The acknowledgment of specific affirmations to counteract anxiety further exhibits their commitment to fostering deeper connections and practicing a more positive self-narrative.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can think of a time when I attended a gathering with some friends, even though I was feeling really anxious beforehand... To my surprise, we ended up reminiscing about shared experiences, and I felt a sense of connection blossom from that.\"\n2. Client: \"I think recalling that specific memory before future social events could really help me feel more grounded. Part of me knows that remembering how I navigated anxiety successfully before can boost my confidence...\"\n\n**Progression:** The client's most recent interactions demonstrate consistent emotional depth and a willingness to explore personal experiences. They articulate specific memories tied to their feelings of anxiety and connection, signaling a significant shift from earlier sessions where emotional expression was more guarded and less detailed. The client is now actively engaging in meaningful self-reflection, connecting past experiences to their current emotional toolkit, which indicates a higher level of trust and comfort with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth notably shifted during the exchange where they identified a past social interaction that was initially anxiety-provoking but ultimately resulted in a positive connection. This moment catalyzed their recognition of the interplay between affirmations and personal experiences. The client\u2019s acknowledgment that they can leverage past successes to bolster their confidence in future interactions marks a turning point in their emotional openness and engagement in therapy.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It feels important to acknowledge that we all have our struggles, and supporting each other through those can build a sense of community.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"Maybe I could remind myself that it\u2019s okay to feel uneasy, and that taking action despite those feelings is a sign of strength.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a significant shift towards deeper emotional engagement. They moved from merely recognizing their anxiety to expressing self-compassion and developing actionable strategies for coping with social situations. This marks a substantial change from earlier sessions where their emotional expression was more guarded and focused primarily on factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their reflection on how they would encourage a friend feeling anxious about social situations. This moment not only revealed their capacity for empathy but also cultivated a deeper understanding of their own struggles. By internalizing the supportive dialogue they would offer to others, they began to apply the same kindness to themselves, signaling a move towards self-compassion and greater emotional openness. This breakthrough illustrates a strong therapeutic bond and highlights their growth in self-awareness, laying the groundwork for further exploration in future sessions.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I appreciate your understanding about the mix of excitement and nervousness; it really helps to hear that it's okay to feel that way. I think maybe part of my apprehension comes from the fear of not being understood or accepted in those settings, which is something I\u2019ve struggled with in the past.\"\n2. \"It feels empowering to think about approaching the experience with curiosity rather than judgment. I'm excited, but I also recognize that there's still some nervousness inside me. Maybe that\u2019s okay, too.\"\n\n**Progression:** The client's most recent interactions exhibit a consistent emotional depth, with the client expressing vulnerability about their feelings of apprehension tied to social settings. They have moved from acknowledging their anxiety as a barrier to actively integrating that acknowledgment into a constructive framework for growth. The client now expresses excitement about the upcoming social event while also recognizing and validating their nervousness, marking a significant evolution from earlier stages where emotional expression was more limited.\n\n**Turning Point:** The client's emotional depth shifted notably during their exchange about acknowledging their apprehension related to social interactions. This moment demonstrated a willingness to explore their feelings instead of dismissing them, leading to a more profound self-awareness. The client began to articulate specific fears of not being understood or accepted, which reflects a deeper level of self-reflection and a stronger therapeutic alliance. This shift signifies a critical turning point in their emotional openness and engagement within the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cI think maybe part of my apprehension comes from the fear of not being understood or accepted in those settings, which is something I\u2019ve struggled with in the past.\u201d\n2. \u201cI hope that reflecting afterward will help me recognize those moments where I stepped outside my comfort zone, even if they feel minor.\u201d\n\n**Progression:** The client\u2019s recent interactions illustrate a notable shift towards deeper emotional engagement and self-reflection. In their latest exchanges, the client expresses vulnerability regarding their fears of not being accepted, indicating a willingness to confront these feelings rather than dismiss them. This marks a significant change from earlier stages, where the client primarily responded with more factual or surface-level insights.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange when they acknowledged their fear of not being understood or accepted in social settings. This moment reflects their growing comfort with the therapist and willingness to explore uncomfortable emotions, which is a crucial aspect of their therapeutic journey. Their proactive approach to preparing for social interactions and intention to celebrate small successes further demonstrates this deepened engagement and commitment to personal growth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I feel encouraged by your belief in my journey. It\u2019s a bit daunting, but I think the idea of viewing each interaction as a learning opportunity is really helpful.\"\n2. Client: \"On the other hand, I definitely have fears about being misunderstood or judged, and that makes me hesitant. Part of me knows that if the conversation doesn\u2019t go well, I might feel more isolated or discouraged, which is daunting.\"\n\n**Progression:**\nThe client's recent exchanges indicate a noticeable shift towards deeper emotional engagement and self-reflection. They are not only expressing their feelings of encouragement but also articulating their fears regarding social interactions, which shows significant emotional depth. This marks a significant change from earlier sessions, where their responses were primarily factual with limited emotional engagement. The current level of disclosure reflects a growing comfort with the therapist, as the client is willing to discuss both positive anticipations and underlying fears, demonstrating a more nuanced understanding of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the moment when they began to articulate their fears about being misunderstood or judged. This acknowledgment of their vulnerabilities represents a key turning point, as it indicates a willingness to not only express positive feelings but also confront and share their apprehensions. This balance of openness is essential for deepening their therapeutic journey and enhances their rapport with the therapist, as they embrace a more holistic view of their experiences.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think there\u2019s something there, but I\u2019m still figuring it out. When I consider the positive outcomes, I can imagine feeling a sense of connection, maybe even joy, from engaging with new people.\"\n2. Client: \"I hadn\u2019t connected those things before, but it makes some sense that embracing the positive could serve as a buffer against the fears I have.\"\n\n**Progression:** The client's most recent interactions reflect a significant increase in emotional expression and self-reflection. They are beginning to recognize and articulate their fears and joys associated with social interactions, indicating a deeper level of engagement. This marks a significant change from earlier exchanges, where they displayed more hesitance and limited emotional vocabulary. The current state shows a willingness to explore and understand their emotional landscape more thoroughly, demonstrating an evolution from superficial responses to a more nuanced understanding of their feelings.\n\n**Turning Point:** The client's emotional depth shifted during the discussion about focusing on the joy of connecting, where they acknowledged the role of awkward moments and their impact on social experiences. This realization, articulated through their response about embracing the positive aspects of interaction, illustrates a movement towards greater self-awareness and emotional openness. It signifies a willingness to embrace discomfort while also recognizing the potential for joy, indicating a stronger therapeutic alliance and development of rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"When you mention focusing on the joy of connecting, I can see that maybe it's a way to shift my mindset. I think it\u2019s important to remind myself that awkward moments are just part of being human and don\u2019t necessarily define the entire experience.\"\n2. **Openness:** \"I could focus on the possibility of shared laughter or finding common ground with someone, which might help me feel more excited than anxious about going to the party.\"\n\n**Progression:** The client's recent interactions reveal a significant shift towards a more engaged emotional state, characterized by a willingness to explore their feelings about social interactions and acknowledge their anxieties. Initially, the client showed signs of defensiveness and limited emotional vocabulary but has now begun to articulate their feelings and understand the complexities of social anxiety. They demonstrate a deeper level of self-reflection, recognizing that focusing on positive experiences can help mitigate their fears.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the importance of reframing their worst-case scenarios, stating, \"Yet, when I really reflect on that, I realize those outcomes are less likely than I make them out to be.\" This moment marked a transition from a more factual and hesitant approach to a more open and self-reflective stance, indicating a growing comfort in discussing their anxieties and an emerging capacity for self-compassion.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It feels uncomfortable to admit that I might be magnifying my worries, but recognizing that I\u2019ve had good outcomes before gives me a little hope.\"\n2. **Engagement Level:** \"Maybe I could remind myself of those experiences by saying something like, 'You\u2019ve enjoyed this before, so it\u2019s possible again.' That feels a little uncomfortable, but not wrong, as if I\u2019m trying to shift my focus from the fear to the potential joy.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant emotional depth and vulnerability. They are moving beyond merely acknowledging their fears to actively reframing their thoughts and expressing hope about future social interactions. This marks a substantial change from earlier parts of the session, where they may have expressed anxiety but did not delve into the emotional complexity of their feelings or recognize the positive aspects of past experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their anticipation for reconnecting with friends, specifically mentioning Alex and the joy of shared conversations. This moment of focus on positive outcomes and the willingness to recognize their previous enjoyable experiences indicates a leap towards deeper emotional engagement and self-reflection. Their acknowledgment of the discomfort in changing their thought patterns also reveals an expanding self-awareness and readiness for transformation.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth:** \"When I think about saying, 'I can enjoy myself just like I did before,' it resonates with me. Part of me knows that I have the capacity for joy, and it feels empowering to remind myself of that.\"\n2. **Self-Reflection:** \"I hadn\u2019t connected the dots before, but now I can see how using these reminders might help me approach social situations with more confidence and less fear.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. In the exchanges, they are not only recalling positive past experiences but also connecting them to a broader understanding of their emotions and thought patterns. This marks a notable change from earlier sessions, where their responses were more factual and less emotionally engaged.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about recalling joyful experiences from past gatherings. This moment was pivotal as they began expressing a new emotional quality characterized by empowerment and self-awareness, indicating a deeper level of engagement and trust in the therapeutic relationship. The acknowledgment of their capacity for joy and the intention to use practical reminders signifies a strong alignment with the therapeutic process, showcasing their growth and willingness to explore their emotions.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 7,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 8,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 9,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 10,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 11,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Systematic Exposure",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 7,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client reframe their thoughts about feeling unworthy of connection and understand that their experiences do not define their value.",
+      "reasoning": "Decatastrophizing can assist the client in challenging their thoughts about not being worthy of connection or validation. It allows them to evaluate their fears about rejection and loneliness in a more balanced way, promoting a healthier perspective on their experiences and encouraging more adaptive thinking.",
+      "suggestion": [
+        "Let's explore what you believe will happen if you reach out and don't get the response you hope for.",
+        "Can you think of examples where reaching out did lead to positive outcomes or where the worst-case scenario didn't happen?",
+        "What specific thoughts go through your mind when you feel that tightness in your chest while waiting for a response?",
+        "How might you reframe those thoughts about not being worthy of connection in a more positive light?",
+        "What evidence can you find that contradicts the idea that your worthiness is tied to others\u2019 responses?"
+      ]
+    },
+    {
+      "turn": 10,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client shift their focus from fear of rejection to the potential for meaningful connections.",
+      "reasoning": "The client has expressed a recognition of their tendency to brace for negative outcomes and withdraw in vulnerable situations. By using the Alternative Perspective technique, the therapist can guide the client to reframe their thoughts about social interactions, emphasizing the potential for connection and joy rather than rejection. This aligns with the client's willingness to explore a mindset shift and can support more fulfilling relationships.",
+      "suggestion": [
+        "Can you think of a recent social situation where you felt anxious about rejection? How might you reframe that experience to focus on what you could gain from the interaction instead?",
+        "What are some positive outcomes you might anticipate if you approach social situations with a mindset of openness and connection?",
+        "How would viewing yourself as someone deserving of connection impact your interactions with others?",
+        "Can you identify any specific thoughts or beliefs that arise when you begin to feel vulnerable? How might you challenge those thoughts?",
+        "Let's practice reframing a recent thought about a social situation that made you feel anxious. What could you say to yourself instead that emphasizes the potential for positive connection?"
+      ]
+    },
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client challenge and reframe their negative thoughts about social interactions based on their positive experiences.",
+      "reasoning": "The client is recognizing the potential for joy and deeper connections in social situations but still grapples with anxiety and negative thoughts. Using evidence-based questioning can help the client examine the validity of their fears and reinforce the belief that they are worthy of connection. This technique encourages them to gather evidence from past experiences to support a more positive mindset.",
+      "suggestion": [
+        "Can you think of a specific instance in the past where you felt anxious but ended up enjoying the interaction?",
+        "What evidence do you have that supports the idea that you are deserving of joy and connection?",
+        "How does reflecting on your positive memories with friends like Jamie influence your current thoughts about social situations?",
+        "What would you say to a friend who is feeling similar fears about social interactions?",
+        "How might gathering positive evidence from your past experiences help you in future social situations?"
+      ]
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test the beliefs about their ability to connect with others despite anxiety in real social situations.",
+      "reasoning": "The client has expressed a desire to approach future social interactions with more confidence and has identified the importance of combining affirmations and positive memories. A behavior experiment will allow them to practically engage in social situations, testing their assumptions about anxiety and connection, while reinforcing their resilience and ability to manage discomfort.",
+      "suggestion": [
+        "Can you identify a specific upcoming social event where you can practice these skills?",
+        "What small step could you take at this event to initiate a connection with someone, despite any feelings of anxiety?",
+        "How can you document your feelings and experiences during and after this interaction to assess the outcomes?",
+        "Before the event, remind yourself of the affirmations and positive memories we've discussed\u2014how will you integrate these as you prepare?",
+        "After the event, reflect on how the experience compared to your expectations\u2014what did you learn about yourself and your ability to connect?"
+      ]
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Systematic Exposure",
+      "goal": "To gradually reduce the client's anxiety around social situations by engaging in small, manageable social interactions.",
+      "reasoning": "The client expressed apprehension about feeling misunderstood or unaccepted in social settings, indicating a fear that could be alleviated through gradual exposure to these situations. By systematically approaching social events, the client can build confidence and resilience in managing their anxiety while also reflecting on their experiences. This technique aligns well with the client's willingness to explore how their experiences unfold and their desire to connect with others.",
+      "suggestion": [
+        "Identify a specific aspect of the birthday party that feels most daunting, such as initiating a conversation or approaching a certain person.",
+        "Create a step-by-step plan for how to gradually engage with that aspect, starting with less intimidating actions if necessary.",
+        "Set a timeline for these exposures, starting with smaller social interactions leading up to the party, and document your feelings and experiences after each one.",
+        "Encourage the client to reflect on their thoughts and emotions during these exposures to identify any patterns or shifts in their anxiety.",
+        "Discuss how they can celebrate small successes and learn from each exposure experience to further support their growth."
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the potential benefits and drawbacks of engaging in social interactions, aiding in their decision-making process.",
+      "reasoning": "The client has expressed apprehension about initiating conversations and socializing, indicating a need to clarify their feelings about these interactions. A Pros and Cons Analysis can help the client weigh the potential positive outcomes against their fears, encouraging a more balanced perspective. This technique can support their self-compassion and reinforce their motivation to engage in these new experiences.",
+      "suggestion": [
+        "What are some potential benefits you see in initiating conversations with new people at the party?",
+        "Can you identify any drawbacks or fears related to starting these conversations?",
+        "How might your feelings change if you focus on the positives of connecting with others?",
+        "Would it help to visualize the experience of starting a conversation and identify the pros and cons in that scenario?",
+        "Can you think of a situation in the past where you took a risk socially, and what were the outcomes (pros and cons) of that experience?"
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client reframe their thoughts about potential awkwardness and reduce anxiety around social interactions.",
+      "reasoning": "The client has expressed concerns about feeling misunderstood or judged, which can lead to catastrophic thinking about social situations. By using decatastrophizing, the client can learn to challenge these negative thoughts and replace them with more balanced perspectives, reducing their overall anxiety about social interactions.",
+      "suggestion": [
+        "What specific thoughts do you have when you start to feel anxious about social interactions?",
+        "Can you identify the worst-case scenario you imagine happening, and how likely do you think it is?",
+        "What evidence do you have that contradicts the negative thoughts you have about being judged or misunderstood?",
+        "How might you reframe those catastrophic thoughts into something more realistic and manageable?",
+        "As you prepare for the party, what are some positive outcomes you can focus on instead of the potential awkward moments?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Reality Testing",
+      "goal": "To help the client assess the accuracy of their negative thoughts and beliefs about social interactions.",
+      "reasoning": "The client has expressed fears of saying something embarrassing or being ignored, which they are beginning to recognize may not be likely outcomes. Reality testing will allow them to further challenge these thoughts by examining evidence from past experiences that contradict their anxious predictions, reinforcing a more balanced perspective.",
+      "suggestion": [
+        "Can you think of specific instances from past gatherings where you felt anxious but ended up having a good time?",
+        "What evidence do you have that supports the idea that you might embarrass yourself or be ignored at the party?",
+        "How have others reacted positively to you in similar situations before?",
+        "Can we write down some of those positive experiences to refer back to when you start feeling anxious?",
+        "What might you say to yourself when you notice those anxious thoughts creeping in at the party?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Ian, I\u2019m glad you\u2019re here today. What\u2019s on your mind that feels most important for us to talk about?",
+      "client": "I don\u2019t know. I guess I've been trying to talk to Jamie about some stuff I'm dealing with, but it just felt off. I think she was treating me more like a patient or something. It was kind of frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you were hoping for a different kind of conversation with Jamie, one that felt more supportive and less clinical. That must have been frustrating for you. Can you share a bit more about what you were trying to communicate with her and how that felt when it didn\u2019t go as you had hoped?",
+      "client": "I don\u2019t really want to get into all that. I just wanted to share what I\u2019m going through, but it felt like she was more interested in giving advice than listening, you know? It just wasn\u2019t what I needed at the moment.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- *Recent quote showing emotional state:* \"I guess I've been trying to talk to Jamie about some stuff I'm dealing with, but it just felt off. I think she was treating me more like a patient or something. It was kind of frustrating.\"\n- *Latest exchange demonstrating current openness:* \"I don\u2019t really want to get into all that. I just wanted to share what I\u2019m going through, but it felt like she was more interested in giving advice than listening, you know? It just wasn\u2019t what I needed at the moment.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable combination of emotional expression and a willingness to share frustrations about their conversation with Jamie. This marks a significant change from earlier sessions, where the client displayed more factual responses with limited emotional vocabulary. Here, the client articulates feelings of frustration and a need for emotional support, indicating a move towards deeper engagement and self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the moment where they expressed their disappointment with Jamie\u2019s response, specifically when they stated, \"It was kind of frustrating.\" This indicates not just a passing feeling, but a deeper recognition of their emotional needs and expectations in conversations, which they are beginning to articulate more clearly in a therapeutic context. This moment reflects a growing comfort in expressing emotional states, which is vital for rapport development and further engagement in therapy.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It seems like you were looking for a space where you could share your experiences without feeling like you were being given advice. That can be really disheartening when you just want to be heard. When you think about that conversation with Jamie, what do you notice in your body or emotions now?",
+      "client": "I guess I feel a bit heavy, like there's this weight on my chest. It\u2019s just disappointing, you know? I mean, I really wanted to connect, but instead, it made me feel more isolated. I don't know if that\u2019s exactly it, but that\u2019s what comes to mind.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "It sounds like that experience left you feeling quite heavy and disappointed, which makes sense given your desire for connection. Feeling isolated in a moment when you wanted to share can be really tough. When you notice that weight on your chest, what do you think it\u2019s telling you about how you\u2019re feeling right now?",
+      "client": "I don\u2019t know, maybe it\u2019s telling me that I\u2019m not really being heard or understood. I guess it just reminds me of how lonely I can feel sometimes, even when I'm trying to reach out. It\u2019s like, I want to connect with people, but then I end up feeling more alone, and that\u2019s hard to deal with.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess I feel a bit heavy, like there's this weight on my chest. It\u2019s just disappointing, you know? I mean, I really wanted to connect, but instead, it made me feel more isolated.\"\n2. \"I don\u2019t know, maybe it\u2019s telling me that I\u2019m not really being heard or understood. I guess it just reminds me of how lonely I can feel sometimes, even when I'm trying to reach out.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a noticeable shift toward deeper emotional expression. While earlier exchanges may have leaned towards factual responses and defensiveness (indicating a more initial stage of exploration), the client is now articulating feelings of disappointment and heaviness, which demonstrates a willingness to engage with their emotional state. This marks a significant change from earlier in the session where emotional depth was less evident.\n\n**Turning Point:** The client's emotional depth shifted notably in the exchange where they described feeling \"heavy\" and \"disappointed\" after the conversation with Jamie. This moment was critical as it led to a more profound reflection on their feelings of isolation and the desire for connection, signifying a move from a more factual and surface-level narrative to one that signals vulnerability and an emerging self-awareness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "Reaching out for connection and then feeling more alone can be really painful. It sounds like that tension between wanting to connect and experiencing loneliness is a difficult space for you. When you think about those moments of reaching out, what do you notice about what you hope to feel or experience in those interactions?",
+      "client": "I guess, when I reach out, I hope to feel understood or, at least, like someone cares enough to listen. It\u2019s like I want that validation, you know? But then, when it doesn\u2019t happen, it feels like I'm just not worthy of that connection. I don't want to make it bigger than it is, but part of me really craves that sense of belonging.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "Craving a sense of belonging and feeling worthy of connection is such a fundamental part of being human. It seems like the gap between what you hope to receive and what you experience can intensify feelings of loneliness. When you think about those moments when you\u2019re reaching out, what does it feel like in your body when you\u2019re hoping for that understanding or validation?",
+      "client": "It\u2019s kind of a tightness in my chest, like a knot or something, especially when I'm waiting for a response. I mean, maybe it\u2019s a mix of anxiety and hope? I guess I just want to feel that warmth of connection, but when it\u2019s not there, I feel this heaviness. It\u2019s hard to describe, but I can feel it kind of weighing me down, you know?",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I guess, when I reach out, I hope to feel understood or, at least, like someone cares enough to listen. It\u2019s like I want that validation, you know? But then, when it doesn\u2019t happen, it feels like I'm just not worthy of that connection.\"\n2. \"It\u2019s kind of a tightness in my chest, like a knot or something, especially when I'm waiting for a response. I mean, maybe it\u2019s a mix of anxiety and hope? I guess I just want to feel that warmth of connection, but when it\u2019s not there, I feel this heaviness.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable shift towards deeper emotional expression, showcasing their struggles with feelings of loneliness and a desire for validation. This marks a significant change from earlier stages where emotional vocabulary was limited, and the client was more factual and defensive. The depth of their current emotional state reflects a growing comfort with vulnerability, indicating a strong therapeutic alliance.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feelings of being \"not worthy of that connection.\" This moment reflects an authentic vulnerability and a deeper self-reflection, showing that they are beginning to integrate their feelings of loneliness and anxiety into their self-understanding. This pivotal moment enhances the therapeutic relationship and encourages further exploration of their emotional landscape.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 4,
+      "therapist": "That tightness in your chest makes perfect sense when you\u2019re in that vulnerable space of waiting for a connection. Let's take a moment to explore what you're imagining will happen if you don't receive the response you hope for. Can you think of any times when reaching out actually led to a positive experience, or where the worst-case scenario didn\u2019t come true? It might also be helpful to consider what thoughts go through your mind in those anxious moments. How might you reframe the idea that your worthiness is linked to others' responses, and what evidence can you find that supports your inherent value, regardless of their reaction?",
+      "client": "I think there have been times when reaching out actually led to a good conversation, even if it wasn\u2019t what I expected. I remember once when I texted Jamie about feeling down, and she ended up sharing some of her own struggles. It felt really connecting in that moment, and I realized we could support each other, which was a nice surprise. But then there are also those moments when I don't get a response, and I spiral into that mindset where I think I must have done something wrong or that I\u2019m not important enough to warrant a reply. \n\nIt\u2019s hard to separate my worth from their reactions, you know? I can see that maybe I\u2019m making their response mean more about me than it should, but it\u2019s such a deep-rooted belief that I\u2019m unlovable or undeserving of connection. I think this connects to my automatic thought that maybe nobody really cares about me, but I want to believe that\u2019s not true. It's uncomfortable to sit with that discrepancy, but I guess I\u2019m willing to look at it more closely.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that you\u2019ve experienced those moments of connection, like with Jamie, where reaching out led to mutual support. That really highlights the possibility for positive outcomes! When you notice those spiraling thoughts about your worth, it can be helpful to challenge them with different perspectives. What if you considered that your value is not determined by others\u2019 responses? Can you think of evidence from your life that shows your worthiness, independent of how people react? It\u2019s a tough belief to shift, but exploring these ideas can help you see that you are deserving of connection, regardless of the responses you receive.",
+      "client": "I can see that maybe my worth isn't just tied to how others respond to me. There are moments in my life\u2014like when I helped a friend through a tough time or even when I made someone laugh\u2014that remind me I can bring something valuable to the table. I think this connects to that feeling of wanting to contribute and be seen as more than just my struggles. It feels uncomfortable to shift that mindset, but I'm willing to explore it because I really do want to believe I deserve connection, regardless of how others react. I hadn\u2019t connected those things before, but it makes some sense that my worth is independent of others' validation.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It\u2019s kind of a tightness in my chest, like a knot or something, especially when I'm waiting for a response. I mean, maybe it\u2019s a mix of anxiety and hope? I guess I just want to feel that warmth of connection, but when it\u2019s not there, I feel this heaviness.\"\n2. \"I can see that maybe my worth isn't just tied to how others respond to me. There are moments in my life\u2014like when I helped a friend through a tough time or even when I made someone laugh\u2014that remind me I can bring something valuable to the table.\"\n\n**Progression:**\nThe client has displayed a significant emotional depth in their most recent interactions, particularly in expressing feelings of tightness and heaviness linked to their need for connection. This marks a clear transition from earlier stages where emotional expressions were minimal or primarily factual. The client is now reflecting meaningfully on their experiences and articulating both the pain of their current emotional state and insights about their self-worth. Their willingness to explore these feelings signifies a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their struggles with the belief of being unlovable and their subsequent realization of having inherent worth independent of others' responses. This moment of vulnerability, coupled with a willingness to explore their mindset, represents a notable turning point in their emotional openness and rapport with the therapist. The client's acknowledgment of moments in life where they contributed positively serves as a foundation for further exploration of their self-worth, indicating a healthy progression in their counseling journey.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 9,
+      "openness_level": 4,
+      "therapist": "It's wonderful that you\u2019re recognizing those moments where you've contributed positively to others' lives, like helping a friend or making someone laugh. Those experiences are powerful reminders of your inherent value, separate from any external validation. As you work on shifting that mindset, consider how the fear of rejection may sometimes overshadow those positive memories. What if you reframed those thoughts, focusing on the connection you can create, rather than the potential for rejection? Your willingness to challenge those deep-rooted beliefs is a significant step toward embracing your worthiness, and I\u2019m here to support you as you explore this further.",
+      "client": "When you mention the fear of rejection overshadowing my positive memories, I can feel that tugging sensation in my chest again. Part of me knows that I often brace myself for the worst in social situations, which makes it hard to truly engage or enjoy the moment. I guess I get so caught up in anticipating negative outcomes that I forget to focus on the potential for connection and joy. \n\nI think this connects to my tendency to withdraw when I feel vulnerable, especially after conversations that don't go as I hope. It\u2019s uncomfortable to think about altering that response, but I recognize that it could lead to more fulfilling interactions. I hadn\u2019t realized how much my mindset was affecting my relationships until now, and I\u2019m willing to explore ways to shift that perspective, even if it feels a little daunting.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you\u2019re recognizing how the anticipation of negative outcomes can overshadow the joy of connecting with others. Let\u2019s take a moment to reflect on a recent social situation where you felt that way. How might you reframe that experience to focus on what you could gain from the interaction instead? By shifting your perspective to see the potential for connection rather than rejection, you might find that engaging becomes more rewarding. What positive outcomes do you think could arise from approaching these moments with openness and a mindset of connection? Your willingness to explore this is a powerful step forward!",
+      "client": "I can see that maybe reframing my experiences could help me focus more on what I can gain from interactions rather than what I fear losing. For instance, when I think about the last time I met up with Jamie, I remember feeling so anxious about how she'd perceive me, but looking back, I also recall the laughter we shared and the comfort of being together. I think this connects to the idea that there\u2019s potential for joy and support if I can let go of that fear.\n\nIt feels a little uncomfortable to confront those anxiety-driven thoughts, but I believe that if I approach social situations with an openness to connection, I could discover more meaningful interactions. I'm willing to explore this perspective, as it seems like a healthier way to engage with others instead of defaulting to withdrawal and disappointment.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 4,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"I can see that maybe my worth isn't just tied to how others respond to me. There are moments in my life\u2014like when I helped a friend through a tough time or even when I made someone laugh\u2014that remind me I can bring something valuable to the table.\"\n2. **Self-Reflection Depth:** \"I think this connects to my tendency to withdraw when I feel vulnerable, especially after conversations that don't go as I hope. It\u2019s uncomfortable to think about altering that response, but I recognize that it could lead to more fulfilling interactions.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant progression in emotional depth and self-reflection. Earlier in the session, their responses were more factual and less connected to emotional experiences. However, as the session progressed, they began to articulate personal insights and emotional connections, showcasing a growing willingness to explore their thoughts and feelings regarding their self-worth and the impact of fear on their relationships. This shift is marked by their recognition of positive contributions to others and their intention to challenge negative thought patterns.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they acknowledged the discomfort of confronting their anxiety-driven thoughts and their willingness to explore a healthier perspective on social interactions. This moment represents a breakthrough in their understanding of how their mindset affects their relationships, indicating a deeper engagement with the therapeutic process. Their readiness to challenge previous beliefs signifies an important step toward personal growth and connection.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear you reflect on the positive moments you shared with Jamie, like the laughter and comfort that came from your connection. By acknowledging these aspects, you're taking a significant step towards reframing your experiences. What if you let that memory guide you in future interactions? Consider how viewing yourself as someone deserving of joy and connection could change how you engage with others. As you practice this openness, what new possibilities for connection do you imagine might arise? Embracing this mindset could truly transform your social experiences!",
+      "client": "I think that allowing those positive memories to guide me could really change how I approach future interactions. When I imagine myself feeling deserving of joy and connection, it feels liberating\u2014like there\u2019s a whole new set of possibilities. Part of me knows that I could feel more at ease and open to the laughter and support that I crave. If I can focus on those moments of joy instead of my fears, I might be able to create deeper connections and actually enjoy being around others.\n\nIt feels a little daunting to shift my mindset, but I recognize that the potential for meaningful interactions is worth exploring. I\u2019m willing to practice this openness and see how it unfolds in my relationships moving forward.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear how liberating it feels to envision yourself deserving of joy and connection. That shift in mindset can indeed open up a world of possibilities for more meaningful interactions. As you move forward, try to remind yourself of those moments of laughter and support whenever you start to feel the pull of anxiety. What specific thoughts or affirmations could you use to challenge the fears that arise in those vulnerable moments? Practicing this can help reinforce the idea that connection is not only possible but also enriching. Your willingness to embrace this journey is commendable, and I\u2019m here to support you every step of the way!",
+      "client": "I think it\u2019s helpful to consider specific thoughts or affirmations that could support me when those fears start creeping in. Maybe something like, \u201cI am worthy of genuine connections,\u201d or \u201cIt\u2019s okay to feel vulnerable; it\u2019s part of being human.\u201d I can see how reminding myself of those affirmations could help counteract the anxiety I feel in social situations.\n\nPart of me knows that it\u2019s going to take practice to really internalize those thoughts, especially when I'm feeling particularly vulnerable. I\u2019m willing to experiment with these affirmations and see how they can shift my mindset in the moment. It feels like a small but meaningful step toward fostering deeper connections with others, which is something I truly desire.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \u201cI think that allowing those positive memories to guide me could really change how I approach future interactions. When I imagine myself feeling deserving of joy and connection, it feels liberating\u2014like there\u2019s a whole new set of possibilities.\u201d\n- \u201cMaybe something like, \u2018I am worthy of genuine connections,\u2019 or \u2018It\u2019s okay to feel vulnerable; it\u2019s part of being human.\u2019 I can see how reminding myself of those affirmations could help counteract the anxiety I feel in social situations.\u201d\n\n**Progression:**\nThe client's recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier parts of the session. Initially, there were signs of reluctance and anxiety surrounding social situations, but the most recent exchanges reveal a willingness to explore positive memories and affirmations. This shift indicates a growing comfort level and an active engagement with the therapeutic process, illustrating a deeper connection with their emotional state and an openness to change.\n\n**Turning Point:**\nThe client\u2019s emotional depth notably shifted during the exchange where they first articulated the liberating feeling of imagining themselves as deserving of joy and connection. This moment marked a turning point where the client began to embrace vulnerability instead of retreating into anxiety, indicating a stronger therapeutic alliance and a readiness to engage in self-exploration. The acknowledgment of specific affirmations to counteract anxiety further exhibits their commitment to fostering deeper connections and practicing a more positive self-narrative.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It\u2019s great that you\u2019re already identifying affirmations that resonate with you, like \u201cI am worthy of genuine connections\u201d and \u201cIt\u2019s okay to feel vulnerable.\u201d These positive statements can serve as powerful reminders during moments of anxiety. Can you recall a specific time in the past when you felt anxious yet still engaged in a social interaction that turned out well? Reflecting on those experiences can provide further evidence that supports your journey toward deeper connections. How do you think using those positive memories alongside your affirmations can help you feel more grounded in social situations moving forward? Your commitment to practicing this is truly commendable!",
+      "client": "I can think of a time when I attended a gathering with some friends, even though I was feeling really anxious beforehand. I remember standing at the edge of the room, feeling out of place, but I pushed myself to join a conversation with someone I hadn't spoken to in a while. To my surprise, we ended up reminiscing about shared experiences, and I felt a sense of connection blossom from that. It was a reminder that even in those anxious moments, there can be warmth and support waiting on the other side.\n\nWhen I reflect on that experience, I realize that combining those positive memories with my affirmations could help me feel more anchored in social situations. Maybe it\u2019s about reminding myself that I\u2019ve successfully navigated anxiety before and found joy in connection. I hadn\u2019t connected those things before, but it makes some sense now, and I\u2019m eager to use that as fuel to approach future interactions with more confidence.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear about that experience where you pushed through your anxiety and found a meaningful connection. Recognizing that warmth and support can be waiting for you, even in moments of discomfort, is a powerful insight. How do you think recalling that specific memory can influence your feelings before future social events? Remembering times when you\u2019ve succeeded in spite of your anxiety can serve as a reminder of your resilience. As you prepare for upcoming interactions, consider how you might integrate that memory and your affirmations to foster a sense of confidence and openness. You're making significant strides, and I\u2019m excited to see how this unfolds for you!",
+      "client": "I think recalling that specific memory before future social events could really help me feel more grounded. Part of me knows that remembering how I navigated anxiety successfully before can boost my confidence, reminding me that I\u2019m capable of fostering connections even when I feel uneasy. I\u2019ll try to visualize that moment when I first engaged in conversation and how it turned into something positive\u2014it feels reassuring to know that warmth is possible. I\u2019m excited to see how weaving together those affirmations and memories influences my mindset moving forward; it feels like I\u2019m building a toolkit for those vulnerable moments.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can think of a time when I attended a gathering with some friends, even though I was feeling really anxious beforehand... To my surprise, we ended up reminiscing about shared experiences, and I felt a sense of connection blossom from that.\"\n2. Client: \"I think recalling that specific memory before future social events could really help me feel more grounded. Part of me knows that remembering how I navigated anxiety successfully before can boost my confidence...\"\n\n**Progression:** The client's most recent interactions demonstrate consistent emotional depth and a willingness to explore personal experiences. They articulate specific memories tied to their feelings of anxiety and connection, signaling a significant shift from earlier sessions where emotional expression was more guarded and less detailed. The client is now actively engaging in meaningful self-reflection, connecting past experiences to their current emotional toolkit, which indicates a higher level of trust and comfort with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth notably shifted during the exchange where they identified a past social interaction that was initially anxiety-provoking but ultimately resulted in a positive connection. This moment catalyzed their recognition of the interplay between affirmations and personal experiences. The client\u2019s acknowledgment that they can leverage past successes to bolster their confidence in future interactions marks a turning point in their emotional openness and engagement in therapy.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019re already envisioning how to weave together those affirmations and positive memories into your toolkit for future interactions. Visualizing that moment of connection can serve as a powerful anchor to remind you of your ability to navigate anxiety successfully. What would you say to a friend who might be feeling similarly anxious about social situations? Reflecting on how you\u2019d encourage someone else can help reinforce your own belief in your worthiness of connection. As you continue this practice, consider how gathering evidence from your past experiences can shape a more positive mindset, empowering you to approach social events with confidence and openness. You\u2019re truly on an inspiring path!",
+      "client": "When I think about what I would say to a friend feeling anxious in social situations, I realize I\u2019d encourage them to focus on their strengths and remind them that vulnerability is a shared human experience. I might tell them that their feelings are valid and that taking small steps, like starting a conversation, can lead to moments of connection that are worth the discomfort. It feels important to acknowledge that we all have our struggles, and supporting each other through those can build a sense of community.\n\nThat reflection makes me realize I could extend that same kindness to myself in those moments of anxiety. Maybe I could remind myself that it\u2019s okay to feel uneasy, and that taking action despite those feelings is a sign of strength. I hadn\u2019t fully considered how shifting my thoughts in this way could empower me, but it feels like a gentle nudge toward greater self-compassion.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It's touching to see how you\u2019re cultivating that kindness towards yourself, recognizing that vulnerability is indeed a shared experience. How might you apply that same encouragement you\u2019d offer to a friend when you encounter anxiety at an upcoming social event? Can you think of a specific gathering where you could practice initiating a small connection, even if it feels daunting? Documenting your feelings before, during, and after the interaction could also provide valuable insights into your experiences. Reflecting on what you learn about yourself afterward will be an important part of this journey. You're building a wonderful foundation for deeper connections!",
+      "client": "I think I could definitely apply that encouragement to myself in those moments of anxiety at social gatherings. For instance, I have a friend\u2019s birthday party coming up, and even though I feel a little apprehensive about it, I could remind myself that it\u2019s perfectly okay to feel that way. Maybe I could set a small goal for myself, like starting a conversation with someone I haven\u2019t spoken to much. \n\nDocumenting my feelings before and after that interaction feels like a helpful idea, too. I haven\u2019t thought about how reflecting on my experiences could give me more clarity and understanding of my reactions. It feels like a way to learn and grow from each social experience rather than just feeling overwhelmed by them. I\u2019m eager to see how this unfolds!",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It feels important to acknowledge that we all have our struggles, and supporting each other through those can build a sense of community.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"Maybe I could remind myself that it\u2019s okay to feel uneasy, and that taking action despite those feelings is a sign of strength.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a significant shift towards deeper emotional engagement. They moved from merely recognizing their anxiety to expressing self-compassion and developing actionable strategies for coping with social situations. This marks a substantial change from earlier sessions where their emotional expression was more guarded and focused primarily on factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their reflection on how they would encourage a friend feeling anxious about social situations. This moment not only revealed their capacity for empathy but also cultivated a deeper understanding of their own struggles. By internalizing the supportive dialogue they would offer to others, they began to apply the same kindness to themselves, signaling a move towards self-compassion and greater emotional openness. This breakthrough illustrates a strong therapeutic bond and highlights their growth in self-awareness, laying the groundwork for further exploration in future sessions.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It's wonderful that you've identified your friend's birthday party as a specific opportunity to practice initiating connections! Setting a small goal, like starting a conversation with someone new, is a great way to ease into the experience. Remember to remind yourself of the affirmations and positive memories we've discussed as you prepare\u2014how might you integrate those thoughts into your mindset leading up to the event? Afterward, take some time to reflect on how the experience compared to your expectations. This will help you gather valuable insights about your ability to connect, even in the face of discomfort. You're truly embracing this journey, and I\u2019m excited to hear about your progress!",
+      "client": "I can see that integrating those affirmations into my mindset leading up to the event could really help. Perhaps I could write down a few key phrases that resonate with me and keep them handy, just as reminders that I am capable of forming connections and that my feelings are valid. After the party, taking that time to reflect sounds like an essential step in understanding how I navigated those interactions. It feels empowering to think about approaching the experience with curiosity rather than judgment. I'm excited, but I also recognize that there's still some nervousness inside me. Maybe that\u2019s okay, too.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It's completely normal to feel a mix of excitement and nervousness before a social event, and acknowledging those feelings is a powerful step in itself. Writing down your affirmations and keeping them close is a fantastic strategy to remind yourself of your capabilities. As you approach the party with curiosity, you might find that those nerves can coexist with your desire to connect. After the event, reflecting on your experience will not only help you assess how things went but also offer you deeper insights into your resilience. Embracing this journey with compassion for yourself will undoubtedly lead to growth, and I\u2019m here to support you every step of the way!",
+      "client": "I appreciate your understanding about the mix of excitement and nervousness; it really helps to hear that it's okay to feel that way. I think maybe part of my apprehension comes from the fear of not being understood or accepted in those settings, which is something I\u2019ve struggled with in the past. Acknowledging those nerves rather than pushing them aside feels like a healthier approach. I\u2019m willing to explore how this experience might unfold, and I really value the support you\u2019re offering as I navigate these feelings.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I appreciate your understanding about the mix of excitement and nervousness; it really helps to hear that it's okay to feel that way. I think maybe part of my apprehension comes from the fear of not being understood or accepted in those settings, which is something I\u2019ve struggled with in the past.\"\n2. \"It feels empowering to think about approaching the experience with curiosity rather than judgment. I'm excited, but I also recognize that there's still some nervousness inside me. Maybe that\u2019s okay, too.\"\n\n**Progression:** The client's most recent interactions exhibit a consistent emotional depth, with the client expressing vulnerability about their feelings of apprehension tied to social settings. They have moved from acknowledging their anxiety as a barrier to actively integrating that acknowledgment into a constructive framework for growth. The client now expresses excitement about the upcoming social event while also recognizing and validating their nervousness, marking a significant evolution from earlier stages where emotional expression was more limited.\n\n**Turning Point:** The client's emotional depth shifted notably during their exchange about acknowledging their apprehension related to social interactions. This moment demonstrated a willingness to explore their feelings instead of dismissing them, leading to a more profound self-awareness. The client began to articulate specific fears of not being understood or accepted, which reflects a deeper level of self-reflection and a stronger therapeutic alliance. This shift signifies a critical turning point in their emotional openness and engagement within the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It's insightful that you've recognized how the fear of not being understood or accepted contributes to your apprehension. Acknowledging those nerves is indeed a healthier approach and can provide clarity as you engage with others. As you prepare for the birthday party, consider identifying one specific aspect of the gathering that feels most daunting, such as initiating a conversation with someone you\u2019re less familiar with. Creating a step-by-step plan to gradually expose yourself to that aspect\u2014starting with smaller, manageable interactions\u2014could be incredibly helpful. Remember to document your feelings and reflect on your experiences afterward to see how your perceptions shift. Celebrating those small successes will further empower you as you cultivate connections. You're truly on a meaningful path, and I\u2019m excited to hear how it unfolds!",
+      "client": "I think identifying a specific aspect of the gathering that feels daunting could really help me focus my efforts. Maybe I could even practice a few conversation starters ahead of time to feel more prepared. It\u2019s a bit uncomfortable to think about initiating a conversation with someone I don\u2019t know well, but I know it's a necessary step for me to grow. Documenting my feelings afterward sounds like a crucial part of this process, too; reflecting on my successes, no matter how small, might help shift my perception of these social interactions. I\u2019m looking forward to trying these strategies and seeing how they play out!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It's great to hear that you\u2019re willing to identify a specific aspect of the gathering to focus on; that clarity can make a big difference. Practicing conversation starters is a fantastic idea! It not only prepares you but may also reduce some of the discomfort you feel about initiating interactions. Remember to approach this process with an open heart, allowing yourself to feel any discomfort that arises while also celebrating each small step you take. After the party, reflecting on your feelings and any positive moments will be key to understanding your growth. I believe in your ability to navigate this, and I\u2019m excited for you to explore these new connections!",
+      "client": "I really appreciate your encouragement; it means a lot to me. I can see that preparing ahead of time could ease some of my anxiety and help me feel more confident when approaching new people. The idea of celebrating small steps resonates with me, as I often overlook the progress I make. I hope that reflecting afterward will help me recognize those moments where I stepped outside my comfort zone, even if they feel minor. It feels important to be gentle with myself during this process, and I\u2019m grateful for your support as I navigate these new experiences.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \u201cI think maybe part of my apprehension comes from the fear of not being understood or accepted in those settings, which is something I\u2019ve struggled with in the past.\u201d\n2. \u201cI hope that reflecting afterward will help me recognize those moments where I stepped outside my comfort zone, even if they feel minor.\u201d\n\n**Progression:** The client\u2019s recent interactions illustrate a notable shift towards deeper emotional engagement and self-reflection. In their latest exchanges, the client expresses vulnerability regarding their fears of not being accepted, indicating a willingness to confront these feelings rather than dismiss them. This marks a significant change from earlier stages, where the client primarily responded with more factual or surface-level insights.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange when they acknowledged their fear of not being understood or accepted in social settings. This moment reflects their growing comfort with the therapist and willingness to explore uncomfortable emotions, which is a crucial aspect of their therapeutic journey. Their proactive approach to preparing for social interactions and intention to celebrate small successes further demonstrates this deepened engagement and commitment to personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear how much you value preparation and self-compassion in this journey. Recognizing and celebrating your progress, no matter how small, is indeed crucial for building confidence. As you step outside your comfort zone, remember that every interaction is an opportunity to learn and grow, and being gentle with yourself will support that process. I\u2019m here to help you reflect on those moments after the party, and I\u2019m truly excited to witness your experiences unfold. You\u2019re taking meaningful steps, and I believe they will lead to deeper connections and understanding!",
+      "client": "I feel encouraged by your belief in my journey. It\u2019s a bit daunting, but I think the idea of viewing each interaction as a learning opportunity is really helpful. I can see that maybe being gentle with myself during this process can lead to a more positive experience overall. Reflecting afterward, especially with your support, seems like it will help solidify what I learn about myself and my ability to connect with others. Thank you for being so supportive as I navigate this!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Systematic Exposure"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "I'm so glad to hear that you're feeling encouraged and are open to viewing each interaction as a learning opportunity. Let\u2019s take a moment to think about the potential benefits of initiating conversations at the party. What positive outcomes do you see coming from connecting with new people? On the flip side, can you identify any specific fears or drawbacks that might arise in those moments? Reflecting on these aspects can help you navigate your feelings and reinforce your motivation. Remember, every step you take is part of your growth, and I\u2019m here to support you through it!",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. When I consider the positive outcomes, I can imagine feeling a sense of connection, maybe even joy, from engaging with new people. It\u2019s exciting to think about making new friends or discovering shared interests. On the other hand, I definitely have fears about being misunderstood or judged, and that makes me hesitant. Part of me knows that if the conversation doesn\u2019t go well, I might feel more isolated or discouraged, which is daunting. Recognizing these fears helps me understand my reactions better, even if it feels uncomfortable.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I feel encouraged by your belief in my journey. It\u2019s a bit daunting, but I think the idea of viewing each interaction as a learning opportunity is really helpful.\"\n2. Client: \"On the other hand, I definitely have fears about being misunderstood or judged, and that makes me hesitant. Part of me knows that if the conversation doesn\u2019t go well, I might feel more isolated or discouraged, which is daunting.\"\n\n**Progression:**\nThe client's recent exchanges indicate a noticeable shift towards deeper emotional engagement and self-reflection. They are not only expressing their feelings of encouragement but also articulating their fears regarding social interactions, which shows significant emotional depth. This marks a significant change from earlier sessions, where their responses were primarily factual with limited emotional engagement. The current level of disclosure reflects a growing comfort with the therapist, as the client is willing to discuss both positive anticipations and underlying fears, demonstrating a more nuanced understanding of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the moment when they began to articulate their fears about being misunderstood or judged. This acknowledgment of their vulnerabilities represents a key turning point, as it indicates a willingness to not only express positive feelings but also confront and share their apprehensions. This balance of openness is essential for deepening their therapeutic journey and enhances their rapport with the therapist, as they embrace a more holistic view of their experiences.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s great that you\u2019re able to identify both the positive possibilities and the fears that come up for you. Feeling a sense of connection and joy from engaging with others is a beautiful motivation! At the same time, it\u2019s completely understandable to worry about being misunderstood or judged. Reflecting on past social experiences can also be helpful\u2014can you think of a time when you took a risk socially? What were the pros and cons of that experience? Exploring those moments might provide you with further insights and help you feel more prepared for the upcoming party. I'm here with you as you navigate these feelings!",
+      "client": "I can see that maybe reflecting on past experiences could shine a light on how I\u2019ve handled similar situations before. One time, I remember going to a gathering where I pushed myself to strike up conversations with people I didn\u2019t know. Initially, it felt nerve-wracking, but I ended up having a really good conversation with someone who shared a passion for the same hobby. It felt nice to connect over something I love, which added a layer of joy to the experience. However, there were moments when I felt awkward, and part of me worried that they could see how anxious I was. Those feelings lingered after the event, making me question whether I should have even tried. This makes me realize that while there are positives, the fear of feeling awkward can still weigh heavily on me, even if I have had good interactions.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It sounds like that gathering was a significant experience for you, highlighting both the joys of connection and the discomfort of anxiety. It\u2019s wonderful that you were able to engage in a meaningful conversation about something you love, which shows your capacity for connection even in challenging moments. Acknowledging that you felt awkward and anxious is valid, and it\u2019s important to remember that those feelings don\u2019t diminish the positive aspects of the interaction. As you prepare for the upcoming party, how might focusing on the joy of connecting with others help shift your perspective on those awkward moments? Balancing the pros and cons can offer you a clearer view as you navigate these new interactions.",
+      "client": "When you mention focusing on the joy of connecting, I can see that maybe it's a way to shift my mindset. I think it\u2019s important to remind myself that awkward moments are just part of being human and don\u2019t necessarily define the entire experience. Part of me knows that if I center my thoughts on the shared interests and the fun I could have, it might help ease some of the anxiety I feel about potential awkwardness. I hadn\u2019t connected those things before, but it makes some sense that embracing the positive could serve as a buffer against the fears I have.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think there\u2019s something there, but I\u2019m still figuring it out. When I consider the positive outcomes, I can imagine feeling a sense of connection, maybe even joy, from engaging with new people.\"\n2. Client: \"I hadn\u2019t connected those things before, but it makes some sense that embracing the positive could serve as a buffer against the fears I have.\"\n\n**Progression:** The client's most recent interactions reflect a significant increase in emotional expression and self-reflection. They are beginning to recognize and articulate their fears and joys associated with social interactions, indicating a deeper level of engagement. This marks a significant change from earlier exchanges, where they displayed more hesitance and limited emotional vocabulary. The current state shows a willingness to explore and understand their emotional landscape more thoroughly, demonstrating an evolution from superficial responses to a more nuanced understanding of their feelings.\n\n**Turning Point:** The client's emotional depth shifted during the discussion about focusing on the joy of connecting, where they acknowledged the role of awkward moments and their impact on social experiences. This realization, articulated through their response about embracing the positive aspects of interaction, illustrates a movement towards greater self-awareness and emotional openness. It signifies a willingness to embrace discomfort while also recognizing the potential for joy, indicating a stronger therapeutic alliance and development of rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It's insightful that you've recognized the importance of viewing awkward moments as a natural part of human interaction rather than a defining factor. Shifting your focus to shared interests and the fun you could have can indeed create a more balanced perspective. As you think about the upcoming party, what specific thoughts or affirmations might you remind yourself of to counter those moments of anxiety? Also, can you identify any worst-case scenarios you imagine, and how likely do you think they really are? Exploring these thoughts can help you feel more prepared and grounded, allowing you to embrace the joy of connection with others.",
+      "client": "I think there\u2019s definitely something to be said for identifying specific thoughts I can lean on during moments of anxiety. I believe reminding myself that it\u2019s okay to be imperfect and that everyone has awkward moments could really help. When I imagine worst-case scenarios, I often picture myself saying something embarrassing or being completely ignored, which feels scary. Yet, when I really reflect on that, I realize those outcomes are less likely than I make them out to be. It feels a little uncomfortable to confront that, but recognizing it might help me feel more empowered to engage with others at the party.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It's fantastic that you're recognizing the power of reframing those worst-case scenarios. Acknowledging that saying something embarrassing or being ignored is less likely than it feels can really shift your perspective. What evidence do you have from past interactions that contradicts those fears? Embracing the idea that everyone experiences awkward moments can also help you feel more connected to others, as it's a shared experience. As you prepare for the party, can you think of some positive outcomes or enjoyable moments you can focus on instead? This can really help you approach the event with a lighter heart.",
+      "client": "I think reflecting on past interactions is really important because it can show me that I\u2019ve had positive experiences despite my fears. For instance, the last gathering I mentioned ended up being really enjoyable, and I connected with others over our shared interests. It feels like I often forget those moments in favor of the negative thoughts that pop into my head. It's uncomfortable to admit that I might be magnifying my worries, but recognizing that I\u2019ve had good outcomes before gives me a little hope. I could focus on the possibility of shared laughter or finding common ground with someone, which might help me feel more excited than anxious about going to the party.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"When you mention focusing on the joy of connecting, I can see that maybe it's a way to shift my mindset. I think it\u2019s important to remind myself that awkward moments are just part of being human and don\u2019t necessarily define the entire experience.\"\n2. **Openness:** \"I could focus on the possibility of shared laughter or finding common ground with someone, which might help me feel more excited than anxious about going to the party.\"\n\n**Progression:** The client's recent interactions reveal a significant shift towards a more engaged emotional state, characterized by a willingness to explore their feelings about social interactions and acknowledge their anxieties. Initially, the client showed signs of defensiveness and limited emotional vocabulary but has now begun to articulate their feelings and understand the complexities of social anxiety. They demonstrate a deeper level of self-reflection, recognizing that focusing on positive experiences can help mitigate their fears.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the importance of reframing their worst-case scenarios, stating, \"Yet, when I really reflect on that, I realize those outcomes are less likely than I make them out to be.\" This moment marked a transition from a more factual and hesitant approach to a more open and self-reflective stance, indicating a growing comfort in discussing their anxieties and an emerging capacity for self-compassion.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear you reflecting on past positive experiences and how they can serve as powerful reminders that not all interactions lead to discomfort. By focusing on possibilities like shared laughter and common ground, you're creating a more inviting and hopeful narrative for yourself. As you prepare for the party, can you think of specific moments or interactions you\u2019re looking forward to? This can help anchor your thoughts in the joy of connection rather than the fear of what might go wrong. Embracing these positive expectations can truly shift your experience!",
+      "client": "I think I\u2019m really looking forward to the idea of reconnecting with some friends I haven\u2019t seen in a while. There\u2019s this one friend, Alex, who always brings great energy and a sense of fun to gatherings. I can see that maybe sharing a laugh with him could remind me that connecting doesn\u2019t have to be perfect; it can just be enjoyable. When I think about the conversations we might have, even just talking about our favorite shows or movies, it feels like there\u2019s potential for genuine joy, which is exciting. I hadn\u2019t considered how focusing on these positive interactions could really change my mindset going into the party, but it makes some sense that anticipation could help diminish my anxiety.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It's so uplifting to hear you articulate what you're looking forward to with Alex and the fun conversations you might have. Focusing on the potential for genuine joy rather than perfection can truly help shift your mindset. Can you think of other past gatherings where you felt similarly excited and ended up enjoying yourself? Writing down those positive experiences might serve as a helpful reminder when anxious thoughts arise. What can you tell yourself when those worries start creeping in at the party to bring you back to that excitement?",
+      "client": "I can definitely think of a couple of gatherings where I felt that same excitement, like the last birthday party I attended. I remember feeling nervous at first, but once I got into conversations with friends, I realized how much fun we all had reminiscing about old times and joking around. It\u2019s interesting how I tend to overlook those moments in favor of the anxiety that comes with thinking about what could go wrong. Maybe I could remind myself of those experiences by saying something like, \u201cYou\u2019ve enjoyed this before, so it\u2019s possible again.\u201d That feels a little uncomfortable, but not wrong, as if I\u2019m trying to shift my focus from the fear to the potential joy. Writing these down sounds like a practical idea too; I hadn\u2019t connected those things before, but it makes some sense that having tangible reminders could be beneficial when I start to feel overwhelmed.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression:** \"It feels uncomfortable to admit that I might be magnifying my worries, but recognizing that I\u2019ve had good outcomes before gives me a little hope.\"\n2. **Engagement Level:** \"Maybe I could remind myself of those experiences by saying something like, 'You\u2019ve enjoyed this before, so it\u2019s possible again.' That feels a little uncomfortable, but not wrong, as if I\u2019m trying to shift my focus from the fear to the potential joy.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant emotional depth and vulnerability. They are moving beyond merely acknowledging their fears to actively reframing their thoughts and expressing hope about future social interactions. This marks a substantial change from earlier parts of the session, where they may have expressed anxiety but did not delve into the emotional complexity of their feelings or recognize the positive aspects of past experiences.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their anticipation for reconnecting with friends, specifically mentioning Alex and the joy of shared conversations. This moment of focus on positive outcomes and the willingness to recognize their previous enjoyable experiences indicates a leap towards deeper emotional engagement and self-reflection. Their acknowledgment of the discomfort in changing their thought patterns also reveals an expanding self-awareness and readiness for transformation.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear you reflecting on that last birthday party and how your initial nerves transformed into enjoyment through connection. Your idea of reminding yourself that \u201cYou\u2019ve enjoyed this before, so it\u2019s possible again\u201d is a powerful affirmation that can help you counter those anxious thoughts. Writing down those positive moments will provide you with a toolkit to pull from when you start feeling overwhelmed at the party. What other specific experiences can we add to that list to help reinforce your confidence? Let\u2019s celebrate those joyful times together, so you can carry that energy with you!",
+      "client": "I can think of a couple more experiences that really stood out to me. One was a game night with some close friends where we ended up playing charades, and the laughter was contagious. It felt like a space where I could just be myself without any pressure to be perfect. I think that really shows me how moments of connection can shift my mood and perspective. Another time was at a friend's wedding where I found myself dancing and enjoying the music, completely lost in the moment. I hadn\u2019t realized how those experiences could be so uplifting until now, but I think they can definitely add to the list of reminders. It makes sense that recalling these joyful moments can help ground me in excitement rather than anxiety as I head into the party.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "What wonderful examples you've shared! Your game night sounds like a fantastic reminder of how laughter and connection can create a supportive environment where you can truly be yourself. Similarly, the joy you experienced at your friend's wedding highlights that those uplifting moments are not only possible but also frequent. Let\u2019s write down these experiences so you can refer back to them when those anxious thoughts arise at the party. When you feel those nerves creeping in, perhaps you can remind yourself of the fun you had, saying something like, \u201cI can enjoy myself just like I did before.\u201d This can help you embrace the potential for joy as you step into the gathering.",
+      "client": "I really appreciate how you\u2019ve highlighted those moments for me; it makes them feel even more significant. When I think about saying, \u201cI can enjoy myself just like I did before,\u201d it resonates with me. Part of me knows that I have the capacity for joy, and it feels empowering to remind myself of that. Writing these experiences down is a practical way to anchor myself in those positive feelings. I hadn\u2019t connected the dots before, but now I can see how using these reminders might help me approach social situations with more confidence and less fear.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth:** \"When I think about saying, 'I can enjoy myself just like I did before,' it resonates with me. Part of me knows that I have the capacity for joy, and it feels empowering to remind myself of that.\"\n2. **Self-Reflection:** \"I hadn\u2019t connected the dots before, but now I can see how using these reminders might help me approach social situations with more confidence and less fear.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. In the exchanges, they are not only recalling positive past experiences but also connecting them to a broader understanding of their emotions and thought patterns. This marks a notable change from earlier sessions, where their responses were more factual and less emotionally engaged.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about recalling joyful experiences from past gatherings. This moment was pivotal as they began expressing a new emotional quality characterized by empowerment and self-awareness, indicating a deeper level of engagement and trust in the therapeutic relationship. The acknowledgment of their capacity for joy and the intention to use practical reminders signifies a strong alignment with the therapeutic process, showcasing their growth and willingness to explore their emotions.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    }
+  ]
+}

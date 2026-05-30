@@ -1,0 +1,512 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "2-2",
+  "patient_name": "Blaise",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cIt\u2019s just annoying to watch, you know? My dad always seems to need her approval, and it feels like a never-ending cycle.\u201d\n2. Therapist: \u201cIt sounds like you\u2019re feeling helpless in witnessing that dynamic. What does that feeling evoke within you when you think about it more deeply?\u201d\n\n**Progression:**\nThe client's most recent interactions reveal a noticeable increase in emotional expression and self-reflection, as they articulate feelings of frustration and annoyance regarding their father's behavior. This marks a significant change from earlier responses, which were more factual and defensive in nature. The current dialogue indicates that the client is beginning to explore their emotional landscape with greater depth, particularly concerning familial relationships.\n\n**Turning Point:**\nThe client\u2019s emotional depth appears to have shifted during the current session when they began expressing feelings of frustration and recognizing a deeper pattern in their father\u2019s behavior. This self-awareness indicates a step towards exploring not only the dynamics at play but also their emotional impact, suggesting a willingness to engage more meaningfully in therapy. The transition from factual recounting of events to expressing annoyance and identifying feelings demonstrates a growing comfort with the therapeutic process and a developing rapport with the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- Client: \"I guess I feel a mix of frustration and, I don\u2019t know, maybe a little sadness? It\u2019s like I want to shake him out of it, but then I also feel anxious because I think about my own need for approval sometimes.\"\n- Client: \"Maybe I feel a bit tense, like I\u2019m holding my breath or something. It\u2019s almost like my chest gets tight, especially when I think about how much I want to be different from him, but I worry that I\u2019m not.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional awareness and expression, marked by their acknowledgment of frustration and sadness regarding their father's behavior. From earlier in the session, where they displayed more factual and surface-level responses, they have progressed to a state where they are beginning to connect their feelings to their personal experiences and anxieties. This shift indicates a developing comfort with self-reflection and a willingness to explore deeper emotional layers.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during their admission of feeling \"a mix of frustration and sadness.\" This moment highlights their ability to identify and articulate complex emotions, revealing a significant progression from earlier exchanges where they were more hesitant and defensive. The client's reference to their physical sensations of tension also marks an important step in their self-awareness, suggesting they are beginning to engage in more profound emotional processing.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I mean, it feels pretty heavy, to be honest. There\u2019s this part of me that wants to believe I can break away from that cycle, but then I get scared that I'm not strong enough to do it. It\u2019s like I\u2019m stuck between wanting to be my own person and feeling tied to the expectations and patterns in my family.\"\n2. Client: \"I can kind of think of a few moments, I guess, like when I\u2019m with friends who really get me. It feels lighter, almost freeing, but then I also worry, like, am I just escaping?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a deeper emotional engagement and acknowledgment of inner conflict, primarily around family dynamics and personal identity. Their use of phrases like \"heavy\" and \"stuck\" indicates a significant emotional depth compared to earlier exchanges, where they exhibited more factual and less emotionally charged responses. The client is beginning to articulate their feelings more vividly, suggesting they are moving beyond initial hesitance towards a more engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they responded to the therapist's exploration of their feelings about breaking away from family patterns. The moment they expressed feeling \"scared that I'm not strong enough to do it\" signifies a pivotal point where they began to confront their fears and anxieties more directly, demonstrating a willingness to delve into their vulnerabilities. This indicates a growing comfort with the therapeutic process and a stronger therapeutic alliance.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess when I'm with my friends, I feel more relaxed, like I can just be myself without worrying about what anyone thinks. But then there's this nagging thought that maybe I\u2019m just avoiding the real issues by not dealing with my family.\"\n2. **Current Openness:** \"It\u2019s like a reminder that I\u2019m not really free, you know? But then, when I'm with my friends and really enjoying myself, I feel more at ease.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a mix of emotional expression and self-reflection, showcasing a more nuanced recognition of their feelings regarding family dynamics and personal identity. Previously, the client demonstrated a more factual and guarded approach, focusing primarily on surface-level responses. In contrast, the current exchanges reveal deeper emotional engagement as they begin to articulate complex feelings of guilt and confusion alongside moments of comfort with friends.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about their feelings of relaxation with friends juxtaposed with guilt over family expectations. This moment highlighted a growing self-awareness as they acknowledged the conflicting emotions and their physical sensations, marking a transition from primarily factual responses to a more reflective and emotionally nuanced dialogue. The acknowledgment of the tightness in their chest as a physical response to anxiety signals a deeper level of emotional engagement that was not as evident in earlier exchanges.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 - ENGAGED EXPLORATION**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it makes me feel kind of torn, like I want to enjoy the moments with my friends but then I feel this heaviness when I think about my family.\"\n2. **Current Openness:** \"Sometimes I wonder if I\u2019m just fooling myself into thinking I can have both\u2014enjoying life while also dealing with these family issues. I don\u2019t know, I just feel really stuck in between.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a regular emotional expression and a significant level of self-reflection, indicating a willingness to delve deeper into their feelings and the conflicts they experience. The client articulates a sense of being \"torn\" and feeling \"stuck,\" which represents a progression from earlier stages where emotional vocabulary was minimal and responses were more factual. This current state reflects an increasing comfort with emotional disclosure, highlighting their internal struggle with family expectations versus personal enjoyment.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their feelings of being \"torn\" and \"stuck\" between the enjoyment of friendships and the heaviness of family dynamics. This moment marks a transition from earlier hesitance to a more open exploration of their emotional landscape, indicating a growing engagement with the therapist and the therapeutic process. The client's acknowledgment of the tightness in their chest suggests an increased awareness of their bodily sensations related to emotional stress, which is a vital step toward deeper self-reflection.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I can kind of feel the tension building up again when I think about focusing on family issues. It makes me a bit anxious, like there\u2019s this weight I\u2019d have to carry all over again.\"\n2. \"It\u2019s definitely a challenge to carry both the weight and the lightness at the same time. I guess I feel like I\u2019m juggling these two opposing feelings throughout the day.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing awareness of their emotional state, particularly the duality of feeling joy with friends and anxiety regarding family issues. They show improved engagement through the expression of complex emotions, moving beyond earlier, more simplistic responses characterized by hesitance and factual recounting of experiences. Their ability to articulate the struggle of managing conflicting feelings indicates a deeper level of self-reflection compared to the initial stages of the counseling process.\n\n**Turning Point:** The client's emotional depth appears to have shifted during the discussion about the tension associated with family dynamics. When they began expressing the metaphor of \"juggling these two opposing feelings,\" it highlighted a significant moment of self-awareness and vulnerability. This exchange marked a transition into deeper emotional processing, as the client recognized and articulated the impact of their family issues on their overall well-being.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"When the joy gets interrupted, I guess I tend to feel this wave of anxiety wash over me. It\u2019s like a sudden reminder of everything that's not okay in those family dynamics...\"\n2. **Current Openness:** \"I guess when I think about confronting those family issues, a mix of fear and frustration comes up. It feels scary to imagine how it might go, like what if it just makes everything worse?\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection compared to earlier parts of the session. They are articulating complex feelings surrounding family dynamics and their impact on their joy when with friends. This demonstrates a willingness to explore difficult emotions, such as anxiety, guilt, and fear, suggesting a gradual warming up to deeper emotional exploration.\n\n**Turning Point:** A significant shift in the client\u2019s emotional depth occurred when they began to articulate the duality of their experiences\u2014describing the \"emotional rollercoaster\" of joy and anxiety, and reflecting on feelings of guilt over enjoying time with friends while grappling with family chaos. This moment marked a transition from more factual responses to a richer emotional disclosure, showcasing their struggle and prompting deeper self-reflection on how these family dynamics affect their overall emotional state.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State**: \"I guess when I think about confronting those family issues, a mix of fear and frustration comes up. It feels scary to imagine how it might go, like what if it just makes everything worse?\"\n2. **Current Openness**: \"I guess it\u2019s kind of comforting to think about holding space for both feelings, like it\u2019s okay to have that fear and still want to address things.\"\n\n**Progression**: The client has demonstrated a significant shift in emotional openness compared to earlier interactions. Initially, their responses were more factual and lacked emotional depth. However, in these recent exchanges, the client articulates a clear emotional conflict regarding their family issues, expressing feelings of fear and frustration. They are also beginning to engage more deeply, exploring the complexity of their emotions rather than avoiding them.\n\n**Turning Point**: The turning point appears to be when the client began to acknowledge their physical reactions (tension in shoulders, racing heart) while contemplating family confrontation. This moment of self-awareness marked a shift from simply experiencing anxiety to actively reflecting on it, indicating a willingness to explore their emotional state more fully. The client\u2019s recognition that \"it\u2019s okay to have that fear and still want to address things\" is also a significant step towards integrating their emotional experiences and fostering clarity, demonstrating growth in their self-reflection depth.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Client's Emotional State:** \"I think a lot of the worries come to the forefront, honestly. I mean, I can kind of get excited about the idea of finally sharing what\u2019s been on my mind, but then I just start imagining all the ways it could go wrong.\"\n   \n2. **Current Openness:** \"Maybe starting with a small conversation could be a way to ease into it? Like, I could maybe just share how I\u2019ve been feeling without diving into anything too heavy.\"\n\n**Progression:**\nThe client\u2019s most recent interactions illustrate a growing comfort with expressing their emotional state, as seen in their acknowledgment of the mixed feelings of excitement and anxiety regarding future conversations. This indicates a significant shift from earlier in the session, where responses were more guarded and less emotionally expressive. The client is beginning to articulate their internal conflicts with greater depth, showing a blend of apprehension and a desire for emotional honesty.\n\n**Turning Point:**\nA notable turning point occurred when the client expressed a desire to \"hold space for both feelings,\" acknowledging the complexity of their emotions rather than dismissing one in favor of the other. This moment marked a shift towards deeper self-reflection, revealing an increased willingness to explore their emotional landscape and consider actionable steps\u2014such as starting with a small conversation. This illustrates a movement towards a more engaged exploration of their feelings, highlighting their emotional depth and desire for clarity amidst their fears.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I think a lot of the worries come to the forefront, honestly. I mean, I can kind of get excited about the idea of finally sharing what\u2019s been on my mind, but then I just start imagining all the ways it could go wrong.\"\n  \n2. \"Part of me gets that it\u2019s okay to feel both things, but it\u2019s hard to really accept that. I don\u2019t want to let the fear completely dictate my actions, but it\u2019s just so loud in my mind.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a clear movement toward deeper emotional expression and self-reflection, indicating a significant change from earlier exchanges. Initially, the client demonstrated a tendency to stay on the surface with factual responses and minimal emotional vocabulary. However, in the latest exchanges, they articulate a mix of excitement and anxiety, showing an increased willingness to explore their feelings. The tension between wanting to share and the fear of negative outcomes highlights a deeper level of emotional complexity, which marks a notable progression in their engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the recent dialogue when they began to articulate their internal conflict about wanting to express themselves while grappling with fears stemming from past experiences. This moment of vulnerability, where they identified the overwhelming nature of their worries and the history of negative reactions from family, illustrates a crucial step in their emotional openness. They are not just acknowledging their feelings but also reflecting on the reasons behind their anxiety, which is a movement towards deeper self-awareness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**  \n\n**Key Examples:**\n- \"I guess there are definitely moments when I feel that anxiety spike, like when I think about past conversations that didn\u2019t go well. It\u2019s almost like I can replay those scenarios in my mind, and it makes me want to avoid similar situations altogether.\"\n- \"I think when I replay those moments, I can feel this tightness in my chest, like I'm being squeezed or something. And my palms get sweaty, which just adds to that anxious feeling.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable willingness to delve into their emotional experiences, particularly regarding their anxiety triggered by past conversations. This marks a significant change from earlier interactions, where emotional expression was more limited and centered around factual responses. The client is now increasingly articulating their feelings, recognizing physiological sensations tied to their emotions, and reflecting on their internal struggles, indicating a deeper engagement in the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to explicitly describe their physical reactions to anxiety\u2014specifically, the tightness in their chest and the desire to retreat. This moment marked a transition from a more defensive stance to a willingness to explore their feelings and acknowledge the interplay between their physical sensations and emotional state, highlighting a deeper level of self-reflection and vulnerability.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess when I feel that tension, it really drains my energy. I can end up feeling kind of irritable or on edge, and it\u2019s like I\u2019m stuck in my own head a lot.\"\n2. \"I can think of a recent conversation with my sister where I really wanted to share something important, but I ended up just skirting around the topic... it\u2019s frustrating because I know she cares, but that fear of being vulnerable just keeps creeping in.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a noticeable increase in emotional expression and self-reflection. They articulate the draining effects of their anxiety and internal conflict, showing a growing awareness of how these feelings impact their energy and relationships. This progression marks a significant change from earlier exchanges, where emotional vocabulary was limited and disclosures were minimal. The client is beginning to engage more openly with their feelings, indicating that they are moving towards a more engaged exploration phase.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to express their fears surrounding vulnerability in the conversation with their sister. This moment of self-reflection, where they recognized their desire to connect contrasted with their fear of how it might change their sister's perception, marked a pivotal transition in their emotional openness. It demonstrates their willingness to confront these complex feelings, which adds layers to their emotional state and represents a movement toward deeper engagement with their experiences.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess what stood out was how I could feel myself holding back, even though I knew she\u2019d probably be supportive. It\u2019s like I felt this pressure to keep things light and not burden her with my worries.\"\n2. \"When I think about being open with her, I feel this mix of anxiety and a little bit of hope. There\u2019s definitely that tightness in my chest, like I\u2019m afraid of what she might think or how she might react.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a notable increase in emotional depth and self-reflection compared to earlier exchanges. They demonstrate an awareness of their internal conflict regarding vulnerability and connection, engaging in dialogue that reveals anxiety intertwined with a desire for openness. This shift indicates a movement from a more guarded stance to a willingness to explore deeper emotional experiences.\n\n**Turning Point:** The client's emotional depth shifted significantly during the recent exchange where they articulated the specific feelings of anxiety and hope associated with being open with their sister. This moment of self-disclosure not only highlighted their internal struggle but also illustrated a readiness to engage in the therapeutic process. The acknowledgment of the physical sensations accompanying their emotions (tightness in the chest) further indicates a deeper level of self-awareness that was not as evident in earlier parts of the session.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I guess when I feel that release, it\u2019s like I\u2019m just letting go of the pressure to be perfect or to keep everything light all the time. There\u2019s a sense of freedom in being honest, even if it\u2019s just for a moment.\"\n2. \"When I think about those questions, I can feel that tightness in my chest again, almost like a weight pressing down. It\u2019s different from when I\u2019m allowing myself to lean into the possibility of connection. In those moments, I feel a bit more open, like I can breathe easier.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a significant emotional depth and a willingness to explore feelings of relief and tension related to their desire for connection. This marks a notable change from earlier in the session, where emotional expression was limited and primarily factual. The client's ability to articulate the contrast between feelings of lightness and the heaviness of worry indicates a substantial shift toward deeper self-reflection and engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing both the relief and fear associated with opening up. This change was evident when they described the feeling of pressure to be perfect and how releasing that pressure allowed for moments of authentic connection. The acknowledgment of their physical sensations tied to emotional states is a clear reflection of deeper engagement and vulnerability, signifying a stronger therapeutic alliance and an increasing comfort level in sharing these experiences.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. *\u201cWhen I think about those questions, I can feel that tightness in my chest again, almost like a weight pressing down. It\u2019s different from when I\u2019m allowing myself to lean into the possibility of connection. In those moments, I feel a bit more open, like I can breathe easier.\u201d*\n2. *\u201cI think if I were to face that judgment or dismissal, I\u2019d probably feel that familiar wave of anxiety wash over me, but part of me also thinks I could stand my ground a bit more. I might remind myself that my feelings are valid, regardless of how others perceive them.\u201d*\n\n**Progression:** The client\u2019s most recent interactions illustrate a clear shift towards deeper emotional expression and self-reflection. They are articulating their feelings with greater clarity, recognizing the physical sensations associated with their emotional states, and showing an ability to lean into vulnerability. This marks a significant change from earlier exchanges where the client displayed more factual and guarded responses, indicating they are increasingly comfortable exploring their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during their reflection on the worst-case scenario of being judged or dismissed. At this moment, they began to acknowledge the dichotomy between their fears and the positive outcomes of past openness. This realization highlighted their capacity for resilience and willingness to embrace both vulnerability and strength, fostering a more profound connection with the therapist and themselves.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 29,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 29,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their catastrophic thoughts about potential rejection and disappointment.",
+      "reasoning": "The client is oscillating between hope for connection and fear of disappointment, indicating a tendency to imagine worst-case scenarios. Decatastrophizing can help the client recognize that while their fears feel overwhelming, they may not reflect reality, allowing for a more balanced perspective.",
+      "suggestion": [
+        "Can you identify a specific worst-case scenario that you fear might happen if you open up more?",
+        "What evidence do you have that supports that fear, and what evidence contradicts it?",
+        "How likely do you think it is that this worst-case scenario will actually come true?",
+        "If that scenario did happen, what would you do to cope or manage the outcome?",
+        "Can you think of a time when a feared outcome didn't come to pass? How did you feel afterward?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Blaise, I\u2019m glad you\u2019re here today. What\u2019s been on your mind lately that feels important for us to explore together?",
+      "client": "I don\u2019t know. It just feels like the same stuff keeps coming up, like my dad trying to win over my aunt or whatever. It\u2019s just frustrating to see.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "Seeing the same patterns repeat can be really frustrating. It sounds like this situation with your dad and aunt is weighing on you. Can you share more about what you feel when you see that dynamic play out?",
+      "client": "I don\u2019t really think about it like that. It\u2019s just annoying to watch, you know? My dad always seems to need her approval, and it feels like a never-ending cycle. I mean, that\u2019s just how things are with him.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \u201cIt\u2019s just annoying to watch, you know? My dad always seems to need her approval, and it feels like a never-ending cycle.\u201d\n2. Therapist: \u201cIt sounds like you\u2019re feeling helpless in witnessing that dynamic. What does that feeling evoke within you when you think about it more deeply?\u201d\n\n**Progression:**\nThe client's most recent interactions reveal a noticeable increase in emotional expression and self-reflection, as they articulate feelings of frustration and annoyance regarding their father's behavior. This marks a significant change from earlier responses, which were more factual and defensive in nature. The current dialogue indicates that the client is beginning to explore their emotional landscape with greater depth, particularly concerning familial relationships.\n\n**Turning Point:**\nThe client\u2019s emotional depth appears to have shifted during the current session when they began expressing feelings of frustration and recognizing a deeper pattern in their father\u2019s behavior. This self-awareness indicates a step towards exploring not only the dynamics at play but also their emotional impact, suggesting a willingness to engage more meaningfully in therapy. The transition from factual recounting of events to expressing annoyance and identifying feelings demonstrates a growing comfort with the therapeutic process and a developing rapport with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "Watching that dynamic unfold sounds really irritating for you. It seems like you\u2019re noticing a pattern that feels stuck, especially with your dad's need for approval. When you think about this cycle and how it affects you, do you notice any specific feelings or reactions that come up in those moments?",
+      "client": "I guess I feel a mix of frustration and, I don\u2019t know, maybe a little sadness? It\u2019s like I want to shake him out of it, but then I also feel anxious because I think about my own need for approval sometimes. I see him seeking it, and it makes me wonder if I'm doing the same thing, which is kind of scary. It\u2019s hard to separate my feelings from his, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "It's interesting how those feelings of frustration and sadness intertwine for you, especially as you reflect on your dad's need for approval and your own. It sounds like witnessing his behavior brings up a lot for you, particularly around your own experiences and anxieties. When those thoughts about seeking approval come to mind, do you notice any physical sensations or changes in your body that accompany those emotions?",
+      "client": "I don\u2019t know if I really pay attention to that. Maybe I feel a bit tense, like I\u2019m holding my breath or something. It\u2019s almost like my chest gets tight, especially when I think about how much I want to be different from him, but I worry that I\u2019m not. I guess it\u2019s just a lot to process, and I\u2019m not sure how to sort through it all.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- Client: \"I guess I feel a mix of frustration and, I don\u2019t know, maybe a little sadness? It\u2019s like I want to shake him out of it, but then I also feel anxious because I think about my own need for approval sometimes.\"\n- Client: \"Maybe I feel a bit tense, like I\u2019m holding my breath or something. It\u2019s almost like my chest gets tight, especially when I think about how much I want to be different from him, but I worry that I\u2019m not.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional awareness and expression, marked by their acknowledgment of frustration and sadness regarding their father's behavior. From earlier in the session, where they displayed more factual and surface-level responses, they have progressed to a state where they are beginning to connect their feelings to their personal experiences and anxieties. This shift indicates a developing comfort with self-reflection and a willingness to explore deeper emotional layers.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during their admission of feeling \"a mix of frustration and sadness.\" This moment highlights their ability to identify and articulate complex emotions, revealing a significant progression from earlier exchanges where they were more hesitant and defensive. The client's reference to their physical sensations of tension also marks an important step in their self-awareness, suggesting they are beginning to engage in more profound emotional processing.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "There\u2019s quite a bit to unpack there with your feelings of tension and tightness in your chest as you think about wanting to be different from your dad. It sounds overwhelming, especially as you try to navigate those emotions and concerns about approval. Sometimes, just noticing those physical sensations can be a helpful step in understanding what's going on inside. \n\nAs you sit with that tension, what do you think it feels like to hold onto those worries about similarity and wanting to be different?",
+      "client": "I mean, it feels pretty heavy, to be honest. There\u2019s this part of me that wants to believe I can break away from that cycle, but then I get scared that I'm not strong enough to do it. It\u2019s like I\u2019m stuck between wanting to be my own person and feeling tied to the expectations and patterns in my family. I guess it just makes me anxious, thinking I might end up like him, even though I really don\u2019t want to.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "That heaviness you\u2019re feeling sounds really challenging, especially as you balance the desire to break free with the fear of being tied to those family patterns. It's understandable to feel anxious about the prospect of ending up in a similar place as your dad. There\u2019s a lot of weight in that struggle between wanting to assert your own identity and feeling those familial expectations pulling at you. \n\nAs you explore these feelings, can you think of a moment when you felt a little more like yourself, separate from those expectations? What was that experience like for you?",
+      "client": "I can kind of think of a few moments, I guess, like when I\u2019m with friends who really get me. It feels lighter, almost freeing, but then I also worry, like, am I just escaping? I mean, it\u2019s nice to feel accepted for who I am without all that pressure, but it doesn\u2019t last long before I get pulled back into those family dynamics. I don\u2019t know if I can ever really separate from them completely, and that makes me anxious again.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I mean, it feels pretty heavy, to be honest. There\u2019s this part of me that wants to believe I can break away from that cycle, but then I get scared that I'm not strong enough to do it. It\u2019s like I\u2019m stuck between wanting to be my own person and feeling tied to the expectations and patterns in my family.\"\n2. Client: \"I can kind of think of a few moments, I guess, like when I\u2019m with friends who really get me. It feels lighter, almost freeing, but then I also worry, like, am I just escaping?\"\n\n**Progression:** The client\u2019s most recent interactions reveal a deeper emotional engagement and acknowledgment of inner conflict, primarily around family dynamics and personal identity. Their use of phrases like \"heavy\" and \"stuck\" indicates a significant emotional depth compared to earlier exchanges, where they exhibited more factual and less emotionally charged responses. The client is beginning to articulate their feelings more vividly, suggesting they are moving beyond initial hesitance towards a more engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they responded to the therapist's exploration of their feelings about breaking away from family patterns. The moment they expressed feeling \"scared that I'm not strong enough to do it\" signifies a pivotal point where they began to confront their fears and anxieties more directly, demonstrating a willingness to delve into their vulnerabilities. This indicates a growing comfort with the therapeutic process and a stronger therapeutic alliance.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "Those moments with friends sound really special, where you feel accepted and free from the pressure of family dynamics. It\u2019s understandable to worry about whether those times are truly an escape, especially when you notice how quickly you can be drawn back into those familiar patterns. That push and pull between feeling lighter and then returning to anxiety seems really difficult to navigate.\n\nAs you reflect on those times with your friends, what do you notice about the feelings or thoughts that come up when you\u2019re in those lighter moments?",
+      "client": "I guess when I'm with my friends, I feel more relaxed, like I can just be myself without worrying about what anyone thinks. But then there's this nagging thought that maybe I\u2019m just avoiding the real issues by not dealing with my family. It\u2019s like, I want to enjoy those lighter moments, but I also feel guilty for stepping away from my family dynamics. I don\u2019t know, maybe I just get confused about what\u2019s truly healthy and what\u2019s just a temporary escape.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It sounds like those lighter moments with your friends bring you a sense of relaxation and authenticity, which is really valuable. Yet, I can see how the guilt and confusion about stepping away from family dynamics can cloud your enjoyment of those experiences. It\u2019s tough to balance wanting to be true to yourself while feeling the weight of family expectations.\n\nAs you think about that nagging thought of avoidance, do you notice any specific feelings or sensations in your body when these thoughts come up? What do you feel in those moments?",
+      "client": "I don\u2019t know if I pay much attention to that, honestly. I mean, I guess I sometimes feel a bit of tightness in my chest when I think about my family or the expectations, especially when I\u2019m having those lighter moments. It\u2019s like a reminder that I\u2019m not really free, you know? But then, when I'm with my friends and really enjoying myself, I feel more at ease. It's just hard to reconcile those two feelings, and I kind of just push through it.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess when I'm with my friends, I feel more relaxed, like I can just be myself without worrying about what anyone thinks. But then there's this nagging thought that maybe I\u2019m just avoiding the real issues by not dealing with my family.\"\n2. **Current Openness:** \"It\u2019s like a reminder that I\u2019m not really free, you know? But then, when I'm with my friends and really enjoying myself, I feel more at ease.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a mix of emotional expression and self-reflection, showcasing a more nuanced recognition of their feelings regarding family dynamics and personal identity. Previously, the client demonstrated a more factual and guarded approach, focusing primarily on surface-level responses. In contrast, the current exchanges reveal deeper emotional engagement as they begin to articulate complex feelings of guilt and confusion alongside moments of comfort with friends.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about their feelings of relaxation with friends juxtaposed with guilt over family expectations. This moment highlighted a growing self-awareness as they acknowledged the conflicting emotions and their physical sensations, marking a transition from primarily factual responses to a more reflective and emotionally nuanced dialogue. The acknowledgment of the tightness in their chest as a physical response to anxiety signals a deeper level of emotional engagement that was not as evident in earlier exchanges.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest when you think about your family and their expectations sounds like an important signal. That contrast between feeling at ease with your friends and the reminder of those family dynamics seems to create a real tension for you. It makes sense that you might want to push through those feelings rather than sit with them.\n\nWhen you think about those contrasting experiences\u2014being at ease with your friends versus the tightness related to family\u2014what do you feel arises in you? How does it affect your mood or how you engage with others?",
+      "client": "I guess it makes me feel kind of torn, like I want to enjoy the moments with my friends but then I feel this heaviness when I think about my family. It's frustrating because I want to be present with them and not feel guilty, but it\u2019s hard to shake that tightness. Sometimes I wonder if I\u2019m just fooling myself into thinking I can have both\u2014enjoying life while also dealing with these family issues. I don\u2019t know, I just feel really stuck in between.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Feeling torn between wanting to enjoy time with your friends and the heaviness that comes from family dynamics sounds really frustrating. It's understandable to feel stuck when those two parts of your life seem to pull you in different directions. That sense of being unable to reconcile enjoyment with guilt can make it hard to fully embrace either experience.\n\nAs you sit with that feeling of being caught in between, do you notice any particular thoughts or images that come to mind about what it would look like for you to have both\u2014enjoying life and addressing family issues?",
+      "client": "I don\u2019t know if I have a clear picture of what that would look like, honestly. I mean, part of me thinks it would be nice to find a balance, where I could be with my friends and still feel okay about my family situation. But then, I worry that if I focus too much on addressing those family issues, I might lose the joy I feel with my friends. It\u2019s like I\u2019m afraid that if I dig deeper into those family dynamics, it\u2019ll just drag me down more, you know? I guess I just keep going back and forth about it all.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 - ENGAGED EXPLORATION**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it makes me feel kind of torn, like I want to enjoy the moments with my friends but then I feel this heaviness when I think about my family.\"\n2. **Current Openness:** \"Sometimes I wonder if I\u2019m just fooling myself into thinking I can have both\u2014enjoying life while also dealing with these family issues. I don\u2019t know, I just feel really stuck in between.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a regular emotional expression and a significant level of self-reflection, indicating a willingness to delve deeper into their feelings and the conflicts they experience. The client articulates a sense of being \"torn\" and feeling \"stuck,\" which represents a progression from earlier stages where emotional vocabulary was minimal and responses were more factual. This current state reflects an increasing comfort with emotional disclosure, highlighting their internal struggle with family expectations versus personal enjoyment.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing their feelings of being \"torn\" and \"stuck\" between the enjoyment of friendships and the heaviness of family dynamics. This moment marks a transition from earlier hesitance to a more open exploration of their emotional landscape, indicating a growing engagement with the therapist and the therapeutic process. The client's acknowledgment of the tightness in their chest suggests an increased awareness of their bodily sensations related to emotional stress, which is a vital step toward deeper self-reflection.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a lot of uncertainty for you when it comes to finding that balance. The idea of digging deeper into family dynamics while risking the joy you feel with your friends creates a real push and pull. That back-and-forth can feel exhausting, especially when both aspects of your life are so important to you.\n\nAs you think about this ongoing struggle, what do you notice in your body or your emotions when you imagine focusing on those family issues versus just enjoying time with your friends?",
+      "client": "I can kind of feel the tension building up again when I think about focusing on family issues. It makes me a bit anxious, like there\u2019s this weight I\u2019d have to carry all over again. But when I think about just enjoying time with my friends, it feels lighter, like I can breathe a little easier. It\u2019s just hard because I know I can\u2019t ignore my family completely, but I also don\u2019t want to lose that sense of joy and freedom when I'm with my friends. It\u2019s a tough spot to be in, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Noticing that tension building when you think about family issues sounds quite heavy, especially when you also feel that lightness with your friends. It\u2019s clear that each experience brings up different sensations and emotions for you. The weight of family dynamics can feel overwhelming, while the time with friends seems to offer a breath of fresh air. \n\nAs you navigate this tough spot, can you reflect on what it feels like to carry both of those experiences\u2014 the weight and the lightness\u2014 at the same time? How does that duality show up for you throughout your day?",
+      "client": "It\u2019s definitely a challenge to carry both the weight and the lightness at the same time. I guess I feel like I\u2019m juggling these two opposing feelings throughout the day. Sometimes, I might be having a good time with friends, and then a thought about family will just pop into my head and it\u2019s like, bam\u2014there goes the joy. I try to shake it off, but it lingers, you know? \n\nWhen I'm with my family, it\u2019s almost like I can\u2019t relax fully because I\u2019m thinking about how I should feel or act, which is exhausting. I mean, it\u2019s like being on this emotional rollercoaster where one minute I\u2019m fine, and the next, I\u2019m just anxious and tense. It\u2019s hard to find that middle ground, and part of me wonders if I\u2019m ever going to figure it out.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I can kind of feel the tension building up again when I think about focusing on family issues. It makes me a bit anxious, like there\u2019s this weight I\u2019d have to carry all over again.\"\n2. \"It\u2019s definitely a challenge to carry both the weight and the lightness at the same time. I guess I feel like I\u2019m juggling these two opposing feelings throughout the day.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing awareness of their emotional state, particularly the duality of feeling joy with friends and anxiety regarding family issues. They show improved engagement through the expression of complex emotions, moving beyond earlier, more simplistic responses characterized by hesitance and factual recounting of experiences. Their ability to articulate the struggle of managing conflicting feelings indicates a deeper level of self-reflection compared to the initial stages of the counseling process.\n\n**Turning Point:** The client's emotional depth appears to have shifted during the discussion about the tension associated with family dynamics. When they began expressing the metaphor of \"juggling these two opposing feelings,\" it highlighted a significant moment of self-awareness and vulnerability. This exchange marked a transition into deeper emotional processing, as the client recognized and articulated the impact of their family issues on their overall well-being.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That emotional rollercoaster you\u2019re describing sounds really draining. It seems like those unexpected thoughts about family can disrupt your enjoyment, pulling you back into that weighty feeling. Being with your family and feeling like you can\u2019t fully relax adds another layer of difficulty. \n\nAs you reflect on this juggling act throughout your day, what do you notice about how you respond in those moments when the joy gets interrupted? Are there any particular thoughts or feelings that come up in those situations that stand out to you?",
+      "client": "When the joy gets interrupted, I guess I tend to feel this wave of anxiety wash over me. It\u2019s like a sudden reminder of everything that's not okay in those family dynamics, and I start questioning myself. I don\u2019t know if I\u2019m making a big deal out of it or if it\u2019s valid to feel that way. Sometimes I just try to push those thoughts away, but they keep creeping back in, making me feel tense and uneasy.\n\nI can kind of see that I end up feeling guilty for enjoying time with friends when my family situation is so chaotic. It\u2019s frustrating because I want to be able to enjoy myself without that nagging feeling in the back of my mind. I mean, I wonder if I should just try to confront those family issues more directly, but then I get scared about how it might go.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Guilt seems to weigh heavily when you're trying to enjoy time with friends, especially with the chaos of your family situation lingering in the background. It\u2019s understandable to feel torn between wanting to enjoy those moments and feeling like you should be addressing the family dynamics. The anxiety and tension that come up when those thoughts creep in can be really difficult to manage.\n\nWhen you think about confronting those family issues more directly, what emotions does that bring up for you? Does it feel more like fear, frustration, or something else? Exploring that could help clarify what you're experiencing.",
+      "client": "I guess when I think about confronting those family issues, a mix of fear and frustration comes up. It feels scary to imagine how it might go, like what if it just makes everything worse? I don\u2019t want to create more chaos, but at the same time, I feel this urge to say something. It\u2019s like I\u2019m stuck between wanting to address it and being terrified of the fallout. I mean, part of me thinks it could help, but another part is just really worried about how they\u2019ll react. It\u2019s hard to know if I\u2019d even be able to handle it if it didn\u2019t go well.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"When the joy gets interrupted, I guess I tend to feel this wave of anxiety wash over me. It\u2019s like a sudden reminder of everything that's not okay in those family dynamics...\"\n2. **Current Openness:** \"I guess when I think about confronting those family issues, a mix of fear and frustration comes up. It feels scary to imagine how it might go, like what if it just makes everything worse?\"\n\n**Progression:** The client\u2019s most recent interactions indicate a notable increase in emotional expression and self-reflection compared to earlier parts of the session. They are articulating complex feelings surrounding family dynamics and their impact on their joy when with friends. This demonstrates a willingness to explore difficult emotions, such as anxiety, guilt, and fear, suggesting a gradual warming up to deeper emotional exploration.\n\n**Turning Point:** A significant shift in the client\u2019s emotional depth occurred when they began to articulate the duality of their experiences\u2014describing the \"emotional rollercoaster\" of joy and anxiety, and reflecting on feelings of guilt over enjoying time with friends while grappling with family chaos. This moment marked a transition from more factual responses to a richer emotional disclosure, showcasing their struggle and prompting deeper self-reflection on how these family dynamics affect their overall emotional state.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Feeling that mix of fear and frustration around confronting family issues really highlights the complexity of your situation. It\u2019s understandable to want to address what\u2019s bothering you while also fearing the potential fallout. That tug-of-war you describe\u2014wanting to speak up but being worried about how it might escalate\u2014can leave you feeling quite stuck.\n\nAs you sit with those feelings, what do you notice in your body when you think about taking that step? Are there any physical sensations or changes you can sense that might give you more insight into how you\u2019re feeling?",
+      "client": "I don\u2019t know if I really pay attention to my body when I think about confronting them. But I guess if I tune in, I notice my shoulders getting tense and my heart racing a bit. It\u2019s like this physical reaction that matches the anxiety in my head. I mean, it\u2019s a clear sign that I feel on edge, but I\u2019m not always sure how to manage that. \n\nMaybe I\u2019m just scared to acknowledge it fully because it feels overwhelming. I kind of wish I could just brush it off and be brave, but it feels so complicated, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Acknowledging those physical sensations of tension in your shoulders and the racing heart can be quite revealing. It\u2019s interesting how your body seems to respond to those thoughts about confrontation, reflecting the anxiety you\u2019re feeling. Wanting to be brave while also feeling overwhelmed by the complexity of the situation is a struggle many people face.\n\nTaking a moment to sit with that complication can be helpful. What do you think it might be like to hold space for both the fear and the desire to speak up? How does that idea resonate with you?",
+      "client": "I guess it\u2019s kind of comforting to think about holding space for both feelings, like it\u2019s okay to have that fear and still want to address things. It makes sense that I don\u2019t have to choose one over the other, but actually doing that feels tough. Part of me wonders if it would just make things messier, but another part thinks maybe it could lead to some clarity. \n\nI\u2019m just not sure how to balance that out or if I\u2019m ready to really face both sides. Maybe I should just take it one step at a time or something. It feels like I\u2019m just walking a tightrope between wanting to be honest and fearing the chaos it might bring.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State**: \"I guess when I think about confronting those family issues, a mix of fear and frustration comes up. It feels scary to imagine how it might go, like what if it just makes everything worse?\"\n2. **Current Openness**: \"I guess it\u2019s kind of comforting to think about holding space for both feelings, like it\u2019s okay to have that fear and still want to address things.\"\n\n**Progression**: The client has demonstrated a significant shift in emotional openness compared to earlier interactions. Initially, their responses were more factual and lacked emotional depth. However, in these recent exchanges, the client articulates a clear emotional conflict regarding their family issues, expressing feelings of fear and frustration. They are also beginning to engage more deeply, exploring the complexity of their emotions rather than avoiding them.\n\n**Turning Point**: The turning point appears to be when the client began to acknowledge their physical reactions (tension in shoulders, racing heart) while contemplating family confrontation. This moment of self-awareness marked a shift from simply experiencing anxiety to actively reflecting on it, indicating a willingness to explore their emotional state more fully. The client\u2019s recognition that \"it\u2019s okay to have that fear and still want to address things\" is also a significant step towards integrating their emotional experiences and fostering clarity, demonstrating growth in their self-reflection depth.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It\u2019s really interesting to hear how holding space for both your fear and your desire to address things feels comforting, even if acting on that idea remains challenging. Balancing those feelings can seem like a tightrope walk, especially when there\u2019s a sense of potential chaos lurking. \n\nTaking it one step at a time sounds like a thoughtful approach. As you think about that tightrope, what might be a small, manageable step you could take that feels a bit less overwhelming?",
+      "client": "I mean, maybe starting with a small conversation could be a way to ease into it? Like, I could maybe just share how I\u2019ve been feeling without diving into anything too heavy. I guess I worry that even that might not go well, but it feels a bit less daunting than a full-on confrontation. \n\nIt\u2019s hard to think about how to approach it without feeling like I\u2019m setting myself up for more tension, but maybe if I just focus on expressing my feelings, that could be a first step? I don\u2019t know, it\u2019s kind of a mix of hope and anxiety thinking about it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Starting with a small conversation sounds like a thoughtful way to ease into addressing your feelings. It makes sense that sharing your experience without jumping into the deeper issues might feel more manageable. Balancing that mix of hope and anxiety can be quite the challenge, especially when you\u2019re considering how it might be received. \n\nAs you imagine what that initial conversation might look like, what feelings or thoughts come up for you? Do you find yourself leaning more towards excitement about sharing, or do the worries take the forefront?",
+      "client": "I think a lot of the worries come to the forefront, honestly. I mean, I can kind of get excited about the idea of finally sharing what\u2019s been on my mind, but then I just start imagining all the ways it could go wrong. Like, what if they don\u2019t understand me or just brush off my feelings? That really terrifies me. \n\nPart of me knows it\u2019s important to express myself, but then there\u2019s this nagging fear that it\u2019ll just lead to more tension or conflict. It\u2019s hard to shake that feeling of maybe being judged or not being taken seriously. I don\u2019t know, I guess I just hope it won\u2019t turn into something bigger than I can handle.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Client's Emotional State:** \"I think a lot of the worries come to the forefront, honestly. I mean, I can kind of get excited about the idea of finally sharing what\u2019s been on my mind, but then I just start imagining all the ways it could go wrong.\"\n   \n2. **Current Openness:** \"Maybe starting with a small conversation could be a way to ease into it? Like, I could maybe just share how I\u2019ve been feeling without diving into anything too heavy.\"\n\n**Progression:**\nThe client\u2019s most recent interactions illustrate a growing comfort with expressing their emotional state, as seen in their acknowledgment of the mixed feelings of excitement and anxiety regarding future conversations. This indicates a significant shift from earlier in the session, where responses were more guarded and less emotionally expressive. The client is beginning to articulate their internal conflicts with greater depth, showing a blend of apprehension and a desire for emotional honesty.\n\n**Turning Point:**\nA notable turning point occurred when the client expressed a desire to \"hold space for both feelings,\" acknowledging the complexity of their emotions rather than dismissing one in favor of the other. This moment marked a shift towards deeper self-reflection, revealing an increased willingness to explore their emotional landscape and consider actionable steps\u2014such as starting with a small conversation. This illustrates a movement towards a more engaged exploration of their feelings, highlighting their emotional depth and desire for clarity amidst their fears.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Imagining all the ways things could go wrong is understandably overwhelming, especially when you care about being understood and taken seriously. That fear of judgment and the potential for increased tension can really amplify the anxiety around sharing your feelings. It's clear that expressing yourself feels important to you, but the fear of what might come next complicates that desire. \n\nAs you sit with these feelings, how does it feel to acknowledge both the excitement of sharing and the worries about the outcome? What stands out to you in that tension?",
+      "client": "It\u2019s kind of a weird mix, honestly. I mean, acknowledging that excitement feels nice, but then it\u2019s almost like the worries overshadow it. I guess it\u2019s just frustrating because I want to be open and honest, but then I spiral into thinking about all the potential negative outcomes. \n\nPart of me gets that it\u2019s okay to feel both things, but it\u2019s hard to really accept that. I don\u2019t want to let the fear completely dictate my actions, but it\u2019s just so loud in my mind. It feels like I\u2019m stuck between wanting to move forward and being held back by that anxiety.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Noticing that mix of feelings can be quite complex, especially when the worries seem to overshadow the excitement. It\u2019s understandable to feel frustrated when you want to be open but find yourself spiraling into those negative outcomes. It sounds like there\u2019s a part of you that recognizes both your desire to move forward and the grip of that anxiety. \n\nAs you think about this push and pull between wanting to express yourself and feeling held back, are there specific moments or thoughts that seem to amplify that anxiety for you?",
+      "client": "I guess there are definitely moments when I feel that anxiety spike, like when I think about past conversations that didn\u2019t go well. It\u2019s almost like I can replay those scenarios in my mind, and it makes me want to avoid similar situations altogether. \n\nSometimes, just the thought of bringing up my feelings makes my heart race, and I'm hit with this wave of what-if scenarios. I mean, it's like I can picture my parents reacting in ways that make me feel small or invalidated, and that scares me a lot. So, I kind of end up feeling stuck in that cycle of wanting to speak up but being held back by all those fears.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I think a lot of the worries come to the forefront, honestly. I mean, I can kind of get excited about the idea of finally sharing what\u2019s been on my mind, but then I just start imagining all the ways it could go wrong.\"\n  \n2. \"Part of me gets that it\u2019s okay to feel both things, but it\u2019s hard to really accept that. I don\u2019t want to let the fear completely dictate my actions, but it\u2019s just so loud in my mind.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a clear movement toward deeper emotional expression and self-reflection, indicating a significant change from earlier exchanges. Initially, the client demonstrated a tendency to stay on the surface with factual responses and minimal emotional vocabulary. However, in the latest exchanges, they articulate a mix of excitement and anxiety, showing an increased willingness to explore their feelings. The tension between wanting to share and the fear of negative outcomes highlights a deeper level of emotional complexity, which marks a notable progression in their engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the recent dialogue when they began to articulate their internal conflict about wanting to express themselves while grappling with fears stemming from past experiences. This moment of vulnerability, where they identified the overwhelming nature of their worries and the history of negative reactions from family, illustrates a crucial step in their emotional openness. They are not just acknowledging their feelings but also reflecting on the reasons behind their anxiety, which is a movement towards deeper self-awareness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Replaying past conversations can certainly create a strong emotional reaction, especially when those memories evoke feelings of being small or invalidated. It's understandable that those scenarios would lead to a rush of anxiety and a desire to avoid similar situations. That cycle of wanting to express yourself but feeling held back can be really challenging.\n\nAs you reflect on those specific moments when your heart races and the what-if scenarios flood in, what do you notice happening in your body? Are there certain sensations or feelings that stand out when you think about those past experiences?",
+      "client": "I think when I replay those moments, I can feel this tightness in my chest, like I'm being squeezed or something. And my palms get sweaty, which just adds to that anxious feeling. It\u2019s almost like my body knows something isn\u2019t right, and I get this urge to pull away or just not engage. I can kind of feel that wave of heat rising, especially when I think about how my parents might respond. \n\nIt\u2019s frustrating because I know those physical reactions are tied to my fear, but I still feel like I can't fully control it. Part of me wants to push through, but then there\u2019s this other part that just wants to retreat and avoid that discomfort altogether.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Feeling that tightness in your chest and the heat rising as you think about these past experiences sounds really intense. It seems like your body is responding in a way that reflects the fear and anxiety you're feeling, which can be quite overwhelming. That struggle between wanting to push through and the urge to retreat is something many people can relate to, especially when faced with discomfort.\n\nAs you sit with those sensations, what do you think it would feel like to acknowledge them without having to act on them right away? How might that shift your experience in those moments?",
+      "client": "I mean, maybe acknowledging those feelings without acting on them could help\u2026 but I don\u2019t know if it's that simple. Part of me worries that if I just sit with the discomfort, it\u2019ll just get worse or consume me. It\u2019s like I can imagine trying to breathe through it, but then that anxious voice in my head is saying, \"What if you can\u2019t handle it?\" \n\nI guess there\u2019s this fear that acknowledging those sensations might make them more real, and I\u2019m not sure I\u2019m ready for that. It feels like a balancing act between wanting to confront those feelings and just wanting to avoid them entirely.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**  \n\n**Key Examples:**\n- \"I guess there are definitely moments when I feel that anxiety spike, like when I think about past conversations that didn\u2019t go well. It\u2019s almost like I can replay those scenarios in my mind, and it makes me want to avoid similar situations altogether.\"\n- \"I think when I replay those moments, I can feel this tightness in my chest, like I'm being squeezed or something. And my palms get sweaty, which just adds to that anxious feeling.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable willingness to delve into their emotional experiences, particularly regarding their anxiety triggered by past conversations. This marks a significant change from earlier interactions, where emotional expression was more limited and centered around factual responses. The client is now increasingly articulating their feelings, recognizing physiological sensations tied to their emotions, and reflecting on their internal struggles, indicating a deeper engagement in the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they began to explicitly describe their physical reactions to anxiety\u2014specifically, the tightness in their chest and the desire to retreat. This moment marked a transition from a more defensive stance to a willingness to explore their feelings and acknowledge the interplay between their physical sensations and emotional state, highlighting a deeper level of self-reflection and vulnerability.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It makes sense to feel hesitant about acknowledging those sensations, especially when there's a fear that doing so could intensify them. That balancing act can be really tough, and it's okay to feel uncertain about how to approach it. It sounds like there's a part of you that wants to face those feelings, while another part is concerned about the potential overwhelm.\n\nIf you think about those moments when you feel caught between confronting and avoiding, what do you notice about how that tension affects you overall? How does it shape your day-to-day experience or the way you interact with others?",
+      "client": "I guess when I feel that tension, it really drains my energy. I can end up feeling kind of irritable or on edge, and it\u2019s like I\u2019m stuck in my own head a lot. I want to engage with people, but then I worry about how they might react, and that makes me pull back. \n\nSometimes, I feel like I\u2019m just going through the motions in conversations, not really being present because I\u2019m too focused on my own anxieties. It\u2019s frustrating because I know I want to connect with others, but that fear keeps me from really opening up. I don\u2019t know if that makes sense, but it\u2019s like I\u2019m caught in this loop where I want to be there, but I also want to protect myself from potential hurt.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "Feeling drained and irritable while wanting to connect with others really highlights that internal conflict you're experiencing. It\u2019s understandable that the focus on your anxieties can make it hard to be fully present in conversations. The loop of wanting to engage but also feeling the need to protect yourself is something many people navigate. \n\nWhen you think about those moments where you feel caught between wanting to be open and the urge to hold back, is there a specific interaction that comes to mind? What stands out to you about that experience?",
+      "client": "I can think of a recent conversation with my sister where I really wanted to share something important, but I ended up just skirting around the topic. I guess what stood out was how I could feel myself holding back, even though I knew she\u2019d probably be supportive. It\u2019s like I felt this pressure to keep things light and not burden her with my worries. \n\nPart of me wishes I could just be honest and open up, but then I worry that it might change how she sees me or make things awkward. It\u2019s frustrating because I know she cares, but that fear of being vulnerable just keeps creeping in, and I end up feeling like I missed an opportunity to connect.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess when I feel that tension, it really drains my energy. I can end up feeling kind of irritable or on edge, and it\u2019s like I\u2019m stuck in my own head a lot.\"\n2. \"I can think of a recent conversation with my sister where I really wanted to share something important, but I ended up just skirting around the topic... it\u2019s frustrating because I know she cares, but that fear of being vulnerable just keeps creeping in.\"\n\n**Progression:**\nThe client\u2019s recent interactions indicate a noticeable increase in emotional expression and self-reflection. They articulate the draining effects of their anxiety and internal conflict, showing a growing awareness of how these feelings impact their energy and relationships. This progression marks a significant change from earlier exchanges, where emotional vocabulary was limited and disclosures were minimal. The client is beginning to engage more openly with their feelings, indicating that they are moving towards a more engaged exploration phase.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began to express their fears surrounding vulnerability in the conversation with their sister. This moment of self-reflection, where they recognized their desire to connect contrasted with their fear of how it might change their sister's perception, marked a pivotal transition in their emotional openness. It demonstrates their willingness to confront these complex feelings, which adds layers to their emotional state and represents a movement toward deeper engagement with their experiences.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "That moment with your sister sounds really significant, and it's understandable to feel that pressure to keep things light, especially when you care about how someone might perceive you. The desire to open up, juxtaposed with the fear of being vulnerable, can create a heavy feeling of missing out on a deeper connection. \n\nAs you reflect on that experience, what do you notice about the emotions or sensations that arise when you think about being open with her? How do those feelings shift as you consider the possibility of sharing more honestly?",
+      "client": "When I think about being open with her, I feel this mix of anxiety and a little bit of hope. There\u2019s definitely that tightness in my chest, like I\u2019m afraid of what she might think or how she might react. But I also feel a tug towards wanting to share because I know it could bring us closer. \n\nSometimes, it feels like I just want to scream out everything I\u2019m holding back, but then I second-guess myself. I don\u2019t want to be a burden or make things uncomfortable. So, I guess those feelings kind of fluctuate between wanting to connect and fearing rejection. It\u2019s tough because I really value our relationship, and I want it to be more open, but that fear keeps pushing me away from it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "That fluctuation between wanting to connect and fearing rejection sounds really challenging, especially with someone you value so much. The tightness in your chest and the urge to scream out what you're holding back highlight just how intense that conflict can feel. It\u2019s clear that you recognize the potential for deeper connection, yet that fear can feel like a barrier. \n\nCan you think of a moment when you felt that hope for connection outweighing the fear? What was that like for you, and how did it feel in your body at that time?",
+      "client": "I don\u2019t know if I can pinpoint a specific moment, but I guess there are times when we\u2019ve had deep conversations, and I felt a little lighter afterward. It\u2019s like when I finally share something, I can feel that weight slowly lifting, and there\u2019s this relief, combined with excitement about the possibility of being more open. \n\nBut then, I also feel this fear creeping back in, like I\u2019m just setting myself up for disappointment. It\u2019s hard to describe, but in those moments, my body feels more relaxed, and I can actually laugh and engage, even if just for a little while. I think it\u2019s that back-and-forth that leaves me feeling a bit confused about what I really want.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess what stood out was how I could feel myself holding back, even though I knew she\u2019d probably be supportive. It\u2019s like I felt this pressure to keep things light and not burden her with my worries.\"\n2. \"When I think about being open with her, I feel this mix of anxiety and a little bit of hope. There\u2019s definitely that tightness in my chest, like I\u2019m afraid of what she might think or how she might react.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a notable increase in emotional depth and self-reflection compared to earlier exchanges. They demonstrate an awareness of their internal conflict regarding vulnerability and connection, engaging in dialogue that reveals anxiety intertwined with a desire for openness. This shift indicates a movement from a more guarded stance to a willingness to explore deeper emotional experiences.\n\n**Turning Point:** The client's emotional depth shifted significantly during the recent exchange where they articulated the specific feelings of anxiety and hope associated with being open with their sister. This moment of self-disclosure not only highlighted their internal struggle but also illustrated a readiness to engage in the therapeutic process. The acknowledgment of the physical sensations accompanying their emotions (tightness in the chest) further indicates a deeper level of self-awareness that was not as evident in earlier parts of the session.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "That mix of relief and excitement after sharing something important sounds like a powerful experience, especially when your body feels more relaxed and engaged in those moments. It makes sense that the fear of disappointment could complicate those feelings, leading to confusion about what you truly want. \n\nAs you think about those lighter moments where you felt a weight lift, what do you think allows you to feel that release? Are there particular thoughts or feelings that accompany those times when you\u2019re able to engage more openly?",
+      "client": "I guess when I feel that release, it\u2019s like I\u2019m just letting go of the pressure to be perfect or to keep everything light all the time. There\u2019s a sense of freedom in being honest, even if it\u2019s just for a moment. I think maybe my thoughts shift to focusing more on the connection itself rather than worrying about how I\u2019m being perceived. \n\nBut then, it\u2019s like I catch myself thinking, \u201cWhat if this doesn\u2019t go well?\u201d and that just brings back the tension. It\u2019s confusing, you know? I wonder if I\u2019m ever going to really break through that barrier and consistently feel that lightness. I don\u2019t want to get my hopes up too much.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "Letting go of the pressure to be perfect and focusing on the connection itself seems to create a moment of freedom for you, which is really significant. It's understandable that those \u201cwhat if\u201d thoughts can quickly bring back tension, making it difficult to navigate between hope and fear. \n\nAs you reflect on that barrier to consistently feeling lightness, how does it feel in your body when you entertain those questions of whether you'll break through? Is there a difference in how your body responds when you're leaning into the possibility of connection versus when you're caught in worry?",
+      "client": "When I think about those questions, I can feel that tightness in my chest again, almost like a weight pressing down. It\u2019s different from when I\u2019m allowing myself to lean into the possibility of connection. In those moments, I feel a bit more open, like I can breathe easier. \n\nBut then, when the worry kicks in, I notice my shoulders tend to tense up, and it\u2019s almost like I\u2019m bracing myself for something bad to happen. It\u2019s frustrating because I know there are times when I can feel lighter, but that fear seems to creep back in so easily. I guess it just leaves me feeling stuck, like I\u2019m oscillating between these two states.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I guess when I feel that release, it\u2019s like I\u2019m just letting go of the pressure to be perfect or to keep everything light all the time. There\u2019s a sense of freedom in being honest, even if it\u2019s just for a moment.\"\n2. \"When I think about those questions, I can feel that tightness in my chest again, almost like a weight pressing down. It\u2019s different from when I\u2019m allowing myself to lean into the possibility of connection. In those moments, I feel a bit more open, like I can breathe easier.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a significant emotional depth and a willingness to explore feelings of relief and tension related to their desire for connection. This marks a notable change from earlier in the session, where emotional expression was limited and primarily factual. The client's ability to articulate the contrast between feelings of lightness and the heaviness of worry indicates a substantial shift toward deeper self-reflection and engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began expressing both the relief and fear associated with opening up. This change was evident when they described the feeling of pressure to be perfect and how releasing that pressure allowed for moments of authentic connection. The acknowledgment of their physical sensations tied to emotional states is a clear reflection of deeper engagement and vulnerability, signifying a stronger therapeutic alliance and an increasing comfort level in sharing these experiences.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It sounds really exhausting to be caught between those two states\u2014feeling lighter when you lean into connection and then tensing up with worry. Can you identify a specific worst-case scenario that you fear might happen if you open up more? Once you think about it, let\u2019s explore together what evidence you have that supports that fear and what evidence might contradict it. How likely do you think it is that this worst-case scenario will actually come true? Reflecting on these questions might offer you some clarity and help you feel more grounded in your experiences.",
+      "client": "I can see that maybe the worst-case scenario I fear is being judged or dismissed, like my feelings don\u2019t matter at all. Part of me knows that it\u2019s a strong reaction, but I think it comes from those past experiences where my honesty was met with indifference or criticism. \n\nWhen I consider the evidence for that fear, I can recall moments where sharing my feelings didn\u2019t go well. However, I also realize there have been times when my openness led to understanding or even deeper connections. That feels a little uncomfortable, but not wrong to acknowledge. \n\nSo, when I weigh it all together, I think the likelihood of that worst-case scenario happening isn\u2019t as high as my mind tends to convince me. I\u2019m willing to look at that and explore what it might mean for me moving forward. It just feels like a back-and-forth dance in my mind.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that you\u2019re willing to explore the likelihood of that worst-case scenario. Acknowledging both the evidence for your fear and the moments of connection you\u2019ve experienced is a significant step. If that feared outcome of being judged or dismissed did happen, how do you think you would cope in that moment? Also, can you recall a time when you shared openly and the outcome was positive? Reflecting on those instances might help reinforce the possibility that your openness can lead to more connection, rather than just fear.",
+      "client": "I think if I were to face that judgment or dismissal, I\u2019d probably feel that familiar wave of anxiety wash over me, but part of me also thinks I could stand my ground a bit more. I might remind myself that my feelings are valid, regardless of how others perceive them. \n\nReflecting on times when I shared openly and had a positive outcome, I remember a conversation with a close friend where I expressed my struggles, and instead of dismissing me, they really listened and offered support. That connection felt so affirming, and it\u2019s moments like that which I want to hold on to. \n\nI can see now that while the fear is there, it doesn\u2019t have to dictate my actions or my worth. It\u2019s uncomfortable to sit with that uncertainty, but I\u2019m realizing that it\u2019s possible to be both vulnerable and resilient at the same time.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. *\u201cWhen I think about those questions, I can feel that tightness in my chest again, almost like a weight pressing down. It\u2019s different from when I\u2019m allowing myself to lean into the possibility of connection. In those moments, I feel a bit more open, like I can breathe easier.\u201d*\n2. *\u201cI think if I were to face that judgment or dismissal, I\u2019d probably feel that familiar wave of anxiety wash over me, but part of me also thinks I could stand my ground a bit more. I might remind myself that my feelings are valid, regardless of how others perceive them.\u201d*\n\n**Progression:** The client\u2019s most recent interactions illustrate a clear shift towards deeper emotional expression and self-reflection. They are articulating their feelings with greater clarity, recognizing the physical sensations associated with their emotional states, and showing an ability to lean into vulnerability. This marks a significant change from earlier exchanges where the client displayed more factual and guarded responses, indicating they are increasingly comfortable exploring their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during their reflection on the worst-case scenario of being judged or dismissed. At this moment, they began to acknowledge the dichotomy between their fears and the positive outcomes of past openness. This realization highlighted their capacity for resilience and willingness to embrace both vulnerability and strength, fostering a more profound connection with the therapist and themselves.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    }
+  ]
+}

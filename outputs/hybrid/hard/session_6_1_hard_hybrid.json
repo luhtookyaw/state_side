@@ -1,0 +1,377 @@
+{
+  "mode": "hard",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "6-1",
+  "patient_name": "Daisy",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI just feel like I have to prove that I can do this myself. Asking for help feels like admitting I'm not capable, you know?\u201d \n2. \u201cIt\u2019s annoying to think about those thoughts, but I don\u2019t want to dwell on it. I just need to figure out my own situation without dragging anyone else into it.\u201d\n\n**Progression:** The client\u2019s most recent interactions show a significant emotional quality characterized by frustration and self-reliance. While the client still expresses feelings of annoyance and pressure concerning their situation, there is a notable shift toward a willingness to articulate their inner struggles. Earlier in the session, they exhibited more defensive behaviors and a limited emotional vocabulary, focusing on factual expressions of their situation. Now, they are beginning to explore deeper feelings of inadequacy and the burden of self-expectation, indicating a movement towards greater emotional awareness.\n\n**Turning Point:** The client's emotional depth shifted notably in the latest exchange when they articulated their fear of needing help (\u201cAsking for help feels like admitting I'm not capable\u201d), signaling a deeper self-reflection and vulnerability. This moment marks a departure from purely defensive responses, as they confront their internal conflict regarding self-sufficiency and their fear of appearing incapable. The recognition and sharing of this fear represent a critical point in their emotional openness and rapport with the therapist, allowing for a more engaged exploration of their feelings moving forward.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess I start to feel really tense, like my shoulders get tight, and I might even get a bit short of breath.\"\n2. \"I was surprised at how quickly I spiraled into that feeling of failure... it felt like this internal dialogue was just screaming at me.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable shift towards deeper emotional engagement. They articulate their physical sensations linked to emotional states, indicating a growing awareness and connection between their body and feelings. The expression of tension and shortness of breath, along with the acknowledgment of feeling overwhelmed, showcases a move from primarily factual responses to more emotional expressions, marking significant progress from earlier stages where their disclosures were more surface-level and defensive.\n\n**Turning Point:** The client's emotional depth shifted during the discussion of their budgeting experience, particularly when they began to articulate their feelings of failure and disappointment. This moment reflects a growing willingness to explore their internal conflicts and emotions, which is a key aspect of their development in the therapeutic process. The transition into recognizing their internal dialogue and the pressure they put on themselves signifies a deeper level of self-reflection and engagement with their emotional experiences.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I notice a lot of anxiety bubbling up when I think about those moments, especially when I\u2019m trying to handle everything on my own.\"\n2. **Current Openness:** \"Part of me thinks it would be nice to just give myself a break and accept that it's okay to struggle.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a substantial shift from earlier exchanges where emotional depth was less pronounced. Previously, the client displayed more factual responses with limited emotional articulation. Now, they are articulating specific feelings of anxiety and overwhelm, which suggests a growing comfort in sharing emotional experiences. The client is gradually moving beyond surface-level responses, allowing for more meaningful dialogue about their feelings and experiences.\n\n**Turning Point:** The client\u2019s emotional depth notably shifted when they began to articulate their internal conflict regarding the fear of seeking help versus the pressure of self-reliance. This moment is significant because it reveals their willingness to explore feelings of inadequacy and anxiety in a more profound way, marking a departure from their earlier hesitance to engage with these emotions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3** \n\n**Key Examples:**\n1. \"I guess acknowledging my efforts feels kind of risky. Like, if I start to celebrate small wins, maybe that means I\u2019m letting my guard down...\"\n2. \"It feels silly to even mention them. I guess I could try to acknowledge something, but then it\u2019s like, what if I just end up feeling more pressure to keep doing better?\"\n\n**Progression:** The client\u2019s most recent interactions show a notable emergence of emotional expression as they grapple with the tension between recognizing their achievements and the fear of complacency. This indicates growth from earlier exchanges, where emotional depth was more limited. In the current dialogue, the client is starting to articulate their inner conflict about self-acknowledgment, showcasing a shift from a more defensive posture to a willingness to explore their feelings, albeit cautiously.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the difficulty in recognizing even small achievements, which they previously deemed \"silly.\" This moment highlights their willingness to engage in self-reflection, suggesting they are beginning to explore their vulnerabilities more openly than at the start of the session. While still hesitant, their current state demonstrates an evolving relationship with their self-worth, showing a significant step forward in emotional exploration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I feel a bit tense when I think about it. Like there\u2019s this knot in my stomach, almost like fear, maybe? It\u2019s hard to let go of that pressure I put on myself.\"\n2. **Current Openness:** \"Part of me knows it\u2019s not sustainable to keep pushing like this, but then I worry about what it means if I don\u2019t. I don\u2019t want to fall into the same patterns as my brother, relying on others for help.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a clear move towards greater emotional depth and self-reflection. Initially, the client exhibited a tendency to focus on factual responses and external pressures, but now they are starting to articulate their internal emotional landscape more vividly. The acknowledgment of physical sensations connected to their emotional state, such as the \"knot in my stomach,\" indicates a higher level of self-awareness and emotional expression.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began to articulate the conflict between their desire for self-kindness and the fear of falling behind. This was highlighted in their response about feeling anxious and frustrated, recognizing that their internalized pressures are not sustainable. This moment marked a significant change as the client expressed vulnerability regarding their fears and the desire to avoid repeating patterns from their past, particularly concerning their brother. The shift towards recognizing their emotional tension signifies growth in their engagement and willingness to explore deeper issues.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Daisy, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know, I guess I\u2019ve been thinking a lot about how I might need to ask my parents for money. It's just annoying to even consider. I shouldn\u2019t be in this position at my age, right?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It's understandable to feel frustrated about needing to consider asking for help, especially when it feels like it should be different at this stage in your life. That annoyance can really weigh on you. What do you think it is about the idea of asking your parents for money that feels particularly challenging for you?",
+      "client": "I don\u2019t know, it just feels like I should have everything figured out by now. I mean, I should be able to handle my own finances without involving them. It's just frustrating to even think about it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Frustration can really build up when we hold ourselves to certain expectations about how life should be at a particular age. It\u2019s interesting to notice how that pressure to have everything figured out might influence how you feel about asking for support. What do you think comes up for you physically or emotionally when you think about reaching out to your parents for help?",
+      "client": "I don\u2019t really want to get into all that. It just feels like I\u2019m making a big deal out of nothing. I mean, some people ask for help all the time, right? It\u2019s not like I\u2019m the only one. It's just part of life.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It\u2019s really common to feel that way, like you\u2019re making a bigger deal out of something that others might handle easily. Noticing that comparison can sometimes add to the pressure. When you think about it being just part of life, what kind of feelings or thoughts come up for you?",
+      "client": "I don\u2019t really think about it like that. It\u2019s just annoying that I\u2019m even in this position. Other people can figure it out, so why can\u2019t I? It\u2019s not like I\u2019m trying to make this a big deal.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "That sense of annoyance seems really strong for you, especially when comparing yourself to others. It can feel frustrating to think about being in a situation where you feel stuck, while it seems like others have it all figured out. When you reflect on that feeling of being in this position, do you notice any specific thoughts or physical sensations that come up for you?",
+      "client": "I don't know. It just happened, I guess. I mean, I see people around me managing their stuff, and I just feel like I'm falling behind. It\u2019s annoying to think about those thoughts, but I don\u2019t want to dwell on it. I just need to figure out my own situation without dragging anyone else into it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Falling behind can be a heavy feeling, especially when you see others managing their situations. It sounds like there's a strong desire to handle things on your own, but also a bit of frustration about where you find yourself. When you think about figuring out your situation independently, what feelings or thoughts come up for you in that moment?",
+      "client": "I just feel like I have to prove that I can do this myself. Asking for help feels like admitting I'm not capable, you know? It\u2019s frustrating because I thought I was past needing them for everything. I just want to manage it, so I don\u2019t end up like my brother.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \u201cI just feel like I have to prove that I can do this myself. Asking for help feels like admitting I'm not capable, you know?\u201d \n2. \u201cIt\u2019s annoying to think about those thoughts, but I don\u2019t want to dwell on it. I just need to figure out my own situation without dragging anyone else into it.\u201d\n\n**Progression:** The client\u2019s most recent interactions show a significant emotional quality characterized by frustration and self-reliance. While the client still expresses feelings of annoyance and pressure concerning their situation, there is a notable shift toward a willingness to articulate their inner struggles. Earlier in the session, they exhibited more defensive behaviors and a limited emotional vocabulary, focusing on factual expressions of their situation. Now, they are beginning to explore deeper feelings of inadequacy and the burden of self-expectation, indicating a movement towards greater emotional awareness.\n\n**Turning Point:** The client's emotional depth shifted notably in the latest exchange when they articulated their fear of needing help (\u201cAsking for help feels like admitting I'm not capable\u201d), signaling a deeper self-reflection and vulnerability. This moment marks a departure from purely defensive responses, as they confront their internal conflict regarding self-sufficiency and their fear of appearing incapable. The recognition and sharing of this fear represent a critical point in their emotional openness and rapport with the therapist, allowing for a more engaged exploration of their feelings moving forward.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Proving to yourself that you can handle it alone can create a lot of pressure. It seems like there's a strong drive to show your capability, especially in contrast to your brother. When you think about the frustrations you feel around needing help, do you notice any particular moments where that pressure feels especially intense, or does it come up at different times?",
+      "client": "I guess it comes up at different times. Like, when I\u2019m looking at my bills or trying to figure out health insurance\u2014it feels overwhelming, and then I just think, \"Why can\u2019t I manage this?\" I mean, I can handle things most of the time, but then there are those moments when I just feel lost. It\u2019s like I want to be this independent person, but I keep hitting these walls that remind me I\u2019m not there yet. It\u2019s just annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Feeling lost when faced with tasks like bills or health insurance can really highlight that tension between wanting independence and hitting those walls. It seems like those moments are particularly challenging and bring up a lot of frustration for you. When you describe wanting to be independent but encountering obstacles, can you recall a specific instance where this felt especially tough? What was happening for you in that moment?",
+      "client": "I can think of a time when I was trying to set up my health insurance. I felt like I was supposed to just know how to do it, but then I got stuck on the website, and it was just so confusing. I ended up feeling like I was wasting my time, which made me even more frustrated. It\u2019s like I should be able to figure this out on my own, but sometimes I just can\u2019t. It really highlighted how much I still have to learn, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "Getting stuck on something like a health insurance website can be really frustrating, especially when there's an expectation to just know how to navigate it. Those feelings of being overwhelmed and wasting time can weigh heavily, reminding you of the gaps you want to close. When you think about that moment of confusion, what stands out to you most about how you were feeling or responding to the situation?",
+      "client": "I think what stands out the most is the frustration mixed with this sense of shame. Like, I should be past this point, you know? It\u2019s hard to admit that I don\u2019t know everything yet. I just felt like I was failing somehow, and that made me want to just shut down and not even ask for help, even though deep down I knew I probably needed it. It\u2019s like I could feel that pressure to just figure it out on my own, but it was really overwhelming at the same time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "That mix of frustration and shame can be really heavy to carry, especially when you feel like you should already have everything figured out. It sounds like there\u2019s a strong internal push to handle things on your own, even when it becomes overwhelming. When you're in those moments, feeling the pressure to not ask for help, how do you experience that in your body? Are there any physical sensations or reactions that stand out to you during those times?",
+      "client": "I guess I start to feel really tense, like my shoulders get tight, and I might even get a bit short of breath. It\u2019s like my body is trying to match the pressure I feel in my mind. Sometimes I just want to shut down completely or walk away from whatever I\u2019m struggling with, but I know that\u2019s not really an option. It\u2019s weird because part of me wants to confront it, but the other part just feels so overwhelmed that I don\u2019t know how to move forward.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "Noticing the tension in your body and the shortness of breath during those moments can really illustrate how connected your physical experience is to what you\u2019re feeling mentally. It sounds like there\u2019s a push and pull within you, where one part wants to confront the challenge, while another feels overwhelmed and wants to retreat. Can you think of a specific situation where you felt that conflict most strongly? What was it like to navigate that?",
+      "client": "I mean, I guess one time was when I was trying to figure out my budget for school and living expenses. I thought I could just sit down and map everything out, but it turned into this huge mess. I started to feel really anxious, and then I just wanted to throw my hands up and forget it all. I fought through it for a while, but there were moments where I felt like I was just going in circles. It was frustrating because I wanted to be responsible, but I also felt like I was failing again. It's like I was stuck in this cycle of wanting to be independent but feeling completely lost at the same time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "That situation with your budget sounds really challenging, especially when you wanted to take responsibility but ended up feeling lost and anxious instead. It\u2019s understandable to feel frustrated when you\u2019re trying to manage so many things at once, and then feeling like you\u2019re going in circles can amplify that sense of failure. As you reflect on that experience, what do you notice about your thoughts and feelings during those moments when you felt stuck? Did anything particular come up that surprised you?",
+      "client": "I guess I was surprised at how quickly I spiraled into that feeling of failure. Like, one moment I thought I could handle it, and the next, I was just overwhelmed, thinking about how much I should already know by now. It felt like this internal dialogue was just screaming at me, telling me I was being ridiculous for not figuring it out sooner. I mean, part of me recognizes that budgeting can be tough, but then there's another part that\u2019s like, \u201cYou should be better than this.\u201d It\u2019s hard to shake off that feeling of disappointment in myself.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess I start to feel really tense, like my shoulders get tight, and I might even get a bit short of breath.\"\n2. \"I was surprised at how quickly I spiraled into that feeling of failure... it felt like this internal dialogue was just screaming at me.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable shift towards deeper emotional engagement. They articulate their physical sensations linked to emotional states, indicating a growing awareness and connection between their body and feelings. The expression of tension and shortness of breath, along with the acknowledgment of feeling overwhelmed, showcases a move from primarily factual responses to more emotional expressions, marking significant progress from earlier stages where their disclosures were more surface-level and defensive.\n\n**Turning Point:** The client's emotional depth shifted during the discussion of their budgeting experience, particularly when they began to articulate their feelings of failure and disappointment. This moment reflects a growing willingness to explore their internal conflicts and emotions, which is a key aspect of their development in the therapeutic process. The transition into recognizing their internal dialogue and the pressure they put on themselves signifies a deeper level of self-reflection and engagement with their emotional experiences.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That rapid shift from feeling capable to feeling overwhelmed can be really jarring, especially when your internal dialogue becomes so critical. It seems like there's a lot of pressure to meet certain expectations, and the disappointment you feel in yourself adds another layer to that struggle. When those thoughts start to spiral, how does it feel to sit with that mix of recognizing the challenge of budgeting while also grappling with the push for perfection? What do you notice in your body or in your emotions during those moments?",
+      "client": "It\u2019s definitely uncomfortable to sit with that mix. I feel this tightness in my chest, almost like I can\u2019t breathe properly. There\u2019s this weird tension between wanting to be kind to myself and feeling like I should just push through it. It\u2019s like, on one hand, I know budgeting is complicated, but then there\u2019s this voice reminding me that I should just get it right already. I guess it\u2019s hard to find a balance between understanding the challenge and feeling so frustrated with myself. I mean, I kind of want to be gentle with myself, but I also feel like I'm falling short.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the struggle between wanting to be kind to yourself and the pressure to push through sounds really heavy. It\u2019s like you\u2019re caught in a tug-of-war between two very different perspectives on how to approach this challenge. When you think about that frustration of feeling like you\u2019re falling short, do any particular thoughts or emotions stand out to you? What comes to mind when you reflect on that balance you\u2019re trying to find?",
+      "client": "I mean, I guess I keep thinking about how I shouldn\u2019t even be feeling this way at my age. It\u2019s like, I should have it all figured out by now, right? But then there's this nagging feeling that I'm just not measuring up, especially when I see others who seem to have their lives together. Sometimes it feels like I'm just pretending to be an adult, and I don't know if I can shake that feeling. It\u2019s frustrating because I want to be proud of what I\u2019m doing, but I end up feeling embarrassed instead. I don\u2019t really know how to just accept that it's okay to struggle a bit.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "The sense that you should have everything figured out by now seems to create a lot of pressure for you. Comparing yourself to others can make it even tougher, especially when it feels like you\u2019re not measuring up. That feeling of pretending to be an adult must be really exhausting, especially when you want to feel proud of your achievements but end up feeling embarrassed instead. As you sit with these thoughts, what do you notice about that struggle to accept your current experience? Is there anything that stands out when you think about what it would feel like to allow yourself to struggle a bit?",
+      "client": "I guess it\u2019s just really hard to let myself struggle, you know? Like, part of me thinks I should just tough it out and figure it out instead of admitting that I need help or that it\u2019s okay to not have all the answers. It feels like if I accept that I\u2019m struggling, I\u2019m somehow failing or giving in. But I can kind of see how it might be beneficial to just acknowledge it instead of pushing it away. Still, there\u2019s this fear that admitting I\u2019m struggling means I\u2019m not doing things right. It\u2019s just a lot to sort through.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "The tension between wanting to tough it out and the recognition that acknowledging your struggle might be beneficial sounds really challenging. It seems like there's a strong belief that admitting to struggling could be equated with failure, which adds to the weight of your experience. As you reflect on this fear of not doing things right, what feelings or sensations arise for you? Is there a particular moment when you felt that pressure most acutely?",
+      "client": "I don\u2019t know, it just feels like this constant pressure, you know? I guess I notice a lot of anxiety bubbling up when I think about those moments, especially when I\u2019m trying to handle everything on my own. Like, maybe it was when I was trying to figure out my health insurance for the first time\u2014there were so many options, and I just felt totally lost. I remember feeling really overwhelmed, and part of me thought I should\u2019ve just asked for help, but I didn\u2019t want to. It\u2019s just hard to admit that I can\u2019t do it all alone without feeling like I\u2019m failing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "That experience of feeling overwhelmed while trying to navigate something like health insurance sounds really tough. It\u2019s understandable that in such a complex situation, you would feel that pressure to handle it on your own. Noticing that anxiety bubbling up as you reflect on it may indicate just how significant that moment felt for you. When you think back to that situation, what else do you notice about how you were feeling in your body or what thoughts were running through your mind?",
+      "client": "I guess I felt this tightness in my chest and my stomach was in knots. It was like, every time I tried to focus, my mind would just race, and I couldn\u2019t calm down. I remember thinking that I should just be able to handle it, like it was a test I was supposed to pass, you know? It feels kind of silly now, but back then, I just kept telling myself that I had to figure it out without help, or else I\u2019d look weak. I don\u2019t know, it just made everything feel heavier.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest and the knots in your stomach speak to the intense pressure you were feeling in that moment. It seems like you were caught in a cycle of racing thoughts, trying to convince yourself that seeking help would somehow make you appear weak. As you reflect on that pressure and the weight of expectations you placed on yourself, what do you think it would be like to treat those thoughts with a bit more compassion? Can you imagine a different way of approaching that situation?",
+      "client": "I mean, maybe it would feel a bit lighter if I didn\u2019t hold myself to such high standards all the time, but that\u2019s hard to imagine. Part of me thinks it would be nice to just give myself a break and accept that it's okay to struggle. But then another part worries that if I do that, I\u2019ll just keep falling behind or not pushing myself enough. It\u2019s like I want to be kind to myself, but I worry it\u2019ll lead to not trying hard enough. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I notice a lot of anxiety bubbling up when I think about those moments, especially when I\u2019m trying to handle everything on my own.\"\n2. **Current Openness:** \"Part of me thinks it would be nice to just give myself a break and accept that it's okay to struggle.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a substantial shift from earlier exchanges where emotional depth was less pronounced. Previously, the client displayed more factual responses with limited emotional articulation. Now, they are articulating specific feelings of anxiety and overwhelm, which suggests a growing comfort in sharing emotional experiences. The client is gradually moving beyond surface-level responses, allowing for more meaningful dialogue about their feelings and experiences.\n\n**Turning Point:** The client\u2019s emotional depth notably shifted when they began to articulate their internal conflict regarding the fear of seeking help versus the pressure of self-reliance. This moment is significant because it reveals their willingness to explore feelings of inadequacy and anxiety in a more profound way, marking a departure from their earlier hesitance to engage with these emotions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It makes a lot of sense. You're navigating that delicate balance between wanting to be kind to yourself and the fear that it might lead to not pushing yourself as hard. It seems like there's a part of you that craves a break from those high standards, while another part is concerned about what that might mean for your progress. As you sit with these conflicting feelings, what stands out for you? Are there any specific thoughts or emotions that feel particularly strong as you explore this?",
+      "client": "I guess what stands out is that I really don\u2019t want to feel like I'm failing or falling behind, especially compared to my brother. It\u2019s like I have this constant comparison in my head. I just keep thinking, \u201cIf he can do it, why can\u2019t I?\u201d But then I feel ashamed for even feeling that way. I mean, on one hand, I want to just relax a bit and not pressure myself so much, but on the other, I\u2019m scared that if I let my guard down, it\u2019ll just spiral. It\u2019s kind of exhausting.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "That comparison with your brother seems to be a significant source of pressure for you, creating this exhausting cycle of feeling like you might be failing if you don\u2019t keep up. It\u2019s understandable to feel both that desire to relax and the fear of what might happen if you do. As you reflect on these emotions and thoughts, can you notice how they influence your sense of self-worth or your daily experiences? What do you feel in your body as you think about this?",
+      "client": "I can kind of feel it in my shoulders, like they\u2019re tense all the time. It\u2019s like this weight I\u2019m carrying, trying to prove that I\u2019m doing well. When I think about how I measure up to my brother, I guess it just tightens everything up inside. I don\u2019t know, maybe it\u2019s just that constant fear of being seen as not good enough. Sometimes I wonder if letting go a bit would mean I\u2019m giving up, but then I also think it might help me breathe easier. It\u2019s hard to figure out what\u2019s really going on with me, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Your shoulders feeling tense makes sense in the context of all that pressure you're carrying. It sounds like there's a real struggle between wanting to prove yourself and the desire to find some relief from that weight. As you think about that fear of being seen as not good enough, what comes up for you? Are there moments when you feel that pressure more intensely, or does it feel constant?",
+      "client": "I think it\u2019s pretty constant, honestly. There are definitely moments, like when I see my brother doing well or when my parents ask about my plans. It just hits me harder then, you know? I end up feeling more aware of what I\u2019m not doing or how I should be further along by now. It\u2019s frustrating, especially when I feel like I\u2019m working so hard, but it never feels like enough. Sometimes I wonder if everyone else is just better at this whole adulting thing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "That sense of frustration must be really heavy, especially when you\u2019re putting in so much effort and still feeling like it\u2019s not enough. It\u2019s understandable to feel that way in those moments when you\u2019re comparing yourself to your brother or thinking about your parents\u2019 expectations. There seems to be a cycle of pressure that intensifies in specific situations, making it hard to shake off those thoughts. As you reflect on this, what do you think it would feel like to acknowledge your own efforts and achievements, even in the midst of that comparison?",
+      "client": "I guess acknowledging my efforts feels kind of risky. Like, if I start to celebrate small wins, maybe that means I\u2019m letting my guard down, and then I\u2019ll get lazy or something. Part of me thinks it could be nice to give myself some credit, but another part worries that it would just make me complacent. I mean, I don\u2019t want to feel like I\u2019m settling or not pushing myself enough. It\u2019s definitely a mixed bag for me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It sounds like there's a real tension between wanting to recognize your own achievements and the fear that it might lead to complacency. That mix of wanting to celebrate yourself while also feeling cautious about it is completely valid. It makes sense that you\u2019d want to keep pushing yourself, especially when you\u2019ve been conditioned to measure your worth against others. As you explore this idea of celebrating those small wins, what feelings or sensations come up for you? Can you pinpoint a moment where you might feel comfortable trying to acknowledge something you\u2019ve done well?",
+      "client": "I don\u2019t know, maybe it just feels like I\u2019d be opening a door I\u2019m not ready to walk through. Sometimes, I think about the little things I do, like managing my schoolwork or even just keeping up with bills, but then it\u2019s like, do those really count? It feels silly to even mention them. I guess I could try to acknowledge something, but then it\u2019s like, what if I just end up feeling more pressure to keep doing better? I mean, maybe it would help to focus on the positives, but I\u2019m not sure where I\u2019d even start.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "There\u2019s a lot to unpack in how you\u2019re feeling about recognizing those little things. It seems like there\u2019s a hesitation to even call your efforts valid, which makes it tough to think about celebrating them. It\u2019s interesting how acknowledging something positive can feel like it might lead to more pressure instead of relief. As you consider those moments of managing school or keeping up with bills, what do you think would happen if you allowed yourself to just notice those achievements without any judgment about their value? How might that shift your experience?",
+      "client": "I don\u2019t know, it\u2019s hard to imagine doing that without feeling like I\u2019m just kidding myself or something. I mean, if I let myself notice those achievements, part of me worries I\u2019ll start to downplay everything else that feels important, like my goals or the things I want to accomplish. It just seems risky, you know? Like, if I acknowledge that I\u2019m doing okay in some areas, am I still pushing myself enough in the ones that matter? I guess I just feel stuck between wanting to be proud and not wanting to lose that drive.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3** \n\n**Key Examples:**\n1. \"I guess acknowledging my efforts feels kind of risky. Like, if I start to celebrate small wins, maybe that means I\u2019m letting my guard down...\"\n2. \"It feels silly to even mention them. I guess I could try to acknowledge something, but then it\u2019s like, what if I just end up feeling more pressure to keep doing better?\"\n\n**Progression:** The client\u2019s most recent interactions show a notable emergence of emotional expression as they grapple with the tension between recognizing their achievements and the fear of complacency. This indicates growth from earlier exchanges, where emotional depth was more limited. In the current dialogue, the client is starting to articulate their inner conflict about self-acknowledgment, showcasing a shift from a more defensive posture to a willingness to explore their feelings, albeit cautiously.\n\n**Turning Point:** The client's emotional depth shifted during their acknowledgment of the difficulty in recognizing even small achievements, which they previously deemed \"silly.\" This moment highlights their willingness to engage in self-reflection, suggesting they are beginning to explore their vulnerabilities more openly than at the start of the session. While still hesitant, their current state demonstrates an evolving relationship with their self-worth, showing a significant step forward in emotional exploration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Feeling caught between wanting to feel proud of your achievements and maintaining that drive to push yourself can be quite a struggle. It\u2019s clear that you have a strong desire to achieve your goals, and that desire seems to create a lot of internal conflict. The idea of acknowledging your efforts feels almost like a balancing act, where you\u2019re worried that celebrating one area might take away from the urgency you feel in others. \n\nAs you sit with this tension, what do you notice in your body when you think about this conflict? Are there any specific sensations or feelings that come up for you?",
+      "client": "I guess I feel a bit tight in my chest when I think about it. It\u2019s like there\u2019s this pressure building up. Part of me wants to just breathe and relax, but then another part says I can\u2019t let my guard down. It's frustrating because I know I should be proud of what I\u2019ve done, but then I worry that if I relax even a little, I won't keep pushing myself. I know I want to be successful, but sometimes it all just feels like too much to juggle.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the pressure building up sounds challenging. It's understandable to feel that push and pull between wanting to breathe and relax, while also feeling the weight of expectations. That frustration you mentioned, feeling like you should be proud yet worried about losing momentum, seems to create a lot of tension for you. \n\nAs you think about that internal struggle between relaxation and the drive for success, what stands out for you in terms of what you truly need in that moment?",
+      "client": "I guess what stands out is that I really just need some kind of reassurance that it\u2019s okay to take a step back. I mean, part of me is always pushing for more, but maybe I could allow myself a moment to breathe without it meaning I\u2019m slacking off. It\u2019s just hard to shake that feeling that if I\u2019m not constantly on top of everything, I\u2019m somehow failing. I don\u2019t know, it feels like a delicate balance, and I\u2019m not sure how to achieve it without feeling guilty.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "It seems like you're recognizing the need for reassurance and a moment to breathe without feeling guilty about it. That delicate balance you\u2019re describing, where taking a step back feels like it might conflict with your drive, sounds really challenging. It\u2019s interesting how that pressure to constantly perform can overshadow the idea of simply being present with your feelings and needs. \n\nAs you think about this desire for reassurance, what might it look like for you to create small spaces for yourself where you can take a breath without that guilt creeping in?",
+      "client": "I don\u2019t know\u2026 maybe it could look like setting aside a little time each week just for myself, like a break or something. But then I wonder if that\u2019s really enough. Part of me thinks I\u2019d just end up feeling guilty about the things I should be doing instead. It\u2019s tricky to imagine giving myself that space without feeling like I\u2019m wasting time or falling behind. I mean, I want to be kind to myself, but I just can\u2019t shake the worry that it\u2019s not okay to pause.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "Imagining setting aside time for yourself sounds like a meaningful step, even if it feels tricky to integrate. The guilt that comes up about potentially wasting time or falling behind is a strong feeling, and it seems like it really influences how you view taking breaks. That internal dialogue about being kind to yourself versus the worry of not keeping up creates a lot of pressure. \n\nAs you consider this idea of taking a break, what would it feel like to hold both the desire for kindness towards yourself and the worry about productivity at the same time?",
+      "client": "It\u2019s a bit confusing, honestly. I mean, part of me thinks that being kind to myself could actually help me be more productive in the long run, but then I get this nagging feeling that if I take a break, I\u2019ll just fall behind and not catch up. It\u2019s like I want to be gentle with myself, but there\u2019s this voice that says I have to keep pushing, especially since I\u2019ve always felt like I needed to prove I can handle things on my own. I guess I\u2019m just not sure how to balance those two ideas without feeling like I\u2019m compromising my goals.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Balancing that desire for kindness with the pressure to push forward sounds really complex for you. It\u2019s interesting how you recognize that being gentle with yourself might actually support your productivity in the long run, yet that nagging voice still holds a strong influence. The need to prove your ability to handle things on your own seems to add another layer to this internal conversation.\n\nAs you reflect on these two ideas, what do you notice in your body or emotions when you think about the possibility of allowing yourself that kindness without compromising your goals?",
+      "client": "I guess I feel a bit tense when I think about it. Like there\u2019s this knot in my stomach, almost like fear, maybe? It\u2019s hard to let go of that pressure I put on myself. I mean, I can kind of see how being kinder to myself could help, but then I just end up feeling anxious about what I might be missing out on. It\u2019s frustrating because I want to be able to relax, but I keep picturing all the things I should be doing instead. I don\u2019t know how to shake that feeling.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Noticing that tension in your body and the knot in your stomach when thinking about kindness towards yourself is important. It sounds like that fear of missing out on responsibilities adds to the frustration you feel. The conflict between wanting to relax and the pressure of all the things you feel you should be doing creates a lot of inner turmoil. \n\nAs you sit with that feeling of anxiety, what do you notice about the thoughts that come up alongside it? Are there specific tasks or expectations that seem to amplify that sense of urgency for you?",
+      "client": "I don\u2019t know\u2026 I guess I start to think about all my assignments and deadlines piling up. Like, I should be working on my projects or studying instead of sitting around, you know? It\u2019s frustrating because I feel like if I take even a moment to breathe, it\u2019ll all just collapse. Part of me knows it\u2019s not sustainable to keep pushing like this, but then I worry about what it means if I don\u2019t. I don\u2019t want to fall into the same patterns as my brother, relying on others for help. It feels like there\u2019s this constant race I\u2019m in, and I can\u2019t afford to slow down.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"I guess I feel a bit tense when I think about it. Like there\u2019s this knot in my stomach, almost like fear, maybe? It\u2019s hard to let go of that pressure I put on myself.\"\n2. **Current Openness:** \"Part of me knows it\u2019s not sustainable to keep pushing like this, but then I worry about what it means if I don\u2019t. I don\u2019t want to fall into the same patterns as my brother, relying on others for help.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a clear move towards greater emotional depth and self-reflection. Initially, the client exhibited a tendency to focus on factual responses and external pressures, but now they are starting to articulate their internal emotional landscape more vividly. The acknowledgment of physical sensations connected to their emotional state, such as the \"knot in my stomach,\" indicates a higher level of self-awareness and emotional expression.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began to articulate the conflict between their desire for self-kindness and the fear of falling behind. This was highlighted in their response about feeling anxious and frustrated, recognizing that their internalized pressures are not sustainable. This moment marked a significant change as the client expressed vulnerability regarding their fears and the desire to avoid repeating patterns from their past, particularly concerning their brother. The shift towards recognizing their emotional tension signifies growth in their engagement and willingness to explore deeper issues.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

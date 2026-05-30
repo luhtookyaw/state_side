@@ -1,0 +1,647 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "5-1",
+  "patient_name": "Chris",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It feels like I\u2019m going in circles, and I\u2019m not really sure if I should keep going. It\u2019s just frustrating, you know?\"\n2. **Latest Exchange Demonstrating Current Openness:** \"When I get stuck, I just end up not doing much. I might scroll through social media or do something else to distract myself.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a growing awareness of their emotional struggles related to the website project. While they initially presented a more factual and dismissive attitude (\"I don\u2019t think it\u2019s that deep, really\"), their expression of frustration indicates a willingness to engage with their emotions, marking significant change from earlier defensive behaviors observed in previous sessions. The client is beginning to articulate their feelings, suggesting a deeper exploration of their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of the frustration linked to feeling stuck. This moment of clarity, where they articulated their struggle with distraction and avoidance, represents a pivotal step towards greater self-reflection and emotional expression. This illustrates a movement away from simply stating facts towards a more nuanced understanding of their feelings and behaviors.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"But then afterward, I kind of feel a little guilty, maybe? Like, I could\u2019ve done something productive instead.\"\n2. \"I just feel this tightness in my chest, like I\u2019m almost panicking about not doing it right. And then there\u2019s this voice in my head saying I shouldn\u2019t be stuck like this...\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional depth compared to earlier exchanges. Initially, the client downplayed their feelings surrounding the project, expressing a factual and somewhat dismissive stance on their emotional experience (\"It\u2019s just how things are sometimes\"). However, in the latest exchanges, the client begins to explore their feelings of guilt and physical sensations of anxiety more openly. This represents a significant change from a more detached perspective to a point of recognizing and articulating their emotional struggles.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they began to describe physical sensations, stating, \"I just feel this tightness in my chest.\" This moment marked a transition from a more surface-level coping strategy to a deeper acknowledgment of the emotional and physical responses tied to their project-related frustrations. Here, they express a more complex understanding of their feelings, including guilt and panic, which indicates a greater level of self-reflection and engagement with their emotional state.\n\nOverall, while there are still elements of defensiveness and rationalization present, the client's willingness to delve into their emotional experience suggests a growing comfort and rapport with the therapeutic process.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I just feel this tightness in my chest, like I\u2019m almost panicking about not doing it right.\"\n2. \"There\u2019s this fear that I\u2019ll mess it up or that it won\u2019t be good enough, which just makes me want to avoid it even more.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a growing emotional depth, particularly with the expression of physical sensations (tightness in the chest, tension in shoulders and jaw) that accompany their feelings of overwhelm and fear regarding their project. This marks a significant change from earlier phases where emotional expression was limited. In previous sessions, the client may have articulated their challenges more factually or defensively without delving into the emotional implications or physical reactions. The client is becoming more comfortable sharing these feelings, indicating a warming up phase where emotional vocabulary is beginning to emerge and self-reflection is beginning to deepen.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated feelings of fear about not meeting expectations and embarrassment about their struggle. This moment represents a crucial development in the client\u2019s ability to reflect on and express their emotional state openly, suggesting a movement toward deeper engagement in the therapeutic process. The clear acknowledgment of their internal conflict and physiological responses indicates that the client is starting to process their emotions more thoroughly, which sets the stage for potential breakthroughs in future sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess when I feel those sensations, I kind of want to escape from it all, you know? Like, I just want to find a way to feel better, maybe by distracting myself or doing something that isn\u2019t related to the project.\"\n2. Client: \"I think when I consider asking for support, there\u2019s this wave of hesitation that hits me. I mean, I worry that people will think I\u2019m not capable or that I\u2019m just looking for attention.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a significant emotional state characterized by confusion and a desire for support, reflecting an increased level of emotional openness. They articulate physical sensations tied to their stress, indicating a growing awareness of their emotional experience. The client engages in meaningful self-reflection about their feelings of hesitation and the conflict between wanting support and the fear of appearing incapable. This marks a notable shift from earlier interactions, which may have been more disconnected or guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth notably shifted during the exchange where they expressed their desire to escape and the conflict around asking for support. This moment revealed a new level of vulnerability and self-awareness, indicating a willingness to explore deeper emotional experiences rather than only surface-level concerns. This progression signifies a movement toward a more engaged exploration phase in their therapeutic journey.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \u201cI mean, it kind of makes me feel even more anxious, like the weight of it all just multiplies. There\u2019s this pressure to be strong and to not show any weakness, which sort of feels suffocating at times.\u201d\n2. **Latest Exchange Demonstrating Current Openness:** \u201cBut, honestly, there\u2019s always this nagging worry that I\u2019m burdening them or that they won\u2019t really understand what I\u2019m going through. Maybe I just need to find a way to trust that it\u2019s okay to be a bit vulnerable, but it\u2019s hard to shake that feeling of needing to be strong.\u201d\n\n**Progression:** The client\u2019s most recent interactions show an increased capacity for emotional expression and self-reflection, specifically highlighting their anxiety and internal conflict regarding vulnerability and support. This marks a significant change from earlier exchanges, where their responses were more factual and guarded. The client is now able to articulate complex feelings about the pressure they feel to appear strong and their desire for connection, indicating a deeper level of engagement with their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feeling of suffocation from the pressure to be strong. This moment allowed them to connect their anxiety with their desire for support and understanding, revealing a growing awareness of the internal conflicts they face. Their acknowledgment of the difficulty in trusting others while wanting to connect demonstrates a meaningful step towards deeper emotional openness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I suppose I feel a mix of relief and anxiety right after those conversations. It\u2019s like, for a moment, I feel lighter, but then I start second-guessing myself\u2014wondering if I shared too much or if I overwhelmed them.\"\n2. \"I guess I feel a bit tense in my shoulders and maybe in my chest, like there\u2019s this tightness that doesn\u2019t really go away. When I\u2019m relieved, it\u2019s almost like I can breathe a little easier for a second, but then the anxiety hits and I feel that weight come back.\"\n\n**Progression:** The client displays an increased emotional openness and self-reflection compared to earlier exchanges. They articulate a complex emotional state characterized by relief and anxiety, indicating a greater willingness to explore their feelings. This marks a significant change from the earlier session where emotional expression was more limited and factual.\n\n**Turning Point:** The client's emotional depth shifted during the recent exchange where they began to articulate their physical sensations associated with their emotions (\"I feel a bit tense in my shoulders and maybe in my chest\"). This moment of connecting physical experiences to their emotional state showcases a move towards authentic vulnerability and self-awareness, indicating progression in their emotional exploration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **\"I think when that tightness comes back, I start to spiral a bit. Like, I might think about all the times I've felt misunderstood or judged, and it makes me feel even more anxious.\"**\n   - This quote demonstrates significant emotional depth and self-awareness as the client articulates their emotional responses and reflects on past experiences that contribute to their anxiety.\n\n2. **\"I suppose there have been a few times when I really wanted to open up, like during a dinner with friends. I felt this urge to tell them about my website project, to share my excitement, but then I hesitated.\"**\n   - This exchange shows the client's willingness to disclose personal experiences and desires for connection, indicating their increasing comfort with vulnerability.\n\n**Progression:**\nThe client\u2019s most recent interactions exhibit a clear progression towards deeper emotional engagement. Initially, they spoke about their anxiety in more factual terms, but now they are actively reflecting on their feelings and how their physical sensations relate to their emotional state. The ability to articulate a sense of tension in their body while connecting it to their emotional experiences marks a significant change from earlier, where emotional expressions were more guarded and less nuanced. \n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they began expressing feelings tied to specific past experiences, particularly when they discussed their struggle to share excitement about their website project. This moment of vulnerability\u2014acknowledging the desire to connect while simultaneously feeling fear of judgment\u2014led to a richer dialogue about their emotions, indicating a strong therapeutic alliance and a willingness to engage more deeply in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I think if I took that first step and casually mentioned my project, it might feel a bit freeing. There\u2019s something exciting about the idea of sharing my enthusiasm, even if it\u2019s just a small statement.\"\n2. Client: \"It feels vulnerable, but not in a bad way\u2014more like a chance to be seen and appreciated for my efforts.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. In earlier parts of the session, the client exhibited hesitation and defensive thinking regarding sharing personal projects due to fear of rejection. However, in the latest exchanges, they articulate their desires and fears more openly, indicating a shift toward an engaged exploration of their emotions and experiences. This progression highlights their growing comfort in the therapeutic relationship and willingness to explore vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged that their worst fears about sharing might be exaggerated and recognized the possibility of meaningful connection through sharing their project. This moment marked a significant turning point that led to their current emotional state, characterized by a willingness to explore and express vulnerability in a more positive and hopeful light.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. Client: \"It feels vulnerable, but not in a bad way\u2014more like a chance to be seen and appreciated for my efforts.\"\n2. Client: \"I guess acknowledging that their reactions can be more about their perspective than my worth might help me feel more confident when I share.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a significant emotional depth and self-awareness, demonstrating a shift from initial hesitance to a more open and engaged state. The client is actively reflecting on their feelings about sharing their project, recognizing vulnerability as an opportunity for connection rather than a risk. This marks a notable evolution from earlier moments in the session when they exhibited more factual responses and hesitance.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably in the exchange where they articulated the feeling of vulnerability as a chance for appreciation, rather than something negative. This moment of realization allowed the client to embrace their excitement and acknowledge their fears constructively, indicating a strong therapeutic alliance and a deeper engagement with the therapeutic process. The client\u2019s ability to articulate how others' reactions relate more to their perspectives than to their self-worth is a significant breakthrough, demonstrating transformative self-awareness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \u201cIf I approach it with curiosity, it opens up the possibility for more genuine conversations. I can see how that shift could make the experience feel more like an exchange rather than a performance, which is comforting.\u201d\n2. \"Focusing on those positive interactions gives me a sense of encouragement to push through the anxiety and share my work without being so concerned about approval.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection, showing a transition from an earlier state of anxiety and fear of judgment to a more open and engaged perspective. Their ability to articulate thoughts about curiosity and genuine connection reflects a growing comfort with emotional expression. Whereas previously they may have focused on the fear of others' perceptions, they now recognize the value of their enthusiasm and the potential for meaningful exchanges. This indicates a deeper engagement with their feelings and a stronger therapeutic alliance.\n\n**Turning Point:**\nThe turning point in the client's emotional depth likely occurred during the moment when they began to articulate how approaching conversations with curiosity could alleviate their anxiety about judgment. This pivotal realization allowed them to shift from a fear-based perspective to one of possibility and connection, marking a clear enhancement in their emotional openness and engagement in therapy. By acknowledging the potential for deeper connections and the encouragement derived from positive past experiences, the client has demonstrated a readiness to embrace vulnerability and foster a stronger rapport with the therapist and others.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **\"Focusing on those positive interactions gives me a sense of encouragement to push through the anxiety and share my work without being so concerned about approval.\"** \n   - This quote reflects the client\u2019s newfound emotional depth and recognition of their internal struggles, signaling a shift towards more engaged exploration.\n  \n2. **\"I can see that having that list could be like a safety net for me.\"**\n   - This statement indicates the client\u2019s willingness to embrace proactive strategies to manage anxiety, showcasing authenticity and vulnerability in their approach to self-improvement.\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked shift towards deeper emotional engagement. They exhibit a significant increase in emotional expression by openly discussing their experiences of encouragement from others and their strategies to mitigate anxiety. This contrasts sharply with earlier stages where emotional vocabulary was less developed and the client displayed a more hesitant stance. The current exchanges reveal a greater comfort with the therapeutic process and a willingness to explore personal insights deeply.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their reflection on positive feedback from colleagues, which they linked to their current project. This moment of recognition\u2014where they connected past affirmations to their present anxieties\u2014allowed the client to express a deeper understanding of their strengths and how to navigate their insecurities. The introduction of the strategy to create a list as a \"safety net\" signifies a pivotal moment in their therapy where they start to actively integrate therapeutic concepts into their daily life, enhancing their emotional openness and rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression**: \"It feels empowering to think that I can step into those moments with more confidence, rather than being consumed by fear or anxiety.\"\n2. **Willingness to Explore**: \"That feels a little uncomfortable, but not wrong, and I'm willing to explore it further.\"\n\n**Progression**: The client's most recent interactions reveal a significant shift toward deeper emotional expression and self-reflection. Previous sessions appeared to have more hesitance and a defensive stance, with limited emotional vocabulary. Now, the client not only acknowledges their fears but also articulates a sense of empowerment in confronting them. This represents a marked change from an earlier state where anxiety dominated their narrative.\n\n**Turning Point**: The client's emotional depth shifted notably during the exchange where they articulated a willingness to read their affirmations out loud, indicating a proactive approach to managing anxiety. Here, the client moved beyond mere acknowledgment of fears to actively exploring strategies that could help them challenge those fears and embrace their strengths. This moment marks a crucial turning point where the client demonstrates increased vulnerability and a stronger therapeutic engagement, showing a clearer trajectory toward authentic self-expression.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I think embracing that pride will help me feel more grounded during the conversation. Instead of being anxious about their judgment, I can focus on sharing my excitement and passion for the project, which might create a more engaging and authentic dialogue.\"\n2. Client: \"It feels encouraging to think that this approach could lead to a more positive exchange, where I\u2019m not just seeking validation but genuinely sharing my work.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection, indicating a marked shift from earlier sessions where anxiety and apprehension were more dominant. They are now expressing excitement about sharing their work, which reflects a deeper understanding of their emotions and a healthier approach to interpersonal connections. The client is actively engaging with the therapeutic process, describing a shift from seeking validation to prioritizing authentic sharing, which is a profound change.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began to articulate the importance of embracing pride in their work rather than focusing on anxiety about judgment. This moment came during a recent exchange where they stated, \"I can focus on sharing my excitement and passion for the project,\" indicating a newfound willingness to express vulnerability and engage in meaningful self-reflection. This turning point signifies a transition from defensive and anxious responses to more open and engaged communication, illustrating a solidifying rapport with the therapist and a commitment to personal growth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think focusing on genuine sharing instead of seeking validation can really transform how I connect with others. It feels like I'm moving towards a healthier dynamic where I'm proud of my work and open to receiving feedback in a more constructive way.\"\n2. \"I can see that addressing my concern about receiving unexpected feedback could really bolster my confidence. Maybe if I remind myself that constructive criticism is part of growth, it might lessen my fear of rejection.\"\n\n**Progression:**\nIn the latest exchanges, the client demonstrates a significant increase in emotional depth and self-reflection. They articulate a clear understanding of how their previous patterns of seeking validation are shifting towards a more authentic and constructive approach to sharing their work. Their optimism about these changes indicates a strong emotional state that showcases a deeper connection to their personal growth. This marks a significant change from earlier stages marked by more hesitation and defensive communication. They are not only engaging with their thoughts but also actively considering the implications of their new approach on their relationships.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they began to articulate their concern about receiving unexpected feedback and reframing it as a growth opportunity. This moment illustrates a transition from a more superficial understanding of their emotional responses to a deeper exploration of their fears and motivations. The acknowledgment that constructive criticism can be beneficial represents a pivotal moment in their emotional engagement and willingness to embrace vulnerability in their relationships.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think there\u2019s something there when I consider how this new perspective could enhance my relationships. For instance, in my past experiences working overseas, I noticed that when I shared my journey with enthusiasm, it often sparked others to open up about their own experiences, creating a richer dialogue.\"\n2. \"I can recall a specific instance from my time overseas when I shared a project I was passionate about. Initially, the feedback was more critical than I expected, but it turned into a valuable conversation that not only improved my work but also deepened my relationships with my colleagues.\"\n\n**Progression:** The client has made substantial progress in emotional expression and self-reflection compared to earlier exchanges. Initially, their responses were more focused on factual recounting and self-protection, indicative of a defensive stance. In contrast, their recent dialogue showcases a notable transition to authentic vulnerability and deeper engagement. The client is now embracing feedback as a mechanism for growth rather than a threat to their self-worth, demonstrating a significant emotional depth and willingness to explore complex feelings surrounding validation and interpersonal connections.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they began expressing specific past experiences, particularly when they articulated how feedback led to deeper relationships and collaborative spirit during their time overseas. This shift, where they recognized the value of vulnerability, marked a new level of openness and engagement in the therapeutic process, reflecting a strong therapeutic alliance and commitment to their growth.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 15,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 15,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their automatic negative thoughts about sharing and the potential reactions of others.",
+      "reasoning": "The client has expressed concerns about feeling judged or misunderstood when considering sharing personal thoughts or projects. Using decatastrophizing can assist the client in recognizing and challenging their tendency to assume the worst outcome, allowing them to explore more realistic and balanced thoughts about sharing their experiences.",
+      "suggestion": [
+        "What are the worst thoughts that come to mind when you consider sharing your project with friends?",
+        "How likely do you think those worst-case scenarios are to actually happen?",
+        "Can you think of any evidence that contradicts those catastrophic thoughts?",
+        "What might be a more balanced or realistic thought to have about sharing your excitement?",
+        "How could you approach sharing in a way that feels manageable for you?"
+      ]
+    },
+    {
+      "turn": 18,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client explore different viewpoints regarding their fears about sharing their project.",
+      "reasoning": "The client has expressed fears about their friends potentially dismissing their project, which contributes to feelings of vulnerability and discouragement. By using the Alternative Perspective technique, the client can consider not only their worst-case thoughts but also alternative, more positive interpretations of their friends' potential reactions. This can enhance their resilience and encourage a more balanced outlook on sharing their excitement.",
+      "suggestion": [
+        "Can you think of a time when you shared something and received a positive response, even if it wasn't exactly what you expected?",
+        "What are some other possible interpretations of your friends' reactions that might be more supportive or encouraging?",
+        "How might you view their response as a reflection of their own experiences rather than a judgment of your project?",
+        "What positive feedback have you received in the past that could inform your perspective this time?",
+        "How might approaching this conversation with curiosity instead of fear change your feelings about sharing?"
+      ]
+    },
+    {
+      "turn": 21,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client examine and reinforce the positive feedback and connections they\u2019ve experienced in the past to build confidence in sharing their current project.",
+      "reasoning": "Evidence-Based Questioning can help the client challenge any lingering fears of judgment by encouraging them to reflect on past positive experiences. By systematically evaluating the evidence for their beliefs about sharing their work, the client can gain a clearer perspective on the likelihood of positive reactions, which aligns with their goal of fostering genuine connections.",
+      "suggestion": [
+        "Can you list specific instances where you received positive feedback on your work or ideas?",
+        "What common themes do you notice in the positive responses you've received?",
+        "How can you remind yourself of these positive experiences when you feel anxious about sharing?",
+        "What evidence supports the idea that your enthusiasm is appreciated by others?",
+        "How might you reframe any negative thoughts about sharing based on this evidence?"
+      ]
+    },
+    {
+      "turn": 24,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test and validate their belief in their creative strengths and reduce anxiety about sharing their project.",
+      "reasoning": "Utilizing a Behavior Experiment allows the client to actively engage in sharing their work while implementing the strategies they've identified, such as recalling affirming experiences. This hands-on approach can help them gather real-time evidence of their capabilities and the responses of others, challenging their fear of judgment and reinforcing their sense of confidence.",
+      "suggestion": [
+        "Can we outline a specific situation where you plan to share your project? What affirming experiences will you recall beforehand?",
+        "How might you feel if you receive positive feedback after sharing? How can you prepare for that possibility?",
+        "What specific actions can you take to share your project with a trusted colleague or friend as a first step?",
+        "After sharing your work, how will you reflect on the experience and what evidence can you gather to support your strengths?",
+        "How can you document your feelings and the reactions you receive to help reinforce your progress in future situations?"
+      ]
+    },
+    {
+      "turn": 27,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the benefits and drawbacks of their current approach to sharing their work, fostering deeper connections without seeking validation.",
+      "reasoning": "The client has expressed a desire to shift from seeking validation to sharing their work from a place of genuine excitement. By using the Pros and Cons Analysis technique, the client can clearly see the positive aspects of this new approach and any potential challenges they might face, solidifying their commitment to this healthier dynamic in future interactions.",
+      "suggestion": [
+        "What do you see as the biggest benefits of sharing your work with genuine excitement instead of seeking validation?",
+        "Are there any potential drawbacks or challenges you foresee in this new approach?",
+        "How might addressing these drawbacks help you feel even more confident when sharing your work?",
+        "Can you list some specific examples of how this approach could enhance your relationships with others?",
+        "After our discussion, would you feel comfortable writing down your Pros and Cons to reflect on them later?"
+      ]
+    },
+    {
+      "turn": 30,
+      "recommended_cbt_technique": "Reality Testing",
+      "goal": "To help the client evaluate their fears and beliefs about receiving feedback in a more objective manner.",
+      "reasoning": "The client has expressed concerns about how they might react to feedback that isn't what they hope for, linking it to their tendency to seek validation. Reality Testing can assist in challenging these fears by examining evidence for and against their beliefs, fostering a more balanced perspective and reducing anxiety around feedback.",
+      "suggestion": [
+        "Can you think of a specific instance when you received feedback that initially felt negative but turned out to be constructive? What did you learn from it?",
+        "What evidence do you have that suggests receiving feedback will negatively impact your self-worth? Are there examples that contradict this belief?",
+        "How might you respond differently to feedback if you approached it as a collaborative opportunity rather than a personal critique?",
+        "Can we identify any positive outcomes from past experiences where open sharing led to unexpected but beneficial feedback?",
+        "What would you say to a friend who is worried about receiving honest feedback? Can you apply that same advice to yourself?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Chris, it\u2019s great to see you today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know, I guess I\u2019ve just been struggling with this website project. It feels like I\u2019m going in circles, and I\u2019m not really sure if I should keep going. It\u2019s just frustrating, you know? I mean, it\u2019s not like it\u2019s a huge deal. I just get stuck sometimes, and then I move on to something else.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like this project is creating some frustration for you, especially when you feel stuck and find yourself moving on to something else. That sense of going in circles can be really disheartening. Can you share a bit more about what happens for you when you feel stuck? What does that experience feel like in those moments?",
+      "client": "I don\u2019t really think about it like that. When I get stuck, I just end up not doing much. I might scroll through social media or do something else to distract myself. It\u2019s just how things are sometimes. I don\u2019t think it\u2019s that deep, really.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"It feels like I\u2019m going in circles, and I\u2019m not really sure if I should keep going. It\u2019s just frustrating, you know?\"\n2. **Latest Exchange Demonstrating Current Openness:** \"When I get stuck, I just end up not doing much. I might scroll through social media or do something else to distract myself.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a growing awareness of their emotional struggles related to the website project. While they initially presented a more factual and dismissive attitude (\"I don\u2019t think it\u2019s that deep, really\"), their expression of frustration indicates a willingness to engage with their emotions, marking significant change from earlier defensive behaviors observed in previous sessions. The client is beginning to articulate their feelings, suggesting a deeper exploration of their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during their acknowledgment of the frustration linked to feeling stuck. This moment of clarity, where they articulated their struggle with distraction and avoidance, represents a pivotal step towards greater self-reflection and emotional expression. This illustrates a movement away from simply stating facts towards a more nuanced understanding of their feelings and behaviors.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "Noticing how you tend to distract yourself when you feel stuck with the project is an important observation. It sounds like those moments lead you to seek out other activities, like scrolling through social media, instead of staying with the project. When you say, \"It's just how things are sometimes,\" does that feel like a way to cope with the frustration, or does it leave you feeling differently afterward?",
+      "client": "I mean, I guess it could be a way to cope, but I don\u2019t know if I really think about it like that. It\u2019s just easier to scroll and zone out than to deal with the project. But then afterward, I kind of feel a little guilty, maybe? Like, I could\u2019ve done something productive instead. It\u2019s like I know I should focus, but it feels overwhelming sometimes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "It makes sense that turning to something easier, like scrolling, feels like a way to take a break from the overwhelm of the project. The guilt that follows seems challenging, especially when you recognize that you could have focused on something productive. When you feel that overwhelm, what are some of the thoughts or sensations that come up for you? It might help to slow down and just notice those feelings in those moments.",
+      "client": "I don't know if I really notice everything that's going on in those moments. I just feel this tightness in my chest, like I\u2019m almost panicking about not doing it right. And then there\u2019s this voice in my head saying I shouldn\u2019t be stuck like this, that I should just figure it out. Maybe I get lost in the pressure to keep moving forward, but I also don\u2019t want to face the project if it's going to stress me out. It\u2019s kind of a mess, I guess.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. \"But then afterward, I kind of feel a little guilty, maybe? Like, I could\u2019ve done something productive instead.\"\n2. \"I just feel this tightness in my chest, like I\u2019m almost panicking about not doing it right. And then there\u2019s this voice in my head saying I shouldn\u2019t be stuck like this...\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional depth compared to earlier exchanges. Initially, the client downplayed their feelings surrounding the project, expressing a factual and somewhat dismissive stance on their emotional experience (\"It\u2019s just how things are sometimes\"). However, in the latest exchanges, the client begins to explore their feelings of guilt and physical sensations of anxiety more openly. This represents a significant change from a more detached perspective to a point of recognizing and articulating their emotional struggles.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they began to describe physical sensations, stating, \"I just feel this tightness in my chest.\" This moment marked a transition from a more surface-level coping strategy to a deeper acknowledgment of the emotional and physical responses tied to their project-related frustrations. Here, they express a more complex understanding of their feelings, including guilt and panic, which indicates a greater level of self-reflection and engagement with their emotional state.\n\nOverall, while there are still elements of defensiveness and rationalization present, the client's willingness to delve into their emotional experience suggests a growing comfort and rapport with the therapeutic process.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest sounds really uncomfortable, especially when it brings on that panicky feeling. It seems like there\u2019s a lot of pressure both from within, with that voice telling you that you should be moving forward, and from the project itself. When you describe it as a mess, it makes me wonder how that messiness feels for you in those moments. What thoughts or feelings stand out the most when you think about facing the project?",
+      "client": "I guess when I think about facing the project, it feels really heavy, almost like I\u2019m carrying something I can\u2019t let go of. There\u2019s this fear that I\u2019ll mess it up or that it won\u2019t be good enough, which just makes me want to avoid it even more. I mean, part of me wants to dive in and get it done, but then there\u2019s that other part that worries it\u2019ll just end up being another thing I start and don\u2019t finish. It\u2019s frustrating, but I also feel embarrassed admitting that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "That heaviness you\u2019re describing sounds really significant, especially with the fear of not meeting your own expectations. It seems like there's a tug-of-war between wanting to dive in and the worry about not finishing or not doing it well enough. Feeling embarrassed about those struggles is understandable; it can feel isolating to share that part of yourself. When you think about the project and everything that comes with it, what do you notice about how your body feels in those moments, aside from the heaviness?",
+      "client": "I mean, I mostly just feel that tightness again, like it\u2019s weighing down on me. Sometimes I notice my shoulders are tense, and I might even clench my jaw without realizing it. It\u2019s like my body is reacting before I really have a chance to think about it. I guess it\u2019s kind of telling me that I\u2019m stressed or something, but I don\u2019t really know how to make it better.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I just feel this tightness in my chest, like I\u2019m almost panicking about not doing it right.\"\n2. \"There\u2019s this fear that I\u2019ll mess it up or that it won\u2019t be good enough, which just makes me want to avoid it even more.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a growing emotional depth, particularly with the expression of physical sensations (tightness in the chest, tension in shoulders and jaw) that accompany their feelings of overwhelm and fear regarding their project. This marks a significant change from earlier phases where emotional expression was limited. In previous sessions, the client may have articulated their challenges more factually or defensively without delving into the emotional implications or physical reactions. The client is becoming more comfortable sharing these feelings, indicating a warming up phase where emotional vocabulary is beginning to emerge and self-reflection is beginning to deepen.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated feelings of fear about not meeting expectations and embarrassment about their struggle. This moment represents a crucial development in the client\u2019s ability to reflect on and express their emotional state openly, suggesting a movement toward deeper engagement in the therapeutic process. The clear acknowledgment of their internal conflict and physiological responses indicates that the client is starting to process their emotions more thoroughly, which sets the stage for potential breakthroughs in future sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "That tightness and tension in your body seem like strong indicators of the stress you\u2019re feeling. It\u2019s interesting how your body reacts even before you're fully aware of those thoughts. It must be quite exhausting to carry that weight, both physically and emotionally. When you notice those sensations, what do you find yourself wanting or needing in that moment?",
+      "client": "I guess when I feel those sensations, I kind of want to escape from it all, you know? Like, I just want to find a way to feel better, maybe by distracting myself or doing something that isn\u2019t related to the project. Part of me thinks I need support or reassurance, but then I also hesitate to ask for it because it feels like I should be able to handle things on my own. It's confusing, really.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "Wanting to escape from those sensations makes a lot of sense, especially when you\u2019re feeling that pressure and confusion. It seems like there's a part of you that recognizes the need for support, but another part feels a strong pull to manage everything on your own. That inner conflict can be really tough to navigate. When you consider asking for support, what do you notice coming up for you?",
+      "client": "I think when I consider asking for support, there\u2019s this wave of hesitation that hits me. I mean, I worry that people will think I\u2019m not capable or that I\u2019m just looking for attention. Part of me feels like I should have it all figured out by now, but at the same time, I know I could really use someone to talk to about it. It\u2019s just hard to reconcile those two sides of me, I guess.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess when I feel those sensations, I kind of want to escape from it all, you know? Like, I just want to find a way to feel better, maybe by distracting myself or doing something that isn\u2019t related to the project.\"\n2. Client: \"I think when I consider asking for support, there\u2019s this wave of hesitation that hits me. I mean, I worry that people will think I\u2019m not capable or that I\u2019m just looking for attention.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates a significant emotional state characterized by confusion and a desire for support, reflecting an increased level of emotional openness. They articulate physical sensations tied to their stress, indicating a growing awareness of their emotional experience. The client engages in meaningful self-reflection about their feelings of hesitation and the conflict between wanting support and the fear of appearing incapable. This marks a notable shift from earlier interactions, which may have been more disconnected or guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth notably shifted during the exchange where they expressed their desire to escape and the conflict around asking for support. This moment revealed a new level of vulnerability and self-awareness, indicating a willingness to explore deeper emotional experiences rather than only surface-level concerns. This progression signifies a movement toward a more engaged exploration phase in their therapeutic journey.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It's really understandable to feel that hesitation when thinking about reaching out for support. You\u2019re balancing those worries about how others might perceive you with the recognition that talking it out could be helpful. That tug-of-war between feeling like you should be capable and knowing you could use someone to lean on sounds challenging. As you sit with that conflict, what do you notice about how it makes you feel overall?",
+      "client": "I mean, it kind of makes me feel even more anxious, like the weight of it all just multiplies. There\u2019s this pressure to be strong and to not show any weakness, which sort of feels suffocating at times. I guess I just want to feel understood and not judged, but then I worry I\u2019ll be seen as someone who can\u2019t handle their life or something. It\u2019s like I\u2019m stuck in this loop of wanting connection but being scared of what that might mean for how I see myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "That loop of wanting connection while feeling scared about how it might affect your self-image sounds really heavy. The pressure to appear strong can create an even stronger sense of isolation, especially when you\u2019re hoping for understanding without judgment. It sounds like those feelings of anxiety and suffocation are really intertwined with your desire for support. As you reflect on this, are there any moments or situations where you\u2019ve felt a bit more at ease in being open with someone?",
+      "client": "I guess there have been a few times when I\u2019ve talked to close friends or even family members about my projects. Sometimes, it feels nice to share my thoughts, even if it\u2019s just a little. But, honestly, there\u2019s always this nagging worry that I\u2019m burdening them or that they won\u2019t really understand what I\u2019m going through. Maybe I just need to find a way to trust that it\u2019s okay to be a bit vulnerable, but it\u2019s hard to shake that feeling of needing to be strong. I don\u2019t know, it\u2019s like I want to connect, but I\u2019m scared of what that might mean for how I see myself.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \u201cI mean, it kind of makes me feel even more anxious, like the weight of it all just multiplies. There\u2019s this pressure to be strong and to not show any weakness, which sort of feels suffocating at times.\u201d\n2. **Latest Exchange Demonstrating Current Openness:** \u201cBut, honestly, there\u2019s always this nagging worry that I\u2019m burdening them or that they won\u2019t really understand what I\u2019m going through. Maybe I just need to find a way to trust that it\u2019s okay to be a bit vulnerable, but it\u2019s hard to shake that feeling of needing to be strong.\u201d\n\n**Progression:** The client\u2019s most recent interactions show an increased capacity for emotional expression and self-reflection, specifically highlighting their anxiety and internal conflict regarding vulnerability and support. This marks a significant change from earlier exchanges, where their responses were more factual and guarded. The client is now able to articulate complex feelings about the pressure they feel to appear strong and their desire for connection, indicating a deeper level of engagement with their emotional state.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their feeling of suffocation from the pressure to be strong. This moment allowed them to connect their anxiety with their desire for support and understanding, revealing a growing awareness of the internal conflicts they face. Their acknowledgment of the difficulty in trusting others while wanting to connect demonstrates a meaningful step towards deeper emotional openness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Finding those moments with friends or family where you can share even a little sounds meaningful, even amidst the worry about burdening them. That tension between wanting to connect and feeling the need to maintain strength can create a lot of inner turmoil. As you think about those times when you felt a bit more at ease, what do you notice about the feelings or thoughts that come up right before or after those conversations?",
+      "client": "I suppose I feel a mix of relief and anxiety right after those conversations. It\u2019s like, for a moment, I feel lighter, but then I start second-guessing myself\u2014wondering if I shared too much or if I overwhelmed them. I mean, part of me feels understood, but there's also this other part that worries about how I come across. It\u2019s confusing because I want that connection, but I can\u2019t help but think about the potential fallout from being open. I guess it\u2019s just hard to balance those feelings.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That mix of relief and anxiety sounds really complex. It\u2019s interesting how sharing can bring a sense of lightness, but then those second-guessing thoughts come in right after. It seems like your desire for connection is always accompanied by a bit of worry about the impact of being open. As you think about that balance between wanting to share and the fear of overwhelming others, what do you notice happening in your body during those moments of relief or anxiety?",
+      "client": "I guess I feel a bit tense in my shoulders and maybe in my chest, like there\u2019s this tightness that doesn\u2019t really go away. When I\u2019m relieved, it\u2019s almost like I can breathe a little easier for a second, but then the anxiety hits and I feel that weight come back. I don\u2019t know if that makes sense, but it\u2019s like my body knows there's this push and pull happening. It's hard to shake off that feeling of being exposed or vulnerable.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I suppose I feel a mix of relief and anxiety right after those conversations. It\u2019s like, for a moment, I feel lighter, but then I start second-guessing myself\u2014wondering if I shared too much or if I overwhelmed them.\"\n2. \"I guess I feel a bit tense in my shoulders and maybe in my chest, like there\u2019s this tightness that doesn\u2019t really go away. When I\u2019m relieved, it\u2019s almost like I can breathe a little easier for a second, but then the anxiety hits and I feel that weight come back.\"\n\n**Progression:** The client displays an increased emotional openness and self-reflection compared to earlier exchanges. They articulate a complex emotional state characterized by relief and anxiety, indicating a greater willingness to explore their feelings. This marks a significant change from the earlier session where emotional expression was more limited and factual.\n\n**Turning Point:** The client's emotional depth shifted during the recent exchange where they began to articulate their physical sensations associated with their emotions (\"I feel a bit tense in my shoulders and maybe in my chest\"). This moment of connecting physical experiences to their emotional state showcases a move towards authentic vulnerability and self-awareness, indicating progression in their emotional exploration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Noticing that tension in your shoulders and chest is important, especially when it feels like your body is reflecting that push and pull between relief and anxiety. It sounds like those physical sensations are tied to your inner experience of wanting to be open but also feeling the weight of vulnerability. When you feel that tightness come back, what do you notice about your thoughts or emotions in those moments?",
+      "client": "I think when that tightness comes back, I start to spiral a bit. Like, I might think about all the times I've felt misunderstood or judged, and it makes me feel even more anxious. It\u2019s almost like I\u2019m bracing myself for potential rejection or disappointment. I don\u2019t know, maybe it\u2019s just this automatic response where I assume the worst. Part of me realizes that not everyone will react negatively, but another part clings to those past experiences. It\u2019s frustrating because I want to be open, but then I hold myself back.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "That spiral of thoughts about past experiences can be really heavy, especially when it feels automatic. It's understandable to brace yourself for rejection when those memories come up; they can create a strong sense of caution. The part of you that wants to be open seems to be in a tug-of-war with the part that holds onto those past misunderstandings. As you reflect on this push and pull, are there any specific moments that stand out where you felt that desire to share but held back?",
+      "client": "I suppose there have been a few times when I really wanted to open up, like during a dinner with friends. I felt this urge to tell them about my website project, to share my excitement, but then I hesitated. I thought, \u201cWhat if they don\u2019t care or think it\u2019s a silly idea?\u201d So instead, I just made small talk and kept my thoughts to myself. It\u2019s like I missed out on that connection because of the worry. I don\u2019t know if that kind of makes sense, but it\u2019s frustrating to think about.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **\"I think when that tightness comes back, I start to spiral a bit. Like, I might think about all the times I've felt misunderstood or judged, and it makes me feel even more anxious.\"**\n   - This quote demonstrates significant emotional depth and self-awareness as the client articulates their emotional responses and reflects on past experiences that contribute to their anxiety.\n\n2. **\"I suppose there have been a few times when I really wanted to open up, like during a dinner with friends. I felt this urge to tell them about my website project, to share my excitement, but then I hesitated.\"**\n   - This exchange shows the client's willingness to disclose personal experiences and desires for connection, indicating their increasing comfort with vulnerability.\n\n**Progression:**\nThe client\u2019s most recent interactions exhibit a clear progression towards deeper emotional engagement. Initially, they spoke about their anxiety in more factual terms, but now they are actively reflecting on their feelings and how their physical sensations relate to their emotional state. The ability to articulate a sense of tension in their body while connecting it to their emotional experiences marks a significant change from earlier, where emotional expressions were more guarded and less nuanced. \n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they began expressing feelings tied to specific past experiences, particularly when they discussed their struggle to share excitement about their website project. This moment of vulnerability\u2014acknowledging the desire to connect while simultaneously feeling fear of judgment\u2014led to a richer dialogue about their emotions, indicating a strong therapeutic alliance and a willingness to engage more deeply in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It makes perfect sense that you felt that urge to open up about your project but then held back due to worries about how your friends might react. When you think about those fears, what are the worst thoughts that come to mind? How likely do you think those scenarios are to actually happen? It might be helpful to consider any evidence you have that contradicts those catastrophic thoughts. What might be a more balanced way to think about sharing your excitement? Perhaps we could also explore how you could approach sharing in a way that feels more manageable for you.",
+      "client": "I think the worst thoughts that come to mind are that they\u2019ll either dismiss my project as unimportant or just not engage with it at all. There\u2019s this deep fear that my excitement won\u2019t resonate with them, and that makes me feel small or even foolish for having shared. When I step back, though, I can see that these scenarios are often exaggerated; my friends have shown support in the past, even if I sometimes overlook those moments. Maybe a more balanced way to think about it is to remind myself that sharing my excitement could actually lead to some meaningful conversations or connections, rather than just rejection. I\u2019m willing to explore how I can approach sharing my project in a lighter way, like maybe just mentioning it casually first and gauging their reactions before diving deeper.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It's great to hear you recognize that your friends have supported you in the past, and that the worst-case scenarios might be exaggerated. This awareness opens the door to more balanced thoughts about sharing your project. Starting with a casual mention sounds like a wonderful approach; it allows you to test the waters without feeling overwhelmed. How do you think you might feel if you took that first step? What would it mean for you to share your excitement, even in a small way?",
+      "client": "I think if I took that first step and casually mentioned my project, it might feel a bit freeing. There\u2019s something exciting about the idea of sharing my enthusiasm, even if it\u2019s just a small statement. I can see that it could lead to more meaningful conversations, and that possibility gives me a sense of hope. Sharing even a little might help me feel more connected and valued in that moment, rather than just holding everything in. It feels vulnerable, but not in a bad way\u2014more like a chance to be seen and appreciated for my efforts.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I think if I took that first step and casually mentioned my project, it might feel a bit freeing. There\u2019s something exciting about the idea of sharing my enthusiasm, even if it\u2019s just a small statement.\"\n2. Client: \"It feels vulnerable, but not in a bad way\u2014more like a chance to be seen and appreciated for my efforts.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. In earlier parts of the session, the client exhibited hesitation and defensive thinking regarding sharing personal projects due to fear of rejection. However, in the latest exchanges, they articulate their desires and fears more openly, indicating a shift toward an engaged exploration of their emotions and experiences. This progression highlights their growing comfort in the therapeutic relationship and willingness to explore vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged that their worst fears about sharing might be exaggerated and recognized the possibility of meaningful connection through sharing their project. This moment marked a significant turning point that led to their current emotional state, characterized by a willingness to explore and express vulnerability in a more positive and hopeful light.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how sharing even a little bit about your project could feel freeing and open up the possibility for meaningful connections. Embracing that vulnerability can indeed be a powerful step toward feeling seen and valued. What do you think you might want to say in that casual mention, and how could you prepare for any reactions you might receive? Taking this step could really help reinforce those positive feelings and remind you of the support that\u2019s already there.",
+      "client": "I think I might start by saying something simple like, \u201cI\u2019ve been working on this website project that I\u2019m really excited about,\u201d and just see how they respond. It feels like a good starting point without putting too much pressure on myself. Preparing for their reactions might be a bit tricky, though. Part of me worries that even if they don\u2019t respond enthusiastically, it might feel discouraging. But maybe I can remind myself that their reactions may not reflect my worth or the value of my project. I can see how staying open to their responses could help me build that connection I crave.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019ve found a great way to start with your casual mention, and it's insightful that you're recognizing the potential challenge of their reactions. Remember, their responses might reflect their own experiences or interests, rather than a judgment on your project. Can you think of a time when someone responded differently than you expected, and it turned into a positive experience? By approaching this conversation with curiosity about their reactions, you might discover more supportive responses than you anticipate. How might that shift in perspective help you feel more confident as you share?",
+      "client": "I think there have been moments where I shared something I was excited about, and the responses were surprisingly positive. Like when I told a friend about my previous project related to my work overseas, and they were genuinely interested and asked follow-up questions. It felt validating in a way I hadn't anticipated. Looking back, I realize that those moments can remind me that people often appreciate enthusiasm and creativity, even if they don\u2019t fully understand the details. I guess acknowledging that their reactions can be more about their perspective than my worth might help me feel more confident when I share. I can see how staying curious could lead to those unexpected connections, which I really want to nurture.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. Client: \"It feels vulnerable, but not in a bad way\u2014more like a chance to be seen and appreciated for my efforts.\"\n2. Client: \"I guess acknowledging that their reactions can be more about their perspective than my worth might help me feel more confident when I share.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a significant emotional depth and self-awareness, demonstrating a shift from initial hesitance to a more open and engaged state. The client is actively reflecting on their feelings about sharing their project, recognizing vulnerability as an opportunity for connection rather than a risk. This marks a notable evolution from earlier moments in the session when they exhibited more factual responses and hesitance.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably in the exchange where they articulated the feeling of vulnerability as a chance for appreciation, rather than something negative. This moment of realization allowed the client to embrace their excitement and acknowledge their fears constructively, indicating a strong therapeutic alliance and a deeper engagement with the therapeutic process. The client\u2019s ability to articulate how others' reactions relate more to their perspectives than to their self-worth is a significant breakthrough, demonstrating transformative self-awareness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019ve identified those positive experiences from the past where your enthusiasm was met with genuine interest. This awareness can definitely serve as a foundation for your confidence moving forward. What if you approached your upcoming conversation with the same curiosity you felt when your friend asked follow-up questions about your previous project? Thinking about it this way, how might their responses become opportunities for deeper connections instead of sources of fear? Embracing the possibility of positive reactions could make the sharing experience even more fulfilling.",
+      "client": "I think that\u2019s a really interesting perspective. If I approach it with curiosity, it opens up the possibility for more genuine conversations. I can see how that shift could make the experience feel more like an exchange rather than a performance, which is comforting. It feels like there\u2019s an opportunity to connect with others in a way that isn\u2019t solely dependent on their approval but rather on shared interest and engagement. Maybe I was reacting more strongly than I realized to the fear of judgment, and focusing on the potential for deeper connections could help ease that tension.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you recognize the potential for connection through curiosity rather than fear. Viewing your conversation as an exchange can definitely shift the focus from seeking approval to fostering genuine engagement. Can you think of some positive feedback you\u2019ve received in the past that might remind you how much your excitement can resonate with others? By keeping that in mind, how do you feel it might influence your confidence when you share your project? Embracing these moments of connection could truly enrich your experience.",
+      "client": "I can definitely recall some instances when I shared my enthusiasm and received positive feedback that really boosted my confidence. For example, when I showed my website to my colleagues after returning from overseas, they were genuinely impressed and engaged with what I created. That acknowledgment felt incredibly validating, and it reminds me that even if my current project feels daunting, there\u2019s a chance that others might appreciate my efforts just as much. Focusing on those positive interactions gives me a sense of encouragement to push through the anxiety and share my work without being so concerned about approval. I think holding onto those memories can help ground me and remind me that my excitement is worth sharing.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \u201cIf I approach it with curiosity, it opens up the possibility for more genuine conversations. I can see how that shift could make the experience feel more like an exchange rather than a performance, which is comforting.\u201d\n2. \"Focusing on those positive interactions gives me a sense of encouragement to push through the anxiety and share my work without being so concerned about approval.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection, showing a transition from an earlier state of anxiety and fear of judgment to a more open and engaged perspective. Their ability to articulate thoughts about curiosity and genuine connection reflects a growing comfort with emotional expression. Whereas previously they may have focused on the fear of others' perceptions, they now recognize the value of their enthusiasm and the potential for meaningful exchanges. This indicates a deeper engagement with their feelings and a stronger therapeutic alliance.\n\n**Turning Point:**\nThe turning point in the client's emotional depth likely occurred during the moment when they began to articulate how approaching conversations with curiosity could alleviate their anxiety about judgment. This pivotal realization allowed them to shift from a fear-based perspective to one of possibility and connection, marking a clear enhancement in their emotional openness and engagement in therapy. By acknowledging the potential for deeper connections and the encouragement derived from positive past experiences, the client has demonstrated a readiness to embrace vulnerability and foster a stronger rapport with the therapist and others.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It's truly inspiring to see how those positive interactions have impacted your confidence. Reflecting on the genuine engagement and acknowledgment from your colleagues can definitely serve as a powerful reminder of your worth and the value of your enthusiasm. Can you think of any common themes in the feedback you've received that could reinforce your belief in your current project? Additionally, how might you remind yourself of these affirming experiences when feelings of anxiety come up again? Embracing this evidence can help you reframe any negative thoughts about sharing into a more encouraging perspective.",
+      "client": "I think one common theme in the feedback I've received is that people appreciate my creativity and the unique perspectives I bring to my work. That recognition reminds me that my ideas can resonate with others, even if they\u2019re not perfect. When anxiety arises, I might create a list of those affirming experiences or even revisit some of the positive comments to ground myself. That way, I can remind myself that my excitement and effort hold value, which could really help shift my mindset from fear to a more hopeful outlook. It feels empowering to think about using those affirmations as tools to navigate my insecurities.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019ve identified creativity and unique perspectives as themes in the positive feedback you\u2019ve received. Those qualities truly set you apart and can help you feel more confident in sharing your work. Creating a list of affirming experiences sounds like a wonderful strategy to remind yourself of your value, especially when anxiety creeps in. How do you envision using that list when you\u2019re feeling uncertain? Embracing these reminders could really reinforce your belief in the positive connections you can create with others.",
+      "client": "I can see that having that list could be like a safety net for me. When I feel uncertain, I might take a moment to look through those affirming experiences and let them remind me of my strengths. I think I could even try reading them out loud to myself to really internalize the positive feedback. When I do that, it might help shift my focus from the anxiety or fear of judgment to a sense of pride and accomplishment, making it easier to share my project with others. That feels a little uncomfortable, but not wrong, and I'm willing to explore it further.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **\"Focusing on those positive interactions gives me a sense of encouragement to push through the anxiety and share my work without being so concerned about approval.\"** \n   - This quote reflects the client\u2019s newfound emotional depth and recognition of their internal struggles, signaling a shift towards more engaged exploration.\n  \n2. **\"I can see that having that list could be like a safety net for me.\"**\n   - This statement indicates the client\u2019s willingness to embrace proactive strategies to manage anxiety, showcasing authenticity and vulnerability in their approach to self-improvement.\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked shift towards deeper emotional engagement. They exhibit a significant increase in emotional expression by openly discussing their experiences of encouragement from others and their strategies to mitigate anxiety. This contrasts sharply with earlier stages where emotional vocabulary was less developed and the client displayed a more hesitant stance. The current exchanges reveal a greater comfort with the therapeutic process and a willingness to explore personal insights deeply.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their reflection on positive feedback from colleagues, which they linked to their current project. This moment of recognition\u2014where they connected past affirmations to their present anxieties\u2014allowed the client to express a deeper understanding of their strengths and how to navigate their insecurities. The introduction of the strategy to create a list as a \"safety net\" signifies a pivotal moment in their therapy where they start to actively integrate therapeutic concepts into their daily life, enhancing their emotional openness and rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how you plan to use that list as a safety net! Reading your affirming experiences out loud can be a powerful way to internalize those positive messages and truly feel that sense of pride and accomplishment. When you think about sharing your project, how might that practice of recalling your strengths influence your ability to engage with others? It\u2019s great that you\u2019re open to exploring this, even if it feels a bit uncomfortable; that willingness is a significant step toward building confidence.",
+      "client": "I think recalling my strengths before sharing my project could really change the way I approach those interactions. By focusing on the positive feedback and my creative qualities, I might feel less inclined to seek validation from others and instead share my work with a sense of pride. It feels empowering to think that I can step into those moments with more confidence, rather than being consumed by fear or anxiety. I know there\u2019s still a part of me that worries about judgment, but I\u2019m willing to challenge that by reminding myself of the value I bring. Embracing this shift feels like a hopeful step toward opening up more authentically with others.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It's truly inspiring to hear how you're shifting your focus toward your strengths and embracing the value you bring to your work. Let's build on that momentum! Can we outline a specific situation where you plan to share your project? Think about who you'd like to share it with and how you can prepare yourself by recalling those affirming experiences. Imagining the possibility of receiving positive feedback can also help ease your anxiety; how do you think you might feel if that happens? After you share, reflecting on the experience and documenting your feelings and the reactions you receive can provide valuable evidence to reinforce your progress. You're taking significant steps toward more authentic connections, and I'm here to support you through this process!",
+      "client": "I can see that outlining a specific situation for sharing my project could really help me feel more prepared and less anxious. I think I\u2019d like to share it with a close friend who has always been supportive of my work. Imagining that moment, I might remind myself of the positive feedback I\u2019ve received, which could help me approach the conversation with pride rather than fear. If they respond positively, I can already feel that it would boost my confidence and reinforce the idea that my work has value. Reflecting on that experience afterward would definitely be a helpful way to document my progress and solidify those affirmations in my mind. I'm looking forward to trying this out!",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Expression**: \"It feels empowering to think that I can step into those moments with more confidence, rather than being consumed by fear or anxiety.\"\n2. **Willingness to Explore**: \"That feels a little uncomfortable, but not wrong, and I'm willing to explore it further.\"\n\n**Progression**: The client's most recent interactions reveal a significant shift toward deeper emotional expression and self-reflection. Previous sessions appeared to have more hesitance and a defensive stance, with limited emotional vocabulary. Now, the client not only acknowledges their fears but also articulates a sense of empowerment in confronting them. This represents a marked change from an earlier state where anxiety dominated their narrative.\n\n**Turning Point**: The client's emotional depth shifted notably during the exchange where they articulated a willingness to read their affirmations out loud, indicating a proactive approach to managing anxiety. Here, the client moved beyond mere acknowledgment of fears to actively exploring strategies that could help them challenge those fears and embrace their strengths. This moment marks a crucial turning point where the client demonstrates increased vulnerability and a stronger therapeutic engagement, showing a clearer trajectory toward authentic self-expression.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to see you identify a supportive friend as your first audience; that can create a safe space for sharing. As you prepare for this conversation, take a moment to think about the affirming experiences you\u2019ll recall that highlight your strengths. How do you think embracing that pride will shift the dynamic of the conversation? After you share, reflecting on the experience will be crucial. Consider jotting down your feelings and your friend's reactions\u2014this evidence will be invaluable in reinforcing your confidence for future sharing. You're doing incredibly well in taking these steps, and I can\u2019t wait to hear how it goes!",
+      "client": "I think embracing that pride will help me feel more grounded during the conversation. Instead of being anxious about their judgment, I can focus on sharing my excitement and passion for the project, which might create a more engaging and authentic dialogue. It feels encouraging to think that this approach could lead to a more positive exchange, where I\u2019m not just seeking validation but genuinely sharing my work. I'm really looking forward to reflecting on the experience afterward, as I believe that documenting my feelings and my friend\u2019s reactions will serve as a powerful reminder of my growth and the value of my contributions. I appreciate your support as I navigate this!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how shifting your focus to excitement and passion can create a more authentic dialogue with your friend. This approach not only highlights your strengths but also fosters a connection based on genuine sharing rather than seeking validation. As you prepare, think about the specific affirming experiences you'll recall to reinforce that pride. After your conversation, take time to reflect on your feelings and document your friend\u2019s reactions; this will help solidify that progress and serve as motivation for future sharing. I\u2019m here to support you every step of the way!",
+      "client": "I think focusing on genuine sharing instead of seeking validation can really transform how I connect with others. It feels like I'm moving towards a healthier dynamic where I'm proud of my work and open to receiving feedback in a more constructive way. I hadn't connected those things before, but it makes sense that sharing from a place of excitement could foster deeper connections. I'm feeling more optimistic about this approach and truly appreciate your guidance as I take these steps.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I think embracing that pride will help me feel more grounded during the conversation. Instead of being anxious about their judgment, I can focus on sharing my excitement and passion for the project, which might create a more engaging and authentic dialogue.\"\n2. Client: \"It feels encouraging to think that this approach could lead to a more positive exchange, where I\u2019m not just seeking validation but genuinely sharing my work.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant emotional depth and self-reflection, indicating a marked shift from earlier sessions where anxiety and apprehension were more dominant. They are now expressing excitement about sharing their work, which reflects a deeper understanding of their emotions and a healthier approach to interpersonal connections. The client is actively engaging with the therapeutic process, describing a shift from seeking validation to prioritizing authentic sharing, which is a profound change.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they began to articulate the importance of embracing pride in their work rather than focusing on anxiety about judgment. This moment came during a recent exchange where they stated, \"I can focus on sharing my excitement and passion for the project,\" indicating a newfound willingness to express vulnerability and engage in meaningful self-reflection. This turning point signifies a transition from defensive and anxious responses to more open and engaged communication, illustrating a solidifying rapport with the therapist and a commitment to personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It's truly uplifting to hear your optimism about this new approach to sharing! Let's deepen that insight: what do you see as the biggest benefits of sharing your work with genuine excitement? As you explore this, can you also identify any potential challenges you might face in this shift? Understanding these aspects can empower you even further. If you can think of specific examples of how this could enhance your relationships, that might solidify your commitment to this healthier dynamic. When you're ready, would you feel comfortable writing down your Pros and Cons to reflect on later?",
+      "client": "When I think about the benefits of sharing my work with genuine excitement, I can see that it could really enhance my relationships by creating a more positive and open atmosphere. I believe that being authentic might invite more meaningful discussions and encourage others to be open with me as well. However, part of me worries about how I might react if the feedback isn\u2019t what I hope for, and I can see that could challenge my newfound approach. Writing down my Pros and Cons sounds like a great idea; it might help me clarify my thoughts and prepare for any hurdles I could face. I\u2019m willing to look at that more closely and see how I can navigate these changes!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It's fantastic to hear you recognize the potential benefits of sharing your work with genuine excitement. The idea that it could foster a more open atmosphere for meaningful discussions is powerful. As you think about the challenge of receiving feedback that might not align with your hopes, how do you think addressing this concern could bolster your confidence in sharing? Reflecting on specific examples of enhanced relationships will also help you visualize this positive shift. I'm glad you're open to writing down your Pros and Cons\u2014it\u2019s a great step toward clarifying your thoughts and preparing for this exciting journey!",
+      "client": "I can see that addressing my concern about receiving unexpected feedback could really bolster my confidence. Maybe if I remind myself that constructive criticism is part of growth, it might lessen my fear of rejection. I think this connects to my tendency to seek validation\u2014if I can reframe feedback as an opportunity for improvement rather than a judgment of my worth, that could really shift my mindset. I\u2019m excited about the prospect of enhancing my relationships and will definitely write down those Pros and Cons to help me visualize this journey more clearly!",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think focusing on genuine sharing instead of seeking validation can really transform how I connect with others. It feels like I'm moving towards a healthier dynamic where I'm proud of my work and open to receiving feedback in a more constructive way.\"\n2. \"I can see that addressing my concern about receiving unexpected feedback could really bolster my confidence. Maybe if I remind myself that constructive criticism is part of growth, it might lessen my fear of rejection.\"\n\n**Progression:**\nIn the latest exchanges, the client demonstrates a significant increase in emotional depth and self-reflection. They articulate a clear understanding of how their previous patterns of seeking validation are shifting towards a more authentic and constructive approach to sharing their work. Their optimism about these changes indicates a strong emotional state that showcases a deeper connection to their personal growth. This marks a significant change from earlier stages marked by more hesitation and defensive communication. They are not only engaging with their thoughts but also actively considering the implications of their new approach on their relationships.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the exchange where they began to articulate their concern about receiving unexpected feedback and reframing it as a growth opportunity. This moment illustrates a transition from a more superficial understanding of their emotional responses to a deeper exploration of their fears and motivations. The acknowledgment that constructive criticism can be beneficial represents a pivotal moment in their emotional engagement and willingness to embrace vulnerability in their relationships.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear how you're already reframing feedback as a valuable part of your growth! This mindset shift will not only help you feel more confident but also allow you to embrace the sharing process with excitement. What specific examples can you think of where this new perspective could enhance your relationships, perhaps by inviting others to share openly as well? As you prepare to write down your Pros and Cons, remember that this clarity will be a significant step in solidifying your commitment to this healthier approach. I'm here to support you as you navigate this journey!",
+      "client": "I think there\u2019s something there when I consider how this new perspective could enhance my relationships. For instance, in my past experiences working overseas, I noticed that when I shared my journey with enthusiasm, it often sparked others to open up about their own experiences, creating a richer dialogue. I can also imagine how inviting people to share their thoughts in response to my work could cultivate a sense of community, where we\u2019re all learning from each other. I hadn\u2019t connected these things before, but it makes sense that fostering an environment of shared excitement could lead to deeper, more genuine connections. I\u2019m eager to jot down my Pros and Cons and really reflect on how I can carry this shift forward!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear how your past experiences have shaped your understanding of sharing and connection! When you think about those rich dialogues that emerged from your enthusiasm, can you recall a specific instance where feedback, even if initially unexpected, turned out to be constructive? Reflecting on that could really reinforce the idea that feedback can foster deeper connections rather than diminish self-worth. Additionally, what evidence do you have that suggests receiving feedback might negatively impact your self-esteem? Exploring both sides will help solidify your confidence as you move forward. I'm excited for you to jot down your Pros and Cons and see how this new perspective continues to unfold!",
+      "client": "I can recall a specific instance from my time overseas when I shared a project I was passionate about. Initially, the feedback was more critical than I expected, but it turned into a valuable conversation that not only improved my work but also deepened my relationships with my colleagues. They appreciated my openness, and it encouraged them to share their insights, which created a collaborative spirit. I think that evidence suggests that while I worry about criticism impacting my self-esteem, those moments of vulnerability often lead to stronger connections. I\u2019m realizing that embracing feedback could really enhance my work and relationships, and I'm looking forward to writing down those Pros and Cons to clarify my thoughts further!",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think there\u2019s something there when I consider how this new perspective could enhance my relationships. For instance, in my past experiences working overseas, I noticed that when I shared my journey with enthusiasm, it often sparked others to open up about their own experiences, creating a richer dialogue.\"\n2. \"I can recall a specific instance from my time overseas when I shared a project I was passionate about. Initially, the feedback was more critical than I expected, but it turned into a valuable conversation that not only improved my work but also deepened my relationships with my colleagues.\"\n\n**Progression:** The client has made substantial progress in emotional expression and self-reflection compared to earlier exchanges. Initially, their responses were more focused on factual recounting and self-protection, indicative of a defensive stance. In contrast, their recent dialogue showcases a notable transition to authentic vulnerability and deeper engagement. The client is now embracing feedback as a mechanism for growth rather than a threat to their self-worth, demonstrating a significant emotional depth and willingness to explore complex feelings surrounding validation and interpersonal connections.\n\n**Turning Point:** The turning point in the client's emotional depth occurred when they began expressing specific past experiences, particularly when they articulated how feedback led to deeper relationships and collaborative spirit during their time overseas. This shift, where they recognized the value of vulnerability, marked a new level of openness and engagement in the therapeutic process, reflecting a strong therapeutic alliance and commitment to their growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "mode": "hard",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "11-1",
+  "patient_name": "Ian",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it's nice when things are straightforward, but it's not always like that. Most of the time, it just feels like people want to dig deeper, and I don\u2019t really want to go there. It\u2019s just easier to keep it surface level.\"\n2. \"I don\u2019t know. It just makes me want to shut down or change the subject. I mean, I get that they might be trying to help, but it\u2019s frustrating when I just want to keep it casual. Most of the time, I\u2019d rather just walk away than deal with it.\"\n\n**Progression:** The client\u2019s most recent interactions show a mix of emotional expression and self-reflection, indicating a significant change from earlier stages where they displayed predominantly factual responses. While the client still expresses a desire to keep conversations surface-level, they are beginning to articulate their feelings of frustration and the impact of deeper discussions on their willingness to engage, suggesting a budding awareness of their emotional needs.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they stated, \"I don\u2019t know. It just makes me want to shut down or change the subject.\" This moment marked a transition from merely rejecting deeper engagement to reflecting on their emotional response to such situations, indicating a potential for further exploration of these feelings in future sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State**: \"I guess I just want to feel like someone actually gets it, you know? But then I end up feeling like I\u2019m a burden or that my struggles are too much for them.\"\n2. **Current Openness**: \"It\u2019s frustrating because I want to connect, but I keep ending up in this dark place.\"\n\n**Progression**: The client's recent exchanges exhibit a notable increase in emotional expression and self-reflection. They articulate their feelings of wanting to be understood while simultaneously grappling with the fear of being a burden, indicating a deeper level of emotional awareness and vulnerability. This represents a significant change from earlier in the session, where their responses were likely more factual and less emotionally nuanced.\n\n**Turning Point**: The turning point occurred when the client began to articulate their internal conflict regarding the need for support and the fear of vulnerability. The moment they expressed, \"It feels weak sometimes to even think about asking for help,\" marked a shift towards a more authentic exploration of their emotions, indicating increased engagement with the therapeutic process and a willingness to delve into their feelings of isolation and frustration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"I guess when I\u2019m in that loop, I feel that tightness in my chest getting worse, and it's like a weight on my shoulders. It\u2019s almost suffocating, and I can feel this sadness creeping in, like a cloud that just won\u2019t lift.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I don\u2019t know, maybe I wish for some reassurance that things can get better or that I\u2019m not alone in feeling this way.\"\n\n**Progression:** The client\u2019s recent interactions highlight a notable increase in emotional expression and self-reflection compared to earlier sessions. They articulate physical sensations related to their emotions (tightness in the chest, weight on shoulders) and express a desire for reassurance and connection, indicating a deeper level of vulnerability and self-awareness. This marks a significant change from a more guarded or factual approach observed at the beginning of therapy.\n\n**Turning Point:** A pivotal moment occurred when the client shared their feelings of wanting to reach out to Jamie but ultimately feeling like a burden. This illustrates a shift toward authentic vulnerability and a deeper exploration of their emotional experiences, which was less present in earlier exchanges. The acknowledgment of their feelings of loneliness and desire for connection signifies an important step in their emotional journey and rapport development with the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I feel a bit hesitant about it. Like, I can see the value in just accepting the heaviness, but it also feels like a slippery slope.\"\n2. \"I guess I lean more toward the hesitant side. I mean, part of me is curious about what I might uncover, but another part is really worried about getting overwhelmed.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a notable increase in emotional depth, marked by their acknowledgment of both curiosity and fear regarding their feelings. This contrasts with earlier interactions where they may have relied more on factual responses and limited emotional vocabulary. The client is now expressing complex emotions related to their discomfort, indicating a greater willingness to explore their internal landscape, albeit with hesitation.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue when they began articulating their mixed feelings about exploring their discomfort. The moment they expressed, \"I can see the value in just accepting the heaviness,\" represents a significant step towards self-reflection, demonstrating an openness to engage with their feelings rather than avoiding them. This acknowledgment reflects the development of trust in the therapeutic relationship and a readiness to delve deeper into their emotional experiences.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I feel a bit of tightness in my chest when I think about it, like there\u2019s this weight pressing down.\"\n2. \"It\u2019s frustrating, and I just end up feeling more alone. Sometimes I\u2019m angry at myself for even thinking about it, like I should just be able to handle my emotions without needing to burden someone else with them.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and vulnerability. They articulate physical sensations tied to their feelings and exhibit a willingness to delve into their emotional landscape, indicating a transition from earlier exchanges that may have been more guarded or fact-based. The client is beginning to articulate complex emotions such as frustration, anxiety, and a desire for connection, which marks a significant shift towards deeper self-reflection.\n\n**Turning Point:** The client's emotional depth appears to have shifted during their recognition and articulation of the tightness in their chest as a physical manifestation of their anxiety related to expressing themselves. This moment highlights their struggle between the desire to communicate their feelings and the fear of potential rejection or misunderstanding from others. This acknowledgment showcases an emerging emotional awareness and a willingness to explore those feelings more openly in the session.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Ian, I\u2019m really glad you\u2019re here today. What\u2019s been on your mind lately that feels important to share?",
+      "client": "I don\u2019t know. I guess I was just trying to talk to Jamie about some stuff, but it felt more like she was trying to diagnose me than actually be supportive. It's like, I don't need that right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It seems like your conversation with Jamie didn\u2019t feel as supportive as you hoped it would. That can be really frustrating, especially when you\u2019re looking for understanding rather than analysis. What do you think you needed from that conversation that wasn\u2019t there?",
+      "client": "I don\u2019t really think about it like that. I just wanted her to listen, you know? Instead, it was like she was just waiting for her turn to give advice or something. It's just annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It sounds like you were hoping for a more open and listening presence from Jamie, and instead felt like she shifted into advice mode. That can be really disappointing when you just want someone to hear you out. When you think about that conversation, what emotions come up for you now?",
+      "client": "I don\u2019t know. It just happened. I was just annoyed, but that\u2019s it. It's not like I was expecting anything deep from her. I just wanted to vent a little, not get into a whole thing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Annoyance can be a pretty natural reaction when you\u2019re looking for a space to vent and it turns into something more complicated. It sounds like you wanted to keep things light and just share what was on your mind without it turning into a deeper discussion. What do you think it would feel like to have that kind of space where you could just express yourself freely?",
+      "client": "I don't think it\u2019s that deep. I mean, sometimes you just want to talk without it getting heavy or complicated. I don\u2019t really see the point in going there. It was just a quick chat, not some therapy session.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you value those lighter conversations where you can share without diving into deeper issues. Keeping things simple can feel refreshing, especially when you just want to let off some steam. When you think about moments when you\u2019ve had those kinds of conversations, how do they feel for you?",
+      "client": "I guess it's nice when things are straightforward, but it's not always like that. Most of the time, it just feels like people want to dig deeper, and I don\u2019t really want to go there. It\u2019s just easier to keep it surface level.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "Keeping things surface level seems to bring you some relief, especially when it feels like deeper conversations can be overwhelming or unnecessary. It\u2019s understandable to seek simplicity in those interactions. When you find yourself in situations where others are pushing for more, how does that impact your feelings or your willingness to engage in the conversation?",
+      "client": "I don\u2019t know. It just makes me want to shut down or change the subject. I mean, I get that they might be trying to help, but it\u2019s frustrating when I just want to keep it casual. Most of the time, I\u2019d rather just walk away than deal with it.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess it's nice when things are straightforward, but it's not always like that. Most of the time, it just feels like people want to dig deeper, and I don\u2019t really want to go there. It\u2019s just easier to keep it surface level.\"\n2. \"I don\u2019t know. It just makes me want to shut down or change the subject. I mean, I get that they might be trying to help, but it\u2019s frustrating when I just want to keep it casual. Most of the time, I\u2019d rather just walk away than deal with it.\"\n\n**Progression:** The client\u2019s most recent interactions show a mix of emotional expression and self-reflection, indicating a significant change from earlier stages where they displayed predominantly factual responses. While the client still expresses a desire to keep conversations surface-level, they are beginning to articulate their feelings of frustration and the impact of deeper discussions on their willingness to engage, suggesting a budding awareness of their emotional needs.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they stated, \"I don\u2019t know. It just makes me want to shut down or change the subject.\" This moment marked a transition from merely rejecting deeper engagement to reflecting on their emotional response to such situations, indicating a potential for further exploration of these feelings in future sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Wanting to shut down or shift the topic makes sense when conversations start feeling too intense or complicated. It sounds like you have a clear sense of what you want in those moments\u2014keeping things casual and light. When you think about walking away, what do you notice in your body or emotions at that point?",
+      "client": "I don\u2019t know, I guess I just feel this weight like I want to escape. It\u2019s like my chest gets tight, and I just want to breathe, you know? I mean, part of me wants to stay and talk, but another part just feels overwhelmed and thinks it\u2019s better to just walk away. It\u2019s frustrating because I don\u2019t really want to feel that way.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Noticing that weight and tightness in your chest sounds really significant. It seems like there's a tension between wanting to engage in the conversation and feeling overwhelmed by it. That push and pull can be really frustrating, especially when you don\u2019t want to feel that way. When you think about those moments where you feel that desire to escape, what do you notice about the thoughts or feelings that come up for you just before that urge to walk away?",
+      "client": "I don\u2019t know, it\u2019s like\u2026 right before I want to walk away, I start thinking about how they might not really get me or how it\u2019ll just go in circles. I guess I feel this dread that it won\u2019t lead anywhere or that I\u2019ll end up feeling worse. It\u2019s like I\u2019m already preemptively disappointed or something. Sometimes, I just think, \u201cWhy bother?\u201d and that makes it easier to just check out instead of dealing with all those feelings.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "Feeling that sense of dread and disappointment before a conversation even starts sounds really heavy. It seems like there's a pattern of thoughts that lead you to think about how the discussion might not be helpful, which can make it easier to want to check out. When you have that thought of \u201cWhy bother?\u201d do you notice any particular sensations or emotions in your body at that moment?",
+      "client": "I guess when I think \u201cWhy bother?\u201d it\u2019s like this sinking feeling in my stomach. It\u2019s almost like I\u2019m bracing myself for something bad to happen, you know? It\u2019s weird because I know I should want to connect, but then I just feel this heaviness and want to pull away instead. It\u2019s just frustrating because I want to feel understood, but it always seems to go sideways.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "Noticing that sinking feeling in your stomach and the heaviness when you think \u201cWhy bother?\u201d seems really important. It\u2019s understandable that wanting to connect can clash with those feelings of frustration and dread. When you reflect on these moments where you feel pulled to pull away instead of connecting, what do you notice about your needs in those situations?",
+      "client": "I guess I just want to feel like someone actually gets it, you know? But then I end up feeling like I\u2019m a burden or that my struggles are too much for them. Part of me thinks I shouldn\u2019t need that, like I should be able to handle things on my own. It\u2019s hard to admit that I need support because it feels like I\u2019m just setting myself up for disappointment.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "Acknowledging that desire for understanding while feeling like a burden is quite a conflict. It makes sense that admitting a need for support would feel challenging, especially if there's a fear of disappointment. When you think about the moments where you feel like you shouldn\u2019t need that support, do you notice any particular thoughts or feelings that come up for you around that?",
+      "client": "I don\u2019t know, it\u2019s like\u2026 part of me thinks that I should just be able to deal with things on my own, you know? It feels weak sometimes to even think about asking for help. There\u2019s this voice in my head that says if I really needed support, I wouldn\u2019t be in this position to begin with. I guess that makes me feel more alone, like I\u2019m stuck in this cycle where I want to reach out but I\u2019m also afraid of what that means.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "Feeling stuck in that cycle of wanting to reach out for support but also grappling with the belief that you should handle everything on your own sounds really challenging. That voice in your head seems to create a lot of pressure, making it difficult to break out of loneliness. When you reflect on that feeling of being alone in this struggle, do you notice how it affects your thoughts or your mood in those moments?",
+      "client": "I mean, it definitely makes things worse. When I feel alone, it\u2019s like everything just weighs heavier. I start thinking that nobody really cares or that I\u2019m just not worth the effort, you know? It\u2019s kind of a spiral, and the more I feel that way, the more I withdraw. I guess it just feeds into itself, making it harder to reach out. It\u2019s frustrating because I want to connect, but I keep ending up in this dark place.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional State**: \"I guess I just want to feel like someone actually gets it, you know? But then I end up feeling like I\u2019m a burden or that my struggles are too much for them.\"\n2. **Current Openness**: \"It\u2019s frustrating because I want to connect, but I keep ending up in this dark place.\"\n\n**Progression**: The client's recent exchanges exhibit a notable increase in emotional expression and self-reflection. They articulate their feelings of wanting to be understood while simultaneously grappling with the fear of being a burden, indicating a deeper level of emotional awareness and vulnerability. This represents a significant change from earlier in the session, where their responses were likely more factual and less emotionally nuanced.\n\n**Turning Point**: The turning point occurred when the client began to articulate their internal conflict regarding the need for support and the fear of vulnerability. The moment they expressed, \"It feels weak sometimes to even think about asking for help,\" marked a shift towards a more authentic exploration of their emotions, indicating increased engagement with the therapeutic process and a willingness to delve into their feelings of isolation and frustration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Feeling that weight increase when you\u2019re alone and the spiral of thoughts that follows sounds really heavy. It\u2019s understandable to feel frustrated when you want connection but find yourself pulled into that dark place instead. As you think about those moments where that spiral begins, what do you notice about how your body feels or what physical sensations arise for you during those times?",
+      "client": "I guess I feel this heaviness in my chest, like it's harder to breathe or something. My stomach gets all knotted up, and I can\u2019t sit still; it\u2019s like I\u2019m restless but also frozen at the same time. It\u2019s hard to explain, but I just want to escape from that feeling, you know? Maybe it\u2019s my body\u2019s way of telling me something's off, but I don\u2019t really know what to do with it. It\u2019s frustrating because I\u2019m aware of it, and yet I get stuck anyway.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Noticing that heaviness in your chest and the restlessness in your body sounds really uncomfortable. It\u2019s interesting how your body seems to be communicating something important, even if you\u2019re not quite sure what to do with those sensations. When you feel that restlessness and heaviness, is there a specific moment or thought that stands out to you that might connect with those physical feelings?",
+      "client": "I mean, I don\u2019t know if there\u2019s a specific moment that comes to mind right away. It\u2019s more like a general sense of dread or this nagging thought that I\u2019m not doing enough with my life, you know? It feels like I\u2019m just drifting, and that makes everything feel heavier. Sometimes I think about past experiences, like when things were better, and that just makes me feel worse. I guess I just end up feeling stuck, like I can\u2019t move forward from that place.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "That sense of dread and feeling like you\u2019re drifting can really amplify that heaviness, especially when you reflect on past experiences. It seems like those thoughts about not doing enough or longing for better times might be weighing on you and contributing to that feeling of being stuck. When you sit with that general sense of dread, are there any specific thoughts or memories that come to mind that feel particularly intense or that stand out for you?",
+      "client": "I mean, I guess there are a few memories that come up sometimes. Like, I think about times when I felt more connected or accomplished, and it\u2019s hard not to compare where I am now to then. It just feels like I\u2019ve fallen behind or something, and that makes me think I\u2019m failing in a way. But then, I don\u2019t know if it\u2019s really fair to compare myself to those moments, you know? It\u2019s like I get caught in this loop of wishing things were different, and it just adds to the heaviness.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "That loop of comparing yourself to those past moments and feeling like you\u2019ve fallen behind sounds really challenging. It\u2019s understandable that those feelings of wishing things were different would add to the heaviness you\u2019re experiencing. When you find yourself caught in that loop, what do you notice in your body or emotions at that moment?",
+      "client": "I guess when I\u2019m in that loop, I feel that tightness in my chest getting worse, and it's like a weight on my shoulders. It\u2019s almost suffocating, and I can feel this sadness creeping in, like a cloud that just won\u2019t lift. But then part of me tries to shake it off, telling myself it\u2019s not that big of a deal or I shouldn\u2019t be so hard on myself. I don\u2019t know if that really helps, though\u2014it\u2019s like I\u2019m stuck in this in-between space where I want to feel better, but I also don\u2019t know how to get there.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "That in-between space sounds really difficult, where you want to feel better but aren\u2019t sure how to move forward. The tightness in your chest and the weight on your shoulders seem to signal some deep feelings that are hard to shake off. It\u2019s understandable that you might want to dismiss those feelings, but it sounds like they\u2019re still present and heavy for you. When you notice that sadness creeping in, what do you find yourself wishing for, or what do you think you might need in that moment?",
+      "client": "I don\u2019t know, maybe I wish for some reassurance that things can get better or that I\u2019m not alone in feeling this way. It\u2019s like, part of me wants to reach out to someone but then I just end up feeling like a burden. I guess I just need to feel understood, but then it\u2019s hard to trust that anyone really gets it. I mean, sometimes I think I just need to distract myself or keep busy to avoid those feelings, but that doesn\u2019t seem to help in the long run.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Wanting reassurance and understanding is such a natural desire, especially when you're feeling heavy like this. It sounds tough to feel both the urge to reach out and the worry about being a burden. The idea of distracting yourself or keeping busy can seem like a way to cope, but it's understandable that it may not provide the relief you're looking for in the long run. \n\nWhen you think about those moments of wanting to reach out, can you recall a specific time when you felt that way, or maybe a person you considered connecting with?",
+      "client": "There was this one time recently when I thought about talking to Jamie. I don\u2019t know, it felt like she might get it, but then I just ended up feeling like she was treating me more like a patient or something instead of a friend. So I started to back off, thinking maybe it was better to just deal with it on my own. It\u2019s frustrating because I want to feel connected, but then I feel so alone in all of this. I guess I just don\u2019t want to bother her or anyone else, really.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Recent Quote Showing Emotional State:** \"I guess when I\u2019m in that loop, I feel that tightness in my chest getting worse, and it's like a weight on my shoulders. It\u2019s almost suffocating, and I can feel this sadness creeping in, like a cloud that just won\u2019t lift.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I don\u2019t know, maybe I wish for some reassurance that things can get better or that I\u2019m not alone in feeling this way.\"\n\n**Progression:** The client\u2019s recent interactions highlight a notable increase in emotional expression and self-reflection compared to earlier sessions. They articulate physical sensations related to their emotions (tightness in the chest, weight on shoulders) and express a desire for reassurance and connection, indicating a deeper level of vulnerability and self-awareness. This marks a significant change from a more guarded or factual approach observed at the beginning of therapy.\n\n**Turning Point:** A pivotal moment occurred when the client shared their feelings of wanting to reach out to Jamie but ultimately feeling like a burden. This illustrates a shift toward authentic vulnerability and a deeper exploration of their emotional experiences, which was less present in earlier exchanges. The acknowledgment of their feelings of loneliness and desire for connection signifies an important step in their emotional journey and rapport development with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Feeling like you could connect with Jamie but then sensing a shift toward feeling more like a patient sounds really frustrating. It\u2019s understandable that you\u2019d want to protect that friendship and not feel like a burden. Wanting to feel connected but also feeling alone can create a push and pull that's hard to navigate. \n\nWhen you think about that experience with Jamie, what emotions come up for you now? How does remembering that interaction sit with you?",
+      "client": "I guess it makes me feel a bit sad, like I\u2019m missing out on something that could be really helpful. Remembering that interaction with Jamie just reminds me of how lonely I can feel, even when I\u2019m talking to someone. I mean, part of me wishes I could have opened up more, but then another part thinks it wouldn\u2019t have made a difference anyway. It\u2019s like I\u2019m stuck between wanting to reach out and the fear of not being understood.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Missing out on the potential for support can feel really heavy, especially when you\u2019re already navigating those feelings of loneliness. It's tough to sit with the sadness of wishing you could have opened up while also feeling uncertain about whether it would have changed anything. That sense of being stuck between wanting to reach out and fearing misunderstanding can create a lot of tension.\n\nAs you reflect on that push and pull, are there any specific thoughts or body sensations that come up for you? How does it feel in your body when you think about that moment and those emotions?",
+      "client": "I don\u2019t know, I guess I feel a bit tense in my chest when I think about it. It\u2019s like there's this heaviness there, and I kind of feel it in my shoulders too. My thoughts just keep swirling around, like I\u2019m questioning if I should\u2019ve said something or if it would\u2019ve just made things worse. It\u2019s hard to settle on one feeling or thought, you know? I can kind of see how being stuck there adds to the loneliness.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Noticing that tension in your chest and shoulders seems significant, especially since it connects to those swirling thoughts about what you could have said or done differently. It\u2019s understandable that being in that space adds to your feelings of loneliness, especially when it feels like there\u2019s no clear resolution. \n\nAs you sit with that heaviness, what do you notice about the way it shifts or changes when you think about those mixed feelings? How does it feel to allow yourself to just be with that uncertainty for a moment?",
+      "client": "I don\u2019t know, I guess it feels a bit uncomfortable to just sit with it. Like, part of me wants to push it away or distract myself, but then I\u2019m realizing that's not really helping, is it? I can kind of see how letting it be there might be, I don\u2019t know, important or something. But it\u2019s tough to just accept that heaviness without trying to fix it or change it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Sitting with that discomfort can be quite challenging, especially when there\u2019s a natural impulse to push it away or find a distraction. Acknowledging that the heaviness is there, even if it feels tough, seems like a meaningful step. It\u2019s interesting that you're noticing the difference between wanting to fix it and recognizing the importance of simply allowing it to exist.\n\nWhen you think about the choice to accept that heaviness for a moment, what do you find yourself feeling drawn to, or what arises in your thoughts about that?",
+      "client": "I guess I feel a bit hesitant about it. Like, I can see the value in just accepting the heaviness, but it also feels like a slippery slope. What if I just end up wallowing in it? Part of me is curious about what would happen if I allowed myself to really sit with those feelings, but another part is kind of scared of what I might find. It\u2019s frustrating to think about, honestly.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel hesitant about sitting with those feelings, especially when there\u2019s a fear of it leading to deeper discomfort or feeling stuck. That tension between curiosity and fear can create a lot of frustration. It sounds like there\u2019s a part of you that\u2019s drawn to exploring what\u2019s underneath that heaviness, while another part is concerned about the potential for it to become overwhelming.\n\nAs you think about that balance between curiosity and fear, what do you notice in your body? Are there any sensations that come up for you when you consider allowing yourself to explore those feelings more deeply?",
+      "client": "I don\u2019t know, maybe I feel a little tightness in my stomach when I think about exploring those feelings. It\u2019s like a mix of anxiety and, I guess, a bit of resistance. I can kind of sense that tension, and it makes me hesitate even more. I guess it\u2019s just hard to imagine what it would look like to really dive into those feelings without getting lost in them or feeling worse.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your stomach seems significant, especially as it connects to feelings of anxiety and resistance surrounding those deeper emotions. It makes sense that the idea of diving into those feelings feels daunting when there\u2019s a fear of getting lost or feeling worse. \n\nAs you sit with that tightness, what do you find yourself thinking or feeling about the potential of exploring those emotions? Is there a part of you that feels more curious or hesitant as you consider what that might look like?",
+      "client": "I guess I lean more toward the hesitant side. I mean, part of me is curious about what I might uncover, but another part is really worried about getting overwhelmed. It\u2019s like I don\u2019t want to open up a can of worms and then not know how to deal with what\u2019s inside. I can see how it could be useful, but it just feels risky, you know? I don\u2019t want to end up feeling worse than I already do.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I feel a bit hesitant about it. Like, I can see the value in just accepting the heaviness, but it also feels like a slippery slope.\"\n2. \"I guess I lean more toward the hesitant side. I mean, part of me is curious about what I might uncover, but another part is really worried about getting overwhelmed.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a notable increase in emotional depth, marked by their acknowledgment of both curiosity and fear regarding their feelings. This contrasts with earlier interactions where they may have relied more on factual responses and limited emotional vocabulary. The client is now expressing complex emotions related to their discomfort, indicating a greater willingness to explore their internal landscape, albeit with hesitation.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue when they began articulating their mixed feelings about exploring their discomfort. The moment they expressed, \"I can see the value in just accepting the heaviness,\" represents a significant step towards self-reflection, demonstrating an openness to engage with their feelings rather than avoiding them. This acknowledgment reflects the development of trust in the therapeutic relationship and a readiness to delve deeper into their emotional experiences.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "The concern about opening a can of worms reflects a real struggle between wanting to understand those deeper feelings and the fear of what might come up. It\u2019s completely valid to feel that exploring emotions could bring more discomfort, especially when the unknown feels risky. That hesitation can create a sense of being stuck, which can be really frustrating.\n\nAs you sit with that mix of curiosity and worry, what do you notice about how it impacts your thoughts or your body? Are there any specific sensations or thoughts that arise as you consider this balance more deeply?",
+      "client": "I don\u2019t know, it makes me feel kind of trapped, to be honest. Like, I can't really move forward because I\u2019m stuck in this loop of wanting to understand but also fearing what I might find. I guess my thoughts start racing, and then that tightness in my stomach just gets worse. It\u2019s like the more I think about it, the more overwhelmed I feel, and then I just want to shut down. It\u2019s frustrating because I see how it could help, but it feels so risky at the same time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Feeling trapped in that loop of wanting to understand while also fearing what you might uncover sounds really challenging. It\u2019s completely understandable that the racing thoughts and increasing tightness in your stomach would lead you to the urge to shut down. That frustration you\u2019re experiencing can intensify when you see potential for growth but feel held back by fear. \n\nAs you think about this cycle of wanting to explore but feeling overwhelmed, is there a specific moment or thought that stands out to you right now? Something that feels particularly significant in this process of balancing curiosity and fear?",
+      "client": "I guess one thing that stands out is how I often feel like I\u2019m just going in circles. Like, I want to talk to Jamie about my struggles, but then I get this overwhelming sense that she won't really get it, or that I'm just burdening her. So, I kind of just end up shutting down the conversation before it even really starts. It\u2019s like I can see the potential for connection, but then I just pull back. I don\u2019t know if that makes sense, but it\u2019s frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "The feeling of going in circles and wanting to reach out to Jamie, yet pulling back out of concern for burdening her, sounds really frustrating. It seems like there\u2019s this tension between your desire for connection and the worry that maybe it won\u2019t be understood or that it might be too much for her. This push and pull can create a sense of isolation, especially when you see the potential for support but feel hesitant to take that step.\n\nAs you reflect on this, what are some of the thoughts or emotions that come up when you think about opening that conversation with Jamie? Do you notice any specific fears or hopes in that moment?",
+      "client": "When I think about opening up to Jamie, I guess there\u2019s this fear that she\u2019ll just see me as some kind of problem to fix, you know? Like, I don\u2019t want her to feel obligated to help me or anything. I mean, part of me hopes she\u2019d actually listen and be supportive, but another part worries she\u2019ll just be uncomfortable or not know what to say. It\u2019s like I want her to understand, but I'm scared it\u2019ll just end up being awkward. I don\u2019t know if I\u2019m making sense, but it feels like this constant battle in my head.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "There\u2019s definitely a lot going on in that battle between wanting to be heard and the fear of being seen as a problem. It makes sense to want support from Jamie while also worrying about how she might react. Those mixed feelings of hope and fear can create a heaviness, especially when you anticipate awkwardness or discomfort. \n\nAs you sit with those thoughts\u2014like the fear of her feeling obligated versus the hope for connection\u2014what do you notice in your body? Are there any sensations or feelings that come up as you think about those different possibilities?",
+      "client": "I don\u2019t know, it\u2019s hard to pinpoint. I guess I feel a bit of tightness in my chest when I think about it, like there\u2019s this weight pressing down. It\u2019s like my body knows the conversation could either be a relief or just\u2026 awkward. Maybe a part of me wants to feel lighter, but then I get all these anxious thoughts about how it might go. I just don't want to end up feeling worse. It\u2019s confusing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest when you think about the conversation with Jamie is important. It sounds like there\u2019s a lot of anticipation around how it could unfold, which adds to the confusion and weight you\u2019re feeling. The desire for relief contrasts with the anxiety about potential outcomes, creating a push and pull within you.\n\nAs you reflect on this tightness and the feelings surrounding it, is there a specific thought or image that comes to mind when you imagine the conversation with her? Something that captures the essence of that relief or the worry about it becoming awkward?",
+      "client": "I think when I imagine the conversation, maybe I picture myself sitting there, trying to find the right words, but then I just see this blank look on her face. It\u2019s like I\u2019m sharing something really vulnerable, and she just doesn\u2019t get it. That\u2019s where the tightness in my chest comes from, I guess. I want to feel understood, but it feels like I\u2019m just laying my issues out there, and all I get back is silence or awkwardness. It just makes me hesitate even more. So, I guess I kind of just picture it going wrong, and that makes me want to avoid it altogether.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Imagining that moment where you\u2019re sharing something vulnerable and seeing a blank look on Jamie's face sounds really daunting. It seems like that vision of silence or awkwardness amplifies your hesitation to reach out. The fear of not being understood can make opening up feel even riskier, leading to a desire to avoid the whole situation.\n\nAs you sit with that image, what do you notice about how it affects you emotionally or physically? Do any other feelings come up when you think about the possibility of her not getting it, or even the choice to avoid the conversation altogether?",
+      "client": "I mean, it definitely makes me feel more down, like I\u2019m trapped in this cycle where I can't really express myself without worrying about how it\u2019ll go. It\u2019s frustrating, and I just end up feeling more alone. Sometimes I\u2019m angry at myself for even thinking about it, like I should just be able to handle my emotions without needing to burden someone else with them. There's this part of me that wants to push through and just try, but then I think about the potential disappointment, and it feels easier to just avoid it all together. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. \"I guess I feel a bit of tightness in my chest when I think about it, like there\u2019s this weight pressing down.\"\n2. \"It\u2019s frustrating, and I just end up feeling more alone. Sometimes I\u2019m angry at myself for even thinking about it, like I should just be able to handle my emotions without needing to burden someone else with them.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional expression and vulnerability. They articulate physical sensations tied to their feelings and exhibit a willingness to delve into their emotional landscape, indicating a transition from earlier exchanges that may have been more guarded or fact-based. The client is beginning to articulate complex emotions such as frustration, anxiety, and a desire for connection, which marks a significant shift towards deeper self-reflection.\n\n**Turning Point:** The client's emotional depth appears to have shifted during their recognition and articulation of the tightness in their chest as a physical manifestation of their anxiety related to expressing themselves. This moment highlights their struggle between the desire to communicate their feelings and the fear of potential rejection or misunderstanding from others. This acknowledgment showcases an emerging emotional awareness and a willingness to explore those feelings more openly in the session.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

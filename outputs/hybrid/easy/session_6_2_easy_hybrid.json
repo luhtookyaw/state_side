@@ -1,0 +1,713 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "6-2",
+  "patient_name": "Daisy",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess I\u2019m just annoyed that I have to sort this out when I thought I had everything under control. It's not a huge deal, really. It\u2019s just one of those things.\"\n2. \"I don\u2019t really think there\u2019s anything super important to explore. I just got this insurance claim with an unexpected balance, and it\u2019s really annoying.\"\n\n**Progression:** The client\u2019s most recent interactions show a mix of annoyance and a desire to downplay the significance of their emotions, marking a significant change from earlier exchanges where emotional expression was notably limited. The previous exchanges were more factual in nature, indicating a defensive stance that has slightly shifted towards a willingness to express feelings. The emergence of emotional vocabulary, like \"annoyed,\" indicates a growing comfort with discussing their emotional state, even if they still downplay its importance.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the initial response to the therapist's prompt about their feelings regarding the insurance claim. This moment reflected a transition from a more guarded stance to one where they began to articulate their feelings of annoyance, showcasing a budding openness to exploring their emotional reactions to stressors. This marks a potential turning point toward deeper engagement as they begin to acknowledge feelings rather than dismissing them outright.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess what stands out is just this feeling of panic, like I\u2019ve messed something up. I mean, I thought I was doing everything right, and now I\u2019m wondering if I should've double-checked with the insurance company or something. It\u2019s kind of embarrassing to think I might have overlooked something so basic.\u201d\n2. \u201cI can kind of feel this tightness in my chest, like it's hard to breathe, you know? And my thoughts are just racing, like I\u2019m going over everything I did or didn\u2019t do. It\u2019s almost like I\u2019m criticizing myself for not being more careful, and I don\u2019t want to feel that way.\u201d\n\n**Progression:** The client\u2019s most recent interactions show a notable increase in emotional depth, particularly with their admission of feelings like panic, embarrassment, and self-criticism. This marks a significant change from earlier in the session, where their responses were more factual and dismissive of their emotional experiences, indicating limited engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first articulated feeling panic and embarrassment about possibly overlooking something. This moment reflects a growing comfort in expressing deeper feelings and a willingness to confront vulnerabilities, moving from a defensive stance to a more open and self-reflective one.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I can kind of feel this tightness in my chest, like it's hard to breathe, you know? And my thoughts are just racing, like I\u2019m going over everything I did or didn\u2019t do.\"\n2. \"I feel like I should just be able to handle this, but here I am, feeling stuck and uncertain.\"\n\n**Progression:**\nThe client\u2019s recent interactions display a significant increase in emotional depth and self-reflection. Initially, there were hints of emotional expression, but now the client is articulating their feelings more openly, showcasing a consistent emotional depth. The latest exchanges reveal a strong connection between their physical sensations (tightness in the chest) and their mental state (racing thoughts). This indicates a growing awareness of how emotions manifest physically, which is a notable progression from earlier exchanges that may have contained more surface-level responses. The client is actively engaging in the therapeutic process by exploring these feelings and recognizing their impact on behavior and decision-making.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing feelings of being \"stuck and uncertain\" and acknowledged the internal conflict between wanting to take action and the fear of making mistakes. This moment marked a shift from a more defensive and hesitant stance to a willingness to explore vulnerabilities. It highlights the client\u2019s emerging trust and comfort within the therapeutic relationship, enabling them to delve deeper into their emotional landscape and consider new approaches to their challenges.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. *Client*: \"It feels a little uncomfortable to think about how I\u2019m so hard on myself, but I think there\u2019s something there that I need to explore more.\"\n2. *Client*: \"When I consider the potential outcomes of reaching out, I realize there are quite a few positive possibilities... I think I\u2019d feel a sense of accomplishment just from taking that step, which might even help ease some of the anxiety I\u2019ve been feeling.\"\n\n**Progression:** The client's most recent interactions indicate significant emotional depth and engagement. Initially, they expressed anxiety and fear about taking action, but they have moved to a place of self-reflection and acknowledgment of their critical inner voice. The client is now identifying positive outcomes and showing a willingness to explore their feelings of self-criticism. This marks a notable change from earlier exchanges, where emotional expression was limited, and there was a more defensive stance regarding discussing their fears.\n\n**Turning Point:** The client's emotional depth shifted when they began to articulate the potential positive outcomes of reaching out for clarity about their insurance situation. This moment of insight reflects a greater openness and willingness to challenge their internal critical voice, signifying a move toward deeper engagement in the therapeutic process. Their recognition of the difference in how they treat themselves versus how they would treat a friend indicates a growing self-awareness, a critical element in developing a more balanced emotional perspective.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think it would feel really freeing to take that step and maybe find out that things aren\u2019t as bad as I imagined. Part of me is excited about the possibility of feeling more in control of my finances and gaining a better understanding of my insurance\u2014like I\u2019m finally stepping into this independent role I\u2019ve been trying to embrace.\"\n2. Client: \"I think I could include affirmations like, 'I am capable of handling this' or 'Seeking clarity is a strength, not a weakness.' Those reminders might help ground me when I start to feel that pressure building again.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant shift towards deeper emotional expression and self-reflection. Initially, they exhibited hesitance and a focus on negative outcomes, but they have now moved toward embodying a more positive and empowered perspective regarding their situation. They are actively engaging with the idea of independence and self-affirmation, indicating a greater emotional openness compared to earlier sessions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their excitement about taking proactive steps towards understanding their financial situation. This moment reflects a newfound willingness to embrace the discomfort associated with change, marking a transition from fear to empowerment. Specifically, their acknowledgment of the potential for a positive outcome during the exploration of reaching out for clarity represents a significant breakthrough in their emotional processing and self-awareness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I could focus on the idea that mistakes are part of the process and not a reflection of my worth or abilities. It feels a little uncomfortable to shift my mindset, but I\u2019m willing to look at that, especially since it could help ease some of the anxiety I\u2019ve been grappling with.\"\n2. Client: \"It\u2019s comforting to realize that this journey isn\u2019t about perfection; it\u2019s about progress and resilience.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their willingness to confront uncomfortable feelings and embrace the idea of mistakes as learning opportunities. This marks a notable change from earlier exchanges, where emotional expression was more limited and hesitant. The client is actively engaging in self-reflection about their anxiety and the pressures they place on themselves, indicating a deeper understanding of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their willingness to shift their mindset about mistakes being part of the process. This moment represented a transition from simply acknowledging their feelings to actively working on reframing their perspective, leading to a greater sense of empowerment and self-compassion. This pivotal realization showcases their growth in emotional openness and their strengthened rapport with the therapist, allowing for deeper exploration and discussion.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"If I approach these situations with the mindset that mistakes are simply part of my learning process, I might be able to ease some of that anxiety.\"\n2. \"Recognizing that I don\u2019t have to be perfect in every area of my life feels liberating, even if it\u2019s still a bit uncomfortable to truly embrace.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection, particularly in how they articulate the dualities of their experiences related to high standards. Initially, the client expressed a more defensive stance and limited emotional vocabulary. However, recent exchanges reveal a willingness to explore their anxiety and expectations, indicating a deepening understanding of their emotional process and a growing ability to articulate their feelings and thoughts. This reflects a significant change from earlier stages where emotional expression was minimal.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the dialogue when they began to articulate their internal struggle regarding high standards and the anxiety it incites. The moment they recognized that \"mistakes are simply part of my learning process\" served as a turning point, demonstrating not only an acknowledgment of their challenges but also a proactive attitude towards self-improvement and resilience. This illustrates a significant development in their emotional openness and rapport with the therapist, as they engage more deeply with their feelings and the therapeutic concepts discussed.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"It feels liberating, even if it\u2019s still a bit uncomfortable to truly embrace.\"\n2. **Current Openness:** \"It\u2019s a little intimidating, but I think I\u2019m willing to try.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a clear emotional depth, particularly in their acknowledgment of discomfort paired with a sense of liberation in allowing for imperfection. This marks a significant progression from earlier exchanges where the client displayed more hesitance and a defensive stance. The dialogue indicates a comfort level that has increased, as the client now articulates their feelings about asking for help and recognizes the value in seeking guidance, moving from a place of isolated decision-making to one of collaborative support.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed, \"I think it would help to remind myself that it\u2019s okay to ask questions and seek guidance when I feel uncertain.\" This moment signifies a turning point as they begin to embrace vulnerability and the concept of interdependence, reflecting a deeper level of self-reflection and a stronger rapport with the therapist. The client\u2019s willingness to consider reaching out to a friend for financial guidance showcases a transformative shift from anxiety to a more proactive and supported approach.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I didn\u2019t realize how much simply having a plan could help alleviate some of my anxiety until now.\"\n2. \"Maybe I can write a note to myself, something like 'Asking for help shows my willingness to grow and learn.' That might help me shift my perspective.\"\n\n**Progression:** The client\u2019s recent interactions indicate a deeper emotional engagement and an increased comfort level in discussing their feelings and anxieties. They are moving beyond initially factual responses to expressing genuine vulnerability and self-reflection. Notably, their acknowledgment of how a plan alleviates anxiety shows an integration of therapy concepts and a willingness to explore their emotional landscape. This marks a significant change from earlier in the session, where they may have been more hesitant to dive into their emotional responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about seeking help from their friend. When they expressed the idea of writing a note to themselves, it reflected a deeper level of self-awareness and a proactive approach to managing their feelings. This moment demonstrated a significant shift in their mindset, moving from feeling intimidated by reaching out for support to recognizing it as a strength, indicating a breakthrough in their emotional openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think reminding myself that seeking help is a sign of strength is really important, especially since it feels so vulnerable to reach out.\"\n2. \"I remember when I worked on group projects in school; sharing ideas made the final outcome so much better than if I tried to do everything alone.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a consistent emotional depth and authentic vulnerability, marking a significant change from earlier stages characterized by hesitance. Initially, the client may have expressed more defensive or factual responses, but now they are actively engaging in self-reflection and sharing personal insights. Their willingness to explore the idea of seeking help as a strength reflects a shift towards deeper engagement with their emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they articulated, \"I think reminding myself that seeking help is a sign of strength is really important, especially since it feels so vulnerable to reach out.\" This moment marked a transition as they began to connect their feelings of vulnerability with the desire to grow, paving the way for deeper exploration of their beliefs about independence and support. The subsequent acknowledgment of their empathy as a strength indicates a profound shift in their self-perception and a reinforcement of their capacity for emotional openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"When I think about the times I've offered support to others, I can see that I genuinely believe in the value of collaboration and connection. It feels good to help someone else, and I often remind them that it\u2019s okay to ask for help, so maybe I should apply that same logic to myself.\"\n2. \"I appreciate the encouragement to extend this kindness to myself. I think a specific situation could be asking a classmate for help with an assignment I\u2019m struggling with. It feels a little daunting, but I can see how it would be a small step that aligns with my mantra.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection. In their latest exchanges, they openly recognize the connection between their empathetic nature and their willingness to seek help, indicating a shift towards authentic vulnerability. This emotional quality represents a significant change from earlier sessions, where they may have shown more hesitance and a lack of exploration of their feelings. The current dialogue reveals that the client is actively making connections between their experiences and incorporating insights into their self-view, which highlights their growth in emotional awareness.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed, \"I hadn\u2019t fully realized how my experiences helping others could give me the confidence to seek help in return.\" This moment marked a turning point as the client began to articulate how their past actions positively influence their current abilities to ask for support, indicating a deeper level of self-reflection and a growing understanding of their own emotional landscape. This shift aligns with the emerging rapport and trust with the therapist, as the client feels encouraged to explore and share these insights. Overall, the client displays a strong therapeutic",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n- \"I think it\u2019s comforting to know that I can acknowledge my anxiety without letting it take over.\"\n- \"It feels like I\u2019m on the brink of something important, even if that\u2019s a little scary.\"\n\n**Progression:** The client\u2019s most recent interactions show a significant increase in emotional depth and self-reflection compared to earlier exchanges. They are expressing anxiety openly while also articulating a sense of bravery and willingness to challenge their automatic thoughts about self-reliance. This marks a notable change from earlier responses, which were more hesitant and fact-based, indicating a shift towards deeper emotional exploration.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange where they expressed, \"I think I\u2019ll try to remind myself of the strength in collaboration, especially when those anxious feelings start to creep in.\" This moment highlighted their recognition of the duality of feeling anxious but also being willing to embrace vulnerability by reaching out, demonstrating a growing comfort with the therapeutic process and a stronger rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \u201cWhen I consider how asking for help ties back to my belief in growth, it feels like a way to challenge my automatic thoughts about needing to handle everything on my own.\u201d\n2. Client: \u201cIf I were to talk to a friend, I\u2019d likely remind them that seeking support is a courageous act that shows strength, not weakness.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are actively engaging with their feelings, articulating their anxiety about seeking help, and reframing it as a strength rather than a weakness. This marks a significant change from earlier in the session, where they may have expressed more hesitance or factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they reflected on their past positive experience with their professor. This realization that seeking assistance can lead to valuable outcomes has allowed them to challenge their automatic thoughts and feel more comfortable with vulnerability. This moment connected the client\u2019s anxiety with their belief in growth, reinforcing their commitment to collaboration and personal development.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It feels empowering to realize that collaboration can lead to shared successes and that I\u2019m not alone in my struggles.\"\n2. \"I\u2019d place myself around a 6 on that scale right now. I can feel the strength in acknowledging that asking for help can be empowering, but there\u2019s still a part of me that clings to the fear of being perceived as inadequate.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant depth of emotional expression and self-reflection. They articulate feelings of empowerment tied to collaboration, recognizing the strength in asking for help while also acknowledging fears of inadequacy. This emotional complexity indicates a shift from earlier sessions, where their responses may have been more factual and less introspective. The current exchanges showcase a high level of engagement with the therapeutic process, where they not only reflect on their past but also actively work to reframe their beliefs about seeking support.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the dialogue where they began to connect their feelings of empowerment with specific positive experiences, such as receiving guidance from friends. This moment marked a significant turning point, as they expressed an understanding that collaboration can lead to shared successes and foster resilience. The acknowledgment of their fears alongside the recognition of growth illustrates a nuanced emotional landscape, which is characteristic of deep engagement in therapy.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I can feel the strength in acknowledging that asking for help can be empowering, but there\u2019s still a part of me that clings to the fear of being perceived as inadequate.\"\n- \"I can also see that acknowledging those moments when I successfully reached out for help could build my confidence over time.\"\n\n**Progression:** The client is demonstrating a significant shift in emotional depth and self-reflection. They have moved from initial hesitance about asking for help to recognizing the empowering aspects of collaboration. This illustrates a notable growth in their emotional vocabulary and understanding of their feelings. Their acknowledgment of both strength and fear indicates an increased comfort level in discussing vulnerable topics, which shows clear progression from earlier sessions where emotional expression was limited.\n\n**Turning Point:** The client's emotional depth shifted during their discussion about being at a \"6\" on the empowerment scale. This moment marked a transition from merely stating their feelings to genuinely exploring the underlying fears and recognizing the positive aspects of seeking help. Their willingness to create a list of positive experiences and set small goals for themselves reflects a newfound authenticity and engagement with the therapeutic process, indicating a stronger therapeutic alliance. Their insights into celebrating small victories further highlight their evolving self-awareness and commitment to personal growth.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 7,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 8,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 9,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 10,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 11,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 7,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their fears about making mistakes and the potential consequences.",
+      "reasoning": "The client is experiencing significant anxiety and self-criticism related to their fear of failure, which is impacting their ability to take action. Decatastrophizing can assist the client in evaluating their catastrophic thinking and reduce the intensity of their worries by considering more realistic outcomes. This can help bridge the gap between their desire to act and their fears of making mistakes.",
+      "suggestion": [
+        "What are the worst-case scenarios you envision if you make a mistake? How likely do you think those outcomes really are?",
+        "Can you think of a time when a mistake you made didn't have the disastrous consequences you feared?",
+        "What might be a more balanced or realistic perspective on the potential outcomes of taking action?",
+        "How might you respond to someone else who is feeling the way you are right now?",
+        "Let\u2019s list some potential positive outcomes that could happen if you take the next step."
+      ]
+    },
+    {
+      "turn": 10,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts and develop a more balanced view of their situation.",
+      "reasoning": "The client has shown a tendency to focus on negative outcomes and hold themselves to a higher standard than they would for a friend. Using the Alternative Perspective technique can guide them to explore different viewpoints and acknowledge the positive possibilities they identified. This approach can help them build self-compassion and challenge their critical inner voice.",
+      "suggestion": [
+        "Can you think of a time when someone else faced a similar situation and what positive outcomes they experienced?",
+        "What would you say to a friend who was feeling the same way you do about this phone call?",
+        "How might viewing this situation as a learning opportunity change your feelings about making the call?",
+        "Can you list some alternative thoughts that balance the anxiety you feel with the positives you've identified?",
+        "What might you tell yourself if you were to embrace a more forgiving perspective towards your own feelings and actions in this situation?"
+      ]
+    },
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "Help the client evaluate the impact of their perfectionism and pressure on their journey towards independence.",
+      "reasoning": "The client has expressed a tendency to place significant pressure on themselves and a desire to embrace a learning mindset. Using a Pros and Cons Analysis can help them weigh the benefits of their current thinking patterns against the drawbacks, leading to a clearer understanding of how these beliefs affect their emotional well-being and progress.",
+      "suggestion": [
+        "Can you list some pros and cons of holding yourself to such high standards as you pursue your goals?",
+        "What might be the benefits of allowing yourself to make mistakes in this journey?",
+        "How do you think reducing the pressure you place on yourself could impact your overall mood and motivation?",
+        "Are there specific areas in your life where you feel this pressure more acutely, and how could you approach those differently?",
+        "What discoveries do you hope to make about yourself through this analysis?"
+      ]
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Problem-Solving Skills Training",
+      "goal": "To help the client develop effective strategies for making financial decisions while managing anxiety and seeking support.",
+      "reasoning": "The client has expressed feelings of anxiety related to financial decisions and the pressure of making the 'right' choices. Problem-Solving Skills Training can provide a structured approach to tackle these decisions, allowing the client to practice gathering information and seeking support from others, which aligns with their desire to alleviate self-imposed pressure.",
+      "suggestion": [
+        "Can you describe a specific financial decision you need to make soon?",
+        "What steps can you take to gather the necessary information before making that decision?",
+        "Who in your life can you reach out to for guidance or support, and how might you approach them?",
+        "Let's outline a step-by-step plan to help you feel more confident in your decision-making process.",
+        "How can you remind yourself that it's okay to ask for help in these situations?"
+      ]
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client challenge and reframe their beliefs about seeking help as a sign of weakness.",
+      "reasoning": "The client has expressed a desire to reinforce the idea that asking for help is a sign of strength, but they also struggle with feelings of needing to prove their independence. Evidence-Based Questioning can aid in exploring the validity of these beliefs and provide the client with tangible evidence to support a more empowering perspective on seeking support from others.",
+      "suggestion": [
+        "What evidence do you have that seeking help is a sign of weakness?",
+        "Can you think of examples from your own life or others where asking for help led to positive outcomes?",
+        "How might you respond to a friend who feels hesitant to ask for help?",
+        "What are some strengths you possess that enable you to seek support when needed?",
+        "How does your perception of independence change when you reflect on your ability to learn from others?"
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client actively practice seeking help and evaluate the outcomes, reinforcing the belief that asking for support is a strength rather than a weakness.",
+      "reasoning": "The client has begun to see the value of seeking help and has connected this to their empathetic nature. A behavior experiment can provide them with firsthand experience of the positive effects of reaching out for assistance, allowing them to gather evidence to further challenge any lingering beliefs about weakness in asking for help.",
+      "suggestion": [
+        "Can you identify a specific situation this week where you could reach out for help or support?",
+        "What would be a small step you could take to practice asking for help, based on your experiences with empathy towards others?",
+        "How do you think you might feel before, during, and after this experience of seeking help?",
+        "After you\u2019ve reached out, can we discuss what happened and how it affected your feelings and beliefs about asking for support?",
+        "How can you document this experience to reinforce your mantra 'Collaboration leads to growth'?"
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Reality Testing",
+      "goal": "To help the client challenge and assess the validity of their anxious thoughts about reaching out for help.",
+      "reasoning": "Reality Testing fits well because the client is experiencing anxiety about asking for help, influenced by automatic thoughts about needing to handle everything alone. This technique can assist the client in examining the evidence for and against these beliefs, allowing them to see the situation more clearly and reduce anxiety. By evaluating these thoughts, the client can reinforce their mantra of collaboration and growth.",
+      "suggestion": [
+        "Can you write down the thoughts or beliefs that make you feel anxious about asking your classmate for help?",
+        "What evidence do you have that supports these thoughts, and what evidence contradicts them?",
+        "How might you reframe these thoughts to align more closely with your belief in growth through collaboration?",
+        "What would you say to a friend who was feeling the same way about reaching out for help?",
+        "Can you identify any past experiences that turned out positively when you asked for assistance?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Continuum Technique",
+      "goal": "To help the client visualize their feelings about asking for help on a spectrum and identify where their beliefs lie on that continuum.",
+      "reasoning": "The Continuum Technique allows the client to explore their thoughts and feelings about seeking help, recognizing that their beliefs may not be absolute. This approach aligns well with their recent reflections on how collaboration can be beneficial, encouraging them to see this process as part of a larger journey rather than a binary choice between weakness and strength.",
+      "suggestion": [
+        "Can you create a scale from 1 to 10, where 1 represents feeling completely weak for asking for help and 10 represents feeling totally strong and empowered by it?",
+        "Where would you place your current feelings about seeking help on that scale, and why?",
+        "What factors or experiences could help shift your position on this continuum toward feeling more empowered?",
+        "Can you think of specific examples or coping strategies that could help you move closer to the higher end of the scale?",
+        "How might you remind yourself of this continuum when you're faced with the decision to ask for help in the future?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi, Daisy! I'm glad you're here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t really think there\u2019s anything super important to explore. I just got this insurance claim with an unexpected balance, and it\u2019s really annoying. I thought I was managing everything fine, but now it feels like a mess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That unexpected balance sounds frustrating, especially when you thought everything was in order. It can feel overwhelming when something like this disrupts your sense of control. Can you share a bit more about how you\u2019re feeling in response to this situation?",
+      "client": "I don\u2019t know. It just happened, and now I have to deal with it. I guess I\u2019m just annoyed that I have to sort this out when I thought I had everything under control. It's not a huge deal, really. It\u2019s just one of those things.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess I\u2019m just annoyed that I have to sort this out when I thought I had everything under control. It's not a huge deal, really. It\u2019s just one of those things.\"\n2. \"I don\u2019t really think there\u2019s anything super important to explore. I just got this insurance claim with an unexpected balance, and it\u2019s really annoying.\"\n\n**Progression:** The client\u2019s most recent interactions show a mix of annoyance and a desire to downplay the significance of their emotions, marking a significant change from earlier exchanges where emotional expression was notably limited. The previous exchanges were more factual in nature, indicating a defensive stance that has slightly shifted towards a willingness to express feelings. The emergence of emotional vocabulary, like \"annoyed,\" indicates a growing comfort with discussing their emotional state, even if they still downplay its importance.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the initial response to the therapist's prompt about their feelings regarding the insurance claim. This moment reflected a transition from a more guarded stance to one where they began to articulate their feelings of annoyance, showcasing a budding openness to exploring their emotional reactions to stressors. This marks a potential turning point toward deeper engagement as they begin to acknowledge feelings rather than dismissing them outright.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "Sorting out unexpected issues can definitely take a toll, even if they seem minor on the surface. There\u2019s often a sense of disappointment when things don\u2019t go as planned, especially when you felt like you had everything under control. As you think about this situation, what stands out to you the most about how you're managing it, or how it\u2019s impacting your day?",
+      "client": "I guess what stands out is just this feeling of panic, like I\u2019ve messed something up. I mean, I thought I was doing everything right, and now I\u2019m wondering if I should've double-checked with the insurance company or something. It\u2019s kind of embarrassing to think I might have overlooked something so basic. Maybe it\u2019s bothering me more than I want to admit, but it feels like a lot to handle, even if it doesn\u2019t seem like a huge issue.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Feeling that sense of panic and embarrassment can really add weight to the situation, especially when you were trying to manage everything well. It\u2019s understandable to reflect on what you could have done differently, even with something that seems minor. As you sit with this feeling of it being a lot to handle, what do you notice in your body or in your thoughts when you think about the possibility of having overlooked something?",
+      "client": "I can kind of feel this tightness in my chest, like it's hard to breathe, you know? And my thoughts are just racing, like I\u2019m going over everything I did or didn\u2019t do. It\u2019s almost like I\u2019m criticizing myself for not being more careful, and I don\u2019t want to feel that way. I guess I\u2019m just worried about making a mistake and not being able to fix it, which is stressing me out more than I\u2019d like to admit.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess what stands out is just this feeling of panic, like I\u2019ve messed something up. I mean, I thought I was doing everything right, and now I\u2019m wondering if I should've double-checked with the insurance company or something. It\u2019s kind of embarrassing to think I might have overlooked something so basic.\u201d\n2. \u201cI can kind of feel this tightness in my chest, like it's hard to breathe, you know? And my thoughts are just racing, like I\u2019m going over everything I did or didn\u2019t do. It\u2019s almost like I\u2019m criticizing myself for not being more careful, and I don\u2019t want to feel that way.\u201d\n\n**Progression:** The client\u2019s most recent interactions show a notable increase in emotional depth, particularly with their admission of feelings like panic, embarrassment, and self-criticism. This marks a significant change from earlier in the session, where their responses were more factual and dismissive of their emotional experiences, indicating limited engagement.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first articulated feeling panic and embarrassment about possibly overlooking something. This moment reflects a growing comfort in expressing deeper feelings and a willingness to confront vulnerabilities, moving from a defensive stance to a more open and self-reflective one.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the racing thoughts gives you a sense of how deeply this situation is affecting you. It sounds like there\u2019s a mix of self-criticism and worry about potential mistakes that feels quite heavy right now. As you reflect on these feelings, how do you see them influencing your thoughts or choices in the moment?",
+      "client": "I guess it makes me hesitate to take any action because I\u2019m so focused on not making things worse. It\u2019s like, part of me wants to just fix it, but another part is scared I\u2019ll screw it up even more. I can see how that might lead me to avoid dealing with it altogether, which isn\u2019t really helpful. I feel like I should just be able to handle this, but here I am, feeling stuck and uncertain. I don\u2019t know, maybe it\u2019s just easier to criticize myself than to actually confront the issue head-on.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "There\u2019s a real tension between wanting to take action and feeling held back by that fear of making things worse. It seems like the critical voice is taking over, making it difficult to move forward, even when you recognize that avoidance isn\u2019t the solution. As you consider this feeling of being stuck, what do you think it might be like to approach the situation differently, even just a little?",
+      "client": "I don\u2019t know, it\u2019s hard to imagine doing things differently when I feel this anxious. Maybe I could try to break it down into smaller steps, like just calling the insurance company to ask for clarification, instead of letting it build up in my mind. Part of me thinks that could help, but another part worries that I might still mess it up or that it won\u2019t change anything, you know? I guess it\u2019s just challenging to move past that fear of failure.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I can kind of feel this tightness in my chest, like it's hard to breathe, you know? And my thoughts are just racing, like I\u2019m going over everything I did or didn\u2019t do.\"\n2. \"I feel like I should just be able to handle this, but here I am, feeling stuck and uncertain.\"\n\n**Progression:**\nThe client\u2019s recent interactions display a significant increase in emotional depth and self-reflection. Initially, there were hints of emotional expression, but now the client is articulating their feelings more openly, showcasing a consistent emotional depth. The latest exchanges reveal a strong connection between their physical sensations (tightness in the chest) and their mental state (racing thoughts). This indicates a growing awareness of how emotions manifest physically, which is a notable progression from earlier exchanges that may have contained more surface-level responses. The client is actively engaging in the therapeutic process by exploring these feelings and recognizing their impact on behavior and decision-making.\n\n**Turning Point:**\nA notable turning point occurred when the client began expressing feelings of being \"stuck and uncertain\" and acknowledged the internal conflict between wanting to take action and the fear of making mistakes. This moment marked a shift from a more defensive and hesitant stance to a willingness to explore vulnerabilities. It highlights the client\u2019s emerging trust and comfort within the therapeutic relationship, enabling them to delve deeper into their emotional landscape and consider new approaches to their challenges.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 4,
+      "therapist": "It sounds like breaking things down into smaller steps could really ease some of that anxiety. Let\u2019s take a moment to explore those fears. What are the worst-case scenarios that come to mind if you were to call the insurance company? How likely do you think those outcomes really are? Reflecting on past experiences, can you recall a time when something you were anxious about turned out to be manageable or even led to a positive outcome? It might also help to consider how you would respond to a friend facing similar fears\u2014what would you encourage them to do? Remember, taking that first step could open up more possibilities than you might anticipate.",
+      "client": "I think the worst-case scenario is that I\u2019ll call and they'll just tell me I owe way more than I expected, and I'll feel completely overwhelmed. It\u2019s like I can imagine the conversation spiraling out of control, and I\u2019ll end up feeling even more helpless. But when I think about it, I realize that\u2019s often not how it goes. I\u2019ve faced situations where I thought it would be disastrous, but it turned out to be manageable\u2014like when I had to deal with unexpected fees for my classes. I actually learned a lot from that experience. \n\nWhen I think about a friend in this position, I\u2019d probably tell them to just reach out and ask for clarity, that it's better to know than to let the anxiety build. I can see that maybe I\u2019m holding myself to a higher standard of perfection than I would for someone else. It feels a little uncomfortable to think about how I\u2019m so hard on myself, but I think there\u2019s something there that I need to explore more.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 8,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you recognize the difference in how you treat yourself compared to how you would support a friend. This awareness is a powerful step in challenging that critical voice. As you think about reaching out for clarity, what might be a more balanced perspective on the potential outcomes? Besides the worst-case scenario, can you list some positive outcomes that could arise from taking that step? Remember, allowing yourself the same grace you\u2019d offer to someone else could really shift how you approach this situation.",
+      "client": "When I consider the potential outcomes of reaching out, I realize there are quite a few positive possibilities. For one, I might actually find out that the balance is lower than I fear, which would lift a weight off my shoulders. It could also lead to a productive conversation where I understand my insurance coverage better, giving me more confidence in managing my finances moving forward. I think I\u2019d feel a sense of accomplishment just from taking that step, which might even help ease some of the anxiety I\u2019ve been feeling. It\u2019s interesting to think about how I\u2019m often so focused on the negatives that I overlook the positive potential. I\u2019m willing to explore that more, even if it feels a little challenging.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. *Client*: \"It feels a little uncomfortable to think about how I\u2019m so hard on myself, but I think there\u2019s something there that I need to explore more.\"\n2. *Client*: \"When I consider the potential outcomes of reaching out, I realize there are quite a few positive possibilities... I think I\u2019d feel a sense of accomplishment just from taking that step, which might even help ease some of the anxiety I\u2019ve been feeling.\"\n\n**Progression:** The client's most recent interactions indicate significant emotional depth and engagement. Initially, they expressed anxiety and fear about taking action, but they have moved to a place of self-reflection and acknowledgment of their critical inner voice. The client is now identifying positive outcomes and showing a willingness to explore their feelings of self-criticism. This marks a notable change from earlier exchanges, where emotional expression was limited, and there was a more defensive stance regarding discussing their fears.\n\n**Turning Point:** The client's emotional depth shifted when they began to articulate the potential positive outcomes of reaching out for clarity about their insurance situation. This moment of insight reflects a greater openness and willingness to challenge their internal critical voice, signifying a move toward deeper engagement in the therapeutic process. Their recognition of the difference in how they treat themselves versus how they would treat a friend indicates a growing self-awareness, a critical element in developing a more balanced emotional perspective.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 9,
+      "openness_level": 4,
+      "therapist": "It's great to hear you acknowledging those potential positive outcomes! Focusing on the possibilities of relief and empowerment can really help shift your mindset. What might it feel like to take that step and experience those positive results? Remember, it\u2019s completely normal to feel uncomfortable as you challenge those negative thoughts, but you\u2019ve already shown that you can handle past uncertainties. What would be your first small step toward reaching out, and how can you remind yourself of the positive possibilities as you prepare?",
+      "client": "I think it would feel really freeing to take that step and maybe find out that things aren\u2019t as bad as I imagined. Part of me is excited about the possibility of feeling more in control of my finances and gaining a better understanding of my insurance\u2014like I\u2019m finally stepping into this independent role I\u2019ve been trying to embrace. I guess my first small step could be drafting a simple script for the call, focusing on the questions I want to ask, which might help me feel more prepared. I can remind myself of the positive possibilities by keeping a note nearby, maybe even a little mantra about being capable and deserving of clarity, to encourage me when I start feeling that anxiety creep back in. It\u2019s a little daunting, but I think there's definitely something worthwhile in pushing through that discomfort.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how you\u2019re envisioning that sense of freedom and control! Drafting a script sounds like a practical and empowering first step. As you create that script, what positive affirmations or reminders could you include to counter any anxious thoughts that arise? Embracing the idea that you deserve clarity and support is such a powerful shift. When those feelings of discomfort creep in, how might you reassure yourself that stepping into this independent role is a journey, and it\u2019s okay to take it one step at a time?",
+      "client": "I think I could include affirmations like, \"I am capable of handling this\" or \"Seeking clarity is a strength, not a weakness.\" Those reminders might help ground me when I start to feel that pressure building again. It\u2019s comforting to remember that this journey toward independence doesn\u2019t have to be perfect; it\u2019s okay to take things step by step. Maybe I can also tell myself that it\u2019s completely normal to have these feelings and that others go through similar situations. It feels important to acknowledge that I\u2019m actively working toward my goals, even if it doesn\u2019t always feel easy.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think it would feel really freeing to take that step and maybe find out that things aren\u2019t as bad as I imagined. Part of me is excited about the possibility of feeling more in control of my finances and gaining a better understanding of my insurance\u2014like I\u2019m finally stepping into this independent role I\u2019ve been trying to embrace.\"\n2. Client: \"I think I could include affirmations like, 'I am capable of handling this' or 'Seeking clarity is a strength, not a weakness.' Those reminders might help ground me when I start to feel that pressure building again.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant shift towards deeper emotional expression and self-reflection. Initially, they exhibited hesitance and a focus on negative outcomes, but they have now moved toward embodying a more positive and empowered perspective regarding their situation. They are actively engaging with the idea of independence and self-affirmation, indicating a greater emotional openness compared to earlier sessions.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their excitement about taking proactive steps towards understanding their financial situation. This moment reflects a newfound willingness to embrace the discomfort associated with change, marking a transition from fear to empowerment. Specifically, their acknowledgment of the potential for a positive outcome during the exploration of reaching out for clarity represents a significant breakthrough in their emotional processing and self-awareness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "It's so encouraging to see you embracing those affirmations and recognizing the normalcy of your feelings! You're absolutely right\u2014many people face similar challenges, and it\u2019s important to remember that each step you take is part of your growth. If a friend were in your shoes, what would you encourage them to focus on as they navigate their own journey? By giving yourself that same compassionate support, you can help soften the pressure and foster a more empowering mindset. How might thinking of this as a learning opportunity change your approach moving forward?",
+      "client": "I can see that maybe offering myself the same compassion I would extend to a friend could really change my perspective. I think I often put so much pressure on myself to get everything right, but if I approached this as a learning opportunity, it might feel less overwhelming. I could focus on the idea that mistakes are part of the process and not a reflection of my worth or abilities. It feels a little uncomfortable to shift my mindset, but I\u2019m willing to look at that, especially since it could help ease some of the anxiety I\u2019ve been grappling with.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic to hear you\u2019re open to shifting your mindset! Viewing this as a learning opportunity can really help reduce that pressure you place on yourself. Can you recall a time when someone else made a mistake but ultimately found it to be a valuable lesson? What would you say to a friend who is feeling the same way about their own journey? Embracing the idea that mistakes do not define your worth can be incredibly liberating. Remember, it\u2019s all part of the process, and each step you take is a step towards growth.",
+      "client": "I think there\u2019s something there, especially when I recall moments where friends or family have faced their own challenges. I remember a time when a close friend of mine mismanaged her budget and ended up in a tight spot financially. Instead of viewing it as a huge failure, she took it as a lesson to better plan for the future. When I think about what I would say to her if she were feeling overwhelmed, I\u2019d remind her that everyone makes mistakes and that each one is an opportunity to learn and grow. It\u2019s comforting to realize that this journey isn\u2019t about perfection; it\u2019s about progress and resilience.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I could focus on the idea that mistakes are part of the process and not a reflection of my worth or abilities. It feels a little uncomfortable to shift my mindset, but I\u2019m willing to look at that, especially since it could help ease some of the anxiety I\u2019ve been grappling with.\"\n2. Client: \"It\u2019s comforting to realize that this journey isn\u2019t about perfection; it\u2019s about progress and resilience.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant emotional depth, particularly in their willingness to confront uncomfortable feelings and embrace the idea of mistakes as learning opportunities. This marks a notable change from earlier exchanges, where emotional expression was more limited and hesitant. The client is actively engaging in self-reflection about their anxiety and the pressures they place on themselves, indicating a deeper understanding of their emotional landscape.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they articulated their willingness to shift their mindset about mistakes being part of the process. This moment represented a transition from simply acknowledging their feelings to actively working on reframing their perspective, leading to a greater sense of empowerment and self-compassion. This pivotal realization showcases their growth in emotional openness and their strengthened rapport with the therapist, allowing for deeper exploration and discussion.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It's great that you can recall that experience with your friend, as it highlights the power of learning from our missteps. As you continue to navigate your own journey, can you think of some pros and cons of holding yourself to such high standards? What might be the benefits of allowing yourself to make mistakes, similar to how your friend did? By exploring these questions, you might uncover insights that can reduce the pressure you feel and enhance your motivation. What discoveries do you hope to make about yourself through this process?",
+      "client": "I think there are definitely both pros and cons to holding myself to those high standards. On one hand, I feel motivated to achieve my goals and push myself to do better, which can lead to growth. But the downside is that it often leaves me feeling anxious and worried if I don\u2019t meet those expectations. I can see how allowing myself to make mistakes could actually be beneficial; it would create space for me to reflect and learn, rather than just criticize myself. Through this process, I\u2019m hoping to discover more about my capacity for resilience and to develop a healthier relationship with my own expectations. It feels like there\u2019s a lot to uncover, and I\u2019m curious about where it might lead me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It's wonderful that you\u2019re identifying both the motivating aspects of high standards and the anxiety they can create. Recognizing that mistakes can offer valuable lessons is a significant step towards fostering that healthier relationship with your expectations. As you explore this further, what specific areas in your life do you feel the pressure most acutely? How might you approach those situations differently, knowing that it's all part of your journey toward resilience? Your curiosity about what you'll uncover is a great mindset to carry with you as you move forward.",
+      "client": "I can feel the pressure most acutely when it comes to managing my finances and making decisions about my future. I often find myself second-guessing every step I take, worrying about making the \u201cwrong\u201d choice or not being capable enough. If I approach these situations with the mindset that mistakes are simply part of my learning process, I might be able to ease some of that anxiety. I think it would help to remind myself that it\u2019s okay to ask questions and seek guidance when I feel uncertain, rather than trying to tackle everything alone. Recognizing that I don\u2019t have to be perfect in every area of my life feels liberating, even if it\u2019s still a bit uncomfortable to truly embrace.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"If I approach these situations with the mindset that mistakes are simply part of my learning process, I might be able to ease some of that anxiety.\"\n2. \"Recognizing that I don\u2019t have to be perfect in every area of my life feels liberating, even if it\u2019s still a bit uncomfortable to truly embrace.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection, particularly in how they articulate the dualities of their experiences related to high standards. Initially, the client expressed a more defensive stance and limited emotional vocabulary. However, recent exchanges reveal a willingness to explore their anxiety and expectations, indicating a deepening understanding of their emotional process and a growing ability to articulate their feelings and thoughts. This reflects a significant change from earlier stages where emotional expression was minimal.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the dialogue when they began to articulate their internal struggle regarding high standards and the anxiety it incites. The moment they recognized that \"mistakes are simply part of my learning process\" served as a turning point, demonstrating not only an acknowledgment of their challenges but also a proactive attitude towards self-improvement and resilience. This illustrates a significant development in their emotional openness and rapport with the therapist, as they engage more deeply with their feelings and the therapeutic concepts discussed.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It's insightful that you've pinpointed finances and future decisions as areas where you feel the most pressure. Embracing the idea that mistakes are a natural part of the learning process can truly help ease some of that anxiety. How might you incorporate asking for guidance into your decision-making? Exploring this could open new avenues for support and reassurance. Remember, taking small steps toward this mindset can lead to greater comfort with uncertainty, and it's great to see how you're already feeling a sense of liberation in acknowledging that perfection isn't the goal. What do you think you might do differently in your next financial decision?",
+      "client": "I think in my next financial decision, I might allow myself to take a moment to pause and gather information before jumping into a conclusion. I could reach out to friends or even professionals for advice, rather than relying solely on my own judgment. It feels like a good opportunity to practice that balance of independence and seeking support. Part of me recognizes that this approach could help alleviate some of the pressure I place on myself, making the process feel less overwhelming. It\u2019s a little scary to think about asking for help, but I know it could lead to better outcomes and less anxiety.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic to hear that you\u2019re considering taking a moment to pause and gather information before making your next financial decision. This approach not only allows you to feel more informed but also gives you the chance to seek support from friends or professionals, which can be incredibly reassuring. Who in your life do you think would be helpful to reach out to for advice, and how might you feel comfortable approaching them? Let\u2019s outline a simple step-by-step plan together, so you can feel more confident and supported in this process. Remember, it\u2019s completely okay to ask for help; it can make a big difference in easing your anxiety.",
+      "client": "I think one person I could reach out to is my friend who has more experience with budgeting and finances. I admire how organized she is, and I believe she would be open to sharing her insights. Maybe I\u2019ll start by sending her a message or inviting her for coffee, so it feels more casual and less intimidating. It feels comforting to know that I can create a plan for this, even if it's just a small step. When you mention outlining a step-by-step plan, I can see that it might help me feel less overwhelmed and more in control of the process. It\u2019s a little intimidating, but I think I\u2019m willing to try.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"It feels liberating, even if it\u2019s still a bit uncomfortable to truly embrace.\"\n2. **Current Openness:** \"It\u2019s a little intimidating, but I think I\u2019m willing to try.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a clear emotional depth, particularly in their acknowledgment of discomfort paired with a sense of liberation in allowing for imperfection. This marks a significant progression from earlier exchanges where the client displayed more hesitance and a defensive stance. The dialogue indicates a comfort level that has increased, as the client now articulates their feelings about asking for help and recognizes the value in seeking guidance, moving from a place of isolated decision-making to one of collaborative support.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed, \"I think it would help to remind myself that it\u2019s okay to ask questions and seek guidance when I feel uncertain.\" This moment signifies a turning point as they begin to embrace vulnerability and the concept of interdependence, reflecting a deeper level of self-reflection and a stronger rapport with the therapist. The client\u2019s willingness to consider reaching out to a friend for financial guidance showcases a transformative shift from anxiety to a more proactive and supported approach.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you\u2019ve identified your friend as a resource and are thinking about a casual approach to reach out. Inviting her for coffee sounds like a great way to ease into the conversation. Let\u2019s create a simple step-by-step plan together: First, you can send that message to set up the meeting. Then, prepare a few questions or topics you\u2019d like to discuss, so you feel ready. Lastly, remind yourself that this is a learning opportunity, and it\u2019s perfectly okay to ask questions. How does that plan sound to you?",
+      "client": "That plan sounds really manageable to me. I appreciate breaking it down into smaller steps; it makes the whole process feel less daunting. I think I\u2019ll definitely try to set up the meeting first and then jot down some questions to help guide our conversation. Knowing that it\u2019s a learning opportunity helps me feel more at ease about asking questions. I didn\u2019t realize how much simply having a plan could help alleviate some of my anxiety until now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that breaking the process down into smaller steps has made it feel more manageable for you! Recognizing that this is a learning opportunity can truly transform how you approach these conversations. As you prepare to set up the meeting and jot down your questions, how can you remind yourself that seeking help is a sign of strength, not weakness? Let\u2019s explore ways to reinforce this perspective as you move forward, so you continue to feel empowered throughout the decision-making process.",
+      "client": "I think reminding myself that seeking help is a sign of strength is really important, especially since it feels so vulnerable to reach out. Maybe I can write a note to myself, something like \u201cAsking for help shows my willingness to grow and learn.\u201d That might help me shift my perspective. When you say it that way, I notice that part of me wants to believe that, but I also feel a pull to prove my independence. I\u2019m willing to explore ways to reinforce this idea, so I can feel more confident asking for support in the future.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I didn\u2019t realize how much simply having a plan could help alleviate some of my anxiety until now.\"\n2. \"Maybe I can write a note to myself, something like 'Asking for help shows my willingness to grow and learn.' That might help me shift my perspective.\"\n\n**Progression:** The client\u2019s recent interactions indicate a deeper emotional engagement and an increased comfort level in discussing their feelings and anxieties. They are moving beyond initially factual responses to expressing genuine vulnerability and self-reflection. Notably, their acknowledgment of how a plan alleviates anxiety shows an integration of therapy concepts and a willingness to explore their emotional landscape. This marks a significant change from earlier in the session, where they may have been more hesitant to dive into their emotional responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about seeking help from their friend. When they expressed the idea of writing a note to themselves, it reflected a deeper level of self-awareness and a proactive approach to managing their feelings. This moment demonstrated a significant shift in their mindset, moving from feeling intimidated by reaching out for support to recognizing it as a strength, indicating a breakthrough in their emotional openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It's wonderful that you're open to exploring this perspective! Let\u2019s think about what evidence you have that seeking help is a sign of weakness. Are there moments in your life or instances with others where asking for support has led to positive outcomes? Consider how you would respond to a friend who feels hesitant to ask for help; what strengths do you possess that allow you to seek support? Reflecting on these points might help you see that your willingness to learn from others can actually enhance your independence.",
+      "client": "I can see that maybe I have examples in my life where reaching out for help has been beneficial. For instance, I remember when I worked on group projects in school; sharing ideas made the final outcome so much better than if I tried to do everything alone. When I think about how I would advise a friend, I know I\u2019d encourage them to seek support because it\u2019s a sign of courage, not weakness. Part of me knows that asking for help can actually strengthen my independence by allowing me to learn from others\u2019 experiences. It feels a little uncomfortable to think about, but I think there\u2019s something there that can help shift my perspective.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It sounds like you're really starting to connect the dots between seeking help and strengthening your independence! Your example from school is a powerful reminder that collaboration can lead to better outcomes, and it's great that you can recognize the courage it takes to reach out. How might you incorporate this perspective into your daily life? Perhaps you could remind yourself of those positive experiences whenever you feel hesitant to ask for support. What other strengths do you have that can help reinforce this newfound belief?",
+      "client": "I think incorporating this perspective into my daily life could really help. I could create a little mantra for myself, something like, \u201cCollaboration leads to growth.\u201d That way, when I'm feeling hesitant, I can remind myself of those positive experiences. I also believe my ability to empathize with others can be a strength; it helps me understand that everyone needs support sometimes. I hadn\u2019t connected my empathy to this before, but it makes sense that it could reinforce my willingness to seek help.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think reminding myself that seeking help is a sign of strength is really important, especially since it feels so vulnerable to reach out.\"\n2. \"I remember when I worked on group projects in school; sharing ideas made the final outcome so much better than if I tried to do everything alone.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a consistent emotional depth and authentic vulnerability, marking a significant change from earlier stages characterized by hesitance. Initially, the client may have expressed more defensive or factual responses, but now they are actively engaging in self-reflection and sharing personal insights. Their willingness to explore the idea of seeking help as a strength reflects a shift towards deeper engagement with their emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they articulated, \"I think reminding myself that seeking help is a sign of strength is really important, especially since it feels so vulnerable to reach out.\" This moment marked a transition as they began to connect their feelings of vulnerability with the desire to grow, paving the way for deeper exploration of their beliefs about independence and support. The subsequent acknowledgment of their empathy as a strength indicates a profound shift in their self-perception and a reinforcement of their capacity for emotional openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "Creating a mantra like \u201cCollaboration leads to growth\u201d sounds like a wonderful tool to reinforce this perspective! It's insightful how you've connected your empathy to your willingness to seek help; that understanding can empower you even more. Think about the times you\u2019ve offered support to others\u2014how does that reflect your belief in the strength of seeking help? As you continue to explore these connections, how might your empathetic nature shape your experiences when reaching out for assistance?",
+      "client": "When I think about the times I've offered support to others, I can see that I genuinely believe in the value of collaboration and connection. It feels good to help someone else, and I often remind them that it\u2019s okay to ask for help, so maybe I should apply that same logic to myself. I think my empathetic nature can help me frame my requests for support in a way that feels more comfortable, like reminding myself that I\u2019m not just being needy but actually fostering a supportive relationship. I hadn\u2019t fully realized how my experiences helping others could give me the confidence to seek help in return, but it makes sense now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It's wonderful to see you recognizing how your empathy can be a guiding force in seeking support for yourself. You already encourage others to ask for help, and now it's time to extend that same kindness to yourself. Can you think of a specific situation this week where you might reach out for assistance, perhaps with a friend or a colleague? What would be a small step you could take to practice this? As you consider this, pay attention to how you feel before, during, and after reaching out, and we can discuss your experience afterward to see how it reinforces your belief in the strength of collaboration. Remember to document your feelings and insights along the way\u2014this will help solidify your mantra, \"Collaboration leads to growth.\"",
+      "client": "I appreciate the encouragement to extend this kindness to myself. I think a specific situation could be asking a classmate for help with an assignment I\u2019m struggling with. It feels a little daunting, but I can see how it would be a small step that aligns with my mantra. I\u2019m willing to pay attention to my feelings throughout the process, especially since I usually feel anxious about reaching out. Perhaps documenting my experience will help me reflect on how this moment reinforces the idea that collaboration truly does lead to growth.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"When I think about the times I've offered support to others, I can see that I genuinely believe in the value of collaboration and connection. It feels good to help someone else, and I often remind them that it\u2019s okay to ask for help, so maybe I should apply that same logic to myself.\"\n2. \"I appreciate the encouragement to extend this kindness to myself. I think a specific situation could be asking a classmate for help with an assignment I\u2019m struggling with. It feels a little daunting, but I can see how it would be a small step that aligns with my mantra.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection. In their latest exchanges, they openly recognize the connection between their empathetic nature and their willingness to seek help, indicating a shift towards authentic vulnerability. This emotional quality represents a significant change from earlier sessions, where they may have shown more hesitance and a lack of exploration of their feelings. The current dialogue reveals that the client is actively making connections between their experiences and incorporating insights into their self-view, which highlights their growth in emotional awareness.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed, \"I hadn\u2019t fully realized how my experiences helping others could give me the confidence to seek help in return.\" This moment marked a turning point as the client began to articulate how their past actions positively influence their current abilities to ask for support, indicating a deeper level of self-reflection and a growing understanding of their own emotional landscape. This shift aligns with the emerging rapport and trust with the therapist, as the client feels encouraged to explore and share these insights. Overall, the client displays a strong therapeutic",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "That sounds like a fantastic plan! Asking a classmate for help on an assignment is a great way to practice reaching out, and it's perfectly normal to feel a bit anxious about it. As you approach this situation, try to remind yourself of the strength in collaboration and how it aligns with your belief in growth. I'm really interested to hear how you feel before, during, and after this experience. Remember to take notes on your thoughts and feelings\u2014documenting your journey will be an important part of reinforcing your mantra. You're taking a brave step, and I'm here to support you through it!",
+      "client": "I can see that reaching out to my classmate really is a brave step, even if it feels daunting right now. I think I\u2019ll try to remind myself of the strength in collaboration, especially when those anxious feelings start to creep in. Documenting my thoughts and feelings will help me reflect on the experience and how it ties back to my mantra. Part of me knows that each little step can help reinforce my belief in growth, and I\u2019m willing to explore how this unfolds.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear your commitment to this brave step! Acknowledging the anxiety is a healthy part of the process, and reminding yourself of the strength in collaboration can really help ease those feelings. As you document your thoughts and feelings, pay attention to any shifts in your perspective about asking for help. After you reach out to your classmate, we can explore your experience together, seeing how it connects back to your mantra and reinforces your growth. I'm excited to hear what you discover!",
+      "client": "I really appreciate your enthusiasm for this process! I think it\u2019s comforting to know that I can acknowledge my anxiety without letting it take over. When I consider how asking for help ties back to my belief in growth, it feels like a way to challenge my automatic thoughts about needing to handle everything on my own. I\u2019m excited to reflect on my experience afterward and see how it might shift my perspective on collaboration. It feels like I\u2019m on the brink of something important, even if that\u2019s a little scary.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n- \"I think it\u2019s comforting to know that I can acknowledge my anxiety without letting it take over.\"\n- \"It feels like I\u2019m on the brink of something important, even if that\u2019s a little scary.\"\n\n**Progression:** The client\u2019s most recent interactions show a significant increase in emotional depth and self-reflection compared to earlier exchanges. They are expressing anxiety openly while also articulating a sense of bravery and willingness to challenge their automatic thoughts about self-reliance. This marks a notable change from earlier responses, which were more hesitant and fact-based, indicating a shift towards deeper emotional exploration.\n\n**Turning Point:** The client's emotional depth shifted notably during the exchange where they expressed, \"I think I\u2019ll try to remind myself of the strength in collaboration, especially when those anxious feelings start to creep in.\" This moment highlighted their recognition of the duality of feeling anxious but also being willing to embrace vulnerability by reaching out, demonstrating a growing comfort with the therapeutic process and a stronger rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to see you connecting your feelings about asking for help to your belief in growth. Can you take a moment to write down some of the specific thoughts or beliefs that contribute to your anxiety about reaching out? Once you have those, let\u2019s examine the evidence for and against them together. How might you reframe these thoughts to align more closely with your commitment to collaboration? Remember, if a friend were experiencing the same feelings, how would you encourage them to see the situation? Identifying any past positive experiences when you reached out could also provide valuable insights as you move forward. You're doing important work here!",
+      "client": "I can see how writing down my thoughts and beliefs about reaching out could really help clarify what\u2019s fueling my anxiety. Part of me knows that I tend to think I have to manage everything by myself, which only adds to my stress. When I reflect on it, I realize that I\u2019ve had positive experiences in the past when I've asked for help\u2014like that time I reached out to a professor about a project, and it turned out to be really valuable. Maybe I can reframe my thoughts by reminding myself that seeking assistance doesn\u2019t make me weak; it actually shows strength and a willingness to grow. It feels a little uncomfortable to challenge those automatic thoughts, but I\u2019m willing to look at that!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear you recognize the strength in seeking help and how it aligns with your growth. Writing down your thoughts will certainly help clarify your beliefs. As you reflect on your past positive experiences, like the conversation with your professor, how does that evidence influence your current thoughts about reaching out to your classmate? Consider how you might speak to a friend in the same situation\u2014what supportive words would you offer them? This process of reframing can be a powerful tool as you move forward. You're making significant progress!",
+      "client": "I think it\u2019s really helpful to consider how my past experiences can reshape my current perspective on reaching out. Reflecting on that positive interaction with my professor reminds me that asking for assistance often leads to valuable outcomes, which can help counteract my fears. If I were to talk to a friend, I\u2019d likely remind them that seeking support is a courageous act that shows strength, not weakness. This feels like a significant shift for me, and even though it\u2019s a bit uncomfortable to challenge my beliefs, I\u2019m excited about the potential growth it can lead to!",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \u201cWhen I consider how asking for help ties back to my belief in growth, it feels like a way to challenge my automatic thoughts about needing to handle everything on my own.\u201d\n2. Client: \u201cIf I were to talk to a friend, I\u2019d likely remind them that seeking support is a courageous act that shows strength, not weakness.\u201d\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection. They are actively engaging with their feelings, articulating their anxiety about seeking help, and reframing it as a strength rather than a weakness. This marks a significant change from earlier in the session, where they may have expressed more hesitance or factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they reflected on their past positive experience with their professor. This realization that seeking assistance can lead to valuable outcomes has allowed them to challenge their automatic thoughts and feel more comfortable with vulnerability. This moment connected the client\u2019s anxiety with their belief in growth, reinforcing their commitment to collaboration and personal development.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to see how you\u2019re recognizing the strength in reaching out for help, and how past positive experiences can reshape your current thoughts! As you challenge those uncomfortable beliefs, what specific evidence do you have that contradicts the idea that asking for help is a sign of weakness? Remember, approaching this situation with the perspective you would offer a friend could really reinforce your new mindset. How might you reframe your thoughts to emphasize that seeking support is part of a collaborative journey toward growth? You\u2019re doing an amazing job exploring these insights!",
+      "client": "When you ask about the evidence contradicting the idea that asking for help is a weakness, I can see that maybe I\u2019ve overlooked the many times I\u2019ve benefited from reaching out to others. For instance, I\u2019ve received guidance from friends when I was struggling with schoolwork, and those moments not only helped me academically but also strengthened our relationships. It feels empowering to realize that collaboration can lead to shared successes and that I\u2019m not alone in my struggles. I think this connects to my belief that seeking support fosters growth, and it may help me reframe my thoughts to see my willingness to ask for assistance as a sign of resilience rather than a flaw.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to see you connect the dots between collaboration and personal growth. Let\u2019s take a moment to explore your feelings on a scale from 1 to 10, where 1 represents feeling entirely weak for asking for help and 10 symbolizes feeling completely strong and empowered by it. Where do you currently find yourself on that scale, and what influences your position there? Additionally, what experiences or strategies could help you move closer to that empowering end of the continuum? Remember, this is a journey, and each step you take is valuable in reshaping your beliefs about seeking assistance.",
+      "client": "I think I\u2019d place myself around a 6 on that scale right now. I can feel the strength in acknowledging that asking for help can be empowering, but there\u2019s still a part of me that clings to the fear of being perceived as inadequate. I notice that my past experiences, like relying on my parents for support, sometimes creep into my thoughts and make it harder to fully embrace this new perspective. To move closer to that empowering end, I could remind myself of those moments when collaboration led to positive outcomes, like when I reached out to friends for help with schoolwork. It really does feel like a journey, and while I\u2019m excited about the growth, I also recognize that it might take time to fully integrate this shift in my mindset.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"It feels empowering to realize that collaboration can lead to shared successes and that I\u2019m not alone in my struggles.\"\n2. \"I\u2019d place myself around a 6 on that scale right now. I can feel the strength in acknowledging that asking for help can be empowering, but there\u2019s still a part of me that clings to the fear of being perceived as inadequate.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a significant depth of emotional expression and self-reflection. They articulate feelings of empowerment tied to collaboration, recognizing the strength in asking for help while also acknowledging fears of inadequacy. This emotional complexity indicates a shift from earlier sessions, where their responses may have been more factual and less introspective. The current exchanges showcase a high level of engagement with the therapeutic process, where they not only reflect on their past but also actively work to reframe their beliefs about seeking support.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the dialogue where they began to connect their feelings of empowerment with specific positive experiences, such as receiving guidance from friends. This moment marked a significant turning point, as they expressed an understanding that collaboration can lead to shared successes and foster resilience. The acknowledgment of their fears alongside the recognition of growth illustrates a nuanced emotional landscape, which is characteristic of deep engagement in therapy.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s great that you\u2019ve placed yourself on the scale and can recognize both your strengths and fears surrounding asking for help. A 6 shows you\u2019re already embracing the empowering aspects of collaboration, which is a fantastic step forward! What could you do in situations where that fear of inadequacy resurfaces? Perhaps you can create a list of those positive experiences, like your supportive interactions with friends, to remind yourself of the strength that comes from reaching out. Additionally, how can you keep this continuum in mind when you\u2019re faced with the decision to ask for help in the future? Each step you take on this journey is a testament to your resilience!",
+      "client": "I think creating a list of my positive experiences could be really beneficial. It might serve as a tangible reminder of the strength I\u2019ve found in collaboration, especially when those feelings of inadequacy begin to surface. I can also see that acknowledging those moments when I successfully reached out for help could build my confidence over time. Keeping this continuum in mind, I could set small goals for myself, like practicing asking for assistance in low-stakes situations first. That feels like a manageable way to gradually shift my mindset and embrace the idea that seeking support is part of a healthy growth process.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your plans for creating that list of positive experiences! Having tangible reminders of your strengths will surely bolster your confidence when those feelings of inadequacy arise. Setting small goals, like practicing in low-stakes situations, is a fantastic way to gradually shift your mindset. How might you celebrate those small victories as you progress? Recognizing each step on your journey is just as important as the destination, and I\u2019m excited to see how these strategies help you embrace the empowerment that comes from seeking support.",
+      "client": "I think celebrating those small victories could really help reinforce my progress and keep me motivated. Maybe I could treat myself to something enjoyable, like going out for coffee with a friend or indulging in a favorite hobby after I successfully ask for help in a low-stakes situation. Part of me knows that recognizing my achievements, no matter how small, can create a positive feedback loop that encourages me to keep embracing this new perspective. I hadn\u2019t connected the importance of celebration to my growth before, but it makes sense that acknowledging my efforts could reinforce my willingness to seek support in the future.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I can feel the strength in acknowledging that asking for help can be empowering, but there\u2019s still a part of me that clings to the fear of being perceived as inadequate.\"\n- \"I can also see that acknowledging those moments when I successfully reached out for help could build my confidence over time.\"\n\n**Progression:** The client is demonstrating a significant shift in emotional depth and self-reflection. They have moved from initial hesitance about asking for help to recognizing the empowering aspects of collaboration. This illustrates a notable growth in their emotional vocabulary and understanding of their feelings. Their acknowledgment of both strength and fear indicates an increased comfort level in discussing vulnerable topics, which shows clear progression from earlier sessions where emotional expression was limited.\n\n**Turning Point:** The client's emotional depth shifted during their discussion about being at a \"6\" on the empowerment scale. This moment marked a transition from merely stating their feelings to genuinely exploring the underlying fears and recognizing the positive aspects of seeking help. Their willingness to create a list of positive experiences and set small goals for themselves reflects a newfound authenticity and engagement with the therapeutic process, indicating a stronger therapeutic alliance. Their insights into celebrating small victories further highlight their evolving self-awareness and commitment to personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    }
+  ]
+}

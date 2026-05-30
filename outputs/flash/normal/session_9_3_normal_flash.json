@@ -1,0 +1,2600 @@
+{
+  "mode": "normal",
+  "therapist_type": "flash",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "9-3",
+  "patient_name": "Fiona",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "### Rating: 2\n\n### Key Examples:\n- **Example 1:** \u201cI guess I just wish people understood that sometimes I\u2019m not in a place to help them. Honestly, it\u2019s just how things are right now.\u201d  \n- **Example 2:** \u201cI mean, it's easier to just focus on what I can handle right now. If I start thinking about everything at once, it just gets too much.\u201d\n\n### Progression:\nThe client\u2019s most recent exchanges reveal a mix of factual and emotional responses. While they demonstrate some recognition of their struggles, their emotional expression remains somewhat guarded and underdeveloped. The client acknowledges their feelings of being overwhelmed and communicates a desire for understanding, yet there is a reluctance to delve deeper into their emotional state. This indicates a shift from an earlier defensive stance to a more open acknowledgment of their feelings; however, it does not reach the level of significant emotional depth or vulnerability.\n\n### Turning Point:\nThe client\u2019s emotional depth appeared to shift during their expression of feeling overwhelmed by their responsibilities (\u201cI mean, it's easier to just focus on what I can handle right now\u201d). This acknowledgment suggests a growing self-awareness about their situation but reflects a hesitancy to explore the deeper emotional implications. While there is some progression in their openness, it still falls short of the deeper engagement required for a higher rating. \n\nOverall, the client is in the \"WARMING UP\" phase, showing basic emotional vocabulary and initial signs of trust but lacking deeper emotional exploration and consistent engagement with the therapeutic process.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I don\u2019t know if I\u2019m ready to actually change anything right now, but it would be nice to think about how to carve out just a little time for myself.\"\n2. **Current Openness:** \"I don\u2019t know, maybe if I just set aside one evening each week for myself? It feels small, but at least it\u2019s a start, right?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a mix of emotional expression and self-reflection. They articulate feelings of being torn between self-care and responsibilities towards Jersey, demonstrating a growing awareness of their emotional needs. This marks a significant change from earlier sessions, where the client was more hesitant and guarded in sharing their feelings, primarily offering factual responses. The current exchanges indicate a deeper engagement with their emotions, albeit still grappling with guilt and uncertainty regarding boundary-setting.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they articulated, \"It\u2019s just hard for me to imagine how I could take time for myself without feeling guilty about it.\" This acknowledgment of their feelings regarding guilt and obligation signals a pivotal moment where they began to confront the complexities of their emotional landscape. This level of introspection showcases their gradual comfort in discussing personal challenges, though they continue to navigate feelings of being stuck.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I don\u2019t know, maybe I could think of it like, you know, how I always prioritize being there for others. If I view my self-care as equally important, maybe I wouldn\u2019t feel so guilty if I had to cancel.\"\n2. \"I guess I could try keeping them somewhere I see them often, like on my fridge or maybe even on my phone. That way, I\u2019d have a little reminder right in front of me when I start to feel overwhelmed.\"\n\n**Progression:**\nThe client demonstrates a clear progression in emotional expression and self-reflection in their most recent interactions. They articulate their struggles with self-care in relation to their obligations to others, revealing a deeper level of emotional engagement. The client acknowledges the conflict between understanding the theory of self-care and their feelings of guilt, indicating a growing comfort in expressing emotions and sharing personal challenges. This marks a significant change from earlier interactions, where emotional vocabulary was more limited and responses were more guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed their hesitation about affirmations. This moment highlighted an internal struggle between their theoretical understanding of self-care and the practical application of that understanding in stressful moments. This shift represents a notable increase in vulnerability, as they openly discuss their fears about prioritizing their needs alongside those of others, indicating a willingness to explore their emotions further.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I think maybe if I had a little ritual or something during my breaks, it could help. Like, taking a deep breath or stretching before I read the affirmation might make it feel more intentional. But honestly, I\u2019m not sure if I\u2019d follow through with it every time.\"\n2. \"I can kind of see how that shift could help. It might take some pressure off if I look at it that way. I guess celebrating the days I do it feels more positive, but part of me worries I\u2019d still fixate on the days I miss.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of emotional expression and self-reflection, indicating a significant change from earlier exchanges where emotional vocabulary was limited and responses were more factual. The client is now exploring the idea of self-care rituals and expressing both hope and skepticism about their ability to follow through. This indicates a deeper engagement with the therapeutic process and a willingness to reflect on their feelings and behaviors.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began discussing the potential benefit of creating a ritual for self-care. Initially, they presented a defensive stance about their capacity to maintain such practices. However, they transitioned into acknowledging the importance of kindness toward themselves and the challenges of balancing self-expectations. This moment illustrates a burgeoning awareness of inner conflicts, reflecting progress in emotional openness and self-reflection.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \u201cBut then I think, what if I just ignore it or don\u2019t see it? It feels like it could help, but part of me is worried I won\u2019t follow through. It\u2019s just hard to change those ingrained habits, you know? Sometimes I think I\u2019m my own worst enemy when it comes to being kind to myself.\u201d\n- \u201cI can kind of see how treating it like an experiment might take some of the pressure off. It sounds less daunting when I think of it that way, like I\u2019m just trying something out instead of making a permanent change. I guess I could give it a week and see how it feels. But part of me is still worried about whether I\u2019ll actually remember to do it or if it\u2019ll just slip my mind, you know?\u201d\n\n**Progression:** The client's most recent interactions reveal a notable increase in emotional expression, especially in their consideration of self-doubt and habitual challenges. They articulate their worries about following through on new strategies, showing a deeper level of self-reflection compared to earlier exchanges. Initially, the client appeared more defensive and hesitant, focusing on factual responses and expressing concern about changing ingrained habits with minimal emotional engagement. Now, they are starting to embrace the idea of experimentation, indicating a shift towards a willingness to engage more openly in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing feelings of being their \u201cown worst enemy\u201d regarding self-kindness. This moment marked a transition where they moved from general frustrations to a more vulnerable acknowledgment of their internal struggles, leading to a greater willingness to explore potential solutions rather than simply dismissing them. Their current state reflects a blend of anxiety about change and a growing openness to experimentation, indicating",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **\u201cBut then again, part of me wonders if I\u2019ll actually remember to take that pause with everything else going on. It feels like I\u2019m always in a rush, you know?\u201d** - This quote illustrates the client\u2019s emotional state of feeling overwhelmed and their desire to make a change while recognizing the challenges they face.\n  \n2. **\u201cI mean, maybe if I just focus on that one little moment, it won\u2019t feel so overwhelming. But then again, what if I forget or get caught up in everything else?\u201d** - Here, the client shows a mix of openness about their struggles and a willingness to experiment with the therapist's suggestion.\n\n**Progression:** The client's recent interactions reveal a marked increase in emotional expression and self-reflection compared to earlier sessions. While they initially presented more factual and guarded responses, they are now actively engaging with the therapeutic process. The client shares their concerns about feeling overwhelmed and acknowledges the difficulty in making changes, indicating a deeper level of engagement. This emotional quality showcases a growing trust in the therapeutic relationship and highlights their willingness to explore their feelings more openly.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing their hesitations and anxieties about making changes during the latest exchanges. This emerged as they discussed their busy schedule and the fear of disappointment, demonstrating a vulnerability that signals a transition from initial hesitance toward a more engaged exploration of their feelings and thought processes.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "judge_response": "### Rating: 3 (ENGAGED EXPLORATION)\n\n### Key Examples:\n1. **Emotional State Expression:** \u201cBut there's still this voice in my head that says I should be doing better, you know? I guess I just have to remind myself that it's okay to take things as they come, even if it feels uncomfortable. It\u2019s hard to break that habit of thinking I need to get it all right.\u201d\n2. **Current Openness:** \u201cI can kind of see how a mantra might be helpful, like a little reminder to be more gentle with myself. But I also worry that it won\u2019t stick, you know? Part of me feels like I\u2019d forget to use it when I really need it.\u201d\n\n### Progression:\nThe client\u2019s recent interactions indicate a notable advancement in their emotional expression and self-reflection. Previously, they exhibited more hesitant and factual responses; however, they are now engaging in deeper emotional dialogues, revealing their inner conflicts and recognizing the difficulties they face in shifting their mindset from a perfectionist stance to a more forgiving one. They are articulating their worries and doubts regarding self-compassion, which illustrates a growing comfort in exploring their emotional landscape.\n\n### Turning Point:\nThe client\u2019s emotional depth began to shift at the moment they first acknowledged the persistent inner critic, stating, \u201cthere's still this voice in my head that says I should be doing better.\u201d This moment marked a significant transition, as it demonstrated their ability to identify and articulate their emotional struggles openly. This acknowledgment of the critical voice signifies a willingness to delve into self-reflection, which has contributed to their current level of engagement and exploration in therapy.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "flash_responses": [
+    {
+      "turn": 1,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Hello! I\u2019m really glad you\u2019re here today. How are you feeling as we begin our session?",
+      "therapy_mode": "Greeting",
+      "technique": "Greeting",
+      "completed_turn": 0,
+      "patient_state": {},
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.0,
+      "storage_time_ms": 0.0
+    },
+    {
+      "turn": 2,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It sounds like you\u2019re feeling a bit disconnected from everything right now. If you could change something about how you feel or interact with others, what would that look like for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 1,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.061326000126428,
+      "storage_time_ms": 0.006694000148854684
+    },
+    {
+      "turn": 3,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It seems like you\u2019re really feeling the weight of your own struggles and that it\u2019s tough to be there for others right now. What does it mean for you to be in this place where helping others feels out of reach?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 2,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2731470005746814,
+      "storage_time_ms": 0.007263000043167267
+    },
+    {
+      "turn": 4,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "I hear you; it sounds like you\u2019re feeling overwhelmed with your own responsibilities. What do you think would help you manage that feeling of having so much on your plate?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 3,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.9359809994057287,
+      "storage_time_ms": 0.007000999175943434
+    },
+    {
+      "turn": 5,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "That sounds like a practical way to cope with everything. Focusing on one thing at a time can definitely help keep things manageable. If you could envision a time when you felt more balanced or less overwhelmed, what might that look like for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 4,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Open-ended Questions",
+          "mode": "MI",
+          "trajectory_before": "stable",
+          "readiness_before": 3.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 3.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium",
+          "flashbulb_score": 0.58,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 4
+        }
+      ],
+      "retrieval_time_ms": 1.1055239992856514,
+      "storage_time_ms": 2.083646999381017
+    },
+    {
+      "turn": 6,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Missing that sense of space and balance is completely understandable. What do you think would need to change, even in small ways, to create a little more space for yourself?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 5,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4377079996847897,
+      "storage_time_ms": 0.00735200046619866
+    },
+    {
+      "turn": 7,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s a tough spot to be in, feeling that pull between self-care and responsibility to others. What if setting a boundary didn\u2019t mean letting Jersey down, but rather allowing you to show up for her even better when you do? How might that shift your perspective on taking that step?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 6,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2127939999118098,
+      "storage_time_ms": 0.008647999493405223
+    },
+    {
+      "turn": 8,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It makes sense to feel stuck when you\u2019re balancing your needs with wanting to support Jersey. If you were to reframe it as a way to be more present for her in the long run, what kind of small step could you take that feels manageable for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 7,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2704199998552212,
+      "storage_time_ms": 0.007141999958548695
+    },
+    {
+      "turn": 9,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Setting aside one evening a week sounds like a great start! It\u2019s totally normal to feel like it\u2019s not enough, but remember that even small steps can make a big difference over time. How do you think having that dedicated time for yourself could impact your ability to support Jersey and manage your other obligations?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 8,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.0469830003785319,
+      "storage_time_ms": 0.0076559999797609635
+    },
+    {
+      "turn": 10,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It sounds like you really understand the potential benefits of that time for yourself, which is a great insight! If something does come up and you have to cancel, how could you view that situation differently? What if you considered your need for self-care as just as important as any other obligation?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 9,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4614779993280536,
+      "storage_time_ms": 0.00733299930288922
+    },
+    {
+      "turn": 11,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "That\u2019s a really insightful way to look at it! It\u2019s definitely a balancing act, but recognizing that your needs are just as important is a big step. What if you practiced reminding yourself that taking care of yourself does not diminish your ability to care for Jersey? It might help to write down some affirmations or reminders about why your well-being matters. How does that sound?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 10,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3576060000559664,
+      "storage_time_ms": 0.007466000170097686
+    },
+    {
+      "turn": 12,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s completely normal to feel that way, especially when you\u2019re used to prioritizing others. If you try writing affirmations, how might you remind yourself to revisit them when those moments of doubt arise? What\u2019s one small thing you could do to make those affirmations more tangible or relatable in your daily life?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 11,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2527849994512508,
+      "storage_time_ms": 0.009110000064538326
+    },
+    {
+      "turn": 13,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "That\u2019s a solid idea! Having them visible on your fridge or phone can definitely help. When those stressful moments hit, what are some strategies you could use to prompt yourself to pause and check in with those affirmations? Maybe even setting a specific reminder on your phone could help you take that moment for yourself. How does that sound?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 12,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.232206999702612,
+      "storage_time_ms": 0.008103999789454974
+    },
+    {
+      "turn": 14,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Combining it with something you already do sounds like a smart approach! If you set a reminder for when you take breaks, that could create a natural moment to pause and reflect. What do you think might help you actually take that moment to engage with the reminder instead of brushing it aside? Could there be a small action you take during that break to reinforce your commitment to self-care?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 13,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4397490003830171,
+      "storage_time_ms": 0.0072830007411539555
+    },
+    {
+      "turn": 15,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Creating a little ritual sounds like a great way to make it feel more intentional! It\u2019s understandable to feel skeptical, especially with everything on your plate. What if you started small, maybe just committing to this ritual once a day at first? You could even track your progress in a simple way, like marking it on a calendar. How would that feel to you?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 14,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2230239999553305,
+      "storage_time_ms": 0.007284999810508452
+    },
+    {
+      "turn": 16,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s great that you\u2019re open to starting small! Remember, missing a day doesn\u2019t mean you\u2019ve failed; it\u2019s part of the process. What if you viewed each day as a new opportunity rather than a strict accountability measure? You could focus on celebrating the days you do engage in your ritual instead of stressing about the days you don\u2019t. How does that shift in mindset feel to you?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 15,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.314823000029719,
+      "storage_time_ms": 0.007788999937474728
+    },
+    {
+      "turn": 17,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s understandable to feel that tug-of-war between wanting to be gentle with yourself and those critical thoughts. What if, on the days you miss your ritual, you allowed yourself to acknowledge that feeling but then gently redirected your focus back to something positive? Maybe you could jot down one thing you did well that day, no matter how small. How does that approach resonate with you?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 16,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3510989992937539,
+      "storage_time_ms": 0.007048999577818904
+    },
+    {
+      "turn": 18,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s completely normal to feel frustrated in this process. Having a safety net like focusing on a small win is a great strategy, but remembering to do it can be tough. What if you set a gentle reminder for that too, maybe something simple like a sticky note in a spot you look at often? Even just a word or phrase to prompt that positive thought could help. How do you feel about that idea?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 17,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4058100005058805,
+      "storage_time_ms": 0.007414000720018521
+    },
+    {
+      "turn": 19,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s really insightful that you recognize those ingrained habits and how they make change feel challenging. It\u2019s okay to have those worries! What if you approached it like an experiment? You could try the sticky note for a week and see how it feels, without the pressure of making it perfect. If it doesn't work, you can always adjust or try something else. What are your thoughts on giving it a short trial to see how it goes?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 18,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 5,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.342069000202173,
+      "storage_time_ms": 0.00871700012794463
+    },
+    {
+      "turn": 20,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Treating it like an experiment can definitely help lighten the load! To tackle the worry about remembering, what if you linked your sticky note to an existing routine? For instance, you could place it next to your coffee maker or on your computer screen, wherever you already spend time each day. How does that sound? It might help create a natural reminder in your busy schedule.",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 19,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Open-ended Questions",
+          "mode": "MI",
+          "trajectory_before": "declining",
+          "readiness_before": 5.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Medium",
+          "engagement_before": "Medium",
+          "delta_readiness": 2.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 0.0,
+          "delta_engagement": "medium\u2192high",
+          "flashbulb_score": 0.52,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 19
+        }
+      ],
+      "retrieval_time_ms": 1.4110689999142778,
+      "storage_time_ms": 2.1844770008101477
+    },
+    {
+      "turn": 21,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Linking it to your coffee routine is a smart move! To address that worry about overlooking it, what if you made your sticky note a bit more eye-catching? Maybe use bright colors or even add a little doodle or motivational phrase that speaks to you. This way, it stands out more, and you might find it easier to pause and engage with it. How does that idea resonate with you?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 20,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1512560004121042,
+      "storage_time_ms": 0.007005999577813782
+    },
+    {
+      "turn": 22,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "That makes total sense; it can be really tough to carve out that moment for yourself with everything going on. What if you built in a tiny pause as part of your coffee routine? For instance, before you grab your coffee, you could take a deep breath and intentionally check the sticky note. Making it a small part of that moment could help reinforce the habit. How do you feel about trying to incorporate that pause?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 21,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6593359996477375,
+      "storage_time_ms": 0.007684000593144447
+    },
+    {
+      "turn": 23,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s completely understandable to feel that way, especially with a busy schedule. What if you started with just one day this week where you consciously take that pause before your coffee? Just focusing on that one moment might feel less overwhelming. You could think of it as a mini experiment, where even if you don\u2019t get it perfect, you\u2019re still trying something new. How does that sound to you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 22,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2923470003443072,
+      "storage_time_ms": 0.008007000360521488
+    },
+    {
+      "turn": 24,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s completely natural to feel hesitant, especially when you\u2019re balancing so much. What if you set a little reminder on your phone or an alarm to help you remember that one day? It could be a gentle nudge to take that moment for yourself. Even if it doesn\u2019t go perfectly, it\u2019s still a step toward creating that pause. How does that idea sit with you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 23,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4541900000040187,
+      "storage_time_ms": 0.008327000614372082
+    },
+    {
+      "turn": 25,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It sounds like you're really weighing the pros and cons, which is totally normal. What if you viewed the reminder more as a support rather than a necessity? You could think of it as a friendly nudge that\u2019s there if you need it, but it\u2019s okay if you miss it sometimes. Maybe you could even plan to check in with yourself afterward to see how it felt, no pressure. How does that approach feel to you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 24,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4577969996025786,
+      "storage_time_ms": 0.00777100012783194
+    },
+    {
+      "turn": 26,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Absolutely, that need for perfection can be really tough to let go of. What if you reframed the idea of \u201cmissing it\u201d as an opportunity to learn about yourself instead of a failure? Each time you check in, whether you paused or not, you could reflect on what worked and what didn\u2019t. This way, it\u2019s more about the journey than hitting a perfect mark. How does that perspective resonate with you?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 25,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1561179999262094,
+      "storage_time_ms": 0.007396000000881031
+    },
+    {
+      "turn": 27,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "That voice can be really persistent, can\u2019t it? It\u2019s great that you\u2019re recognizing it, though\u2014that\u2019s a big step! Reminding yourself that progress isn\u2019t about perfection is key. Maybe you could create a little mantra or phrase that embodies that kinder approach, something like \u201cI\u2019m doing my best, and that\u2019s enough.\u201d Having something to refer back to might help quiet that inner critic a bit. What do you think?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 26,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2909179995403974,
+      "storage_time_ms": 0.007364999873971101
+    },
+    {
+      "turn": 28,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Trying it out sounds like a perfect plan! What if you started by associating your mantra with something you already do regularly, like brushing your teeth or making your morning coffee? That way, it could become a natural part of your routine. Even if it doesn\u2019t stick every time, you\u2019d be experimenting, which is a great mindset to have. How does that approach feel to you?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 27,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4257189995987574,
+      "storage_time_ms": 0.010384999768575653
+    },
+    {
+      "turn": 29,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "It\u2019s understandable to have those doubts, especially when trying something new. What if you approached it as a gentle experiment rather than a commitment? Even if you miss a day or don\u2019t feel like it, that\u2019s all part of the process. You could take note of how it feels when you do remember versus when you don\u2019t. It\u2019s not about getting it right every time, but about exploring what works for you. How does that mindset sound?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 28,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5667010002289317,
+      "storage_time_ms": 0.007423000170092564
+    },
+    {
+      "turn": 30,
+      "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+      "therapist_message": "Absolutely, keeping it light and experimental is key! It\u2019s all about progress, not perfection. If you do miss a day, try to see it as just one moment in your journey instead of a failure. Each time you try, you\u2019re learning something new about what works for you. Remember, even small steps count. Just keep being open to the process, and be gentle with yourself along the way. You've got this!",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 29,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "delta_readiness": 2.0,
+            "flashbulb_score": 0.52,
+            "pool": "good",
+            "turn": 19
+          },
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 3.0,
+            "flashbulb_score": 0.58,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.371225000184495,
+      "storage_time_ms": 0.007314999493246432
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hello! I\u2019m really glad you\u2019re here today. How are you feeling as we begin our session?",
+      "client": "I don\u2019t know. It just feels like another day, you know? I had that chat with Jersey, and it was just awkward. I mean, I was busy dealing with my own stuff, and I couldn\u2019t really focus on her. It\u2019s whatever, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 1,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Hello! I\u2019m really glad you\u2019re here today. How are you feeling as we begin our session?",
+        "therapy_mode": "Greeting",
+        "technique": "Greeting",
+        "completed_turn": 0,
+        "patient_state": {},
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.0,
+        "storage_time_ms": 0.0
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re feeling a bit disconnected from everything right now. If you could change something about how you feel or interact with others, what would that look like for you?",
+      "client": "I don\u2019t really want to get into all that. I mean, I just have my own things going on, and I don\u2019t think it\u2019s that deep. I guess I just wish people understood that sometimes I\u2019m not in a place to help them. Honestly, it\u2019s just how things are right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 2,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It sounds like you\u2019re feeling a bit disconnected from everything right now. If you could change something about how you feel or interact with others, what would that look like for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 1,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.061326000126428,
+        "storage_time_ms": 0.006694000148854684
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like you\u2019re really feeling the weight of your own struggles and that it\u2019s tough to be there for others right now. What does it mean for you to be in this place where helping others feels out of reach?",
+      "client": "I don\u2019t see how that connects. I mean, I just have a lot on my plate, and it\u2019s not like I'm doing it on purpose. I get that Jersey needs support, but I can't always be there. It\u2019s just the way things are, and I don\u2019t think it\u2019s worth stressing over.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 3,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It seems like you\u2019re really feeling the weight of your own struggles and that it\u2019s tough to be there for others right now. What does it mean for you to be in this place where helping others feels out of reach?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 2,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2731470005746814,
+        "storage_time_ms": 0.007263000043167267
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "I hear you; it sounds like you\u2019re feeling overwhelmed with your own responsibilities. What do you think would help you manage that feeling of having so much on your plate?",
+      "client": "I don\u2019t know. I guess I just try to keep busy and deal with one thing at a time. I mean, it's easier to just focus on what I can handle right now. If I start thinking about everything at once, it just gets too much. So, I just move on and deal with it as it comes, you know?",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "### Rating: 2\n\n### Key Examples:\n- **Example 1:** \u201cI guess I just wish people understood that sometimes I\u2019m not in a place to help them. Honestly, it\u2019s just how things are right now.\u201d  \n- **Example 2:** \u201cI mean, it's easier to just focus on what I can handle right now. If I start thinking about everything at once, it just gets too much.\u201d\n\n### Progression:\nThe client\u2019s most recent exchanges reveal a mix of factual and emotional responses. While they demonstrate some recognition of their struggles, their emotional expression remains somewhat guarded and underdeveloped. The client acknowledges their feelings of being overwhelmed and communicates a desire for understanding, yet there is a reluctance to delve deeper into their emotional state. This indicates a shift from an earlier defensive stance to a more open acknowledgment of their feelings; however, it does not reach the level of significant emotional depth or vulnerability.\n\n### Turning Point:\nThe client\u2019s emotional depth appeared to shift during their expression of feeling overwhelmed by their responsibilities (\u201cI mean, it's easier to just focus on what I can handle right now\u201d). This acknowledgment suggests a growing self-awareness about their situation but reflects a hesitancy to explore the deeper emotional implications. While there is some progression in their openness, it still falls short of the deeper engagement required for a higher rating. \n\nOverall, the client is in the \"WARMING UP\" phase, showing basic emotional vocabulary and initial signs of trust but lacking deeper emotional exploration and consistent engagement with the therapeutic process.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 4,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "I hear you; it sounds like you\u2019re feeling overwhelmed with your own responsibilities. What do you think would help you manage that feeling of having so much on your plate?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 3,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.9359809994057287,
+        "storage_time_ms": 0.007000999175943434
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "That sounds like a practical way to cope with everything. Focusing on one thing at a time can definitely help keep things manageable. If you could envision a time when you felt more balanced or less overwhelmed, what might that look like for you?",
+      "client": "I don\u2019t know if I can really picture that. I mean, I guess it would be nice to feel like I have some space for myself, but it feels so far away right now. Maybe just having a bit of time where I don\u2019t feel pulled in so many directions? I can't really remember the last time I felt that way, to be honest. I kind of miss it, but then again, I\u2019m not sure if it's even possible these days.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 5,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "That sounds like a practical way to cope with everything. Focusing on one thing at a time can definitely help keep things manageable. If you could envision a time when you felt more balanced or less overwhelmed, what might that look like for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 4,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 3.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium",
+            "flashbulb_score": 0.58,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 4
+          }
+        ],
+        "retrieval_time_ms": 1.1055239992856514,
+        "storage_time_ms": 2.083646999381017
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "Missing that sense of space and balance is completely understandable. What do you think would need to change, even in small ways, to create a little more space for yourself?",
+      "client": "I guess maybe it would help if I could set some boundaries, but that feels hard to do. I mean, I don't want to let anyone down, especially Jersey. It\u2019s like I\u2019m torn between wanting to take care of myself and feeling like I have to be there for others. I don\u2019t know if I\u2019m ready to actually change anything right now, but it would be nice to think about how to carve out just a little time for myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 6,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Missing that sense of space and balance is completely understandable. What do you think would need to change, even in small ways, to create a little more space for yourself?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 5,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4377079996847897,
+        "storage_time_ms": 0.00735200046619866
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "It\u2019s a tough spot to be in, feeling that pull between self-care and responsibility to others. What if setting a boundary didn\u2019t mean letting Jersey down, but rather allowing you to show up for her even better when you do? How might that shift your perspective on taking that step?",
+      "client": "I can kind of see that, but I don\u2019t know if it feels that straightforward. It's just hard for me to imagine how I could take time for myself without feeling guilty about it. I mean, I want to be there for Jersey, especially after everything she\u2019s been through. Maybe if I thought of it like a way to be more supportive in the long run, it would help. But I still feel stuck, like I shouldn't think about what I need.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 7,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s a tough spot to be in, feeling that pull between self-care and responsibility to others. What if setting a boundary didn\u2019t mean letting Jersey down, but rather allowing you to show up for her even better when you do? How might that shift your perspective on taking that step?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 6,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2127939999118098,
+        "storage_time_ms": 0.008647999493405223
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It makes sense to feel stuck when you\u2019re balancing your needs with wanting to support Jersey. If you were to reframe it as a way to be more present for her in the long run, what kind of small step could you take that feels manageable for you?",
+      "client": "I don\u2019t know, maybe if I just set aside one evening each week for myself? It feels small, but at least it\u2019s a start, right? I guess I could use that time to recharge, but then I'd worry about not being available for Jersey or other obligations. I mean, part of me thinks that would help, but another part feels like it\u2019s not enough. It\u2019s just so hard to balance everything, and I can\u2019t shake the feeling that I should be doing more.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I don\u2019t know if I\u2019m ready to actually change anything right now, but it would be nice to think about how to carve out just a little time for myself.\"\n2. **Current Openness:** \"I don\u2019t know, maybe if I just set aside one evening each week for myself? It feels small, but at least it\u2019s a start, right?\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a mix of emotional expression and self-reflection. They articulate feelings of being torn between self-care and responsibilities towards Jersey, demonstrating a growing awareness of their emotional needs. This marks a significant change from earlier sessions, where the client was more hesitant and guarded in sharing their feelings, primarily offering factual responses. The current exchanges indicate a deeper engagement with their emotions, albeit still grappling with guilt and uncertainty regarding boundary-setting.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they articulated, \"It\u2019s just hard for me to imagine how I could take time for myself without feeling guilty about it.\" This acknowledgment of their feelings regarding guilt and obligation signals a pivotal moment where they began to confront the complexities of their emotional landscape. This level of introspection showcases their gradual comfort in discussing personal challenges, though they continue to navigate feelings of being stuck.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 8,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It makes sense to feel stuck when you\u2019re balancing your needs with wanting to support Jersey. If you were to reframe it as a way to be more present for her in the long run, what kind of small step could you take that feels manageable for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 7,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2704199998552212,
+        "storage_time_ms": 0.007141999958548695
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Setting aside one evening a week sounds like a great start! It\u2019s totally normal to feel like it\u2019s not enough, but remember that even small steps can make a big difference over time. How do you think having that dedicated time for yourself could impact your ability to support Jersey and manage your other obligations?",
+      "client": "I guess having that time to myself might help me recharge, which could make me more patient and present when I do spend time with Jersey. I mean, if I'm not running on empty, maybe I wouldn\u2019t feel so overwhelmed and could actually enjoy being there for her instead of just feeling obligated. But I still worry that even just one evening might not be enough, like what if something comes up and I have to cancel? It\u2019s just hard not to feel guilty about prioritizing my own needs over hers.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 9,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Setting aside one evening a week sounds like a great start! It\u2019s totally normal to feel like it\u2019s not enough, but remember that even small steps can make a big difference over time. How do you think having that dedicated time for yourself could impact your ability to support Jersey and manage your other obligations?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 8,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.0469830003785319,
+        "storage_time_ms": 0.0076559999797609635
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It sounds like you really understand the potential benefits of that time for yourself, which is a great insight! If something does come up and you have to cancel, how could you view that situation differently? What if you considered your need for self-care as just as important as any other obligation?",
+      "client": "I don\u2019t know, maybe I could think of it like, you know, how I always prioritize being there for others. If I view my self-care as equally important, maybe I wouldn\u2019t feel so guilty if I had to cancel. But then I also worry that it would be hard to actually convince myself that my needs matter just as much as Jersey's. I mean, part of me thinks it makes sense, but another part still feels like I should always be available for her, especially since she\u2019s going through so much. It\u2019s just a lot to juggle, and I feel like I\u2019m always second-guessing myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 10,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It sounds like you really understand the potential benefits of that time for yourself, which is a great insight! If something does come up and you have to cancel, how could you view that situation differently? What if you considered your need for self-care as just as important as any other obligation?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 9,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4614779993280536,
+        "storage_time_ms": 0.00733299930288922
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "That\u2019s a really insightful way to look at it! It\u2019s definitely a balancing act, but recognizing that your needs are just as important is a big step. What if you practiced reminding yourself that taking care of yourself does not diminish your ability to care for Jersey? It might help to write down some affirmations or reminders about why your well-being matters. How does that sound?",
+      "client": "I can see how writing down affirmations might help, but I just wonder if it would actually stick with me. I mean, sometimes I feel like I can understand it in theory, but then I don\u2019t really believe it when the moment comes. It feels like I\u2019m always caught up in my worries about others. I guess I could try it and see if it makes a difference, but I don\u2019t know if it\u2019ll be enough to change how I feel in those moments. It\u2019s just so hard to shift that mindset.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 11,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "That\u2019s a really insightful way to look at it! It\u2019s definitely a balancing act, but recognizing that your needs are just as important is a big step. What if you practiced reminding yourself that taking care of yourself does not diminish your ability to care for Jersey? It might help to write down some affirmations or reminders about why your well-being matters. How does that sound?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 10,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3576060000559664,
+        "storage_time_ms": 0.007466000170097686
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely normal to feel that way, especially when you\u2019re used to prioritizing others. If you try writing affirmations, how might you remind yourself to revisit them when those moments of doubt arise? What\u2019s one small thing you could do to make those affirmations more tangible or relatable in your daily life?",
+      "client": "I guess I could try keeping them somewhere I see them often, like on my fridge or maybe even on my phone. That way, I\u2019d have a little reminder right in front of me when I start to feel overwhelmed. But, I don\u2019t know, part of me worries that I\u2019ll just ignore them or forget about them when I\u2019m in those moments, you know? It's like I understand it in theory, but when I'm feeling stressed, it\u2019s hard to remember to prioritize myself.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I don\u2019t know, maybe I could think of it like, you know, how I always prioritize being there for others. If I view my self-care as equally important, maybe I wouldn\u2019t feel so guilty if I had to cancel.\"\n2. \"I guess I could try keeping them somewhere I see them often, like on my fridge or maybe even on my phone. That way, I\u2019d have a little reminder right in front of me when I start to feel overwhelmed.\"\n\n**Progression:**\nThe client demonstrates a clear progression in emotional expression and self-reflection in their most recent interactions. They articulate their struggles with self-care in relation to their obligations to others, revealing a deeper level of emotional engagement. The client acknowledges the conflict between understanding the theory of self-care and their feelings of guilt, indicating a growing comfort in expressing emotions and sharing personal challenges. This marks a significant change from earlier interactions, where emotional vocabulary was more limited and responses were more guarded.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they expressed their hesitation about affirmations. This moment highlighted an internal struggle between their theoretical understanding of self-care and the practical application of that understanding in stressful moments. This shift represents a notable increase in vulnerability, as they openly discuss their fears about prioritizing their needs alongside those of others, indicating a willingness to explore their emotions further.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 12,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s completely normal to feel that way, especially when you\u2019re used to prioritizing others. If you try writing affirmations, how might you remind yourself to revisit them when those moments of doubt arise? What\u2019s one small thing you could do to make those affirmations more tangible or relatable in your daily life?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 11,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2527849994512508,
+        "storage_time_ms": 0.009110000064538326
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That\u2019s a solid idea! Having them visible on your fridge or phone can definitely help. When those stressful moments hit, what are some strategies you could use to prompt yourself to pause and check in with those affirmations? Maybe even setting a specific reminder on your phone could help you take that moment for yourself. How does that sound?",
+      "client": "I guess setting a reminder on my phone could be helpful, especially if it goes off at a time when I usually feel overwhelmed. But then I wonder if I\u2019d actually take a moment to pause and read it when it goes off, you know? It\u2019s easy to just brush things aside when I\u2019m feeling stressed. Maybe I could even combine it with something I already do, like when I take breaks throughout the day. It just feels like it might be a challenge to actually put it into practice.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 13,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "That\u2019s a solid idea! Having them visible on your fridge or phone can definitely help. When those stressful moments hit, what are some strategies you could use to prompt yourself to pause and check in with those affirmations? Maybe even setting a specific reminder on your phone could help you take that moment for yourself. How does that sound?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 12,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.232206999702612,
+        "storage_time_ms": 0.008103999789454974
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Combining it with something you already do sounds like a smart approach! If you set a reminder for when you take breaks, that could create a natural moment to pause and reflect. What do you think might help you actually take that moment to engage with the reminder instead of brushing it aside? Could there be a small action you take during that break to reinforce your commitment to self-care?",
+      "client": "I think maybe if I had a little ritual or something during my breaks, it could help. Like, taking a deep breath or stretching before I read the affirmation might make it feel more intentional. But honestly, I\u2019m not sure if I\u2019d follow through with it every time. Part of me feels like I might just get caught up in my thoughts and forget to do it. It\u2019s like I want to make this work, but I\u2019m also a little skeptical about whether I can actually stick with it, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 14,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Combining it with something you already do sounds like a smart approach! If you set a reminder for when you take breaks, that could create a natural moment to pause and reflect. What do you think might help you actually take that moment to engage with the reminder instead of brushing it aside? Could there be a small action you take during that break to reinforce your commitment to self-care?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 13,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4397490003830171,
+        "storage_time_ms": 0.0072830007411539555
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "Creating a little ritual sounds like a great way to make it feel more intentional! It\u2019s understandable to feel skeptical, especially with everything on your plate. What if you started small, maybe just committing to this ritual once a day at first? You could even track your progress in a simple way, like marking it on a calendar. How would that feel to you?",
+      "client": "I guess starting small makes sense. It feels a bit less overwhelming that way, maybe just doing it once a day could be more doable. But then I think about how busy my days can get, and I wonder if I\u2019d still remember to do it. I mean, tracking it on a calendar might help keep me accountable, but I don\u2019t want to put too much pressure on myself either. It\u2019s tricky because I want to make progress, but I also don\u2019t want to feel like I\u2019m failing if I miss a day.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 15,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Creating a little ritual sounds like a great way to make it feel more intentional! It\u2019s understandable to feel skeptical, especially with everything on your plate. What if you started small, maybe just committing to this ritual once a day at first? You could even track your progress in a simple way, like marking it on a calendar. How would that feel to you?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 14,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2230239999553305,
+        "storage_time_ms": 0.007284999810508452
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re open to starting small! Remember, missing a day doesn\u2019t mean you\u2019ve failed; it\u2019s part of the process. What if you viewed each day as a new opportunity rather than a strict accountability measure? You could focus on celebrating the days you do engage in your ritual instead of stressing about the days you don\u2019t. How does that shift in mindset feel to you?",
+      "client": "I can kind of see how that shift could help. It might take some pressure off if I look at it that way. I guess celebrating the days I do it feels more positive, but part of me worries I\u2019d still fixate on the days I miss. It\u2019s like, I want to be gentle with myself, but then I think about all the things I should be doing. I don\u2019t know if I\u2019ll be able to stop myself from being critical, you know?",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I think maybe if I had a little ritual or something during my breaks, it could help. Like, taking a deep breath or stretching before I read the affirmation might make it feel more intentional. But honestly, I\u2019m not sure if I\u2019d follow through with it every time.\"\n2. \"I can kind of see how that shift could help. It might take some pressure off if I look at it that way. I guess celebrating the days I do it feels more positive, but part of me worries I\u2019d still fixate on the days I miss.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of emotional expression and self-reflection, indicating a significant change from earlier exchanges where emotional vocabulary was limited and responses were more factual. The client is now exploring the idea of self-care rituals and expressing both hope and skepticism about their ability to follow through. This indicates a deeper engagement with the therapeutic process and a willingness to reflect on their feelings and behaviors.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began discussing the potential benefit of creating a ritual for self-care. Initially, they presented a defensive stance about their capacity to maintain such practices. However, they transitioned into acknowledging the importance of kindness toward themselves and the challenges of balancing self-expectations. This moment illustrates a burgeoning awareness of inner conflicts, reflecting progress in emotional openness and self-reflection.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 16,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s great that you\u2019re open to starting small! Remember, missing a day doesn\u2019t mean you\u2019ve failed; it\u2019s part of the process. What if you viewed each day as a new opportunity rather than a strict accountability measure? You could focus on celebrating the days you do engage in your ritual instead of stressing about the days you don\u2019t. How does that shift in mindset feel to you?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 15,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.314823000029719,
+        "storage_time_ms": 0.007788999937474728
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel that tug-of-war between wanting to be gentle with yourself and those critical thoughts. What if, on the days you miss your ritual, you allowed yourself to acknowledge that feeling but then gently redirected your focus back to something positive? Maybe you could jot down one thing you did well that day, no matter how small. How does that approach resonate with you?",
+      "client": "I guess that could be a good idea, focusing on something positive, like a small win. It feels a bit like a safety net, you know? But I worry I might not remember to do that either. I mean, I can see it helping, but part of me thinks I might just get caught up in those critical thoughts instead. It\u2019s frustrating because I want to be kinder to myself, but it feels like such a challenge.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 17,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s understandable to feel that tug-of-war between wanting to be gentle with yourself and those critical thoughts. What if, on the days you miss your ritual, you allowed yourself to acknowledge that feeling but then gently redirected your focus back to something positive? Maybe you could jot down one thing you did well that day, no matter how small. How does that approach resonate with you?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 16,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3510989992937539,
+        "storage_time_ms": 0.007048999577818904
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely normal to feel frustrated in this process. Having a safety net like focusing on a small win is a great strategy, but remembering to do it can be tough. What if you set a gentle reminder for that too, maybe something simple like a sticky note in a spot you look at often? Even just a word or phrase to prompt that positive thought could help. How do you feel about that idea?",
+      "client": "I mean, that could work, I guess. A sticky note or something might catch my attention when I need it. But then I think, what if I just ignore it or don\u2019t see it? It feels like it could help, but part of me is worried I won\u2019t follow through. It\u2019s just hard to change those ingrained habits, you know? Sometimes I think I\u2019m my own worst enemy when it comes to being kind to myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 18,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s completely normal to feel frustrated in this process. Having a safety net like focusing on a small win is a great strategy, but remembering to do it can be tough. What if you set a gentle reminder for that too, maybe something simple like a sticky note in a spot you look at often? Even just a word or phrase to prompt that positive thought could help. How do you feel about that idea?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 17,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4058100005058805,
+        "storage_time_ms": 0.007414000720018521
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "It\u2019s really insightful that you recognize those ingrained habits and how they make change feel challenging. It\u2019s okay to have those worries! What if you approached it like an experiment? You could try the sticky note for a week and see how it feels, without the pressure of making it perfect. If it doesn't work, you can always adjust or try something else. What are your thoughts on giving it a short trial to see how it goes?",
+      "client": "I can kind of see how treating it like an experiment might take some of the pressure off. It sounds less daunting when I think of it that way, like I\u2019m just trying something out instead of making a permanent change. I guess I could give it a week and see how it feels. But part of me is still worried about whether I\u2019ll actually remember to do it or if it\u2019ll just slip my mind, you know? It feels like there's so much I\u2019m trying to juggle already.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 19,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s really insightful that you recognize those ingrained habits and how they make change feel challenging. It\u2019s okay to have those worries! What if you approached it like an experiment? You could try the sticky note for a week and see how it feels, without the pressure of making it perfect. If it doesn't work, you can always adjust or try something else. What are your thoughts on giving it a short trial to see how it goes?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 18,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 5,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.342069000202173,
+        "storage_time_ms": 0.00871700012794463
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Treating it like an experiment can definitely help lighten the load! To tackle the worry about remembering, what if you linked your sticky note to an existing routine? For instance, you could place it next to your coffee maker or on your computer screen, wherever you already spend time each day. How does that sound? It might help create a natural reminder in your busy schedule.",
+      "client": "That does sound like a good idea, linking it to something I already do every day. I mean, it could make it easier to remember. I guess putting it near my coffee maker might be a solid choice since I go there every morning. But I still worry that I might just overlook it in the rush of things, you know? It feels like there's always so much on my mind.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \u201cBut then I think, what if I just ignore it or don\u2019t see it? It feels like it could help, but part of me is worried I won\u2019t follow through. It\u2019s just hard to change those ingrained habits, you know? Sometimes I think I\u2019m my own worst enemy when it comes to being kind to myself.\u201d\n- \u201cI can kind of see how treating it like an experiment might take some of the pressure off. It sounds less daunting when I think of it that way, like I\u2019m just trying something out instead of making a permanent change. I guess I could give it a week and see how it feels. But part of me is still worried about whether I\u2019ll actually remember to do it or if it\u2019ll just slip my mind, you know?\u201d\n\n**Progression:** The client's most recent interactions reveal a notable increase in emotional expression, especially in their consideration of self-doubt and habitual challenges. They articulate their worries about following through on new strategies, showing a deeper level of self-reflection compared to earlier exchanges. Initially, the client appeared more defensive and hesitant, focusing on factual responses and expressing concern about changing ingrained habits with minimal emotional engagement. Now, they are starting to embrace the idea of experimentation, indicating a shift towards a willingness to engage more openly in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing feelings of being their \u201cown worst enemy\u201d regarding self-kindness. This moment marked a transition where they moved from general frustrations to a more vulnerable acknowledgment of their internal struggles, leading to a greater willingness to explore potential solutions rather than simply dismissing them. Their current state reflects a blend of anxiety about change and a growing openness to experimentation, indicating",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 20,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Treating it like an experiment can definitely help lighten the load! To tackle the worry about remembering, what if you linked your sticky note to an existing routine? For instance, you could place it next to your coffee maker or on your computer screen, wherever you already spend time each day. How does that sound? It might help create a natural reminder in your busy schedule.",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 19,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "declining",
+            "readiness_before": 5.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Medium",
+            "engagement_before": "Medium",
+            "delta_readiness": 2.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 0.0,
+            "delta_engagement": "medium\u2192high",
+            "flashbulb_score": 0.52,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 19
+          }
+        ],
+        "retrieval_time_ms": 1.4110689999142778,
+        "storage_time_ms": 2.1844770008101477
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Linking it to your coffee routine is a smart move! To address that worry about overlooking it, what if you made your sticky note a bit more eye-catching? Maybe use bright colors or even add a little doodle or motivational phrase that speaks to you. This way, it stands out more, and you might find it easier to pause and engage with it. How does that idea resonate with you?",
+      "client": "I think making it more eye-catching could definitely help. I mean, if it stands out more, maybe I\u2019d actually take a moment to look at it instead of just rushing past. But part of me worries that even with bright colors, I might still forget to check it. I don\u2019t know, it feels like I have so many things pulling my attention in different directions. It\u2019s hard to trust that I\u2019ll remember to pause for something like that, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 21,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Linking it to your coffee routine is a smart move! To address that worry about overlooking it, what if you made your sticky note a bit more eye-catching? Maybe use bright colors or even add a little doodle or motivational phrase that speaks to you. This way, it stands out more, and you might find it easier to pause and engage with it. How does that idea resonate with you?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 20,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1512560004121042,
+        "storage_time_ms": 0.007005999577813782
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "That makes total sense; it can be really tough to carve out that moment for yourself with everything going on. What if you built in a tiny pause as part of your coffee routine? For instance, before you grab your coffee, you could take a deep breath and intentionally check the sticky note. Making it a small part of that moment could help reinforce the habit. How do you feel about trying to incorporate that pause?",
+      "client": "I can see how building in a pause could be really helpful. I mean, it\u2019s just a tiny moment, but it might make a difference in remembering to check it. But then again, part of me wonders if I\u2019ll actually remember to take that pause with everything else going on. It feels like I\u2019m always in a rush, you know? I guess it\u2019s just hard for me to imagine making that little change when I have so much on my plate.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 22,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "That makes total sense; it can be really tough to carve out that moment for yourself with everything going on. What if you built in a tiny pause as part of your coffee routine? For instance, before you grab your coffee, you could take a deep breath and intentionally check the sticky note. Making it a small part of that moment could help reinforce the habit. How do you feel about trying to incorporate that pause?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 21,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6593359996477375,
+        "storage_time_ms": 0.007684000593144447
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel that way, especially with a busy schedule. What if you started with just one day this week where you consciously take that pause before your coffee? Just focusing on that one moment might feel less overwhelming. You could think of it as a mini experiment, where even if you don\u2019t get it perfect, you\u2019re still trying something new. How does that sound to you?",
+      "client": "I guess starting with just one day sounds more manageable. I mean, maybe if I just focus on that one little moment, it won\u2019t feel so overwhelming. But then again, what if I forget or get caught up in everything else? It just feels like there\u2019s always so much happening, and I don\u2019t want to set myself up for disappointment, you know? I can see the value in trying it, but I\u2019m also a bit hesitant.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 23,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s completely understandable to feel that way, especially with a busy schedule. What if you started with just one day this week where you consciously take that pause before your coffee? Just focusing on that one moment might feel less overwhelming. You could think of it as a mini experiment, where even if you don\u2019t get it perfect, you\u2019re still trying something new. How does that sound to you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 22,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2923470003443072,
+        "storage_time_ms": 0.008007000360521488
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely natural to feel hesitant, especially when you\u2019re balancing so much. What if you set a little reminder on your phone or an alarm to help you remember that one day? It could be a gentle nudge to take that moment for yourself. Even if it doesn\u2019t go perfectly, it\u2019s still a step toward creating that pause. How does that idea sit with you?",
+      "client": "I can kind of see how a reminder could help me actually remember to take that pause. I mean, it\u2019s just a small nudge, right? But then part of me worries about relying on my phone too much or feeling bad if I miss it. It\u2019s like, I want to take that moment for myself, but I also don\u2019t want to stress about it. I guess I could give it a try, but I\u2019m still a bit unsure about how it\u2019ll work out.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **\u201cBut then again, part of me wonders if I\u2019ll actually remember to take that pause with everything else going on. It feels like I\u2019m always in a rush, you know?\u201d** - This quote illustrates the client\u2019s emotional state of feeling overwhelmed and their desire to make a change while recognizing the challenges they face.\n  \n2. **\u201cI mean, maybe if I just focus on that one little moment, it won\u2019t feel so overwhelming. But then again, what if I forget or get caught up in everything else?\u201d** - Here, the client shows a mix of openness about their struggles and a willingness to experiment with the therapist's suggestion.\n\n**Progression:** The client's recent interactions reveal a marked increase in emotional expression and self-reflection compared to earlier sessions. While they initially presented more factual and guarded responses, they are now actively engaging with the therapeutic process. The client shares their concerns about feeling overwhelmed and acknowledges the difficulty in making changes, indicating a deeper level of engagement. This emotional quality showcases a growing trust in the therapeutic relationship and highlights their willingness to explore their feelings more openly.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing their hesitations and anxieties about making changes during the latest exchanges. This emerged as they discussed their busy schedule and the fear of disappointment, demonstrating a vulnerability that signals a transition from initial hesitance toward a more engaged exploration of their feelings and thought processes.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 24,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s completely natural to feel hesitant, especially when you\u2019re balancing so much. What if you set a little reminder on your phone or an alarm to help you remember that one day? It could be a gentle nudge to take that moment for yourself. Even if it doesn\u2019t go perfectly, it\u2019s still a step toward creating that pause. How does that idea sit with you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 23,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4541900000040187,
+        "storage_time_ms": 0.008327000614372082
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "It sounds like you're really weighing the pros and cons, which is totally normal. What if you viewed the reminder more as a support rather than a necessity? You could think of it as a friendly nudge that\u2019s there if you need it, but it\u2019s okay if you miss it sometimes. Maybe you could even plan to check in with yourself afterward to see how it felt, no pressure. How does that approach feel to you?",
+      "client": "I can see how thinking of the reminder as more of a support could take some pressure off. I mean, it might make it feel less like a chore and more like a little gift to myself. But, at the same time, I still have this nagging feeling that I\u2019ll let myself down if I don\u2019t do it perfectly. I guess I could try to remind myself that it\u2019s okay to miss it, but it\u2019s just hard to shake that sense of needing to do everything right, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 25,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It sounds like you're really weighing the pros and cons, which is totally normal. What if you viewed the reminder more as a support rather than a necessity? You could think of it as a friendly nudge that\u2019s there if you need it, but it\u2019s okay if you miss it sometimes. Maybe you could even plan to check in with yourself afterward to see how it felt, no pressure. How does that approach feel to you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 24,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4577969996025786,
+        "storage_time_ms": 0.00777100012783194
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Absolutely, that need for perfection can be really tough to let go of. What if you reframed the idea of \u201cmissing it\u201d as an opportunity to learn about yourself instead of a failure? Each time you check in, whether you paused or not, you could reflect on what worked and what didn\u2019t. This way, it\u2019s more about the journey than hitting a perfect mark. How does that perspective resonate with you?",
+      "client": "I mean, that perspective does make sense in a way. It feels a bit more forgiving, like I could be kinder to myself about it. But there's still this voice in my head that says I should be doing better, you know? I guess I just have to remind myself that it's okay to take things as they come, even if it feels uncomfortable. It\u2019s hard to break that habit of thinking I need to get it all right.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 26,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Absolutely, that need for perfection can be really tough to let go of. What if you reframed the idea of \u201cmissing it\u201d as an opportunity to learn about yourself instead of a failure? Each time you check in, whether you paused or not, you could reflect on what worked and what didn\u2019t. This way, it\u2019s more about the journey than hitting a perfect mark. How does that perspective resonate with you?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 25,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1561179999262094,
+        "storage_time_ms": 0.007396000000881031
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "That voice can be really persistent, can\u2019t it? It\u2019s great that you\u2019re recognizing it, though\u2014that\u2019s a big step! Reminding yourself that progress isn\u2019t about perfection is key. Maybe you could create a little mantra or phrase that embodies that kinder approach, something like \u201cI\u2019m doing my best, and that\u2019s enough.\u201d Having something to refer back to might help quiet that inner critic a bit. What do you think?",
+      "client": "I can kind of see how a mantra might be helpful, like a little reminder to be more gentle with myself. But I also worry that it won\u2019t stick, you know? Part of me feels like I\u2019d forget to use it when I really need it. It\u2019s just so easy to fall back into that critical mindset, so I guess I\u2019m hesitant about how effective it would really be. Maybe I could try it out, though, and see what happens?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 27,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "That voice can be really persistent, can\u2019t it? It\u2019s great that you\u2019re recognizing it, though\u2014that\u2019s a big step! Reminding yourself that progress isn\u2019t about perfection is key. Maybe you could create a little mantra or phrase that embodies that kinder approach, something like \u201cI\u2019m doing my best, and that\u2019s enough.\u201d Having something to refer back to might help quiet that inner critic a bit. What do you think?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 26,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2909179995403974,
+        "storage_time_ms": 0.007364999873971101
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "Trying it out sounds like a perfect plan! What if you started by associating your mantra with something you already do regularly, like brushing your teeth or making your morning coffee? That way, it could become a natural part of your routine. Even if it doesn\u2019t stick every time, you\u2019d be experimenting, which is a great mindset to have. How does that approach feel to you?",
+      "client": "I guess that linking it to something I already do could make it easier to remember. It might help it feel more natural, like just another part of my day. But I still worry about being consistent with it. I mean, it sounds good in theory, but what if I forget or don\u2019t feel like it when I really need it? I know I should give it a try, but there\u2019s this little part of me that doubts it\u2019ll really make a difference.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 3,
+        "judge_response": "### Rating: 3 (ENGAGED EXPLORATION)\n\n### Key Examples:\n1. **Emotional State Expression:** \u201cBut there's still this voice in my head that says I should be doing better, you know? I guess I just have to remind myself that it's okay to take things as they come, even if it feels uncomfortable. It\u2019s hard to break that habit of thinking I need to get it all right.\u201d\n2. **Current Openness:** \u201cI can kind of see how a mantra might be helpful, like a little reminder to be more gentle with myself. But I also worry that it won\u2019t stick, you know? Part of me feels like I\u2019d forget to use it when I really need it.\u201d\n\n### Progression:\nThe client\u2019s recent interactions indicate a notable advancement in their emotional expression and self-reflection. Previously, they exhibited more hesitant and factual responses; however, they are now engaging in deeper emotional dialogues, revealing their inner conflicts and recognizing the difficulties they face in shifting their mindset from a perfectionist stance to a more forgiving one. They are articulating their worries and doubts regarding self-compassion, which illustrates a growing comfort in exploring their emotional landscape.\n\n### Turning Point:\nThe client\u2019s emotional depth began to shift at the moment they first acknowledged the persistent inner critic, stating, \u201cthere's still this voice in my head that says I should be doing better.\u201d This moment marked a significant transition, as it demonstrated their ability to identify and articulate their emotional struggles openly. This acknowledgment of the critical voice signifies a willingness to delve into self-reflection, which has contributed to their current level of engagement and exploration in therapy.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 28,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Trying it out sounds like a perfect plan! What if you started by associating your mantra with something you already do regularly, like brushing your teeth or making your morning coffee? That way, it could become a natural part of your routine. Even if it doesn\u2019t stick every time, you\u2019d be experimenting, which is a great mindset to have. How does that approach feel to you?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 27,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4257189995987574,
+        "storage_time_ms": 0.010384999768575653
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to have those doubts, especially when trying something new. What if you approached it as a gentle experiment rather than a commitment? Even if you miss a day or don\u2019t feel like it, that\u2019s all part of the process. You could take note of how it feels when you do remember versus when you don\u2019t. It\u2019s not about getting it right every time, but about exploring what works for you. How does that mindset sound?",
+      "client": "I think approaching it as a gentle experiment could take some pressure off. It feels less daunting that way, like I\u2019m just trying things out rather than setting myself up for a big commitment. I guess it could help me notice if there are times when it actually does help, even if I don\u2019t remember it every day. But there\u2019s still that part of me that worries about failing to stick with it and then feeling like I\u2019ve let myself down again. I don\u2019t want to make it bigger than it is, but I know I have to keep trying, right?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 29,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "It\u2019s understandable to have those doubts, especially when trying something new. What if you approached it as a gentle experiment rather than a commitment? Even if you miss a day or don\u2019t feel like it, that\u2019s all part of the process. You could take note of how it feels when you do remember versus when you don\u2019t. It\u2019s not about getting it right every time, but about exploring what works for you. How does that mindset sound?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 28,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5667010002289317,
+        "storage_time_ms": 0.007423000170092564
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Absolutely, keeping it light and experimental is key! It\u2019s all about progress, not perfection. If you do miss a day, try to see it as just one moment in your journey instead of a failure. Each time you try, you\u2019re learning something new about what works for you. Remember, even small steps count. Just keep being open to the process, and be gentle with yourself along the way. You've got this!",
+      "client": "I appreciate that perspective; it does help to think of it as just one moment rather than a failure. I mean, I guess I\u2019ve been so focused on getting it right that I\u2019ve lost sight of the idea that it\u2019s okay to not be perfect. But part of me still struggles with that, you know? I don\u2019t know if I can fully shake off that feeling of letting myself down, especially when I\u2019ve been trying to make changes. It\u2019s just hard to find that balance between being patient with myself and wanting to see progress.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 30,
+        "conversation_id": "1302fd46-4ac9-470d-aaa8-daa9349a7440",
+        "therapist_message": "Absolutely, keeping it light and experimental is key! It\u2019s all about progress, not perfection. If you do miss a day, try to see it as just one moment in your journey instead of a failure. Each time you try, you\u2019re learning something new about what works for you. Remember, even small steps count. Just keep being open to the process, and be gentle with yourself along the way. You've got this!",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 29,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "declining",
+              "readiness_before": 5.0,
+              "delta_readiness": 2.0,
+              "flashbulb_score": 0.52,
+              "pool": "good",
+              "turn": 19
+            },
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 3.0,
+              "flashbulb_score": 0.58,
+              "pool": "good",
+              "turn": 4
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.371225000184495,
+        "storage_time_ms": 0.007314999493246432
+      },
+      "strategy_used": null
+    }
+  ]
+}

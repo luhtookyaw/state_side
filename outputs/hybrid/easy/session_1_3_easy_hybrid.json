@@ -1,0 +1,647 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "1-3",
+  "patient_name": "Alex",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess I was annoyed, but that\u2019s it. It\u2019s just rain, you know? I wasn\u2019t going to let it ruin my day. I just went back inside and had a beer.\"\n2. Therapist: \"It can be tough when unexpected things, like the weather, disrupt our plans. How did you feel in that moment when the rain started?\" \n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of emotional expression and factual responses. They acknowledged feeling \"annoyed\" about the rain, which reflects a basic level of emotional awareness. However, they also downplayed their feelings by saying \"that\u2019s it,\" indicating a hesitation to explore deeper emotional layers. This marks a significant change from earlier exchanges where the emotional vocabulary was even more limited, and the client was more defensive in their responses.\n\n**Turning Point:** The client's emotional depth shifted notably when they engaged with the therapist's question about their feelings during the rain incident. This moment was essential as it marked a willingness to reveal personal frustration, albeit in a limited capacity, showcasing a growing comfort in the therapeutic setting. While they did not delve deeply into their emotions, this exchange suggests a budding ability to express feelings, which aligns with the \"WARMING UP\" stage. The rapport appears to be developing, with the client showing signs of trust, even if they remain somewhat guarded.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- Client: \"I mean, it was kind of nice to just take a break from everything. I felt a bit calmer after having that beer, you know? But at the same time, I felt a little guilty for not just going through with my plans.\"\n- Client: \"I don\u2019t know, I guess it feels like I\u2019m just not in control when things like that happen. Like, I try to plan and then something completely random comes along and messes it all up.\"\n\n**Progression:** The client's most recent interactions demonstrate a noticeable shift towards greater emotional depth. They express a mix of emotions\u2014both relief and guilt\u2014showing an increased willingness to explore their feelings about external circumstances affecting their internal state. This progress contrasts with earlier exchanges where their emotional responses were more hesitant and less nuanced. The acknowledgment of guilt alongside a sense of calm signifies a developing complexity in their emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they reflected on feeling guilty for not following through with their plans. This moment marked a turning point as it revealed an underlying struggle with control and expectations, indicating a deeper level of self-reflection. The metaphor of rain symbolizing broader feelings of unpredictability suggests a growing willingness to confront and articulate complex emotions, paving the way for further exploration in future sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Emotional State:** \"I guess it feels like I\u2019m just not in control when things like that happen. Like, I try to plan and then something completely random comes along and messes it all up.\"\n- **Current Openness:** \"I don\u2019t want to overthink it, but it feels like I\u2019m constantly trying to keep things together, and then something small happens, and it all just falls apart.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a growing comfort in expressing their emotional state, as they articulate feelings of frustration and lack of control. This marks a significant change from earlier interactions, where emotional expression was more subdued and factual. The client is beginning to connect their feelings of overwhelm to deeper issues in various areas of their life, such as work and family, indicating a willingness to explore these connections further.\n\n**Turning Point:** The turning point in the client's emotional depth shifted when they began to articulate not just their feelings of frustration but also the physical sensations associated with these feelings. The description of their chest feeling tight and mind racing signifies a deeper level of emotional processing and self-awareness, illustrating their capacity to connect bodily experiences with emotional states. This shift toward vulnerability and reflection marks a notable progression in their therapeutic journey.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**  \n1. \"It's like my chest feels tight, and I get this knot in my stomach. My mind starts racing with all these thoughts, and I can\u2019t seem to focus on anything.\"  \n2. \"I guess I was just... really anxious about it all. I mean, part of me thought I\u2019d screw it up, and the other part felt like I had to just figure it out somehow.\"\n\n**Progression:**  \nThe client\u2019s most recent interactions demonstrate a growing ability to articulate their emotional state, particularly around anxiety and physical sensations related to overwhelming situations. This marks a significant change from earlier in the session, where responses were more factual and less emotionally nuanced. The client has begun to show vulnerability by discussing the physical manifestations of their anxiety and reflecting on how these feelings lead to avoidance behavior. The transition from earlier defensiveness to a more open acknowledgment of their struggles indicates a notable improvement in self-reflection and emotional expression.\n\n**Turning Point:**  \nThe client\u2019s emotional depth shifted during the exchange where they identified their anxiety regarding a past presentation. They began expressing awareness of their coping mechanisms, noting, \"avoiding it felt easier, even though I knew it wasn\u2019t the best choice.\" This moment highlights a significant increase in self-awareness and willingness to engage with the complexities of their emotions, which has propelled them into a more engaged exploration phase in therapy.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess I was just... really anxious about it all. I mean, part of me thought I\u2019d screw it up, and the other part felt like I had to just figure it out somehow.\u201d\n2. \u201cI don\u2019t know, it\u2019s kind of like that tightness in my chest comes back a bit when I think about it. It feels heavy, I guess.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions illustrate a noticeable increase in emotional expression and self-reflection. They articulate feelings of anxiety related to both past experiences and current situations, suggesting a deeper exploration of their emotions. This marks a significant change from earlier exchanges, where they may have been more factual and less emotionally engaged. The client\u2019s acknowledgment of the physical sensations connected to their emotional state indicates a growing comfort in expressing vulnerability, which is a step beyond the initial hesitance observed earlier in the sessions.\n\n**Turning Point:**\nThe turning point appears to be when the client began to connect their past feelings of overwhelm with their current experiences, particularly through the metaphor of the rain disrupting their plans. This moment highlights a deeper emotional awareness and willingness to reflect on their reactions, suggesting a shift towards a richer engagement with their feelings and how they manifest in their body. This connection between past and present experiences enhances their self-reflection depth and emotional expression, ultimately fostering a better rapport with the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Client's Emotional State**: \"I mean, I can kind of feel that tightness in my chest again. It reminds me of that overwhelmed feeling I had before, which is sort of frustrating.\"\n2. **Current Openness**: \"I can think of a time last week when I was just hanging out with friends, and someone made a joke about my weight. I felt that same tightness in my chest, and I kind of froze up.\"\n\n**Progression**: The client\u2019s most recent interactions show a marked increase in emotional expression and self-reflection, particularly around their feelings of frustration and embarrassment. They are beginning to connect past experiences to their current emotional state, which indicates a deeper level of engagement than earlier in the session. Initially, their responses may have been primarily factual, but they are now sharing more about their feelings and the physical sensations associated with those emotions. This represents a significant change from their earlier stance, where they may have been more guarded or hesitant.\n\n**Turning Point**: The client\u2019s emotional depth shifted during the exchange where they disclosed their feelings in response to the joke about their weight. This moment was pivotal as it was accompanied by a clear articulation of their internal conflict\u2014wanting to laugh it off while simultaneously feeling humiliated and uncomfortable. This duality highlights their growing self-awareness and willingness to explore vulnerable feelings, which has led to increased emotional openness in subsequent exchanges.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I guess I notice a mix of frustration and embarrassment when I think about it now. It\u2019s like I\u2019m still holding onto that tension, and it feels a bit heavy.\"\n2. Client: \"I can feel that tightness again, like a knot in my stomach. It\u2019s almost like I\u2019m preparing for the worst, you know? I mean, maybe it\u2019s just the anticipation of being judged or ridiculed that makes me tense up.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant emotional depth, especially with their ability to articulate complex feelings such as frustration, embarrassment, and vulnerability concerning their self-image and social experiences. This is a marked change from earlier exchanges, where emotional expression was minimal and responses were factual. The client is now not only identifying their emotions but also connecting physical sensations to these feelings, indicating a growing self-awareness and willingness to explore deeper emotional layers.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange about their experience with friends when a joke was made about their weight. This moment served as a catalyst for vulnerability, allowing them to express feelings of humiliation and the internal conflict of wanting to remain socially engaged while feeling judged. This willingness to share personal struggles and the physical manifestations of their emotions marks a clear move towards deeper engagement in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State Expression:** \"I guess when I think about it, I can feel that tightness again, like a knot in my stomach. It\u2019s almost like I\u2019m preparing for the worst, you know?\"\n2. **Openness in Communication:** \"I think if I reminded myself that people might be trying to connect, I could take a step back and not internalize their words so much.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a significant shift towards deeper emotional engagement. Initially, their responses were more defensive and hesitant, primarily concerned with avoiding vulnerability. In the latest exchanges, however, the client articulates their feelings of tightness and anxiety, demonstrating a growing ability to express complex emotions. The client also begins to actively engage with the therapist's prompts, reflecting on their fears of judgment while also acknowledging the possibility of reinterpretation. This marks a substantial move from a more guarded emotional state to one of thoughtful exploration and insight.\n\n**Turning Point:**\nThe turning point in the client's emotional depth occurred when they began to recognize the possibility that their fears might be exaggerated. Specifically, when they stated, \"I guess if I could remind myself that some people genuinely care about me, I could respond with more confidence rather than feeling cornered,\" there was a clear indication of self-reflection and a willingness to challenge their automatic thoughts. This moment reflects an authentic vulnerability, as the client is not only expressing fear but is also contemplating ways to address it constructively, indicating a strong therapeutic alliance and deep engagement in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. *\"I think if I reminded myself that people might be trying to connect, I could take a step back and not internalize their words so much.\"* - This quote reflects the client\u2019s growing ability to reframe negative experiences and shows increased emotional processing.\n  \n2. *\"I\u2019d tell myself that I\u2019m deserving of love and respect, regardless of what others might say or think.\"* - This statement reveals the client\u2019s deeper self-reflection and acknowledgment of their own worth, indicating significant emotional openness.\n\n**Progression:** The client\u2019s most recent interactions illustrate a noticeable increase in emotional depth and vulnerability, demonstrating a transition from earlier exchanges that were more defensive or hesitant. In previous sessions, the client may have struggled with self-acceptance and often internalized judgment negatively. The current exchanges show a shift towards self-compassion and a willingness to examine their feelings more openly. This deeper engagement with their emotional state and the ability to articulate their thoughts reflect a strengthened rapport with the therapist and a more authentic engagement in the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the discussion about how to support a friend facing judgment. When they articulated how they would advise a friend to embrace self-compassion and recognize their worth, it marked a significant moment. This shift was accompanied by the client\u2019s realization that applying the same kindness to themselves is essential, illustrating a transformative moment in their self-awareness and emotional processing.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I\u2019d tell myself that it\u2019s okay to feel hurt and that those moments don\u2019t define who I am. I\u2019d probably emphasize that I\u2019m deserving of love and respect, regardless of what others might say or think.\"\n- \"It feels a little vulnerable to put these affirmations into practice, but I know that each time I remind myself of my value, I\u2019m taking a step toward a more compassionate relationship with myself.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant emotional depth and engagement, particularly in their ability to articulate their feelings and personal insights. They are not only expressing emotions but also reflecting on their self-worth and developing strategies for self-compassion. This marks a considerable change from earlier interactions, where they may have exhibited more factual responses and limited emotional vocabulary. The current exchanges show a clear willingness to embrace vulnerability, which indicates growth in their self-reflection and a burgeoning therapeutic alliance.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began to explore the idea of writing letters to their past self, showcasing their ability to reflect on their experiences and feelings. This moment was pivotal as it allowed them to recognize their inherent worth and the importance of self-compassion, fostering a sense of empowerment and vulnerability that was less evident before. Their acknowledgment that setting reminders and articulating affirmations could help them ground themselves during moments of self-doubt marks a significant step toward deeper engagement in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n- Client: \u201cIt feels a little vulnerable to put these affirmations into practice, but I know that each time I remind myself of my value, I\u2019m taking a step toward a more compassionate relationship with myself.\u201d\n- Client: \u201cI think my anticipatory thoughts are a mix of excitement and anxiety. Part of me is looking forward to trying out the affirmation, while another part worries about how I might respond if I feel overwhelmed during the meeting.\u201d\n\n**Progression:** In the most recent interactions, the client displays a significant increase in emotional depth and self-reflection. They articulate their feelings of vulnerability and acknowledge the mix of excitement and anxiety about future situations, which demonstrates a greater comfort with expressing emotional states. This marks a notable change from earlier exchanges where the emotional expression was more limited and factual.\n\n**Turning Point:** The pivotal moment that led to the client\u2019s current emotional depth appears to have occurred when they began to engage more fully with the concept of self-affirmation. Specifically, when they expressed vulnerability about practicing affirmations and recognized the potential impact of these affirmations on their mindset, it marked a shift towards deeper emotional processing and self-awareness. This demonstrates a strong therapeutic alliance and a willingness to explore their emotional landscape authentically.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think my anticipatory thoughts are a mix of excitement and anxiety. Part of me is looking forward to trying out the affirmation, while another part worries about how I might respond if I feel overwhelmed during the meeting.\"\n2. \"It\u2019s almost like I\u2019m starting to separate my feelings from my abilities, which is a shift for me. I\u2019m willing to approach this presentation as a learning experience, even if it feels uncomfortable.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant enhancement in emotional depth and self-reflection. They are actively engaging with their feelings of excitement and anxiety, demonstrating a nuanced understanding of their emotional state. This marks a notable departure from earlier stages where the client may have been more factual and less expressive. The recent exchanges reflect a growing comfort with vulnerability as the client acknowledges the importance of preparing for discomfort and begins to separate feelings from abilities.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they articulated, \"It\u2019s almost like I\u2019m starting to separate my feelings from my abilities.\" This recognition signifies a transformative moment in which the client embraces vulnerability and acknowledges their capacity for growth. This newfound ability to reflect on past successes while connecting them to their current situation has fostered a deeper rapport with the therapist and strengthened their engagement level in the counseling process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels empowering to connect those past successes to my upcoming presentation; I see now that I can draw on those experiences to help me navigate my nerves this time.\"\n2. \"I want to practice positive affirmations, maybe even write a few down to repeat to myself before the presentation. That feels a little uncomfortable, but I think it could be really beneficial to reinforce that supportive inner voice.\"\n\n**Progression:** \nIn the most recent exchanges, the client demonstrates a significant emotional depth and openness, marking a noteworthy progression from earlier sessions. Previously, their responses were more factual and defensive, whereas now they reflect a growing awareness of their emotions and a proactive approach to their challenges. The client\u2019s recognition of their ability to empower themselves by connecting past successes to their current anxiety signifies an engaged exploration phase. Additionally, their willingness to implement positive strategies, like practicing affirmations, indicates a deeper level of self-reflection and emotional engagement.\n\n**Turning Point:** \nThe client\u2019s emotional depth shifted notably when they began expressing a desire to \"be my own cheerleader.\" This pivotal moment showcased a new emotional quality where they acknowledged the importance of self-encouragement and recognizing their strengths. This shift in mindset from self-doubt to empowerment represents a deeper engagement with the therapeutic process and a stronger rapport with the therapist, highlighting the client\u2019s readiness to take actionable steps toward personal growth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"It feels encouraging to think about using this list and those affirmations as my personal support system. I can see that maybe having that tangible reminder of my strengths will help me feel more grounded, especially in those moments when self-doubt surfaces.\"\n2. Client: \"I can think of a few specific instances where I felt that anxiety but managed to perform well. For example, during a group project in college, I was really nervous about presenting our findings, but I focused on my preparation and practice.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. They are actively engaging with strategies to combat their anxiety and demonstrating a greater willingness to explore their past successes and vulnerabilities. This marks a significant shift from earlier sessions where emotional expression was limited; now, they articulate their feelings and connect past experiences to their current challenges, indicating a stronger therapeutic alliance and comfort with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly during the exchange where they began to reflect on specific past instances of anxiety where they successfully managed to perform well. This moment marked a transition from merely discussing strategies to actively integrating their experiences and emotions, reflecting a deeper level of self-awareness and insight into their capabilities.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4** \n\n**Key Examples:**\n1. **Client's Emotional Expression**: \"Recalling those experiences definitely shifts my perspective about my abilities. I can see that maybe I\u2019ve underestimated myself and allowed those automatic thoughts of self-doubt to take over too often.\"\n2. **Current Openness**: \"It's empowering to recognize that confidence can lead to better performance, and I often feel more engaged and enthusiastic when I trust myself.\"\n\n**Progression**: The client\u2019s most recent interactions demonstrate a clear and consistent emotional depth, particularly with their acknowledgment of self-doubt and its impact on their performance. They are reflecting meaningfully on past successes and recognizing the importance of self-belief, which marks a significant change from earlier exchanges where they exhibited more defensive and factual responses.\n\n**Turning Point**: The client\u2019s emotional depth shifted notably during the discussion about recalling past experiences of overcoming anxiety. They began to express a new emotional quality of empowerment and self-recognition when they articulated, \u201cIt feels empowering to remind myself that I've successfully navigated anxiety before.\u201d This represents a pivotal moment where they transitioned from merely discussing anxiety to actively integrating insights about their capabilities, fostering a stronger therapeutic alliance and promoting deeper self-exploration.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 15,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 15,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client reduce the intensity of their anxiety and fear of being judged or ridiculed by reframing their thoughts about potential negative outcomes.",
+      "reasoning": "The client expresses significant concern about being judged regarding their weight, which triggers feelings of tightness and anxiety. Decatastrophizing can assist the client in recognizing that their fears may not be as likely or as severe as they imagine, thereby reducing the emotional weight they carry from these experiences.",
+      "suggestion": [
+        "Can you identify the worst-case scenario you fear when thinking about being judged by others? What thoughts come up?",
+        "Now, let\u2019s explore how likely you think that scenario is to actually happen. What evidence do you have to support or challenge that fear?",
+        "How might you respond to someone who makes a comment about your weight if you were able to reframe how you perceive their intent?",
+        "Can you think of a time when you felt judged but it turned out to be less serious than you expected? What did you learn from that experience?",
+        "What would you tell a friend who is experiencing similar fears about being judged?"
+      ]
+    },
+    {
+      "turn": 18,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts about judgment and self-worth.",
+      "reasoning": "The client has shown insight into their fears of judgment and the potential for humor to diffuse tension, but they still struggle to apply self-compassion. Using the Alternative Perspective technique can encourage the client to challenge their negative self-perceptions by considering different viewpoints, particularly those that emphasize their value beyond external opinions. This can assist in further shifting their mindset toward a more compassionate self-view.",
+      "suggestion": [
+        "Can you think of a time when someone misjudged you but you were able to see a different angle to the situation?",
+        "What would you say to someone else who feels similarly judged? How might you articulate that to yourself?",
+        "How could you view the comments about your weight through a lens of understanding rather than judgment?",
+        "If you were to write a letter to your past self during a difficult moment of perceived judgment, what would you say?",
+        "Consider what an objective observer might say about the situation\u2014how might that perspective differ from your initial thoughts?"
+      ]
+    },
+    {
+      "turn": 21,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client practice and observe the effects of using self-compassionate affirmations in real-life situations.",
+      "reasoning": "The client has expressed a willingness to incorporate self-compassionate phrases into their daily routine but feels vulnerable about making it a regular practice. A behavior experiment can provide the client with the opportunity to test the effectiveness of these affirmations in real situations and observe how it impacts their mindset, reinforcing their journey toward self-compassion.",
+      "suggestion": [
+        "Can you identify a specific situation in the upcoming week where you might typically experience self-doubt or criticism?",
+        "How about committing to use one of your compassionate phrases during that moment? What would that look like for you?",
+        "Afterward, reflect on how you felt before and after using the affirmation. What did you notice about your thoughts and emotions?",
+        "Would you be willing to journal your experiences and share them in our next session to discuss what you learned?",
+        "What anticipatory thoughts do you have about trying this out, and how might you address any discomfort that arises?"
+      ]
+    },
+    {
+      "turn": 24,
+      "recommended_cbt_technique": "Reality Testing",
+      "goal": "To help the client differentiate between their feelings of anxiety and their actual capabilities in presenting.",
+      "reasoning": "The client is beginning to acknowledge their nerves without letting them dominate their perception of their abilities. Reality Testing can assist them in examining the evidence for their fears compared to their actual skills and past successes, thereby reinforcing their confidence and self-efficacy. This technique can further support the client in distancing their feelings of anxiety from their self-worth and capabilities.",
+      "suggestion": [
+        "Can you reflect on instances in the past where you felt anxious but were able to perform well? What evidence do you have that supports your ability to present successfully?",
+        "What are some of the skills or strengths you can draw upon during your presentation that may counter your feelings of self-doubt?",
+        "How does your anxiety about presenting compare to your actual past experiences? Can you identify any discrepancies?",
+        "As you prepare for the meeting, what specific thoughts or beliefs about your abilities can you challenge with evidence?",
+        "What would you tell a friend in your situation who is feeling similarly anxious about presenting?"
+      ]
+    },
+    {
+      "turn": 27,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client build a stronger belief in their capabilities by challenging negative thoughts with factual evidence from their past successes.",
+      "reasoning": "Given the client\u2019s tendency to doubt their abilities in moments of anxiety, using evidence-based questioning can help them objectively evaluate their self-assessments. By focusing on past experiences where they succeeded despite feeling anxious, the client can counteract negative beliefs with factual examples, reinforcing their confidence as they prepare for their presentation.",
+      "suggestion": [
+        "Can you list specific instances when you felt anxious but still performed well? What did you do in those moments that contributed to your success?",
+        "What positive feedback or recognition have you received from others regarding your communication skills or presentations?",
+        "How does reflecting on these past successes change your perspective about your upcoming presentation?",
+        "What thoughts do you have about your abilities that you can challenge with the evidence of your past achievements?",
+        "How can you remind yourself of this evidence when you start feeling doubt or anxiety?"
+      ]
+    },
+    {
+      "turn": 30,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the benefits and drawbacks of their self-doubt and anxiety, enabling them to challenge negative thinking patterns.",
+      "reasoning": "The client has acknowledged the tendency to underestimate themselves and has recognized that their automatic thoughts often lead to self-doubt. A Pros and Cons Analysis can provide a structured way to assess how these thoughts affect their performance and how embracing their strengths can lead to positive outcomes. This technique will help reinforce their understanding of the importance of preparation and self-belief.",
+      "suggestion": [
+        "What are some pros of believing in your abilities and focusing on your preparation?",
+        "What are the cons of allowing self-doubt to take over your thoughts?",
+        "Can you identify specific situations where the pros of believing in yourself outweighed the cons?",
+        "How might this analysis influence your mindset as you prepare for your presentation?",
+        "Would you like to create a visual chart to map out these pros and cons together?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Alex, I\u2019m really glad you're here today. What\u2019s been on your mind lately that feels important for us to explore together?",
+      "client": "I don\u2019t know. It just happened that I was going to pick up my girlfriend after work, and then it started pouring outside. It was just really frustrating.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That sounds like it was a really frustrating moment for you, especially when you were trying to pick up your girlfriend. It can be tough when unexpected things, like the weather, disrupt our plans. How did you feel in that moment when the rain started?",
+      "client": "I guess I was annoyed, but that\u2019s it. It\u2019s just rain, you know? I wasn\u2019t going to let it ruin my day. I just went back inside and had a beer.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess I was annoyed, but that\u2019s it. It\u2019s just rain, you know? I wasn\u2019t going to let it ruin my day. I just went back inside and had a beer.\"\n2. Therapist: \"It can be tough when unexpected things, like the weather, disrupt our plans. How did you feel in that moment when the rain started?\" \n\n**Progression:** The client\u2019s most recent interactions demonstrate a mix of emotional expression and factual responses. They acknowledged feeling \"annoyed\" about the rain, which reflects a basic level of emotional awareness. However, they also downplayed their feelings by saying \"that\u2019s it,\" indicating a hesitation to explore deeper emotional layers. This marks a significant change from earlier exchanges where the emotional vocabulary was even more limited, and the client was more defensive in their responses.\n\n**Turning Point:** The client's emotional depth shifted notably when they engaged with the therapist's question about their feelings during the rain incident. This moment was essential as it marked a willingness to reveal personal frustration, albeit in a limited capacity, showcasing a growing comfort in the therapeutic setting. While they did not delve deeply into their emotions, this exchange suggests a budding ability to express feelings, which aligns with the \"WARMING UP\" stage. The rapport appears to be developing, with the client showing signs of trust, even if they remain somewhat guarded.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It sounds like you were trying to manage your feelings about the rain and not let it affect your day too much. Choosing to go back inside and have a beer seems like it helped you cope in that moment. What was that experience like for you\u2014being inside, having a beer, and knowing the rain was still coming down?",
+      "client": "I mean, it was kind of nice to just take a break from everything. I felt a bit calmer after having that beer, you know? But at the same time, I felt a little guilty for not just going through with my plans. I don't want to let something like rain get to me, but it still kind of does. It's hard to explain.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Taking a break and feeling calmer can be a relief, even if it comes with some guilt about not following through on your plans. It\u2019s interesting how you\u2019re navigating those conflicting feelings\u2014the desire to stay unaffected by the rain and the reality that it still impacted you. What do you think it is about the rain that connects to those feelings of frustration or guilt for you?",
+      "client": "I don\u2019t know, I guess it feels like I\u2019m just not in control when things like that happen. Like, I try to plan and then something completely random comes along and messes it all up. Maybe it\u2019s just that I have this idea that I should be able to handle everything without letting little things get to me, you know? I mean, rain is just rain, but it feels like it symbolizes so much more sometimes.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- Client: \"I mean, it was kind of nice to just take a break from everything. I felt a bit calmer after having that beer, you know? But at the same time, I felt a little guilty for not just going through with my plans.\"\n- Client: \"I don\u2019t know, I guess it feels like I\u2019m just not in control when things like that happen. Like, I try to plan and then something completely random comes along and messes it all up.\"\n\n**Progression:** The client's most recent interactions demonstrate a noticeable shift towards greater emotional depth. They express a mix of emotions\u2014both relief and guilt\u2014showing an increased willingness to explore their feelings about external circumstances affecting their internal state. This progress contrasts with earlier exchanges where their emotional responses were more hesitant and less nuanced. The acknowledgment of guilt alongside a sense of calm signifies a developing complexity in their emotional landscape.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they reflected on feeling guilty for not following through with their plans. This moment marked a turning point as it revealed an underlying struggle with control and expectations, indicating a deeper level of self-reflection. The metaphor of rain symbolizing broader feelings of unpredictability suggests a growing willingness to confront and articulate complex emotions, paving the way for further exploration in future sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "It's understandable to feel that way when unexpected events disrupt your plans. It sounds like the rain triggers a deeper sense of losing control for you, especially when you hold yourself to a standard of managing everything without letting small things affect you. When you mention that the rain symbolizes more, I wonder what kind of feelings or thoughts come up for you around that. How do you experience that sense of control or lack of control in other areas of your life?",
+      "client": "I guess that makes sense. I mean, it\u2019s not just about the rain, right? It\u2019s like, I feel that way at work too, or even with my family. There\u2019s always something that throws me off, and I end up feeling like I can\u2019t handle it. Sometimes I just want to hide from everything, you know? I don\u2019t want to overthink it, but it feels like I\u2019m constantly trying to keep things together, and then something small happens, and it all just falls apart.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "It sounds exhausting to feel like you\u2019re always trying to keep things together, only to have something small throw everything off balance. Wanting to hide from it all can be a natural response when things feel overwhelming. When you think about those moments where you feel like everything is falling apart, what do you notice in your body or mind at those times?",
+      "client": "I don\u2019t know, it\u2019s like my chest feels tight, and I get this knot in my stomach. My mind starts racing with all these thoughts, and I can\u2019t seem to focus on anything. It\u2019s frustrating because I want to be able to handle it, but instead, I just feel paralyzed, like I can\u2019t think straight. Maybe that\u2019s why I end up wanting to escape, because it just feels too much to deal with. Does that make sense?",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Emotional State:** \"I guess it feels like I\u2019m just not in control when things like that happen. Like, I try to plan and then something completely random comes along and messes it all up.\"\n- **Current Openness:** \"I don\u2019t want to overthink it, but it feels like I\u2019m constantly trying to keep things together, and then something small happens, and it all just falls apart.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a growing comfort in expressing their emotional state, as they articulate feelings of frustration and lack of control. This marks a significant change from earlier interactions, where emotional expression was more subdued and factual. The client is beginning to connect their feelings of overwhelm to deeper issues in various areas of their life, such as work and family, indicating a willingness to explore these connections further.\n\n**Turning Point:** The turning point in the client's emotional depth shifted when they began to articulate not just their feelings of frustration but also the physical sensations associated with these feelings. The description of their chest feeling tight and mind racing signifies a deeper level of emotional processing and self-awareness, illustrating their capacity to connect bodily experiences with emotional states. This shift toward vulnerability and reflection marks a notable progression in their therapeutic journey.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "It makes sense that those physical sensations would feel overwhelming, especially when your mind is racing and you\u2019re seeking some clarity. The tightness in your chest and the knot in your stomach sound really uncomfortable. When you feel paralyzed in those moments, it seems like the urge to escape becomes a way to cope with all that intensity. Can you recall a specific time when you felt that way, and what was happening around you at that moment?",
+      "client": "I don\u2019t know if I can think of a specific time right now, but it happens often enough, you know? Like, at work, there are days when everything just piles up, and I feel like I\u2019m drowning in tasks. I remember one time, I had a big presentation coming up, and instead of preparing, I just shut down. I felt like everyone was expecting me to be on top of things, but inside, I was a mess. I ended up just avoiding the whole situation, which made it worse. I guess it\u2019s kind of a pattern for me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "It's understandable to notice a pattern in how you respond when things become overwhelming, especially in high-pressure situations like presentations. The feeling of being expected to perform while feeling like a mess inside can create a lot of tension. When you reflect on that time you shut down instead of preparing, what do you think was going through your mind just before you made that choice to avoid the situation?",
+      "client": "I guess I was just... really anxious about it all. I mean, part of me thought I\u2019d screw it up, and the other part felt like I had to just figure it out somehow. It\u2019s like, everything seemed so overwhelming, and I didn\u2019t know how to ask for help or even if I wanted to, you know? I don\u2019t know if I wanted to admit that I was struggling, so avoiding it felt easier, even though I knew it wasn\u2019t the best choice. Maybe I thought I could just wish it away or something.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**  \n1. \"It's like my chest feels tight, and I get this knot in my stomach. My mind starts racing with all these thoughts, and I can\u2019t seem to focus on anything.\"  \n2. \"I guess I was just... really anxious about it all. I mean, part of me thought I\u2019d screw it up, and the other part felt like I had to just figure it out somehow.\"\n\n**Progression:**  \nThe client\u2019s most recent interactions demonstrate a growing ability to articulate their emotional state, particularly around anxiety and physical sensations related to overwhelming situations. This marks a significant change from earlier in the session, where responses were more factual and less emotionally nuanced. The client has begun to show vulnerability by discussing the physical manifestations of their anxiety and reflecting on how these feelings lead to avoidance behavior. The transition from earlier defensiveness to a more open acknowledgment of their struggles indicates a notable improvement in self-reflection and emotional expression.\n\n**Turning Point:**  \nThe client\u2019s emotional depth shifted during the exchange where they identified their anxiety regarding a past presentation. They began expressing awareness of their coping mechanisms, noting, \"avoiding it felt easier, even though I knew it wasn\u2019t the best choice.\" This moment highlights a significant increase in self-awareness and willingness to engage with the complexities of their emotions, which has propelled them into a more engaged exploration phase in therapy.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It sounds like there was a lot of inner conflict in that moment, with anxiety pulling you in different directions. Wanting to handle things on your own can make it tough to reach out for help, especially when admitting you\u2019re struggling feels so challenging. The thought of wishing it away suggests a desire to escape the pressure. When you think about that choice to avoid preparing, what do you feel in your body now?",
+      "client": "I don\u2019t know, it\u2019s kind of like that tightness in my chest comes back a bit when I think about it. It feels heavy, I guess. Part of me wants to say that it doesn\u2019t really matter since it\u2019s over, but another part feels a bit embarrassed about how I handled it. I mean, I know I could have approached it differently, but in the moment, I just felt so overwhelmed. It\u2019s hard to shake that feeling of just wanting to escape, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Reflecting on that tightness in your chest and the feelings of heaviness, it seems there\u2019s still some weight attached to that experience. It\u2019s interesting to notice how the embarrassment and the desire to escape are intertwined with the memory of feeling overwhelmed. When you think about that moment of wanting to escape, what do you notice about how that connects to your current feelings or experiences?",
+      "client": "I guess it feels kind of similar to how I reacted today with the rain. Like, I had this plan to pick up my girlfriend, and then just when I was ready, it all fell apart. There\u2019s that familiar urge to escape the frustration, like I just want to shut down or avoid the whole situation. Part of me feels bad for not being able to handle it better, but then I also think it doesn\u2019t really matter in the grand scheme of things. It\u2019s just rain, right? But still, I can\u2019t help feeling a bit embarrassed about how I reacted.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess I was just... really anxious about it all. I mean, part of me thought I\u2019d screw it up, and the other part felt like I had to just figure it out somehow.\u201d\n2. \u201cI don\u2019t know, it\u2019s kind of like that tightness in my chest comes back a bit when I think about it. It feels heavy, I guess.\u201d\n\n**Progression:**\nThe client\u2019s most recent interactions illustrate a noticeable increase in emotional expression and self-reflection. They articulate feelings of anxiety related to both past experiences and current situations, suggesting a deeper exploration of their emotions. This marks a significant change from earlier exchanges, where they may have been more factual and less emotionally engaged. The client\u2019s acknowledgment of the physical sensations connected to their emotional state indicates a growing comfort in expressing vulnerability, which is a step beyond the initial hesitance observed earlier in the sessions.\n\n**Turning Point:**\nThe turning point appears to be when the client began to connect their past feelings of overwhelm with their current experiences, particularly through the metaphor of the rain disrupting their plans. This moment highlights a deeper emotional awareness and willingness to reflect on their reactions, suggesting a shift towards a richer engagement with their feelings and how they manifest in their body. This connection between past and present experiences enhances their self-reflection depth and emotional expression, ultimately fostering a better rapport with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Noticing that familiar urge to escape in response to frustration with the rain seems to resonate with what you experienced during the presentation. It\u2019s interesting how those moments can trigger similar feelings, even if they seem unrelated on the surface. The mixture of feeling bad about your reactions and trying to rationalize them speaks to that inner conflict you mentioned before. When you reflect on your reaction today, what do you feel in your body right now as you connect those experiences?",
+      "client": "I mean, I can kind of feel that tightness in my chest again. It reminds me of that overwhelmed feeling I had before, which is sort of frustrating. I guess there\u2019s a part of me that thinks I should be able to handle these little things better, but then there\u2019s another part that just feels... stuck, maybe? It\u2019s like I want to move past it, but it keeps coming back, and I don\u2019t really know what to do with that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest and the sense of feeling stuck seem to be significant as you reflect on those moments. It\u2019s understandable to want to move past the frustration, especially when it feels like the same feelings keep resurfacing. Noticing that push and pull between wanting to handle things better and feeling overwhelmed is important. Can you think of a specific moment when you felt that sense of being stuck recently, and what was happening then?",
+      "client": "I can think of a time last week when I was just hanging out with friends, and someone made a joke about my weight. I felt that same tightness in my chest, and I kind of froze up. Part of me wanted to laugh it off, but another part just felt really humiliated and wanted to leave the situation entirely. It\u2019s like I was there but not really present, you know? I guess I felt stuck because I didn\u2019t want to ruin the night for everyone, but inside, I was just... uncomfortable. It\u2019s hard to shake that feeling.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Client's Emotional State**: \"I mean, I can kind of feel that tightness in my chest again. It reminds me of that overwhelmed feeling I had before, which is sort of frustrating.\"\n2. **Current Openness**: \"I can think of a time last week when I was just hanging out with friends, and someone made a joke about my weight. I felt that same tightness in my chest, and I kind of froze up.\"\n\n**Progression**: The client\u2019s most recent interactions show a marked increase in emotional expression and self-reflection, particularly around their feelings of frustration and embarrassment. They are beginning to connect past experiences to their current emotional state, which indicates a deeper level of engagement than earlier in the session. Initially, their responses may have been primarily factual, but they are now sharing more about their feelings and the physical sensations associated with those emotions. This represents a significant change from their earlier stance, where they may have been more guarded or hesitant.\n\n**Turning Point**: The client\u2019s emotional depth shifted during the exchange where they disclosed their feelings in response to the joke about their weight. This moment was pivotal as it was accompanied by a clear articulation of their internal conflict\u2014wanting to laugh it off while simultaneously feeling humiliated and uncomfortable. This duality highlights their growing self-awareness and willingness to explore vulnerable feelings, which has led to increased emotional openness in subsequent exchanges.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That moment with your friends sounds really challenging, especially feeling that tightness in your chest and the urge to retreat while trying to stay present for others. It\u2019s understandable to feel torn between wanting to protect your own feelings and not wanting to disrupt the atmosphere. It\u2019s interesting how that discomfort can linger, making it hard to shake off the experience. When you think back to that moment, what do you notice about the emotions or sensations that come up for you now?",
+      "client": "I guess I notice a mix of frustration and embarrassment when I think about it now. It\u2019s like I\u2019m still holding onto that tension, and it feels a bit heavy. Part of me wants to just forget about it and move on, but then another part keeps replaying it in my head, like I should have reacted differently or said something. I don\u2019t know, maybe it just reminds me of how vulnerable I feel sometimes, especially when it comes to my weight and how people see me. It\u2019s hard to shake off that feeling of being judged, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "That mix of frustration and embarrassment sounds really weighty, especially when tied to feelings of vulnerability and being judged. It's understandable that you would want to move on but find yourself replaying the moment in your head. That tension between wanting to forget and feeling stuck in what happened can be really tough to navigate. When you think about the judgments and how they affect you, do you notice any physical sensations or emotional shifts that come up for you in those reflections?",
+      "client": "I guess when I think about it, I can feel that tightness again, like a knot in my stomach. It\u2019s almost like I\u2019m preparing for the worst, you know? I mean, maybe it\u2019s just the anticipation of being judged or ridiculed that makes me tense up. Part of me feels like I have to put up this wall to protect myself, but then it just ends up making everything feel heavier. I don\u2019t know if that makes sense.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I guess I notice a mix of frustration and embarrassment when I think about it now. It\u2019s like I\u2019m still holding onto that tension, and it feels a bit heavy.\"\n2. Client: \"I can feel that tightness again, like a knot in my stomach. It\u2019s almost like I\u2019m preparing for the worst, you know? I mean, maybe it\u2019s just the anticipation of being judged or ridiculed that makes me tense up.\"\n\n**Progression:** The client\u2019s recent interactions reflect a significant emotional depth, especially with their ability to articulate complex feelings such as frustration, embarrassment, and vulnerability concerning their self-image and social experiences. This is a marked change from earlier exchanges, where emotional expression was minimal and responses were factual. The client is now not only identifying their emotions but also connecting physical sensations to these feelings, indicating a growing self-awareness and willingness to explore deeper emotional layers.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the exchange about their experience with friends when a joke was made about their weight. This moment served as a catalyst for vulnerability, allowing them to express feelings of humiliation and the internal conflict of wanting to remain socially engaged while feeling judged. This willingness to share personal struggles and the physical manifestations of their emotions marks a clear move towards deeper engagement in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It makes perfect sense that you would feel that tightness in your stomach as you anticipate judgment; it\u2019s a natural response to feeling vulnerable. Can you identify the worst-case scenario that plays out in your mind when you think about being judged? What thoughts come up for you? As you explore that, let\u2019s consider how likely it is that this scenario will actually happen. What evidence do you have that supports or challenges that fear? Sometimes, reframing how we perceive comments from others can help too\u2014how might you respond if you felt less threatened by their intent?",
+      "client": "When I think about the worst-case scenario, I guess my mind jumps to the idea that people will see me as just a joke or someone to pick on. I worry they\u2019ll laugh at me or think less of me, and that really stings. I suppose, in a way, that fear makes me feel even more anxious, like I\u2019m walking on eggshells. I haven\u2019t really thought about what evidence I have, but I know that not everyone sees me that way, even if I get stuck in that mindset sometimes. Maybe if I could remind myself that some people genuinely care about me, I could respond with more confidence rather than feeling cornered. It feels a little uncomfortable to consider that I might be overreacting to those comments, but it makes some sense too.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It\u2019s really insightful that you recognize not everyone views you that way, and it\u2019s powerful to consider how those caring relationships can help you respond with more confidence. When you imagine someone making a comment about your weight, how might you approach that situation differently if you remind yourself that their intent isn\u2019t to judge but possibly to connect or support you? Reflecting on a time when you felt judged but discovered it was less serious than you thought can also be valuable. What did you learn from that experience that could help you now?",
+      "client": "I think if I reminded myself that people might be trying to connect, I could take a step back and not internalize their words so much. I remember a time at a family gathering when someone made a joke about my weight, and instead of getting defensive, I tried to laugh it off. It felt a bit awkward, but later, I realized they were just trying to lighten the mood, not hurt me. That taught me that humor can sometimes break the tension and help me feel less attacked. I guess if I can hold onto that memory, it might help me navigate future situations with a little more ease. It\u2019s still uncomfortable to think about, but I can see the potential for a different response.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State Expression:** \"I guess when I think about it, I can feel that tightness again, like a knot in my stomach. It\u2019s almost like I\u2019m preparing for the worst, you know?\"\n2. **Openness in Communication:** \"I think if I reminded myself that people might be trying to connect, I could take a step back and not internalize their words so much.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a significant shift towards deeper emotional engagement. Initially, their responses were more defensive and hesitant, primarily concerned with avoiding vulnerability. In the latest exchanges, however, the client articulates their feelings of tightness and anxiety, demonstrating a growing ability to express complex emotions. The client also begins to actively engage with the therapist's prompts, reflecting on their fears of judgment while also acknowledging the possibility of reinterpretation. This marks a substantial move from a more guarded emotional state to one of thoughtful exploration and insight.\n\n**Turning Point:**\nThe turning point in the client's emotional depth occurred when they began to recognize the possibility that their fears might be exaggerated. Specifically, when they stated, \"I guess if I could remind myself that some people genuinely care about me, I could respond with more confidence rather than feeling cornered,\" there was a clear indication of self-reflection and a willingness to challenge their automatic thoughts. This moment reflects an authentic vulnerability, as the client is not only expressing fear but is also contemplating ways to address it constructively, indicating a strong therapeutic alliance and deep engagement in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear how that experience shifted your perspective and helped you realize the intent behind the joke wasn\u2019t malicious. Holding onto that memory can serve as a powerful reminder that sometimes, humor is just an attempt to connect rather than a personal attack. As you think about future interactions, what would you tell a friend who is facing similar fears about being judged? Imagining how you would support them can be a great way to reinforce your own coping strategies. How might you apply that compassionate perspective to yourself in those moments?",
+      "client": "I think if I were supporting a friend, I\u2019d remind them that it\u2019s okay to feel uneasy about judgment, but that they shouldn't let it define their worth. I\u2019d probably tell them that laughter can disarm those heavy moments and that sometimes, just showing up authentically is what matters most. It feels a little challenging to apply that same compassion to myself, but I can see how it might ease the burden. I guess I need to practice treating myself with that same kindness and understanding, especially when those feelings of inadequacy creep in.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It\u2019s so encouraging to see you recognize the importance of self-compassion, especially when it comes to navigating those feelings of inadequacy. If you were to write a letter to your past self during a tough moment of judgment, what would you include to remind yourself of your worth? Thinking about how an objective observer might view your situation can also help you see it from a kinder perspective. What might they say that could shift your focus away from self-criticism and toward understanding? This practice can be a gentle way to reinforce the compassionate voice you wish to cultivate for yourself.",
+      "client": "I think if I were to write a letter to my past self, I\u2019d want to include reminders of the strength I\u2019ve shown in overcoming challenges. I\u2019d tell myself that it\u2019s okay to feel hurt and that those moments don\u2019t define who I am. I\u2019d probably emphasize that I\u2019m deserving of love and respect, regardless of what others might say or think. When I consider how an objective observer might view my situation, I can imagine them saying something like, \u201cYou're doing the best you can with what you have, and that\u2019s enough.\u201d That perspective feels comforting and reminds me to be gentler with myself during tough moments.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. *\"I think if I reminded myself that people might be trying to connect, I could take a step back and not internalize their words so much.\"* - This quote reflects the client\u2019s growing ability to reframe negative experiences and shows increased emotional processing.\n  \n2. *\"I\u2019d tell myself that I\u2019m deserving of love and respect, regardless of what others might say or think.\"* - This statement reveals the client\u2019s deeper self-reflection and acknowledgment of their own worth, indicating significant emotional openness.\n\n**Progression:** The client\u2019s most recent interactions illustrate a noticeable increase in emotional depth and vulnerability, demonstrating a transition from earlier exchanges that were more defensive or hesitant. In previous sessions, the client may have struggled with self-acceptance and often internalized judgment negatively. The current exchanges show a shift towards self-compassion and a willingness to examine their feelings more openly. This deeper engagement with their emotional state and the ability to articulate their thoughts reflect a strengthened rapport with the therapist and a more authentic engagement in the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the discussion about how to support a friend facing judgment. When they articulated how they would advise a friend to embrace self-compassion and recognize their worth, it marked a significant moment. This shift was accompanied by the client\u2019s realization that applying the same kindness to themselves is essential, illustrating a transformative moment in their self-awareness and emotional processing.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s truly powerful to hear you articulate those reminders for your past self. Recognizing your strength and inherent worth is such an important step in fostering self-compassion. When you acknowledge that you\u2019re doing the best you can, it creates space for healing and acceptance. How might you take those comforting thoughts and incorporate them into your daily life? Perhaps you could even remind yourself of that objective observer\u2019s perspective whenever you start to feel judged. This could help you cultivate a kinder inner dialogue.",
+      "client": "I can see that maybe incorporating those comforting thoughts into my daily routine could really help shift my mindset. Perhaps I could set reminders on my phone or write them down in a journal to reflect on when I\u2019m feeling low. Part of me knows that having that objective observer\u2019s perspective could be a game changer when I face judgment or criticism. It feels a little daunting to make this a regular practice, but I think it could lead to a more compassionate relationship with myself over time. I\u2019m willing to look at that and see how it unfolds.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your openness to incorporating those comforting thoughts into your routine. Setting reminders or journaling can be a great way to consistently reconnect with that kinder inner dialogue. As you explore this practice, what specific messages or phrases do you think would resonate most deeply with you during difficult moments? Reflecting on how you want to articulate your worth can empower you to shift your mindset when faced with judgment or self-doubt. Remember, this is a journey, and every step you take toward self-compassion is a significant one.",
+      "client": "I think some phrases that would resonate with me might be, \u201cYou are enough just as you are,\u201d or \u201cIt\u2019s okay to feel overwhelmed; that doesn\u2019t diminish your worth.\u201d I can see that having those reminders handy could help me ground myself when I'm spiraling into self-doubt. It feels a little vulnerable to put these affirmations into practice, but I know that each time I remind myself of my value, I\u2019m taking a step toward a more compassionate relationship with myself. I hadn\u2019t connected how impactful these simple statements could be until now, but it makes sense that they could help shift my mindset in those tough moments.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I\u2019d tell myself that it\u2019s okay to feel hurt and that those moments don\u2019t define who I am. I\u2019d probably emphasize that I\u2019m deserving of love and respect, regardless of what others might say or think.\"\n- \"It feels a little vulnerable to put these affirmations into practice, but I know that each time I remind myself of my value, I\u2019m taking a step toward a more compassionate relationship with myself.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant emotional depth and engagement, particularly in their ability to articulate their feelings and personal insights. They are not only expressing emotions but also reflecting on their self-worth and developing strategies for self-compassion. This marks a considerable change from earlier interactions, where they may have exhibited more factual responses and limited emotional vocabulary. The current exchanges show a clear willingness to embrace vulnerability, which indicates growth in their self-reflection and a burgeoning therapeutic alliance.\n\n**Turning Point:**\nThe client's emotional depth shifted notably when they began to explore the idea of writing letters to their past self, showcasing their ability to reflect on their experiences and feelings. This moment was pivotal as it allowed them to recognize their inherent worth and the importance of self-compassion, fostering a sense of empowerment and vulnerability that was less evident before. Their acknowledgment that setting reminders and articulating affirmations could help them ground themselves during moments of self-doubt marks a significant step toward deeper engagement in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear you\u2019ve identified those affirmations that resonate with you! Acknowledging your vulnerability is a crucial part of this process, and it\u2019s completely natural to feel that way. Can you think of a specific situation in the upcoming week where you might typically experience self-doubt? Perhaps you could commit to using one of your affirmations during that moment. Afterward, I\u2019d love for you to reflect on how you felt before and after using the affirmation, noting any changes in your thoughts or emotions. Would you be open to journaling your experiences and sharing them in our next session?",
+      "client": "I think I could definitely find a situation next week where I usually feel self-doubt, like during a work meeting where I have to present. I can see that using one of my affirmations, like \u201cYou are enough just as you are,\u201d could really help ground me in that moment. It feels a little intimidating to commit to journaling my experiences, but I\u2019m willing to give it a try. Reflecting on how I feel before and after could provide some valuable insights, and I\u2019m curious to see what I might discover about myself through this practice.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s encouraging to hear that you\u2019ve identified a specific situation for next week and a powerful affirmation to use during your presentation. Acknowledging that intimidation is part of this process shows how much you\u2019re embracing the journey. As you try out the affirmation, take note of how it influences your mindset before and after the meeting. Journaling your experiences can offer great insights into your feelings and thoughts, and I'm excited to hear what you discover. What anticipatory thoughts do you have about trying this out, and how might you plan to address any discomfort that arises?",
+      "client": "I think my anticipatory thoughts are a mix of excitement and anxiety. Part of me is looking forward to trying out the affirmation, while another part worries about how I might respond if I feel overwhelmed during the meeting. I can see that being prepared for those uncomfortable moments could be key, maybe by reminding myself that it\u2019s okay to feel nervous and that I\u2019m still capable of presenting despite those feelings. I\u2019m willing to acknowledge that discomfort is part of the journey, and I could plan to take deep breaths or remind myself of my affirmations before I start speaking. That feels a little uncomfortable to think about, but I believe it\u2019s an important step toward building my confidence.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n- Client: \u201cIt feels a little vulnerable to put these affirmations into practice, but I know that each time I remind myself of my value, I\u2019m taking a step toward a more compassionate relationship with myself.\u201d\n- Client: \u201cI think my anticipatory thoughts are a mix of excitement and anxiety. Part of me is looking forward to trying out the affirmation, while another part worries about how I might respond if I feel overwhelmed during the meeting.\u201d\n\n**Progression:** In the most recent interactions, the client displays a significant increase in emotional depth and self-reflection. They articulate their feelings of vulnerability and acknowledge the mix of excitement and anxiety about future situations, which demonstrates a greater comfort with expressing emotional states. This marks a notable change from earlier exchanges where the emotional expression was more limited and factual.\n\n**Turning Point:** The pivotal moment that led to the client\u2019s current emotional depth appears to have occurred when they began to engage more fully with the concept of self-affirmation. Specifically, when they expressed vulnerability about practicing affirmations and recognized the potential impact of these affirmations on their mindset, it marked a shift towards deeper emotional processing and self-awareness. This demonstrates a strong therapeutic alliance and a willingness to explore their emotional landscape authentically.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you\u2019re recognizing the mix of excitement and anxiety you feel about trying out your affirmation. Acknowledging those anticipatory thoughts is a strong step toward self-awareness. Preparing for moments of discomfort, like through deep breathing and self-reminders, can indeed help you navigate those feelings during your presentation. I encourage you to be gentle with yourself, remembering that it\u2019s okay to feel nervous while also affirming your capability. I'm looking forward to hearing about your experience and the insights you gain from this experiment in our next session!",
+      "client": "I appreciate your encouragement; it feels good to know that being gentle with myself is a priority in this process. I think I\u2019m beginning to see the value in acknowledging my nerves without letting them take over. It\u2019s almost like I\u2019m starting to separate my feelings from my abilities, which is a shift for me. I\u2019m willing to approach this presentation as a learning experience, even if it feels uncomfortable. I hadn't fully recognized how much I needed to give myself permission to feel this way, but it does make some sense now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic to hear that you\u2019re starting to separate your feelings from your abilities\u2014that\u2019s a significant shift! Reflecting on past situations where you felt anxious yet performed well can help reinforce this. Can you think of any specific instances that showcase your capability despite your nerves? Additionally, what strengths or skills do you have that you can rely on during your presentation? Recognizing these can help counter any self-doubt and remind you of your past successes.",
+      "client": "I can think of a few times when I felt anxious but managed to get through it. Like that time I had to lead a small team meeting; I was really nervous, but I found that my preparation helped me stay focused. I think my ability to communicate clearly and engage with others is a strength I can rely on during my presentation. Reflecting on those moments makes me realize that I\u2019ve handled challenging situations before, even when I felt overwhelmed. It feels empowering to connect those past successes to my upcoming presentation; I see now that I can draw on those experiences to help me navigate my nerves this time.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think my anticipatory thoughts are a mix of excitement and anxiety. Part of me is looking forward to trying out the affirmation, while another part worries about how I might respond if I feel overwhelmed during the meeting.\"\n2. \"It\u2019s almost like I\u2019m starting to separate my feelings from my abilities, which is a shift for me. I\u2019m willing to approach this presentation as a learning experience, even if it feels uncomfortable.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant enhancement in emotional depth and self-reflection. They are actively engaging with their feelings of excitement and anxiety, demonstrating a nuanced understanding of their emotional state. This marks a notable departure from earlier stages where the client may have been more factual and less expressive. The recent exchanges reflect a growing comfort with vulnerability as the client acknowledges the importance of preparing for discomfort and begins to separate feelings from abilities.\n\n**Turning Point:** The client\u2019s emotional depth shifted when they articulated, \"It\u2019s almost like I\u2019m starting to separate my feelings from my abilities.\" This recognition signifies a transformative moment in which the client embraces vulnerability and acknowledges their capacity for growth. This newfound ability to reflect on past successes while connecting them to their current situation has fostered a deeper rapport with the therapist and strengthened their engagement level in the counseling process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you reflecting on your past successes and recognizing how your preparation and communication skills have served you well. This connection can be incredibly empowering as you approach your upcoming presentation. As you prepare, consider what specific thoughts or beliefs about your abilities might arise, and challenge them with the evidence of your past achievements. If you were to offer encouragement to a friend feeling the same way, what would you say? This can help reinforce your self-confidence as you continue on this journey.",
+      "client": "I think if I were to encourage a friend in that situation, I might say something like, \u201cRemember all the times you\u2019ve succeeded despite your nerves; you\u2019ve got this.\u201d It's easier to see the strengths in others, and I realize I need to remind myself of that too. I can see that maybe I often forget to acknowledge my own capabilities when I\u2019m feeling anxious. It feels like a powerful shift to think about how I can be my own cheerleader, especially when those doubts creep in. I\u2019m willing to challenge myself to hold onto that encouragement as I prepare for my presentation.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s incredible that you\u2019re recognizing the need to be your own cheerleader\u2014this is such an important step! As you prepare, keep reminding yourself of those past successes and the strengths you bring to the table. What specific strategies can you implement to hold onto that encouragement when doubts arise? Remember, you have the experience and skills to succeed, and acknowledging your capabilities can help lessen the power of your anxiety. Embracing this newfound perspective will be a valuable tool as you move forward!",
+      "client": "I think one strategy I could implement is to create a list of my past successes and the skills that helped me achieve them. I can keep this list handy and review it whenever I start to feel those doubts creeping in. Part of me knows that having tangible reminders of my strengths can really ground me in those moments of anxiety. I also want to practice positive affirmations, maybe even write a few down to repeat to myself before the presentation. That feels a little uncomfortable, but I think it could be really beneficial to reinforce that supportive inner voice.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels empowering to connect those past successes to my upcoming presentation; I see now that I can draw on those experiences to help me navigate my nerves this time.\"\n2. \"I want to practice positive affirmations, maybe even write a few down to repeat to myself before the presentation. That feels a little uncomfortable, but I think it could be really beneficial to reinforce that supportive inner voice.\"\n\n**Progression:** \nIn the most recent exchanges, the client demonstrates a significant emotional depth and openness, marking a noteworthy progression from earlier sessions. Previously, their responses were more factual and defensive, whereas now they reflect a growing awareness of their emotions and a proactive approach to their challenges. The client\u2019s recognition of their ability to empower themselves by connecting past successes to their current anxiety signifies an engaged exploration phase. Additionally, their willingness to implement positive strategies, like practicing affirmations, indicates a deeper level of self-reflection and emotional engagement.\n\n**Turning Point:** \nThe client\u2019s emotional depth shifted notably when they began expressing a desire to \"be my own cheerleader.\" This pivotal moment showcased a new emotional quality where they acknowledged the importance of self-encouragement and recognizing their strengths. This shift in mindset from self-doubt to empowerment represents a deeper engagement with the therapeutic process and a stronger rapport with the therapist, highlighting the client\u2019s readiness to take actionable steps toward personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "I love the idea of creating a list of your past successes and the skills that contributed to them. Having tangible reminders can be a powerful tool to counteract those doubts when they arise. Practicing positive affirmations is also a wonderful strategy; it may feel a bit uncomfortable at first, but with time, it can really help strengthen your belief in yourself. How does it feel to think about using this list and those affirmations as your personal support system? What specific affirmations do you think will resonate most with you?",
+      "client": "It feels encouraging to think about using this list and those affirmations as my personal support system. I can see that maybe having that tangible reminder of my strengths will help me feel more grounded, especially in those moments when self-doubt surfaces. For affirmations, I think something like \u201cI am capable and prepared\u201d really resonates with me; it captures both my skills and the effort I\u2019ve put in. Additionally, I might include reminders like \u201cI can handle whatever comes my way\u201d to reinforce my resilience. I hadn\u2019t connected those things before, but it makes some sense that having that positive framework can help me navigate my anxiety more effectively.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It's fantastic to hear how you\u2019re embracing these affirmations and the idea of using your list as a support system! Reflecting on your strengths and reminding yourself of your capabilities can truly create a more resilient mindset. Can you think of specific instances when you felt anxious but still performed well? What did you do in those moments that contributed to your success? Exploring those past experiences can further reinforce your confidence as you head into your presentation.",
+      "client": "I can think of a few specific instances where I felt that anxiety but managed to perform well. For example, during a group project in college, I was really nervous about presenting our findings, but I focused on my preparation and practice. I remember taking deep breaths and reminding myself that I knew the material well. It felt empowering to push through that anxiety and see that my efforts paid off, as I received positive feedback from both my peers and the professor. I think what helped me in those moments was leaning into my preparation and trusting that I had done the work necessary to succeed. When I consider those experiences, it highlights the importance of preparation and self-belief in overcoming my fears.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"It feels encouraging to think about using this list and those affirmations as my personal support system. I can see that maybe having that tangible reminder of my strengths will help me feel more grounded, especially in those moments when self-doubt surfaces.\"\n2. Client: \"I can think of a few specific instances where I felt that anxiety but managed to perform well. For example, during a group project in college, I was really nervous about presenting our findings, but I focused on my preparation and practice.\"\n\n**Progression:** The client\u2019s most recent interactions reveal a notable increase in emotional depth and self-reflection. They are actively engaging with strategies to combat their anxiety and demonstrating a greater willingness to explore their past successes and vulnerabilities. This marks a significant shift from earlier sessions where emotional expression was limited; now, they articulate their feelings and connect past experiences to their current challenges, indicating a stronger therapeutic alliance and comfort with the therapist.\n\n**Turning Point:** The client\u2019s emotional depth shifted significantly during the exchange where they began to reflect on specific past instances of anxiety where they successfully managed to perform well. This moment marked a transition from merely discussing strategies to actively integrating their experiences and emotions, reflecting a deeper level of self-awareness and insight into their capabilities.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you can identify those moments of success, especially how your preparation and self-belief contributed to your performance despite feeling anxious. Reflecting on that positive feedback from your peers and professor must feel validating as you gear up for your upcoming presentation. How does recalling those experiences shift your perspective about your abilities now? What thoughts about your capabilities can you challenge with the evidence of your past achievements? Remember, you\u2019ve navigated anxiety before and emerged successfully, which is a powerful reminder as you prepare to take on this new challenge.",
+      "client": "Recalling those experiences definitely shifts my perspective about my abilities. I can see that maybe I\u2019ve underestimated myself and allowed those automatic thoughts of self-doubt to take over too often. It feels empowering to remind myself that I've successfully navigated anxiety before and that preparation really does lead to positive outcomes. I think I can challenge the thought that I'm not cut out for handling stress, especially since I\u2019ve shown myself that I can thrive despite feeling anxious. Recognizing that I have the tools and skills to succeed feels like a significant step in building my confidence for the upcoming presentation.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s so encouraging to hear you recognize that underestimating yourself has held you back, especially when you have proven to be capable in stressful situations. Let\u2019s take a moment to analyze the pros and cons of your self-doubt. What are some benefits you can identify about believing in your abilities and focusing on your preparation? Conversely, what are the drawbacks of letting self-doubt take over your thoughts? As you reflect on these points, can you think of specific situations where believing in yourself made a difference? This perspective could really empower you as you prepare for your presentation. Would you like to create a visual chart together to map out these pros and cons?",
+      "client": "I think it might be really helpful to map out those pros and cons visually. When I consider the benefits of believing in my abilities, I see that it can boost my motivation and help me approach challenges with a more positive mindset. It's empowering to recognize that confidence can lead to better performance, and I often feel more engaged and enthusiastic when I trust myself. On the flip side, the drawbacks of self-doubt are pretty significant. It tends to paralyze me, making me second-guess my decisions and leading to missed opportunities. I can think of times when my hesitance kept me from speaking up in group settings, even when I had valuable insights to share. Creating a visual chart could really clarify my thoughts and reinforce the importance of believing in myself moving forward.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4** \n\n**Key Examples:**\n1. **Client's Emotional Expression**: \"Recalling those experiences definitely shifts my perspective about my abilities. I can see that maybe I\u2019ve underestimated myself and allowed those automatic thoughts of self-doubt to take over too often.\"\n2. **Current Openness**: \"It's empowering to recognize that confidence can lead to better performance, and I often feel more engaged and enthusiastic when I trust myself.\"\n\n**Progression**: The client\u2019s most recent interactions demonstrate a clear and consistent emotional depth, particularly with their acknowledgment of self-doubt and its impact on their performance. They are reflecting meaningfully on past successes and recognizing the importance of self-belief, which marks a significant change from earlier exchanges where they exhibited more defensive and factual responses.\n\n**Turning Point**: The client\u2019s emotional depth shifted notably during the discussion about recalling past experiences of overcoming anxiety. They began to express a new emotional quality of empowerment and self-recognition when they articulated, \u201cIt feels empowering to remind myself that I've successfully navigated anxiety before.\u201d This represents a pivotal moment where they transitioned from merely discussing anxiety to actively integrating insights about their capabilities, fostering a stronger therapeutic alliance and promoting deeper self-exploration.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    }
+  ]
+}

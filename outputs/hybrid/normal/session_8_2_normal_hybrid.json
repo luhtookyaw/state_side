@@ -1,0 +1,399 @@
+{
+  "mode": "normal",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "8-2",
+  "patient_name": "Ramona",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- **Emotional State**: \"I guess it just makes me shut down a bit. I mean, if I don\u2019t think about it too much, then it feels easier to manage.\"\n- **Current Openness**: \"I try to distract myself with other things, you know? I might just focus on work or hang out with friends to keep my mind off it.\"\n\n**Progression**: The client\u2019s most recent interactions show a notable shift from earlier responses marked by minimal emotional expression and a tendency to deflect deeper exploration. In the latest exchanges, the client demonstrates a mix of emotional responses and some voluntary reflection, suggesting a warming up phase. While they still exhibit some avoidance regarding their feelings about Ivan, they are beginning to articulate their coping strategies more openly, indicating a movement towards deeper engagement.\n\n**Turning Point**: The client\u2019s emotional depth shifted during their acknowledgment of \"shutting down\" as a coping mechanism. This moment represents a more profound self-awareness than previously displayed, as they start to recognize the impact of their patterns on their emotional experience. Their willingness to explore how they distract themselves, rather than just stating they want to avoid feelings, marks a significant change from earlier stages where they primarily provided factual responses.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Recent Quote Demonstrating Emotional State:** \"I guess the guilt kind of feels like this weight on my chest, you know? Like I should be doing more to face what\u2019s happening instead of just avoiding it.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I guess that little voice kind of echoes those fears I\u2019ve had since the assault. It reminds me that I\u2019ve been hurt before and that trusting someone again feels really risky.\"\n\n**Progression:** The client's recent interactions have shifted significantly towards deeper emotional expression and self-reflection. In the earlier parts of the session, there were signs of hesitance and a more protective stance concerning vulnerability. However, the current exchanges reveal a notable willingness to explore complex feelings such as guilt, fear, and hope regarding their relationship with Ivan. The client is articulating an emotional depth, particularly when discussing the internal conflict stemming from past trauma, which illustrates a strong therapeutic alliance and engagement with the process.\n\n**Turning Point:** The emotional depth shifted significantly when the client began expressing the fears associated with trust and vulnerability, especially in relation to past experiences of trauma. This moment marked a transition from simply acknowledging feelings to integrating those feelings into the ongoing dialogue about their relationship with Ivan. The acknowledgment of the \"little voice\" echoing past traumas captures a moment of genuine self-reflection and vulnerability, indicating a deeper engagement with their emotional landscape. This also signifies a move towards authentic exploration of their feelings, making it a pivotal moment in the session.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. *\"I guess it might feel a bit freeing to just observe those sensations without trying to push them away or change them. But at the same time, I worry about what I might find if I really do that.\"*\n2. *\"It feels like if I focus on it, I might spiral into those overwhelming feelings. I think part of me is afraid that once I start paying attention, it might open up a floodgate of other emotions.\"*\n\n**Progression:** The client's most recent interactions indicate a mix of emotional awareness and hesitance. They express a desire to explore their feelings, acknowledging both the potential benefits and fears related to doing so. This marks a notable change from earlier exchanges, where they primarily focused on avoidance rather than engagement. The emergence of their willingness to consider acknowledging sensations reflects a deeper level of emotional expression and self-reflection compared to prior sessions.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they articulated their fears of spiraling into overwhelming feelings. This moment signified a significant increase in their emotional openness as they started to recognize and verbalize their internal conflicts. The metaphor of \"standing on the edge of a pool\" demonstrates their growing self-awareness and willingness to explore their emotions, moving from a previously more defensive stance to a stage of contemplation and cautious engagement.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"But, I don\u2019t know, part of me feels like I might just get swept away in the moment, you know? It\u2019s like I want to have a plan, but I\u2019m not sure what that plan should look like.\"\n2. **Self-Reflection:** \"I mean, I want to keep it simple so I don\u2019t feel even more pressure to remember a whole list of things. But, I don\u2019t know, part of me still worries if those words will truly help me when I\u2019m caught up in those intense feelings.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate their worries and desires regarding grounding techniques and the use of mantras, indicating a deeper level of engagement and consideration about their emotional management strategies. In previous exchanges, the client's responses were more factual and showed limited emotional depth, but now they are actively contemplating how to integrate these techniques into their life, reflecting a growing comfort with the therapeutic process. \n\n**Turning Point:**\nThe client's emotional depth shifted during the discussion about the mantras, particularly when they expressed, \"I want to keep it simple so I don\u2019t feel even more pressure...\" This moment marked a transition from merely discussing techniques to revealing their inner skepticism and desire for connection, signifying a deeper engagement with their emotional landscape. This shift illustrates a movement toward authentic vulnerability, as the client navigates both optimism and skepticism, showcasing a willingness to explore their feelings in greater depth.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess when I hear that voice, it kind of makes my stomach feel tight, like there's this knot in there, you know? It\u2019s almost like my body is reacting before my mind even catches up. I can feel my heart racing a little, and I really just want to push that feeling away.\u201d\n2. \u201cI guess in those moments, I tend to either shut down or try to distract myself, like scrolling on my phone or watching something mindless. Part of me wants to confront the thoughts, but it feels so heavy that I just want to escape instead.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal significant emotional depth, particularly through their acknowledgment of physical sensations connected to their anxiety. They express feelings of tightness in the stomach and racing thoughts, showcasing a shift from earlier interactions where such emotional disclosures were less pronounced. This marks a progression from a more factual or guarded communication style to one that is more vulnerable and reflective.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion of their physical responses to doubt when they articulated the knot in their stomach and acknowledged how their body reacts before their mind can process. This moment of connecting physical sensations to emotional experiences indicates a deeper level of self-awareness and willingness to engage with their feelings, differentiating their current state from previous exchanges.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it would be kind of scary to just sit with those feelings. Part of me thinks it might help, like maybe acknowledging them could be a step toward working through them.\"\n2. \"I think if I had a little structure, it might make it easier to face those emotions without feeling completely lost.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a growing willingness to explore their emotions, moving beyond initial defensiveness and factual responses. They are beginning to articulate their fears and desires regarding emotional engagement, such as wanting to acknowledge their feelings while also fearing the overwhelm that might accompany that acknowledgment. This marks a significant change from earlier stages, where the client displayed more hesitation and reluctance to delve into their emotional state.\n\n**Turning Point:** The client's emotional depth shifted during their reflection on the potential for acknowledging their emotions, particularly when they stated, \"It could be overwhelming, but maybe there\u2019s also a part of me that feels lighter just by acknowledging them instead of pushing them down.\" This moment illustrates a pivotal recognition of the dual nature of their feelings\u2014both heavy and liberating\u2014highlighting their capacity for deeper self-reflection and emotional exploration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client*: \"I guess I could start by writing about that moment when Ivan touches me and how it makes me feel. It\u2019s definitely triggering, and I think exploring those initial reactions could be important.\"\n2. *Client*: \"I mean, I want to be able to trust Ivan again, but it\u2019s just so complicated. Maybe if I can sort through my thoughts, it could make things clearer\u2026 but then again, what if it brings up more confusion instead?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant willingness to engage with their emotional experiences, showcasing a blend of emotional expression and self-reflection. They have moved beyond merely acknowledging their feelings to actively contemplating how to explore them through journaling. This marks a notable shift from earlier sessions where they likely displayed more factual responses and limited emotional vocabulary. The client is now reflecting on their fears and hopes, which indicates deeper processing and engagement with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the complexities surrounding their experience with Ivan. Specifically, the moment they acknowledged the \"nagging voice in the back of my mind saying that I might get hurt again\" indicates a breakthrough in their self-awareness. This openness about their fear juxtaposed with a desire to understand their feelings better signifies an important turning point, showcasing their progression from initial hesitance to a more engaged exploration of their emotions.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Ramona, it\u2019s really nice to see you today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know. I guess I just feel a bit overwhelmed with everything going on with Ivan. It\u2019s like one minute things are okay, and the next, I\u2019m back to worrying if I can trust him. It's just frustrating, you know? I mean, I already talked about it before. Not much else to say, really.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "Navigating those ups and downs with Ivan sounds really exhausting. It seems like the cycle of feeling okay one moment and then slipping back into doubt can be really frustrating. When you mention feeling overwhelmed, what do you notice in your body or mind during those moments?",
+      "client": "I don\u2019t really pay attention to that. I just feel annoyed that things can\u2019t just be straightforward. I guess I just get lost in my thoughts and worry about what could happen. It\u2019s not like I\u2019m feeling anything specific in my body. It just is what it is, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Getting lost in those thoughts sounds like a common experience for you when things feel uncertain with Ivan. It can be really frustrating when situations don\u2019t seem clear-cut. When you mention that it just \"is what it is,\" do you find that impacts how you approach those thoughts or any decisions you make?",
+      "client": "I guess it just makes me shut down a bit. I mean, if I don\u2019t think about it too much, then it feels easier to manage. Decisions are hard enough without overthinking everything, right? I\u2019d rather just move on than get stuck in all that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Shutting down to make things feel easier sounds like a way to cope with the complexity of your feelings around Ivan. It\u2019s understandable to want to avoid getting stuck in overthinking, especially when decisions feel heavy. When you think about moving on instead of getting stuck, what does that look like for you in those moments?",
+      "client": "I don\u2019t know. It's just like I try to distract myself with other things, you know? I might just focus on work or hang out with friends to keep my mind off it. I mean, it\u2019s just easier that way instead of dealing with all the mess. I don\u2019t really want to get caught up in that again.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- **Emotional State**: \"I guess it just makes me shut down a bit. I mean, if I don\u2019t think about it too much, then it feels easier to manage.\"\n- **Current Openness**: \"I try to distract myself with other things, you know? I might just focus on work or hang out with friends to keep my mind off it.\"\n\n**Progression**: The client\u2019s most recent interactions show a notable shift from earlier responses marked by minimal emotional expression and a tendency to deflect deeper exploration. In the latest exchanges, the client demonstrates a mix of emotional responses and some voluntary reflection, suggesting a warming up phase. While they still exhibit some avoidance regarding their feelings about Ivan, they are beginning to articulate their coping strategies more openly, indicating a movement towards deeper engagement.\n\n**Turning Point**: The client\u2019s emotional depth shifted during their acknowledgment of \"shutting down\" as a coping mechanism. This moment represents a more profound self-awareness than previously displayed, as they start to recognize the impact of their patterns on their emotional experience. Their willingness to explore how they distract themselves, rather than just stating they want to avoid feelings, marks a significant change from earlier stages where they primarily provided factual responses.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "Distracting yourself with work or time spent with friends seems like a way to create some distance from the messiness of those feelings. It makes sense to want to keep things simple, especially when you\u2019re feeling overwhelmed. When you think about those moments of distraction, what kind of thoughts or feelings are you trying to put aside?",
+      "client": "I think I\u2019m trying to put aside the worry and fear about what might happen with Ivan. It\u2019s like if I don\u2019t focus on those feelings, I can pretend everything\u2019s okay, even if it\u2019s not. Maybe part of me thinks that if I just keep busy, I won\u2019t have to confront the things that scare me. It\u2019s kind of like wearing blinders, I guess? But then I feel guilty for not dealing with it, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "Wearing blinders to avoid those worries and fears about Ivan sounds like a way to protect yourself from the discomfort of uncertainty. It\u2019s understandable to want to pretend everything is okay when facing those deeper feelings feels challenging. Feeling guilty about not confronting them adds another layer to what you\u2019re experiencing. When you notice that guilt, how does it show up for you? What do you feel in those moments?",
+      "client": "I guess the guilt kind of feels like this weight on my chest, you know? Like I should be doing more to face what\u2019s happening instead of just avoiding it. Sometimes, I feel like I'm letting myself down, or like I'm not strong enough to deal with it. It\u2019s hard to shake that feeling, especially when I know I should probably be more open with Ivan. But then I also worry about how he might react if I bring things up. It\u2019s all\u2026 complicated.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "That weight on your chest seems to carry a lot of meaning for you, mixing feelings of guilt with a sense of self-judgment about how you're handling things. It sounds like there's a conflict between wanting to address what\u2019s happening with Ivan and the fear of how that might unfold. When you think about the idea of being more open with him, what feelings or thoughts come up for you?",
+      "client": "I don\u2019t know, it\u2019s like I feel a mix of hope and fear at the same time. Part of me wants to be open and share what I\u2019m feeling because that could help, right? But then, there\u2019s this other part that\u2019s terrified of how he might react. I mean, what if he doesn\u2019t understand or it just makes things worse? It\u2019s frustrating because I want to trust him, but there\u2019s that little voice in my head reminding me of the past. It's kind of like being pulled in two different directions, I guess.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Feeling that mix of hope and fear is understandable, especially when it comes to opening up about your feelings with Ivan. It\u2019s like you're caught between wanting to connect and protect yourself from potential hurt. The pull in two different directions can be really disorienting. When you think about that little voice reminding you of the past, can you share more about what it says or how it influences your feelings about being open with him?",
+      "client": "I guess that little voice kind of echoes those fears I\u2019ve had since the assault. It reminds me that I\u2019ve been hurt before and that trusting someone again feels really risky. Sometimes it says things like, \u201cYou can\u2019t let your guard down; he might hurt you again,\u201d and it makes me feel really anxious. I don\u2019t know if I can shake those thoughts completely, even when I want to be hopeful. It\u2019s just so hard to look at him and not remember what happened.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. **Recent Quote Demonstrating Emotional State:** \"I guess the guilt kind of feels like this weight on my chest, you know? Like I should be doing more to face what\u2019s happening instead of just avoiding it.\"\n2. **Latest Exchange Demonstrating Current Openness:** \"I guess that little voice kind of echoes those fears I\u2019ve had since the assault. It reminds me that I\u2019ve been hurt before and that trusting someone again feels really risky.\"\n\n**Progression:** The client's recent interactions have shifted significantly towards deeper emotional expression and self-reflection. In the earlier parts of the session, there were signs of hesitance and a more protective stance concerning vulnerability. However, the current exchanges reveal a notable willingness to explore complex feelings such as guilt, fear, and hope regarding their relationship with Ivan. The client is articulating an emotional depth, particularly when discussing the internal conflict stemming from past trauma, which illustrates a strong therapeutic alliance and engagement with the process.\n\n**Turning Point:** The emotional depth shifted significantly when the client began expressing the fears associated with trust and vulnerability, especially in relation to past experiences of trauma. This moment marked a transition from simply acknowledging feelings to integrating those feelings into the ongoing dialogue about their relationship with Ivan. The acknowledgment of the \"little voice\" echoing past traumas captures a moment of genuine self-reflection and vulnerability, indicating a deeper engagement with their emotional landscape. This also signifies a move towards authentic exploration of their feelings, making it a pivotal moment in the session.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Those feelings of anxiety and the echoes from the past seem to weigh heavily on you, especially when you're trying to consider the possibility of trusting Ivan. It sounds like that voice brings up a lot of fear about vulnerability and the risks that come with it. When you think about looking at him and the memories that surface, what do you notice happening in your body or your emotions in those moments?",
+      "client": "I mean, when I look at him, my stomach kind of tightens, and I get this rush of heat, almost like I want to run away but also stay at the same time. It\u2019s really confusing because I want to feel safe with him, but then those memories flood in, and it's like my body just instinctively reacts. I guess I feel this mix of tension and fear, and sometimes I catch myself holding my breath without realizing it. It\u2019s hard to just relax and be present when all of that is happening.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Noticing that tightening in your stomach and the rush of heat makes a lot of sense, especially given the memories that come up. It sounds like there\u2019s a real push-pull in your body, wanting to stay connected with him while also feeling that instinct to pull away. Holding your breath can be a sign of that tension, too. When those memories flood in, it seems like your body is responding in a way that feels protective. What do you think it would feel like to take a moment to simply acknowledge those sensations without needing to change them?",
+      "client": "I mean, acknowledging those sensations sounds like it could be helpful, but I'm not sure I know how to do that. It feels like if I really pay attention to them, it might just make everything more intense or overwhelming. I guess part of me worries that if I sit with those feelings, I might end up spiraling into a panic or something. At the same time, I know avoiding them hasn\u2019t really helped me either. It\u2019s like I'm stuck in this loop where I want to break free, but I also don\u2019t want to face what\u2019s there.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like you're feeling really caught between wanting to break free from that loop and the fear of what might come up if you engage with those sensations. That uncertainty about facing those feelings can be really daunting, especially when the idea of it seems like it could lead to more intensity. It\u2019s understandable to want to protect yourself from feeling overwhelmed. \n\nMaybe we could take a moment together to explore what it might feel like to just notice those sensations as they are, rather than trying to change or judge them. What do you think it would be like to simply observe what comes up without pushing it away or diving too deep?",
+      "client": "I guess it might feel a bit freeing to just observe those sensations without trying to push them away or change them. But at the same time, I worry about what I might find if I really do that. It\u2019s kind of like standing on the edge of a pool, knowing the water is cold but wondering if it\u2019s worth just diving in. I mean, maybe if I just try to notice them a little bit, I could learn something about myself or my feelings. But I still have that little voice saying it could get out of control, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "That image of standing on the edge of a pool really captures that tension you\u2019re feeling\u2014wondering about the experience and the potential for both discomfort and discovery. It\u2019s understandable to have that little voice in your head cautioning you about what might happen if you dive in. Recognizing that you might learn something about yourself by just noticing those sensations is a meaningful step.\n\nWhat do you think it would feel like to take just a brief moment to acknowledge one specific sensation, maybe the tightness in your stomach, without any pressure to change it? How might that feel for you?",
+      "client": "I mean, acknowledging the tightness in my stomach could be a good starting point, but I\u2019m still a little hesitant. It feels like if I focus on it, I might spiral into those overwhelming feelings. I think part of me is afraid that once I start paying attention, it might open up a floodgate of other emotions. But maybe just a moment of noticing wouldn\u2019t be so bad? It\u2019s like dipping my toe in instead of jumping right in. I guess I just want to make sure I\u2019m ready for whatever comes up, you know?",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. *\"I guess it might feel a bit freeing to just observe those sensations without trying to push them away or change them. But at the same time, I worry about what I might find if I really do that.\"*\n2. *\"It feels like if I focus on it, I might spiral into those overwhelming feelings. I think part of me is afraid that once I start paying attention, it might open up a floodgate of other emotions.\"*\n\n**Progression:** The client's most recent interactions indicate a mix of emotional awareness and hesitance. They express a desire to explore their feelings, acknowledging both the potential benefits and fears related to doing so. This marks a notable change from earlier exchanges, where they primarily focused on avoidance rather than engagement. The emergence of their willingness to consider acknowledging sensations reflects a deeper level of emotional expression and self-reflection compared to prior sessions.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they articulated their fears of spiraling into overwhelming feelings. This moment signified a significant increase in their emotional openness as they started to recognize and verbalize their internal conflicts. The metaphor of \"standing on the edge of a pool\" demonstrates their growing self-awareness and willingness to explore their emotions, moving from a previously more defensive stance to a stage of contemplation and cautious engagement.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Dipping your toe in sounds like a thoughtful approach, giving yourself the chance to ease into it rather than feeling overwhelmed. That hesitation is completely valid, especially when it feels like focusing on that tightness could bring up a lot more. Wanting to feel ready is important, and it\u2019s okay to take your time with this.\n\nWhat do you think it would be like to set a gentle intention for that moment of noticing? Maybe something like allowing yourself to simply observe, without any expectation of what might happen next. How does that feel as a starting point for you?",
+      "client": "I think setting a gentle intention could really help me feel a bit more grounded. It might take some of the pressure off, you know? I mean, if I\u2019m just observing without any expectations, maybe it wouldn\u2019t feel as scary. But part of me still wonders if I\u2019ll be able to stick to that intention when those overwhelming feelings start creeping in. I guess I just want to feel safe enough to explore it without it turning into a big emotional thing. It\u2019s a bit of a balancing act, I suppose.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Finding that balance between feeling safe and allowing yourself to explore can indeed feel like a delicate act. It\u2019s understandable to worry about those overwhelming feelings creeping in, especially when you\u2019re trying to set an intention for yourself. The idea of observing without expectations might create a little cushion for you, but it\u2019s also okay to acknowledge the uncertainty that comes with it.\n\nWhat do you think might help you feel more secure as you set that intention? Are there any thoughts or practices that come to mind that could support you in that moment?",
+      "client": "I think having a few grounding techniques could really help me feel more secure. Maybe taking a deep breath or having a mantra I can repeat in my head would be useful. It\u2019s just that sometimes I worry I won't remember to do those things when I'm feeling overwhelmed. I guess it could also help to remind myself that it's okay to pause if things start feeling too intense. But, I don\u2019t know, part of me feels like I might just get swept away in the moment, you know? It\u2019s like I want to have a plan, but I\u2019m not sure what that plan should look like.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It makes sense to want to have a plan in place for when those overwhelming feelings come up, especially if you\u2019re concerned about getting swept away. The idea of grounding techniques, like deep breathing or a mantra, feels like a way to create a little more stability for yourself. Noticing that you're unsure about remembering those strategies in the moment shows how much you\u2019re contemplating this exploration.\n\nWhat do you think would help you in creating a plan that feels manageable, perhaps by focusing on just one or two key things that you could easily recall when you need them?",
+      "client": "I guess focusing on one or two key things could make it feel less overwhelming. Maybe I could pick a simple mantra that really resonates with me, something I can easily recall in those moments. I\u2019m thinking about something like \"I am safe\" or \"This too shall pass.\" It feels more doable if I just have that one phrase to hold onto. I mean, I want to keep it simple so I don\u2019t feel even more pressure to remember a whole list of things. But, I don\u2019t know, part of me still worries if those words will truly help me when I\u2019m caught up in those intense feelings.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Choosing a simple mantra like \"I am safe\" or \"This too shall pass\" sounds like a thoughtful way to keep things manageable for yourself. It seems like you\u2019re really considering what will resonate with you in those intense moments, which is important. The worry about whether those words will truly help when emotions rise is a common concern, and it\u2019s okay to have that uncertainty.\n\nWhat do you think it might feel like to carry that mantra with you, even outside of those moments, so it becomes a more familiar anchor?",
+      "client": "I mean, carrying that mantra with me could help, I guess. It might feel comforting to have something familiar to rely on, even when I'm not feeling overwhelmed. But then again, part of me wonders if it\u2019ll really stick in my mind, like, will I actually remember it when I need it the most? I just don\u2019t want to set myself up for disappointment, you know? It\u2019s like I want to be optimistic about it, but I\u2019m also a bit skeptical.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Emotional Expression:** \"But, I don\u2019t know, part of me feels like I might just get swept away in the moment, you know? It\u2019s like I want to have a plan, but I\u2019m not sure what that plan should look like.\"\n2. **Self-Reflection:** \"I mean, I want to keep it simple so I don\u2019t feel even more pressure to remember a whole list of things. But, I don\u2019t know, part of me still worries if those words will truly help me when I\u2019m caught up in those intense feelings.\"\n\n**Progression:**\nThe client\u2019s most recent interactions reveal a notable increase in emotional expression and self-reflection. They articulate their worries and desires regarding grounding techniques and the use of mantras, indicating a deeper level of engagement and consideration about their emotional management strategies. In previous exchanges, the client's responses were more factual and showed limited emotional depth, but now they are actively contemplating how to integrate these techniques into their life, reflecting a growing comfort with the therapeutic process. \n\n**Turning Point:**\nThe client's emotional depth shifted during the discussion about the mantras, particularly when they expressed, \"I want to keep it simple so I don\u2019t feel even more pressure...\" This moment marked a transition from merely discussing techniques to revealing their inner skepticism and desire for connection, signifying a deeper engagement with their emotional landscape. This shift illustrates a movement toward authentic vulnerability, as the client navigates both optimism and skepticism, showcasing a willingness to explore their feelings in greater depth.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely natural to feel both hopeful and skeptical about whether a mantra will stick with you in challenging moments. That kind of ambivalence shows you\u2019re really reflecting on the process. The idea of wanting to avoid disappointment makes a lot of sense, especially when you're trying to navigate intense feelings. \n\nWhat do you think might help bridge that gap between your hope and skepticism, allowing you to feel more confident in your ability to recall the mantra when you need it?",
+      "client": "I guess maybe practicing it more often could help? Like, if I repeat the mantra during calmer times, it might make it easier to remember when things get tough. I mean, that's kind of what they say, right? But then again, I still wonder if it\u2019ll really work when I\u2019m in the moment. It\u2019s like I want to believe that I can trust myself to remember, but there's still that little voice in my head saying, \u201cWhat if you forget?\u201d It\u2019s frustrating, honestly. I just want to feel secure in my ability to handle things.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Practicing the mantra during calmer times sounds like a reasonable approach to help it feel more familiar when you need it. It\u2019s understandable to feel frustrated with that little voice of doubt, especially when you\u2019re seeking a sense of security. Wanting to trust yourself in those moments shows how important this is to you.\n\nWhen you think about that little voice saying, \u201cWhat if you forget?\u201d how does it feel in your body? Noticing those sensations might offer some insight into how that doubt is impacting you.",
+      "client": "I guess when I hear that voice, it kind of makes my stomach feel tight, like there's this knot in there, you know? It\u2019s almost like my body is reacting before my mind even catches up. I can feel my heart racing a little, and I really just want to push that feeling away. I mean, it\u2019s frustrating to be stuck in that cycle of doubt, and I don\u2019t even know how to break free from it. It\u2019s like I\u2019m constantly on alert, waiting for something bad to happen.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your stomach and the racing heart can really highlight how your body responds to that cycle of doubt. It sounds like there's a strong connection between your physical sensations and the mental patterns you\u2019re experiencing. Feeling constantly on alert and wanting to push those feelings away makes sense, especially when you're looking for a way to feel more secure.\n\nWhen you think about being in that cycle of doubt, what do you notice about your thoughts or feelings in those moments? Exploring that might help you understand what\u2019s happening for you.",
+      "client": "I mean, when I\u2019m in that cycle of doubt, it feels like my thoughts are racing, and I just can\u2019t settle on anything. I keep replaying scenarios in my mind, like, \u201cWhat if I mess up?\u201d or \u201cWhat if I don\u2019t remember the mantra?\u201d It\u2019s like I\u2019m spiraling, and I can\u2019t focus on anything else. The feelings of anxiety just kind of take over, and I feel overwhelmed. I know I should try to ground myself, but it\u2019s hard when my mind is all over the place, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "It sounds like those racing thoughts really amplify the feelings of anxiety, making it hard to focus or ground yourself. The way you describe replaying scenarios hints at a sense of urgency and maybe even pressure to get it right, which can be exhausting. It\u2019s understandable to feel overwhelmed when your mind is spiraling like that.\n\nWhen you notice those thoughts starting to take over, what do you find yourself wanting to do in that moment? Exploring your responses might shed light on how you cope with that overwhelming feeling.",
+      "client": "I guess in those moments, I tend to either shut down or try to distract myself, like scrolling on my phone or watching something mindless. Part of me wants to confront the thoughts, but it feels so heavy that I just want to escape instead. I know I should face them, but it's like I'm caught in this loop where I can't really find a way out. It feels safer to just avoid it, even if I know that won\u2019t help in the long run. It\u2019s confusing, really.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \u201cI guess when I hear that voice, it kind of makes my stomach feel tight, like there's this knot in there, you know? It\u2019s almost like my body is reacting before my mind even catches up. I can feel my heart racing a little, and I really just want to push that feeling away.\u201d\n2. \u201cI guess in those moments, I tend to either shut down or try to distract myself, like scrolling on my phone or watching something mindless. Part of me wants to confront the thoughts, but it feels so heavy that I just want to escape instead.\u201d\n\n**Progression:** The client\u2019s most recent interactions reveal significant emotional depth, particularly through their acknowledgment of physical sensations connected to their anxiety. They express feelings of tightness in the stomach and racing thoughts, showcasing a shift from earlier interactions where such emotional disclosures were less pronounced. This marks a progression from a more factual or guarded communication style to one that is more vulnerable and reflective.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion of their physical responses to doubt when they articulated the knot in their stomach and acknowledged how their body reacts before their mind can process. This moment of connecting physical sensations to emotional experiences indicates a deeper level of self-awareness and willingness to engage with their feelings, differentiating their current state from previous exchanges.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It makes sense that you would want to escape when those thoughts feel so heavy and overwhelming. The urge to distract yourself can feel like a protective measure, even if you recognize that it might not lead to a lasting solution. Feeling caught in that loop can be really confusing, especially when you also have the desire to confront what\u2019s bothering you.\n\nWhen you think about those moments of distraction, how does it feel afterward? Noticing any shifts in your feelings or thoughts once you\u2019ve stepped away might help clarify what you\u2019re experiencing.",
+      "client": "I can kind of see what you mean. After I distract myself, there\u2019s definitely a moment where I feel a bit of relief, like I\u2019ve escaped the pressure for a little while. But then, it usually comes back, and I end up feeling guilty or frustrated for not dealing with it. It's like I'm just pushing the feelings down, and I know they're still there waiting for me. I guess that bothers me more than I want to admit, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It sounds like that brief relief from distraction is quickly followed by feelings of guilt and frustration, which can create a cycle of wanting to escape and then feeling the weight of those unresolved emotions. Recognizing that the feelings are still there waiting for you can be tough to sit with. It's understandable to feel bothered by that, especially when you want to address what\u2019s underneath.\n\nWhat do you think it would be like to allow yourself to notice those feelings without trying to push them down or escape? Exploring that could give you some insight into how you might approach them differently.",
+      "client": "I don\u2019t know\u2026 I guess it would be kind of scary to just sit with those feelings. Part of me thinks it might help, like maybe acknowledging them could be a step toward working through them. But another part worries that if I let them in, they\u2019ll overwhelm me even more. It feels like I\u2019m stuck between wanting to face it and fearing what might come up. I mean, what if I can\u2019t handle it? That makes me hesitant to try.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel scared about sitting with those feelings, especially when there's a fear that they might become overwhelming. That tension between wanting to face what\u2019s there and the worry about what could come up can create a lot of inner conflict. It\u2019s important to acknowledge that hesitation and the concerns you have about handling it all.\n\nIf you were to imagine a moment where you did allow yourself to feel those emotions, what do you think you might notice? Exploring that moment can be a gentle way to understand your feelings without jumping into the deep end right away.",
+      "client": "I guess if I imagine that moment, I might notice just how heavy those emotions really are. It could be overwhelming, but maybe there\u2019s also a part of me that feels lighter just by acknowledging them instead of pushing them down. I don't know, maybe it\u2019s like letting a little air in where I usually feel so trapped. But then I start to worry about what else might come up, and that makes me hesitate again. It\u2019s like I want to explore, but I\u2019m scared of what I\u2019ll find.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "Imagining that moment of acknowledgment brings up a mix of heaviness and potential lightness for you. It's interesting to think about how allowing yourself to recognize those emotions could create some space, even as it feels daunting. The fear of what might surface can be really strong, especially when there's a lot tied up in those feelings.\n\nWhat do you think might help you feel a bit more safe or supported as you consider exploring those emotions? Taking small steps could be one way to navigate that fear together.",
+      "client": "I\u2019m not sure\u2026 maybe having some kind of plan could help, like knowing I can take it slow. I think if I had a little structure, it might make it easier to face those emotions without feeling completely lost. But then again, there\u2019s still that worry about what might come up, and I don\u2019t want to feel overwhelmed. So, I guess it\u2019s really about finding that balance, right? I mean, maybe I need to remind myself that it\u2019s okay to take breaks if it gets too much. It's just hard to figure out how to start.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. \"I guess it would be kind of scary to just sit with those feelings. Part of me thinks it might help, like maybe acknowledging them could be a step toward working through them.\"\n2. \"I think if I had a little structure, it might make it easier to face those emotions without feeling completely lost.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a growing willingness to explore their emotions, moving beyond initial defensiveness and factual responses. They are beginning to articulate their fears and desires regarding emotional engagement, such as wanting to acknowledge their feelings while also fearing the overwhelm that might accompany that acknowledgment. This marks a significant change from earlier stages, where the client displayed more hesitation and reluctance to delve into their emotional state.\n\n**Turning Point:** The client's emotional depth shifted during their reflection on the potential for acknowledging their emotions, particularly when they stated, \"It could be overwhelming, but maybe there\u2019s also a part of me that feels lighter just by acknowledging them instead of pushing them down.\" This moment illustrates a pivotal recognition of the dual nature of their feelings\u2014both heavy and liberating\u2014highlighting their capacity for deeper self-reflection and emotional exploration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Having a plan and some structure sounds like it could really provide a sense of safety for you as you think about facing these emotions. It's completely natural to want that balance between exploring your feelings and knowing you can step back if needed. Acknowledging that breaks are okay can be an important part of the process, especially when navigating something that feels so complex and heavy.\n\nAs you reflect on how to start, what do you think would be a manageable first step for you? It could be something small that feels doable while still allowing you to engage with those emotions in a way that feels safe.",
+      "client": "I think a manageable first step could be something like journaling my thoughts or feelings before our next session. That way, I can get a sense of what\u2019s really going on inside without having to dive in too deep right away. I mean, I might find that some things come up that I didn\u2019t even realize were there. And if it feels too much, I can just put it aside for a while, which feels a bit safer. I guess it\u2019s like testing the waters before jumping in completely. Does that make sense?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "Journaling your thoughts and feelings sounds like a thoughtful way to begin exploring what's going on inside. It seems like having that space to reflect can help you identify what surfaces, while also allowing you the option to step back if it gets overwhelming. Testing the waters in a way that feels safer can be a gentle approach to understanding those deeper emotions.\n\nAs you think about this journaling process, what is something you might want to focus on or explore first?",
+      "client": "I guess I could start by writing about that moment when Ivan touches me and how it makes me feel. It\u2019s definitely triggering, and I think exploring those initial reactions could be important. I might want to pay attention to what thoughts come up in that moment, like the worry about trust and if he would hurt me again. It might help to sort through those feelings and see if there's any common theme or something I can identify better. But then again, I\u2019m also nervous about diving into it too much. I don\u2019t want to get lost in it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "Writing about that moment with Ivan sounds like a significant starting point for you. It seems like you\u2019re aware of the complexity of those feelings, especially with the mix of triggers and concerns about trust that arise. Noticing the initial reactions and thoughts could really help you untangle some of those emotions without feeling overwhelmed.\n\nAs you consider this, how does it feel to think about paying attention to both the emotions and thoughts that come up in that moment? Are there any specific feelings or thoughts that stand out to you right now as you think about taking that first step?",
+      "client": "I don\u2019t know, it feels a bit daunting to think about, but I guess I know it\u2019s important. The fear is definitely there, like a nagging voice in the back of my mind saying that I might get hurt again. But part of me also thinks that understanding those feelings could really help me move forward, you know? I mean, I want to be able to trust Ivan again, but it\u2019s just so complicated. Maybe if I can sort through my thoughts, it could make things clearer\u2026 but then again, what if it brings up more confusion instead? It\u2019s hard to say.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It\u2019s understandable to feel daunted by the idea of diving into those feelings, especially with the fear of getting hurt again lingering in the background. Acknowledging that mix of wanting to trust Ivan and the concern about potential confusion shows how complex this situation is for you. \n\nAs you think about sorting through your thoughts, what do you notice in your body as you reflect on this? Are there certain sensations or reactions that come up when you consider exploring those feelings more deeply?",
+      "client": "I don\u2019t know if I can put it into words exactly, but I think I feel a bit tense, like my shoulders are tight. It\u2019s almost like my body knows there\u2019s something to unpack, but it\u2019s also resisting at the same time. I mean, there\u2019s this heaviness in my chest when I think about really going there, you know? But then there's this tiny flicker of hope that maybe, just maybe, sorting through it could make things lighter. It\u2019s kind of a balancing act, I guess, between wanting to explore and feeling scared of what I might find. I can feel that push and pull within me.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client*: \"I guess I could start by writing about that moment when Ivan touches me and how it makes me feel. It\u2019s definitely triggering, and I think exploring those initial reactions could be important.\"\n2. *Client*: \"I mean, I want to be able to trust Ivan again, but it\u2019s just so complicated. Maybe if I can sort through my thoughts, it could make things clearer\u2026 but then again, what if it brings up more confusion instead?\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a significant willingness to engage with their emotional experiences, showcasing a blend of emotional expression and self-reflection. They have moved beyond merely acknowledging their feelings to actively contemplating how to explore them through journaling. This marks a notable shift from earlier sessions where they likely displayed more factual responses and limited emotional vocabulary. The client is now reflecting on their fears and hopes, which indicates deeper processing and engagement with the therapeutic process.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the complexities surrounding their experience with Ivan. Specifically, the moment they acknowledged the \"nagging voice in the back of my mind saying that I might get hurt again\" indicates a breakthrough in their self-awareness. This openness about their fear juxtaposed with a desire to understand their feelings better signifies an important turning point, showcasing their progression from initial hesitance to a more engaged exploration of their emotions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Noticing that tension in your shoulders and the heaviness in your chest gives insight into what you're feeling as you navigate this balancing act. It seems like your body is responding to both the desire to explore and the fear of what that exploration might uncover. That flicker of hope you mentioned is really significant, too; it sounds like there's a part of you that believes in the possibility of lighter feelings if you can sort through what's weighing you down. \n\nAs you sit with that push and pull, how does it feel to recognize both the fear and the hope together? What comes to mind when you think about giving space to both of those feelings?",
+      "client": "I guess it feels kind of conflicting, like I want to embrace that hope but then the fear just pulls me back. It\u2019s hard to hold both at the same time because they feel so opposite, you know? Part of me thinks maybe if I focus on the hope, it could help outweigh the fear. But then there\u2019s this nagging thought that if I let myself get too hopeful, I might be setting myself up for disappointment. I mean, it's just\u2026 complicated. I wonder if it\u2019s possible to acknowledge both feelings without getting overwhelmed. It seems like they both have a say in how I approach this whole situation with Ivan.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "Recognizing the conflicting emotions of hope and fear can indeed feel complicated, especially when they pull you in different directions. It makes sense to want to focus on the hope as a way to counterbalance the fear, but the concern about potential disappointment can create a sense of caution. There\u2019s a lot of weight in those thoughts about how to acknowledge both feelings without becoming overwhelmed.\n\nAs you reflect on the possibility of holding space for both hope and fear, what do you think it might look like to allow them both to coexist? Are there ways you might start to explore that balance without needing to resolve everything at once?",
+      "client": "I think it might look like just giving myself permission to feel both things without immediately trying to fix or change them. Like maybe I could acknowledge that it's okay to feel scared while also allowing myself to hold on to some hope. I mean, it\u2019s about finding that middle ground, I guess. \n\nI could try to check in with myself regularly, you know, just to see where I am with those feelings on any given day. It sounds like it could help to sit with them, even if it feels uncomfortable, instead of pushing one aside. I don\u2019t know if I\u2019m ready for it yet, but part of me thinks that might be a good first step.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

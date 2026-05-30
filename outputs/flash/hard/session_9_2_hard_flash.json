@@ -1,0 +1,2256 @@
+{
+  "mode": "hard",
+  "therapist_type": "flash",
+  "initial_openness_level": 1,
+  "final_openness_level": 3,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "patient_id": "9-2",
+  "patient_name": "Fiona",
+  "client_type": "prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"It\u2019s really not that big of a deal, but it feels like I\u2019m the only one who cares.\"\n2. Client: \"I mean, I shouldn\u2019t have to keep saying it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional expression and resignation, signaling a significant change from earlier sessions where they may have relied more on factual responses. The current exchanges reflect frustration and a sense of being overwhelmed, suggesting that the client is beginning to articulate their emotions more clearly, though they still exhibit some defensive tendencies.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they expressed, \"It feels like I\u2019m the only one who cares.\" This statement marks a moment of vulnerability, indicating that they are beginning to recognize and communicate their feelings of isolation and responsibility within their living situation. This deeper emotional acknowledgment contrasts with earlier sessions where they may have avoided discussing their feelings or the emotional implications of their circumstances.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It\u2019s just hard to shake off that pressure sometimes, you know?\"\n2. \"But, I don\u2019t know if it\u2019ll be easy for me to let go of that fear of messing things up.\"\n\n**Progression:** The client's most recent interactions reveal a noticeable increase in emotional depth as they articulate their fears and desires regarding cooking. Initially, they expressed a mix of factual responses and emotional concerns but have now begun to engage in self-reflection, demonstrating an awareness of their internal struggle between wanting to enjoy cooking creatively and fearing failure. This marks a significant change from earlier exchanges where their emotional responses were more guarded and less articulated.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fear of \"messing things up\" during the recent dialogue. This moment signifies a deeper level of vulnerability, as they are not just acknowledging their worries but also openly discussing their desire to find a balance between structure and creativity in cooking. The transition from a more defensive stance to a willingness to explore these emotions represents a critical turning point in their emotional openness.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. *\u201cI guess that makes sense. I mean, sharing my journey could show them that I'm just trying to figure things out, too. But part of me still worries about being judged for not being perfect.\u201d*\n2. *\u201cI guess if I remind myself that everyone makes mistakes, it might help. Like, nobody\u2019s perfect, right? But it\u2019s still hard to shake that feeling of wanting to be seen as capable.\u201d*\n\n**Progression:** The client's recent interactions demonstrate a significant increase in emotional expression and self-reflection. They are actively engaging with the therapist's prompts, showing a willingness to explore their feelings about vulnerability and the fear of judgment. Compared to earlier stages, where the client might have provided more factual and less emotional responses, the current exchanges reflect a deeper level of introspection and a gradual embrace of authenticity. The acknowledgment of their fears regarding judgment indicates a movement towards a more open emotional state.\n\n**Turning Point:** A notable turning point occurred when the client began expressing their worries about perfectionism while considering the idea of sharing their journey. This moment marked a shift from simply recognizing the concept of vulnerability to personally grappling with the implications of that vulnerability in their relationships. The client is now showing signs of readiness to take small steps towards openness, indicating a profound moment of self-awareness and emotional processing.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. *\"I can kind of see how that could help, I guess. Setting aside time each day feels like a good idea, but part of me worries that I\u2019ll just end up skipping it or getting caught up in other things.\"*\n2. *\"I just hope that I don\u2019t lose motivation, you know? Sometimes I just get sidetracked with everything else going on, and then it slips my mind.\"*\n\n**Progression:** The client's most recent interactions demonstrate a mixture of emotional expression and self-reflection. They are actively engaging in the conversation by acknowledging their concerns about motivation and the potential challenges in implementing grounding techniques. This marks a significant change from an earlier state characterized by more factual responses and limited emotional depth. The client is now expressing vulnerability about their feelings of overwhelm and motivation, indicating a deeper understanding of their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted noticeably during the exchange where they began articulating their worries about motivation and the pressures of daily life. This moment led to increased self-reflection, as they recognized the need for self-kindness and the importance of grounding techniques in managing their anxiety. The progression from a more defensive stance to a willingness to explore personal challenges reflects a growing comfort in the therapeutic relationship.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess if it\u2019s visually appealing, I might be more inclined to pay attention to it. But part of me still worries I won't follow through, like with other things I\u2019ve tried before.\"\n2. Client: \"I mean, I guess thinking about small wins could help me feel less pressured. It\u2019s just that I\u2019ve always been kind of focused on bigger goals, and shifting my perspective feels a bit challenging.\"\n\n**Progression:** The client's recent interactions indicate a notable shift towards emotional exploration. They are expressing concerns and fears about following through on their commitments, demonstrating a deeper engagement with their emotional state. This contrasts with earlier sessions where their responses were more factual and guarded. The acknowledgment of worries about perfectionism and the desire to learn from past experiences reflect a developing self-awareness and willingness to engage with their emotions.\n\n**Turning Point:** The pivotal moment appears to be when the client first articulated their concerns about not following through with visual reminders and their feelings of disappointment. This marked a shift from a more surface-level engagement to a deeper emotional disclosure where they recognized their patterns of self-criticism and the tension between wanting to be kinder to themselves while feeling unsure about how to implement that change. This self-reflection showcases their growing comfort in sharing vulnerable feelings with the therapist.",
+      "raw_openness_level": 3
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "flash_responses": [
+    {
+      "turn": 1,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Hello! I\u2019m so glad you\u2019re here today. It takes courage to reach out, and I'm here to support you. How has your week been so far?",
+      "therapy_mode": "Greeting",
+      "technique": "Greeting",
+      "completed_turn": 0,
+      "patient_state": {},
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 0.0,
+      "storage_time_ms": 0.0
+    },
+    {
+      "turn": 2,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That sounds really frustrating. It\u2019s great that you feel like you\u2019re managing, though. If you could change one thing about your living situation with Ashby, what would that be?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 1,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 4,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.529498000309104,
+      "storage_time_ms": 0.00634400021226611
+    },
+    {
+      "turn": 3,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It seems like you\u2019re feeling a bit overwhelmed by the responsibility of keeping things tidy on your own. It\u2019s understandable to want a little more balance in sharing those chores. What do you think would help you feel less alone in this?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 2,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.5218980006466154,
+      "storage_time_ms": 0.007077999725879636
+    },
+    {
+      "turn": 4,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It makes sense that you feel like you shouldn\u2019t have to deal with it alone, especially after bringing it up with her already. If you could picture a living situation where things felt more balanced, what would that look like for you?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 3,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3742410001214012,
+      "storage_time_ms": 0.006389000191120431
+    },
+    {
+      "turn": 5,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It sounds like you\u2019re longing for a sense of shared responsibility, where everyone contributes without you having to constantly remind them. That\u2019s completely reasonable and could really make a difference in how you feel at home. What do you think might help you express that desire for a more balanced approach with Ashby?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 4,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4382370000021183,
+      "storage_time_ms": 0.00718100000085542
+    },
+    {
+      "turn": 6,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It sounds like you\u2019re feeling a bit resigned about the situation, especially after trying to communicate your needs. It\u2019s tough when you feel like you\u2019ve done your part. What do you think you might do next, even if it\u2019s just for yourself?",
+      "therapy_mode": "MI",
+      "technique": "Reflections",
+      "completed_turn": 5,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2564649996420485,
+      "storage_time_ms": 0.007029999324004166
+    },
+    {
+      "turn": 7,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Staying busy can definitely help take your mind off things. It sounds like you\u2019re managing in your own way. If you ever do want to explore what a more balanced situation would look like for you, I\u2019m here to listen. What do you enjoy doing to keep yourself busy?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 6,
+      "patient_state": {
+        "Sentiment": "Negative",
+        "Motivation": "Low",
+        "Engagement": "Medium",
+        "Readiness": 3,
+        "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+      },
+      "flashbulb_context": {
+        "good": [],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6010070003176224,
+      "storage_time_ms": 0.01603700002306141
+    },
+    {
+      "turn": 8,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Cooking sounds like a great outlet for you, even if the mess can be frustrating. If you enjoy it, how might you incorporate cooking into a routine that feels more manageable? Maybe there\u2019s a way to make it work for you without adding to the stress of the mess. What do you think?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 7,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [
+        {
+          "technique": "Open-ended Questions",
+          "mode": "MI",
+          "trajectory_before": "stable",
+          "readiness_before": 3.0,
+          "sentiment_before": "Negative",
+          "motivation_before": "Low",
+          "engagement_before": "Medium",
+          "delta_readiness": 4.0,
+          "delta_sentiment": 5.0,
+          "delta_motivation": 5.0,
+          "delta_engagement": "medium\u2192high",
+          "flashbulb_score": 0.64,
+          "reinforcement_count": 1,
+          "pool": "good",
+          "turn": 7
+        }
+      ],
+      "retrieval_time_ms": 1.2319120005486184,
+      "storage_time_ms": 1.5057680002428242
+    },
+    {
+      "turn": 9,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That sounds like a thoughtful approach! Cooking on days when Ashby isn\u2019t around could give you that freedom to enjoy it without the added stress. How would it feel to plan your cooking days like that? And are there any simple meals you love that might help you strike that balance between enjoyment and ease?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 8,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.6002810007194057,
+      "storage_time_ms": 0.007579999873996712
+    },
+    {
+      "turn": 10,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s great that you\u2019re open to the idea of cooking on your own terms! Stir-fries sound like a perfect fit\u2014quick, versatile, and fun to make. Perhaps you could think of it as a flexible cooking schedule, where you allow yourself to switch it up as you go. What if you set a loose plan for those cooking days but also leave space for spontaneity when you feel inspired? That way, you can enjoy the process without it feeling like a chore. What do you think?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 9,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1023959996236954,
+      "storage_time_ms": 0.007169999662437476
+    },
+    {
+      "turn": 11,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Absolutely, that pressure can be tough to shake. What if you approached your cooking with the mindset that it\u2019s okay to deviate from the plan? Every meal doesn\u2019t have to be perfect or follow a strict guideline. How might it feel to give yourself permission to experiment, even if it means not sticking to a plan?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 10,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4336169997477555,
+      "storage_time_ms": 0.006517999281641096
+    },
+    {
+      "turn": 12,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Feeling stuck between wanting to enjoy cooking and fearing failure is completely understandable. What if you tried a small experiment\u2014like planning one meal with a loose framework and allowing yourself to be flexible with it? That way, you can test the waters of spontaneity without feeling like you\u2019re diving in headfirst. How do you think that might help ease some of that pressure?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 11,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.308898999923258,
+      "storage_time_ms": 0.0069760008045705035
+    },
+    {
+      "turn": 13,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It's a positive step that you're willing to give it a try! Remember, cooking is all about exploration, and mistakes can often lead to the best discoveries. What if you framed any \"mistakes\" as opportunities to learn or to create something unexpected? How might that perspective help you feel more comfortable in the kitchen?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 12,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4132710002741078,
+      "storage_time_ms": 0.007428999197145458
+    },
+    {
+      "turn": 14,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Shifting that mindset can definitely take some time, and that\u2019s okay! What if you started by reminding yourself that everyone makes mistakes, even experienced cooks? Could you practice giving yourself grace in those moments? Maybe keeping a small note in the kitchen that says \u201cMistakes are part of the journey\u201d could help reinforce that perspective while you\u2019re cooking for others. How does that sound?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 13,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.1640279999483027,
+      "storage_time_ms": 0.007065999852784444
+    },
+    {
+      "turn": 15,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s great that you\u2019re open to the idea of a gentle reminder! It\u2019s normal to feel that pressure when cooking for others, but remember that most people appreciate the effort and love behind the meal more than perfection. What if you also thought about sharing your own cooking journey with them? It could lighten the mood and create a more relaxed atmosphere. How do you think that might change how you feel when you\u2019re in the kitchen?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 14,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4944720005587442,
+      "storage_time_ms": 0.006891999873914756
+    },
+    {
+      "turn": 16,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "You\u2019re touching on an important point about vulnerability. What if you framed it as sharing your journey rather than presenting yourself as an expert? Everyone starts somewhere, and your openness might actually encourage others to share their experiences too. How do you think your friends would respond to that kind of authenticity? Could it create a deeper connection rather than judgment?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 15,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3596400003734743,
+      "storage_time_ms": 0.009375999979965854
+    },
+    {
+      "turn": 17,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s completely okay to have those fears; they\u2019re part of being human. But remember, the people who care about you likely value your effort and authenticity far more than any perceived mistakes. What if you took a small step, like sharing a light-hearted story about a cooking mishap? That could show them your human side without feeling too exposed. How might that feel as a way to test the waters?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 16,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3487890000760672,
+      "storage_time_ms": 0.007902999641373754
+    },
+    {
+      "turn": 18,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That sounds like a solid plan! Starting with a funny mishap could really help you gauge their reactions while taking some pressure off yourself. It\u2019s all about experimenting and finding what feels right for you. If you do share, how might you remind yourself that it\u2019s okay to be human and imperfect? Could that help ease some of that fear of judgment?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 17,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.248626999768021,
+      "storage_time_ms": 0.007771999662509188
+    },
+    {
+      "turn": 19,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That\u2019s a smart approach! Writing down affirmations can serve as a great reminder of your worth beyond perfection. It\u2019s totally normal to worry about their reactions, but remember that you can\u2019t control how others respond. What if you focused on the act of sharing itself as a success, regardless of their reaction? That could help you feel more empowered and less attached to the outcome. How does that idea resonate with you?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 18,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.412491000337468,
+      "storage_time_ms": 0.007519000064348802
+    },
+    {
+      "turn": 20,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Finding that balance can definitely be challenging, but it sounds like you\u2019re on the right track! Reminding yourself that the act of sharing is a victory in itself is powerful. It\u2019s okay to feel anxious; just acknowledge it without letting it control you. Maybe think of sharing as a way to connect, and if someone doesn\u2019t respond as you hope, that doesn\u2019t reflect on your worth. You\u2019re taking a brave step by even considering this! How does that perspective make you feel?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 19,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3058159993306617,
+      "storage_time_ms": 0.008431999958702363
+    },
+    {
+      "turn": 21,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It's completely understandable to feel that way; many people struggle with similar thoughts. The key is to keep practicing that mindset. What if you created a mantra or a reminder to reinforce that their reactions don\u2019t define your worth? It could be something simple like, \u201cI share to connect, not to perform.\u201d How do you think having that reminder would change your experience when you decide to share?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 20,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3394400002653128,
+      "storage_time_ms": 0.007436000487359706
+    },
+    {
+      "turn": 22,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s great that you\u2019re thinking about ways to stay grounded! It\u2019s normal to worry that a mantra might not be enough in the heat of the moment. What if you paired it with some deep breathing or another calming technique? That way, you\u2019d have a couple of tools to lean on. Also, reminding yourself that it\u2019s okay to feel anxious can take some pressure off. What other grounding techniques do you think might work for you when you\u2019re feeling that pressure?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 21,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3989419994686614,
+      "storage_time_ms": 0.007874000402807724
+    },
+    {
+      "turn": 23,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Practicing deep breathing regularly could definitely help make it feel more natural in those moments! It\u2019s all about building that muscle memory. And being kind to yourself is such an important part of this process. What if you set aside a few minutes each day to practice deep breathing and reflect on your progress? That way, you might start to build that belief in yourself over time. How does that sound to you?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 22,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2484650005717413,
+      "storage_time_ms": 0.008644999979878776
+    },
+    {
+      "turn": 24,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Thinking of it as a gift to yourself is a lovely perspective! That might help shift it from feeling like a chore to something special. What if you started with just a few minutes, even just once a week, and gradually built up from there? This could help it feel more manageable and less overwhelming. What small time frame do you think you could realistically set aside that wouldn\u2019t feel like a burden?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 23,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.4749550000487943,
+      "storage_time_ms": 0.008368999260710552
+    },
+    {
+      "turn": 25,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Absolutely! Starting with just a few minutes a week is a great way to ease into it. To help with motivation, maybe you can set a reminder on your phone or associate it with something you already do regularly, like a morning routine or a cup of tea. That way, it becomes a part of your day without feeling like an added task. And remember, it\u2019s perfectly okay if you miss a week; just be kind to yourself and get back to it when you can. It\u2019s all about progress, not perfection! How does that sound?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 24,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.244557999598328,
+      "storage_time_ms": 0.008744999831833411
+    },
+    {
+      "turn": 26,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That sounds like a solid plan! Giving it a try and seeing how it goes is a great approach. Remember, it\u2019s all about the journey, and being kind to yourself along the way is what matters most. If you ever feel like you\u2019re falling behind, just take a moment to reflect on what you\u2019ve already accomplished. What do you think would be a good first step for you this week to begin this practice?",
+      "therapy_mode": "MI",
+      "technique": "Open-ended Questions",
+      "completed_turn": 25,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "Medium",
+        "Readiness": 6,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3796909997836337,
+      "storage_time_ms": 0.007874999937484972
+    },
+    {
+      "turn": 27,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "That sounds like a fantastic first step! Choosing a specific time in the evening when you typically have a moment to yourself can really help make it a regular part of your routine. And you\u2019re absolutely right\u2014if you miss it, being gentle with yourself will make a big difference. What if you also considered having a little note or something visual to remind you why this practice is important to you? That could help reinforce your commitment even on busy days. What do you think?",
+      "therapy_mode": "CBT",
+      "technique": "Socratic Questioning",
+      "completed_turn": 26,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.336340999841923,
+      "storage_time_ms": 0.007939000170154031
+    },
+    {
+      "turn": 28,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s great that you\u2019re open to trying a visual reminder! It can really help anchor you in your intentions, especially when life gets hectic. Maybe think about what kind of message or image resonates most with you\u2014something uplifting or motivational. You could even make it fun by decorating it in a way that feels personal! If you find it slipping your mind, you could also consider placing it somewhere you\u2019ll see it often, like on your fridge or workspace. How does that sound for keeping you committed?",
+      "therapy_mode": "CBT",
+      "technique": "Open-ended Questions",
+      "completed_turn": 27,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.512813999397622,
+      "storage_time_ms": 0.012928000614920165
+    },
+    {
+      "turn": 29,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "Making it personal and fun with colors and stickers sounds like a great way to engage with it! It\u2019s totally normal to have worries about following through, especially if past attempts didn\u2019t go as planned. What if you viewed this as a learning experience? Each time you try, you\u2019re gaining insights into what works best for you. Maybe you could even check in with yourself weekly to reflect on what went well and what you might want to tweak. This way, you\u2019re building a practice that evolves with you. How does that sound for creating a more supportive approach?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 28,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.3203250000515254,
+      "storage_time_ms": 0.007373000698862597
+    },
+    {
+      "turn": 30,
+      "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+      "therapist_message": "It\u2019s completely understandable to feel that way. Acknowledging those fears is important. Maybe try reframing your perspective on progress: instead of seeing it as all or nothing, consider every small step as a victory. If something doesn\u2019t go as planned, that\u2019s just information to help you adjust your approach. Each week can be a chance to celebrate what you did achieve, even if it\u2019s just a little. How do you think you could remind yourself to focus on those small wins instead of perfection?",
+      "therapy_mode": "CBT",
+      "technique": "Cognitive Restructuring",
+      "completed_turn": 29,
+      "patient_state": {
+        "Sentiment": "Neutral",
+        "Motivation": "Medium",
+        "Engagement": "High",
+        "Readiness": 7,
+        "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+      },
+      "flashbulb_context": {
+        "good": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "delta_readiness": 4.0,
+            "flashbulb_score": 0.64,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "bad": [],
+        "conflicts": []
+      },
+      "flashbulb_memories": [],
+      "retrieval_time_ms": 1.2281540002732072,
+      "storage_time_ms": 0.007799999366397969
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hello! I\u2019m so glad you\u2019re here today. It takes courage to reach out, and I'm here to support you. How has your week been so far?",
+      "client": "It\u2019s been okay, I guess. Just the usual stuff with Ashby not cleaning up after cooking. It\u2019s frustrating, but I\u2019m managing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 1,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Hello! I\u2019m so glad you\u2019re here today. It takes courage to reach out, and I'm here to support you. How has your week been so far?",
+        "therapy_mode": "Greeting",
+        "technique": "Greeting",
+        "completed_turn": 0,
+        "patient_state": {},
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 0.0,
+        "storage_time_ms": 0.0
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "That sounds really frustrating. It\u2019s great that you feel like you\u2019re managing, though. If you could change one thing about your living situation with Ashby, what would that be?",
+      "client": "I don\u2019t know, I guess I\u2019d want her to just clean up after herself. It shouldn\u2019t be that hard, right? I mean, I try to help out and keep things tidy, but it feels like I'm doing it all alone sometimes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 2,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That sounds really frustrating. It\u2019s great that you feel like you\u2019re managing, though. If you could change one thing about your living situation with Ashby, what would that be?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 1,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 4,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.529498000309104,
+        "storage_time_ms": 0.00634400021226611
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "It seems like you\u2019re feeling a bit overwhelmed by the responsibility of keeping things tidy on your own. It\u2019s understandable to want a little more balance in sharing those chores. What do you think would help you feel less alone in this?",
+      "client": "I don\u2019t really think it\u2019s that deep. I just want her to do her part, you know? I mean, it\u2019s not like I\u2019m asking for much. I\u2019ve talked to her about it, but it doesn\u2019t change anything. I guess I just deal with it and move on.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 3,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It seems like you\u2019re feeling a bit overwhelmed by the responsibility of keeping things tidy on your own. It\u2019s understandable to want a little more balance in sharing those chores. What do you think would help you feel less alone in this?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 2,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.5218980006466154,
+        "storage_time_ms": 0.007077999725879636
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It makes sense that you feel like you shouldn\u2019t have to deal with it alone, especially after bringing it up with her already. If you could picture a living situation where things felt more balanced, what would that look like for you?",
+      "client": "I don\u2019t know, it\u2019s just a place where everyone pulls their weight, I guess. It shouldn\u2019t be this complicated. I mean, we\u2019re all adults here, right? I just want a clean kitchen without having to remind someone all the time. It\u2019s really not that big of a deal, but it feels like I\u2019m the only one who cares.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 4,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It makes sense that you feel like you shouldn\u2019t have to deal with it alone, especially after bringing it up with her already. If you could picture a living situation where things felt more balanced, what would that look like for you?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 3,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3742410001214012,
+        "storage_time_ms": 0.006389000191120431
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re longing for a sense of shared responsibility, where everyone contributes without you having to constantly remind them. That\u2019s completely reasonable and could really make a difference in how you feel at home. What do you think might help you express that desire for a more balanced approach with Ashby?",
+      "client": "I don't really want to get into all that. I've tried talking to her, and it just doesn\u2019t change anything. I guess I\u2019ve made my point, and it\u2019s up to her to step up. I mean, I shouldn't have to keep saying it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 5,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It sounds like you\u2019re longing for a sense of shared responsibility, where everyone contributes without you having to constantly remind them. That\u2019s completely reasonable and could really make a difference in how you feel at home. What do you think might help you express that desire for a more balanced approach with Ashby?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 4,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4382370000021183,
+        "storage_time_ms": 0.00718100000085542
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "It sounds like you\u2019re feeling a bit resigned about the situation, especially after trying to communicate your needs. It\u2019s tough when you feel like you\u2019ve done your part. What do you think you might do next, even if it\u2019s just for yourself?",
+      "client": "I don\u2019t know. I guess I\u2019ll just keep doing what I\u2019ve been doing. I can\u2019t just sit around waiting for her to change. I mean, I have my own stuff to deal with too. I just try to stay busy and not think about it too much.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"It\u2019s really not that big of a deal, but it feels like I\u2019m the only one who cares.\"\n2. Client: \"I mean, I shouldn\u2019t have to keep saying it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional expression and resignation, signaling a significant change from earlier sessions where they may have relied more on factual responses. The current exchanges reflect frustration and a sense of being overwhelmed, suggesting that the client is beginning to articulate their emotions more clearly, though they still exhibit some defensive tendencies.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they expressed, \"It feels like I\u2019m the only one who cares.\" This statement marks a moment of vulnerability, indicating that they are beginning to recognize and communicate their feelings of isolation and responsibility within their living situation. This deeper emotional acknowledgment contrasts with earlier sessions where they may have avoided discussing their feelings or the emotional implications of their circumstances.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 6,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It sounds like you\u2019re feeling a bit resigned about the situation, especially after trying to communicate your needs. It\u2019s tough when you feel like you\u2019ve done your part. What do you think you might do next, even if it\u2019s just for yourself?",
+        "therapy_mode": "MI",
+        "technique": "Reflections",
+        "completed_turn": 5,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2564649996420485,
+        "storage_time_ms": 0.007029999324004166
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "Staying busy can definitely help take your mind off things. It sounds like you\u2019re managing in your own way. If you ever do want to explore what a more balanced situation would look like for you, I\u2019m here to listen. What do you enjoy doing to keep yourself busy?",
+      "client": "I guess I like to cook, actually. It\u2019s kind of a stress reliever for me, especially when I\u2019m making something new. But then that also makes it frustrating when I feel like the space I\u2019m using gets messy and I have to deal with that on top of everything else. Sometimes I just binge-watch shows or lose myself in a book, which helps me forget about things for a while. It\u2019s just hard to balance everything, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 7,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Staying busy can definitely help take your mind off things. It sounds like you\u2019re managing in your own way. If you ever do want to explore what a more balanced situation would look like for you, I\u2019m here to listen. What do you enjoy doing to keep yourself busy?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 6,
+        "patient_state": {
+          "Sentiment": "Negative",
+          "Motivation": "Low",
+          "Engagement": "Medium",
+          "Readiness": 3,
+          "ReadinessReasoning": "Calculated from: Motivation=Low (x2), Engagement=Medium (x1), Sentiment=Negative (x1)"
+        },
+        "flashbulb_context": {
+          "good": [],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6010070003176224,
+        "storage_time_ms": 0.01603700002306141
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Cooking sounds like a great outlet for you, even if the mess can be frustrating. If you enjoy it, how might you incorporate cooking into a routine that feels more manageable? Maybe there\u2019s a way to make it work for you without adding to the stress of the mess. What do you think?",
+      "client": "I mean, I guess I could try to set some limits around cooking, like just making simpler meals or planning ahead a bit more. But then I think about how that feels limiting, you know? It's like, if I'm cooking, I want to enjoy it and not feel like I'm rushing or cutting corners. Sometimes I feel like I'm just juggling too much, and it\u2019s hard to find that balance without feeling overwhelmed. Maybe I could think about cooking on days when I know Ashby won\u2019t be around, so I don\u2019t have to deal with the mess right away. I don\u2019t know if that\u2019s a solution, but it\u2019s something.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 8,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Cooking sounds like a great outlet for you, even if the mess can be frustrating. If you enjoy it, how might you incorporate cooking into a routine that feels more manageable? Maybe there\u2019s a way to make it work for you without adding to the stress of the mess. What do you think?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 7,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [
+          {
+            "technique": "Open-ended Questions",
+            "mode": "MI",
+            "trajectory_before": "stable",
+            "readiness_before": 3.0,
+            "sentiment_before": "Negative",
+            "motivation_before": "Low",
+            "engagement_before": "Medium",
+            "delta_readiness": 4.0,
+            "delta_sentiment": 5.0,
+            "delta_motivation": 5.0,
+            "delta_engagement": "medium\u2192high",
+            "flashbulb_score": 0.64,
+            "reinforcement_count": 1,
+            "pool": "good",
+            "turn": 7
+          }
+        ],
+        "retrieval_time_ms": 1.2319120005486184,
+        "storage_time_ms": 1.5057680002428242
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "That sounds like a thoughtful approach! Cooking on days when Ashby isn\u2019t around could give you that freedom to enjoy it without the added stress. How would it feel to plan your cooking days like that? And are there any simple meals you love that might help you strike that balance between enjoyment and ease?",
+      "client": "I guess it could be nice to have those cooking days when Ashby isn't around. It might make the experience more enjoyable without the mess hanging over my head. As for simple meals, I really like making stir-fries\u2014they're pretty quick and versatile. I could try that more often, but I also worry about getting into a routine that feels too strict or limiting. I don\u2019t know, maybe I just need to find a way to keep it enjoyable without all the pressure.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 9,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That sounds like a thoughtful approach! Cooking on days when Ashby isn\u2019t around could give you that freedom to enjoy it without the added stress. How would it feel to plan your cooking days like that? And are there any simple meals you love that might help you strike that balance between enjoyment and ease?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 8,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.6002810007194057,
+        "storage_time_ms": 0.007579999873996712
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "It\u2019s great that you\u2019re open to the idea of cooking on your own terms! Stir-fries sound like a perfect fit\u2014quick, versatile, and fun to make. Perhaps you could think of it as a flexible cooking schedule, where you allow yourself to switch it up as you go. What if you set a loose plan for those cooking days but also leave space for spontaneity when you feel inspired? That way, you can enjoy the process without it feeling like a chore. What do you think?",
+      "client": "I can kind of see how having a flexible plan might work. It feels less rigid, which is nice. But I still worry about sticking to something and then feeling like I\u2019m letting myself down if I don't follow through. I guess I want to keep that creative spark when I cook, and not feel like I\u2019m just going through the motions. It\u2019s just hard to shake off that pressure sometimes, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 10,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s great that you\u2019re open to the idea of cooking on your own terms! Stir-fries sound like a perfect fit\u2014quick, versatile, and fun to make. Perhaps you could think of it as a flexible cooking schedule, where you allow yourself to switch it up as you go. What if you set a loose plan for those cooking days but also leave space for spontaneity when you feel inspired? That way, you can enjoy the process without it feeling like a chore. What do you think?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 9,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1023959996236954,
+        "storage_time_ms": 0.007169999662437476
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "Absolutely, that pressure can be tough to shake. What if you approached your cooking with the mindset that it\u2019s okay to deviate from the plan? Every meal doesn\u2019t have to be perfect or follow a strict guideline. How might it feel to give yourself permission to experiment, even if it means not sticking to a plan?",
+      "client": "I mean, I guess that could be freeing. It\u2019s just\u2014part of me worries that if I don\u2019t have some sort of structure, I might just end up not cooking at all. I think I have this fear of, like, wasting my time or ingredients if I don\u2019t have a clear plan. But then again, it sounds nice to just let things flow a bit, to try new things without all that pressure. I don\u2019t know, I just feel stuck sometimes between wanting to enjoy it and fearing I\u2019ll mess it up.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 11,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Absolutely, that pressure can be tough to shake. What if you approached your cooking with the mindset that it\u2019s okay to deviate from the plan? Every meal doesn\u2019t have to be perfect or follow a strict guideline. How might it feel to give yourself permission to experiment, even if it means not sticking to a plan?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 10,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4336169997477555,
+        "storage_time_ms": 0.006517999281641096
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "Feeling stuck between wanting to enjoy cooking and fearing failure is completely understandable. What if you tried a small experiment\u2014like planning one meal with a loose framework and allowing yourself to be flexible with it? That way, you can test the waters of spontaneity without feeling like you\u2019re diving in headfirst. How do you think that might help ease some of that pressure?",
+      "client": "That sounds like a reasonable idea. I could try planning just one meal and see how it goes without putting too much pressure on myself. Maybe if I don't overthink it, I can actually enjoy the cooking instead of worrying about it being perfect. I guess it might help me find a balance between structure and creativity. But, I don\u2019t know if it\u2019ll be easy for me to let go of that fear of messing things up.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"It\u2019s just hard to shake off that pressure sometimes, you know?\"\n2. \"But, I don\u2019t know if it\u2019ll be easy for me to let go of that fear of messing things up.\"\n\n**Progression:** The client's most recent interactions reveal a noticeable increase in emotional depth as they articulate their fears and desires regarding cooking. Initially, they expressed a mix of factual responses and emotional concerns but have now begun to engage in self-reflection, demonstrating an awareness of their internal struggle between wanting to enjoy cooking creatively and fearing failure. This marks a significant change from earlier exchanges where their emotional responses were more guarded and less articulated.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their fear of \"messing things up\" during the recent dialogue. This moment signifies a deeper level of vulnerability, as they are not just acknowledging their worries but also openly discussing their desire to find a balance between structure and creativity in cooking. The transition from a more defensive stance to a willingness to explore these emotions represents a critical turning point in their emotional openness.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 12,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Feeling stuck between wanting to enjoy cooking and fearing failure is completely understandable. What if you tried a small experiment\u2014like planning one meal with a loose framework and allowing yourself to be flexible with it? That way, you can test the waters of spontaneity without feeling like you\u2019re diving in headfirst. How do you think that might help ease some of that pressure?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 11,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.308898999923258,
+        "storage_time_ms": 0.0069760008045705035
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "It's a positive step that you're willing to give it a try! Remember, cooking is all about exploration, and mistakes can often lead to the best discoveries. What if you framed any \"mistakes\" as opportunities to learn or to create something unexpected? How might that perspective help you feel more comfortable in the kitchen?",
+      "client": "I can kind of see that. I mean, maybe if I look at mistakes as just part of the process, it wouldn\u2019t feel so heavy. It\u2019s just that sometimes, I feel like I put so much pressure on myself to get it right, especially when I\u2019m cooking for others. I guess it\u2019s hard to shift that mindset, but it does sound like it could take off some of the weight I feel. I don\u2019t know if I can fully embrace that yet, though.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 13,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It's a positive step that you're willing to give it a try! Remember, cooking is all about exploration, and mistakes can often lead to the best discoveries. What if you framed any \"mistakes\" as opportunities to learn or to create something unexpected? How might that perspective help you feel more comfortable in the kitchen?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 12,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4132710002741078,
+        "storage_time_ms": 0.007428999197145458
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Shifting that mindset can definitely take some time, and that\u2019s okay! What if you started by reminding yourself that everyone makes mistakes, even experienced cooks? Could you practice giving yourself grace in those moments? Maybe keeping a small note in the kitchen that says \u201cMistakes are part of the journey\u201d could help reinforce that perspective while you\u2019re cooking for others. How does that sound?",
+      "client": "I mean, I guess that could be helpful to remind myself that it's okay to mess up sometimes. But, I don\u2019t know, part of me still worries about what others will think, especially if I\u2019m cooking for them. It feels like I should be better at it, you know? Maybe having a note could help a little, like a gentle nudge to be nicer to myself, but I\u2019m not sure it\u2019ll really change how I feel in those moments. It\u2019s a nice thought, though, and I can kind of see how it might help me relax a bit.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 14,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Shifting that mindset can definitely take some time, and that\u2019s okay! What if you started by reminding yourself that everyone makes mistakes, even experienced cooks? Could you practice giving yourself grace in those moments? Maybe keeping a small note in the kitchen that says \u201cMistakes are part of the journey\u201d could help reinforce that perspective while you\u2019re cooking for others. How does that sound?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 13,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.1640279999483027,
+        "storage_time_ms": 0.007065999852784444
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re open to the idea of a gentle reminder! It\u2019s normal to feel that pressure when cooking for others, but remember that most people appreciate the effort and love behind the meal more than perfection. What if you also thought about sharing your own cooking journey with them? It could lighten the mood and create a more relaxed atmosphere. How do you think that might change how you feel when you\u2019re in the kitchen?",
+      "client": "I can kind of see that. Maybe if I shared a bit about my cooking process, it would feel less intense, like it\u2019s okay to be a little vulnerable. But I also worry that it might make me seem like I don't know what I'm doing, you know? I guess it could help them understand where I'm coming from, but I'm not sure how they'd react. It feels like there's a fine line between being open and feeling exposed.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 15,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s great that you\u2019re open to the idea of a gentle reminder! It\u2019s normal to feel that pressure when cooking for others, but remember that most people appreciate the effort and love behind the meal more than perfection. What if you also thought about sharing your own cooking journey with them? It could lighten the mood and create a more relaxed atmosphere. How do you think that might change how you feel when you\u2019re in the kitchen?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 14,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4944720005587442,
+        "storage_time_ms": 0.006891999873914756
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "You\u2019re touching on an important point about vulnerability. What if you framed it as sharing your journey rather than presenting yourself as an expert? Everyone starts somewhere, and your openness might actually encourage others to share their experiences too. How do you think your friends would respond to that kind of authenticity? Could it create a deeper connection rather than judgment?",
+      "client": "I guess that makes sense. I mean, sharing my journey could show them that I'm just trying to figure things out, too. But part of me still worries about being judged for not being perfect. I don\u2019t know if they\u2019d see it that way or just focus on my mistakes. It feels like I want to connect, but there's that fear holding me back. Maybe it could create a deeper connection, but I'm still not entirely convinced.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 16,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "You\u2019re touching on an important point about vulnerability. What if you framed it as sharing your journey rather than presenting yourself as an expert? Everyone starts somewhere, and your openness might actually encourage others to share their experiences too. How do you think your friends would respond to that kind of authenticity? Could it create a deeper connection rather than judgment?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 15,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3596400003734743,
+        "storage_time_ms": 0.009375999979965854
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely okay to have those fears; they\u2019re part of being human. But remember, the people who care about you likely value your effort and authenticity far more than any perceived mistakes. What if you took a small step, like sharing a light-hearted story about a cooking mishap? That could show them your human side without feeling too exposed. How might that feel as a way to test the waters?",
+      "client": "I mean, that could be a way to ease into it. Sharing a funny mishap sounds less intimidating than going all in, you know? I can kind of see how it might lighten the mood, and maybe it would show them that I\u2019m not taking myself too seriously. But I still worry that even a small slip could be seen as a big deal. It\u2019s hard to shake that feeling of needing to be perfect, especially when I care about what they think. I guess it could be a good experiment, though.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 17,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s completely okay to have those fears; they\u2019re part of being human. But remember, the people who care about you likely value your effort and authenticity far more than any perceived mistakes. What if you took a small step, like sharing a light-hearted story about a cooking mishap? That could show them your human side without feeling too exposed. How might that feel as a way to test the waters?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 16,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3487890000760672,
+        "storage_time_ms": 0.007902999641373754
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "That sounds like a solid plan! Starting with a funny mishap could really help you gauge their reactions while taking some pressure off yourself. It\u2019s all about experimenting and finding what feels right for you. If you do share, how might you remind yourself that it\u2019s okay to be human and imperfect? Could that help ease some of that fear of judgment?",
+      "client": "I guess if I remind myself that everyone makes mistakes, it might help. Like, nobody\u2019s perfect, right? But it\u2019s still hard to shake that feeling of wanting to be seen as capable. Maybe I could write down some affirmations or something before I share, just to keep that in mind. I don\u2019t know... it feels like I\u2019d need to really prepare myself for that. What if I share and they don\u2019t respond the way I hope?",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. *\u201cI guess that makes sense. I mean, sharing my journey could show them that I'm just trying to figure things out, too. But part of me still worries about being judged for not being perfect.\u201d*\n2. *\u201cI guess if I remind myself that everyone makes mistakes, it might help. Like, nobody\u2019s perfect, right? But it\u2019s still hard to shake that feeling of wanting to be seen as capable.\u201d*\n\n**Progression:** The client's recent interactions demonstrate a significant increase in emotional expression and self-reflection. They are actively engaging with the therapist's prompts, showing a willingness to explore their feelings about vulnerability and the fear of judgment. Compared to earlier stages, where the client might have provided more factual and less emotional responses, the current exchanges reflect a deeper level of introspection and a gradual embrace of authenticity. The acknowledgment of their fears regarding judgment indicates a movement towards a more open emotional state.\n\n**Turning Point:** A notable turning point occurred when the client began expressing their worries about perfectionism while considering the idea of sharing their journey. This moment marked a shift from simply recognizing the concept of vulnerability to personally grappling with the implications of that vulnerability in their relationships. The client is now showing signs of readiness to take small steps towards openness, indicating a profound moment of self-awareness and emotional processing.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 18,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That sounds like a solid plan! Starting with a funny mishap could really help you gauge their reactions while taking some pressure off yourself. It\u2019s all about experimenting and finding what feels right for you. If you do share, how might you remind yourself that it\u2019s okay to be human and imperfect? Could that help ease some of that fear of judgment?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 17,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.248626999768021,
+        "storage_time_ms": 0.007771999662509188
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "That\u2019s a smart approach! Writing down affirmations can serve as a great reminder of your worth beyond perfection. It\u2019s totally normal to worry about their reactions, but remember that you can\u2019t control how others respond. What if you focused on the act of sharing itself as a success, regardless of their reaction? That could help you feel more empowered and less attached to the outcome. How does that idea resonate with you?",
+      "client": "I mean, that does make sense. Focusing on the act of sharing sounds like a good way to take the pressure off myself. But, I still feel like I\u2019d be a little anxious about how they\u2019d take it. Maybe if I remind myself that just putting myself out there is a win, it could help me manage that anxiety. I guess I have to find a balance between caring about their reactions and just being okay with sharing my experience. It's tough, though.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 19,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That\u2019s a smart approach! Writing down affirmations can serve as a great reminder of your worth beyond perfection. It\u2019s totally normal to worry about their reactions, but remember that you can\u2019t control how others respond. What if you focused on the act of sharing itself as a success, regardless of their reaction? That could help you feel more empowered and less attached to the outcome. How does that idea resonate with you?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 18,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.412491000337468,
+        "storage_time_ms": 0.007519000064348802
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "Finding that balance can definitely be challenging, but it sounds like you\u2019re on the right track! Reminding yourself that the act of sharing is a victory in itself is powerful. It\u2019s okay to feel anxious; just acknowledge it without letting it control you. Maybe think of sharing as a way to connect, and if someone doesn\u2019t respond as you hope, that doesn\u2019t reflect on your worth. You\u2019re taking a brave step by even considering this! How does that perspective make you feel?",
+      "client": "I mean, I can see how that perspective could help shift my focus a bit. Maybe it would take some pressure off if I think about it as a way to connect rather than just a performance. Still, I guess there's that lingering worry that if they don\u2019t respond well, it might feel like a reflection on me. I don\u2019t know\u2026 I just hope I can remind myself that their reactions don\u2019t define my worth. It\u2019s just hard to shake that feeling sometimes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 20,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Finding that balance can definitely be challenging, but it sounds like you\u2019re on the right track! Reminding yourself that the act of sharing is a victory in itself is powerful. It\u2019s okay to feel anxious; just acknowledge it without letting it control you. Maybe think of sharing as a way to connect, and if someone doesn\u2019t respond as you hope, that doesn\u2019t reflect on your worth. You\u2019re taking a brave step by even considering this! How does that perspective make you feel?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 19,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3058159993306617,
+        "storage_time_ms": 0.008431999958702363
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "It's completely understandable to feel that way; many people struggle with similar thoughts. The key is to keep practicing that mindset. What if you created a mantra or a reminder to reinforce that their reactions don\u2019t define your worth? It could be something simple like, \u201cI share to connect, not to perform.\u201d How do you think having that reminder would change your experience when you decide to share?",
+      "client": "I guess having a mantra could be a helpful tool. It\u2019s like a little reminder to keep me grounded when I start to spiral about how they might react. But part of me worries that it might not be enough in the moment, you know? I mean, I can see it helping, but I still might struggle when I\u2019m actually there. It\u2019s just\u2026 it feels like there\u2019s so much pressure to be perfect, and I don\u2019t want to feel let down if it doesn\u2019t go the way I hope.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 21,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It's completely understandable to feel that way; many people struggle with similar thoughts. The key is to keep practicing that mindset. What if you created a mantra or a reminder to reinforce that their reactions don\u2019t define your worth? It could be something simple like, \u201cI share to connect, not to perform.\u201d How do you think having that reminder would change your experience when you decide to share?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 20,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3394400002653128,
+        "storage_time_ms": 0.007436000487359706
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re thinking about ways to stay grounded! It\u2019s normal to worry that a mantra might not be enough in the heat of the moment. What if you paired it with some deep breathing or another calming technique? That way, you\u2019d have a couple of tools to lean on. Also, reminding yourself that it\u2019s okay to feel anxious can take some pressure off. What other grounding techniques do you think might work for you when you\u2019re feeling that pressure?",
+      "client": "I mean, deep breathing could definitely help. I\u2019ve tried it before, but sometimes I forget about it when I'm in the moment. It\u2019s like my mind just goes blank. I can kind of see how having a couple of tools might make things feel less overwhelming. Maybe if I practice it more often, it could become second nature? I guess I just need to remember to be kind to myself when that pressure comes up. I don\u2019t know if I fully believe I can manage it, though.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 22,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s great that you\u2019re thinking about ways to stay grounded! It\u2019s normal to worry that a mantra might not be enough in the heat of the moment. What if you paired it with some deep breathing or another calming technique? That way, you\u2019d have a couple of tools to lean on. Also, reminding yourself that it\u2019s okay to feel anxious can take some pressure off. What other grounding techniques do you think might work for you when you\u2019re feeling that pressure?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 21,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3989419994686614,
+        "storage_time_ms": 0.007874000402807724
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "Practicing deep breathing regularly could definitely help make it feel more natural in those moments! It\u2019s all about building that muscle memory. And being kind to yourself is such an important part of this process. What if you set aside a few minutes each day to practice deep breathing and reflect on your progress? That way, you might start to build that belief in yourself over time. How does that sound to you?",
+      "client": "I can kind of see how that could help, I guess. Setting aside time each day feels like a good idea, but part of me worries that I\u2019ll just end up skipping it or getting caught up in other things. I mean, it\u2019s just hard to carve out that space sometimes. But maybe if I think of it as a little gift to myself, it might make it easier to prioritize. I don\u2019t know, I guess I just want to feel like I\u2019m making progress without it feeling like another thing on my to-do list.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 23,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Practicing deep breathing regularly could definitely help make it feel more natural in those moments! It\u2019s all about building that muscle memory. And being kind to yourself is such an important part of this process. What if you set aside a few minutes each day to practice deep breathing and reflect on your progress? That way, you might start to build that belief in yourself over time. How does that sound to you?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 22,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2484650005717413,
+        "storage_time_ms": 0.008644999979878776
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "Thinking of it as a gift to yourself is a lovely perspective! That might help shift it from feeling like a chore to something special. What if you started with just a few minutes, even just once a week, and gradually built up from there? This could help it feel more manageable and less overwhelming. What small time frame do you think you could realistically set aside that wouldn\u2019t feel like a burden?",
+      "client": "I mean, starting with just a few minutes sounds more doable, for sure. Maybe even once a week could help me ease into it without feeling overwhelmed. I just hope that I don\u2019t lose motivation, you know? Sometimes I just get sidetracked with everything else going on, and then it slips my mind. But, I guess if I keep reminding myself that it\u2019s for my own benefit, it might help me stay on track.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. *\"I can kind of see how that could help, I guess. Setting aside time each day feels like a good idea, but part of me worries that I\u2019ll just end up skipping it or getting caught up in other things.\"*\n2. *\"I just hope that I don\u2019t lose motivation, you know? Sometimes I just get sidetracked with everything else going on, and then it slips my mind.\"*\n\n**Progression:** The client's most recent interactions demonstrate a mixture of emotional expression and self-reflection. They are actively engaging in the conversation by acknowledging their concerns about motivation and the potential challenges in implementing grounding techniques. This marks a significant change from an earlier state characterized by more factual responses and limited emotional depth. The client is now expressing vulnerability about their feelings of overwhelm and motivation, indicating a deeper understanding of their emotional landscape.\n\n**Turning Point:** The client\u2019s emotional depth shifted noticeably during the exchange where they began articulating their worries about motivation and the pressures of daily life. This moment led to increased self-reflection, as they recognized the need for self-kindness and the importance of grounding techniques in managing their anxiety. The progression from a more defensive stance to a willingness to explore personal challenges reflects a growing comfort in the therapeutic relationship.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 24,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Thinking of it as a gift to yourself is a lovely perspective! That might help shift it from feeling like a chore to something special. What if you started with just a few minutes, even just once a week, and gradually built up from there? This could help it feel more manageable and less overwhelming. What small time frame do you think you could realistically set aside that wouldn\u2019t feel like a burden?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 23,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.4749550000487943,
+        "storage_time_ms": 0.008368999260710552
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Absolutely! Starting with just a few minutes a week is a great way to ease into it. To help with motivation, maybe you can set a reminder on your phone or associate it with something you already do regularly, like a morning routine or a cup of tea. That way, it becomes a part of your day without feeling like an added task. And remember, it\u2019s perfectly okay if you miss a week; just be kind to yourself and get back to it when you can. It\u2019s all about progress, not perfection! How does that sound?",
+      "client": "I guess that sounds pretty reasonable. Setting a reminder could really help me stay on track, and associating it with something I already do feels like it could make it easier to remember. I mean, I want to be kind to myself, but sometimes I just feel like I\u2019m falling behind or not doing enough. I don\u2019t know if I\u2019ll always be able to keep up with it, but I guess I could give it a try and see how it goes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 25,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Absolutely! Starting with just a few minutes a week is a great way to ease into it. To help with motivation, maybe you can set a reminder on your phone or associate it with something you already do regularly, like a morning routine or a cup of tea. That way, it becomes a part of your day without feeling like an added task. And remember, it\u2019s perfectly okay if you miss a week; just be kind to yourself and get back to it when you can. It\u2019s all about progress, not perfection! How does that sound?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 24,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.244557999598328,
+        "storage_time_ms": 0.008744999831833411
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "That sounds like a solid plan! Giving it a try and seeing how it goes is a great approach. Remember, it\u2019s all about the journey, and being kind to yourself along the way is what matters most. If you ever feel like you\u2019re falling behind, just take a moment to reflect on what you\u2019ve already accomplished. What do you think would be a good first step for you this week to begin this practice?",
+      "client": "I think maybe just setting that reminder could be a good first step this week. I could also try to pick a specific time when I usually have a moment to myself, like in the evening after work or something. It feels a little less daunting if I have a clear plan, I guess. But part of me still worries I\u2019ll end up skipping it if I get too busy. I don\u2019t know\u2026 I guess I\u2019ll just have to see how it goes and not be too hard on myself if I miss it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 26,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That sounds like a solid plan! Giving it a try and seeing how it goes is a great approach. Remember, it\u2019s all about the journey, and being kind to yourself along the way is what matters most. If you ever feel like you\u2019re falling behind, just take a moment to reflect on what you\u2019ve already accomplished. What do you think would be a good first step for you this week to begin this practice?",
+        "therapy_mode": "MI",
+        "technique": "Open-ended Questions",
+        "completed_turn": 25,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "Medium",
+          "Readiness": 6,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=Medium (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3796909997836337,
+        "storage_time_ms": 0.007874999937484972
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "That sounds like a fantastic first step! Choosing a specific time in the evening when you typically have a moment to yourself can really help make it a regular part of your routine. And you\u2019re absolutely right\u2014if you miss it, being gentle with yourself will make a big difference. What if you also considered having a little note or something visual to remind you why this practice is important to you? That could help reinforce your commitment even on busy days. What do you think?",
+      "client": "I can kind of see how a little note would help me stay focused on why I want to do this. Sometimes, when things get hectic, I forget the reasons I started in the first place. But then again, I worry that I\u2019ll just end up ignoring it like I do with other reminders. I guess it could be worth a try, though. Maybe having something visual will help keep me committed, especially on those busier days.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 27,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "That sounds like a fantastic first step! Choosing a specific time in the evening when you typically have a moment to yourself can really help make it a regular part of your routine. And you\u2019re absolutely right\u2014if you miss it, being gentle with yourself will make a big difference. What if you also considered having a little note or something visual to remind you why this practice is important to you? That could help reinforce your commitment even on busy days. What do you think?",
+        "therapy_mode": "CBT",
+        "technique": "Socratic Questioning",
+        "completed_turn": 26,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.336340999841923,
+        "storage_time_ms": 0.007939000170154031
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "It\u2019s great that you\u2019re open to trying a visual reminder! It can really help anchor you in your intentions, especially when life gets hectic. Maybe think about what kind of message or image resonates most with you\u2014something uplifting or motivational. You could even make it fun by decorating it in a way that feels personal! If you find it slipping your mind, you could also consider placing it somewhere you\u2019ll see it often, like on your fridge or workspace. How does that sound for keeping you committed?",
+      "client": "That does sound like a good idea. I like the thought of making it personal and fun\u2014maybe even adding some colors or stickers. I guess if it\u2019s visually appealing, I might be more inclined to pay attention to it. But part of me still worries I won't follow through, like with other things I\u2019ve tried before. I don\u2019t know\u2026 I just hope I can find a way to make it stick this time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 28,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s great that you\u2019re open to trying a visual reminder! It can really help anchor you in your intentions, especially when life gets hectic. Maybe think about what kind of message or image resonates most with you\u2014something uplifting or motivational. You could even make it fun by decorating it in a way that feels personal! If you find it slipping your mind, you could also consider placing it somewhere you\u2019ll see it often, like on your fridge or workspace. How does that sound for keeping you committed?",
+        "therapy_mode": "CBT",
+        "technique": "Open-ended Questions",
+        "completed_turn": 27,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.512813999397622,
+        "storage_time_ms": 0.012928000614920165
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Making it personal and fun with colors and stickers sounds like a great way to engage with it! It\u2019s totally normal to have worries about following through, especially if past attempts didn\u2019t go as planned. What if you viewed this as a learning experience? Each time you try, you\u2019re gaining insights into what works best for you. Maybe you could even check in with yourself weekly to reflect on what went well and what you might want to tweak. This way, you\u2019re building a practice that evolves with you. How does that sound for creating a more supportive approach?",
+      "client": "I can kind of see how checking in weekly would be helpful. It feels like a way to keep track of my progress without being too hard on myself. I guess I\u2019ve just gotten so used to feeling like I\u2019m failing when things don\u2019t go perfectly, you know? Part of me thinks it could be a good opportunity to learn and adjust, but another part still worries I\u2019ll just end up feeling frustrated again if I don\u2019t see the changes I want. It\u2019s hard to shake that feeling of disappointment.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 29,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "Making it personal and fun with colors and stickers sounds like a great way to engage with it! It\u2019s totally normal to have worries about following through, especially if past attempts didn\u2019t go as planned. What if you viewed this as a learning experience? Each time you try, you\u2019re gaining insights into what works best for you. Maybe you could even check in with yourself weekly to reflect on what went well and what you might want to tweak. This way, you\u2019re building a practice that evolves with you. How does that sound for creating a more supportive approach?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 28,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.3203250000515254,
+        "storage_time_ms": 0.007373000698862597
+      },
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "It\u2019s completely understandable to feel that way. Acknowledging those fears is important. Maybe try reframing your perspective on progress: instead of seeing it as all or nothing, consider every small step as a victory. If something doesn\u2019t go as planned, that\u2019s just information to help you adjust your approach. Each week can be a chance to celebrate what you did achieve, even if it\u2019s just a little. How do you think you could remind yourself to focus on those small wins instead of perfection?",
+      "client": "I mean, I guess thinking about small wins could help me feel less pressured. It\u2019s just that I\u2019ve always been kind of focused on bigger goals, and shifting my perspective feels a bit challenging. I can see how celebrating the little things might help me stay motivated, but part of me worries that I\u2019ll forget to do that or not take it seriously enough. It\u2019s like I want to be kinder to myself, but I\u2019m not sure how to actually put that into practice.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess if it\u2019s visually appealing, I might be more inclined to pay attention to it. But part of me still worries I won't follow through, like with other things I\u2019ve tried before.\"\n2. Client: \"I mean, I guess thinking about small wins could help me feel less pressured. It\u2019s just that I\u2019ve always been kind of focused on bigger goals, and shifting my perspective feels a bit challenging.\"\n\n**Progression:** The client's recent interactions indicate a notable shift towards emotional exploration. They are expressing concerns and fears about following through on their commitments, demonstrating a deeper engagement with their emotional state. This contrasts with earlier sessions where their responses were more factual and guarded. The acknowledgment of worries about perfectionism and the desire to learn from past experiences reflect a developing self-awareness and willingness to engage with their emotions.\n\n**Turning Point:** The pivotal moment appears to be when the client first articulated their concerns about not following through with visual reminders and their feelings of disappointment. This marked a shift from a more surface-level engagement to a deeper emotional disclosure where they recognized their patterns of self-criticism and the tension between wanting to be kinder to themselves while feeling unsure about how to implement that change. This self-reflection showcases their growing comfort in sharing vulnerable feelings with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": {
+        "turn": 30,
+        "conversation_id": "149f731b-eba9-4fde-9e51-31e758fd78d7",
+        "therapist_message": "It\u2019s completely understandable to feel that way. Acknowledging those fears is important. Maybe try reframing your perspective on progress: instead of seeing it as all or nothing, consider every small step as a victory. If something doesn\u2019t go as planned, that\u2019s just information to help you adjust your approach. Each week can be a chance to celebrate what you did achieve, even if it\u2019s just a little. How do you think you could remind yourself to focus on those small wins instead of perfection?",
+        "therapy_mode": "CBT",
+        "technique": "Cognitive Restructuring",
+        "completed_turn": 29,
+        "patient_state": {
+          "Sentiment": "Neutral",
+          "Motivation": "Medium",
+          "Engagement": "High",
+          "Readiness": 7,
+          "ReadinessReasoning": "Calculated from: Motivation=Medium (x2), Engagement=High (x1), Sentiment=Neutral (x1)"
+        },
+        "flashbulb_context": {
+          "good": [
+            {
+              "technique": "Open-ended Questions",
+              "mode": "MI",
+              "trajectory_before": "stable",
+              "readiness_before": 3.0,
+              "delta_readiness": 4.0,
+              "flashbulb_score": 0.64,
+              "pool": "good",
+              "turn": 7
+            }
+          ],
+          "bad": [],
+          "conflicts": []
+        },
+        "flashbulb_memories": [],
+        "retrieval_time_ms": 1.2281540002732072,
+        "storage_time_ms": 0.007799999366397969
+      },
+      "strategy_used": null
+    }
+  ]
+}

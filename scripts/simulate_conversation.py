@@ -43,11 +43,12 @@ from adaptive_therapist import (  # noqa: E402
     AdaptiveTherapist,
 )
 from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
+from hybrid_therapist import HybridTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "adaptive", "flash")
+THERAPIST_TYPES = ("standard", "adaptive", "flash", "hybrid")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
@@ -109,6 +110,10 @@ def parse_args() -> argparse.Namespace:
             "OpenAI model name for adaptive therapist readiness judging. Defaults "
             "to READINESS_JUDGE_MODEL, then --model."
         ),
+    )
+    parser.add_argument(
+        "--cbt-technique-chooser-model",
+        help="OpenAI model name for hybrid therapist CBT technique selection.",
     )
     parser.add_argument(
         "--flash-api-url",
@@ -259,6 +264,13 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             readiness_judge_model=readiness_judge_model,
             readiness_judge_prompt_path=args.readiness_judge_prompt,
         )
+    elif args.therapist_type == "hybrid":
+        therapist_role = HybridTherapist(
+            openai_client,
+            model,
+            args.temperature,
+            cbt_technique_chooser_model=args.cbt_technique_chooser_model,
+        )
     else:
         therapist_role = StandardTherapist(
             openai_client,
@@ -276,6 +288,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     readiness_judgments: list[dict[str, Any]] = []
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
+    cbt_recommendations: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
@@ -287,7 +300,14 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
         else:
-            text = therapist_role.reply(patient, conversation)
+            if args.therapist_type == "hybrid":
+                text = therapist_role.reply(
+                    patient,
+                    conversation,
+                    openness_level_before_turn,
+                )
+            else:
+                text = therapist_role.reply(patient, conversation)
             therapist_turn = Turn("Therapist", text)
             if args.therapist_type == "adaptive":
                 readiness_judgment = therapist_role.last_readiness_judgment
@@ -313,6 +333,31 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                         )
             elif args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
+            elif args.therapist_type == "hybrid":
+                recommendation = therapist_role.last_cbt_recommendation
+                if therapist_role.last_response_mode == "CBT":
+                    if (
+                        recommendation is not None
+                        and therapist_role.last_cbt_recommendation_updated
+                    ):
+                        cbt_recommendations.append(
+                            {
+                                "turn": turn_number,
+                                **recommendation,
+                            }
+                        )
+                    if recommendation is None:
+                        raise SystemExit(
+                            "Hybrid CBT route did not record a recommendation."
+                        )
+                    selected_strategy = recommendation.get("recommended_cbt_technique")
+                    selected_strategies.append(
+                        {
+                            "turn": turn_number,
+                            "strategy_used": selected_strategy,
+                            "openness_level": openness_level_before_turn,
+                        }
+                    )
 
         if flash_response is not None:
             flash_response = {
@@ -374,12 +419,16 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "readiness_judge_model": readiness_judge_model
         if args.therapist_type == "adaptive"
         else None,
+        "cbt_technique_chooser_model": (args.cbt_technique_chooser_model or model)
+        if args.therapist_type == "hybrid"
+        else None,
         "patient_id": patient.get("id"),
         "patient_name": patient.get("name"),
         "client_type": client_role.client_type,
         "openness_judgments": openness_judgments,
         "readiness_judgments": readiness_judgments,
         "selected_strategies": selected_strategies,
+        "cbt_recommendations": cbt_recommendations,
         "flash_responses": flash_responses,
         "turns": paired_turns,
     }

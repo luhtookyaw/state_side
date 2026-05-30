@@ -1,0 +1,568 @@
+{
+  "mode": "normal",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "9-2",
+  "patient_name": "Fiona",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"I guess I was annoyed, but that\u2019s it. It\u2019s not like I\u2019m losing sleep over it or anything.\"\n2. **Latest exchange demonstrating current openness:** \"I mean, I try to let it go and focus on other things. It\u2019s just part of living with someone, right?\"\n\n**Progression:** The client's recent interactions demonstrate a mix of factual and emotional responses, indicating a slight shift towards greater emotional openness. They acknowledge feelings of annoyance but maintain a defensive stance by downplaying the significance of their emotions. This suggests a growing awareness of their feelings, but they are still hesitant to delve deeper. Compared to earlier in the session, where responses were primarily factual and limited in emotional vocabulary, the client is beginning to articulate emotions, albeit with a sense of detachment.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue where they admitted to feeling \"annoyed\" about arguments with Ashby. This marked a notable moment of vulnerability where they recognized a specific emotional response, setting the stage for potential deeper exploration in future sessions. Despite their tendency to brush off these feelings, this admission indicates a willingness to engage with their emotional state, albeit cautiously.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess I could see what you mean about just a small moment to check in. Maybe it wouldn\u2019t be too overwhelming if I didn\u2019t dive too deep, you know?\"\n2. Client: \"I guess I could think about a specific moment, maybe when I notice myself getting annoyed with Ashby about the kitchen. It\u2019s like, I'll be in the middle of cooking, and then I see the trash piling up, and it just hits me.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable shift towards engagement and emotional expression. They display an awareness of their feelings regarding tension and annoyance, particularly with specific triggers (like their frustration with Ashby). This marks a significant change from earlier exchanges, where responses were more focused on avoidance of deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the moment when they began to identify and articulate specific feelings associated with their annoyance towards Ashby and the situation in the kitchen. This acknowledgment reflects a deeper level of self-reflection compared to their earlier hesitance to explore uncomfortable emotions. The client began to entertain the idea that examining their feelings, even slightly, could be beneficial.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Client's Emotional Expression:** \"I think the irritation is probably pointing to my need for some kind of order or support in my life. I mean, when I see the trash piling up, it just reminds me how much I feel like I\u2019m carrying everything on my own.\"\n2. **Client's Self-Reflection:** \"I can kind of feel a tightness in my chest when I think about having that conversation. It\u2019s like my mind is racing with all these 'what if' scenarios, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection. Initially, their responses seemed more factual and tentative, but there has been a clear progression towards more open emotional expression and vulnerability. The client articulates not only their feelings of irritation and guilt but also connects these emotions to a deeper need for support and order in their life. This marks a significant change from earlier interactions, where emotional vocabulary was limited and elaboration on feelings was minimal. The client is now actively engaging with their emotions and exploring their needs in relation to others, indicating a deeper level of engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted significantly during the exchange where they acknowledged feeling a tightness in their chest when contemplating a conversation with Ashby. This moment of physical awareness coupled with emotional insight reflects a turning point where the client began to connect their feelings and bodily sensations to their relational dynamics. The willingness to explore the potential for conflict, despite their hesitations, signals a deeper self-awareness and a burgeoning readiness to address their needs in a more constructive way.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I can see that maybe reminding myself of my past successes in navigating tough conversations could really help bolster my confidence. It\u2019s like each time I\u2019ve faced a difficult situation with Ashby, we've come out stronger on the other side, which gives me hope that this time might be similar.\"\n2. **Current Openness:** \"I think I could start by expressing appreciation for the things Ashby does well, like when she helps with other household tasks. That might create a more positive atmosphere and show her that I value her contributions.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a marked increase in emotional depth and self-reflection. Initially, they exhibited some anxiety and hesitation regarding the upcoming conversation with Ashby. However, they have transitioned into actively recognizing their past successes in handling difficult conversations, indicating a shift towards a more empowered and optimistic emotional state. They are also focusing on strategies to create a positive dialogue, which reflects a substantial growth in their engagement and willingness to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the importance of framing their feelings in a constructive manner, specifically when they articulated their understanding that they \"deserve to express [their] needs just as much as anyone else.\" This realization signifies a deeper level of self-awareness and willingness to engage in authentic vulnerability, indicating a significant development in their emotional openness and rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think it might be helpful to set a mental intention before the conversation. I could tell myself, 'We\u2019re in this together,' to focus on collaboration rather than conflict.\"\n2. \"Part of me is a little anxious about how she might react, especially if she becomes defensive. I guess I could prepare for that by reminding myself to stay calm and not take it personally if she reacts strongly.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. They are moving beyond mere factual responses and beginning to articulate their feelings and strategies for managing anxiety. Their use of phrases like \"We\u2019re in this together\" reflects a shift towards collaboration and emotional openness, indicating a deeper engagement with their feelings and the situation at hand. This is a notable change from earlier sessions where the client may have been more reserved or defensive.\n\n**Turning Point:**\nA notable turning point occurred during the exchange where the client articulated their anxiety about how Ashby might react. This marked a shift in their emotional engagement as they began to openly acknowledge their feelings rather than suppress them. The client\u2019s willingness to explore coping strategies and anticipate challenges indicates they are developing a stronger sense of self-awareness and emotional transparency, which is crucial for deep engagement in therapy.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels important to ensure that we\u2019re not losing sight of the purpose behind our efforts, which is to create a pleasant living space together.\"\n2. \"I hadn\u2019t connected how meaningful those celebrations could be before, but it makes sense that they would create a more positive atmosphere in our living space.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a deep engagement in self-reflection and emotional expression, particularly when they articulate their concerns and solutions about the cleaning schedule and reward system. There is a marked shift from earlier sessions where their contributions may have been more factual and less emotionally rich. In these latest exchanges, the client showcases genuine insight into the importance of teamwork and the emotional implications behind household responsibilities, which indicates a growth in their emotional depth and willingness to explore personal feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing concerns about the potential for the reward system to feel forced. This moment of vulnerability allowed them to reflect on how they wanted their relationship with Ashby to develop, leading to the insight that shared experiences could enhance their collaboration. This breakthrough highlights an authentic understanding of their emotional landscape and a commitment to fostering a healthier dynamic, significantly elevating their current emotional state.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"Part of me knows that being intentional about our communication could lead to deeper conversations about other areas we need to address, too.\"\n2. \"I wonder if there are subtle cues or patterns in our conversations that could emerge when we're more relaxed. That feels a little uncomfortable to think about because it might reveal areas we need to work on, but I\u2019m willing to look at that.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a clear emotional depth and engagement that indicates significant growth from earlier sessions. Initially, the client showed hesitancy and a more factual approach to discussing their relationship. However, the current exchanges reveal a marked shift towards self-reflection, emotional expression, and willingness to explore deeper issues within their relationship, such as communication patterns. This progression showcases a developing comfort level and trust in the therapeutic relationship.\n\n**Turning Point:** The client\u2019s emotional depth took a notable shift when they expressed excitement about the possibility of growing together through the process of planning celebrations. This moment, where they recognized the potential for shared experiences to lead to deeper conversations, highlights a newfound willingness to engage with emotional complexities and to address underlying relationship dynamics. Their readiness to explore potentially uncomfortable topics, such as communication patterns, further indicates a deepening rapport with the therapist and a commitment to personal and relational growth.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 13,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client reduce anxiety about potential negative outcomes and clarify the worst-case scenarios regarding the conversation with Ashby.",
+      "reasoning": "The client is experiencing significant anxiety and anticipatory worry about how Ashby might react to their need for support. Decatastrophizing can help the client to challenge these fears and recognize that while conflict is a possibility, it is not a definite outcome. This technique can empower the client to approach the conversation with a clearer perspective and reduce the tightness and racing thoughts they experience.",
+      "suggestion": [
+        "What is the worst-case scenario you envision if you bring this up with Ashby?",
+        "How likely do you think that worst-case scenario is to actually happen?",
+        "What are some alternative outcomes that could occur from having this conversation?",
+        "How might you cope or respond if the worst-case scenario did happen?",
+        "Can you identify any evidence that supports or contradicts your fears about this conversation?"
+      ]
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts about the upcoming conversation with Ashby, allowing for a broader view of potential outcomes.",
+      "reasoning": "The client is grappling with anxiety about the worst-case scenario of their conversation with Ashby, but they also recognize the possibility of a positive outcome. By utilizing the Alternative Perspective technique, the therapist can support the client in seeing the conversation as a chance for growth and connection, rather than solely a source of conflict. This helps to foster a more balanced view and encourages self-advocacy.",
+      "suggestion": [
+        "What are some other ways you could view the potential outcomes of this conversation aside from the worst-case scenario?",
+        "Can you think of times when expressing your needs led to positive results, either in this relationship or others?",
+        "How might you approach the conversation with a mindset open to collaboration rather than confrontation?",
+        "What would you advise a friend to do if they were in your position, and how can you apply that advice to yourself?",
+        "In what ways can this conversation serve as an opportunity for both you and Ashby to grow as individuals?"
+      ]
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Problem-Solving Skills Training",
+      "goal": "To help the client develop effective strategies for addressing their needs in the conversation with Ashby.",
+      "reasoning": "The client has shown a desire to express their needs constructively while maintaining a collaborative atmosphere. Problem-Solving Skills Training fits well here, as it can equip the client with practical tools to navigate the conversation effectively, ensuring both their needs and Ashby's are met. This technique will also reinforce their goal of harmony in their living situation.",
+      "suggestion": [
+        "What specific steps can you outline to prepare for the conversation with Ashby?",
+        "Can you identify potential challenges that might arise during the discussion and brainstorm ways to address them?",
+        "How can you ensure that both you and Ashby have a chance to share your perspectives?",
+        "What possible solutions can you think of that may satisfy both of your needs?",
+        "How will you know if the conversation is going in a positive direction or if adjustments are needed?"
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client weigh the potential benefits and drawbacks of their proposed solutions, fostering a deeper understanding and commitment to their choices.",
+      "reasoning": "The client has expressed some hopeful feelings about their suggested solutions, like a cleaning schedule and reward system. By using a Pros and Cons Analysis, the client can further explore the effectiveness of these ideas, considering how they might enhance collaboration with Ashby and address their concerns about the kitchen situation. This technique also encourages the client to reflect on the practicality and emotional impact of their solutions.",
+      "suggestion": [
+        "What are the potential benefits of having a regular cleaning schedule with Ashby?",
+        "Are there any drawbacks or challenges you foresee with implementing a reward system?",
+        "How might these solutions affect your relationship and communication with Ashby in the long term?",
+        "Can you think of any other alternatives that might also work, and how do they compare to your current ideas?",
+        "What criteria will help you decide which solution to pursue?"
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test and validate the effectiveness of their new approach to rewards and shared experiences in improving communication and teamwork with Ashby.",
+      "reasoning": "A behavior experiment allows the client to implement their idea of celebrating accomplishments through shared experiences and observe its impact on their relationship dynamics. By actively engaging in this new behavior, they can gather evidence about its effectiveness, which can further reinforce their commitment to collaboration and communication.",
+      "suggestion": [
+        "What specific plans can you make for your first celebration after achieving a milestone?",
+        "How will you monitor both your feelings and Ashby's reactions during this shared experience?",
+        "What might you notice about your communication and teamwork after implementing this new approach to rewards?",
+        "How can you adjust your plans based on your observations to maximize the positive impact on your relationship?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Efficiency Evaluation",
+      "goal": "To identify and reinforce effective communication strategies and celebration practices that enhance the client's relationship with Ashby.",
+      "reasoning": "The client has expressed a desire to adapt and improve their celebration practices based on what works well, which aligns with evaluating the efficiency of these strategies. This technique can help the client assess the effectiveness of their communication and teamwork during celebrations, allowing them to make informed adjustments for future interactions.",
+      "suggestion": [
+        "What specific elements of your celebration do you think contribute the most to your connection with Ashby?",
+        "Can you identify any aspects that felt less effective or didn't resonate as much during your celebration?",
+        "How can you measure the impact of these celebrations on your overall communication and emotional connection?",
+        "What criteria will you use to evaluate the success of your celebration in fostering openness and joy?",
+        "How might you incorporate feedback from Ashby into your evaluation of future celebrations?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Fiona, I'm really glad you're here today. What\u2019s been on your mind lately that feels important for us to explore together?",
+      "client": "I don\u2019t think it\u2019s that deep, honestly. Just been dealing with Ashby not cleaning up after cooking. It\u2019s annoying, but it\u2019s not a huge deal. We\u2019ve had a few minor arguments about it, but I don\u2019t want to dwell on it. It\u2019s just how things are.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It seems like the situation with Ashby has been a bit frustrating for you, even if you feel it's not a huge deal. Sometimes, those minor arguments can still weigh on us, especially if they become a pattern. What are some of the feelings or thoughts that come up for you when you think about those arguments?",
+      "client": "I guess I was annoyed, but that\u2019s it. It\u2019s not like I\u2019m losing sleep over it or anything. We just argue sometimes, but it\u2019s not a big deal in the grand scheme of things. I mean, I try to let it go and focus on other things. It\u2019s just part of living with someone, right?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Living with someone often comes with its own set of challenges, and it sounds like you\u2019re trying to manage that balance between annoyance and letting things go. It\u2019s interesting how we can have these feelings and yet still want to keep our focus on the bigger picture. When you think about those moments of annoyance, is there anything in particular that stands out for you, maybe a specific moment or feeling that feels significant?",
+      "client": "I don\u2019t really think about it like that. It\u2019s just minor stuff, you know? Sure, there are moments where it gets a bit heated, but I just move on. I have my own things to deal with, and it\u2019s not worth getting too worked up over. We argue, we talk it out, and then it\u2019s over. That\u2019s just how it goes.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds like you have a pretty practical approach to those arguments with Ashby\u2014addressing them when they happen and then moving forward. That ability to let things go can be helpful in keeping the peace. When you reflect on how you handle those moments, do you notice any particular feelings in your body or thoughts that come up right after the arguments?",
+      "client": "I don\u2019t know. It just happened, I guess. I mean, I usually just brush it off. It\u2019s not like I\u2019m holding onto those feelings or anything. After the arguments, I just try to get on with my day. There\u2019s not much else to say about it.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. **Recent quote showing emotional state:** \"I guess I was annoyed, but that\u2019s it. It\u2019s not like I\u2019m losing sleep over it or anything.\"\n2. **Latest exchange demonstrating current openness:** \"I mean, I try to let it go and focus on other things. It\u2019s just part of living with someone, right?\"\n\n**Progression:** The client's recent interactions demonstrate a mix of factual and emotional responses, indicating a slight shift towards greater emotional openness. They acknowledge feelings of annoyance but maintain a defensive stance by downplaying the significance of their emotions. This suggests a growing awareness of their feelings, but they are still hesitant to delve deeper. Compared to earlier in the session, where responses were primarily factual and limited in emotional vocabulary, the client is beginning to articulate emotions, albeit with a sense of detachment.\n\n**Turning Point:** The client's emotional depth shifted during the dialogue where they admitted to feeling \"annoyed\" about arguments with Ashby. This marked a notable moment of vulnerability where they recognized a specific emotional response, setting the stage for potential deeper exploration in future sessions. Despite their tendency to brush off these feelings, this admission indicates a willingness to engage with their emotional state, albeit cautiously.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "It makes sense that you would want to move on quickly after those arguments, especially since they feel minor in the grand scheme of things. Sometimes, even brushing things off can stir up different feelings or sensations in our bodies that we might not notice right away. When you think about getting on with your day after an argument, do you notice anything specific in how you feel physically or emotionally right after, even if it's subtle?",
+      "client": "I mean, I guess I could think about it, but it feels like I just push those feelings aside. Sometimes I feel a bit tense, but it\u2019s not like I\u2019m lingering on it. I just try to focus on other things, like my work or helping Jersey, so maybe I don't really let myself feel whatever\u2019s there. It\u2019s hard to say, really. I don\u2019t know if I want to dive too deep into it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "It sounds like there\u2019s a mix of things happening for you, where you feel some tension but choose to focus on other aspects of your life instead. It\u2019s completely understandable to want to keep moving forward and not get caught up in those feelings. If you feel comfortable, we could take a moment to notice what that tension feels like in your body, just to see if anything shifts for you. What do you think?",
+      "client": "I don\u2019t know, that sounds a bit intense. I mean, I can kind of see why it might help, but I\u2019m not sure I want to focus on that tension right now. It feels easier to just keep moving, you know? I guess part of me thinks it might just make me feel worse if I really sit with it. But then again, maybe there\u2019s something to gain from exploring it a bit. It\u2019s just hard to say for sure.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "It makes sense to feel uncertain about diving into something that could feel intense. Wanting to keep moving and avoid discomfort is a natural response, especially if it feels easier in the moment. At the same time, it's interesting that you're open to the idea of exploring it a bit more. \n\nIf you were to take just a small moment to notice that tension\u2014maybe just a brief check-in\u2014what do you think might come up for you? No need to push it; just a gentle curiosity about how it feels in that moment could be enough.",
+      "client": "I guess I could see what you mean about just a small moment to check in. Maybe it wouldn\u2019t be too overwhelming if I didn\u2019t dive too deep, you know? I might notice something different, but I\u2019m still a bit hesitant because it feels like I could just end up thinking about all the little things that bother me, like with Ashby not cleaning up. It\u2019s frustrating, and I don\u2019t know if I want to add to that right now. But then again, maybe it could help clear my mind a bit. It\u2019s just hard to know where to start.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Finding that balance between checking in with yourself and not wanting to get overwhelmed is a delicate place to be. It sounds like you\u2019re weighing the potential benefits of exploring those feelings against the risk of feeling more burdened by them. When you think about starting small, what comes to mind for you? Is there a specific moment or feeling that feels manageable to touch on, even if it\u2019s just a light glance?",
+      "client": "I guess I could think about a specific moment, maybe when I notice myself getting annoyed with Ashby about the kitchen. It\u2019s like, I'll be in the middle of cooking, and then I see the trash piling up, and it just hits me. Part of me thinks it shouldn\u2019t bother me that much, but then it really does. I don\u2019t know if that\u2019s the best place to start though, since it feels a bit petty, you know? But maybe if I just acknowledge that irritation, it could clear some space for other things. It\u2019s kind of confusing.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. Client: \"I guess I could see what you mean about just a small moment to check in. Maybe it wouldn\u2019t be too overwhelming if I didn\u2019t dive too deep, you know?\"\n2. Client: \"I guess I could think about a specific moment, maybe when I notice myself getting annoyed with Ashby about the kitchen. It\u2019s like, I'll be in the middle of cooking, and then I see the trash piling up, and it just hits me.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a notable shift towards engagement and emotional expression. They display an awareness of their feelings regarding tension and annoyance, particularly with specific triggers (like their frustration with Ashby). This marks a significant change from earlier exchanges, where responses were more focused on avoidance of deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the moment when they began to identify and articulate specific feelings associated with their annoyance towards Ashby and the situation in the kitchen. This acknowledgment reflects a deeper level of self-reflection compared to their earlier hesitance to explore uncomfortable emotions. The client began to entertain the idea that examining their feelings, even slightly, could be beneficial.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Acknowledging that moment with Ashby sounds like a good starting point, even if it feels a bit petty. It\u2019s interesting how something seemingly small, like a messy kitchen, can really trigger strong feelings. Those feelings are valid, and it\u2019s okay to recognize them without judgment. \n\nWhen you think back to that moment in the kitchen, what do you notice about how you felt? Maybe it\u2019s the irritation itself, or even something else\u2014like your body\u2019s response or the thoughts that come up for you in that situation. Just a small check-in with that experience could be revealing.",
+      "client": "I can definitely think about that moment\u2014like when I see the trash and I\u2019m already feeling a bit overwhelmed with everything else going on in my life. I guess my first instinct is to get irritated, but then I feel a little guilty for reacting that way, like it\u2019s not a big deal in the grand scheme of things. It\u2019s almost like I\u2019m caught in this loop of feeling mad and then feeling bad about being mad. I don\u2019t know if that\u2019s normal or if I\u2019m just overthinking it. The kitchen just feels like a small thing, but it kind of symbolizes all the other stuff I\u2019m juggling. It\u2019s confusing, for sure.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Noticing that loop of feeling irritated and then guilty is important, especially since those feelings seem to be tied to a bigger picture for you. It\u2019s understandable to feel overwhelmed when you have a lot on your plate, and it sounds like the kitchen situation brings that to the surface. \n\nReflecting on that moment, what do you think the irritation and guilt are pointing to for you? Are they highlighting something specific about your needs or how you\u2019re feeling overall? Just taking a moment to sit with that might bring some clarity.",
+      "client": "I think the irritation is probably pointing to my need for some kind of order or support in my life. I mean, when I see the trash piling up, it just reminds me how much I feel like I\u2019m carrying everything on my own. It makes me feel like maybe I\u2019m not being heard or that my needs don\u2019t matter, which isn\u2019t a great feeling. And then the guilt comes in because I know Ashby has her own stuff going on. It\u2019s just\u2026 I don\u2019t know, it feels like everything is tangled up together, and it\u2019s hard to separate what's fair to expect from her and what I really need.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like that moment in the kitchen really brings up a lot of interconnected feelings for you. The sense of needing order and support, alongside the awareness of Ashby's situation, creates a complex mix of emotions. It makes sense that these feelings feel tangled, especially when you\u2019re trying to navigate your own needs while being mindful of someone else\u2019s.\n\nWhen you think about that need for support or being heard, what do you think it might look like for you to express that, even in a small way? Just exploring that idea could help untangle some of those feelings.",
+      "client": "I guess expressing that need for support could look like having a more direct conversation with Ashby about how I\u2019m feeling. But, I feel hesitant because I worry it might come off as too demanding or like I\u2019m blaming her. I mean, I don\u2019t want to make a big deal out of it, but maybe if I just said something like, \u201cHey, I\u2019ve been feeling a bit overwhelmed, and it would really help me if we could keep the kitchen cleaner,\u201d it might make a difference. It\u2019s just hard to find the right words, you know? I don\u2019t want to add to her stress either.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Finding the right words can definitely feel challenging, especially when you\u2019re trying to balance your own needs with the concern for Ashby\u2019s feelings. It seems like you really want to communicate openly but are also mindful of how it might be received. That hesitation is understandable given the emotions involved.\n\nWhen you think about having that conversation, what do you notice in your body or your feelings? Are there any specific thoughts that come up as you imagine bringing it up with her? Just tuning into that might help you feel a bit more grounded as you consider your next steps.",
+      "client": "I can kind of feel a tightness in my chest when I think about having that conversation. It\u2019s like my mind is racing with all these \u201cwhat if\u201d scenarios, you know? Part of me feels like it could go well, but then there\u2019s that other part that worries she might react defensively or think I\u2019m being unreasonable. I guess I\u2019m just anxious about how it could change things between us. It\u2019s hard to shake off the feeling that maybe I\u2019ll end up feeling worse if I try to address it, even though I know it might be helpful. I don\u2019t know if I\u2019m ready to face that potential conflict.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Client's Emotional Expression:** \"I think the irritation is probably pointing to my need for some kind of order or support in my life. I mean, when I see the trash piling up, it just reminds me how much I feel like I\u2019m carrying everything on my own.\"\n2. **Client's Self-Reflection:** \"I can kind of feel a tightness in my chest when I think about having that conversation. It\u2019s like my mind is racing with all these 'what if' scenarios, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a notable increase in emotional depth and self-reflection. Initially, their responses seemed more factual and tentative, but there has been a clear progression towards more open emotional expression and vulnerability. The client articulates not only their feelings of irritation and guilt but also connects these emotions to a deeper need for support and order in their life. This marks a significant change from earlier interactions, where emotional vocabulary was limited and elaboration on feelings was minimal. The client is now actively engaging with their emotions and exploring their needs in relation to others, indicating a deeper level of engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted significantly during the exchange where they acknowledged feeling a tightness in their chest when contemplating a conversation with Ashby. This moment of physical awareness coupled with emotional insight reflects a turning point where the client began to connect their feelings and bodily sensations to their relational dynamics. The willingness to explore the potential for conflict, despite their hesitations, signals a deeper self-awareness and a burgeoning readiness to address their needs in a more constructive way.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It\u2019s completely understandable to feel that tightness in your chest and experience racing thoughts when you think about this conversation with Ashby. Let\u2019s take a moment to explore what you\u2019re envisioning as the worst-case scenario. What do you think could happen if you bring up your feelings? Once we identify that, we can reflect on how likely it is for that to actually occur. Additionally, can you think of some alternative outcomes that might be more positive? It could really help to consider how you might cope if things don\u2019t go as you hope. Lastly, is there any evidence you can draw on that challenges those anxious thoughts about this conversation? This can help create a clearer picture as you move forward.",
+      "client": "When I imagine the worst-case scenario, I think it could lead to a big argument, and maybe Ashby would shut down or say something hurtful. I really worry that it could create a rift between us, and then I\u2019d feel even more alone in this situation. It makes me feel stuck, because I don\u2019t want to jeopardize our friendship over something that feels so small in the grand scheme of things. \n\nOn the flip side, I can see how it might go well too. If she\u2019s willing to listen, maybe we could come to an understanding and work together to keep the space nicer for both of us. I think I do have some evidence that she cares, like when she helps me with other things around the house. So, maybe I\u2019m underestimating her ability to be receptive. But the tension still lingers, and I\u2019m not sure how to lean into that uncertainty without feeling overwhelmed.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019re feeling a real tug-of-war between your fears and the possibility of a positive outcome. Recognizing that you have evidence of Ashby\u2019s care can really be a powerful counter to those anxious thoughts. If we consider the worst-case scenario further, how likely do you think it is that a big argument would actually happen? What\u2019s the worst that could come from that? On the other hand, envisioning a more collaborative and understanding conversation can help lighten that pressure. If the conversation doesn\u2019t go as you hope, how might you cope with that discomfort? Exploring these thoughts can help you approach this conversation with more clarity and confidence.",
+      "client": "I think it\u2019s a bit less likely that an argument would actually happen, even if my mind makes it seem so imminent. I mean, I know Ashby has her moments, but deep down, I believe we can communicate without it escalating. The worst that could happen, I guess, is that I\u2019d feel a bit hurt, but I\u2019ve been through tougher situations with her before, and we\u2019ve always managed to come back together somehow. \n\nIf it doesn\u2019t go as I hope, I think I could take a step back and maybe journal about how I\u2019m feeling or even talk to a friend about it. That feels like a healthier way to process things rather than allowing that discomfort to fester. I think there's something valuable in recognizing that I can still care for myself, regardless of the outcome in our conversation. It\u2019s just a bit daunting, but I\u2019m willing to look at that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It's great to hear that you\u2019re recognizing the likelihood of a big argument being less than your anxiety suggests, and it\u2019s encouraging that you\u2019ve navigated tough situations with Ashby before. Your insight into being able to take a step back and process your feelings through journaling or talking with a friend is a healthy approach to managing any discomfort that may arise. What if you also considered the possibility that this conversation could lead to a deeper connection and understanding between you two? Reflecting on how you can care for yourself, regardless of the outcome, shows a lot of resilience. Leaning into that willingness to face the conversation is a courageous step forward. How can you remind yourself of that resilience as you prepare to talk to Ashby?",
+      "client": "I can see that maybe reminding myself of my past successes in navigating tough conversations could really help bolster my confidence. It\u2019s like each time I\u2019ve faced a difficult situation with Ashby, we've come out stronger on the other side, which gives me hope that this time might be similar. When you say it that way, I notice how I can also remind myself that I deserve to express my needs just as much as anyone else. That feels a little uncomfortable, but not wrong\u2014I think I\u2019ve been so focused on avoiding conflict that I\u2019ve neglected my own feelings. I\u2019m willing to look at how this conversation could be a chance for both of us to grow, rather than just a potential source of tension.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you embracing the idea that expressing your needs is not only valid but essential for both your growth and the health of your relationship with Ashby. Recognizing that this conversation could lead to a deeper understanding between you two is a powerful perspective shift. What do you think you could say or do during the conversation that would reflect that intention of collaboration and growth? Additionally, how might you frame your feelings in a way that invites Ashby to respond with openness rather than defensiveness? Exploring these questions can help reinforce your confidence as you prepare for your conversation.",
+      "client": "I think I could start by expressing appreciation for the things Ashby does well, like when she helps with other household tasks. That might create a more positive atmosphere and show her that I value her contributions. If I frame my feelings around how the mess affects me personally, rather than accusing her of being careless, it might invite a more open response. For example, I could say something like, \u201cI feel overwhelmed when the kitchen is messy after cooking because it makes it harder for me to relax.\u201d That feels like a way to share my needs without putting her on the defensive. \n\nPart of me knows that if I approach it with that mindset, it could lead to a more collaborative conversation where we both feel heard. I hadn\u2019t connected those thoughts before, but it makes some sense that starting on a positive note could set the tone for a more constructive dialogue. I\u2019m willing to practice how to phrase it so that it feels authentic and also encourages her to share her perspective.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional Depth:** \"I can see that maybe reminding myself of my past successes in navigating tough conversations could really help bolster my confidence. It\u2019s like each time I\u2019ve faced a difficult situation with Ashby, we've come out stronger on the other side, which gives me hope that this time might be similar.\"\n2. **Current Openness:** \"I think I could start by expressing appreciation for the things Ashby does well, like when she helps with other household tasks. That might create a more positive atmosphere and show her that I value her contributions.\"\n\n**Progression:** In the most recent interactions, the client demonstrates a marked increase in emotional depth and self-reflection. Initially, they exhibited some anxiety and hesitation regarding the upcoming conversation with Ashby. However, they have transitioned into actively recognizing their past successes in handling difficult conversations, indicating a shift towards a more empowered and optimistic emotional state. They are also focusing on strategies to create a positive dialogue, which reflects a substantial growth in their engagement and willingness to explore their feelings.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing the importance of framing their feelings in a constructive manner, specifically when they articulated their understanding that they \"deserve to express [their] needs just as much as anyone else.\" This realization signifies a deeper level of self-awareness and willingness to engage in authentic vulnerability, indicating a significant development in their emotional openness and rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019ve really thought through how to approach this conversation with Ashby, and I love your idea of starting with appreciation. Framing your feelings in a way that emphasizes how the situation impacts you personally is a compassionate approach that invites collaboration. What other positive experiences have you had when expressing your needs in a constructive manner? Additionally, how might this shift in perspective not only enhance the conversation but also help you both grow individually and as a team? It\u2019s clear you\u2019re on a path toward deeper connection, and I\u2019m excited for you to explore this further.",
+      "client": "I think there have been moments when I\u2019ve expressed my needs constructively, like when I communicated to Jersey how important it was for me to have some quiet time during her recovery. It created a space where she felt comfortable sharing her feelings too, and it deepened our friendship. I realize that when I\u2019m open about what I need, it not only benefits me but also allows others to feel safe in doing the same.\n\nThat feels empowering to think about because it reinforces that expressing my needs isn\u2019t just about me; it can help create a healthier dynamic for everyone involved. Maybe if I can keep that in mind during my conversation with Ashby, it\u2019ll remind me that we\u2019re both working toward a shared goal of harmony in our living situation. I\u2019m excited to see how this perspective can lead to both of us feeling more supported and understood.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It's inspiring to see you connect your experiences with Jersey to the upcoming conversation with Ashby. Recognizing that expressing your needs can foster a more open and supportive atmosphere is a significant breakthrough. How might you remind yourself of that shared goal of harmony when you start to feel anxious about the conversation? It\u2019s clear that you have the ability to create a space where both of you can feel heard and understood, and I\u2019m excited for you to take this empowering perspective into your dialogue with Ashby. What can you do to ensure that this mindset stays front and center as you prepare to talk?",
+      "client": "When you ask how I can remind myself of that shared goal of harmony, I think it might be helpful to set a mental intention before the conversation. I could tell myself, \"We\u2019re in this together,\" to focus on collaboration rather than conflict. Maybe I could even visualize a positive outcome, like us finding a solution that works for both of us, which could help ease my anxiety. \n\nI can see that practicing deep breathing or grounding techniques beforehand might also help keep me centered and calm during the discussion. That feels like a way to manage my nerves while still being open and receptive to what Ashby has to say. Ultimately, I want to stay connected to the idea that we both want a comfortable living space, and that\u2019s something we can work on together.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you\u2019re considering setting a mental intention and visualizing a positive outcome before your conversation with Ashby. This proactive approach will not only ease your anxiety but also help you stay focused on collaboration. What specific steps can you outline to prepare for this conversation? Additionally, it might be helpful to identify any potential challenges that could arise and brainstorm ways to address them together. How can you ensure both of you have the opportunity to share your perspectives during the discussion? This preparation can foster a supportive environment where both your needs are recognized.",
+      "client": "I think one specific step I can take is to write down what I want to communicate to Ashby, so I have a clear outline of my feelings and needs. That way, I won\u2019t get sidetracked or overwhelmed during the conversation. I also want to make sure to invite her to share her thoughts as well, perhaps by asking open-ended questions like, \u201cHow do you feel about the kitchen situation?\u201d This could encourage her to express her side and make it feel more like a dialogue rather than a one-sided discussion.\n\nPart of me is a little anxious about how she might react, especially if she becomes defensive. I guess I could prepare for that by reminding myself to stay calm and not take it personally if she reacts strongly. Maybe I could also think of a few phrases that can help redirect the conversation back to a collaborative tone, like, \u201cLet\u2019s figure this out together.\u201d I hadn\u2019t connected those strategies before, but it feels like they could be really helpful in keeping our dialogue constructive.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019ve laid a solid foundation for your conversation with Ashby by outlining your feelings and inviting her to share her perspective. Writing down your thoughts is a great strategy to help you stay focused and confident. You\u2019ve also identified potential challenges, like her possible defensiveness, and that\u2019s so important\u2014what are some specific phrases you can use to help keep the conversation on track? Additionally, how will you gauge if the discussion is moving in a positive direction? Keeping these strategies in mind will empower both of you to navigate the conversation constructively.",
+      "client": "I think some specific phrases I could use to keep the conversation on track might include, \u201cI appreciate you sharing your thoughts,\u201d or \u201cLet\u2019s take a moment to consider each other\u2019s feelings.\u201d Those could help create a more supportive atmosphere. To gauge if the discussion is moving in a positive direction, I could pay attention to how both of us are responding. If we\u2019re both actively listening and offering solutions instead of just pointing fingers, that would be a good sign.\n\nPart of me also wonders if I should check in periodically during the conversation, perhaps saying something like, \u201cHow are we feeling about this so far?\u201d It seems vital to keep the lines of communication open. I hadn\u2019t thought about checking in like that, but it feels like a practical way to ensure we\u2019re both engaged and working toward that shared goal.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I think it might be helpful to set a mental intention before the conversation. I could tell myself, 'We\u2019re in this together,' to focus on collaboration rather than conflict.\"\n2. \"Part of me is a little anxious about how she might react, especially if she becomes defensive. I guess I could prepare for that by reminding myself to stay calm and not take it personally if she reacts strongly.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a significant increase in emotional depth and self-reflection compared to earlier exchanges. They are moving beyond mere factual responses and beginning to articulate their feelings and strategies for managing anxiety. Their use of phrases like \"We\u2019re in this together\" reflects a shift towards collaboration and emotional openness, indicating a deeper engagement with their feelings and the situation at hand. This is a notable change from earlier sessions where the client may have been more reserved or defensive.\n\n**Turning Point:**\nA notable turning point occurred during the exchange where the client articulated their anxiety about how Ashby might react. This marked a shift in their emotional engagement as they began to openly acknowledge their feelings rather than suppress them. The client\u2019s willingness to explore coping strategies and anticipate challenges indicates they are developing a stronger sense of self-awareness and emotional transparency, which is crucial for deep engagement in therapy.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It's fantastic that you're considering checking in during the conversation with Ashby; that shows a strong commitment to maintaining open communication. Asking, \"How are we feeling about this so far?\" can create a supportive dialogue and help both of you stay aligned with your shared goal. What other possible solutions can you think of that might address both your needs? Reflecting on these alternatives can prepare you further and strengthen the collaboration. Remember, the more you focus on each other's perspectives, the easier it will be to find common ground.",
+      "client": "I think some possible solutions could include setting a regular cleaning schedule that we both agree on, so it feels like a shared responsibility rather than just one person doing all the work. Maybe we could even designate specific days for cleaning up after cooking, which would make it easier to hold each other accountable. \n\nIt also crosses my mind that we might consider having a little reward system\u2014like treating ourselves to something enjoyable after a week of keeping the kitchen clean. That feels light-hearted and could motivate us both to stick to our commitments.\n\nI notice that when I think about these solutions, it makes me feel a bit more hopeful. I hadn\u2019t connected the idea of a reward system before, but it might help us approach this situation in a more positive way. Something about that feels a little exciting, like we\u2019re building teamwork rather than just addressing a problem.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear that you feel hopeful about the cleaning schedule and the reward system! Let\u2019s take a moment to explore these ideas further. What are some potential benefits of having a regular cleaning schedule with Ashby? How do you think it might enhance your collaboration and communication? On the flip side, are there any challenges or drawbacks you can foresee with implementing a reward system? Reflecting on these aspects can help you clarify your approach and reinforce your commitment to whichever solution you choose.",
+      "client": "I think some potential benefits of having a regular cleaning schedule with Ashby could include a greater sense of shared responsibility and accountability. If we both know when it\u2019s our turn to clean, it might reduce any resentment I feel about having to do it all myself. It could also foster a sense of teamwork, which I find really encouraging. \n\nHowever, I can see some challenges with the reward system. Part of me worries that it could feel forced or like we\u2019re just doing it for the treats rather than genuinely wanting to keep the kitchen clean. I hadn\u2019t fully connected those concerns before, but they\u2019re definitely worth considering. It feels important to ensure that we\u2019re not losing sight of the purpose behind our efforts, which is to create a pleasant living space together.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "You've made some insightful observations about the potential benefits of a regular cleaning schedule, especially in fostering teamwork and shared responsibility. It\u2019s great to recognize how that might alleviate some of your feelings of resentment. Your concerns about the reward system are also valid; it\u2019s essential to maintain the genuine motivation behind your efforts. How do you think a balance could be struck between enjoying the rewards and staying focused on the goal of creating a pleasant living space? Can you think of any other alternatives that might help reinforce that genuine commitment while still adding a fun element to the process?",
+      "client": "I think finding that balance could involve redefining the rewards to be more about celebrating our accomplishments rather than just treats. Maybe we could plan a small get-together or movie night together after a successful week of keeping the kitchen clean. That way, it feels more like a shared experience tied to our teamwork rather than just a transactional reward. \n\nReflecting on this, I can see how it might help us connect and recognize our efforts together, which reinforces the sense of collaboration. I hadn\u2019t thought about substituting tangible rewards with shared experiences before, but it feels much more aligned with our goal of creating a pleasant living space. It also makes me feel less concerned that the focus will shift towards the treats rather than the teamwork.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "I love the idea of redefining the rewards to focus on shared experiences like a movie night or a small get-together! This approach not only celebrates your accomplishments but also strengthens your bond through collaboration. How do you think this shift in focus will impact your communication and relationship with Ashby in the long run? It might also be helpful to consider what criteria you'll use to decide when to celebrate these milestones together. This could add even more meaning to your efforts!",
+      "client": "I can see that shifting the focus to shared experiences could really enhance our communication and strengthen our relationship. By celebrating our accomplishments together, it feels like we\u2019re not only recognizing the work we\u2019ve done but also reinforcing that we\u2019re in this together. I think this might help break down some of the barriers that have built up around our household responsibilities, making it easier for us to approach other issues with more openness and cooperation in the future.\n\nAs for deciding when to celebrate, I think we could establish some simple criteria, like keeping the kitchen clean for a week straight or cooking together without leaving a mess afterwards. Part of me knows that having these little milestones to work towards could keep us motivated and engaged with each other, which feels really important. I hadn\u2019t connected how meaningful those celebrations could be before, but it makes sense that they would create a more positive atmosphere in our living space.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"It feels important to ensure that we\u2019re not losing sight of the purpose behind our efforts, which is to create a pleasant living space together.\"\n2. \"I hadn\u2019t connected how meaningful those celebrations could be before, but it makes sense that they would create a more positive atmosphere in our living space.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a deep engagement in self-reflection and emotional expression, particularly when they articulate their concerns and solutions about the cleaning schedule and reward system. There is a marked shift from earlier sessions where their contributions may have been more factual and less emotionally rich. In these latest exchanges, the client showcases genuine insight into the importance of teamwork and the emotional implications behind household responsibilities, which indicates a growth in their emotional depth and willingness to explore personal feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing concerns about the potential for the reward system to feel forced. This moment of vulnerability allowed them to reflect on how they wanted their relationship with Ashby to develop, leading to the insight that shared experiences could enhance their collaboration. This breakthrough highlights an authentic understanding of their emotional landscape and a commitment to fostering a healthier dynamic, significantly elevating their current emotional state.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to see how clearly you\u2019re connecting these ideas and recognizing the potential positive impact of celebrating your milestones together. Establishing those criteria for celebrations sounds like a great way to maintain momentum and foster engagement. As you plan for your first celebration, what specific ideas do you have in mind that could create a memorable experience for both of you? Additionally, how do you envision monitoring your feelings and Ashby\u2019s reactions during these shared moments? Observing these dynamics will provide valuable insights into how well this approach enhances your communication and teamwork.",
+      "client": "I think for our first celebration, we could plan a fun movie night with some of our favorite snacks. Maybe we could even make it a themed night based on the movie we choose! I feel like having a special atmosphere would really highlight our efforts and make it feel more memorable. \n\nAs for monitoring our feelings and reactions, I think it might be helpful to check in with each other before and after the celebration. Just asking how we feel about the progress we made and what we enjoyed most could encourage open communication. I hadn\u2019t fully considered the importance of those check-ins before, but I can see how they could help us stay connected and genuinely appreciate our teamwork.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "Your plans for a themed movie night sound fantastic! Creating a special atmosphere can definitely amplify the sense of celebration and reinforce your teamwork. Checking in with each other before and after sounds like a great way to stay connected and ensure you're both feeling good about the progress you've made. As you implement this new approach, what do you think you might notice about your communication and teamwork during and after the celebration? This reflection could help you identify what\u2019s working well and how you might adjust your plans in the future to maximize that positive impact.",
+      "client": "I think during the celebration, I might notice a shift in our energy as we engage with each other in a lighter, more relaxed way. It feels like this shared experience could open up opportunities for laughter and fun, which has been missing sometimes in our routine. Afterward, reflecting on those moments could reveal how much more connected we felt, and I can see that as a sign of progress. \n\nPart of me knows that being intentional about our communication could lead to deeper conversations about other areas we need to address, too. I hadn\u2019t fully realized how these celebrations could serve as a platform for more meaningful discussions in the future, but it makes sense now that we\u2019re creating a positive environment.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear you recognize how these celebrations can foster a lighter atmosphere and open the door for deeper conversations in the future. Engaging in fun shared experiences may help dissolve some of the tension around household responsibilities and encourage more openness. As you move forward, how might you adjust your future celebrations based on what you learn from these experiences? This reflection could be key in maximizing the positive impact on your communication and teamwork with Ashby.",
+      "client": "I can see that adjusting our celebrations based on what we learn could really enhance our connection over time. If I notice that something works particularly well\u2014like a specific theme or type of snack\u2014that might become a regular feature of our celebrations. On the flip side, if something feels flat or doesn\u2019t resonate, I know we can tweak it to keep things fresh and engaging. \n\nPart of me is excited about the possibility of growing together through this process, and I think recognizing what engages us both will help us build a stronger foundation for addressing other challenges. I hadn't fully connected how adaptable we could be until now, which feels encouraging.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear your excitement about the adaptability of your celebrations! Recognizing which elements truly resonate with both you and Ashby can create a stronger emotional connection and provide a solid foundation for addressing other challenges together. As you think about future celebrations, what specific elements do you believe will contribute the most to your connection? Additionally, are there any aspects you might want to evaluate further to ensure they align with your shared goals? This reflective process can guide your celebrations to be even more enriching and effective.",
+      "client": "I think specific elements that will really contribute to our connection are those shared activities and the snacks we both enjoy. Creating an inviting space for us to relax and laugh together feels essential, almost like it sets the stage for everything else. I hadn\u2019t connected before how much the atmosphere could influence our enjoyment and openness; it's like the right setting allows us to be more ourselves.\n\nAs for things to evaluate further, maybe I should pay attention to how we communicate during these moments. I wonder if there are subtle cues or patterns in our conversations that could emerge when we're more relaxed. That feels a little uncomfortable to think about because it might reveal areas we need to work on, but I\u2019m willing to look at that.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"Part of me knows that being intentional about our communication could lead to deeper conversations about other areas we need to address, too.\"\n2. \"I wonder if there are subtle cues or patterns in our conversations that could emerge when we're more relaxed. That feels a little uncomfortable to think about because it might reveal areas we need to work on, but I\u2019m willing to look at that.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a clear emotional depth and engagement that indicates significant growth from earlier sessions. Initially, the client showed hesitancy and a more factual approach to discussing their relationship. However, the current exchanges reveal a marked shift towards self-reflection, emotional expression, and willingness to explore deeper issues within their relationship, such as communication patterns. This progression showcases a developing comfort level and trust in the therapeutic relationship.\n\n**Turning Point:** The client\u2019s emotional depth took a notable shift when they expressed excitement about the possibility of growing together through the process of planning celebrations. This moment, where they recognized the potential for shared experiences to lead to deeper conversations, highlights a newfound willingness to engage with emotional complexities and to address underlying relationship dynamics. Their readiness to explore potentially uncomfortable topics, such as communication patterns, further indicates a deepening rapport with the therapist and a commitment to personal and relational growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you recognize the importance of both the atmosphere and the shared activities in fostering connection. Creating that inviting space can truly pave the way for openness and enjoyment. As you consider evaluating your communication during these celebrations, what criteria do you think would help you measure success in fostering that sense of connection? Reflecting on how relaxed interactions might bring up subtle cues could lead to valuable insights. How might you incorporate feedback from Ashby into this evaluation process to enhance your celebrations even further?",
+      "client": "I think measuring success in fostering that sense of connection might involve looking at how much we both engage in conversation and share laughs during our time together. If we find ourselves being more open and genuinely enjoying each other's company, that\u2019s a clear sign we\u2019re heading in the right direction. \n\nWhen you mention incorporating feedback from Ashby, I realize that asking her how she feels about our celebrations could be really beneficial. It's almost like collaborating on this project together, making her feel included, which might even strengthen our bond. I hadn\u2019t connected the idea of feedback to our celebrations before, but I can see how it could enhance our experience.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It's heartening to see how you're embracing the idea of collaboration with Ashby to enhance your celebrations. Actively seeking her feedback can indeed create a sense of partnership, making each celebration feel more inclusive and meaningful. As you consider what specific questions you might ask her about the celebrations, what aspects do you think would encourage open and honest dialogue? Reflecting on how her insights might shape future gatherings could help you both feel even more connected in this process.",
+      "client": "I think some specific questions I could ask Ashby might revolve around what she enjoys most about our time together and if there\u2019s anything she feels is missing. I want to create a space where she feels comfortable sharing her thoughts, so maybe asking open-ended questions would help with that. \n\nAlso, I could touch on how she feels about the atmosphere we create, like whether it sets the right tone for enjoyment and connection. When I consider her insights, it opens up the possibility of co-creating our celebrations in a way that feels truly reflective of both our preferences, which is exciting to think about. I hadn't fully realized how her perspective could shape our gatherings until now, and that feels really hopeful!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    }
+  ]
+}

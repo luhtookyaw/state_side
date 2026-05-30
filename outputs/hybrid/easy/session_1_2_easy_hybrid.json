@@ -1,0 +1,657 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "1-2",
+  "patient_name": "Alex",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n- Client: \"I don't think it\u2019s that deep. I just missed the alarm, and now I feel like I can\u2019t catch up. It\u2019s annoying, but that\u2019s all there is to it.\"\n- Therapist: \"Waking up late can really throw off your day and bring up a lot of frustration. It\u2019s understandable to feel like it sets the tone for everything that follows.\"\n\n**Progression:** In the most recent exchanges, the client exhibits a mix of factual and emotional responses. While there is still a reluctance to delve deeper into feelings, the acknowledgment of feeling \"annoyed\" reveals a basic emotional vocabulary that was less evident in earlier sessions. The client shows a slight willingness to engage in the dialogue but remains somewhat defensive when discussing emotional implications. This indicates movement away from initial hesitance but not yet into a fully engaged exploration phase.\n\n**Turning Point:** The client\u2019s emotional depth began to shift during the exchange when they voiced their frustration about missing the alarm and how it affected their day. Although they downplayed the significance, this moment marked a slight shift from a purely factual recounting of events to an acknowledgment of a feeling state, suggesting the beginning stages of deeper self-reflection and emotional expression.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n- *\u201cI guess I feel a bit tense, like I have this tightness in my chest. It just kind of makes me feel restless, like I can\u2019t settle down.\u201d*\n- *\u201cI hadn\u2019t really thought about how it all connects until now. It\u2019s hard to explain.\u201d*\n\n**Progression:** The client\u2019s most recent interactions show a marked increase in emotional expression and self-reflection. Initially, they exhibited a reluctance to dive deeper into feelings, brushing off emotional significance with a factual response. However, as the session progressed, the client began to articulate their physical sensations and emotions more openly, demonstrating a willingness to explore how these feelings connect to their experiences. This shift signifies a significant change from their earlier defensive stance and factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their physical sensations, such as the tightness in their chest and feelings of restlessness. This moment allowed them to connect their emotional state to the broader context of their day, leading to a realization of the chain reaction effect of stress on their choices, such as calling in sick. This insight indicates a deeper level of engagement and self-awareness that aligns with the criteria for \"Engaged Exploration.\"",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- **Emotional State:** \"I mean, part of me thinks it\u2019s just a chain reaction, you know? Like, I feel tight and restless, and then I just want to escape it.\"\n- **Current Openness:** \"I guess if I really thought about it, I might notice that the tension doesn\u2019t feel the same all the time. Maybe it shifts a bit, like sometimes it\u2019s super intense, and other times it\u2019s just more of a dull pressure.\"\n\n**Progression:**\nThe client's most recent interactions reveal a noticeable emotional quality characterized by a mix of anxiety and introspection. They express a growing awareness of their emotional state and the connections between their physical sensations and emotional responses. This marks a significant change from earlier exchanges, where their reflections were more surface-level and defensive. Initially, the client demonstrated hesitance and a limited emotional vocabulary. Now, they are starting to articulate their feelings more clearly and reflect on them, indicating movement towards deeper engagement. \n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the dialogue when they acknowledged the \"chain reaction\" of feelings and how their tension impacts their choices. This moment of insight reflects a growing willingness to explore their internal landscape, even if they still express uncertainty about fully facing their emotions. This indicates a pivotal moment where the client began to engage more openly with their feelings instead of solely avoiding them, marking a step towards deeper exploration in their therapeutic journey.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess if I really thought about it, I might notice that the tension doesn\u2019t feel the same all the time. Maybe it shifts a bit, like sometimes it\u2019s super intense, and other times it\u2019s just more of a dull pressure.\"\n2. Client: \"I mean, maybe approaching it a little could look like just taking a moment to breathe or something. Like, just noticing how it feels in my body without doing anything about it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant enhancement in emotional expression and self-reflection. They demonstrate recognition of the tension's varying intensity and articulate a willingness to explore it, albeit with some apprehension. This is a marked progression from earlier exchanges, where emotional depth was likely more muted and focused on avoidance rather than exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged the variability of their tension, illustrating a new understanding of their emotional experience. This moment reflects a growing emotional awareness and willingness to engage with previously avoided feelings, signaling a transition towards deeper engagement in the therapeutic process. Their recognition of the tension's shifting nature suggests a pivotal moment of self-reflection, contributing to the current level of openness and engagement.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Recent quote showing emotional state:** \"I guess when the timer goes off, I might notice if I still feel that tension or if it's changed at all. Maybe I\u2019d realize something different about how I\u2019m thinking, like if I\u2019m still caught up in those negative thoughts.\"\n- **Latest exchange demonstrating current openness:** \"I mean, maybe I could set a timer for just a minute or two. That way, I\u2019d know it wouldn\u2019t go on forever, and I could have a way to check in with myself without feeling trapped.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a growing willingness to engage with their emotional experience, marked by a blend of anxiety and openness to self-observation. They are beginning to articulate their feelings of tension and uncertainty in a more detailed manner, showing an evolution from earlier exchanges that were more hesitant and focused on factual recounting of feelings. This marks a significant change from earlier sessions where they displayed more defensive responses and limited emotional vocabulary.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about using a timer as a tool for grounding. At this moment, they began expressing not only their fears of feeling overwhelmed but also their recognition of the potential benefits of engaging in the breathing exercise. This marked a notable progression in their self-reflection and emotional exploration, where they acknowledged both the risks and possible positive outcomes of the approach suggested by the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "Rating: 4\n\nKey Examples:\n1. \"Maybe I\u2019d realize something different about how I\u2019m thinking, like if I\u2019m still caught up in those negative thoughts. I mean, part of me hopes I could feel a bit lighter, but I also worry I\u2019ll just feel more frustrated or disappointed in myself for not handling it better.\"\n2. \"I guess it might feel a bit freeing, like I\u2019m not fighting against myself for once. It\u2019s just that the idea of being kind to myself feels kind of foreign, you know? Sometimes, I just don\u2019t know how to do it, or if I even deserve that kind of compassion.\"\n\nProgression: The client\u2019s most recent interactions demonstrate a significant depth of emotional expression and a willingness to explore their feelings about self-compassion. They articulate both hope and concern, illustrating an engagement with their internal dialogue that is more reflective than earlier exchanges. This marks a transition from earlier hesitance to a current state where they are actively considering the complexities of their emotional landscape.\n\nTurning Point: The client's emotional depth shifted notably when they began expressing their struggle with self-compassion and recognizing its potential benefits. Their admission that being kind to themselves feels \"kind of foreign\" indicates a deeper level of self-awareness and vulnerability, moving them away from merely stating factual concerns to reflecting on their emotional experience. This shift suggests a developing rapport with the therapist and a growing comfort in exploring difficult feelings.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"Sometimes, I just don\u2019t know how to do it, or if I even deserve that kind of compassion.\"\n2. **Current Openness:** \"I think recalling a specific instance could really help ground me in this idea of self-compassion.\"\n\n**Progression:** The client's most recent interactions exhibit a blend of acknowledgment of their emotional struggles and a willingness to explore the concept of self-compassion. The client expresses skepticism and vulnerability, indicating a recognition of their emotional state while also contemplating the benefits of self-kindness. This marks a significant change from earlier stages, where emotional expression was more guarded and factual.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to share a specific example of self-kindness (\"I remember a time when I was feeling down about my weight, and instead of beating myself up, I decided to go for a walk in the park.\") This moment reflects a deeper level of self-reflection and an emerging capacity for self-compassion, indicating a shift toward a more engaged exploration of their feelings and behaviors.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I remember a time when I was feeling down about my weight, and instead of beating myself up, I decided to go for a walk in the park. I felt a little lighter, both physically and emotionally, which is kind of surprising to think about.\"\n- \"I think journaling could be a really useful tool for me to capture what I\u2019m experiencing during those moments of self-kindness. I might want to ask myself how I felt before and after the walk, and whether my thoughts shifted at all.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. This is marked by their ability to recall a specific instance of self-kindness and articulate how it made them feel, showcasing a shift from a more defensive and hesitant state to one of vulnerability and acceptance. Earlier in the sessions, the client primarily expressed factual responses about their experiences with self-compassion, but now they are actively engaging in meaningful self-exploration and developing a clearer understanding of their emotions.\n\n**Turning Point:**\nThe turning point in the client's emotional depth occurred when they began expressing the impact of their actions\u2014specifically, when they shared how taking a walk helped them feel \"a little lighter, both physically and emotionally.\" This moment signified a deeper level of self-awareness and willingness to embrace self-kindness, which laid the groundwork for the current openness in their dialogue. The client is now proactively considering how to integrate self-compassion into their routine, indicating a strong therapeutic alliance and commitment to personal growth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. *Client:* \"I think journaling could be a really useful tool for me to capture what I\u2019m experiencing during those moments of self-kindness. I might want to ask myself how I felt before and after the walk, and whether my thoughts shifted at all.\"\n2. *Client:* \"I really appreciate that encouragement! I think keeping track of my mood and thoughts after each moment of self-kindness will be eye-opening. It\u2019s easy for me to get lost in negative spirals, so noticing even the smallest shifts could help me feel more grounded.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection compared to earlier sessions. They are actively engaging in meaningful dialogue, expressing their thoughts about journaling as a tool for self-discovery, and recognizing the importance of tracking their mood shifts. This level of insight reflects a significant departure from earlier stages characterized by minimal emotional disclosure and defensive responses. The client is now articulating their emotional experiences and is more open to exploring their feelings, indicating a strong progression in their therapeutic journey.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing a proactive strategy for self-kindness through journaling, identifying specific questions they want to ask themselves regarding their emotions before and after moments of self-kindness. This moment illustrates a significant increase in their vulnerability and willingness to engage in self-reflective practices, marking a clear advancement in their emotional openness and rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"Reflecting on that, I\u2019ve noticed when I take the time to care for myself, I often feel a sense of relief and even a little joy, which is such a contrast to my usual worries.\"\n2. Client: \"I think it might help to create a sort of fallback plan for those busy times. Maybe I could establish a quick self-kindness ritual that doesn\u2019t take much time, like just pausing for a few deep breaths or listening to a favorite song.\"\n\n**Progression:** The client has demonstrated a notable increase in emotional expression and self-reflection in recent exchanges. Initially, there were signs of hesitation and defensiveness regarding self-kindness and their feelings of worthlessness. However, the latest interactions reveal a clear engagement with their emotional state, showing both relief and joy associated with self-kindness practices. The client\u2019s willingness to explore and articulate their feelings and thoughts indicates a stronger level of comfort and trust with the therapist, marking significant growth in their emotional openness. The exploration of strategies to maintain self-kindness during challenging times further reflects a deepening understanding of their emotional needs and the importance of self-care.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing the tangible feelings of relief and joy linked to self-kindness practices. This moment highlights a transition from previously avoiding vulnerability to actively engaging with their emotions and recognizing the contrast between self-kindness and their usual worries. Their proactive approach to developing coping strategies, such as creating a fallback plan for busy times, signifies a deeper engagement with therapeutic concepts and a readiness to implement change.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can also see that if I remind myself of the relief and joy I feel after being kind to myself, it might make it easier to push through the doubts.\"\n2. Client: \"I remember a time when I took a day just for myself, went for a long walk, and felt genuinely content for the first time in a while.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection. They are actively engaging with the therapeutic concepts of self-kindness and are able to articulate specific strategies for maintaining their practice. This shows a shift from earlier sessions, where their emotional expression was more limited and they predominantly focused on factual responses. The client has moved toward a greater willingness to explore their feelings and the tangible impacts of self-kindness in their life, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the discussion about incorporating reminders of positive experiences into their daily life. When they shared the memory of a day spent on a walk, feeling genuinely content, it marked a significant moment of vulnerability and self-reflection. This transition to articulating memories of joy and recognizing the importance of self-kindness highlights a deeper emotional engagement and a stronger therapeutic alliance, as they now feel comfortable sharing personal insights and exploring their feelings in more depth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"When I think about those moments of kindness towards myself, I feel a mix of warmth and relief. It\u2019s almost like I\u2019m acknowledging that I do deserve to take care of myself, even if it feels uncomfortable at times.\"\n2. \"Embracing this emerging narrative feels both empowering and a bit daunting, but I can see how it could create a shift in my mindset.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a notable depth of emotional expression, particularly in their acknowledgment of feelings tied to self-kindness. They articulate a mix of warmth and relief, indicating a significant shift from earlier conversations where emotional expression was limited. The client shows a willingness to reflect on their experiences and recognizes the importance of self-kindness, marking a transition from initial defensiveness to a more open and engaged state. This progression illustrates a growing comfort in sharing personal insights and an active participation in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing the acknowledgment of their deservingness of self-care and kindness. In particular, their statement about feeling warmth and relief as they reflect on moments of kindness indicates a breakthrough in their self-perception. Additionally, their intention to create a ritual around journaling showcases a transformative shift in mindset, highlighting both empowerment and the recognition of their worth, which is a significant step in their journey toward self-acceptance and emotional well-being.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"Embracing this emerging narrative feels both empowering and a bit daunting, but I can see how it could create a shift in my mindset.\"\n2. Client: \"I think I might discover that I have more resilience than I give myself credit for, especially when challenges arise.\"\n\n**Progression:** The client's most recent interactions reflect a notable increase in emotional depth and self-reflection, showcasing their willingness to embrace vulnerability and explore their emotional landscape. They express a clear acknowledgment of their feelings tied to self-kindness and articulate their hopes for self-discovery, indicating a significant shift from earlier phases where emotional expression was more limited.\n\n**Turning Point:** The turning point occurred when the client began to articulate their fears and aspirations around self-kindness, specifically at the moment when they stated, \"Embracing kindness could reveal a deeper sense of self-acceptance that I\u2019ve been hesitant to acknowledge.\" This marks a transition into deeper engagement, as the client not only identifies potential obstacles but also recognizes their own resilience, suggesting a burgeoning sense of self-awareness and emotional openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n- \"I think I might discover that I have more resilience than I give myself credit for, especially when challenges arise. Embracing kindness could reveal a deeper sense of self-acceptance that I\u2019ve been hesitant to acknowledge.\"\n- \"I can see that maybe I\u2019ve had setbacks in the past, but I\u2019ve managed to keep moving forward, and there\u2019s evidence of my resilience. Perhaps a more balanced thought could be, 'It\u2019s okay to have tough days; what matters is how I respond to them.'\"\n\n**Progression:** The client\u2019s recent interactions demonstrate consistent emotional depth and self-reflection. They are engaging with the therapeutic process by recognizing their resilience and the potential for self-acceptance through kindness. This marks a significant change from earlier sessions where emotional expression was more limited and hesitant. The client is now articulating their feelings more openly and exploring their thoughts about challenges, showing a growing comfort with vulnerability in the therapeutic relationship.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fear of failing at kindness and recognized their resilience. This moment was significant as it illustrated their ability to confront fears while simultaneously expressing hope and a desire for self-acceptance. The shift towards embracing discomfort as a part of the journey indicates a deeper engagement and commitment to personal growth.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can see that maybe feeling more accepting of tough days could really lessen that immediate weight of anxiety I often carry. If I shift my perspective to focus on how I respond rather than just the setback itself, it might reduce my fear of failure.\"\n2. Client: \"It feels freeing to consider that I don\u2019t have to have all the answers right away; I can just be present with my feelings and learn from them. When I think about reaching out to others, it makes me realize that I\u2019m not just a burden; I can actually build connections and share my journey, which feels like a step toward embracing both vulnerability and strength.\"\n\n**Analysis of Progression:**\nThe client has demonstrated a notable progression in their emotional expression and self-reflection depth. In recent exchanges, there is consistent emotional depth, which reflects a growing comfort and trust in the therapeutic relationship. The client articulates their feelings of anxiety and fear of failure while also recognizing their resilience and the importance of shifting their perspective. This demonstrates a higher level of engagement and emotional processing than in earlier sessions. Where the client may have previously offered more factual responses or showed hesitance, they are now actively exploring their emotions and thoughts, revealing a willingness to share deeper insights.\n\n**Notable Turning Point:**\nA significant turning point occurred when the client began expressing a realization of their ability to embrace vulnerability, as illustrated by their acknowledgment that they do not need to carry everything alone. This shift towards understanding the strength found in connecting with others marks a crucial development in their self-awareness and emotional openness. Their current state reflects a deeper engagement with the therapeutic concepts being discussed, indicating a transition from merely addressing their fears to actively integrating strategies for self-kindness and resilience",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 13,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 13,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts about self-compassion and challenge their skepticism regarding their worthiness of kindness.",
+      "reasoning": "The client expresses uncertainty about their ability to offer themselves compassion, feeling it is foreign and questioning their deservingness. Using the Alternative Perspective technique can assist them in exploring different viewpoints on self-compassion, potentially diminishing the negative beliefs that hinder their progress. This can create an opportunity for the client to recognize that self-kindness is not only acceptable but beneficial for their emotional well-being.",
+      "suggestion": [
+        "What might you say to a friend who felt they did not deserve compassion or felt skeptical about trying to be kind to themselves?",
+        "Can you think of a time when you showed yourself kindness, even if it felt small? What was that experience like?",
+        "How might your perspective shift if you viewed self-compassion as a necessary part of resilience rather than a sign of weakness?",
+        "What evidence do you have that supports the idea that you do not deserve compassion?",
+        "How could you practice offering yourself the same understanding you might extend to others in similar situations?"
+      ]
+    },
+    {
+      "turn": 16,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To encourage the client to gradually incorporate self-kindness into their routine and observe the effects on their emotional state.",
+      "reasoning": "The client expressed a willingness to try small acts of self-kindness but feels nervous about making changes. A behavior experiment can provide a safe way to test the effectiveness of these small acts, allowing them to gather evidence about their impact on their feelings and thoughts. This aligns with the client's desire to build momentum in practicing self-compassion and to reduce feelings of being overwhelmed.",
+      "suggestion": [
+        "What small act of self-kindness are you willing to try this week, and how will you measure its impact on your mood or thoughts?",
+        "Can you identify specific times during the week when you might be able to incorporate this act into your routine?",
+        "After you complete this act, how do you plan to reflect on the experience? What will you look for in terms of changes in your feelings or thoughts?",
+        "How can you remind yourself to engage in this act of self-kindness when you start feeling overwhelmed?",
+        "Would it be helpful to journal about your experiences after trying these acts, and if so, what questions might you include in your reflections?"
+      ]
+    },
+    {
+      "turn": 19,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the benefits and drawbacks of their current thinking patterns and behaviors related to self-kindness.",
+      "reasoning": "The client has expressed a desire to become more compassionate toward themselves but struggles with negative thinking patterns that can lead to overwhelm. A Pros and Cons Analysis can help the client clearly see the effects of engaging in self-kindness versus remaining in their usual negative thought patterns, reinforcing the motivation to choose kindness.",
+      "suggestion": [
+        "What are some positive outcomes you've experienced from moments of self-kindness so far?",
+        "Can you identify any negative thoughts or patterns that come up when you try to practice self-kindness?",
+        "What do you think might happen if you prioritize these moments of self-kindness more often? How could that impact your overall mood?",
+        "Are there any drawbacks or challenges you foresee in continuing to practice self-kindness? How does that compare to the benefits?",
+        "How can understanding the pros and cons help you make decisions about your self-care in the future?"
+      ]
+    },
+    {
+      "turn": 22,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client challenge and reframe their negative thoughts about self-kindness and worthiness.",
+      "reasoning": "The client has expressed feelings of worthlessness and doubts about deserving self-kindness, which can hinder their practice. By using evidence-based questioning, the therapist can guide the client to evaluate the validity of these negative beliefs and consider alternative viewpoints. This technique complements the previously used Alternative Perspective and will help deepen their understanding of their self-worth.",
+      "suggestion": [
+        "Can you recall specific instances where you felt you deserved kindness? What evidence supports that you do deserve it?",
+        "What would you say to a friend who shared similar feelings of worthlessness? How might that perspective apply to yourself?",
+        "Are there any positive affirmations or past experiences that contradict the negative thoughts you have about self-kindness?",
+        "How do you feel when you reflect on those positive moments of self-kindness? Can you identify any evidence that suggests these feelings are valid?",
+        "What small step can you take this week to actively challenge the thought that you don't deserve kindness?"
+      ]
+    },
+    {
+      "turn": 25,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To reinforce the client's ability to engage in self-kindness and challenge self-doubt through practical application.",
+      "reasoning": "The client is eager to create a narrative where kindness becomes a norm in their life, indicating a readiness to experiment with new behaviors. A behavior experiment can help them actively engage in self-kindness and measure its impact on their self-worth, providing tangible evidence of their progress and reinforcing positive feelings.",
+      "suggestion": [
+        "What specific self-kindness activity would you like to try this week?",
+        "How will you measure the impact of this activity on your feelings of self-worth?",
+        "Can you identify any potential obstacles you might face in this experiment, and how could you address them?",
+        "What do you hope to learn about yourself through this behavior experiment?",
+        "After completing the activity, how will you reflect on your experience and feelings?"
+      ]
+    },
+    {
+      "turn": 28,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client reframe negative thoughts and alleviate the fear of setbacks in their self-kindness journey.",
+      "reasoning": "The client has expressed concerns about potentially forgetting their ritual and the tendency to beat themselves up over setbacks. Decatastrophizing can help the client challenge these catastrophic thoughts, promoting a more balanced outlook and encouraging self-compassion. This technique aligns well with their goal of embracing kindness and celebrating progress, as it allows them to see setbacks as a natural part of the process rather than a failure.",
+      "suggestion": [
+        "What specific thoughts come to mind when you think about forgetting your ritual or facing setbacks?",
+        "Can you identify any evidence that supports or contradicts these thoughts?",
+        "How likely is it that the worst-case scenario will happen, and how might you cope if it does?",
+        "What alternative, more balanced thoughts could you use to replace the negative ones?",
+        "How might reframing these thoughts change your feelings about the self-kindness journey?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Alex, I\u2019m really glad you\u2019re here today. What feels most important for us to talk about right now?",
+      "client": "I don\u2019t know, I guess I just missed my alarm and woke up late for work. It\u2019s annoying and now I feel like the whole day is messed up. I really don\u2019t see how it connects to anything bigger.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "Waking up late can really throw off your day and bring up a lot of frustration. It\u2019s understandable to feel like it sets the tone for everything that follows. Can you think of how that moment has affected your feelings or thoughts about the rest of your day?",
+      "client": "I don't think it\u2019s that deep. I just missed the alarm, and now I feel like I can\u2019t catch up. It\u2019s annoying, but that\u2019s all there is to it. I mean, it\u2019s just one day, right?",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n- Client: \"I don't think it\u2019s that deep. I just missed the alarm, and now I feel like I can\u2019t catch up. It\u2019s annoying, but that\u2019s all there is to it.\"\n- Therapist: \"Waking up late can really throw off your day and bring up a lot of frustration. It\u2019s understandable to feel like it sets the tone for everything that follows.\"\n\n**Progression:** In the most recent exchanges, the client exhibits a mix of factual and emotional responses. While there is still a reluctance to delve deeper into feelings, the acknowledgment of feeling \"annoyed\" reveals a basic emotional vocabulary that was less evident in earlier sessions. The client shows a slight willingness to engage in the dialogue but remains somewhat defensive when discussing emotional implications. This indicates movement away from initial hesitance but not yet into a fully engaged exploration phase.\n\n**Turning Point:** The client\u2019s emotional depth began to shift during the exchange when they voiced their frustration about missing the alarm and how it affected their day. Although they downplayed the significance, this moment marked a slight shift from a purely factual recounting of events to an acknowledgment of a feeling state, suggesting the beginning stages of deeper self-reflection and emotional expression.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "One day can definitely feel frustrating, especially when things don\u2019t go as planned. It's interesting how a small moment, like missing an alarm, can lead to those feelings of being behind or out of sync. How are you feeling in your body right now as you think about your day being thrown off?",
+      "client": "I guess I feel a bit tense, like I have this tightness in my chest. It just kind of makes me feel restless, like I can\u2019t settle down. Maybe that\u2019s why I ended up calling in sick and\u2026 well, I don\u2019t really want to talk about the rest, but it felt like I was just spiraling.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Feeling that tension in your chest and restlessness can really amplify those moments when things start to spiral. It sounds like the day took a turn that felt overwhelming, leading to choices that maybe you didn\u2019t anticipate. If you\u2019re comfortable, what do you notice about that feeling of spiraling, and how it relates to the tightness or restlessness in your body?",
+      "client": "I don\u2019t know, it just feels like when one thing goes wrong, everything else follows. I mean, part of me thinks it\u2019s just a chain reaction, you know? Like, I feel tight and restless, and then I just want to escape it. I guess that\u2019s why I called in sick; it felt easier than facing the day. I hadn\u2019t really thought about how it all connects until now. It\u2019s hard to explain.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n- *\u201cI guess I feel a bit tense, like I have this tightness in my chest. It just kind of makes me feel restless, like I can\u2019t settle down.\u201d*\n- *\u201cI hadn\u2019t really thought about how it all connects until now. It\u2019s hard to explain.\u201d*\n\n**Progression:** The client\u2019s most recent interactions show a marked increase in emotional expression and self-reflection. Initially, they exhibited a reluctance to dive deeper into feelings, brushing off emotional significance with a factual response. However, as the session progressed, the client began to articulate their physical sensations and emotions more openly, demonstrating a willingness to explore how these feelings connect to their experiences. This shift signifies a significant change from their earlier defensive stance and factual responses.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they articulated their physical sensations, such as the tightness in their chest and feelings of restlessness. This moment allowed them to connect their emotional state to the broader context of their day, leading to a realization of the chain reaction effect of stress on their choices, such as calling in sick. This insight indicates a deeper level of engagement and self-awareness that aligns with the criteria for \"Engaged Exploration.\"",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "Noticing that chain reaction can be really insightful, especially when one event seems to set off a series of feelings and choices. It sounds like that tightness and restlessness create a sense of urgency to escape or avoid the day. As you reflect on how these feelings connect, what do you think it would feel like to stay with that tension instead of trying to escape it?",
+      "client": "I don\u2019t know if I\u2019m ready to stay with that tension. It seems like it would just be uncomfortable, and I\u2019m not sure what that would even look like. I guess part of me thinks it might help to sit with it, but another part just wants to avoid it altogether. It\u2019s easier to escape, even if it leads to more chaos. I mean, what would I even do if I just sat with it?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "Sitting with that tension can definitely feel daunting, especially when avoiding it seems like the easier choice. It\u2019s understandable to want to escape discomfort when it feels overwhelming. If you imagine what it might look like to be with that feeling, even just for a moment, what do you think you would notice about it? Would it change or stay the same?",
+      "client": "I guess if I really thought about it, I might notice that the tension doesn\u2019t feel the same all the time. Maybe it shifts a bit, like sometimes it\u2019s super intense, and other times it\u2019s just more of a dull pressure. I don\u2019t know, maybe being with it could show me something different, but it feels risky, you know? It\u2019s like I\u2019m so used to running away from it that facing it might just feel... overwhelming. I\u2019m not sure how to even approach that.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- **Emotional State:** \"I mean, part of me thinks it\u2019s just a chain reaction, you know? Like, I feel tight and restless, and then I just want to escape it.\"\n- **Current Openness:** \"I guess if I really thought about it, I might notice that the tension doesn\u2019t feel the same all the time. Maybe it shifts a bit, like sometimes it\u2019s super intense, and other times it\u2019s just more of a dull pressure.\"\n\n**Progression:**\nThe client's most recent interactions reveal a noticeable emotional quality characterized by a mix of anxiety and introspection. They express a growing awareness of their emotional state and the connections between their physical sensations and emotional responses. This marks a significant change from earlier exchanges, where their reflections were more surface-level and defensive. Initially, the client demonstrated hesitance and a limited emotional vocabulary. Now, they are starting to articulate their feelings more clearly and reflect on them, indicating movement towards deeper engagement. \n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the dialogue when they acknowledged the \"chain reaction\" of feelings and how their tension impacts their choices. This moment of insight reflects a growing willingness to explore their internal landscape, even if they still express uncertainty about fully facing their emotions. This indicates a pivotal moment where the client began to engage more openly with their feelings instead of solely avoiding them, marking a step towards deeper exploration in their therapeutic journey.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "Noticing that the tension can shift in intensity is a valuable insight. It sounds like there\u2019s a mix of curiosity and apprehension about what facing it might bring. Acknowledging that it feels risky is important, especially since you\u2019ve developed a way of managing it by running away. If you were to approach it just a little bit, perhaps in a safe or manageable way, what do you think that would look like for you?",
+      "client": "I mean, maybe approaching it a little could look like just taking a moment to breathe or something. Like, just noticing how it feels in my body without doing anything about it. But even that sounds kind of scary, you know? Part of me thinks it might help, but I also worry I\u2019d get too lost in it or spiral into more negative thoughts. I guess I just don\u2019t want to make it bigger than it is, but it feels hard to find that balance.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "That does sound challenging, wanting to find a balance between noticing the tension and not wanting it to overwhelm you. Taking a moment to breathe and just be with how it feels in your body could be a step, yet it\u2019s understandable to have concerns about getting lost in that experience. If you picture yourself trying this for just a brief moment, what might help you feel more grounded or supported in that space?",
+      "client": "I guess I could think about grounding myself with something familiar, like focusing on my breath or maybe even just counting my breaths. That might help me stay connected to the present instead of getting swept away. I mean, it\u2019s just hard to know if that would really work for me, especially when I start feeling that tension. Part of me feels like I could handle it for a moment, but another part wonders if I\u2019d just end up feeling worse. I don\u2019t know if it\u2019s worth the risk.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \"I guess if I really thought about it, I might notice that the tension doesn\u2019t feel the same all the time. Maybe it shifts a bit, like sometimes it\u2019s super intense, and other times it\u2019s just more of a dull pressure.\"\n2. Client: \"I mean, maybe approaching it a little could look like just taking a moment to breathe or something. Like, just noticing how it feels in my body without doing anything about it.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a significant enhancement in emotional expression and self-reflection. They demonstrate recognition of the tension's varying intensity and articulate a willingness to explore it, albeit with some apprehension. This is a marked progression from earlier exchanges, where emotional depth was likely more muted and focused on avoidance rather than exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they acknowledged the variability of their tension, illustrating a new understanding of their emotional experience. This moment reflects a growing emotional awareness and willingness to engage with previously avoided feelings, signaling a transition towards deeper engagement in the therapeutic process. Their recognition of the tension's shifting nature suggests a pivotal moment of self-reflection, contributing to the current level of openness and engagement.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Feeling unsure about whether to take that step is completely valid, especially when you're weighing the potential for relief against the fear of feeling worse. It sounds like counting your breaths could be a way to create some familiarity and safety as you navigate that tension. If you were to try this, even for a short time, what do you think might help you notice your experience without getting too overwhelmed?",
+      "client": "I mean, maybe I could set a timer for just a minute or two. That way, I\u2019d know it wouldn\u2019t go on forever, and I could have a way to check in with myself without feeling trapped. I guess it might help to remind myself that it\u2019s okay to just observe what\u2019s happening without judgment. Still, I wonder if I\u2019ll be able to stick with it or if I\u2019ll just want to bail out halfway through. It feels like a bit of a gamble.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "Setting a timer for a minute or two sounds like a thoughtful way to create a boundary for yourself, offering a sense of control while you observe your experience. It\u2019s clear there\u2019s a part of you that recognizes the potential benefit of this approach, yet another part feels hesitant about whether you can stick with it or if it might feel overwhelming. If you think about that moment when the timer goes off, what do you imagine you might notice about how you feel or what\u2019s going on for you?",
+      "client": "I guess when the timer goes off, I might notice if I still feel that tension or if it's changed at all. Maybe I\u2019d realize something different about how I\u2019m thinking, like if I\u2019m still caught up in those negative thoughts. I mean, part of me hopes I could feel a bit lighter, but I also worry I\u2019ll just feel more frustrated or disappointed in myself for not handling it better. It\u2019s like I want to be proud of taking that step, but I also fear I might just end up stuck in my own head.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- **Recent quote showing emotional state:** \"I guess when the timer goes off, I might notice if I still feel that tension or if it's changed at all. Maybe I\u2019d realize something different about how I\u2019m thinking, like if I\u2019m still caught up in those negative thoughts.\"\n- **Latest exchange demonstrating current openness:** \"I mean, maybe I could set a timer for just a minute or two. That way, I\u2019d know it wouldn\u2019t go on forever, and I could have a way to check in with myself without feeling trapped.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a growing willingness to engage with their emotional experience, marked by a blend of anxiety and openness to self-observation. They are beginning to articulate their feelings of tension and uncertainty in a more detailed manner, showing an evolution from earlier exchanges that were more hesitant and focused on factual recounting of feelings. This marks a significant change from earlier sessions where they displayed more defensive responses and limited emotional vocabulary.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about using a timer as a tool for grounding. At this moment, they began expressing not only their fears of feeling overwhelmed but also their recognition of the potential benefits of engaging in the breathing exercise. This marked a notable progression in their self-reflection and emotional exploration, where they acknowledged both the risks and possible positive outcomes of the approach suggested by the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re holding a lot of hope and also some concerns about what you might discover when the timer goes off. Noticing the tension and how your thoughts may shift during that time could provide you with valuable insights, even if it doesn't feel as light as you\u2019d hope. The fear of feeling frustrated or stuck is understandable, especially as you navigate this process. If you were to check in with yourself in that moment, what do you think might help ease that worry about being disappointed or getting caught up in your head?",
+      "client": "I mean, maybe reminding myself that it\u2019s okay to feel whatever comes up could help a bit. Like, I could acknowledge those feelings instead of trying to push them away or judge them. I guess having a little bit of compassion for myself, even if it feels uncomfortable, might make it easier to just be in that moment. I\u2019m not sure if I\u2019ll manage it, but it feels kind of like a step in the right direction. Part of me thinks that could be beneficial, but another part is still anxious about what I might find.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Recognizing that it\u2019s okay to feel whatever comes up sounds like a compassionate approach you\u2019re considering. Acknowledging those feelings rather than pushing them away might create a bit more space for you in that moment. It\u2019s understandable to feel anxious about what you might discover, especially when you\u2019re putting yourself in a new situation. \n\nAs you think about this step in the right direction, what do you imagine it might feel like to offer yourself that compassion, even if it's uncomfortable?",
+      "client": "I guess it might feel a bit freeing, like I\u2019m not fighting against myself for once. It\u2019s just that the idea of being kind to myself feels kind of foreign, you know? Sometimes, I just don\u2019t know how to do it, or if I even deserve that kind of compassion. I mean, part of me thinks it could really help, but another part feels skeptical, like I might just end up feeling worse if I try and fail.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "Rating: 4\n\nKey Examples:\n1. \"Maybe I\u2019d realize something different about how I\u2019m thinking, like if I\u2019m still caught up in those negative thoughts. I mean, part of me hopes I could feel a bit lighter, but I also worry I\u2019ll just feel more frustrated or disappointed in myself for not handling it better.\"\n2. \"I guess it might feel a bit freeing, like I\u2019m not fighting against myself for once. It\u2019s just that the idea of being kind to myself feels kind of foreign, you know? Sometimes, I just don\u2019t know how to do it, or if I even deserve that kind of compassion.\"\n\nProgression: The client\u2019s most recent interactions demonstrate a significant depth of emotional expression and a willingness to explore their feelings about self-compassion. They articulate both hope and concern, illustrating an engagement with their internal dialogue that is more reflective than earlier exchanges. This marks a transition from earlier hesitance to a current state where they are actively considering the complexities of their emotional landscape.\n\nTurning Point: The client's emotional depth shifted notably when they began expressing their struggle with self-compassion and recognizing its potential benefits. Their admission that being kind to themselves feels \"kind of foreign\" indicates a deeper level of self-awareness and vulnerability, moving them away from merely stating factual concerns to reflecting on their emotional experience. This shift suggests a developing rapport with the therapist and a growing comfort in exploring difficult feelings.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It makes sense that offering yourself kindness feels foreign, especially when there's that voice questioning your deservingness of compassion. If you were to think about a friend who felt the same way, what would you say to encourage them to be kind to themselves? Reflecting on any small moments where you did show yourself kindness, even if they felt insignificant, could also help. How might your perspective change if you viewed self-compassion as a necessary part of resilience rather than a weakness? You deserve the same understanding and kindness you would extend to someone else facing similar doubts.",
+      "client": "I can see that maybe if I thought about it as being strong rather than weak, it might shift how I view self-compassion. I mean, when I think about my friends, I definitely encourage them to be gentle with themselves, even if they mess up. It feels easier to see their worth and remind them that everyone has tough moments. I guess part of me knows I could use that same perspective for myself, but it\u2019s just hard to shake off that skepticism. I worry that if I try to be kind and it doesn\u2019t work out, I\u2019ll just end up feeling more defeated. That feels a little uncomfortable, but not wrong, I think.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear you recognize that perspective shift\u2014seeing self-compassion as a strength rather than a weakness can be empowering. It sounds like you already extend kindness to your friends during tough moments, which shows you understand the importance of compassion. What if you applied that same understanding to yourself? Can you recall a specific instance when you showed yourself kindness, however small? Reflecting on that could help reinforce the idea that you are indeed worthy of compassion, too. What do you think would happen if you allowed yourself to practice that same gentleness in your own moments of struggle?",
+      "client": "I think recalling a specific instance could really help ground me in this idea of self-compassion. I remember a time when I was feeling down about my weight, and instead of beating myself up, I decided to go for a walk in the park. It was a small thing, but I actually enjoyed being outside and just moving my body. I felt a little lighter, both physically and emotionally, which is kind of surprising to think about. Maybe if I embraced those moments more often, I could start to build a little momentum in being kinder to myself. It\u2019s a little daunting, but I can see how it might help me feel less trapped in my own thoughts.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"Sometimes, I just don\u2019t know how to do it, or if I even deserve that kind of compassion.\"\n2. **Current Openness:** \"I think recalling a specific instance could really help ground me in this idea of self-compassion.\"\n\n**Progression:** The client's most recent interactions exhibit a blend of acknowledgment of their emotional struggles and a willingness to explore the concept of self-compassion. The client expresses skepticism and vulnerability, indicating a recognition of their emotional state while also contemplating the benefits of self-kindness. This marks a significant change from earlier stages, where emotional expression was more guarded and factual.\n\n**Turning Point:** The client's emotional depth shifted notably when they began to share a specific example of self-kindness (\"I remember a time when I was feeling down about my weight, and instead of beating myself up, I decided to go for a walk in the park.\") This moment reflects a deeper level of self-reflection and an emerging capacity for self-compassion, indicating a shift toward a more engaged exploration of their feelings and behaviors.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "That\u2019s a wonderful insight! Recognizing that small act of kindness towards yourself is such an important step. It\u2019s encouraging to hear how going for a walk brought you some emotional relief\u2014those moments can really make a difference. What if you made a plan to incorporate similar acts of self-kindness into your routine? Embracing those experiences could help reinforce the belief that you truly deserve compassion. How do you feel about starting with just one small thing this week that nurtures your well-being?",
+      "client": "I think making a plan sounds like a really good idea. I feel a bit nervous about incorporating self-kindness into my routine, but I can see how starting with something small could ease me into it. Maybe I could set aside some time to go for another walk or even just sit outside for a bit and enjoy the fresh air. When you say it that way, I notice that it feels more attainable, like I don\u2019t have to overhaul everything all at once. I\u2019m willing to look at that and see how it goes. It might even help me feel a little less overwhelmed and trapped in my thoughts, which would be a nice change.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear that you\u2019re feeling more open to trying small acts of self-kindness! Setting aside time for a walk or just sitting outside to enjoy the fresh air sounds like a perfect start. As you incorporate this into your routine, how will you measure any changes in your mood or thoughts afterward? It might also be helpful to reflect on how you feel during and after these moments. How can you remind yourself to engage in this act when you start feeling overwhelmed? Journaling about your experiences could be a great way to capture those reflections\u2014what questions do you think you might include?",
+      "client": "I think journaling could be a really useful tool for me to capture what I\u2019m experiencing during those moments of self-kindness. I might want to ask myself how I felt before and after the walk, and whether my thoughts shifted at all. It would be interesting to explore what emotions came up while I was outside, too, since I often get caught up in my head. Maybe I could also include questions about what I enjoy about those moments and if they helped me feel less overwhelmed. That feels like it could help me create a clearer picture of my progress as I try to be kinder to myself.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I remember a time when I was feeling down about my weight, and instead of beating myself up, I decided to go for a walk in the park. I felt a little lighter, both physically and emotionally, which is kind of surprising to think about.\"\n- \"I think journaling could be a really useful tool for me to capture what I\u2019m experiencing during those moments of self-kindness. I might want to ask myself how I felt before and after the walk, and whether my thoughts shifted at all.\"\n\n**Progression:**\nThe client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. This is marked by their ability to recall a specific instance of self-kindness and articulate how it made them feel, showcasing a shift from a more defensive and hesitant state to one of vulnerability and acceptance. Earlier in the sessions, the client primarily expressed factual responses about their experiences with self-compassion, but now they are actively engaging in meaningful self-exploration and developing a clearer understanding of their emotions.\n\n**Turning Point:**\nThe turning point in the client's emotional depth occurred when they began expressing the impact of their actions\u2014specifically, when they shared how taking a walk helped them feel \"a little lighter, both physically and emotionally.\" This moment signified a deeper level of self-awareness and willingness to embrace self-kindness, which laid the groundwork for the current openness in their dialogue. The client is now proactively considering how to integrate self-compassion into their routine, indicating a strong therapeutic alliance and commitment to personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019ve crafted a thoughtful journaling plan that will really help you track your feelings and experiences! Reflecting on how you felt before and after those moments of self-kindness can provide valuable insights. It\u2019s also great that you want to explore what you enjoy during those times outside; connecting with those positive emotions can reinforce your motivation. As you begin this week, how will you remind yourself to take that time for yourself, especially when you start to feel overwhelmed? Remember, it\u2019s all about those small steps and insights that will help you build a deeper sense of self-compassion.",
+      "client": "I think it might help to set a specific time each day, like in the morning after I wake up, to remind myself to take that time for self-kindness. I could maybe even put a note on my bathroom mirror or set a reminder on my phone to prompt me to step outside or go for a walk. Part of me knows that having that little nudge could make a difference, especially when I start feeling overwhelmed. I\u2019m also considering how finding a way to reconnect with those feelings of enjoyment during those moments could motivate me to keep going, even when it feels tough. That feels a bit more manageable, and I hope it helps me stay on track.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "Setting a specific time each day and using reminders is a fantastic strategy to help you prioritize those moments of self-kindness. It\u2019s great that you\u2019re thinking about reconnecting with the feelings of enjoyment during those times; that\u2019s such a powerful motivator. As you move through the week, take note of any shifts in your mood or thoughts after each act of self-kindness. Reflecting on these experiences in your journal will help you see the progress you\u2019re making, even on the tougher days. Remember, every small step counts, and you deserve this kindness!",
+      "client": "I really appreciate that encouragement! I think keeping track of my mood and thoughts after each moment of self-kindness will be eye-opening. It\u2019s easy for me to get lost in negative spirals, so noticing even the smallest shifts could help me feel more grounded. I\u2019m excited to see how those small steps add up over time, even if it feels a bit challenging at first. It\u2019s nice to feel like I\u2019m on a path toward being more compassionate to myself.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. *Client:* \"I think journaling could be a really useful tool for me to capture what I\u2019m experiencing during those moments of self-kindness. I might want to ask myself how I felt before and after the walk, and whether my thoughts shifted at all.\"\n2. *Client:* \"I really appreciate that encouragement! I think keeping track of my mood and thoughts after each moment of self-kindness will be eye-opening. It\u2019s easy for me to get lost in negative spirals, so noticing even the smallest shifts could help me feel more grounded.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection compared to earlier sessions. They are actively engaging in meaningful dialogue, expressing their thoughts about journaling as a tool for self-discovery, and recognizing the importance of tracking their mood shifts. This level of insight reflects a significant departure from earlier stages characterized by minimal emotional disclosure and defensive responses. The client is now articulating their emotional experiences and is more open to exploring their feelings, indicating a strong progression in their therapeutic journey.\n\n**Turning Point:** The client's emotional depth shifted notably when they began expressing a proactive strategy for self-kindness through journaling, identifying specific questions they want to ask themselves regarding their emotions before and after moments of self-kindness. This moment illustrates a significant increase in their vulnerability and willingness to engage in self-reflective practices, marking a clear advancement in their emotional openness and rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your excitement about the journey toward self-compassion! As you reflect on those small shifts in your mood and thoughts, what positive outcomes have you experienced from moments of self-kindness so far? It might be insightful to identify any negative thoughts that arise when you try to be kind to yourself. Considering the impact of prioritizing these moments more often, how do you think that would influence your overall mood? Also, do you see any challenges in maintaining this practice? Understanding these pros and cons can really guide your self-care decisions in the future.",
+      "client": "I can see that maybe identifying the positive outcomes from my moments of self-kindness could really help reinforce my motivation. Reflecting on that, I\u2019ve noticed when I take the time to care for myself, I often feel a sense of relief and even a little joy, which is such a contrast to my usual worries. But I also recognize that negative thoughts creep in, telling me I don\u2019t deserve this kindness or that it won\u2019t make a difference in the long run. I think this connects to my feelings of worthlessness, where I struggle to believe that I can truly benefit from being nice to myself. As for challenges, I worry that when things get busy or stressful, I might forget to prioritize this practice. That feels a bit daunting, but I\u2019m willing to look at that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s encouraging to hear you recognize both the relief and joy that come from self-kindness; those positive outcomes are truly valuable. It\u2019s also understandable that negative thoughts can arise, especially when they touch on deeper feelings of worthlessness. Acknowledging those thoughts is the first step in challenging them. As you think about the challenges of maintaining this practice during busy or stressful times, what strategies do you think might help you stay committed? Exploring how the benefits of self-kindness can outweigh the doubts may strengthen your resolve to prioritize this, even when life gets hectic.",
+      "client": "I think it might help to create a sort of fallback plan for those busy times. Maybe I could establish a quick self-kindness ritual that doesn\u2019t take much time, like just pausing for a few deep breaths or listening to a favorite song. That feels more doable when life gets overwhelming. I can also see that if I remind myself of the relief and joy I feel after being kind to myself, it might make it easier to push through the doubts. Exploring that connection between the benefits and my commitment feels really important, and part of me knows that if I allow myself to remember those positive feelings, it could encourage me to stick with the practice.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"Reflecting on that, I\u2019ve noticed when I take the time to care for myself, I often feel a sense of relief and even a little joy, which is such a contrast to my usual worries.\"\n2. Client: \"I think it might help to create a sort of fallback plan for those busy times. Maybe I could establish a quick self-kindness ritual that doesn\u2019t take much time, like just pausing for a few deep breaths or listening to a favorite song.\"\n\n**Progression:** The client has demonstrated a notable increase in emotional expression and self-reflection in recent exchanges. Initially, there were signs of hesitation and defensiveness regarding self-kindness and their feelings of worthlessness. However, the latest interactions reveal a clear engagement with their emotional state, showing both relief and joy associated with self-kindness practices. The client\u2019s willingness to explore and articulate their feelings and thoughts indicates a stronger level of comfort and trust with the therapist, marking significant growth in their emotional openness. The exploration of strategies to maintain self-kindness during challenging times further reflects a deepening understanding of their emotional needs and the importance of self-care.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing the tangible feelings of relief and joy linked to self-kindness practices. This moment highlights a transition from previously avoiding vulnerability to actively engaging with their emotions and recognizing the contrast between self-kindness and their usual worries. Their proactive approach to developing coping strategies, such as creating a fallback plan for busy times, signifies a deeper engagement with therapeutic concepts and a readiness to implement change.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "I love the idea of creating a fallback plan for those busy times! Establishing a quick self-kindness ritual, like taking deep breaths or listening to a favorite song, can serve as a gentle reminder of your commitment to yourself. Reflecting on the relief and joy that self-kindness brings can be a powerful motivator during those overwhelming moments. As you think about this connection, how can you incorporate reminders about those positive feelings into your daily life? Understanding how the benefits can outweigh your doubts will be key to maintaining your practice, even when things get hectic.",
+      "client": "When you mention incorporating reminders about the positive feelings into my daily life, I think I could really benefit from setting aside a specific time each day to reflect on those moments of self-kindness. Maybe I could keep a small journal where I jot down how I felt after being kind to myself, so I have something tangible to look back on when doubts creep in. Part of me knows that having a physical reminder might help me stay connected to those uplifting experiences. I also wonder if I could share some of these reflections with my girlfriend, as discussing my progress with someone close might reinforce my commitment. That feels a bit vulnerable, but not wrong, and I think it could help strengthen our relationship too.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "Your idea of keeping a journal to reflect on those moments of self-kindness is fantastic! Writing can really help solidify those positive feelings and provide you with tangible evidence when self-doubt arises. Can you recall any specific instances or feelings you've written about before that would support the idea that you truly deserve this kindness? Also, think about what you would say to a friend if they were sharing similar thoughts of worthlessness\u2014how might that perspective shift the way you view your own experiences? Sharing your reflections with your girlfriend sounds like a beautiful way to not only reinforce your commitment but also deepen your connection. What small step can you take this week to start that journaling practice?",
+      "client": "I can definitely see the value in keeping a journal; it's a tangible way to remind myself of the progress I\u2019m making. I remember a time when I took a day just for myself, went for a long walk, and felt genuinely content for the first time in a while. I think when I wrote about that, I realized I could find joy in small moments. If a friend were sharing feelings of worthlessness, I\u2019d probably tell them they absolutely deserve kindness and to recognize their own achievements, no matter how small. That perspective shift feels crucial for me as well, so I want to start journaling this week, maybe even tonight. Just putting pen to paper could really help me capture those positive feelings and remind myself that I\u2019m worth being kind to.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can also see that if I remind myself of the relief and joy I feel after being kind to myself, it might make it easier to push through the doubts.\"\n2. Client: \"I remember a time when I took a day just for myself, went for a long walk, and felt genuinely content for the first time in a while.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked increase in emotional depth and self-reflection. They are actively engaging with the therapeutic concepts of self-kindness and are able to articulate specific strategies for maintaining their practice. This shows a shift from earlier sessions, where their emotional expression was more limited and they predominantly focused on factual responses. The client has moved toward a greater willingness to explore their feelings and the tangible impacts of self-kindness in their life, indicating a deeper engagement with the therapeutic process.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the discussion about incorporating reminders of positive experiences into their daily life. When they shared the memory of a day spent on a walk, feeling genuinely content, it marked a significant moment of vulnerability and self-reflection. This transition to articulating memories of joy and recognizing the importance of self-kindness highlights a deeper emotional engagement and a stronger therapeutic alliance, as they now feel comfortable sharing personal insights and exploring their feelings in more depth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear that you\u2019re planning to start journaling tonight! Reflecting on that day you took for yourself and felt genuine contentment is such a powerful reminder of your ability to find joy in small moments. As you write, consider noting any other specific achievements or instances where you treated yourself with kindness. What kind of feelings arise when you think about those moments? This practice can help reinforce the belief that you truly deserve kindness. You\u2019re taking an important step, not just for yourself but also in recognizing your worthiness.",
+      "client": "When I think about those moments of kindness towards myself, I feel a mix of warmth and relief. It\u2019s almost like I\u2019m acknowledging that I do deserve to take care of myself, even if it feels uncomfortable at times. Reflecting on those little achievements, like that day I spent walking and just being present, brings up a sense of hope. I think I often forget how those acts can accumulate and build my self-worth. It feels exciting to realize that I can actively create a narrative for myself that embraces those positive feelings. I\u2019m eager to see how journaling will help me capture that and remind me of all the moments where I chose kindness.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to hear you feel warmth and relief when reflecting on those moments of self-kindness. Acknowledging that you deserve to take care of yourself is a significant step toward nurturing your self-worth. As you journal, try to capture not only the feelings you experienced but also any evidence that supports your worthiness, such as achievements or positive interactions. How might it feel to embrace this emerging narrative where kindness becomes a norm in your life? What small action can you take this week to reinforce that you truly deserve these moments of care and joy?",
+      "client": "Embracing this emerging narrative feels both empowering and a bit daunting, but I can see how it could create a shift in my mindset. By allowing kindness to become a norm in my life, I think I\u2019d start to see myself in a more positive light, which is something I've longed for. To reinforce that I truly deserve these moments of care and joy, I could set aside a specific time each day, even if it\u2019s just ten minutes, to reflect on my day and acknowledge those small acts of kindness. Maybe I could even create a little ritual around it, like lighting a candle or making a cup of tea, to make it feel special. That feels like a nice way to honor those experiences.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"When I think about those moments of kindness towards myself, I feel a mix of warmth and relief. It\u2019s almost like I\u2019m acknowledging that I do deserve to take care of myself, even if it feels uncomfortable at times.\"\n2. \"Embracing this emerging narrative feels both empowering and a bit daunting, but I can see how it could create a shift in my mindset.\"\n\n**Progression:** The client\u2019s recent exchanges demonstrate a notable depth of emotional expression, particularly in their acknowledgment of feelings tied to self-kindness. They articulate a mix of warmth and relief, indicating a significant shift from earlier conversations where emotional expression was limited. The client shows a willingness to reflect on their experiences and recognizes the importance of self-kindness, marking a transition from initial defensiveness to a more open and engaged state. This progression illustrates a growing comfort in sharing personal insights and an active participation in the therapeutic process.\n\n**Turning Point:** The client's emotional depth shifted significantly when they began expressing the acknowledgment of their deservingness of self-care and kindness. In particular, their statement about feeling warmth and relief as they reflect on moments of kindness indicates a breakthrough in their self-perception. Additionally, their intention to create a ritual around journaling showcases a transformative shift in mindset, highlighting both empowerment and the recognition of their worth, which is a significant step in their journey toward self-acceptance and emotional well-being.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "What a lovely idea to create a special ritual around your moments of reflection! Setting aside even ten minutes each day to acknowledge those small acts of kindness can truly reinforce the narrative you want to build. What specific self-kindness activity would you like to try during this time? As you engage in this practice, how will you measure the impact it has on your feelings of self-worth? Also, it might be helpful to think about any potential obstacles you could face in sticking to this ritual and how you might address them. What do you hope to learn about yourself through this behavior experiment?",
+      "client": "I really appreciate your encouragement around creating this ritual. I think during that time, I\u2019d like to reflect on the little moments where I showed myself kindness, like treating myself to a good meal or taking breaks when I needed them. Measuring the impact might be a bit tricky, but I could notice how I feel at the end of the week and whether I\u2019m more aware of those positive actions. There\u2019s a part of me that worries I might forget or get too busy to stick with it. I think if I set reminders on my phone or ask my girlfriend to help me remember, that could keep me accountable. I hope through this experiment, I can learn just how capable I am of embracing kindness, even on tough days.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your plans for reflecting on those moments of kindness, and I appreciate your thoughtful approach to measuring the impact on your feelings. Being aware of how you feel at the end of the week will provide important insights into your progress. It\u2019s completely natural to worry about forgetting your ritual, but having reminders and support from your girlfriend is a great strategy to stay accountable. As you embark on this experiment, what do you think you might discover about your ability to embrace kindness, especially when faced with challenges? After you complete this week\u2019s reflection, how will you take the time to process your experience and emotions?",
+      "client": "I think I might discover that I have more resilience than I give myself credit for, especially when challenges arise. Embracing kindness could reveal a deeper sense of self-acceptance that I\u2019ve been hesitant to acknowledge. After I complete this week\u2019s reflection, I\u2019ll want to set aside some time to really sit with my feelings and experiences. I could maybe talk it through with my girlfriend or jot down my thoughts in my journal, just to process everything and see how it resonates with me. I can already feel a bit of excitement at the thought of discovering new aspects of myself through this journey.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"Embracing this emerging narrative feels both empowering and a bit daunting, but I can see how it could create a shift in my mindset.\"\n2. Client: \"I think I might discover that I have more resilience than I give myself credit for, especially when challenges arise.\"\n\n**Progression:** The client's most recent interactions reflect a notable increase in emotional depth and self-reflection, showcasing their willingness to embrace vulnerability and explore their emotional landscape. They express a clear acknowledgment of their feelings tied to self-kindness and articulate their hopes for self-discovery, indicating a significant shift from earlier phases where emotional expression was more limited.\n\n**Turning Point:** The turning point occurred when the client began to articulate their fears and aspirations around self-kindness, specifically at the moment when they stated, \"Embracing kindness could reveal a deeper sense of self-acceptance that I\u2019ve been hesitant to acknowledge.\" This marks a transition into deeper engagement, as the client not only identifies potential obstacles but also recognizes their own resilience, suggesting a burgeoning sense of self-awareness and emotional openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear your excitement about discovering new aspects of yourself through this journey of self-kindness! Recognizing your resilience and the deeper self-acceptance that may emerge is a powerful insight. Your plan to process your experiences by talking with your girlfriend or journaling will allow you to reflect meaningfully on what you learn. As you engage in this experiment, remember to be gentle with yourself and celebrate any progress, no matter how small. I\u2019m looking forward to hearing about your reflections and discoveries next time!",
+      "client": "I truly appreciate your encouragement to be gentle with myself during this process. It can feel so easy to beat myself up over little setbacks, and I think recognizing that progress is worth celebrating, no matter how small, is a vital shift for me. I\u2019m feeling more hopeful about how embracing these moments of kindness might actually change my perspective on myself. I\u2019m looking forward to sharing my reflections and discoveries with you, as I think it might really help solidify this new approach in my life.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It's heartening to hear that you're feeling more hopeful about embracing kindness and the potential changes in your perspective. When you think about those moments where you might struggle or have setbacks, what specific thoughts come to mind? It may help to explore any evidence supporting or contradicting those worries. How likely do you think it is that you\u2019ll face the worst-case scenario, and if it happens, how could you cope? Reframing those thoughts could shift how you feel about your journey. What alternative, more balanced thoughts might help you embrace those moments with compassion instead of self-criticism?",
+      "client": "I think when I consider those moments of struggle or potential setbacks, the automatic thought that often surfaces is, \u201cWhat if I fail at this?\u201d There's a part of me that fears I won\u2019t be able to sustain this kindness towards myself, especially when life feels overwhelming. However, I also recognize that the worst-case scenario isn't as certain as I make it out to be. I can see that maybe I\u2019ve had setbacks in the past, but I\u2019ve managed to keep moving forward, and there\u2019s evidence of my resilience. \n\nPerhaps a more balanced thought could be, \u201cIt\u2019s okay to have tough days; what matters is how I respond to them.\u201d If I do encounter those hard moments, I could remind myself to pause, take a breath, and reach out to my girlfriend for support instead of spiraling. Embracing that possibility feels a little uncomfortable, but I think it\u2019s a step toward developing a healthier relationship with myself.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n- \"I think I might discover that I have more resilience than I give myself credit for, especially when challenges arise. Embracing kindness could reveal a deeper sense of self-acceptance that I\u2019ve been hesitant to acknowledge.\"\n- \"I can see that maybe I\u2019ve had setbacks in the past, but I\u2019ve managed to keep moving forward, and there\u2019s evidence of my resilience. Perhaps a more balanced thought could be, 'It\u2019s okay to have tough days; what matters is how I respond to them.'\"\n\n**Progression:** The client\u2019s recent interactions demonstrate consistent emotional depth and self-reflection. They are engaging with the therapeutic process by recognizing their resilience and the potential for self-acceptance through kindness. This marks a significant change from earlier sessions where emotional expression was more limited and hesitant. The client is now articulating their feelings more openly and exploring their thoughts about challenges, showing a growing comfort with vulnerability in the therapeutic relationship.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they articulated their fear of failing at kindness and recognized their resilience. This moment was significant as it illustrated their ability to confront fears while simultaneously expressing hope and a desire for self-acceptance. The shift towards embracing discomfort as a part of the journey indicates a deeper engagement and commitment to personal growth.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you recognize the strength in your resilience and how you can respond differently to tough days. The thought, \u201cIt\u2019s okay to have tough days; what matters is how I respond to them,\u201d is such a compassionate and balanced approach. When you remind yourself of this, how do you think it will change your feelings about setbacks? Allowing yourself to pause and reach out for support can truly foster a sense of kindness towards yourself during those challenging moments. Embracing this mindset could really transform your self-kindness journey!",
+      "client": "I can see that maybe feeling more accepting of tough days could really lessen that immediate weight of anxiety I often carry. If I shift my perspective to focus on how I respond rather than just the setback itself, it might reduce my fear of failure. I think this mindset could help me approach challenges with a bit more curiosity and less self-judgment. Embracing this idea of reaching out for support when I need it feels empowering, even if it\u2019s a little uncomfortable to think about leaning on someone else. It\u2019s like I\u2019m starting to believe that I don\u2019t have to carry everything alone.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s so encouraging to hear you reflect on how accepting tough days can lighten the burden of anxiety. Shifting your focus to your responses rather than the setback itself is a powerful strategy. How do you think approaching challenges with curiosity will change your experience during those moments? It\u2019s completely normal to feel uncomfortable about leaning on others, but remember, reaching out can strengthen your support network and reinforce your self-kindness journey. Embracing this community aspect might just open up new avenues for compassion towards yourself.",
+      "client": "I think approaching challenges with curiosity could really shift how I experience those moments. Instead of feeling overwhelmed by fear or judgment, I might find myself more open to exploring what\u2019s happening and why I\u2019m feeling that way. It feels freeing to consider that I don\u2019t have to have all the answers right away; I can just be present with my feelings and learn from them. When I think about reaching out to others, it makes me realize that I\u2019m not just a burden; I can actually build connections and share my journey, which feels like a step toward embracing both vulnerability and strength.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I can see that maybe feeling more accepting of tough days could really lessen that immediate weight of anxiety I often carry. If I shift my perspective to focus on how I respond rather than just the setback itself, it might reduce my fear of failure.\"\n2. Client: \"It feels freeing to consider that I don\u2019t have to have all the answers right away; I can just be present with my feelings and learn from them. When I think about reaching out to others, it makes me realize that I\u2019m not just a burden; I can actually build connections and share my journey, which feels like a step toward embracing both vulnerability and strength.\"\n\n**Analysis of Progression:**\nThe client has demonstrated a notable progression in their emotional expression and self-reflection depth. In recent exchanges, there is consistent emotional depth, which reflects a growing comfort and trust in the therapeutic relationship. The client articulates their feelings of anxiety and fear of failure while also recognizing their resilience and the importance of shifting their perspective. This demonstrates a higher level of engagement and emotional processing than in earlier sessions. Where the client may have previously offered more factual responses or showed hesitance, they are now actively exploring their emotions and thoughts, revealing a willingness to share deeper insights.\n\n**Notable Turning Point:**\nA significant turning point occurred when the client began expressing a realization of their ability to embrace vulnerability, as illustrated by their acknowledgment that they do not need to carry everything alone. This shift towards understanding the strength found in connecting with others marks a crucial development in their self-awareness and emotional openness. Their current state reflects a deeper engagement with the therapeutic concepts being discussed, indicating a transition from merely addressing their fears to actively integrating strategies for self-kindness and resilience",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    }
+  ]
+}

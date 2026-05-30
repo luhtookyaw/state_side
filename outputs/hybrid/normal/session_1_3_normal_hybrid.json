@@ -1,0 +1,424 @@
+{
+  "mode": "normal",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 4,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "1-3",
+  "patient_name": "Alex",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n- Client: \"I don\u2019t really want to get into all that. I just got annoyed with the rain and had to let her know I couldn\u2019t pick her up. Nothing more to it, really. It\u2019s just something that happens.\"\n- Client: \"I don\u2019t know. It just hit me that I was going to be stuck inside instead of out doing something. I felt frustrated, but it\u2019s not like it\u2019s a huge deal. I just moved on, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate an emerging emotional awareness, particularly with their acknowledgment of feeling frustrated about the change in plans due to the rain. While they show some reluctance to delve deeper, they do express a basic level of annoyance, which reflects a slight increase in emotional vocabulary from earlier sessions. This suggests they are beginning to recognize and articulate their feelings more consistently, marking a shift from a more defensive stance to a willingness to engage at some level.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they specifically stated, \"I felt frustrated, but it\u2019s not like it\u2019s a huge deal. I just moved on, you know?\" Here, the client begins to recognize and verbalize their emotional experience rather than denying it outright. This moment signifies a growing awareness of their feelings, indicating the potential for deeper exploration in future sessions. However, their continued minimization of the experience suggests they are still in the early stages of emotional engagement.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess it kind of reminds me of other times when things didn\u2019t go as planned, like when I\u2019d want to hang out with friends and something would get in the way. I mean, it\u2019s not like it happens all the time, but when it does, I feel that same tightness and frustration.\"\n2. \"I guess over time, I kind of feel that tightness linger a bit more, and it\u2019s like I\u2019m just shoving those feelings down. Maybe it catches up with me later, and I find myself getting annoyed at small things, like even the rain today.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional awareness and a willingness to reflect on their feelings. They express discomfort through the tightness in their chest and frustration when plans change, indicating an emotional depth that contrasts with earlier parts of the session, where they may have been more factual and guarded. The client is beginning to connect their emotional responses to their actions and broader patterns in their life, which marks a significant change from a more surface-level engagement.\n\n**Turning Point:** The client's emotional depth shifted notably when they stated, \"I guess over time, I kind of feel that tightness linger a bit more, and it\u2019s like I\u2019m just shoving those feelings down.\" This moment reveals a deeper self-reflection about the consequences of avoiding their feelings, showcasing an important realization about the accumulation of unaddressed emotions and how it affects their well-being. This insight represents a movement toward a more engaged exploration of their internal emotional landscape.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess I could think about the tightness I feel in my chest when those frustrating moments come up, like today with the rain. It\u2019s not as overwhelming as some other feelings I\u2019ve had, so maybe that\u2019s a good place to start.\"\n- \"I guess finding a way to ground myself would be really important. Maybe I could focus on my breath or something simple like that, just to help me feel a little more stable.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a growing awareness and willingness to engage with their emotions. They are beginning to articulate specific feelings, such as the tightness in their chest, and express a desire to explore these feelings rather than avoid them. This marks a significant change from earlier in the session, where emotional expressions were minimal and predominantly factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began acknowledging the tightness in their chest as a manageable entry point for exploration. Their statement about potentially uncovering deeper insights if they sit with that feeling demonstrates an increased willingness to reflect on their emotions and engage with them in a more profound way. This pivotal moment showcases their journey toward embracing discomfort while also recognizing the potential for personal growth.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \u201cI guess when I'm focused on something I enjoy, my body's a lot more relaxed. I tend to breathe easier, and I don't feel that tightness in my chest as much. But when I'm sitting with my thoughts, it's like my body tenses up, and I start to feel all those little aches and pains.\"\n2. Client: \"I guess one small step I could try is just setting aside a few minutes each day to check in with myself, you know? Maybe I could pick a specific time to do it, like in the morning or before bed, and see how I feel then.\"\n\n**Progression:**\nThe client has shown a marked increase in emotional expression within the latest exchanges, moving from earlier stages characterized by primarily factual responses and minimal emotional elaboration. In the recent dialogue, the client reflects on their bodily sensations and emotional experiences, indicating a deeper level of self-awareness and vulnerability. The acknowledgment of the difference in physical states between engaging in enjoyable activities and sitting with their thoughts demonstrates a meaningful self-reflection that was not as pronounced earlier. There is a noticeable shift from a somewhat detached engagement to a more introspective and open exploration of their feelings\u2014evidenced by the client\u2019s willingness to consider small actionable steps toward change.\n\n**Turning Point:**\nThe client's emotional depth began to shift notably when they articulated their frustrations with the tension felt during solitary moments. This moment of vulnerability\u2014expressing not just the physical discomfort but also the emotional struggle tied to wanting to change while feeling apprehensive\u2014marks a crucial turning point. The client\u2019s decision to explore practical steps like \"checking in with myself\" signifies a growing comfort in the therapeutic relationship and a desire to bridge the gap between their current emotional",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Emotional State:** \"I guess maybe I feel this mix of frustration and exhaustion, like I want to do better, but it just feels so heavy sometimes. I mean, it\u2019s hard not to feel overwhelmed when I think about all this.\"\n2. **Current Openness:** \"I guess the thoughts that come up are usually along the lines of, 'Why does this always happen to me?' or 'I'm just not good at handling things.' It\u2019s frustrating because I know that I shouldn\u2019t be feeling this way, but it kind of sneaks up on me.\"\n\n**Analysis of Progression:**\nThe client's recent exchanges illustrate a notable progression in emotional depth and self-reflection. Initially, they communicated feelings of tension and heaviness without delving deeper. However, in the latest interactions, they are not only identifying physical manifestations of their emotions (e.g., tension in shoulders and stomach) but also articulating the emotional complexities behind those sensations, such as frustration and exhaustion. This demonstrates a growing comfort in sharing their emotional experiences with the therapist.\n\nWhile earlier parts of the session may have exhibited limited emotional vocabulary and hesitance, the current dialogue reflects a mix of emotional expression and self-reflection. The client is beginning to explore why they feel overwhelmed, which indicates a shift towards more engaged exploration of their feelings and challenges. They are also willingly elaborating on the thoughts that contribute to their emotional state, showcasing deeper self-awareness.\n\n**Notable Turning Point:**\nThe client's emotional depth shifted notably when they began expressing the mix of frustration and exhaustion alongside a recognition of their own emotional reactions. This pivotal moment occurred during the discussion about the heaviness they feel in situations that should be",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess before the anger really kicks in, I start to feel this tightness in my chest, like there\u2019s a weight pressing down on me. It\u2019s almost like I can sense the irritation bubbling up, and that\u2019s when I start to feel a mix of embarrassment and shame...\"\n2. \"I mean, I guess when everything feels like it\u2019s piling up, I start having these thoughts like, 'Why does this always happen to me?' It\u2019s like I get stuck in this victim mentality...\"\n\n**Progression:**\nThe client\u2019s recent interactions illustrate a marked increase in emotional expression and self-reflection. They have moved from primarily factual responses in earlier sessions to articulating specific physical sensations associated with their emotions, such as the tightness in their chest and feelings of embarrassment and shame. This evolution indicates a growing awareness of their emotional state and a willingness to engage more deeply with their feelings. The client\u2019s acknowledgment of their thoughts during overwhelming moments reflects a significant shift toward self-reflection, pointing to a deeper understanding of their emotional responses and the patterns that contribute to their struggles.\n\n**Turning Point:**\nThe client\u2019s emotional depth appeared to shift during the recent exchange when they expressed a mix of sensations and emotions leading up to their anger. This moment served as a crucial turning point as they began to articulate the link between their emotional state and the physical signals their body provides. This shift not only demonstrates an increase in emotional vocabulary but also highlights a newfound openness to exploring the underlying causes of their feelings, which marks a departure from more surface-level interactions in earlier sessions.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"I could feel the frustration bubbling up, and I guess I just reacted without really thinking. It\u2019s like everything else just faded away, and I couldn\u2019t see a way to handle it calmly.\"\n2. **Current Openness:** \"I guess I\u2019ve noticed that my body tends to react in similar ways, like I\u2019ll feel that tightness or maybe even some tension in my shoulders. Sometimes I just want to pace around or do something physical to shake it off, but it\u2019s like I\u2019m trapped in my own head and can\u2019t find the way out.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a notable increase in emotional depth and self-reflection. Initially, they expressed their feelings more factually, but now they are providing rich, descriptive accounts of their emotional and physical experiences, indicating a significant shift in openness. They are not only identifying emotional triggers but also connecting them to physical sensations, which shows a deeper level of awareness and engagement in the therapeutic process. This marks a clear progression from earlier sessions where disclosures were more superficial and limited.\n\n**Turning Point:** The client's emotional depth shifted notably during the discussion about feeling overwhelmed by the rain after a stressful day at work. This moment highlighted not only their immediate emotional state but also how external factors can exacerbate their feelings of frustration. By articulating the tightness in their chest and racing heart in response to these emotions, they displayed a newfound vulnerability and ability to connect bodily sensations to emotional experiences, which is a significant advancement in their therapeutic journey.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 29,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 29,
+      "recommended_cbt_technique": "Problem-Solving Skills Training",
+      "goal": "To help the client develop effective strategies for managing overwhelming situations and emotional responses.",
+      "reasoning": "The client is struggling with feelings of being overwhelmed, which lead to heightened emotional responses and difficulty in thinking clearly. By using problem-solving skills training, the therapist can guide the client in identifying specific strategies to navigate challenging moments, such as the one they experienced with the rain, and to break the cycle of tension and frustration.",
+      "suggestion": [
+        "Can you think of a small, manageable problem you faced recently that caused you to feel overwhelmed?",
+        "What specific steps could you take to address that problem more calmly next time?",
+        "How might you break down that overwhelming situation into smaller, more actionable parts?",
+        "What resources or support could you tap into when you start to feel that frustration build again?",
+        "How can you incorporate awareness of your bodily sensations into your problem-solving process?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Alex, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know, it just happened. I was just about to head out and then the rain hit. Just typical, you know? I had to cancel picking her up, and it\u2019s not a big deal. Just annoying.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like the sudden change in weather caught you off guard and disrupted your plans. Cancelling can feel frustrating, especially when you were ready to go. What do you notice about how that shift affected you\u2014maybe in your thoughts or how you felt in your body?",
+      "client": "I don\u2019t really want to get into all that. I just got annoyed with the rain and had to let her know I couldn\u2019t pick her up. Nothing more to it, really. It\u2019s just something that happens.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Sometimes things can feel straightforward on the surface, but it can also be interesting to notice how those little moments impact us, even if we don\u2019t dive deep into it. You mentioned feeling annoyed by the rain, which is totally understandable. Did you notice any physical sensations or changes in your mood when you realized you had to cancel your plans?",
+      "client": "I guess I was a bit annoyed, but that\u2019s it. It was just rain ruining my plans, nothing more. I don\u2019t really feel the need to analyze it further. It's just one of those things, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "Sometimes, things really can feel like just a passing irritation, especially when they\u2019re out of our control. It's okay to feel that annoyance without needing to dig deeper if you don\u2019t want to right now. If you think back to the moment when you realized you couldn't go out, how did that annoyance show up for you in that instant?",
+      "client": "I don\u2019t know. It just hit me that I was going to be stuck inside instead of out doing something. I felt frustrated, but it\u2019s not like it\u2019s a huge deal. I just moved on, you know?",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n- Client: \"I don\u2019t really want to get into all that. I just got annoyed with the rain and had to let her know I couldn\u2019t pick her up. Nothing more to it, really. It\u2019s just something that happens.\"\n- Client: \"I don\u2019t know. It just hit me that I was going to be stuck inside instead of out doing something. I felt frustrated, but it\u2019s not like it\u2019s a huge deal. I just moved on, you know?\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate an emerging emotional awareness, particularly with their acknowledgment of feeling frustrated about the change in plans due to the rain. While they show some reluctance to delve deeper, they do express a basic level of annoyance, which reflects a slight increase in emotional vocabulary from earlier sessions. This suggests they are beginning to recognize and articulate their feelings more consistently, marking a shift from a more defensive stance to a willingness to engage at some level.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they specifically stated, \"I felt frustrated, but it\u2019s not like it\u2019s a huge deal. I just moved on, you know?\" Here, the client begins to recognize and verbalize their emotional experience rather than denying it outright. This moment signifies a growing awareness of their feelings, indicating the potential for deeper exploration in future sessions. However, their continued minimization of the experience suggests they are still in the early stages of emotional engagement.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 2,
+      "therapist": "That feeling of frustration can really pop up unexpectedly, especially when plans change. Sometimes it can be interesting to notice how quickly we move on, almost like putting it behind us. When you think about that moment of realizing you\u2019d be stuck inside, was there anything in your body or thoughts that stood out to you, even if it felt minor?",
+      "client": "I mean, I guess I felt a little tightness in my chest, and my mind just went to all the things I could be doing instead. It\u2019s like I had this rush of thoughts about how I was missing out, but it wasn\u2019t anything major. Maybe that\u2019s just how I usually react, you know? I don\u2019t really dwell on it for long. It\u2019s just rain, after all.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "therapist": "Noticing that tightness in your chest and the rush of thoughts about what you could be doing can be really telling, even if it feels like a common reaction for you. It\u2019s interesting how quickly our minds can shift to what we feel we're missing out on. When you think about that tightness and those thoughts, do they remind you of any other times when plans have changed unexpectedly?",
+      "client": "I guess it kind of reminds me of other times when things didn\u2019t go as planned, like when I\u2019d want to hang out with friends and something would get in the way. I mean, it\u2019s not like it happens all the time, but when it does, I feel that same tightness and frustration. It\u2019s almost like I can\u2019t help but think about how I\u2019m missing out on something important, even if it\u2019s just a casual get-together. Maybe I just don\u2019t like feeling stuck or limited, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "It's understandable to feel that way, especially when you think about missing out on connections with friends. That sense of being stuck or limited can bring up those familiar feelings of tightness and frustration. It sounds like there's a pattern of recognizing those physical sensations and thoughts in moments when plans don\u2019t go the way you hoped. When you reflect on how you respond to that feeling of being limited, what do you notice about your choices or feelings in those moments?",
+      "client": "I don\u2019t know, I guess I tend to just brush it off a lot of the time. Like, I\u2019ll distract myself with something else or make excuses to avoid dealing with it directly. Part of me feels frustrated, but another part just wants to move on and not dwell on it, you know? It\u2019s like I kind of convince myself it\u2019s not worth the hassle to feel upset over, but then I can feel that tightness creeping back in. I\u2019m not sure if that makes sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "It makes sense that you would want to move on and not dwell on those feelings, especially when it can feel like a hassle to sit with them. That push and pull between feeling frustrated and wanting to distract yourself is interesting, especially since you mentioned that tightness creeping back in. When you think about those moments of brushing things off, do you notice anything about how that choice affects you later on, or how it feels in your body as time goes by?",
+      "client": "I guess over time, I kind of feel that tightness linger a bit more, and it\u2019s like I\u2019m just shoving those feelings down. Maybe it catches up with me later, and I find myself getting annoyed at small things, like even the rain today. I mean, I don\u2019t want to make it bigger than it is, but sometimes I think I just end up feeling worse because I didn\u2019t deal with stuff right away. It\u2019s hard to explain. I don't know if that's exactly it, but I can kind of see how brushing things off could create a buildup.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess it kind of reminds me of other times when things didn\u2019t go as planned, like when I\u2019d want to hang out with friends and something would get in the way. I mean, it\u2019s not like it happens all the time, but when it does, I feel that same tightness and frustration.\"\n2. \"I guess over time, I kind of feel that tightness linger a bit more, and it\u2019s like I\u2019m just shoving those feelings down. Maybe it catches up with me later, and I find myself getting annoyed at small things, like even the rain today.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a growing emotional awareness and a willingness to reflect on their feelings. They express discomfort through the tightness in their chest and frustration when plans change, indicating an emotional depth that contrasts with earlier parts of the session, where they may have been more factual and guarded. The client is beginning to connect their emotional responses to their actions and broader patterns in their life, which marks a significant change from a more surface-level engagement.\n\n**Turning Point:** The client's emotional depth shifted notably when they stated, \"I guess over time, I kind of feel that tightness linger a bit more, and it\u2019s like I\u2019m just shoving those feelings down.\" This moment reveals a deeper self-reflection about the consequences of avoiding their feelings, showcasing an important realization about the accumulation of unaddressed emotions and how it affects their well-being. This insight represents a movement toward a more engaged exploration of their internal emotional landscape.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "That buildup you\u2019re noticing sounds significant, especially when it leads to feeling annoyed by smaller things later on. It\u2019s interesting how those unaddressed feelings can linger and affect your mood in unexpected ways. When you think about the tightness and annoyance, do you have a sense of what it might feel like to give those feelings a little more space or attention, even just for a moment?",
+      "client": "I mean, maybe it feels a bit scary to give those feelings more space. Like, part of me wonders if I\u2019ll just get overwhelmed or if it\u2019ll just make me feel worse. But I guess I can kind of see the value in it, just sitting with those feelings for a bit instead of pushing them away. It\u2019s just hard to know how to start, you know? I don\u2019t want to dive too deep and get stuck there.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "It makes sense to feel a bit scared about giving those feelings more space, especially if there's a worry of becoming overwhelmed. Recognizing that part of you sees the value in sitting with those feelings is a significant step. It sounds like there\u2019s a bit of tension between wanting to explore those emotions and the concern about getting stuck in them. When you think about starting to sit with those feelings, is there a small moment or a specific feeling that comes to mind that feels more manageable to explore?",
+      "client": "I guess I could think about the tightness I feel in my chest when those frustrating moments come up, like today with the rain. It\u2019s not as overwhelming as some other feelings I\u2019ve had, so maybe that\u2019s a good place to start. I mean, I can kind of acknowledge that it\u2019s there without it becoming too much, but I don\u2019t know. It\u2019s still a little uncomfortable to sit with it, even if it feels like a smaller thing. I just worry about what might come up if I let myself really feel it, but maybe I could try.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest sounds like a thoughtful starting point. It\u2019s understandable to feel a bit uncomfortable about sitting with it, even if it seems smaller compared to other feelings. What do you think would happen if you took a moment to just acknowledge that tightness without needing to push it away or change it?",
+      "client": "I don\u2019t know, maybe I\u2019d actually get a better sense of what\u2019s causing it, you know? Like, if I just sat with it for a bit instead of trying to ignore it, I might uncover something deeper. But then, part of me worries that it could just spiral into other stuff, like feeling overwhelmed by other emotions I don\u2019t want to deal with right now. I guess I could try to acknowledge it without judgment, but I\u2019m not sure how to do that yet. It feels risky in a way, but also maybe a little freeing? I mean, I can see both sides a little.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "It sounds like you\u2019re navigating a bit of a paradox, feeling both the risk and the potential freedom in acknowledging that tightness without judgment. Recognizing that it might lead to deeper insights, while also being concerned about getting swept up in overwhelming emotions, is a delicate balance. As you consider sitting with that feeling, what do you think would help you feel a bit more grounded or safe in that moment?",
+      "client": "I guess finding a way to ground myself would be really important. Maybe I could focus on my breath or something simple like that, just to help me feel a little more stable. I mean, if I can remind myself that it\u2019s okay to feel uncomfortable without it taking over, that might help too. It's just... I don't want to get in too deep and lose control of whatever comes up. I could also try to remind myself that it's just a feeling and that it won't last forever, you know? But it's tough to keep that in mind when I'm actually in the moment.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess I could think about the tightness I feel in my chest when those frustrating moments come up, like today with the rain. It\u2019s not as overwhelming as some other feelings I\u2019ve had, so maybe that\u2019s a good place to start.\"\n- \"I guess finding a way to ground myself would be really important. Maybe I could focus on my breath or something simple like that, just to help me feel a little more stable.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a growing awareness and willingness to engage with their emotions. They are beginning to articulate specific feelings, such as the tightness in their chest, and express a desire to explore these feelings rather than avoid them. This marks a significant change from earlier in the session, where emotional expressions were minimal and predominantly factual.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began acknowledging the tightness in their chest as a manageable entry point for exploration. Their statement about potentially uncovering deeper insights if they sit with that feeling demonstrates an increased willingness to reflect on their emotions and engage with them in a more profound way. This pivotal moment showcases their journey toward embracing discomfort while also recognizing the potential for personal growth.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Finding ways to ground yourself sounds like a really valuable approach. Acknowledging that the feelings are temporary and that they won\u2019t take over can be a helpful reminder when you\u2019re in the moment. It\u2019s understandable to feel a bit apprehensive about losing control, especially when you\u2019re still figuring out how to sit with those feelings. Can you think of a specific time when you managed to remind yourself that a feeling was just a feeling, and what that experience was like for you?",
+      "client": "I\u2019m not sure if I can pinpoint a specific time, but I think there have been moments, like when I\u2019m watching a movie or doing something I enjoy. Sometimes I notice a feeling creeping in, and I kind of just let it be there while I focus on the story or the activity. It\u2019s like I can feel the emotion without letting it take over, but it\u2019s definitely easier when I'm distracted by something else, you know? I mean, I guess it shows that I can manage it to some extent, but it just feels different when I\u2019m alone with my thoughts. It makes me wonder if I could replicate that feeling of distraction and still be present with what I\u2019m experiencing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "You\u2019ve highlighted an interesting contrast between feeling your emotions while engaged in an activity and when you\u2019re alone with your thoughts. It seems like being distracted allows you to experience those emotions without them feeling overwhelming. That sense of presence during enjoyable activities may offer some insight into how you can approach those feelings on your own, too. \n\nAs you think about that, what do you notice about your body or your breath when you\u2019re focused on something you enjoy compared to when you\u2019re sitting with your thoughts?",
+      "client": "I guess when I'm focused on something I enjoy, my body's a lot more relaxed. I tend to breathe easier, and I don't feel that tightness in my chest as much. But when I'm sitting with my thoughts, it's like my body tenses up, and I start to feel all those little aches and pains. It\u2019s kind of frustrating because I know I can feel different, but it just feels harder to tap into that when I\u2019m alone. I mean, maybe I just need to find a way to bring that relaxed feeling into those quieter moments, but it\u2019s tough to figure out how to do that consistently.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It\u2019s interesting to notice that contrast in how your body responds to being engaged in something enjoyable versus when you\u2019re alone with your thoughts. Feeling more relaxed and breathing easier during those enjoyable moments shows that you can access that state, even if it feels harder to replicate in quieter times. \n\nAs you reflect on those aches and tensions that arise when you\u2019re alone, what do you think might help shift that experience, even just a little, so you can start to bridge that gap?",
+      "client": "I mean, maybe just taking a moment to check in with my body could help. Like, if I notice the tension building up, I could do some gentle stretches or just take a few deep breaths to ease it a bit. I'm not sure if that'll work every time, but it's worth a shot, I guess. Part of me is also thinking maybe I could try bringing something from those enjoyable moments into my quiet time, like listening to music or something that makes me feel good. But, I don't know if I\u2019ll be able to do that consistently. It\u2019s like there\u2019s this part of me that wants to hold onto the discomfort instead of shaking it off.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "It sounds like you're exploring some helpful ideas, like checking in with your body and possibly incorporating music or activities that bring you joy into quieter moments. It's completely normal to feel a pull toward holding onto discomfort, especially when it's familiar. That tension can feel safer in a way, even if you\u2019re also wanting to find relief. \n\nAs you think about these ideas, what stands out to you as a small step you might feel comfortable trying?",
+      "client": "I guess one small step I could try is just setting aside a few minutes each day to check in with myself, you know? Maybe I could pick a specific time to do it, like in the morning or before bed, and see how I feel then. I\u2019m not sure if that\u2019ll be easy or if I\u2019ll stick with it, but it seems like it could be a starting point. I mean, I just want to find a way to make those uncomfortable feelings a bit more manageable, but part of me is worried I won\u2019t follow through. It\u2019s like I\u2019m caught between wanting to change and being scared of what that change might look like.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. Client: \u201cI guess when I'm focused on something I enjoy, my body's a lot more relaxed. I tend to breathe easier, and I don't feel that tightness in my chest as much. But when I'm sitting with my thoughts, it's like my body tenses up, and I start to feel all those little aches and pains.\"\n2. Client: \"I guess one small step I could try is just setting aside a few minutes each day to check in with myself, you know? Maybe I could pick a specific time to do it, like in the morning or before bed, and see how I feel then.\"\n\n**Progression:**\nThe client has shown a marked increase in emotional expression within the latest exchanges, moving from earlier stages characterized by primarily factual responses and minimal emotional elaboration. In the recent dialogue, the client reflects on their bodily sensations and emotional experiences, indicating a deeper level of self-awareness and vulnerability. The acknowledgment of the difference in physical states between engaging in enjoyable activities and sitting with their thoughts demonstrates a meaningful self-reflection that was not as pronounced earlier. There is a noticeable shift from a somewhat detached engagement to a more introspective and open exploration of their feelings\u2014evidenced by the client\u2019s willingness to consider small actionable steps toward change.\n\n**Turning Point:**\nThe client's emotional depth began to shift notably when they articulated their frustrations with the tension felt during solitary moments. This moment of vulnerability\u2014expressing not just the physical discomfort but also the emotional struggle tied to wanting to change while feeling apprehensive\u2014marks a crucial turning point. The client\u2019s decision to explore practical steps like \"checking in with myself\" signifies a growing comfort in the therapeutic relationship and a desire to bridge the gap between their current emotional",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "Setting aside a few minutes each day to check in with yourself sounds like a thoughtful approach. It's understandable to feel caught between the desire for change and the apprehension that comes with it. That hesitation can really highlight how complex this process is for you.\n\nAs you consider trying to follow through with that small step, what do you think might support you in making that time feel more inviting or manageable?",
+      "client": "I guess maybe I could create a little routine around it, like lighting a candle or having my favorite drink while I check in. That could make it feel more like a treat rather than a chore, you know? Part of me is also thinking it might help if I set an alarm or reminder on my phone so I don\u2019t forget. It's just tough, because I worry I\u2019ll let those reminders pile up and then feel guilty for not doing it. I mean, it feels like there's this constant battle between wanting to take care of myself and feeling like I\u2019m failing at it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "Creating a routine with small, enjoyable elements like lighting a candle or having a favorite drink does sound like a nice way to make that check-in feel special. It\u2019s natural to have concerns about reminders and the pressure they might bring, especially when you\u2019re already navigating those feelings of wanting to take care of yourself while fearing failure.\n\nAs you think about this balance between wanting to care for yourself and the worries around it, what do you notice in your body or emotions when you reflect on that battle?",
+      "client": "I don\u2019t know, it\u2019s kind of weird. There\u2019s definitely some tension in my shoulders, like a tight knot, and I can feel my stomach knotting up a bit too. It\u2019s almost like my body is reacting to those worries before I even realize it. I guess maybe I feel this mix of frustration and exhaustion, like I want to do better, but it just feels so heavy sometimes. I mean, it\u2019s hard not to feel overwhelmed when I think about all this. Part of me wishes it could just be easier, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Noticing that tension in your shoulders and stomach can really show how your body is responding to those feelings of frustration and exhaustion. It sounds like there's a lot on your mind, and wanting it to feel easier is a completely valid wish. Those heavy feelings can be overwhelming, especially when you're trying to navigate your desire for change.\n\nAs you reflect on this heaviness, are there moments or situations where that weight feels particularly strong?",
+      "client": "I mean, I guess it feels heavier when I\u2019m trying to handle situations that I think should be simple, like picking up my girlfriend or just going through my day. I start to think about how things always go wrong for me, and it\u2019s like, why can\u2019t I just catch a break? Sometimes it feels like I\u2019m constantly waiting for the next thing to go wrong, and that thought alone is exhausting. I don\u2019t know if that makes sense, but it\u2019s like this cloud hanging over me, especially when I\u2019m stressed.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "The feeling of waiting for the next thing to go wrong really does sound heavy and exhausting. It\u2019s understandable that those thoughts would create a sense of pressure, especially in situations that should feel straightforward, like picking up your girlfriend or just going about your day. That cloud you mentioned can feel overwhelming when it lingers, particularly during stressful times.\n\nAs you think about those moments when that cloud feels especially present, can you recall any specific thoughts or feelings that come up for you in those situations?",
+      "client": "I guess the thoughts that come up are usually along the lines of, \"Why does this always happen to me?\" or \"I'm just not good at handling things.\" It\u2019s frustrating because I know that I shouldn\u2019t be feeling this way, but it kind of sneaks up on me. I feel this rush of anger and irritation, which makes me want to just yell at something, like the rain or whatever\u2019s going wrong. I mean, part of me gets that it's not like the universe is out to get me, but it just feels like I'm always in this cycle of bad luck. It\u2019s hard to shake that feeling off, honestly.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. **Recent Emotional State:** \"I guess maybe I feel this mix of frustration and exhaustion, like I want to do better, but it just feels so heavy sometimes. I mean, it\u2019s hard not to feel overwhelmed when I think about all this.\"\n2. **Current Openness:** \"I guess the thoughts that come up are usually along the lines of, 'Why does this always happen to me?' or 'I'm just not good at handling things.' It\u2019s frustrating because I know that I shouldn\u2019t be feeling this way, but it kind of sneaks up on me.\"\n\n**Analysis of Progression:**\nThe client's recent exchanges illustrate a notable progression in emotional depth and self-reflection. Initially, they communicated feelings of tension and heaviness without delving deeper. However, in the latest interactions, they are not only identifying physical manifestations of their emotions (e.g., tension in shoulders and stomach) but also articulating the emotional complexities behind those sensations, such as frustration and exhaustion. This demonstrates a growing comfort in sharing their emotional experiences with the therapist.\n\nWhile earlier parts of the session may have exhibited limited emotional vocabulary and hesitance, the current dialogue reflects a mix of emotional expression and self-reflection. The client is beginning to explore why they feel overwhelmed, which indicates a shift towards more engaged exploration of their feelings and challenges. They are also willingly elaborating on the thoughts that contribute to their emotional state, showcasing deeper self-awareness.\n\n**Notable Turning Point:**\nThe client's emotional depth shifted notably when they began expressing the mix of frustration and exhaustion alongside a recognition of their own emotional reactions. This pivotal moment occurred during the discussion about the heaviness they feel in situations that should be",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "The thoughts you\u2019re experiencing, like feeling that things always go wrong or that you're not good at handling situations, really seem to add to that cycle of frustration and anger. It\u2019s understandable to want to express those feelings, especially when they build up like that. Acknowledging that part of you knows it's not personal adds another layer, too. \n\nAs you reflect on those moments of anger and irritation, do you notice any specific physical sensations or reactions that accompany those thoughts?",
+      "client": "I mean, when I start getting angry, I can feel my heart rate picking up, and my muscles feel tense. It\u2019s like my body gets ready for a fight, even though I know I shouldn\u2019t be reacting that way. Sometimes I even feel a bit shaky, like I'm about to explode over something that maybe isn't worth it. I guess it\u2019s just a lot of built-up frustration that gets triggered in those moments. It\u2019s hard to manage, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "That buildup of frustration you\u2019re describing really sounds intense. Feeling your heart rate increase and your muscles tense up can be a strong signal from your body about how overwhelmed you\u2019re feeling. It's understandable that those moments can feel like a trigger for an explosive reaction, even if it seems disproportionate to the situation. \n\nAs you think about those sensations, what do you notice happening inside you just before that anger builds?",
+      "client": "I guess before the anger really kicks in, I start to feel this tightness in my chest, like there\u2019s a weight pressing down on me. It\u2019s almost like I can sense the irritation bubbling up, and that\u2019s when I start to feel a mix of embarrassment and shame, especially if I end up reacting in a way I don\u2019t want to. I can kind of see that maybe I'm just overwhelmed by everything, but it\u2019s still tough to handle in the moment. I don\u2019t know if that fully makes sense, though.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "The tightness in your chest and the feeling of weight pressing down really seem to act as a precursor to your anger. It\u2019s interesting how that mix of embarrassment and shame can come into play when you react in ways you don\u2019t want to. Feeling overwhelmed can create a challenging cycle, especially when you're aware of it but still find it tough to manage in the moment. \n\nAs you think about that sense of being overwhelmed, can you identify any patterns or situations where this tends to happen more frequently?",
+      "client": "I guess it tends to happen when I\u2019m under a lot of pressure, like at work or when I'm trying to balance everything going on in my life. Sometimes it\u2019s just the little things piling up, you know? Like, if I\u2019m not feeling great about myself already, a sudden change in plans, like the rain today, can just tip me over the edge. I\u2019m not sure if it\u2019s always about the situation itself, or if it\u2019s more about how I\u2019m feeling at the time. It\u2019s kind of hard to pinpoint, really.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "It sounds like the pressure from work and life in general can create a buildup that makes those little changes feel much heavier. It\u2019s interesting how those moments can seem less about the specific situation and more related to how you're feeling overall at the time. Recognizing that connection can be a key piece of the puzzle. \n\nWhen you think about those moments where everything feels like it\u2019s piling up, do you notice any specific thoughts that come up alongside those feelings of being tipped over the edge?",
+      "client": "I mean, I guess when everything feels like it\u2019s piling up, I start having these thoughts like, \"Why does this always happen to me?\" It\u2019s like I get stuck in this victim mentality, thinking that I\u2019m just cursed by bad luck or something. I don\u2019t know if that\u2019s really true, but in those moments, it feels so real. There\u2019s also this nagging voice that tells me I\u2019m not good at handling things, which probably makes it worse. It\u2019s frustrating because I can kind of see it, but I don\u2019t know how to stop that spiral once it starts.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. \"I guess before the anger really kicks in, I start to feel this tightness in my chest, like there\u2019s a weight pressing down on me. It\u2019s almost like I can sense the irritation bubbling up, and that\u2019s when I start to feel a mix of embarrassment and shame...\"\n2. \"I mean, I guess when everything feels like it\u2019s piling up, I start having these thoughts like, 'Why does this always happen to me?' It\u2019s like I get stuck in this victim mentality...\"\n\n**Progression:**\nThe client\u2019s recent interactions illustrate a marked increase in emotional expression and self-reflection. They have moved from primarily factual responses in earlier sessions to articulating specific physical sensations associated with their emotions, such as the tightness in their chest and feelings of embarrassment and shame. This evolution indicates a growing awareness of their emotional state and a willingness to engage more deeply with their feelings. The client\u2019s acknowledgment of their thoughts during overwhelming moments reflects a significant shift toward self-reflection, pointing to a deeper understanding of their emotional responses and the patterns that contribute to their struggles.\n\n**Turning Point:**\nThe client\u2019s emotional depth appeared to shift during the recent exchange when they expressed a mix of sensations and emotions leading up to their anger. This moment served as a crucial turning point as they began to articulate the link between their emotional state and the physical signals their body provides. This shift not only demonstrates an increase in emotional vocabulary but also highlights a newfound openness to exploring the underlying causes of their feelings, which marks a departure from more surface-level interactions in earlier sessions.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "Feeling trapped in that cycle of thoughts, like you're cursed or not good enough at handling things, can be really heavy. It\u2019s understandable that those moments feel so real, especially when everything is piling up. Acknowledging that frustration is important, especially when you have some awareness of it, even if it feels hard to break out of that spiral. \n\nAs you reflect on those thoughts, what do you notice about how they affect your feelings or actions in those moments?",
+      "client": "I guess those thoughts really amplify my feelings of anger and frustration. When I start telling myself I\u2019m a victim or that I can\u2019t handle things, it just makes me feel more helpless. I tend to lash out, whether that's cursing at the rain or even just shutting down and withdrawing. It\u2019s like my mind just spirals, and I end up reacting in ways I regret. I don't know if I can always connect the dots between the thoughts and my actions right away, but I can see how it all ties together after the fact. It\u2019s just exhausting, really.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "The connection between your thoughts and feelings really does seem to create a strong impact on how you react in those moments. It\u2019s understandable that feeling helpless can lead to expressions of anger or withdrawing. That exhaustion you mentioned must be really challenging to carry. \n\nWhen you think about those times you lash out or shut down, can you recall a specific moment where you felt that spiral beginning? What was happening for you then?",
+      "client": "I mean, there was definitely a moment today, just before I realized it was raining. I was already feeling overwhelmed at work, like everything was piling up, and I was in a rush to get to my girlfriend. Then suddenly, I had to deal with the rain, and it felt like just one more thing added to my plate. I could feel the frustration bubbling up, and I guess I just reacted without really thinking. It\u2019s like everything else just faded away, and I couldn\u2019t see a way to handle it calmly. I know that it\u2019s not just about the rain, but in that moment, it felt like the last straw.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "That moment with the rain really seems to stand out as a tipping point for you. Feeling overwhelmed at work and then having that extra challenge pop up sounds like it intensified everything you were already carrying. It makes sense that in that state, your reaction felt automatic and strong. \n\nCan you take a moment to reflect on how your body felt as that frustration bubbled up? What sensations or feelings were present for you in that moment?",
+      "client": "I don\u2019t know if I really noticed my body in that moment, but I guess there was this tightness in my chest and maybe my heart was racing a bit. It\u2019s like my body was reacting before my mind even caught up. I felt hot and restless, like I needed to do something to release all that built-up tension. It\u2019s hard to explain, but I think I was just so overwhelmed that I didn\u2019t even think about how my body was responding until after the fact. I mean, I\u2019ve been in that space before, and it\u2019s just like everything feels heightened, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "That heightened feeling you described, with tightness in your chest and a racing heart, really illustrates how your body can respond to overwhelming emotions. It\u2019s interesting how sometimes the physical sensations can take the lead before we have a chance to process what's happening mentally. \n\nAs you reflect on that experience, do you notice any patterns in how your body reacts during other moments of overwhelm or frustration?",
+      "client": "I guess I\u2019ve noticed that my body tends to react in similar ways, like I\u2019ll feel that tightness or maybe even some tension in my shoulders. Sometimes I just want to pace around or do something physical to shake it off, but it\u2019s like I\u2019m trapped in my own head and can\u2019t find the way out. It feels a bit like a cycle where the more tense I get, the harder it is to think clearly. I don\u2019t know if I always connect those bodily sensations to my emotional state right away, but looking back, it makes sense.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Emotional State:** \"I could feel the frustration bubbling up, and I guess I just reacted without really thinking. It\u2019s like everything else just faded away, and I couldn\u2019t see a way to handle it calmly.\"\n2. **Current Openness:** \"I guess I\u2019ve noticed that my body tends to react in similar ways, like I\u2019ll feel that tightness or maybe even some tension in my shoulders. Sometimes I just want to pace around or do something physical to shake it off, but it\u2019s like I\u2019m trapped in my own head and can\u2019t find the way out.\"\n\n**Progression:** In the most recent exchanges, the client demonstrates a notable increase in emotional depth and self-reflection. Initially, they expressed their feelings more factually, but now they are providing rich, descriptive accounts of their emotional and physical experiences, indicating a significant shift in openness. They are not only identifying emotional triggers but also connecting them to physical sensations, which shows a deeper level of awareness and engagement in the therapeutic process. This marks a clear progression from earlier sessions where disclosures were more superficial and limited.\n\n**Turning Point:** The client's emotional depth shifted notably during the discussion about feeling overwhelmed by the rain after a stressful day at work. This moment highlighted not only their immediate emotional state but also how external factors can exacerbate their feelings of frustration. By articulating the tightness in their chest and racing heart in response to these emotions, they displayed a newfound vulnerability and ability to connect bodily sensations to emotional experiences, which is a significant advancement in their therapeutic journey.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019re becoming more aware of the physical signs your body gives you when you\u2019re feeling overwhelmed, which is a great first step. Can you think of a small, manageable problem you faced recently that caused you to feel similarly? Once you identify that, let\u2019s explore what specific steps you could take to address it more calmly next time. Breaking that situation down into smaller parts might help you see a clearer path forward. Additionally, think about what resources or support you could lean on when you feel that frustration starting to build again. How might you incorporate those bodily sensations into your problem-solving process to help you respond differently next time?",
+      "client": "I can see that maybe breaking things down into smaller problems could help me feel less overwhelmed. I mean, I recently had a situation where I was trying to finish a project at work, and I kept getting interrupted by questions from my colleagues. That really ramped up my tension, and I ended up snapping at someone, which made me feel bad afterward. I think if I had recognized that tightness in my chest earlier, I could have taken a moment to breathe or step away instead of just reacting. \n\nWhen you mention leaning on resources or support, I feel a bit unsure about what that looks like for me. I think I tend to isolate myself when I\u2019m frustrated, which doesn\u2019t really help. Maybe I could talk to my girlfriend or a close friend next time I feel that tension building? That feels a little uncomfortable, but not wrong. I'm willing to explore that idea further.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that you\u2019re considering reaching out for support, even if it feels a bit uncomfortable. Engaging with your girlfriend or a close friend can provide a fresh perspective and help lighten that sense of isolation when frustration builds. As you think about future situations, how might you remind yourself to check in with your body and those sensations, like the tightness in your chest? Perhaps you could establish a small cue for yourself, like a specific breathing technique, to help you pause and respond more thoughtfully when interruptions arise. What do you think would be a manageable step to take next time?",
+      "client": "I think establishing a cue for myself is a solid idea. Maybe I could set a reminder on my phone to breathe deeply whenever I feel that tension creeping in? It sounds simple, but I can see how just taking a moment to collect myself might shift my response. Part of me knows that if I make a habit of checking in with my body, it can help me step back and not react so instinctively. I hadn\u2019t connected those things before, but it makes some sense to create that kind of awareness. I'll definitely consider bringing this up with my girlfriend, too, so she can help keep me accountable.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    }
+  ]
+}

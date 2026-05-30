@@ -1,0 +1,647 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "13-2",
+  "patient_name": "Yvette",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I don\u2019t really think about it like that. I was just doing what I thought I had to do. I mean, I guess I was annoyed, but it\u2019s not a big deal.\"\n- \"It sounds like that call caught you off guard, especially when you were looking forward to some downtime.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional acknowledgment and factual recounting, reflecting a slight progression from earlier sessions where emotional expression was minimal. The client does demonstrate an initial recognition of feeling annoyed, which indicates a growing awareness of emotional states, even if they downplay its significance. This suggests a shift from a more defensive stance to a tentative openness to explore feelings, albeit with some reluctance to delve deeper into their emotional implications.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the recent exchange where they acknowledged feeling \"annoyed.\" This moment represents a small breakthrough where the client identified an emotional response to an external situation, suggesting movement towards increased self-reflection. Their willingness to express this feeling, even in a minimized way, marks a notable advancement in their emotional openness compared to earlier stages of the session. \n\nOverall, while the client exhibits evidence of engagement and some emotional depth, the reluctance to explore deeper feelings limits the scoring to a level 3, indicating they are in the \"Engaged Exploration\" phase of counseling.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it kind of makes me feel like I\u2019m not really allowed to enjoy things for myself. I mean, part of me thinks I should just be there for others, and I don\u2019t want to seem selfish or like I\u2019m not a good friend.\"\n2. **Current Openness:** \"It\u2019s just hard to balance, I suppose.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a pivotal development in their emotional depth. They move from a defensive stance\u2014initially viewing their feelings as insignificant\u2014to acknowledging deeper emotions such as disappointment and tension, revealing a greater willingness to engage in self-exploration. This marks a significant change from earlier exchanges, where emotional vocabulary was more limited and the client was more hesitant to connect personal feelings to broader patterns in their life.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed feeling \"a bit tense\" and acknowledged their disappointment about missing the movie. This moment marked a shift from merely responding to the therapist\u2019s prompts to engaging in a meaningful dialogue about their internal conflict, showcasing a newfound level of introspection and vulnerability. Their recognition of the struggle to balance personal enjoyment with the needs of others highlights a growing self-awareness that is critical for further therapeutic exploration.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**  \n\n**Key Examples:**  \n1. \"I guess it kind of makes me feel like I\u2019m not really allowed to enjoy things for myself.\"  \n2. \"When I feel that tension, I get really worried that I\u2019m not doing enough for my friend, and then I feel guilty about even thinking of my own needs.\"  \n\n**Progression:**  \nThe client's most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Earlier in the session, the client exhibited a more defensive stance and limited emotional vocabulary, primarily focusing on factual responses. Now, they are articulating their feelings of disappointment in themselves and grappling with the conflict between personal enjoyment and obligations to friends. This shift marks significant progress in their emotional depth and willingness to engage in the therapeutic process.\n\n**Turning Point:**  \nThe client's emotional depth shifted during the exchange where they began to articulate the physical sensations tied to their feelings of obligation and guilt: \"It's almost like my body is telling me that I should be supporting her instead of focusing on what I'd enjoy.\" This statement reflects a deeper self-awareness and vulnerability, indicating a turning point in their emotional openness. They are not only recognizing their feelings but also starting to connect the emotional and physical aspects of their experiences, which has led to a more engaged exploration of their internal conflicts.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"When I feel that tension, I get really worried that I\u2019m not doing enough for my friend, and then I feel guilty about even thinking of my own needs. It\u2019s like this cycle where I keep second-guessing myself.\"\n2. **Current Openness:** \"I think what stands out is that I just went into this mode where I felt like I had to be the dependable friend, you know? Like, I couldn\u2019t let her down even if it meant sacrificing my own plans.\"\n\n**Progression:** The client\u2019s recent interactions reflect a notable increase in emotional expression and self-reflection. Earlier in the session, the client shared concerns related to obligation but did so with limited emotional depth. In contrast, the most recent exchanges illustrate a deeper awareness of their feelings, particularly the tension between their obligations to their friend and their own needs. The acknowledgment of guilt and resentment reveals a growing comfort in discussing these complex emotions, marking a clear progression from a more guarded stance to a more engaged exploration of their internal conflicts.\n\n**Turning Point:** The client\u2019s emotional depth began to noticeably shift during the discussion about their recent experience with their friend, specifically when they described pacing around their apartment and feeling torn between prioritizing their own needs and supporting their friend. This moment represents a critical turning point where the client transitioned from surface-level concerns to a more profound exploration of the internal conflict they face, including feelings of resentment and emptiness, which are vital for understanding their emotional landscape.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s a bit of a tug-of-war for me. Part of me wants to be that reliable friend, the one who always shows up and does the right thing, but another part is really craving that space for myself. I don\u2019t want to feel like I\u2019m failing anyone, but then I also don\u2019t want to keep sacrificing my own happiness.\"\n2. Client: \"I don\u2019t know, maybe just talking about it helps a little? It makes me think that maybe I could set clearer boundaries for myself, but I\u2019m not sure how to actually do that without feeling bad.\"\n\n**Progression:** The client's most recent interactions indicate a significant shift towards deeper emotional expression and self-reflection. Earlier in the session, the client showed signs of hesitance and a more defensive stance regarding their feelings, particularly around guilt and the notion of being selfish. However, they have moved toward a more nuanced understanding of their emotions, articulating a \"tug-of-war\" between their needs and their role as a friend. This demonstrates a meaningful engagement with their internal conflict and an emerging willingness to explore their feelings.\n\n**Turning Point:** There was a notable shift in the client\u2019s emotional depth when they began to articulate their inner conflict clearly, particularly in expressing their confusion about balancing self-care with their identity as a dependable friend. This moment of vulnerability, recognizing their desire for personal space yet feeling guilty about it, marked a turning point in the session where they started to embrace the complexity of their emotions rather than avoiding them.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client*: \"I guess I can think of a few situations, like when a friend asks me to help with something last minute. Maybe instead of just jumping in, I could take a moment to check how I\u2019m feeling first.\"\n2. *Client*: \"When I think about checking in with myself, I feel a bit of tension in my shoulders, like it\u2019s hard to breathe or something. There\u2019s this knot in my stomach, too... I guess I worry that if I take that moment, my friends might interpret it as me being hesitant or not wanting to help.\"\n\n**Progression:**\nThe client's recent exchanges reveal a notable increase in emotional depth and self-reflection. They express a growing awareness of their conflicting desires\u2014wanting to be there for friends while also recognizing the need to prioritize their own needs. The mention of feeling tension in their body when considering setting boundaries indicates a deeper emotional engagement than earlier in the session. Initially, the client may have presented more factual responses without exploring their feelings, but now they are actively connecting physical sensations to their emotional state and reflecting on the impact of their choices.\n\n**Turning Point:**\nA significant turning point occurred when the client began to articulate their feelings of guilt and anxiety surrounding the idea of setting boundaries. This shift happened during the exchange where they reflected on their physical sensations (tension in shoulders, knot in stomach) when considering the idea of checking in with themselves before responding to friends. This moment marked a transition from merely recognizing their challenges to actively exploring and verbalizing the emotional complexities involved, indicating a deeper level of engagement with the therapeutic process. \n\nOverall, while the client is still navigating feelings of guilt and conflict, their",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I mean, when I think about checking in with myself, I feel a bit of tension in my shoulders, like it\u2019s hard to breathe or something. There\u2019s this knot in my stomach, too, because I can kind of see how it might be a good thing, but it also makes me anxious.\"\n2. Client: \"I guess it comes up a lot when I\u2019m hanging out with them, especially if they\u2019re sharing their problems or needs. I can feel that knot in my stomach tightening, and I just want to slip away for a bit, but then I think about how they might need my support.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate consistent emotional depth, particularly through their acknowledgment of physical sensations tied to their emotions (tension, knot in the stomach). This marks a significant change from earlier sessions, where emotional expression was limited and more factual. In this session, the client is not only identifying but also articulating complex feelings about their needs versus their friends' needs, showing a deeper level of self-reflection and vulnerability.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they expressed a desire to communicate their need for space without feeling selfish. This moment represented a significant breakthrough, as it reflects their growing awareness of their own needs and the internal conflict between caring for themselves and being present for their friends. This realization indicates a willingness to engage with their own emotions and a shift towards prioritizing self-care, marking a notable advancement in their emotional openness and rapport with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. *\u201cI can feel that knot in my stomach tightening, and I just want to slip away for a bit, but then I think about how they might need my support.\u201d*\n2. *\u201cIt just feels so vulnerable to put myself out there like that, and I worry about how it might change our dynamic.\u201d*\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier discussions. They articulate their feelings of overwhelm and the internal conflict between their own needs and those of their friends, which shows a deeper level of emotional engagement. This marks a significant shift from earlier sessions, where emotional disclosure was limited.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they began to articulate their fears about expressing their needs for space and acknowledged the tension between wanting to support their friends and needing self-care. This moment of vulnerability, where they recognized that they might be respected for their honesty, indicates a growing comfort in exploring their emotional landscape, paving the way for deeper self-advocacy in subsequent dialogues.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I can see that maybe my friends would actually be more supportive than I fear. They\u2019ve always been understanding when I\u2019ve shared my struggles, so it\u2019s possible they\u2019d appreciate my honesty about needing some space.\"\n2. \"I can see that maybe I\u2019m often harsher on myself than I am on my friends. If one of them came to me feeling guilty about needing time for self-care, I\u2019d probably encourage them to take that time and reassure them that it doesn\u2019t make them selfish.\"\n\n**Progression:**\nThe client's recent interactions demonstrate a significant emotional depth and self-reflection, indicating a strong progression from earlier stages. Initially, the client displayed hesitance and a defensive attitude regarding their emotional needs. However, in the latest exchanges, they articulate a nuanced understanding of their feelings and begin to challenge their ingrained beliefs about self-care. They express insights about the potential positive responses from their friends, indicating a growing sense of emotional openness and vulnerability. The client\u2019s current state reflects a willingness to explore the complexities of their feelings, suggesting a stronger therapeutic alliance with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their fear of vulnerability and guilt regarding self-care, particularly during the exchange where they acknowledged, \"It's just hard to shake that feeling of guilt, especially when I think of my past experiences and how they shape my view of what it means to care for others.\" This moment indicates a significant turning point where the client allows themselves to confront their beliefs and feelings, marking a transition into deeper engagement within the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \u201cIt\u2019s interesting to think about how practicing self-care could actually create stronger bonds, rather than weaken them. I hadn\u2019t thought of it that way before, but it feels more empowering to see it as a way to show up better for others.\u201d\n2. \u201cI think it\u2019s really possible my friends would respond positively if they see me voicing my needs. They might appreciate my honesty and even feel encouraged to share their own struggles too.\u201d\n\n**Progression:**\nThe client\u2019s recent exchanges demonstrate a significant shift towards deeper emotional engagement and self-reflection. They are articulating nuanced thoughts about self-care, moving beyond a mere acknowledgment of guilt to actively reframing it as a positive aspect of their relationships. This marks a notable escalation from earlier sessions, where they exhibited more defensive or minimal emotional expression.\n\nThe client is now regularly expressing how their belief about self-care interacts with their relationships, indicating a greater comfort with vulnerability. The emotional vocabulary has expanded, and they are showing a proactive stance in considering how to incorporate self-care into their life without guilt. This indicates a strong progression from earlier hesitance to a more engaged exploration of their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the discussion about reframing self-care. When they began to articulate how voicing their needs could foster a supportive environment among friends, it represented a breakthrough moment. This shift reflects not only an increased understanding of their own needs but also a willingness to advocate for themselves, showcasing authentic vulnerability and a transformative self-awareness that wasn't present before.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "### Rating: 4 (DEEP ENGAGEMENT)\n\n**Key Examples:**\n1. **Client Quote:** \"I think I might learn a lot about how my self-care impacts not only my own emotional state but also how others perceive and respond to my needs. It feels important to pay attention to any guilt that arises, as it might give me insight into my deeper beliefs about worthiness and helping others.\"\n2. **Client Quote:** \"I appreciate that encouragement! Imagining myself sharing a small need feels a bit freeing, though I can already feel the twinge of anxiety about the possibility of an unexpected reaction.\"\n\n**Progression:**\nThe client's recent exchanges demonstrate a significant emotional depth, characterized by a growing vulnerability and self-reflection. They are now actively engaging with their feelings about self-care, indicating that they are increasingly comfortable with the therapeutic process. This marks a notable change from earlier sessions, where the client's emotional expression was more guarded and limited. In the past, their responses were primarily factual, whereas now they are able to articulate complex feelings of anticipation, anxiety, and hope around their self-advocacy.\n\n**Turning Point:**\nThe client's emotional depth shifted notably in the most recent exchange, particularly when they articulated their feelings about self-care and how it affects their relationships. They expressed a willingness to explore the potential impact of their needs on themselves and their friends, showcasing a moment of authentic vulnerability and insight. This reflects a deeper understanding of the connection between self-care and interpersonal dynamics, underscoring their growth within the therapeutic relationship. \n\nOverall, the client\u2019s ability to reflect thoughtfully on their feelings and the implications of their actions indicates a strong therapeutic alliance and a commitment to self-exploration, validating a score of 4 for deep engagement.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \u201cIt feels important to pay attention to any guilt that arises, as it might give me insight into my deeper beliefs about worthiness and helping others.\u201d\n2. Client: \u201cI think the worst-case scenario I imagine is that my friend will feel hurt or rejected, like I don\u2019t care about their needs. When I really think about it, though, I remember times when I\u2019ve expressed my needs, and it didn\u2019t lead to negative outcomes.\u201d\n\n**Progression:** The client's most recent interactions demonstrate a significant shift towards deeper emotional expression and self-reflection. They openly acknowledged complex feelings of anticipation, nervousness, and guilt tied to their needs, illustrating a growing comfort with vulnerability. This marks a clear change from earlier exchanges, where emotional depth and self-reflection were less pronounced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about their fears of being perceived as selfish. This moment marked a transition from simply acknowledging their feelings to actively challenging and exploring the underlying beliefs associated with those emotions, indicating both a willingness to engage with their vulnerabilities and an emerging understanding of the relationship dynamics at play.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I think it also helps me challenge the belief that I must always put others first to prove my worth. I hadn\u2019t fully connected how much more fulfilling my relationships could be if I allowed myself to be vulnerable and express my needs. That realization feels quite liberating, even if it\u2019s a little daunting at the same time.\"\n2. \"I think it's really encouraging to hear that expressing my needs can be seen as a necessary part of healthy relationships. It does feel like a big shift to move away from prioritizing others at my own expense.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They articulate their fears surrounding self-expression while recognizing the potential positive outcomes of vulnerability. This marks a notable shift from earlier interactions, where their emotional expression was less developed. The client is now engaging in more profound reflections about their needs and their impact on their relationships.\n\n**Turning Point:** The emotional depth shifted during the moment when the client recognized, \"I hadn't fully connected how much more fulfilling my relationships could be if I allowed myself to be vulnerable and express my needs.\" This acknowledgment indicates a pivotal realization that encourages a more authentic engagement with their emotions, suggesting a readiness to explore their vulnerabilities further within the therapeutic space.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I hadn\u2019t fully grasped how vulnerability could lead to deeper connections before, but now it feels like an avenue for growth I want to explore more.\"\n2. \"Maybe I can practice some self-compassion and remind myself that vulnerability is a journey, and it\u2019s okay if it feels a bit messy at times.\"\n\n**Progression:**\nThe client's most recent interactions reflect a marked increase in emotional depth and self-awareness. They are articulating their feelings about vulnerability not just as an abstract concept but as a personal journey they are willing to explore. This is a significant change from earlier interactions, where the client displayed more hesitant and defensive communication. The growth is evident through their willingness to engage with complex feelings around self-compassion, fear, and the positive framing of their needs in relationships.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they began expressing an understanding that taking care of their own needs can enhance their friendships. This moment marked a turning point as they transitioned from initial thoughts of guilt and fear to recognizing vulnerability as a strength and embracing the process of reaching out for support. The acknowledgment of vulnerability as part of a healthy relationship dynamic signifies a deeper level of engagement and a more profound relationship with the therapist.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I\u2019m definitely willing to explore my feelings around feedback more closely\u2014I think it could really help me navigate this process.\"\n- \"One specific moment that comes to mind was when I shared with a close friend how overwhelmed I felt during a tough time. I remember feeling vulnerable, but she responded with such kindness and support; it actually brought us closer.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates consistent emotional depth and engagement. They are not only articulating their feelings and thoughts around vulnerability but also reflecting on past experiences that have shaped their understanding of emotional openness. This represents a clear progression from earlier interactions where emotional expression was more guarded. The client\u2019s willingness to explore feelings and recognize the importance of challenging negative beliefs about their worth reflects a growing comfort with the therapeutic process.\n\n**Turning Point:**\nA notable turning point occurred when the client articulated their past experience of sharing vulnerability with a friend who responded positively. This moment catalyzed a significant shift, as it allowed the client to internalize the idea that vulnerability can lead to deeper connections rather than rejection. This acknowledgment marks a transition from a defensive stance to an openness to explore and embrace emotions, establishing a stronger therapeutic alliance and a more profound understanding of their own emotional landscape.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 15,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Pros and Cons Analysis",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Reality Testing",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 15,
+      "recommended_cbt_technique": "Pros and Cons Analysis",
+      "goal": "To help the client evaluate the benefits and drawbacks of expressing their needs to friends versus continuing to prioritize their friends' needs at the expense of their own well-being.",
+      "reasoning": "The client is grappling with the fear of disappointing friends while recognizing their own need for space. A Pros and Cons Analysis can guide the client in weighing the emotional costs and benefits of both scenarios, allowing them to make more informed choices about how to express their needs without feeling guilty. This technique can also help to challenge their beliefs about selfishness and support their goal of self-advocacy.",
+      "suggestion": [
+        "Can you list the pros and cons of expressing your need for space to your friends?",
+        "What might happen if you continue to prioritize their needs over your own?",
+        "How would your friends likely respond if you shared your need for self-care?",
+        "What are some positive outcomes you can envision if you start to voice your needs?",
+        "Are there any common misconceptions about self-care that you believe influence your decision-making?"
+      ]
+    },
+    {
+      "turn": 18,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client challenge their belief that self-care is selfish and explore healthier views on prioritizing their needs.",
+      "reasoning": "The client has expressed concerns about feeling selfish for prioritizing their own needs and grappling with the belief that self-care equates to neglecting others. By using the Alternative Perspective technique, the therapist can guide the client to explore and reframe these beliefs, fostering a healthier understanding of self-care and its impact on relationships.",
+      "suggestion": [
+        "What might you say to a friend who feels guilty about taking time for themselves?",
+        "Can you think of examples where self-care has positively influenced relationships in your life?",
+        "How might your perspective change if you viewed self-care as a way to enhance your ability to support others?",
+        "What are some alternative beliefs about self-care that could help you feel more comfortable voicing your needs?",
+        "How can you practice being open about your own needs while still being there for your friends?"
+      ]
+    },
+    {
+      "turn": 21,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client test the belief that voicing their needs will negatively impact their relationships and to reinforce the idea that self-care can enhance their ability to support others.",
+      "reasoning": "The client has expressed willingness to explore new perspectives on self-care and its impact on relationships. A behavior experiment will allow them to practically test this belief by voicing their needs in small ways and observing the reactions of their friends. This direct experience can provide evidence to counter feelings of guilt and reinforce the positive aspects of self-advocacy.",
+      "suggestion": [
+        "What small need can you communicate to a friend this week, and how do you think they will respond?",
+        "After you voice your need, take note of your feelings and your friend's reaction. What do you observe?",
+        "How does this experience challenge or support your belief about self-care and its impact on relationships?",
+        "Can you think of other situations where testing your beliefs about self-care might yield positive outcomes?",
+        "What will you do if the outcome of your experiment is different than you expected, and how can we explore that together?"
+      ]
+    },
+    {
+      "turn": 24,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge their fears about how their needs will be perceived and to reduce the anxiety associated with expressing their self-care needs.",
+      "reasoning": "Decatastrophizing is appropriate because the client expresses a significant worry about being perceived as selfish or burdensome when they voice their needs. By addressing these fears directly, the therapist can assist the client in reframing their thoughts and recognizing that their needs are valid and important, thereby reducing anxiety and increasing their willingness to engage in self-care.",
+      "suggestion": [
+        "What is the worst-case scenario you imagine happening if you share your need for quiet time, and how likely do you think that scenario is?",
+        "Can you think of any evidence from past experiences that contradicts the fear of being perceived as selfish when expressing your needs?",
+        "How would you respond to a friend who expressed a similar need to you? What would you think or feel in that situation?",
+        "What\u2019s a more balanced thought you could replace your fear with, regarding expressing your needs?",
+        "After sharing your need, what realistic positive outcomes could arise that might counter your current fears?"
+      ]
+    },
+    {
+      "turn": 27,
+      "recommended_cbt_technique": "Reality Testing",
+      "goal": "To help the client challenge and validate their fears about expressing their needs in relationships.",
+      "reasoning": "The client has identified fears related to being perceived as selfish or burdensome when expressing their needs. Reality Testing is appropriate here as it encourages the client to assess the validity of their fears based on evidence and past experiences, thus helping to reframe their beliefs about vulnerability and expressing needs in relationships.",
+      "suggestion": [
+        "Reflect on a specific instance where you expressed a need and the outcome was positive. What evidence supports that this can happen again?",
+        "What are some alternative outcomes you might expect from this conversation, based on your past experiences?",
+        "How might you gather feedback from your friend after you share your needs to better understand their perspective?",
+        "Can you identify any cognitive distortions in your thinking about this situation that might be causing unnecessary fear?",
+        "What would you say to a friend if they expressed similar fears about being vulnerable in their relationships?"
+      ]
+    },
+    {
+      "turn": 30,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client build a more balanced perspective on their fears and beliefs regarding vulnerability and sharing their needs.",
+      "reasoning": "The client has expressed fears of rejection and being selfish when sharing their needs, which may be rooted in cognitive distortions. By using Evidence-Based Questioning, the client can identify specific instances where vulnerability was met with understanding, helping to challenge and reframe their negative beliefs. This technique can further reinforce the idea that expressing needs is valid and can lead to positive outcomes.",
+      "suggestion": [
+        "Can you think of a specific time when you shared your needs and received a positive response from your friend?",
+        "What evidence do you have that supports the belief that your friend will react negatively to your needs?",
+        "How might your thoughts change if you considered the possibility that your friend may appreciate your honesty?",
+        "What other examples can you recall where being vulnerable led to strengthened connections?",
+        "How would you feel if someone you cared about expressed similar needs to you?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Yvette, I'm really glad you're here today. What\u2019s been on your mind lately that feels important to discuss?",
+      "client": "I don\u2019t know. I guess I've just been busy. My friend called me right before I was about to watch a movie, and I had to talk to her instead. It was kind of annoying, but I thought she needed me. That\u2019s just how things are, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like that call caught you off guard, especially when you were looking forward to some downtime. It\u2019s interesting how we sometimes shift our plans for others, even when it feels a bit frustrating. How did you feel during the conversation with your friend, knowing you had to pause your own plans?",
+      "client": "I don\u2019t really think about it like that. I was just doing what I thought I had to do. I mean, I guess I was annoyed, but it\u2019s not a big deal. I talked to her for a while, and that was it. I don\u2019t see how it connects to anything deeper.",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I don\u2019t really think about it like that. I was just doing what I thought I had to do. I mean, I guess I was annoyed, but it\u2019s not a big deal.\"\n- \"It sounds like that call caught you off guard, especially when you were looking forward to some downtime.\"\n\n**Progression:** The client\u2019s most recent interactions indicate a mix of emotional acknowledgment and factual recounting, reflecting a slight progression from earlier sessions where emotional expression was minimal. The client does demonstrate an initial recognition of feeling annoyed, which indicates a growing awareness of emotional states, even if they downplay its significance. This suggests a shift from a more defensive stance to a tentative openness to explore feelings, albeit with some reluctance to delve deeper into their emotional implications.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the recent exchange where they acknowledged feeling \"annoyed.\" This moment represents a small breakthrough where the client identified an emotional response to an external situation, suggesting movement towards increased self-reflection. Their willingness to express this feeling, even in a minimized way, marks a notable advancement in their emotional openness compared to earlier stages of the session. \n\nOverall, while the client exhibits evidence of engagement and some emotional depth, the reluctance to explore deeper feelings limits the scoring to a level 3, indicating they are in the \"Engaged Exploration\" phase of counseling.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It sounds like you felt a mix of annoyance and obligation, but you're not seeing it as something that ties into a larger pattern. Even if it feels like just a small moment, sometimes those interactions can reveal a lot about how we manage our own needs versus others'. When you think about that moment, what do you notice in your body or your thoughts?",
+      "client": "I don\u2019t really know how to describe it. I guess I felt a bit tense, like my stomach was knotting up while I was talking to her. I was thinking about how disappointed I was to miss the movie, but I felt like I had to focus on her problems instead. Maybe it just shows that I\u2019m always worried about what others need from me, but I don\u2019t really want to dig into it too much. It feels complicated, and I don\u2019t want to overthink it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Noticing that tension in your stomach and the disappointment about missing your movie sounds significant. It seems like there\u2019s a push and pull between your own needs and the needs of others, and that can feel really complicated. You mentioned not wanting to overthink it, which is completely understandable. \n\nWhen you reflect on that moment of feeling tense, what do you think it means for you to prioritize someone else's needs over your own enjoyment?",
+      "client": "I guess it kind of makes me feel like I\u2019m not really allowed to enjoy things for myself. I mean, part of me thinks I should just be there for others, and I don\u2019t want to seem selfish or like I\u2019m not a good friend. But then I also feel a little disappointed in myself, you know? Like maybe I should have let myself enjoy the movie, but then I worry about how my friend would feel if I didn't talk to her. It\u2019s just hard to balance, I suppose.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n1. **Emotional State:** \"I guess it kind of makes me feel like I\u2019m not really allowed to enjoy things for myself. I mean, part of me thinks I should just be there for others, and I don\u2019t want to seem selfish or like I\u2019m not a good friend.\"\n2. **Current Openness:** \"It\u2019s just hard to balance, I suppose.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a blend of emotional expression and self-reflection, indicating a pivotal development in their emotional depth. They move from a defensive stance\u2014initially viewing their feelings as insignificant\u2014to acknowledging deeper emotions such as disappointment and tension, revealing a greater willingness to engage in self-exploration. This marks a significant change from earlier exchanges, where emotional vocabulary was more limited and the client was more hesitant to connect personal feelings to broader patterns in their life.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they expressed feeling \"a bit tense\" and acknowledged their disappointment about missing the movie. This moment marked a shift from merely responding to the therapist\u2019s prompts to engaging in a meaningful dialogue about their internal conflict, showcasing a newfound level of introspection and vulnerability. Their recognition of the struggle to balance personal enjoyment with the needs of others highlights a growing self-awareness that is critical for further therapeutic exploration.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "Balancing your own enjoyment with being there for others sounds challenging and creates a bit of inner conflict. It seems like there's a part of you that wants to prioritize your own needs, while another part feels obligated to be a supportive friend. That disappointment in yourself is interesting to notice; it might show how much you value your relationships but also how hard it can be to place yourself on the same level. \n\nWhen you think about that struggle between being there for your friend and allowing yourself to enjoy your own time, what do you feel in your body or what thoughts come up?",
+      "client": "I can kind of feel that tension again, like a tightness in my chest. It's almost like my body is telling me that I should be supporting her instead of focusing on what I'd enjoy. And then there\u2019s this nagging thought in my head that if I don't help, I might be letting her down. I don\u2019t know, it\u2019s frustrating because I want to feel okay about wanting to enjoy my own time too, but I just don't know if I should. It feels like I\u2019m stuck between what I want and what I think I\u2019m supposed to do.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "Feeling that tightness in your chest while grappling with the idea of supporting your friend versus enjoying your own time really highlights the push and pull you\u2019re experiencing. It sounds like there\u2019s a strong sense of obligation, almost like a rule in your mind about what it means to be a good friend. Those nagging thoughts about letting her down can feel heavy, especially when you also want to honor your own needs. \n\nAs you sit with this tension between your desires and those expectations, what do you notice about how it affects your thoughts or feelings in the moment?",
+      "client": "It definitely affects my thoughts, I think. When I feel that tension, I get really worried that I\u2019m not doing enough for my friend, and then I feel guilty about even thinking of my own needs. It\u2019s like this cycle where I keep second-guessing myself. I mean, maybe it\u2019s just hard to shake off that feeling of obligation, you know? I don\u2019t really know if I should be prioritizing myself or if it\u2019s more important to be there for others. It just leaves me feeling confused and a bit overwhelmed.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**  \n\n**Key Examples:**  \n1. \"I guess it kind of makes me feel like I\u2019m not really allowed to enjoy things for myself.\"  \n2. \"When I feel that tension, I get really worried that I\u2019m not doing enough for my friend, and then I feel guilty about even thinking of my own needs.\"  \n\n**Progression:**  \nThe client's most recent interactions demonstrate a notable increase in emotional expression and self-reflection. Earlier in the session, the client exhibited a more defensive stance and limited emotional vocabulary, primarily focusing on factual responses. Now, they are articulating their feelings of disappointment in themselves and grappling with the conflict between personal enjoyment and obligations to friends. This shift marks significant progress in their emotional depth and willingness to engage in the therapeutic process.\n\n**Turning Point:**  \nThe client's emotional depth shifted during the exchange where they began to articulate the physical sensations tied to their feelings of obligation and guilt: \"It's almost like my body is telling me that I should be supporting her instead of focusing on what I'd enjoy.\" This statement reflects a deeper self-awareness and vulnerability, indicating a turning point in their emotional openness. They are not only recognizing their feelings but also starting to connect the emotional and physical aspects of their experiences, which has led to a more engaged exploration of their internal conflicts.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "That confusion and overwhelm you\u2019re feeling really speaks to how deeply those feelings of obligation are rooted for you. It sounds like the cycle of second-guessing yourself can be exhausting, especially when you're trying to navigate your own needs alongside your friend's. It\u2019s understandable to feel conflicted about what to prioritize when both aspects seem so important.\n\nAs you think about this cycle of worry and guilt, can you bring to mind a specific moment where you felt that tension the most? What was happening around you, and how did you respond?",
+      "client": "I guess one moment that stands out was when my friend called last week, really upset about something. I was actually getting ready to go out and do something for myself, but then I just felt like I had to drop everything to be there for her. I remember pacing around my apartment, feeling torn between wanting to help her and wishing I could just enjoy my evening. I ended up talking to her for a long time, but it was hard because I kept thinking about what I was missing out on. It felt like once again, I was putting my needs on the back burner, and that made me feel kind of resentful, I suppose.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "Pacing around your apartment while feeling torn between your friend's needs and your desire to enjoy your evening really illustrates the intensity of that moment. It sounds like there was a lot going on internally as you were trying to balance those competing feelings. The resentment you felt afterward seems like a natural response to having to set your own needs aside, especially when you were looking forward to something for yourself.\n\nIn reflecting on that experience, what stands out to you about how you responded, both in that moment and afterward?",
+      "client": "I think what stands out is that I just went into this mode where I felt like I had to be the dependable friend, you know? Like, I couldn\u2019t let her down even if it meant sacrificing my own plans. But afterward, I felt kind of empty and disappointed, which I guess makes sense since I really wanted that time for myself. It\u2019s hard to admit that I felt resentful, because it feels wrong to think that way about helping someone I care about. I don\u2019t know if I should be feeling this way or if it\u2019s okay to want my own time.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. **Emotional State:** \"When I feel that tension, I get really worried that I\u2019m not doing enough for my friend, and then I feel guilty about even thinking of my own needs. It\u2019s like this cycle where I keep second-guessing myself.\"\n2. **Current Openness:** \"I think what stands out is that I just went into this mode where I felt like I had to be the dependable friend, you know? Like, I couldn\u2019t let her down even if it meant sacrificing my own plans.\"\n\n**Progression:** The client\u2019s recent interactions reflect a notable increase in emotional expression and self-reflection. Earlier in the session, the client shared concerns related to obligation but did so with limited emotional depth. In contrast, the most recent exchanges illustrate a deeper awareness of their feelings, particularly the tension between their obligations to their friend and their own needs. The acknowledgment of guilt and resentment reveals a growing comfort in discussing these complex emotions, marking a clear progression from a more guarded stance to a more engaged exploration of their internal conflicts.\n\n**Turning Point:** The client\u2019s emotional depth began to noticeably shift during the discussion about their recent experience with their friend, specifically when they described pacing around their apartment and feeling torn between prioritizing their own needs and supporting their friend. This moment represents a critical turning point where the client transitioned from surface-level concerns to a more profound exploration of the internal conflict they face, including feelings of resentment and emptiness, which are vital for understanding their emotional landscape.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "Acknowledging the feelings of emptiness and disappointment that followed your choice to prioritize your friend really highlights the complexity of your situation. It\u2019s understandable to struggle with those emotions, especially when caring for someone you value feels at odds with your own needs. Wanting your own time doesn\u2019t make you a bad friend; it reflects your humanity and the balance we all try to navigate.\n\nAs you consider these feelings of resentment and your desire for personal time, what do you notice about how they interact with your sense of self as a friend?",
+      "client": "I guess it\u2019s a bit of a tug-of-war for me. Part of me wants to be that reliable friend, the one who always shows up and does the right thing, but another part is really craving that space for myself. I don\u2019t want to feel like I\u2019m failing anyone, but then I also don\u2019t want to keep sacrificing my own happiness. It\u2019s just confusing, because I know I should be able to care for myself too, but then I feel guilty about it. I mean, maybe I just don\u2019t know how to find that balance without feeling like I\u2019m being selfish.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "The tug-of-war you\u2019re describing between wanting to be the reliable friend and needing space for yourself sounds really challenging. It\u2019s natural to feel confused when you\u2019re trying to navigate those competing desires, especially when guilt enters the picture. Wanting to care for yourself doesn\u2019t take away from your ability to be there for others; it might be more about finding a way to honor both parts of yourself.\n\nAs you sit with these feelings of guilt and the idea of being selfish, what do you think would help you explore that balance a bit more?",
+      "client": "I don\u2019t know, maybe just talking about it helps a little? It makes me think that maybe I could set clearer boundaries for myself, but I\u2019m not sure how to actually do that without feeling bad. I guess I just need to find a way to prioritize my own needs without feeling like I\u2019m letting everyone down. It\u2019s hard to break the habit of always putting others first, and I\u2019m not even sure what that would look like. I mean, part of me thinks it's okay to want my own space, but another part worries it\u2019s not fair to my friends.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. Client: \"I guess it\u2019s a bit of a tug-of-war for me. Part of me wants to be that reliable friend, the one who always shows up and does the right thing, but another part is really craving that space for myself. I don\u2019t want to feel like I\u2019m failing anyone, but then I also don\u2019t want to keep sacrificing my own happiness.\"\n2. Client: \"I don\u2019t know, maybe just talking about it helps a little? It makes me think that maybe I could set clearer boundaries for myself, but I\u2019m not sure how to actually do that without feeling bad.\"\n\n**Progression:** The client's most recent interactions indicate a significant shift towards deeper emotional expression and self-reflection. Earlier in the session, the client showed signs of hesitance and a more defensive stance regarding their feelings, particularly around guilt and the notion of being selfish. However, they have moved toward a more nuanced understanding of their emotions, articulating a \"tug-of-war\" between their needs and their role as a friend. This demonstrates a meaningful engagement with their internal conflict and an emerging willingness to explore their feelings.\n\n**Turning Point:** There was a notable shift in the client\u2019s emotional depth when they began to articulate their inner conflict clearly, particularly in expressing their confusion about balancing self-care with their identity as a dependable friend. This moment of vulnerability, recognizing their desire for personal space yet feeling guilty about it, marked a turning point in the session where they started to embrace the complexity of their emotions rather than avoiding them.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 3,
+      "therapist": "Talking about it seems to bring some clarity for you, which is great to hear. Recognizing that you might want to set clearer boundaries is a positive step, even if it feels daunting. The habit of putting others first can be deeply ingrained, and it's understandable to feel conflicted about prioritizing your own needs. \n\nAs you think about what it might look like to honor both your needs and your friends\u2019, what specific situations come to mind where you could practice this balance?",
+      "client": "I guess I can think of a few situations, like when a friend asks me to help with something last minute. Maybe instead of just jumping in, I could take a moment to check how I\u2019m feeling first. It's tough, though, because I don\u2019t want to come off as unreliable or like I'm not there for them. I mean, I wish I could just say, \u201cI need some time for myself,\u201d but it always feels so complicated. I kind of worry about how they'll react or if they'll feel let down. It\u2019s just hard to visualize being open about my own needs without feeling guilty.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "therapist": "Recognizing those moments when a friend asks for help can be a good starting point for exploring your own feelings first. It sounds like you\u2019re aware of the tension between wanting to be there for them and also needing to honor your own needs. Imagining how your friends might react adds another layer of complexity to the situation. \n\nAs you reflect on that specific example, what do you notice in your body or your emotions when you think about checking in with yourself before responding?",
+      "client": "I mean, when I think about checking in with myself, I feel a bit of tension in my shoulders, like it\u2019s hard to breathe or something. There\u2019s this knot in my stomach, too, because I can kind of see how it might be a good thing, but it also makes me anxious. I guess I worry that if I take that moment, my friends might interpret it as me being hesitant or not wanting to help. It\u2019s frustrating because I want to be honest with myself, but I\u2019m scared of the fallout. It's hard to shake off that feeling that I have to be available for them all the time.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *Client*: \"I guess I can think of a few situations, like when a friend asks me to help with something last minute. Maybe instead of just jumping in, I could take a moment to check how I\u2019m feeling first.\"\n2. *Client*: \"When I think about checking in with myself, I feel a bit of tension in my shoulders, like it\u2019s hard to breathe or something. There\u2019s this knot in my stomach, too... I guess I worry that if I take that moment, my friends might interpret it as me being hesitant or not wanting to help.\"\n\n**Progression:**\nThe client's recent exchanges reveal a notable increase in emotional depth and self-reflection. They express a growing awareness of their conflicting desires\u2014wanting to be there for friends while also recognizing the need to prioritize their own needs. The mention of feeling tension in their body when considering setting boundaries indicates a deeper emotional engagement than earlier in the session. Initially, the client may have presented more factual responses without exploring their feelings, but now they are actively connecting physical sensations to their emotional state and reflecting on the impact of their choices.\n\n**Turning Point:**\nA significant turning point occurred when the client began to articulate their feelings of guilt and anxiety surrounding the idea of setting boundaries. This shift happened during the exchange where they reflected on their physical sensations (tension in shoulders, knot in stomach) when considering the idea of checking in with themselves before responding to friends. This moment marked a transition from merely recognizing their challenges to actively exploring and verbalizing the emotional complexities involved, indicating a deeper level of engagement with the therapeutic process. \n\nOverall, while the client is still navigating feelings of guilt and conflict, their",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "Noticing the tension in your shoulders and the knot in your stomach sounds significant, especially as you think about being honest with yourself. It\u2019s understandable to feel anxious about how your friends might perceive you if you take that moment to check in. The fear of being seen as hesitant or unavailable can weigh heavily, especially when you\u2019ve been in the habit of always being there for them.\n\nWhen you sit with those feelings of frustration and anxiety, what do you find yourself wanting to say or express, either to yourself or your friends?",
+      "client": "I don\u2019t know, maybe I just wish I could tell my friends that I need a little space without feeling like I\u2019m letting them down. It feels almost like I want to scream, \u201cI need to take care of myself too!\u201d but then I worry that it\u2019ll come off as selfish. Part of me knows that I should be able to express that, but another part feels guilty even thinking about it. I guess I\u2019m just scared of what they might think or how they\u2019ll react. It\u2019s like I\u2019m stuck between wanting to prioritize my needs and the fear of disappointing them.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Feeling stuck between your own needs and the fear of disappointing your friends is really tough. It\u2019s clear that you have a strong desire to express your needs, but the worry about how it might come across adds a lot of weight to those feelings. The urge to scream that you need care too shows how much you\u2019re holding inside, especially when you\u2019re trying to balance your well-being with your loyalty to them.\n\nAs you sit with this conflict, do you notice any moments where that frustration or desire for space comes up more strongly, perhaps in specific interactions?",
+      "client": "I guess it comes up a lot when I\u2019m hanging out with them, especially if they\u2019re sharing their problems or needs. I can feel that knot in my stomach tightening, and I just want to slip away for a bit, but then I think about how they might need my support. It\u2019s like I\u2019m always weighing their needs against my own, and I end up feeling overwhelmed. I don\u2019t want to appear distant or uninterested, but I also feel like I\u2019m losing a bit of myself in the process. It's really confusing, I don\u2019t know, maybe I just need to find a better way to manage those moments.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I mean, when I think about checking in with myself, I feel a bit of tension in my shoulders, like it\u2019s hard to breathe or something. There\u2019s this knot in my stomach, too, because I can kind of see how it might be a good thing, but it also makes me anxious.\"\n2. Client: \"I guess it comes up a lot when I\u2019m hanging out with them, especially if they\u2019re sharing their problems or needs. I can feel that knot in my stomach tightening, and I just want to slip away for a bit, but then I think about how they might need my support.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate consistent emotional depth, particularly through their acknowledgment of physical sensations tied to their emotions (tension, knot in the stomach). This marks a significant change from earlier sessions, where emotional expression was limited and more factual. In this session, the client is not only identifying but also articulating complex feelings about their needs versus their friends' needs, showing a deeper level of self-reflection and vulnerability.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they expressed a desire to communicate their need for space without feeling selfish. This moment represented a significant breakthrough, as it reflects their growing awareness of their own needs and the internal conflict between caring for themselves and being present for their friends. This realization indicates a willingness to engage with their own emotions and a shift towards prioritizing self-care, marking a notable advancement in their emotional openness and rapport with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It sounds like those moments with your friends can be particularly overwhelming, especially when you feel that knot tightening. Balancing their needs with your own is a challenging position to be in. Can you take a moment to list the pros and cons of expressing your need for space to them? What do you think might happen if you continue to prioritize their needs over your own? Exploring these aspects could help clarify your feelings and guide you toward more self-advocacy without the weight of guilt.",
+      "client": "I think listing the pros and cons might actually help me see things more clearly. On one hand, expressing my need for space could mean my friends understand me better and maybe even respect my boundaries. But on the other hand, I worry they might feel abandoned or think I'm less caring, which just reinforces that feeling of guilt I carry. If I keep prioritizing their needs, I might end up feeling more drained and resentful, like I'm losing my sense of self. It\u2019s hard to balance those feelings, especially when I want to be there for them, but I also want to feel like I matter too. I hadn\u2019t connected those things before, but it makes some sense.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It's great that you're starting to see the connections between your feelings and the potential outcomes of expressing your needs. Recognizing that your friends might respect your boundaries is a positive insight. If you continue to prioritize their needs, that sense of being drained and losing your identity can grow, leading to resentment. How do you think your friends would respond if you shared your need for self-care with them? Exploring their potential reactions might help ease some of that guilt and clarify the benefits of advocating for yourself.",
+      "client": "I can see that maybe my friends would actually be more supportive than I fear. They\u2019ve always been understanding when I\u2019ve shared my struggles, so it\u2019s possible they\u2019d appreciate my honesty about needing some space. Part of me knows they might even respect me more for being open about my self-care. It just feels so vulnerable to put myself out there like that, and I worry about how it might change our dynamic. It\u2019s tricky because I want to be there for them, but I also want to feel like I\u2019m worthy of care myself.",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 3 (Engaged Exploration)**\n\n**Key Examples:**\n1. *\u201cI can feel that knot in my stomach tightening, and I just want to slip away for a bit, but then I think about how they might need my support.\u201d*\n2. *\u201cIt just feels so vulnerable to put myself out there like that, and I worry about how it might change our dynamic.\u201d*\n\n**Progression:** The client\u2019s recent interactions demonstrate a notable increase in emotional expression and self-reflection compared to earlier discussions. They articulate their feelings of overwhelm and the internal conflict between their own needs and those of their friends, which shows a deeper level of emotional engagement. This marks a significant shift from earlier sessions, where emotional disclosure was limited.\n\n**Turning Point:** The client's emotional depth shifted during the exchange where they began to articulate their fears about expressing their needs for space and acknowledged the tension between wanting to support their friends and needing self-care. This moment of vulnerability, where they recognized that they might be respected for their honesty, indicates a growing comfort in exploring their emotional landscape, paving the way for deeper self-advocacy in subsequent dialogues.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It sounds like you're really beginning to recognize the potential for your friends to respond positively to your honesty, which is a huge step. Acknowledging that vulnerability can feel daunting, but it also opens up the possibility for deeper connections. What positive outcomes do you envision if you start voicing your needs? Allowing yourself to be open might not only serve your own well-being but could also encourage your friends to do the same, fostering a more supportive environment for everyone. Are there any beliefs about self-care that you think might be influencing how you view this situation? Exploring these might help alleviate some of that pressure you feel.",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. When I imagine voicing my needs, I can see how it might create a more supportive environment for all of us. Maybe if I share my feelings, my friends would feel encouraged to do the same, and we could deepen our connections instead of feeling like I have to take care of everything alone. But I also notice a part of me that worries about being seen as selfish for putting my needs first. I\u2019ve always thought that self-care meant neglecting others, which feels so opposite to what I\u2019ve been taught. It's uncomfortable to challenge that belief, but I know I need to explore it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Pros and Cons Analysis"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful that you\u2019re open to exploring that belief about self-care. If a friend expressed guilt about prioritizing their needs, what would you likely say to them? Often, we\u2019re much kinder and more understanding towards others than we are towards ourselves. Can you think of instances where practicing self-care has actually strengthened your relationships? Viewing self-care as a way to enhance your capacity to support others might shift your perspective. Remember, by taking care of yourself, you\u2019re not neglecting your friends; you\u2019re equipping yourself to be even more present for them.",
+      "client": "I can see that maybe I\u2019m often harsher on myself than I am on my friends. If one of them came to me feeling guilty about needing time for self-care, I\u2019d probably encourage them to take that time and reassure them that it doesn\u2019t make them selfish. It\u2019s interesting to think about how practicing self-care could actually create stronger bonds, rather than weaken them. I hadn\u2019t thought of it that way before, but it feels more empowering to see it as a way to show up better for others. It\u2019s just hard to shake that feeling of guilt, especially when I think of my past experiences and how they shape my view of what it means to care for others.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I can see that maybe my friends would actually be more supportive than I fear. They\u2019ve always been understanding when I\u2019ve shared my struggles, so it\u2019s possible they\u2019d appreciate my honesty about needing some space.\"\n2. \"I can see that maybe I\u2019m often harsher on myself than I am on my friends. If one of them came to me feeling guilty about needing time for self-care, I\u2019d probably encourage them to take that time and reassure them that it doesn\u2019t make them selfish.\"\n\n**Progression:**\nThe client's recent interactions demonstrate a significant emotional depth and self-reflection, indicating a strong progression from earlier stages. Initially, the client displayed hesitance and a defensive attitude regarding their emotional needs. However, in the latest exchanges, they articulate a nuanced understanding of their feelings and begin to challenge their ingrained beliefs about self-care. They express insights about the potential positive responses from their friends, indicating a growing sense of emotional openness and vulnerability. The client\u2019s current state reflects a willingness to explore the complexities of their feelings, suggesting a stronger therapeutic alliance with the therapist.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably when they began expressing their fear of vulnerability and guilt regarding self-care, particularly during the exchange where they acknowledged, \"It's just hard to shake that feeling of guilt, especially when I think of my past experiences and how they shape my view of what it means to care for others.\" This moment indicates a significant turning point where the client allows themselves to confront their beliefs and feelings, marking a transition into deeper engagement within the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you recognize the difference in how you treat yourself compared to how you support your friends. When you think about your past experiences, it\u2019s understandable that those beliefs around self-care can be deeply rooted. However, consider re-framing those thoughts: could self-care be seen as a way to ensure you\u2019re at your best for others, rather than a neglect of them? Reflecting on times when self-care helped you feel more energized and present might help alleviate that guilt. How might you begin to voice your own needs while still being there for your friends, creating a balance that nurtures both yourself and your relationships?",
+      "client": "I think there\u2019s something there about reframing self-care as a way to be better for others. I hadn\u2019t connected the dots before, but it makes sense that by taking care of myself, I could actually be more present and supportive for my friends. It\u2019s tough, though, to imagine voicing my needs without feeling guilty. I guess I could start by sharing small things first, like needing a break or asking for help when I\u2019m overwhelmed. That feels a little uncomfortable, but not wrong, and it might help me practice this new way of relating to myself and others. I want to believe that I can be both my own advocate and a supportive friend at the same time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that you\u2019re considering starting small by sharing your needs like taking a break or asking for help when you feel overwhelmed. That\u2019s a courageous step! How might your friends respond if they see you voicing those needs? Remember, by practicing this open communication, you not only advocate for yourself but also model a healthy way of relating to one another. It\u2019s entirely possible to support your own well-being while still being there for your friends. What alternative beliefs about self-care can you hold onto as you take these steps?",
+      "client": "I think it\u2019s really possible my friends would respond positively if they see me voicing my needs. They might appreciate my honesty and even feel encouraged to share their own struggles too. It\u2019s comforting to think that my openness could foster a more supportive environment for all of us. I hadn\u2019t connected before how my self-advocacy might actually inspire others to prioritize their own needs as well. Maybe I can start to believe that self-care isn\u2019t just a luxury or a selfish act, but rather a valuable part of maintaining healthy relationships. It feels like a big shift, but I'm willing to explore this new perspective as I take these steps.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \u201cIt\u2019s interesting to think about how practicing self-care could actually create stronger bonds, rather than weaken them. I hadn\u2019t thought of it that way before, but it feels more empowering to see it as a way to show up better for others.\u201d\n2. \u201cI think it\u2019s really possible my friends would respond positively if they see me voicing my needs. They might appreciate my honesty and even feel encouraged to share their own struggles too.\u201d\n\n**Progression:**\nThe client\u2019s recent exchanges demonstrate a significant shift towards deeper emotional engagement and self-reflection. They are articulating nuanced thoughts about self-care, moving beyond a mere acknowledgment of guilt to actively reframing it as a positive aspect of their relationships. This marks a notable escalation from earlier sessions, where they exhibited more defensive or minimal emotional expression.\n\nThe client is now regularly expressing how their belief about self-care interacts with their relationships, indicating a greater comfort with vulnerability. The emotional vocabulary has expanded, and they are showing a proactive stance in considering how to incorporate self-care into their life without guilt. This indicates a strong progression from earlier hesitance to a more engaged exploration of their feelings.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the discussion about reframing self-care. When they began to articulate how voicing their needs could foster a supportive environment among friends, it represented a breakthrough moment. This shift reflects not only an increased understanding of their own needs but also a willingness to advocate for themselves, showcasing authentic vulnerability and a transformative self-awareness that wasn't present before.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to see how you\u2019re beginning to shift your perspective on self-care! Embracing the idea that your self-advocacy could inspire others is a powerful realization. As you prepare to voice your needs this week, think about what specific small need you might share with a friend and imagine their response. After you do this, take a moment to reflect on how it felt for you and how they reacted. What insights do you think this experience might give you about the connection between self-care and your relationships? Remember, even if the outcome isn\u2019t what you expect, we can explore it together to deepen your understanding.",
+      "client": "I appreciate that encouragement! Imagining myself sharing a small need feels a bit freeing, though I can already feel the twinge of anxiety about the possibility of an unexpected reaction. I think I might start by telling a friend that I need some quiet time to recharge this weekend. I can see how their understanding could affirm my choice and show me that it\u2019s okay to prioritize myself. Reflecting on how that conversation goes could really help me grasp the impact of self-care on not just my well-being, but also on the dynamics of my relationships. I\u2019m curious to see if this experience will help me feel less guilty and more empowered moving forward.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019re willing to take this step by expressing your need for quiet time to recharge! Not only will this allow you to practice self-care, but it also opens the door for your friend to engage in a meaningful conversation about needs and boundaries. After you share, take note of your feelings during the conversation and observe their reaction closely. What insights do you anticipate gaining about the relationship between your self-care and your interactions? Remember, regardless of the outcome, this experience can be a valuable opportunity for growth, and we can explore any feelings of guilt or empowerment together afterward.",
+      "client": "I\u2019m feeling a mix of anticipation and nervousness about this upcoming conversation. I think I might learn a lot about how my self-care impacts not only my own emotional state but also how others perceive and respond to my needs. It feels important to pay attention to any guilt that arises, as it might give me insight into my deeper beliefs about worthiness and helping others. I\u2019m also hopeful that this experience will reinforce the idea that taking care of myself can be a positive thing for my relationships, rather than just a burden. I\u2019ve realized that practicing this might help me break the cycle of feeling like I have to constantly put others first.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "### Rating: 4 (DEEP ENGAGEMENT)\n\n**Key Examples:**\n1. **Client Quote:** \"I think I might learn a lot about how my self-care impacts not only my own emotional state but also how others perceive and respond to my needs. It feels important to pay attention to any guilt that arises, as it might give me insight into my deeper beliefs about worthiness and helping others.\"\n2. **Client Quote:** \"I appreciate that encouragement! Imagining myself sharing a small need feels a bit freeing, though I can already feel the twinge of anxiety about the possibility of an unexpected reaction.\"\n\n**Progression:**\nThe client's recent exchanges demonstrate a significant emotional depth, characterized by a growing vulnerability and self-reflection. They are now actively engaging with their feelings about self-care, indicating that they are increasingly comfortable with the therapeutic process. This marks a notable change from earlier sessions, where the client's emotional expression was more guarded and limited. In the past, their responses were primarily factual, whereas now they are able to articulate complex feelings of anticipation, anxiety, and hope around their self-advocacy.\n\n**Turning Point:**\nThe client's emotional depth shifted notably in the most recent exchange, particularly when they articulated their feelings about self-care and how it affects their relationships. They expressed a willingness to explore the potential impact of their needs on themselves and their friends, showcasing a moment of authentic vulnerability and insight. This reflects a deeper understanding of the connection between self-care and interpersonal dynamics, underscoring their growth within the therapeutic relationship. \n\nOverall, the client\u2019s ability to reflect thoughtfully on their feelings and the implications of their actions indicates a strong therapeutic alliance and a commitment to self-exploration, validating a score of 4 for deep engagement.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s completely understandable to feel that mix of anticipation and nervousness; it shows how much you care about your relationships! Your awareness of the potential guilt that might arise is insightful, and it can indeed reveal deeper beliefs about your worthiness and the importance of self-care. As you engage in this conversation, embrace the opportunity to observe how your needs are received. Pay close attention to any shifts in your emotions and your friend's reactions\u2014they could provide powerful insights into the dynamics of your relationships. Remember, this experiment is about discovery, and whatever feelings or outcomes arise, we\u2019ll explore them together to help you continue reinforcing your new perspective on self-care.",
+      "client": "I can see that maybe my feelings of anticipation and nervousness are really tied to a deeper fear of how my needs might be perceived. It's like I\u2019m on this tightrope, trying to balance my desire for self-care with the worry that I\u2019ll be seen as selfish or burdensome. Part of me knows that this conversation is a chance to challenge that fear, and I think it connects to my history of feeling responsible for others\u2019 feelings and expectations. I hadn\u2019t connected how this pattern has likely influenced how I approach my relationships. It feels a little uncomfortable to think about, but I\u2019m willing to explore it further. Overall, I\u2019m hopeful that even if there\u2019s some discomfort, it can lead to a better understanding of my worthiness and how I can maintain healthy connections while also prioritizing myself.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It's insightful that you recognize how your feelings of anticipation and nervousness relate to your fears of being perceived as selfish or burdensome. What do you think is the worst-case scenario you imagine if you share your need for quiet time? How likely do you think that scenario really is? Reflecting on past experiences, can you recall moments when expressing your needs didn\u2019t lead to the negative outcomes you fear? Also, consider how you would feel if a friend opened up to you about needing time for themselves\u2014what would your reaction be? Lastly, what positive outcomes could come from this conversation that might help counter those fears? This exploration can provide clarity and support as you move forward.",
+      "client": "I think the worst-case scenario I imagine is that my friend will feel hurt or rejected, like I don\u2019t care about their needs. It\u2019s hard to shake the feeling that prioritizing myself might make them question our friendship. When I really think about it, though, I remember times when I\u2019ve expressed my needs, and it didn\u2019t lead to negative outcomes\u2014like when I told another friend I needed some time to focus on my mental health, and they were actually supportive! I would feel compassion if a friend shared that they needed time for themselves; I would want to reassure them that it\u2019s perfectly okay. Looking ahead, I think there\u2019s a chance this conversation could strengthen our friendship by establishing clearer boundaries and showing that I value both my well-being and our connection. That realization feels empowering and gives me a little more courage to move forward.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \u201cIt feels important to pay attention to any guilt that arises, as it might give me insight into my deeper beliefs about worthiness and helping others.\u201d\n2. Client: \u201cI think the worst-case scenario I imagine is that my friend will feel hurt or rejected, like I don\u2019t care about their needs. When I really think about it, though, I remember times when I\u2019ve expressed my needs, and it didn\u2019t lead to negative outcomes.\u201d\n\n**Progression:** The client's most recent interactions demonstrate a significant shift towards deeper emotional expression and self-reflection. They openly acknowledged complex feelings of anticipation, nervousness, and guilt tied to their needs, illustrating a growing comfort with vulnerability. This marks a clear change from earlier exchanges, where emotional depth and self-reflection were less pronounced.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the discussion about their fears of being perceived as selfish. This moment marked a transition from simply acknowledging their feelings to actively challenging and exploring the underlying beliefs associated with those emotions, indicating both a willingness to engage with their vulnerabilities and an emerging understanding of the relationship dynamics at play.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear your reflections on this! Recognizing that your past experiences of expressing needs were met with support is a powerful reminder that your needs are valid and important. If you would feel compassion for a friend in a similar situation, it\u2019s likely your friend will feel the same way about you. The idea that this conversation could actually strengthen your friendship is truly empowering, and it reinforces the notion that prioritizing your self-care can enhance, rather than diminish, your connections. As you prepare for this discussion, hold onto that courage and the potential for positive outcomes, knowing we can explore any feelings that arise afterward together.",
+      "client": "I can see that maybe holding onto that courage will help me approach this conversation with more confidence. The thought that my needs might actually contribute positively to my friendship feels encouraging. I think it also helps me challenge the belief that I must always put others first to prove my worth. I hadn\u2019t fully connected how much more fulfilling my relationships could be if I allowed myself to be vulnerable and express my needs. That realization feels quite liberating, even if it\u2019s a little daunting at the same time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s truly liberating to recognize how vulnerability can deepen your relationships! Challenging the belief that you must always prioritize others is a significant step toward honoring your own needs. As you prepare for this conversation, consider what balanced thoughts you could replace any lingering fears with\u2014perhaps reminding yourself that expressing your needs is not just acceptable but necessary for healthy connections. Embrace the potential for growth and fulfillment that comes with this new perspective, and remember, we\u2019ll navigate any emotions that arise together afterward. Your courage to approach this situation is commendable, and I believe it will lead to enriching experiences.",
+      "client": "I think it's really encouraging to hear that expressing my needs can be seen as a necessary part of healthy relationships. It does feel like a big shift to move away from prioritizing others at my own expense. When you mention replacing lingering fears with balanced thoughts, I can see that maybe I can remind myself that it\u2019s okay to prioritize my well-being without feeling guilty. I hadn\u2019t fully grasped how vulnerability could lead to deeper connections before, but now it feels like an avenue for growth I want to explore more.",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. \"I think it also helps me challenge the belief that I must always put others first to prove my worth. I hadn\u2019t fully connected how much more fulfilling my relationships could be if I allowed myself to be vulnerable and express my needs. That realization feels quite liberating, even if it\u2019s a little daunting at the same time.\"\n2. \"I think it's really encouraging to hear that expressing my needs can be seen as a necessary part of healthy relationships. It does feel like a big shift to move away from prioritizing others at my own expense.\"\n\n**Progression:** The client's most recent interactions demonstrate a significant increase in emotional depth and self-reflection. They articulate their fears surrounding self-expression while recognizing the potential positive outcomes of vulnerability. This marks a notable shift from earlier interactions, where their emotional expression was less developed. The client is now engaging in more profound reflections about their needs and their impact on their relationships.\n\n**Turning Point:** The emotional depth shifted during the moment when the client recognized, \"I hadn't fully connected how much more fulfilling my relationships could be if I allowed myself to be vulnerable and express my needs.\" This acknowledgment indicates a pivotal realization that encourages a more authentic engagement with their emotions, suggesting a readiness to explore their vulnerabilities further within the therapeutic space.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to see you embrace the idea of prioritizing your well-being as a pathway to more meaningful connections. Reflecting on those balanced thoughts can be a powerful tool\u2014what specific reminders might you use to counteract any guilt that arises? Consider how you might frame your needs positively when you share them with your friend. Gathering their feedback afterward could also help reinforce the healthy dynamics in your friendship. As you explore this journey of vulnerability, remember that it\u2019s a strength, not a weakness, and I\u2019m here to support you every step of the way.",
+      "client": "I think it\u2019s helpful to consider specific reminders that can ground me in this process. Maybe I could tell myself that taking care of my own needs doesn\u2019t diminish my love or commitment to my friends; in fact, it enhances it. I hadn\u2019t thought of framing my needs positively before, but I can see how saying something like, \u201cI really value our friendship, and I need some time to recharge\u201d could set a healthier tone. Gathering feedback from my friend sounds like a great way to reinforce that our connection can withstand these conversations. I\u2019m beginning to feel a sense of hope about this shift, even if it still feels a bit scary.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you articulating those positive reminders! Recognizing that taking care of your needs can actually enhance your friendships is a significant insight. How might you prepare for potential feedback from your friend after you share your needs? This could help you feel more secure in the conversation. Additionally, can you identify any thoughts that might be creeping in that could distort how you view this situation? Remember, it\u2019s completely normal to feel a mix of hope and fear; embracing both is part of the journey toward deeper connections. I'm here to support you as you navigate this process!",
+      "client": "I appreciate your encouragement; it helps me feel more secure in approaching this. I think preparing for feedback could involve reminding myself that my friend\u2019s response doesn\u2019t necessarily reflect my worth. It\u2019s easy for me to get caught up in my fears, like worrying they'll feel rejected or that I\u2019m being too selfish. That feels uncomfortable, but I know it\u2019s important to recognize those thoughts as just thoughts. Maybe I can practice some self-compassion and remind myself that vulnerability is a journey, and it\u2019s okay if it feels a bit messy at times. I\u2019m definitely willing to explore my feelings around feedback more closely\u2014I think it could really help me navigate this process.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \"I hadn\u2019t fully grasped how vulnerability could lead to deeper connections before, but now it feels like an avenue for growth I want to explore more.\"\n2. \"Maybe I can practice some self-compassion and remind myself that vulnerability is a journey, and it\u2019s okay if it feels a bit messy at times.\"\n\n**Progression:**\nThe client's most recent interactions reflect a marked increase in emotional depth and self-awareness. They are articulating their feelings about vulnerability not just as an abstract concept but as a personal journey they are willing to explore. This is a significant change from earlier interactions, where the client displayed more hesitant and defensive communication. The growth is evident through their willingness to engage with complex feelings around self-compassion, fear, and the positive framing of their needs in relationships.\n\n**Turning Point:**\nThe client's emotional depth shifted notably during the exchange where they began expressing an understanding that taking care of their own needs can enhance their friendships. This moment marked a turning point as they transitioned from initial thoughts of guilt and fear to recognizing vulnerability as a strength and embracing the process of reaching out for support. The acknowledgment of vulnerability as part of a healthy relationship dynamic signifies a deeper level of engagement and a more profound relationship with the therapist.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It's great to hear you acknowledge that your friend's response is not a reflection of your worth; that perspective will serve you well in this conversation. As you think about those fears of rejection or being selfish, can you challenge those thoughts by considering times when you've expressed your needs and received positive feedback? It\u2019s also helpful to recognize any cognitive distortions at play, like all-or-nothing thinking. If a friend shared similar fears with you, what compassionate advice would you offer them? Embracing vulnerability can indeed be messy, but it sounds like you\u2019re building a solid foundation for deeper connections. I'm here to support you every step of the way!",
+      "client": "I can see that maybe challenging my fears with specific examples from my past could help me gain a more balanced perspective. There have been moments when I\u2019ve shared my needs and my friends were understanding, which might indicate that expressing vulnerability doesn\u2019t always lead to rejection. When I think about what I might say to a friend in a similar situation, I realize I would encourage them to be kind to themselves and remind them that their needs are valid. This recognition feels empowering, even if it\u2019s still a little daunting to apply it to my own life. I\u2019m really appreciating this exploration and how it\u2019s helping me shift my perspective.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Reality Testing"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic to see you connecting your insights and recognizing the power of self-compassion! Reflecting on those moments when your friends were understanding is a valuable way to challenge the fears you hold. Can you think of a specific example where being vulnerable strengthened a connection for you? Additionally, what evidence do you have that supports the belief that your needs would be unwelcome? Considering the possibility that your honesty could deepen your friendships may help shift your perspective even further. Remember, it\u2019s okay to feel a bit scared; you\u2019re taking meaningful steps toward greater authenticity.",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. One specific moment that comes to mind was when I shared with a close friend how overwhelmed I felt during a tough time. I remember feeling vulnerable, but she responded with such kindness and support; it actually brought us closer. That experience really helped me see that being open can foster connection rather than push people away. Yet, there's still this nagging belief that I should always be the one supporting others, which makes it hard to believe my needs would be welcomed. I definitely want to explore that further\u2014it feels important to challenge that notion.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \"I\u2019m definitely willing to explore my feelings around feedback more closely\u2014I think it could really help me navigate this process.\"\n- \"One specific moment that comes to mind was when I shared with a close friend how overwhelmed I felt during a tough time. I remember feeling vulnerable, but she responded with such kindness and support; it actually brought us closer.\"\n\n**Progression:**\nIn the most recent exchanges, the client demonstrates consistent emotional depth and engagement. They are not only articulating their feelings and thoughts around vulnerability but also reflecting on past experiences that have shaped their understanding of emotional openness. This represents a clear progression from earlier interactions where emotional expression was more guarded. The client\u2019s willingness to explore feelings and recognize the importance of challenging negative beliefs about their worth reflects a growing comfort with the therapeutic process.\n\n**Turning Point:**\nA notable turning point occurred when the client articulated their past experience of sharing vulnerability with a friend who responded positively. This moment catalyzed a significant shift, as it allowed the client to internalize the idea that vulnerability can lead to deeper connections rather than rejection. This acknowledgment marks a transition from a defensive stance to an openness to explore and embrace emotions, establishing a stronger therapeutic alliance and a more profound understanding of their own emotional landscape.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    }
+  ]
+}

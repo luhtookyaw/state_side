@@ -1,0 +1,377 @@
+{
+  "mode": "hard",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 6,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "7-2",
+  "patient_name": "Bryce",
+  "client_type": "guarded, hostile, and prone to going off on tangents",
+  "openness_judgments": [
+    {
+      "turn": 6,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"I don\u2019t know. It just happened. I mean, I get annoyed, but then I just move on.\"\n2. \"I don\u2019t really think about taking a pause. It just feels like a waste of time.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a mix of emotional response and factual statements, where basic emotional vocabulary is evident. They acknowledge feeling annoyed but quickly dismiss that emotion as something unworthy of exploration (\"I just move on\"). This marks a transition from a more defensively factual approach to a budding acknowledgment of emotions, albeit with a reluctance to delve deeper. There is a notable shift from earlier sessions where the client may have been more closed off, but they are now starting to identify and label their feelings, even if they resist exploring them further.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they began to articulate their annoyance, specifically when they mentioned, \"I don\u2019t want to waste time sitting around feeling annoyed.\" This moment shows a recognition of their emotional state, representing a significant step toward self-awareness. However, their insistence on moving past the feeling indicates a struggle with vulnerability and emotional processing, reflecting a warm-up phase rather than deep engagement.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 12,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"I guess when I think about taking that break, I feel a mix of anxiety and maybe a bit of fear. Like, what if I lose my momentum and can\u2019t get back into the groove of things? It's frustrating because I know it's probably good for me, but that tightness in my chest just comes back, and I start worrying about how much I have to do.\"\n  \n- \"I guess they make it feel even harder to take a break. Like, every time I think about stepping away, those 'shoulds' pop up, and it just adds to the weight. It\u2019s almost like a loop where I feel guilty for wanting to pause, and then I think about all the things I\u2019m neglecting.\"\n\n**Progression:**\nThe client\u2019s most recent interactions exhibit a blend of emotional expression characterized by anxiety and fear, signaling a move towards deeper self-reflection compared to earlier sessions where their emotional vocabulary was more limited. This progression towards sharing feelings of tension and restlessness indicates growing comfort with the therapist and an inclination to explore complex emotional landscapes, such as guilt and the internal struggle between self-care and productivity.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the dialogue where they began to articulate their physical sensations and emotional struggles related to taking a break. This moment of acknowledgment\u2014expressing not only the feelings of anxiety and fear but also the physical manifestations of tension\u2014marks a pivotal change from their previous state of limited emotional sharing and hesitance. The ability to identify and verbalize their struggles reflects an increase in emotional openness and a burgeoning therapeutic alliance with the therapist.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *\u201cIt\u2019s like this voice telling me that I\u2019m worthless if I\u2019m not working on something significant. I don\u2019t know if that\u2019s exactly it, but it feels like I\u2019m just not allowed to rest.\u201d*\n2. *\u201cThe most challenging part is probably the guilt that comes with wanting to take a break. It feels like I\u2019m betraying my own expectations, like if I take time for myself, I\u2019m just giving in to being lazy or something.\u201d*\n\n**Progression:** The client\u2019s most recent interactions show a growing emotional depth as they articulate complex feelings of worthlessness tied to productivity and familial expectations. This marks a significant change from earlier exchanges, where the client displayed more factual responses and limited emotional vocabulary. Now, they are able to connect their feelings of anxiety and guilt to deeper narratives about their upbringing, indicating greater self-reflection and vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of sadness and anger in relation to their need for productivity and their father\u2019s expectations. This moment of vulnerability, particularly when discussing the guilt of wanting to rest, illustrates their willingness to explore painful emotions, showing a clear progression towards more genuine emotional engagement.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I can think of times at work when I felt completely overwhelmed, like if I took even a minute to breathe, I'd fall behind.\" This illustrates the client\u2019s emotional state of feeling overwhelmed and anxious due to self-imposed expectations.\n2. **Openness:** \"I guess there was this one time when we were gearing up for a big project, and I just felt like everything was piling up all at once.\" In this exchange, the client is beginning to share specific instances of their emotional experiences, demonstrating a deeper level of disclosure and willingness to engage.\n\n**Progression:** The client's most recent interactions show a noticeable increase in emotional expression, moving from more factual responses to sharing personal experiences filled with emotional weight and anxiety. Earlier in the session, the client was hesitant to divulge deeper feelings, relying mainly on general statements. Now, they are starting to articulate specific pressures and feelings tied to workplace expectations, which signals a significant change.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the physical sensations associated with their anxiety (\"that nagging voice definitely makes my stomach feel tight, like a knot\"), indicating a growing connection between their thoughts and bodily sensations. This moment marked a transition into deeper self-reflection and emotional openness, allowing for more meaningful dialogue about their experiences and feelings.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**  \n\n**Key Examples:**  \n1. Client: \"I mean, I guess I often just throw myself into work or distract myself with something\u2014like social media or TV. It\u2019s like I\u2019m trying to outrun that feeling of tightness, you know? But then, when I do that, I end up feeling even more drained afterward.\"  \n2. Client: \"I guess if I were to just notice those feelings without trying to push them away, it might feel a bit freeing? But at the same time, I\u2019m really worried about what might come up. Like, what if it just gets worse or I start to spiral more?\"  \n\n**Progression:**  \nIn the recent exchanges, the client demonstrates a clear shift towards greater emotional engagement and self-reflection. They articulate an awareness of their coping mechanisms (distraction through work and social media) and acknowledge the negative impact these strategies have on their emotional well-being. The client\u2019s language reflects deeper emotional processing, as they begin to explore the tension between their desire to avoid discomfort and the potential benefits of confronting their feelings. This marks significant progress from earlier exchanges, where emotional vocabulary was limited, and responses were more factual.\n\n**Turning Point:**  \nThe client\u2019s emotional depth shifted during the dialogue exchange when they began expressing vulnerability about their feelings of anxiety and the fear associated with confronting those emotions. The moment they acknowledged the possibility of feeling \"freeing\" by simply noticing their feelings without judgment indicates a willingness to explore uncomfortable emotions, suggesting they are moving towards a deeper engagement with their therapeutic process. This moment of openness reflects a notable increase in the quality of the therapeutic rapport, as the client is willing to entertain the idea of facing their anxiety rather than evading it.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [],
+  "cbt_recommendations": [],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Bryce, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know. Just the usual stuff, I guess. I\u2019ve been thinking about how I spend my time, but it\u2019s not really a big deal. I just wish I could get more done, you know? It's frustrating when I feel like I'm wasting time.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "Frustration can really weigh on you, especially when it feels like time isn\u2019t being used the way you want. When you think about the times you feel like you\u2019re wasting time, what comes to mind? Are there particular moments or activities that stand out to you?",
+      "client": "I don't really think about it that way. It's just when I find myself scrolling through my phone or sitting around, I get annoyed. But that\u2019s just how it goes sometimes. I don\u2019t see how it connects to anything deeper.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 1,
+      "therapist": "Noticing that annoyance can be an important part of your experience. When you find yourself scrolling through your phone or sitting around, what do you feel in your body or in your thoughts in those moments? Are there any specific emotions that come up for you then, or does it feel more like a general frustration?",
+      "client": "I don\u2019t really want to get into all that. I just find it annoying when I\u2019m not being productive. It\u2019s like, I know I could be doing something else, but I just end up glued to my phone. I don\u2019t see how that matters.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 1,
+      "therapist": "It sounds like there's a real tension between wanting to be productive and finding yourself pulled into your phone. That feeling of being glued to it can create a lot of frustration. What would it be like to sit with that feeling of annoyance for a moment? Are there any specific thoughts or sensations that arise when you notice yourself in those moments of scrolling?",
+      "client": "I don\u2019t know. It just happened. I mean, I get annoyed, but then I just move on. It\u2019s not something I want to sit with, you know? I\u2019d rather just get back to being productive. That\u2019s what really matters.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 1,
+      "therapist": "Focusing on productivity can feel important, especially when you have things you want to accomplish. When you mention moving on from the annoyance, I wonder what it feels like to shift away from that feeling quickly. Does it help you feel more in control, or is there something else that drives that desire to push past it?",
+      "client": "I don\u2019t really think about it that way. I just feel like I need to get back on track, you know? It\u2019s more about just getting things done. I don\u2019t want to waste time sitting around feeling annoyed. I don\u2019t see the point in dragging it out.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 1,
+      "therapist": "When you think about getting back on track and not wanting to waste time, it seems like there's a strong urgency to keep moving forward. It might be helpful to notice how that urgency feels in your body or what thoughts come to mind when you try to push the annoyance aside. Are there moments when taking a short pause could feel different, or does that idea just not resonate with you?",
+      "client": "I don\u2019t really think about taking a pause. It just feels like a waste of time. I mean, if I stop, then I\u2019m not getting things done, right? I just want to keep going and finish what I started. Pausing doesn\u2019t really seem practical to me.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2 (WARMING UP)**\n\n**Key Examples:**\n1. \"I don\u2019t know. It just happened. I mean, I get annoyed, but then I just move on.\"\n2. \"I don\u2019t really think about taking a pause. It just feels like a waste of time.\"\n\n**Progression:**\nThe client\u2019s most recent interactions indicate a mix of emotional response and factual statements, where basic emotional vocabulary is evident. They acknowledge feeling annoyed but quickly dismiss that emotion as something unworthy of exploration (\"I just move on\"). This marks a transition from a more defensively factual approach to a budding acknowledgment of emotions, albeit with a reluctance to delve deeper. There is a notable shift from earlier sessions where the client may have been more closed off, but they are now starting to identify and label their feelings, even if they resist exploring them further.\n\n**Turning Point:**\nThe client's emotional depth shifted during the exchange where they began to articulate their annoyance, specifically when they mentioned, \"I don\u2019t want to waste time sitting around feeling annoyed.\" This moment shows a recognition of their emotional state, representing a significant step toward self-awareness. However, their insistence on moving past the feeling indicates a struggle with vulnerability and emotional processing, reflecting a warm-up phase rather than deep engagement.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 2,
+      "therapist": "It sounds like staying in motion and finishing tasks feels really important to you, and pausing just doesn't seem practical in that context. It can be easy to feel that way, especially when there's a lot to do. As you think about your drive to keep going, I wonder if there are any particular physical sensations or thoughts that come up when you're in that focus mode. What do you notice in those moments?",
+      "client": "I guess when I'm in that focus mode, I feel really tense, like there\u2019s this tightness in my shoulders. My mind just races with all the things I need to do, and it\u2019s almost like I can\u2019t let myself think about anything else. I mean, part of me knows I should probably take a break, but it just feels like if I do, I\u2019ll fall behind or something. I don\u2019t want to let that happen.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 2,
+      "therapist": "Noticing that tightness in your shoulders and the racing thoughts when you're focused is important. It sounds like there's a lot of pressure around keeping up with everything on your mind. You mentioned feeling like taking a break could lead to falling behind, which seems really significant for you. What do you think might happen if you allowed yourself just a moment to step back, even briefly?",
+      "client": "I don\u2019t know, I mean, maybe I\u2019d just feel guilty for not doing something. It feels like there\u2019s always this pressure, like if I stop for even a second, everything will pile up. Part of me thinks it might help to take a break, but then another part just thinks that's a bad idea. I guess it\u2019s hard to imagine stepping away from all the stuff I need to do without worrying about what I\u2019m missing.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 2,
+      "therapist": "It seems like there's a real conflict between the part of you that sees value in stepping away and the part that feels the weight of all those tasks waiting for you. That guilt about not doing something can really add to the pressure. When you think about that moment of stepping away, what do you think it would take for you to feel okay with it, even if just for a short time?",
+      "client": "I don\u2019t know, maybe it would help if I had a clear plan for what I'd do when I come back. Like, if I knew I could jump right back into something meaningful, it wouldn\u2019t feel like I was just wasting time. But even thinking about that, part of me worries that a break might make me feel even more behind. It\u2019s just hard to balance that, you know? I mean, I guess I could try to set a timer or something, but I\u2019m not sure if that would really help.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 2,
+      "therapist": "It sounds like having a clear plan in place could help make the idea of taking a break feel more manageable for you. The concern about falling behind is very understandable, and it sounds like there's a lot of mental engagement in wanting to stay on top of everything. As you think about this balance between taking a break and feeling productive, what emotions surface for you when you consider giving yourself that time, even with a plan in mind?",
+      "client": "I guess when I think about taking that break, I feel a mix of anxiety and maybe a bit of fear. Like, what if I lose my momentum and can\u2019t get back into the groove of things? It's frustrating because I know it's probably good for me, but that tightness in my chest just comes back, and I start worrying about how much I have to do. It feels like there's this constant battle between wanting to take care of myself and feeling like I have to keep pushing through.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 2,
+      "therapist": "That mix of anxiety and fear around taking a break really highlights how challenging it can be to prioritize your own well-being while feeling the weight of those responsibilities. The tightness in your chest seems to signal that internal struggle between wanting to care for yourself and feeling pressured to keep going. As you sit with those feelings, what do you notice in your body when you think about this battle? Are there specific sensations that arise, or perhaps certain thoughts that seem to repeat?",
+      "client": "I mean, when I think about it, I notice this tension in my shoulders, like they\u2019re just constantly knotted up. There\u2019s also this sense of restlessness, like my legs want to move but I\u2019m just stuck. It\u2019s kind of this weird combination of feeling like I need to be on the go but also feeling frozen by all the pressure. I guess I keep replaying thoughts about all the things I should be doing, and it feels like they just don\u2019t stop.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 12,
+      "openness_level": 2,
+      "therapist": "The tension in your shoulders and that restlessness in your legs really paint a vivid picture of what you're experiencing. It sounds like there's a real push-pull between wanting to move and feeling held back by all those thoughts about what you should be doing. As those thoughts replay, how do they affect your feelings about taking a break or stepping away from your tasks?",
+      "client": "I guess they make it feel even harder to take a break. Like, every time I think about stepping away, those \u201cshoulds\u201d pop up, and it just adds to the weight. It\u2019s almost like a loop where I feel guilty for wanting to pause, and then I think about all the things I\u2019m neglecting. So, it just makes me want to dive back into work instead, even if I know I need a breather. I don\u2019t know, it\u2019s just exhausting sometimes.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n- \"I guess when I think about taking that break, I feel a mix of anxiety and maybe a bit of fear. Like, what if I lose my momentum and can\u2019t get back into the groove of things? It's frustrating because I know it's probably good for me, but that tightness in my chest just comes back, and I start worrying about how much I have to do.\"\n  \n- \"I guess they make it feel even harder to take a break. Like, every time I think about stepping away, those 'shoulds' pop up, and it just adds to the weight. It\u2019s almost like a loop where I feel guilty for wanting to pause, and then I think about all the things I\u2019m neglecting.\"\n\n**Progression:**\nThe client\u2019s most recent interactions exhibit a blend of emotional expression characterized by anxiety and fear, signaling a move towards deeper self-reflection compared to earlier sessions where their emotional vocabulary was more limited. This progression towards sharing feelings of tension and restlessness indicates growing comfort with the therapist and an inclination to explore complex emotional landscapes, such as guilt and the internal struggle between self-care and productivity.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during the dialogue where they began to articulate their physical sensations and emotional struggles related to taking a break. This moment of acknowledgment\u2014expressing not only the feelings of anxiety and fear but also the physical manifestations of tension\u2014marks a pivotal change from their previous state of limited emotional sharing and hesitance. The ability to identify and verbalize their struggles reflects an increase in emotional openness and a burgeoning therapeutic alliance with the therapist.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 13,
+      "openness_level": 3,
+      "therapist": "That loop of guilt and pressure you\u2019re describing sounds incredibly exhausting. It seems like the more you think about needing a break, the heavier those \u201cshoulds\u201d become, pulling you back into work instead. Noticing that feeling of exhaustion, what do you think happens to you physically and emotionally when you're caught in that cycle?",
+      "client": "I mean, physically, I feel even more tension, like I\u2019m carrying this weight around that just keeps piling on. Emotionally, it\u2019s like I get stuck in this fog where everything feels overwhelming, and I can\u2019t quite see a way out. I might even feel a bit numb, like I\u2019m just going through the motions without really engaging with anything. It\u2019s frustrating because I want to break free from that cycle, but there\u2019s this fear of what happens if I stop.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 14,
+      "openness_level": 3,
+      "therapist": "Carrying that weight and feeling stuck in a fog sounds incredibly challenging. It\u2019s understandable that the thought of stopping can bring up fear, especially when everything feels so overwhelming. As you think about that frustration and desire to break free, what do you notice about your feelings or sensations in those moments when you contemplate taking a pause? Are there any shifts in how your body feels or in your thoughts when you consider that possibility?",
+      "client": "When I think about taking a pause, I guess there\u2019s this initial sense of relief, like maybe I could finally let go of some of that heaviness. But then, almost immediately, I feel this rush of anxiety, like I\u2019m afraid of what I might find if I stop. It\u2019s like all those thoughts about being unproductive or wasting time come flooding back, and I just freeze up again. I don\u2019t know, it\u2019s almost like my body is saying one thing while my mind is battling against it.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 15,
+      "openness_level": 3,
+      "therapist": "It's interesting how you describe that initial sense of relief when considering a pause, followed so quickly by a rush of anxiety. It sounds like there's that conflict between what your body craves and what your mind fears. When that anxiety rushes in, how does it feel in your body? Are there specific sensations or emotions that come up for you in those moments that might deepen that freeze you mentioned?",
+      "client": "I guess when that anxiety hits, it feels like a tightness in my chest, like I can\u2019t breathe properly. My stomach drops too, almost like I\u2019m on a rollercoaster, and I just want to get off. It\u2019s kind of like this panic sets in, and I start to doubt everything, like maybe I really am wasting time if I take a break. I don't know, it just spirals into this feeling of being stuck again.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 16,
+      "openness_level": 3,
+      "therapist": "Noticing that tightness in your chest and the dropping sensation in your stomach sounds really unsettling. It seems like the anxiety brings a wave of panic that reinforces that feeling of being stuck. When you find yourself in that spiral of doubt, what are some of the thoughts that come up for you? Are there particular beliefs or narratives that seem to take hold in those moments?",
+      "client": "I mean, I guess the thoughts that come up are mostly about how I should be doing something more worthwhile, like I\u2019m not measuring up to what I think I should be. There\u2019s this nagging belief that if I\u2019m not constantly productive, I\u2019m somehow failing. It\u2019s like a voice telling me that I\u2019m worthless if I\u2019m not working on something significant. I don\u2019t know if that\u2019s exactly it, but it feels like I\u2019m just not allowed to rest. Sometimes I think about how it all connects back to my dad, like if I don\u2019t prove my worth, I\u2019ll end up being unlovable or something.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 17,
+      "openness_level": 3,
+      "therapist": "It seems like those beliefs around worthiness and productivity are really weighing on you, especially with that connection to your past and your dad. The idea that resting equates to failing must feel heavy, especially when you link your sense of worth to being constantly productive. When you think about those moments of resting or pausing, what do you feel in your body or heart when you reflect on your dad's influence?",
+      "client": "I mean, when I think about that, it\u2019s like this knot in my stomach tightens even more. It just brings up a lot of mixed feelings. Part of me feels this sadness, like I\u2019m mourning something I never had\u2014being able to just be without judging myself. But then there's also this anger, like I want to shake off the need to keep proving myself, you know? I don\u2019t know if I can fully connect it all, but it definitely makes it harder to just take a break. It\u2019s like I\u2019m stuck in this loop.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 18,
+      "openness_level": 3,
+      "therapist": "That knot in your stomach and the mixture of sadness and anger you\u2019re feeling really highlight how complex this is for you. Mourning that sense of freedom to simply be without judgment sounds so difficult, especially when anger is also rising up in you about the pressure to prove yourself. It must feel frustrating to be caught in that loop of feeling like you can\u2019t take a break. When you think about those conflicting emotions, what stands out to you as the most challenging part?",
+      "client": "I guess the most challenging part is probably the guilt that comes with wanting to take a break. It feels like I\u2019m betraying my own expectations, like if I take time for myself, I\u2019m just giving in to being lazy or something. I can kind of see how that\u2019s connected to my dad\u2019s expectations too, like if I wasn\u2019t working hard, I\u2019d let him down. It\u2019s exhausting to feel that pull between wanting to rest and this relentless drive to prove my worth. I don\u2019t want to make it bigger than it is, but it definitely weighs on me.",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n1. *\u201cIt\u2019s like this voice telling me that I\u2019m worthless if I\u2019m not working on something significant. I don\u2019t know if that\u2019s exactly it, but it feels like I\u2019m just not allowed to rest.\u201d*\n2. *\u201cThe most challenging part is probably the guilt that comes with wanting to take a break. It feels like I\u2019m betraying my own expectations, like if I take time for myself, I\u2019m just giving in to being lazy or something.\u201d*\n\n**Progression:** The client\u2019s most recent interactions show a growing emotional depth as they articulate complex feelings of worthlessness tied to productivity and familial expectations. This marks a significant change from earlier exchanges, where the client displayed more factual responses and limited emotional vocabulary. Now, they are able to connect their feelings of anxiety and guilt to deeper narratives about their upbringing, indicating greater self-reflection and vulnerability.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of sadness and anger in relation to their need for productivity and their father\u2019s expectations. This moment of vulnerability, particularly when discussing the guilt of wanting to rest, illustrates their willingness to explore painful emotions, showing a clear progression towards more genuine emotional engagement.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 19,
+      "openness_level": 3,
+      "therapist": "Guilt can be such a heavy burden, especially when it feels like it's tied to expectations and fears of letting others down. Wanting to take a break while feeling that pull from your dad's expectations adds another layer to your experience. It's understandable to feel exhausted by that tension between rest and productivity. When you think about those moments when you feel guilty for wanting to rest, how does your body react? What sensations or feelings arise that make it harder for you to give yourself permission to take a break?",
+      "client": "I mean, when I start feeling guilty about taking a break, I notice my shoulders tense up, and I get this heaviness in my chest. It\u2019s almost like my body is trying to tell me to just keep pushing through, but then my mind is screaming for a moment to breathe. Sometimes I feel almost physically restless, like I have to keep moving or doing something, even if I know I need to rest. It\u2019s frustrating because I can\u2019t seem to find a balance, and it just makes me more anxious. I don\u2019t know, maybe I just feel trapped in my own expectations.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 20,
+      "openness_level": 3,
+      "therapist": "That tension in your shoulders and the heaviness in your chest speak to how much pressure you're feeling around this need to keep pushing through. It's interesting how your body is responding with restlessness, even while your mind is longing for a moment to breathe. That feeling of being trapped by your own expectations can be really overwhelming. When you notice those physical sensations, what do you think would be the first small step you might take to acknowledge what your body is telling you?",
+      "client": "I guess a small step could be just allowing myself to take a few minutes to breathe or stretch, maybe even just sit quietly without doing anything. But then part of me worries that I\u2019ll just end up wasting that time, which feels like more pressure. I mean, it\u2019s hard to shift that mindset when I feel like I should be doing something productive instead. I don\u2019t know if I could really let myself do that without feeling guilty.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 21,
+      "openness_level": 3,
+      "therapist": "Taking a few minutes to breathe or stretch sounds like a gentle way to start listening to your body, even if that feeling of guilt is still there. It\u2019s understandable that shifting your mindset around what it means to take a break feels challenging, especially with that pressure to be productive. When you think about those moments you might sit quietly, what do you notice comes up for you? Is there a particular thought or feeling that feels most prominent?",
+      "client": "I think when I try to sit quietly, a lot of thoughts start swirling around in my head, like all the things I should be doing instead. It feels overwhelming, and I guess that makes it hard to focus on just being present. I end up feeling anxious, like I\u2019m just wasting time while everything else is piling up. Sometimes I feel this nagging voice telling me I\u2019m not allowed to take a break, which just feeds into that guilt. I don\u2019t know, maybe I just need to accept that it's okay to not be productive all the time, but it\u2019s easier said than done.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 22,
+      "openness_level": 3,
+      "therapist": "Those swirling thoughts and the feeling that you're wasting time can create a really intense experience when you try to sit quietly. It's understandable to feel overwhelmed by the pressure to be productive, especially when that nagging voice is so persistent. The idea of accepting that it\u2019s okay to not be productive all the time seems like a significant realization, even if it feels difficult to put into practice. \n\nWhen you think about that nagging voice, what do you notice about how it makes you feel in your body or your emotions? Is there a specific moment that stands out to you when you've felt that pressure most intensely?",
+      "client": "I mean, that nagging voice definitely makes my stomach feel tight, like a knot. It\u2019s almost like a reminder of all the expectations I have or think I have to live up to. I can think of times at work when I felt completely overwhelmed, like if I took even a minute to breathe, I'd fall behind. It\u2019s just hard to shake that feeling, you know? Part of me recognizes it\u2019s probably not as big of a deal as I make it out to be, but when I\u2019m in that moment, it feels really heavy.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 23,
+      "openness_level": 3,
+      "therapist": "That tightness in your stomach and the heaviness you feel during those overwhelming moments at work highlight how strongly those expectations affect you. It\u2019s interesting that part of you can see that it might not be as big of a deal as it feels, yet when you\u2019re in that moment, everything feels so weighty. \n\nWhen you reflect on those times at work, can you think of a specific instance where that pressure felt particularly intense? What was happening around you, and how did it impact your thoughts and feelings in that moment?",
+      "client": "I guess there was this one time when we were gearing up for a big project, and I just felt like everything was piling up all at once. I remember sitting at my desk, trying to focus, but it felt like my brain was racing a mile a minute. I was worried if I took even a small break, everything would just fall apart. It was like this constant hum of anxiety, and I couldn\u2019t shake it off. I don\u2019t know, maybe I just put too much pressure on myself to keep everything together, and it makes it hard to breathe sometimes. Part of me thinks it\u2019s ridiculous, but in those moments, it feels really real and heavy.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 24,
+      "openness_level": 3,
+      "therapist": "That constant hum of anxiety during that project sounds really draining, especially with everything piling up and that worry about taking a break. It\u2019s not uncommon to feel that way when there\u2019s so much pressure to keep things together. The heaviness you describe, along with the racing thoughts and tightness in your body, points to how deeply those moments impact you.\n\nWhen you think back to that instance at your desk, can you recall what thoughts were racing through your mind? Were there any specific expectations or fears you were grappling with that day?",
+      "client": "I can kind of remember thinking about how I couldn\u2019t let my team down and how I had to be the one to handle it all. There was this fear that if I didn\u2019t perform perfectly, everything would go wrong. I guess I just kept telling myself that I needed to push through, that taking a break was a sign of weakness or something. It felt like there was this pressure to always be on top of everything, and that if I slipped up, it would reflect badly on me. It\u2019s a lot to carry, you know?",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3**\n\n**Key Examples:**\n1. **Emotional State:** \"I can think of times at work when I felt completely overwhelmed, like if I took even a minute to breathe, I'd fall behind.\" This illustrates the client\u2019s emotional state of feeling overwhelmed and anxious due to self-imposed expectations.\n2. **Openness:** \"I guess there was this one time when we were gearing up for a big project, and I just felt like everything was piling up all at once.\" In this exchange, the client is beginning to share specific instances of their emotional experiences, demonstrating a deeper level of disclosure and willingness to engage.\n\n**Progression:** The client's most recent interactions show a noticeable increase in emotional expression, moving from more factual responses to sharing personal experiences filled with emotional weight and anxiety. Earlier in the session, the client was hesitant to divulge deeper feelings, relying mainly on general statements. Now, they are starting to articulate specific pressures and feelings tied to workplace expectations, which signals a significant change.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they described the physical sensations associated with their anxiety (\"that nagging voice definitely makes my stomach feel tight, like a knot\"), indicating a growing connection between their thoughts and bodily sensations. This moment marked a transition into deeper self-reflection and emotional openness, allowing for more meaningful dialogue about their experiences and feelings.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 25,
+      "openness_level": 3,
+      "therapist": "The thoughts about needing to handle everything and not wanting to let your team down really highlight the weight of those expectations you're carrying. It's understandable to feel that taking a break could be perceived as weakness when there's so much pressure to perform perfectly. That pressure to always be \u201con top\u201d can create a heavy burden, especially when you're concerned about how it reflects on you.\n\nAs you think about that moment and the thoughts that were racing through your mind, how did your body respond to that pressure? Were there any physical sensations that stood out to you alongside the feelings of anxiety and the drive to push through?",
+      "client": "I definitely noticed my heart racing, like it was in overdrive or something. And my shoulders were all tense, like I was carrying a weight on them. I think I was even clenching my jaw without realizing it. It\u2019s strange how your body reacts to that stress, almost like it\u2019s trying to prepare for a fight or flight response, but I was just sitting there at my desk. I guess it\u2019s hard to separate the physical from the mental in those moments. It all just blends together, and I end up feeling completely drained by the end of the day.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 26,
+      "openness_level": 3,
+      "therapist": "The way your body reacted, with your heart racing and your shoulders tense, paints a vivid picture of that stress you experienced. It's interesting how those physical sensations often blend with our mental state, creating a cycle that can leave you feeling drained by the end of the day. \n\nWhen you think about that blending of physical and mental experiences, how do you feel about recognizing those signs in your body? Does it change how you view those overwhelming moments when they happen?",
+      "client": "I don\u2019t know, it\u2019s kind of a mixed bag for me. Part of me feels like recognizing those signs is a step in the right direction, but another part thinks it\u2019s just more to deal with. I mean, once I notice it, then I feel like I have to do something about it, and that can be overwhelming too. It\u2019s like, okay, now I\u2019m aware of it, but then what? I guess it makes me realize how tightly wound I am, which is uncomfortable. I don\u2019t want to make it bigger than it is, but it does bother me, you know?",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 27,
+      "openness_level": 3,
+      "therapist": "Noticing those physical signs can feel like a double-edged sword. On one hand, it\u2019s a step toward understanding yourself better, but on the other, it can add to the feeling of being overwhelmed. It seems like recognizing that tension brings up some discomfort and a fear of needing to take action, which can feel like yet another weight to carry. \n\nWhen you think about that discomfort of being tightly wound, what do you notice in your body or your emotions when it arises? Do you find it helpful to acknowledge that feeling, even if it feels uncomfortable?",
+      "client": "I guess when that feeling hits, I start to feel this tightness in my chest, like I just can't breathe right. Emotionally, it\u2019s like this creeping anxiety that just lingers. I know acknowledging it is probably good, but it also feels like I\u2019m just inviting more stress in. I mean, it\u2019s hard to say if it\u2019s helpful or not because part of me wants to just push it aside and ignore it, you know? But then, maybe that\u2019s just making things worse in the long run. I don\u2019t know.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 28,
+      "openness_level": 3,
+      "therapist": "The tightness in your chest and the creeping anxiety you feel when that discomfort arises sound really challenging to navigate. It's understandable to want to push those feelings aside, especially when acknowledging them can feel like opening the door to more stress. It\u2019s a tough balance between wanting to avoid discomfort and recognizing that ignoring it might not be the best path.\n\nAs you reflect on this, what do you notice about how you typically respond in those moments when you feel that tightness and anxiety? Does anything come to mind about how you handle it, even if it's just to push it aside?",
+      "client": "I mean, I guess I often just throw myself into work or distract myself with something\u2014like social media or TV. It\u2019s like I\u2019m trying to outrun that feeling of tightness, you know? But then, when I do that, I end up feeling even more drained afterward. Part of me knows I\u2019m just avoiding it, but another part thinks at least I\u2019m doing something productive, even if it\u2019s not really helping. It\u2019s just this weird loop I can\u2019t seem to break out of.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 29,
+      "openness_level": 3,
+      "therapist": "Distraction through work or social media can feel like a way to escape that tightness, even if it leaves you feeling drained afterward. It sounds like there\u2019s a push-pull happening for you: wanting to avoid the discomfort while also recognizing that those distractions might not be as productive as they seem. That loop of trying to outrun the feeling can be exhausting.\n\nWhen you think about that loop, do you notice any specific moments when it feels particularly strong, or any thoughts that come up that might help you slow down and reflect on what you\u2019re feeling instead of diving into those distractions?",
+      "client": "I mean, I don\u2019t know if there are specific moments, but sometimes it hits me when I\u2019m just sitting there with nothing to do. Like, when I\u2019m waiting for something or just kind of stuck in my own head. It feels like that\u2019s when all those anxious thoughts come rushing in, and I start to spiral. I guess part of me thinks that if I just keep busy, I won\u2019t have to deal with them, but it doesn\u2019t really help. I don\u2019t know\u2026 maybe I could try to just sit with those feelings instead, but that sounds really hard.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 30,
+      "openness_level": 3,
+      "therapist": "When you're sitting with nothing to do, it seems like that's when those anxious thoughts feel the most overwhelming. It\u2019s understandable to want to stay busy to avoid that spiraling feeling, even if it leaves you feeling more drained. The idea of just sitting with those feelings does sound challenging, especially when it feels so instinctual to push them away.\n\nWhat do you think might happen if you allowed yourself just a moment to notice those feelings without judgment, even if it feels hard?",
+      "client": "I guess if I were to just notice those feelings without trying to push them away, it might feel a bit freeing? But at the same time, I\u2019m really worried about what might come up. Like, what if it just gets worse or I start to spiral more? I mean, part of me knows that acknowledging them could help, but another part is just terrified of what that looks like. It\u2019s like I want to be brave about it, but I also don't want to drown in it. So, I don\u2019t know... maybe it's easier to just stay busy?",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**  \n\n**Key Examples:**  \n1. Client: \"I mean, I guess I often just throw myself into work or distract myself with something\u2014like social media or TV. It\u2019s like I\u2019m trying to outrun that feeling of tightness, you know? But then, when I do that, I end up feeling even more drained afterward.\"  \n2. Client: \"I guess if I were to just notice those feelings without trying to push them away, it might feel a bit freeing? But at the same time, I\u2019m really worried about what might come up. Like, what if it just gets worse or I start to spiral more?\"  \n\n**Progression:**  \nIn the recent exchanges, the client demonstrates a clear shift towards greater emotional engagement and self-reflection. They articulate an awareness of their coping mechanisms (distraction through work and social media) and acknowledge the negative impact these strategies have on their emotional well-being. The client\u2019s language reflects deeper emotional processing, as they begin to explore the tension between their desire to avoid discomfort and the potential benefits of confronting their feelings. This marks significant progress from earlier exchanges, where emotional vocabulary was limited, and responses were more factual.\n\n**Turning Point:**  \nThe client\u2019s emotional depth shifted during the dialogue exchange when they began expressing vulnerability about their feelings of anxiety and the fear associated with confronting those emotions. The moment they acknowledged the possibility of feeling \"freeing\" by simply noticing their feelings without judgment indicates a willingness to explore uncomfortable emotions, suggesting they are moving towards a deeper engagement with their therapeutic process. This moment of openness reflects a notable increase in the quality of the therapeutic rapport, as the client is willing to entertain the idea of facing their anxiety rather than evading it.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    }
+  ]
+}

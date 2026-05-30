@@ -1,0 +1,680 @@
+{
+  "mode": "easy",
+  "therapist_type": "hybrid",
+  "initial_openness_level": 1,
+  "final_openness_level": 4,
+  "openness_judge_interval": 2,
+  "model": "gpt-4o-mini",
+  "openness_judge_model": "gpt-4o-mini",
+  "readiness_judge_model": null,
+  "cbt_technique_chooser_model": "gpt-4o-mini",
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "plain, verbose, and ingratiating",
+  "openness_judgments": [
+    {
+      "turn": 2,
+      "openness_level": 2,
+      "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. \"I don\u2019t know, I guess I just got this MRI report saying I have a herniated disc. It\u2019s frustrating, but I don\u2019t think it\u2019s that deep. I mean, things have just been challenging lately, and it\u2019s annoying to keep dealing with more issues.\"\n2. \"I don\u2019t know. It just happened, I guess. I mean, my body just feels tense, and I\u2019m trying not to think about it too much. It\u2019s just frustrating, and I\u2019d rather focus on other things than dwell on it.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a mix of factual and emotional responses, indicating a warming up phase. They express frustration regarding their herniated disc and acknowledge that they are facing multiple challenges. However, the emotional vocabulary remains basic, and there is still a hesitance to delve deeper into their feelings, as demonstrated by their reluctance to explore the implications of their physical condition. This shows a slight progression from earlier sessions where emotional expression was more limited and factual.\n\n**Turning Point:** The client's emotional depth shifted at the moment they acknowledged their body feeling tense and their frustration with the challenges they are facing. This acknowledgment marks a beginning step toward embracing their emotional state, but they still exhibit a tendency to minimize its significance, suggesting a cautious approach to deeper exploration. While they are starting to recognize and articulate their feelings, they still hold back from fully engaging with the complexity of their emotional experience.",
+      "raw_openness_level": 2
+    },
+    {
+      "turn": 4,
+      "openness_level": 3,
+      "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n- **Emotional State:** \"I guess my neck and shoulders feel really tight, probably from all the stress. It\u2019s like I\u2019m carrying this weight around, and it just makes everything feel harder.\"\n- **Current Openness:** \"I don\u2019t know, I mean, part of me thinks it\u2019s just about managing the tension. But another part feels like I\u2019m just trying to distract myself from everything else.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional depth compared to earlier sessions. Initially, their responses were more factual and avoided deeper emotional exploration. Now, they articulate physical sensations tied to their emotional state, revealing an understanding of the connection between their stress and bodily tension. This marks a significant shift from a more defensive stance to an engagement with their feelings, indicating a willingness to explore their emotional landscape further.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they acknowledged the physical manifestations of their stress, particularly when they said, \"It\u2019s like I\u2019m carrying this weight around.\" This moment exemplifies a breakthrough in their self-awareness, where they began to recognize the impact of their emotional state on their physical well-being, moving away from a purely avoidance-driven narrative to one that invites reflection and potential action.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- *\"I guess when I feel proactive, it\u2019s like I have this little sense of control, but then the stress just kind of sneaks back in, and I feel overwhelmed again.\"* \n- *\"When I feel overwhelmed again, it\u2019s like this wave of anxiety washes over me, and I start to question if I\u2019m really doing enough.\"*\n\n**Progression:** The client's recent interactions demonstrate a growing emotional depth, particularly in their acknowledgment of feeling a mix of control and overwhelm. This reflects a shift from earlier sessions where the client primarily expressed surface-level concerns without delving into the emotional layers beneath them. The recent emphasis on feeling overwhelmed and anxious, alongside the recognition of their coping strategies as distractions, indicates a movement towards more meaningful self-reflection.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they articulated their feelings of being \"stuck in this loop\" of wanting to feel better but being pulled back into anxiety. This moment marked a breakthrough in their willingness to confront the complexities of their emotional state, allowing them to express vulnerability and a deeper understanding of their internal struggles. This shift illustrates a notable increase in emotional engagement compared to earlier stages of the session.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess when I feel overwhelmed again, it\u2019s like this wave of anxiety washes over me, and I start to question if I\u2019m really doing enough.\"\n- \"I kind of feel this tightness in my chest and my stomach gets all knotted up. It\u2019s like my body is reacting even before I have the chance to really process what\u2019s happening in my head.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a notable emotional depth, particularly in their descriptions of physical sensations and the cognitive loops associated with anxiety. This marks a significant change from earlier interactions, where they may have expressed more surface-level concerns without delving into the complexity of their emotional experiences. The client demonstrates a willingness to articulate their feelings of anxiety and the resulting physical reactions, indicating a deeper level of engagement and self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they articulated the connection between their thoughts and physical sensations, particularly regarding their anxiety related to health concerns and responsibilities. This moment of insight reveals a newfound awareness of how their mind and body react in conjunction, which is a critical step in their therapeutic journey toward processing and managing anxiety more effectively.",
+      "raw_openness_level": 3
+    },
+    {
+      "turn": 10,
+      "openness_level": 4,
+      "judge_response": "Rating: 4\n\nKey Examples:\n- \"I guess one moment that stands out is when I first got the MRI report. I was sitting in the doctor's office, and it felt like time just stopped. The doctor was explaining the herniated disc, and I remember feeling this rush of fear, like everything I had just started to rebuild was crumbling again.\"\n- \"I think what stands out the most is just how suddenly everything shifted for me. One moment, I felt like I was making progress, and the next, I was hit with this news that made me feel like I was right back where I started.\"\n\nProgression: The client\u2019s most recent interactions show a significant increase in emotional depth and self-reflection, particularly evident in their ability to articulate the intense emotions surrounding their health concerns and the impact of the MRI results. This marks a significant change from earlier exchanges, which were more fact-based and less emotionally nuanced. The client is now sharing specific instances that trigger their anxiety, demonstrating a deeper level of engagement and vulnerability.\n\nTurning Point: The client's emotional depth shifted during the discussion about the MRI results, particularly when they began expressing the rush of fear and feelings of helplessness. This moment illustrated a turning point where the client transitioned from merely describing physical sensations to deeply exploring and articulating the emotional implications of their experiences. This shift signifies a growing comfort with vulnerability and a stronger therapeutic alliance, as evidenced by their willingness to delve into the complexities of their feelings.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \u201cI felt trapped in that moment, like I couldn\u2019t see a way out. It's kind of hard to explain, but it was like all my hopes for moving forward just got crushed.\u201d\n- \u201cI can see that maybe my worst fears center around this idea that I\u2019ll never fully recover and that I\u2019ll be stuck with pain and limitations indefinitely. It's terrifying to think that I might have to deal with this forever\u2026\u201d\n\n**Progression:** The client's most recent exchanges reveal a significant increase in emotional depth and willingness to engage with their feelings. They articulate their fears and feelings of being trapped in a way that shows vulnerability and a deeper self-awareness compared to earlier interactions, where they might have remained more guarded and factual. The client is not only expressing their distress but is also beginning to reflect on past experiences, integrating their coping strategies into the current narrative. This demonstrates a marked shift from earlier hesitance to a more open and engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted noticeably during the discussion about their worst fears regarding recovery. When they began to draw parallels between their current fears and past experiences\u2014recognizing that they have coped with similar situations before\u2014this marked a turning point. The moment they expressed a willingness to explore their fears and consider a balanced perspective about their health challenges indicates a significant development in their emotional openness and rapport with the therapist. Their acknowledgment of discomfort while advising a friend also shows a growing self-reflective capacity, which enhances their connection with the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think I'm starting to see how those small victories can really make a difference. After my shoulder surgery, I remember celebrating little things like being able to lift my arm a bit higher each week or doing simple tasks without pain.\"\n2. Client: \"I think I can set a goal to focus on gentle stretching or mobility exercises every day this week. It feels manageable, especially since I remember how beneficial those small movements were after my shoulder surgery.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a considerable shift toward emotional depth and self-reflection. They are not only acknowledging their fears but also connecting them to past experiences where they found success. This contrasts notably with earlier session exchanges, where their responses were more factual and less introspective. The client is now actively engaging in a dialogue about small victories and setting actionable goals, demonstrating a deeper understanding of their emotional landscape.\n\n**Turning Point:** A notable turning point in the client\u2019s emotional depth occurred when they articulated their recognition of small victories after their shoulder surgery. This moment marked a shift from merely discussing fears to actively exploring solutions and strategies for coping. Their willingness to apply this insight to their current situation reflects a burgeoning emotional openness and a stronger rapport with the therapist, leading to a more profound exploration of their feelings and challenges.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I really appreciate your encouragement! It feels good to have a clear plan in place. When I think about those past successes, it helps me remember that I have the strength to adapt and push through whatever challenges arise.\"\n2. Client: \"I feel really motivated to start this journey, and it\u2019s reassuring to know you\u2019re here to support me. Remembering those past victories gives me a sense of strength that I didn't always recognize before.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a noticeable increase in emotional depth and self-reflection. They articulate feelings of motivation and reassurance, indicating a strong sense of emotional engagement compared to earlier sessions, where their responses were primarily factual and lacked emotional nuance. The client\u2019s acknowledgment of past successes as a source of strength signifies a significant shift toward deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of strength derived from past victories, particularly illustrated in their statement, \"When I think about those past successes, it helps me remember that I have the strength to adapt.\" This moment marks a clear progression from previous sessions characterized by hesitation and limited emotional vocabulary, moving toward a more open and engaged stance in the therapeutic process. The client's willingness to embrace the process and recognize the importance of self-care also highlights an authentic vulnerability and a stronger therapeutic alliance.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I feel really motivated to start this journey, and it\u2019s reassuring to know you\u2019re here to support me. Remembering those past victories gives me a sense of strength that I didn't always recognize before.\"\n2. Client: \"I think having a support system in place could really help me stay motivated during those tougher moments. I\u2019ve realized that talking things through with friends or family can give me perspective and encouragement when I feel stuck.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked depth of emotional expression and self-reflection when compared to earlier exchanges. Initially, the client expressed motivation but did so mostly in a factual manner. However, their latest responses exhibit a clear evolution toward deeper emotional awareness and a proactive mindset. They articulate their feelings about motivation and the importance of support systems, indicating a growing comfort with vulnerability and a willingness to embrace the therapeutic process.\n\n**Turning Point:**\nThe significant shift in the client\u2019s emotional depth emerged when they began discussing their strategies for managing potential challenges in their recovery journey. Specifically, their comment about setting achievable expectations and the recognition of their need for a support system indicate an authentic vulnerability and a willingness to explore their feelings, marking a transition from simply acknowledging motivation to actively engaging in self-reflection and emotional processing. This turning point reflects a deeper understanding of their emotional landscape and a stronger rapport with the therapist, which has contributed to their current level of engagement.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"If a day doesn\u2019t go as planned, perhaps I could focus on just one small thing I can achieve, like a quick stretch or a short walk, rather than feeling like I have to do everything perfectly. That feels like a more compassionate approach to myself.\"\n2. \"I remember a time when I had to take a break from physical therapy because of a particularly bad flare-up. At the time, it felt like I was falling behind, and I was so frustrated. However, looking back, that break allowed my body to rest and ultimately helped me heal better than I would have otherwise.\"\n\n**Progression:**\nThe client\u2019s recent interactions reveal a deepening level of emotional expression and self-reflection. They articulate their recognition of the importance of adaptability and self-compassion, indicating a significant emotional progression from earlier stages where they may have felt more rigid and unable to process setbacks positively. Previously, they expressed frustration and pressure regarding their recovery process, but now, they are embracing flexibility and acknowledging the value of rest and compassion towards themselves.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their discussion about past setbacks, especially when they recalled their experience with a flare-up that initially felt discouraging. This moment marked a significant transition as they began to frame their experiences in a more constructive light, recognizing that setbacks can lead to healing rather than being a sign of failure. Their willingness to explore how to practice kindness towards themselves signifies a deeper emotional engagement and a fortified therapeutic rapport.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. *\"I can see that maybe reminding myself that every step, even the ones that feel like setbacks, contributes to my overall progress could really help ease my anxiety.\"*\n2. *\"Part of me knows that healing and growth aren\u2019t always linear, and embracing that uncertainty might actually give me the freedom to explore self-care without the pressure of perfection.\"*\n\n**Progression:** The client's recent interactions demonstrate a consistent emotional depth, revealing their growing comfort with vulnerability and self-exploration. They are moving from a place of frustration about setbacks to recognizing their significance as part of the healing journey. This marks a significant change from earlier exchanges, where the client displayed more hesitance and limited emotional vocabulary.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the discussion of their experience with physical therapy. When they began to articulate the positive reflection on their past setback and connect it to self-compassion, it marked a critical moment of transformation. This shift indicates a deeper understanding of their emotional landscape and an enhanced therapeutic alliance, highlighting their ability to engage authentically in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I think it\u2019s important to honor where I am in the moment and trust that I\u2019m still moving forward, even if it doesn\u2019t always look the way I expect.\"\n2. **Current Openness:** \"I can see how prioritizing self-care has led to instances where I felt more balanced and even rejuvenated. Those moments of allowing myself to rest or engage in nurturing activities shifted my focus from self-criticism to self-compassion...\"\n\n**Progression:** In the most recent exchanges, the client exhibits consistent emotional depth, displaying a growing comfort with vulnerability and self-reflection. They articulate their feelings of anxiety linked to self-critical thoughts and recognize the importance of self-compassion as a tool for resilience. This marks a significant change from earlier interactions, where they may have focused more on factual responses with limited emotional insight.\n\n**Turning Point:** The client's emotional depth shifted notably during the interaction when they began to articulate the pressure of their self-critical thoughts. This moment of awareness led to a more profound exploration of self-care and the understanding that nurturing themselves during setbacks can foster resilience. The acknowledgment that healing isn't linear and the willingness to embrace uncertainty reflect a transformative leap in their emotional openness.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Recent emotional state:** \"Part of me knows that practicing self-compassion during those times could really help me feel more resilient and less overwhelmed.\"\n2. **Current openness:** \"I feel quite motivated to commit to this goal! The idea of engaging in self-care during moments of struggle feels like a positive shift for me.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth and self-reflection. They are actively engaging with the concept of self-compassion and recognizing its importance in their response to challenges. This marks a significant change from earlier sessions, where they may have primarily focused on factual responses without delving into their emotional landscape. The client's willingness to set goals and articulate strategies for self-care indicates a growth in their emotional openness and understanding of their internal struggles.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first recognized the connection between their self-critical thoughts and the feelings of anxiety and discouragement. This moment of insight, alongside their commitment to practicing self-care, demonstrates a significant leap in their self-awareness and willingness to explore their emotions further during this session. They are not only acknowledging their feelings but are also developing actionable strategies to address them, signifying a strong therapeutic alliance and deep engagement in the therapeutic process.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \u201cI think a '5' would be when I start feeling that familiar tension in my body, like when I\u2019m getting overwhelmed by my pain or when something doesn\u2019t go as planned... I hadn\u2019t connected those feelings to a specific number before, but now it makes sense how those thoughts influence my emotional state.\u201d\n2. \u201cI can see that maybe approaching those moments with more self-compassion could really change how I handle the distress... it still feels a little uncomfortable, but not wrong, because it\u2019s still a process of learning how to be kinder to myself during tough times.\u201d\n\n**Progression:** The client\u2019s most recent interactions reflect a significant improvement in emotional expression and self-reflection, marking a change from earlier sessions where they may have been more defensive and less open. The client now articulates their emotional state more clearly and connects their feelings to actionable insights. This indicates a growing comfort in exploring deeper emotional themes and a willingness to engage in meaningful self-reflection.\n\n**Turning Point:** The turning point for the client\u2019s emotional depth occurred when they began to articulate their feelings in relation to the '5' level of distress. Recognizing the specific thoughts that arise during these moments, along with the acknowledgment of their coping strategies, has allowed them to confront their internal pressures with a more compassionate approach. This shift is evident when they express the intention to remind themselves that it\u2019s okay to not always be at their best, indicating a transformative understanding of their emotional landscape.",
+      "raw_openness_level": 4
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I can see that maybe approaching those moments with more self-compassion could really change how I handle the distress.\"\n2. \"I think part of me knows that the belief 'I shouldn\u2019t be feeling this way' doesn\u2019t really hold up when I examine my experiences.\"\n\n**Progression:** The client has progressed significantly in their emotional expression and self-reflection. Initially guarded, the client now demonstrates a consistent emotional depth in recent exchanges, articulating feelings of overwhelm and self-compassion. Their current state reflects a strong willingness to engage in deeper self-exploration, marking a transition from merely recognizing these feelings to actively integrating strategies for coping.\n\n**Turning Point:** The turning point occurred when the client began acknowledging their belief that \"I shouldn\u2019t be feeling this way\" does not hold up under examination. This realization signifies a deeper understanding of their emotional state and the normalization of their struggles, allowing for a more open dialogue about self-compassion and coping mechanisms. The client\u2019s shift to recognizing the power of self-talk and reinforcement of their resilience indicates a significant increase in their emotional depth and engagement with the therapeutic process.",
+      "raw_openness_level": 4
+    }
+  ],
+  "readiness_judgments": [],
+  "selected_strategies": [
+    {
+      "turn": 11,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 12,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 13,
+      "strategy_used": "Decatastrophizing",
+      "openness_level": 4
+    },
+    {
+      "turn": 14,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 15,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 16,
+      "strategy_used": "Behavior Experiment",
+      "openness_level": 4
+    },
+    {
+      "turn": 17,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 18,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 19,
+      "strategy_used": "Problem-Solving Skills Training",
+      "openness_level": 4
+    },
+    {
+      "turn": 20,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 21,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 22,
+      "strategy_used": "Alternative Perspective",
+      "openness_level": 4
+    },
+    {
+      "turn": 23,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 24,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 25,
+      "strategy_used": "Efficiency Evaluation",
+      "openness_level": 4
+    },
+    {
+      "turn": 26,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 27,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 28,
+      "strategy_used": "Continuum Technique",
+      "openness_level": 4
+    },
+    {
+      "turn": 29,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    },
+    {
+      "turn": 30,
+      "strategy_used": "Evidence-Based Questioning",
+      "openness_level": 4
+    }
+  ],
+  "cbt_recommendations": [
+    {
+      "turn": 11,
+      "recommended_cbt_technique": "Decatastrophizing",
+      "goal": "To help the client challenge and reframe their catastrophic thoughts about their health and future.",
+      "reasoning": "The client expresses a tendency to jump to worst-case scenarios and feels trapped by their worries, particularly regarding their MRI results and health concerns. Decatastrophizing can assist the client in evaluating the likelihood of these fears coming true and identifying more balanced perspectives, thereby reducing their anxiety and feelings of helplessness.",
+      "suggestion": [
+        "Can you describe the worst-case scenario you envision regarding your health after receiving the MRI results?",
+        "What evidence do you have that supports this worst-case scenario? Is there any evidence that contradicts it?",
+        "If your worst fears were to come true, how would you cope with that situation? Have you faced difficulties before, and how did you manage?",
+        "What would you say to a friend who was in your situation? How might they view your concerns differently?",
+        "Can we create a list of possible outcomes from your MRI results, ranging from the best-case to the worst-case, and evaluate the likelihood of each?"
+      ]
+    },
+    {
+      "turn": 14,
+      "recommended_cbt_technique": "Behavior Experiment",
+      "goal": "To help the client actively engage in setting and achieving small, manageable goals to build confidence and reduce feelings of being overwhelmed.",
+      "reasoning": "Given the client's recognition of the importance of small victories in their recovery process, a behavior experiment can provide an opportunity to test their beliefs about progress and coping. By encouraging the client to set specific, achievable goals, they can gather evidence of their capabilities and how small steps lead to significant changes, which may help mitigate their fears of never recovering.",
+      "suggestion": [
+        "What small, specific goal can you set for yourself this week that aligns with your recovery process?",
+        "How will you measure your progress towards this goal, and what does success look like for you?",
+        "What challenges do you anticipate in achieving this goal, and how can we plan for them?",
+        "How could you celebrate or acknowledge your progress once you reach your goal?",
+        "Can you think of a time in the past where a small goal made a big difference for you, and how can that experience guide you now?"
+      ]
+    },
+    {
+      "turn": 17,
+      "recommended_cbt_technique": "Problem-Solving Skills Training",
+      "goal": "To enhance the client's ability to navigate challenges and setbacks in their recovery journey by developing effective problem-solving strategies.",
+      "reasoning": "The client has expressed concerns about potential challenges, such as feeling tired or discouraged during their goal-setting process. Applying problem-solving skills training can empower the client to create actionable strategies for overcoming these hurdles while reinforcing their ability to adapt and maintain motivation. This approach aligns with their goal of embracing the recovery process step by step.",
+      "suggestion": [
+        "What specific challenges do you anticipate encountering as you work on your stretching goal?",
+        "Can we brainstorm some concrete strategies you might use to overcome these challenges when they arise?",
+        "How might you adjust your routine or mindset if you miss a day of stretching?",
+        "What resources or supports can you tap into to help you stay motivated during tougher moments?",
+        "How can we incorporate flexibility into your goal to ensure it remains achievable, even on difficult days?"
+      ]
+    },
+    {
+      "turn": 20,
+      "recommended_cbt_technique": "Alternative Perspective",
+      "goal": "To help the client reframe their thoughts about setbacks and challenges in their routine.",
+      "reasoning": "The client is expressing a desire to be more adaptable and compassionate towards themselves when facing challenges. Using the Alternative Perspective technique can assist them in seeing their setbacks as opportunities for learning rather than failures, which aligns with their goal of maintaining motivation and progress. This technique can also reinforce their understanding that off days are a normal part of the process.",
+      "suggestion": [
+        "Can you think of a past setback that felt discouraging at the time, but later you realized it had a positive aspect?",
+        "What might you say to a friend who is feeling the same way about missing a day of stretching?",
+        "How could you reframe your thoughts about a day not going as planned into a more empowering perspective?",
+        "What are some alternative views you could adopt about your progress that would help you feel more encouraged?",
+        "How might viewing challenges as part of a broader journey help you feel more at ease with your process?"
+      ]
+    },
+    {
+      "turn": 23,
+      "recommended_cbt_technique": "Efficiency Evaluation",
+      "goal": "To help the client assess the effectiveness of their current coping strategies and beliefs regarding setbacks and self-care.",
+      "reasoning": "The client is beginning to understand the importance of reframing setbacks as opportunities for self-care, but they are still in the process of fully embracing this mindset. An Efficiency Evaluation can encourage them to critically analyze how their current thoughts and coping strategies are serving them, and identify more effective alternatives that align with their desire for self-compassion and motivation.",
+      "suggestion": [
+        "Can you list the thoughts that typically arise when you experience a setback? How do those thoughts impact your feelings and actions?",
+        "What positive outcomes have you experienced when you\u2019ve allowed yourself to take a break or prioritize self-care?",
+        "How effective do you think your current mindset is in helping you maintain motivation? Are there specific thoughts that feel more empowering?",
+        "What new strategies can you try when setbacks occur that might lead to a more positive or nurturing response?",
+        "How do you feel about setting a goal to practice one of these new strategies the next time you face a challenge?"
+      ]
+    },
+    {
+      "turn": 26,
+      "recommended_cbt_technique": "Continuum Technique",
+      "goal": "To help the client recognize that their experiences and responses to setbacks can exist on a spectrum, promoting a more balanced perspective.",
+      "reasoning": "The Continuum Technique is suitable as it encourages the client to see their feelings and reactions to setbacks not as absolute failures but as part of a range of responses. This can help reduce the intensity of their self-critical thoughts by placing them on a continuum, allowing for greater self-compassion and understanding during challenging times.",
+      "suggestion": [
+        "Can you identify a specific setback and rate your feelings about it on a scale from 1 to 10, where 1 is minimal distress and 10 is maximum distress?",
+        "What would a '5' look like in your experience? What thoughts and feelings correspond to that level?",
+        "Can you think of times when you felt less distressed, even if just slightly? What helped you feel that way?",
+        "How might viewing your setbacks as part of a spectrum rather than a binary success or failure affect your response?",
+        "What small steps could you take to move from a higher number on the scale toward a lower one when facing setbacks?"
+      ]
+    },
+    {
+      "turn": 29,
+      "recommended_cbt_technique": "Evidence-Based Questioning",
+      "goal": "To help the client challenge and reframe their negative self-talk and assumptions about their coping abilities.",
+      "reasoning": "The client expressed thoughts that contribute to their distress, such as questioning their ability to cope and feeling pressure to perform at their best. Using evidence-based questioning can help the client examine the validity of these thoughts and beliefs, allowing for a more compassionate and realistic perspective on their experiences.",
+      "suggestion": [
+        "What evidence do you have that supports the thought, 'I shouldn\u2019t be feeling this way'?",
+        "Can you think of examples where you coped well despite feeling overwhelmed?",
+        "What would you say to a friend who expressed similar thoughts about their coping abilities?",
+        "How does recognizing your coping strategies change your perspective on feeling overwhelmed?",
+        "What are some alternative thoughts you could adopt to replace those negative ones when you find yourself at a '5'?"
+      ]
+    }
+  ],
+  "flash_responses": [],
+  "turns": [
+    {
+      "turn": 1,
+      "openness_level": 1,
+      "therapist": "Hi Jessa, I\u2019m really glad you\u2019re here today. What\u2019s on your mind that feels most important for us to explore together?",
+      "client": "I don\u2019t know, I guess I just got this MRI report saying I have a herniated disc. It\u2019s frustrating, but I don\u2019t think it\u2019s that deep. I mean, things have just been challenging lately, and it\u2019s annoying to keep dealing with more issues. I don\u2019t really want to get into all that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 2,
+      "openness_level": 1,
+      "therapist": "It sounds like you're feeling frustrated with the news about your MRI and the challenges you've been facing lately. It\u2019s understandable to not want to dive deeper into those feelings right now. Sometimes just acknowledging that things are piling up can be a lot to handle. What do you notice in your body or your thoughts when you think about the herniated disc and everything else going on?",
+      "client": "I don\u2019t know. It just happened, I guess. I mean, my body just feels tense, and I\u2019m trying not to think about it too much. It\u2019s just frustrating, and I\u2019d rather focus on other things than dwell on it. That's life, right?",
+      "openness_judgment": {
+        "turn": 2,
+        "openness_level": 2,
+        "judge_response": "**Rating: 2**\n\n**Key Examples:**\n1. \"I don\u2019t know, I guess I just got this MRI report saying I have a herniated disc. It\u2019s frustrating, but I don\u2019t think it\u2019s that deep. I mean, things have just been challenging lately, and it\u2019s annoying to keep dealing with more issues.\"\n2. \"I don\u2019t know. It just happened, I guess. I mean, my body just feels tense, and I\u2019m trying not to think about it too much. It\u2019s just frustrating, and I\u2019d rather focus on other things than dwell on it.\"\n\n**Progression:** The client\u2019s most recent interactions reflect a mix of factual and emotional responses, indicating a warming up phase. They express frustration regarding their herniated disc and acknowledge that they are facing multiple challenges. However, the emotional vocabulary remains basic, and there is still a hesitance to delve deeper into their feelings, as demonstrated by their reluctance to explore the implications of their physical condition. This shows a slight progression from earlier sessions where emotional expression was more limited and factual.\n\n**Turning Point:** The client's emotional depth shifted at the moment they acknowledged their body feeling tense and their frustration with the challenges they are facing. This acknowledgment marks a beginning step toward embracing their emotional state, but they still exhibit a tendency to minimize its significance, suggesting a cautious approach to deeper exploration. While they are starting to recognize and articulate their feelings, they still hold back from fully engaging with the complexity of their emotional experience.",
+        "raw_openness_level": 2
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 3,
+      "openness_level": 2,
+      "therapist": "It sounds like you're feeling a lot of tension in your body, and you're trying to manage your thoughts by redirecting your focus elsewhere. That can be a natural response, especially when it feels like life is throwing multiple challenges your way. When you think about your body feeling tense, what does that sensation feel like for you? Is there a specific part of your body that feels more tense than others?",
+      "client": "I guess my neck and shoulders feel really tight, probably from all the stress. It\u2019s like I\u2019m carrying this weight around, and it just makes everything feel harder. Sometimes I try to stretch or do some light exercises, but it doesn\u2019t seem to help much. I don\u2019t know if I\u2019m just overthinking it or if it\u2019s actually something serious.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 4,
+      "openness_level": 2,
+      "therapist": "Your neck and shoulders feeling tight sounds like a clear signal from your body about the stress you\u2019re carrying. It\u2019s interesting how physical sensations can connect to what we\u2019re experiencing emotionally. When you mention trying to stretch or do light exercises, I wonder if it feels like those efforts are more about managing the tension or if they also help you connect with your body in a different way. What do you notice about that experience?",
+      "client": "I don\u2019t know, I mean, part of me thinks it\u2019s just about managing the tension. But another part feels like I\u2019m just trying to distract myself from everything else. Sometimes it\u2019s nice to feel like I\u2019m doing something proactive, but it doesn\u2019t really change the underlying stress. I guess I just wish there was a clear solution to all this.",
+      "openness_judgment": {
+        "turn": 4,
+        "openness_level": 3,
+        "judge_response": "**Rating: 3 (ENGAGED EXPLORATION)**\n\n**Key Examples:**\n- **Emotional State:** \"I guess my neck and shoulders feel really tight, probably from all the stress. It\u2019s like I\u2019m carrying this weight around, and it just makes everything feel harder.\"\n- **Current Openness:** \"I don\u2019t know, I mean, part of me thinks it\u2019s just about managing the tension. But another part feels like I\u2019m just trying to distract myself from everything else.\"\n\n**Progression:**\nThe client\u2019s recent interactions demonstrate a notable increase in emotional depth compared to earlier sessions. Initially, their responses were more factual and avoided deeper emotional exploration. Now, they articulate physical sensations tied to their emotional state, revealing an understanding of the connection between their stress and bodily tension. This marks a significant shift from a more defensive stance to an engagement with their feelings, indicating a willingness to explore their emotional landscape further.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted during the exchange where they acknowledged the physical manifestations of their stress, particularly when they said, \"It\u2019s like I\u2019m carrying this weight around.\" This moment exemplifies a breakthrough in their self-awareness, where they began to recognize the impact of their emotional state on their physical well-being, moving away from a purely avoidance-driven narrative to one that invites reflection and potential action.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 5,
+      "openness_level": 3,
+      "therapist": "It sounds like there\u2019s a mix of motivation in your efforts to stretch and exercise. On one hand, it feels like a way to manage the tension, while on the other, it seems to serve as a distraction from the stress. That wish for a clear solution is understandable, especially when everything feels overwhelming. When you reflect on the moments where you feel proactive versus when the stress still lingers, what do you notice happening in those moments?",
+      "client": "I guess when I feel proactive, it\u2019s like I have this little sense of control, but then the stress just kind of sneaks back in, and I feel overwhelmed again. It\u2019s frustrating because I want to believe that doing something will make a difference, but then I\u2019m reminded that it doesn\u2019t always work that way. Maybe it\u2019s just hard to face that some things are out of my control, and that\u2019s what really gets to me.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 6,
+      "openness_level": 3,
+      "therapist": "Feeling that sense of control during proactive moments sounds really important to you. It\u2019s understandable to feel frustrated when those efforts don\u2019t fully alleviate the stress, and it\u2019s tough realizing that some things might be beyond your control. It seems like that realization brings up a lot for you. When you think about those instances where you feel overwhelmed again, what thoughts or feelings come up for you in those moments?",
+      "client": "I guess when I feel overwhelmed again, it\u2019s like this wave of anxiety washes over me, and I start to question if I\u2019m really doing enough. Maybe I think I should be able to handle it better, but then I just feel scared about what might happen next. It\u2019s kind of like I\u2019m stuck in this loop where I want to feel better, but I keep getting pulled back into that anxious state. It\u2019s hard to shake off those thoughts sometimes.",
+      "openness_judgment": {
+        "turn": 6,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- *\"I guess when I feel proactive, it\u2019s like I have this little sense of control, but then the stress just kind of sneaks back in, and I feel overwhelmed again.\"* \n- *\"When I feel overwhelmed again, it\u2019s like this wave of anxiety washes over me, and I start to question if I\u2019m really doing enough.\"*\n\n**Progression:** The client's recent interactions demonstrate a growing emotional depth, particularly in their acknowledgment of feeling a mix of control and overwhelm. This reflects a shift from earlier sessions where the client primarily expressed surface-level concerns without delving into the emotional layers beneath them. The recent emphasis on feeling overwhelmed and anxious, alongside the recognition of their coping strategies as distractions, indicates a movement towards more meaningful self-reflection.\n\n**Turning Point:** The client's emotional depth shifted significantly during the exchange where they articulated their feelings of being \"stuck in this loop\" of wanting to feel better but being pulled back into anxiety. This moment marked a breakthrough in their willingness to confront the complexities of their emotional state, allowing them to express vulnerability and a deeper understanding of their internal struggles. This shift illustrates a notable increase in emotional engagement compared to earlier stages of the session.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 7,
+      "openness_level": 3,
+      "therapist": "That wave of anxiety you described seems to really amplify your feelings of being stuck in that loop. It\u2019s understandable to question whether you\u2019re doing enough, especially when the stress returns\u2014those moments can feel so heavy. When you find yourself in that anxious state and those thoughts start to spiral, what happens in your body? Do you notice any physical sensations or changes?",
+      "client": "I kind of feel this tightness in my chest and my stomach gets all knotted up. It\u2019s like my body is reacting even before I have the chance to really process what\u2019s happening in my head. I guess I start to feel tense all over, like I\u2019m on high alert. It\u2019s just really exhausting, and sometimes it\u2019s hard to know how to bring myself back down from that.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 8,
+      "openness_level": 3,
+      "therapist": "That tightness in your chest and the knot in your stomach sound really challenging to deal with, especially when it feels like your body is responding before you\u2019ve had a chance to process everything. It's understandable to feel exhausted by that heightened state of tension. When you notice those physical sensations, do you find that certain thoughts or situations trigger them more than others?",
+      "client": "I think there are definitely certain thoughts that trigger those sensations, like when I start to worry about my health or if I feel like I'm not managing my responsibilities well. Maybe it\u2019s when I think about the future and all the unknowns, especially with my recent MRI results. I guess those situations just amplify my anxiety and make everything feel more intense, like I can\u2019t escape it. It\u2019s almost like my mind and body are in sync with each other, reacting before I even fully realize what I\u2019m feeling.",
+      "openness_judgment": {
+        "turn": 8,
+        "openness_level": 3,
+        "judge_response": "**Rating:** 3\n\n**Key Examples:**\n- \"I guess when I feel overwhelmed again, it\u2019s like this wave of anxiety washes over me, and I start to question if I\u2019m really doing enough.\"\n- \"I kind of feel this tightness in my chest and my stomach gets all knotted up. It\u2019s like my body is reacting even before I have the chance to really process what\u2019s happening in my head.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a notable emotional depth, particularly in their descriptions of physical sensations and the cognitive loops associated with anxiety. This marks a significant change from earlier interactions, where they may have expressed more surface-level concerns without delving into the complexity of their emotional experiences. The client demonstrates a willingness to articulate their feelings of anxiety and the resulting physical reactions, indicating a deeper level of engagement and self-reflection.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange when they articulated the connection between their thoughts and physical sensations, particularly regarding their anxiety related to health concerns and responsibilities. This moment of insight reveals a newfound awareness of how their mind and body react in conjunction, which is a critical step in their therapeutic journey toward processing and managing anxiety more effectively.",
+        "raw_openness_level": 3
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 9,
+      "openness_level": 3,
+      "therapist": "It sounds like those thoughts about your health and responsibilities really intensify the physical sensations you experience. The connection between your mind and body is quite powerful, especially in moments of uncertainty. As you reflect on this, can you remember a specific moment when those feelings were particularly strong? What was happening at that time?",
+      "client": "I guess one moment that stands out is when I first got the MRI report. I was sitting in the doctor's office, and it felt like time just stopped. The doctor was explaining the herniated disc, and I remember feeling this rush of fear, like everything I had just started to rebuild was crumbling again. It was overwhelming, and I just felt this tightness growing in my chest while my mind raced with all these \u201cwhat ifs.\u201d I don\u2019t know, maybe I thought I was finally on the mend, and then this just threw me back into that anxious space.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 10,
+      "openness_level": 3,
+      "therapist": "That moment in the doctor's office sounds incredibly intense, with so much happening at once\u2014the rush of fear and the tightness in your chest, paired with all those \u201cwhat ifs\u201d flooding your mind. It\u2019s understandable that hearing about the herniated disc felt like a setback, especially after feeling like you were on the mend. When you think back to that experience, what stands out the most to you about how you were feeling in that moment?",
+      "client": "I think what stands out the most is just how suddenly everything shifted for me. One moment, I felt like I was making progress, and the next, I was hit with this news that made me feel like I was right back where I started. I felt trapped in that moment, like I couldn\u2019t see a way out. It's kind of hard to explain, but it was like all my hopes for moving forward just got crushed. I don\u2019t know if I fully processed it then, but now it just feels like it stirs up all these feelings of worry and helplessness again.",
+      "openness_judgment": {
+        "turn": 10,
+        "openness_level": 4,
+        "judge_response": "Rating: 4\n\nKey Examples:\n- \"I guess one moment that stands out is when I first got the MRI report. I was sitting in the doctor's office, and it felt like time just stopped. The doctor was explaining the herniated disc, and I remember feeling this rush of fear, like everything I had just started to rebuild was crumbling again.\"\n- \"I think what stands out the most is just how suddenly everything shifted for me. One moment, I felt like I was making progress, and the next, I was hit with this news that made me feel like I was right back where I started.\"\n\nProgression: The client\u2019s most recent interactions show a significant increase in emotional depth and self-reflection, particularly evident in their ability to articulate the intense emotions surrounding their health concerns and the impact of the MRI results. This marks a significant change from earlier exchanges, which were more fact-based and less emotionally nuanced. The client is now sharing specific instances that trigger their anxiety, demonstrating a deeper level of engagement and vulnerability.\n\nTurning Point: The client's emotional depth shifted during the discussion about the MRI results, particularly when they began expressing the rush of fear and feelings of helplessness. This moment illustrated a turning point where the client transitioned from merely describing physical sensations to deeply exploring and articulating the emotional implications of their experiences. This shift signifies a growing comfort with vulnerability and a stronger therapeutic alliance, as evidenced by their willingness to delve into the complexities of their feelings.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": null
+    },
+    {
+      "turn": 11,
+      "openness_level": 4,
+      "therapist": "It\u2019s completely natural to feel trapped and overwhelmed when news like that turns your progress upside down. Let\u2019s take a moment to explore the worst-case scenario you envision regarding your health after the MRI results. What do you fear might happen? Once we identify those fears, we can look at the evidence supporting them and see if there\u2019s anything that contradicts those thoughts. If your worst fears were to come true, how do you think you would cope? I\u2019d love to help you find a more balanced perspective together.",
+      "client": "I can see that maybe my worst fears center around this idea that I\u2019ll never fully recover and that I\u2019ll be stuck with pain and limitations indefinitely. It's terrifying to think that I might have to deal with this forever, especially with my history of health challenges. When you mention coping, part of me knows I\u2019ve gotten through tough times before, but that doesn\u2019t make it any less daunting to think about facing more obstacles. It feels like I\u2019m constantly trying to find a way to reassure myself, but then I get overwhelmed again. I\u2019m willing to look at how I can approach this fear more rationally, even if it feels uncomfortable.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 12,
+      "openness_level": 4,
+      "therapist": "It\u2019s great to hear that you\u2019re open to approaching this fear more rationally, even if it feels uncomfortable. Let\u2019s take a closer look at your worst-case scenario of never fully recovering and being stuck with pain. What evidence do you have that supports this fear? And on the flip side, can you think of any experiences or information that might contradict it? Also, if you were to face this situation, how might you cope with it based on your past experiences? Lastly, I\u2019d love for us to think about how you would advise a friend in a similar situation\u2014what perspective would you offer them? This can help us find a more balanced view together.",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. When I look at the fear of never fully recovering, I realize I\u2019ve had moments in the past where I thought I wouldn\u2019t get better, but I did find ways to cope and move forward. I remember after my shoulder surgery, I felt like I was never going to regain my strength, but with time and effort, I surprised myself. On the flip side, I can\u2019t help but notice how this fear is rooted in my past experiences of being really ill and feeling trapped. It\u2019s hard to push against that fear, but when I think about advising a friend, I might tell them to focus on the small victories along the way rather than getting lost in the overwhelming \u201cwhat ifs.\u201d However, saying that feels a little uncomfortable because I struggle to apply it to myself.",
+      "openness_judgment": {
+        "turn": 12,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n- \u201cI felt trapped in that moment, like I couldn\u2019t see a way out. It's kind of hard to explain, but it was like all my hopes for moving forward just got crushed.\u201d\n- \u201cI can see that maybe my worst fears center around this idea that I\u2019ll never fully recover and that I\u2019ll be stuck with pain and limitations indefinitely. It's terrifying to think that I might have to deal with this forever\u2026\u201d\n\n**Progression:** The client's most recent exchanges reveal a significant increase in emotional depth and willingness to engage with their feelings. They articulate their fears and feelings of being trapped in a way that shows vulnerability and a deeper self-awareness compared to earlier interactions, where they might have remained more guarded and factual. The client is not only expressing their distress but is also beginning to reflect on past experiences, integrating their coping strategies into the current narrative. This demonstrates a marked shift from earlier hesitance to a more open and engaged exploration of their emotions.\n\n**Turning Point:** The client\u2019s emotional depth shifted noticeably during the discussion about their worst fears regarding recovery. When they began to draw parallels between their current fears and past experiences\u2014recognizing that they have coped with similar situations before\u2014this marked a turning point. The moment they expressed a willingness to explore their fears and consider a balanced perspective about their health challenges indicates a significant development in their emotional openness and rapport with the therapist. Their acknowledgment of discomfort while advising a friend also shows a growing self-reflective capacity, which enhances their connection with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 13,
+      "openness_level": 4,
+      "therapist": "It sounds like you have a lot of insight into your past experiences and how they shape your current fears. Recognizing that you\u2019ve faced challenges before and found ways to cope is a powerful realization. When you think about those small victories, what specific moments or steps can you identify that helped you regain strength after your shoulder surgery? This could be a helpful way to remind yourself that progress is possible, even when it feels daunting. It\u2019s also perfectly okay to feel uncomfortable\u2014let\u2019s explore that together and see how we can shift towards a more encouraging perspective.",
+      "client": "I think I\u2019m starting to see how those small victories can really make a difference. After my shoulder surgery, I remember celebrating little things like being able to lift my arm a bit higher each week or doing simple tasks without pain. Each of those moments felt like a step forward, even if they seemed insignificant at the time. It\u2019s almost like I need to remind myself that recovery is often about those gradual changes, and that it\u2019s okay to focus on progress, no matter how small. It feels a little uncomfortable to really embrace that, but I see how it could help shift my perspective away from this overwhelming fear. Maybe I can set some small goals for myself now, just like I did then, to help me feel more in control.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Decatastrophizing"
+    },
+    {
+      "turn": 14,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear you recognize the impact of those small victories in your recovery journey. Let\u2019s take that insight and apply it. What specific, manageable goal can you set for yourself this week that aligns with your recovery process, perhaps something like a small daily activity that feels achievable? Consider how you will measure your progress towards this goal\u2014what would success look like for you? As you set this goal, think about any challenges you might encounter and how we can plan to address them together. Finally, let\u2019s also brainstorm some ways you could celebrate or acknowledge your progress once you reach your goal\u2014it\u2019s important to honor those steps forward!",
+      "client": "I think I can set a goal to focus on gentle stretching or mobility exercises every day this week. It feels manageable, especially since I remember how beneficial those small movements were after my shoulder surgery. Success for me would be doing these exercises consistently, even if it\u2019s just for a few minutes each day. I might face some challenges, like feeling too tired or getting discouraged, but I\u2019m willing to plan for those moments by reminding myself of past successes and maybe even scheduling a time to do the stretches when I feel more energized. Celebrating my progress could look like treating myself to something small, like a nice cup of tea or taking a moment to journal about my experiences. That feels like a nice way to acknowledge those steps forward, regardless of how small they may seem.",
+      "openness_judgment": {
+        "turn": 14,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. Client: \"I think I'm starting to see how those small victories can really make a difference. After my shoulder surgery, I remember celebrating little things like being able to lift my arm a bit higher each week or doing simple tasks without pain.\"\n2. Client: \"I think I can set a goal to focus on gentle stretching or mobility exercises every day this week. It feels manageable, especially since I remember how beneficial those small movements were after my shoulder surgery.\"\n\n**Progression:** The client\u2019s most recent interactions exhibit a considerable shift toward emotional depth and self-reflection. They are not only acknowledging their fears but also connecting them to past experiences where they found success. This contrasts notably with earlier session exchanges, where their responses were more factual and less introspective. The client is now actively engaging in a dialogue about small victories and setting actionable goals, demonstrating a deeper understanding of their emotional landscape.\n\n**Turning Point:** A notable turning point in the client\u2019s emotional depth occurred when they articulated their recognition of small victories after their shoulder surgery. This moment marked a shift from merely discussing fears to actively exploring solutions and strategies for coping. Their willingness to apply this insight to their current situation reflects a burgeoning emotional openness and a stronger rapport with the therapist, leading to a more profound exploration of their feelings and challenges.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 15,
+      "openness_level": 4,
+      "therapist": "It\u2019s fantastic that you\u2019ve identified such a specific and manageable goal for yourself! Focusing on gentle stretching and mobility exercises is a great way to reconnect with your body and build consistency. As you navigate any challenges, remember that it\u2019s perfectly okay to adjust your approach based on how you\u2019re feeling each day. Your plan to remind yourself of past successes and schedule your exercises is a proactive strategy that could really support you. When you treat yourself to that nice cup of tea or take time to journal, you\u2019ll be reinforcing those positive feelings of accomplishment. It sounds like you\u2019re setting yourself up for some meaningful progress!",
+      "client": "I really appreciate your encouragement! It feels good to have a clear plan in place. When I think about those past successes, it helps me remember that I have the strength to adapt and push through whatever challenges arise. Having those moments of self-care, like enjoying a cup of tea or reflecting in my journal, makes it feel more rewarding and meaningful. I can see how acknowledging my progress, no matter how small, can help shift my mindset and keep me motivated. I\u2019m excited to start this week with a focus on those gentle stretches!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 16,
+      "openness_level": 4,
+      "therapist": "It's wonderful to see your excitement about starting this week with your gentle stretches! Acknowledging your progress, no matter how small, truly can create a positive feedback loop that boosts your motivation. As you embark on this journey, remember that it's all about consistency and self-compassion. If you encounter any hurdles, just remind yourself of those past victories and how they empowered you. I'm here for you as you celebrate each step forward, and I look forward to hearing about your experiences next time!",
+      "client": "I feel really motivated to start this journey, and it\u2019s reassuring to know you\u2019re here to support me. Remembering those past victories gives me a sense of strength that I didn't always recognize before. I think it\u2019s important to be gentle with myself, especially if I encounter hurdles along the way. Part of me knows that this is a process, and I\u2019m willing to embrace it one step at a time. I\u2019m looking forward to our next session and sharing my progress with you!",
+      "openness_judgment": {
+        "turn": 16,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I really appreciate your encouragement! It feels good to have a clear plan in place. When I think about those past successes, it helps me remember that I have the strength to adapt and push through whatever challenges arise.\"\n2. Client: \"I feel really motivated to start this journey, and it\u2019s reassuring to know you\u2019re here to support me. Remembering those past victories gives me a sense of strength that I didn't always recognize before.\"\n\n**Progression:** The client\u2019s recent interactions demonstrate a noticeable increase in emotional depth and self-reflection. They articulate feelings of motivation and reassurance, indicating a strong sense of emotional engagement compared to earlier sessions, where their responses were primarily factual and lacked emotional nuance. The client\u2019s acknowledgment of past successes as a source of strength signifies a significant shift toward deeper emotional exploration.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably when they began expressing their feelings of strength derived from past victories, particularly illustrated in their statement, \"When I think about those past successes, it helps me remember that I have the strength to adapt.\" This moment marks a clear progression from previous sessions characterized by hesitation and limited emotional vocabulary, moving toward a more open and engaged stance in the therapeutic process. The client's willingness to embrace the process and recognize the importance of self-care also highlights an authentic vulnerability and a stronger therapeutic alliance.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Behavior Experiment"
+    },
+    {
+      "turn": 17,
+      "openness_level": 4,
+      "therapist": "It\u2019s inspiring to hear how motivated you feel as you embark on this journey! Embracing the process one step at a time is a powerful mindset, and your willingness to be gentle with yourself will serve you well. As you start your stretching routine, what specific challenges do you think you might face? Let\u2019s explore some concrete strategies together to help you navigate any obstacles that arise. Additionally, if you miss a day of stretching, how might you adjust your routine or mindset to stay on track? Your insights could lead to some helpful plans moving forward!",
+      "client": "I can definitely see how identifying specific challenges could help me prepare better. I think fatigue might be a big hurdle, especially if I\u2019m having a rough day. Maybe on those days, I could set a timer for just a minute or two of stretching instead of aiming for longer sessions. That feels like a more achievable expectation, and I wouldn\u2019t feel so overwhelmed. If I miss a day, I might remind myself that one setback doesn\u2019t erase my progress, and I could just pick up where I left off. I think that mindset could really help me stay on track and keep moving forward, even if it feels imperfect.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 18,
+      "openness_level": 4,
+      "therapist": "It's great to hear your thoughts on managing those potential hurdles like fatigue! Setting a timer for shorter stretching sessions on tough days is a fantastic strategy that allows you to stay engaged without feeling overwhelmed. Your plan to remind yourself that setbacks don\u2019t erase your progress demonstrates a mature understanding of the recovery process. What other resources or supports do you think might help keep you motivated during those harder moments? Incorporating some flexibility into your goal will definitely make it more achievable, even on challenging days.",
+      "client": "I think having a support system in place could really help me stay motivated during those tougher moments. I\u2019ve realized that talking things through with friends or family can give me perspective and encouragement when I feel stuck. Also, maybe I could follow some online communities or groups that focus on recovery and share experiences; that way, I won\u2019t feel so alone in this process. When you mention flexibility in my goals, it makes me think that being open to adjusting my expectations could relieve some of the pressure I tend to put on myself. I\u2019m definitely willing to explore those options!",
+      "openness_judgment": {
+        "turn": 18,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. Client: \"I feel really motivated to start this journey, and it\u2019s reassuring to know you\u2019re here to support me. Remembering those past victories gives me a sense of strength that I didn't always recognize before.\"\n2. Client: \"I think having a support system in place could really help me stay motivated during those tougher moments. I\u2019ve realized that talking things through with friends or family can give me perspective and encouragement when I feel stuck.\"\n\n**Progression:**\nThe client\u2019s most recent interactions demonstrate a marked depth of emotional expression and self-reflection when compared to earlier exchanges. Initially, the client expressed motivation but did so mostly in a factual manner. However, their latest responses exhibit a clear evolution toward deeper emotional awareness and a proactive mindset. They articulate their feelings about motivation and the importance of support systems, indicating a growing comfort with vulnerability and a willingness to embrace the therapeutic process.\n\n**Turning Point:**\nThe significant shift in the client\u2019s emotional depth emerged when they began discussing their strategies for managing potential challenges in their recovery journey. Specifically, their comment about setting achievable expectations and the recognition of their need for a support system indicate an authentic vulnerability and a willingness to explore their feelings, marking a transition from simply acknowledging motivation to actively engaging in self-reflection and emotional processing. This turning point reflects a deeper understanding of their emotional landscape and a stronger rapport with the therapist, which has contributed to their current level of engagement.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 19,
+      "openness_level": 4,
+      "therapist": "It's wonderful to see how you\u2019re recognizing the value of a support system in your journey! Engaging with friends and family for encouragement can really bolster your motivation, especially during those tough days. Online communities can also offer a sense of connection and shared experience, which is so powerful. As you think about flexibility in your goals, how might you incorporate that mindset into specific scenarios? For example, what adjustments could you make if a day doesn\u2019t go as planned? Your willingness to adapt will certainly help maintain your momentum!",
+      "client": "I can see that maybe being adaptable is key, especially when things don\u2019t go as I hope. If a day doesn\u2019t go as planned, perhaps I could focus on just one small thing I can achieve, like a quick stretch or a short walk, rather than feeling like I have to do everything perfectly. That feels like a more compassionate approach to myself. I think it\u2019s also important to remind myself that it\u2019s okay to have off days; everyone does, and it doesn't mean I've failed or that I\u2019m not making progress. I\u2019m willing to explore how I can integrate that flexibility into my routine moving forward!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Problem-Solving Skills Training"
+    },
+    {
+      "turn": 20,
+      "openness_level": 4,
+      "therapist": "It\u2019s so empowering to hear you embrace the idea of adaptability and self-compassion! Recognizing that it\u2019s okay to have off days is a significant step toward maintaining your motivation. Can you think of a past setback that felt discouraging at the time, but later you realized it had a positive aspect? Reflecting on those experiences might provide you with even more encouragement. Additionally, how would you comfort a friend who felt the same way about missing a day of stretching? This gentle perspective could really help you reframe your thoughts and keep moving forward with confidence.",
+      "client": "I hadn't connected those things before, but it makes some sense. I remember a time when I had to take a break from physical therapy because of a particularly bad flare-up. At the time, it felt like I was falling behind, and I was so frustrated. However, looking back, that break allowed my body to rest and ultimately helped me heal better than I would have otherwise. I can see how those setbacks can sometimes lead to unexpected positives. If a friend were in that situation, I think I\u2019d remind them that healing isn\u2019t linear and that taking a step back doesn\u2019t mean they\u2019re failing; it just means they\u2019re giving themselves the care they need. Maybe I can practice that same kindness towards myself when I face setbacks.",
+      "openness_judgment": {
+        "turn": 20,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"If a day doesn\u2019t go as planned, perhaps I could focus on just one small thing I can achieve, like a quick stretch or a short walk, rather than feeling like I have to do everything perfectly. That feels like a more compassionate approach to myself.\"\n2. \"I remember a time when I had to take a break from physical therapy because of a particularly bad flare-up. At the time, it felt like I was falling behind, and I was so frustrated. However, looking back, that break allowed my body to rest and ultimately helped me heal better than I would have otherwise.\"\n\n**Progression:**\nThe client\u2019s recent interactions reveal a deepening level of emotional expression and self-reflection. They articulate their recognition of the importance of adaptability and self-compassion, indicating a significant emotional progression from earlier stages where they may have felt more rigid and unable to process setbacks positively. Previously, they expressed frustration and pressure regarding their recovery process, but now, they are embracing flexibility and acknowledging the value of rest and compassion towards themselves.\n\n**Turning Point:**\nThe client\u2019s emotional depth shifted notably during their discussion about past setbacks, especially when they recalled their experience with a flare-up that initially felt discouraging. This moment marked a significant transition as they began to frame their experiences in a more constructive light, recognizing that setbacks can lead to healing rather than being a sign of failure. Their willingness to explore how to practice kindness towards themselves signifies a deeper emotional engagement and a fortified therapeutic rapport.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 21,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful how you\u2019re able to recognize the positive aspects that emerged from your break during physical therapy. This reflection highlights the importance of viewing setbacks as essential parts of your journey rather than obstacles. Just as you would support a friend, allowing yourself that same compassion can make a significant difference. How might reframing your thoughts about an off day into an opportunity for self-care help you feel more empowered? Embracing this perspective could be a powerful tool in maintaining your motivation and progress.",
+      "client": "I think there\u2019s something there, but I\u2019m still figuring it out. Reframing an off day as a chance for self-care feels like it could shift my mindset from one of defeat to one of nurturing. When I think about it, acknowledging that I need a break or some gentle care instead of pushing through could actually help me feel more empowered and in control of my healing process. Part of me knows that it\u2019s okay to take a step back and prioritize my well-being, and maybe that\u2019s what I really need to embrace moving forward.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 22,
+      "openness_level": 4,
+      "therapist": "It's wonderful to see you recognizing the power of self-care in your healing journey. Viewing an off day as an opportunity for nurturing rather than defeat can truly shift your mindset. What alternative perspectives could you adopt when you face challenges, especially regarding your progress? Imagine how it might feel to remind yourself that every step, even if it's a step back, is part of a broader journey toward wellness. How might embracing this view help you feel more at ease and motivated as you move forward?",
+      "client": "I can see that maybe reminding myself that every step, even the ones that feel like setbacks, contributes to my overall progress could really help ease my anxiety. It feels comforting to think that these challenges are part of a broader journey, rather than just obstacles in my way. Part of me knows that healing and growth aren\u2019t always linear, and embracing that uncertainty might actually give me the freedom to explore self-care without the pressure of perfection. I think it\u2019s important to honor where I am in the moment and trust that I\u2019m still moving forward, even if it doesn\u2019t always look the way I expect.",
+      "openness_judgment": {
+        "turn": 22,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. *\"I can see that maybe reminding myself that every step, even the ones that feel like setbacks, contributes to my overall progress could really help ease my anxiety.\"*\n2. *\"Part of me knows that healing and growth aren\u2019t always linear, and embracing that uncertainty might actually give me the freedom to explore self-care without the pressure of perfection.\"*\n\n**Progression:** The client's recent interactions demonstrate a consistent emotional depth, revealing their growing comfort with vulnerability and self-exploration. They are moving from a place of frustration about setbacks to recognizing their significance as part of the healing journey. This marks a significant change from earlier exchanges, where the client displayed more hesitance and limited emotional vocabulary.\n\n**Turning Point:** The client\u2019s emotional depth shifted notably during the discussion of their experience with physical therapy. When they began to articulate the positive reflection on their past setback and connect it to self-compassion, it marked a critical moment of transformation. This shift indicates a deeper understanding of their emotional landscape and an enhanced therapeutic alliance, highlighting their ability to engage authentically in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Alternative Perspective"
+    },
+    {
+      "turn": 23,
+      "openness_level": 4,
+      "therapist": "It\u2019s heartening to hear you identify the comfort in accepting that healing isn\u2019t linear. Honoring your current state and allowing yourself to explore self-care without the pressure of perfection can foster a nurturing environment for your growth. Can you list some specific thoughts that pop up when you experience a setback? Reflecting on how these thoughts influence your feelings and actions could provide valuable insights. Additionally, think about any positive outcomes you\u2019ve experienced when prioritizing self-care; how have those moments shifted your perspective? Exploring these aspects might reveal new strategies that empower you during future challenges.",
+      "client": "When you ask about specific thoughts that arise during a setback, I realize that I often tell myself things like, \u201cI should be doing better\u201d or \u201cI can\u2019t let this stop me.\u201d These thoughts create a sense of urgency and pressure, which only intensifies my anxiety and fear. I think they make me feel like I\u2019m failing in some way, which is really discouraging. However, I can also see how prioritizing self-care has led to instances where I felt more balanced and even rejuvenated. Those moments of allowing myself to rest or engage in nurturing activities shifted my focus from self-criticism to self-compassion, and it made me feel more capable of handling whatever challenges arose next. Embracing those positive outcomes could be a helpful reminder for me to lean into self-care during tough times.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    },
+    {
+      "turn": 24,
+      "openness_level": 4,
+      "therapist": "It\u2019s encouraging to see you connect those self-critical thoughts to feelings of anxiety and discouragement. Recognizing that these narratives can create pressure is a significant step. When you prioritize self-care and feel rejuvenated, it shifts your focus to self-compassion, which is such a powerful tool for resilience. What new strategies do you think you could implement when setbacks occur that might encourage a more nurturing response? Setting a goal to practice one of these strategies the next time you face a challenge could further reinforce this positive mindset.",
+      "client": "I think I can start by consciously reminding myself that it's okay to take a break and that I don\u2019t have to push through every challenge. Maybe I could set a goal to engage in a specific self-care activity when I notice those critical thoughts creeping in, like going for a short walk or doing a few minutes of deep breathing exercises. I can see how these small shifts could help me respond to setbacks with more gentleness rather than frustration. Part of me knows that practicing self-compassion during those times could really help me feel more resilient and less overwhelmed.",
+      "openness_judgment": {
+        "turn": 24,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. **Emotional State:** \"I think it\u2019s important to honor where I am in the moment and trust that I\u2019m still moving forward, even if it doesn\u2019t always look the way I expect.\"\n2. **Current Openness:** \"I can see how prioritizing self-care has led to instances where I felt more balanced and even rejuvenated. Those moments of allowing myself to rest or engage in nurturing activities shifted my focus from self-criticism to self-compassion...\"\n\n**Progression:** In the most recent exchanges, the client exhibits consistent emotional depth, displaying a growing comfort with vulnerability and self-reflection. They articulate their feelings of anxiety linked to self-critical thoughts and recognize the importance of self-compassion as a tool for resilience. This marks a significant change from earlier interactions, where they may have focused more on factual responses with limited emotional insight.\n\n**Turning Point:** The client's emotional depth shifted notably during the interaction when they began to articulate the pressure of their self-critical thoughts. This moment of awareness led to a more profound exploration of self-care and the understanding that nurturing themselves during setbacks can foster resilience. The acknowledgment that healing isn't linear and the willingness to embrace uncertainty reflect a transformative leap in their emotional openness.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    },
+    {
+      "turn": 25,
+      "openness_level": 4,
+      "therapist": "It sounds like you\u2019ve identified some truly empowering strategies to support yourself during setbacks. Reminding yourself that it\u2019s okay to take a break is such a compassionate approach. Setting a goal to engage in self-care activities, like going for a walk or practicing deep breathing, can create a nurturing space for you when those critical thoughts arise. How do you feel about committing to this goal the next time you face a challenge? This practice could help you cultivate resilience and reinforce that gentler response you\u2019re aiming for.",
+      "client": "I feel quite motivated to commit to this goal! The idea of engaging in self-care during moments of struggle feels like a positive shift for me. I think it aligns with my desire to cultivate resilience and kindness towards myself. Part of me knows that by practicing these strategies, I can gradually rewire my responses and create a more nurturing relationship with my challenges. It\u2019s comforting to think that I can take small, manageable steps towards feeling better, and I\u2019m willing to give this a try!",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Efficiency Evaluation"
+    },
+    {
+      "turn": 26,
+      "openness_level": 4,
+      "therapist": "It\u2019s wonderful to hear your motivation to commit to self-care during challenging times! Let\u2019s explore a specific setback you might encounter. Can you think of one and rate your feelings about it on a scale from 1 to 10, where 1 is minimal distress and 10 is maximum distress? Understanding where you land on that scale can help you see that your feelings exist on a continuum. What does a '5' look like for you in that situation? Identifying those thoughts and feelings can provide insight into how you can navigate those moments with more compassion and less pressure.",
+      "client": "I think a '5' would be when I start feeling that familiar tension in my body, like when I\u2019m getting overwhelmed by my pain or when something doesn\u2019t go as planned. In those moments, I might tell myself that I should just push through, which makes the anxiety creep in and heightens my distress. I notice that my thoughts turn to, \u201cWhy can\u2019t I handle this better?\u201d It\u2019s frustrating because then I feel stuck between wanting to be gentle with myself and feeling like I\u2019m failing. I hadn\u2019t connected those feelings to a specific number before, but now it makes sense how those thoughts influence my emotional state. Would it be helpful for me to identify specific thoughts I have at that '5' level?",
+      "openness_judgment": {
+        "turn": 26,
+        "openness_level": 4,
+        "judge_response": "**Rating:** 4\n\n**Key Examples:**\n1. **Recent emotional state:** \"Part of me knows that practicing self-compassion during those times could really help me feel more resilient and less overwhelmed.\"\n2. **Current openness:** \"I feel quite motivated to commit to this goal! The idea of engaging in self-care during moments of struggle feels like a positive shift for me.\"\n\n**Progression:** The client\u2019s most recent interactions demonstrate a noticeable increase in emotional depth and self-reflection. They are actively engaging with the concept of self-compassion and recognizing its importance in their response to challenges. This marks a significant change from earlier sessions, where they may have primarily focused on factual responses without delving into their emotional landscape. The client's willingness to set goals and articulate strategies for self-care indicates a growth in their emotional openness and understanding of their internal struggles.\n\n**Turning Point:** The client\u2019s emotional depth shifted during the exchange where they first recognized the connection between their self-critical thoughts and the feelings of anxiety and discouragement. This moment of insight, alongside their commitment to practicing self-care, demonstrates a significant leap in their self-awareness and willingness to explore their emotions further during this session. They are not only acknowledging their feelings but are also developing actionable strategies to address them, signifying a strong therapeutic alliance and deep engagement in the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    },
+    {
+      "turn": 27,
+      "openness_level": 4,
+      "therapist": "It\u2019s great that you\u2019ve connected those feelings and thoughts to a specific level on the scale. Identifying your thoughts at that '5' level could be very helpful in recognizing how they contribute to your distress. What specific thoughts come up for you when you\u2019re at that point? Additionally, can you recall any situations when you felt slightly less overwhelmed, perhaps at a '4' or even a '3'? Understanding those moments and what helped you feel that way might provide valuable insights into how to navigate your challenges with more self-compassion.",
+      "client": "I think at that '5' level, my thoughts often spiral into questioning my ability to cope. I might think, \u201cI shouldn\u2019t be feeling this way,\u201d or \u201cWhy can\u2019t I just get it together?\u201d It creates this internal pressure that feels suffocating. When I reflect on times I felt a '4,' I remember moments when I took a break and focused on my breathing. That simple act seemed to lessen the tension and allow me to regain a bit of perspective. Maybe by recognizing those small victories, I can remind myself that it\u2019s okay to not always be at my best and that I have the tools to navigate these moments. I hadn\u2019t fully appreciated how those coping strategies could help before.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    },
+    {
+      "turn": 28,
+      "openness_level": 4,
+      "therapist": "It\u2019s insightful that you\u2019ve recognized the power of small victories and how taking a break to focus on your breathing can help you feel more grounded. Seeing your experiences on a spectrum allows you to acknowledge that it's perfectly okay to not always be at your best; you\u2019re human, and setbacks are part of the journey. How might this perspective shift your approach the next time you find yourself at a '5'? Additionally, what small steps could you take to move yourself toward feeling more like a '4' or even a '3' during those difficult moments? Your coping strategies are valuable tools, and exploring how to use them in real-time could be very empowering.",
+      "client": "I can see that maybe approaching those moments with more self-compassion could really change how I handle the distress. When I think about it, I might remind myself that it\u2019s okay to take a moment to breathe, even if I feel pressure to push through. I think this connects to the idea of recognizing that I have the tools to cope, like that breathing exercise. Perhaps I could even write a note to myself as a reminder that it\u2019s fine to step back and not be at my best all the time. That feels a little uncomfortable, but not wrong, because it\u2019s still a process of learning how to be kinder to myself during tough times.",
+      "openness_judgment": {
+        "turn": 28,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4 (DEEP ENGAGEMENT)**\n\n**Key Examples:**\n1. \u201cI think a '5' would be when I start feeling that familiar tension in my body, like when I\u2019m getting overwhelmed by my pain or when something doesn\u2019t go as planned... I hadn\u2019t connected those feelings to a specific number before, but now it makes sense how those thoughts influence my emotional state.\u201d\n2. \u201cI can see that maybe approaching those moments with more self-compassion could really change how I handle the distress... it still feels a little uncomfortable, but not wrong, because it\u2019s still a process of learning how to be kinder to myself during tough times.\u201d\n\n**Progression:** The client\u2019s most recent interactions reflect a significant improvement in emotional expression and self-reflection, marking a change from earlier sessions where they may have been more defensive and less open. The client now articulates their emotional state more clearly and connects their feelings to actionable insights. This indicates a growing comfort in exploring deeper emotional themes and a willingness to engage in meaningful self-reflection.\n\n**Turning Point:** The turning point for the client\u2019s emotional depth occurred when they began to articulate their feelings in relation to the '5' level of distress. Recognizing the specific thoughts that arise during these moments, along with the acknowledgment of their coping strategies, has allowed them to confront their internal pressures with a more compassionate approach. This shift is evident when they express the intention to remind themselves that it\u2019s okay to not always be at their best, indicating a transformative understanding of their emotional landscape.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Continuum Technique"
+    },
+    {
+      "turn": 29,
+      "openness_level": 4,
+      "therapist": "It's wonderful to hear you embrace the idea of self-compassion and recognizing that it's okay to take a step back. What evidence do you have that supports the thought, \u201cI shouldn\u2019t be feeling this way\u201d? Also, when you reflect on the times you\u2019ve coped well despite feeling overwhelmed, what examples come to mind that show your resilience? Thinking about what you would say to a friend in a similar situation can also be a great way to cultivate kindness towards yourself. How does acknowledging your coping strategies shift your perspective on those moments when you feel pressure?",
+      "client": "I think part of me knows that the belief \u201cI shouldn\u2019t be feeling this way\u201d doesn\u2019t really hold up when I examine my experiences. I can see that maybe everyone has moments when they struggle, and it\u2019s perfectly normal to feel overwhelmed sometimes. Reflecting on times when I\u2019ve coped well, I remember how I managed to take breaks during my recovery from shoulder surgery. I pushed through the discomfort, but I also reached out for support when I needed it. I think that shows my resilience. When I consider what I\u2019d tell a friend, it\u2019s clear I\u2019d encourage them to be gentle with themselves, just as I\u2019m learning to be. Acknowledging my coping strategies makes me feel a bit more empowered, reminding me that I do have the ability to navigate these moments, even if it feels hard right now.",
+      "openness_judgment": null,
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    },
+    {
+      "turn": 30,
+      "openness_level": 4,
+      "therapist": "It's great that you're able to recognize the normalcy of feeling overwhelmed and how that awareness can alleviate some pressure. Your experience during recovery is a powerful testament to your resilience and ability to seek support\u2014these are significant strengths! If you find yourself at a '5' in the future, what alternative thoughts could you remind yourself of to replace those negative ones? Perhaps thinking of your journey with kindness and acknowledging your efforts might help shift your perspective even further. How might you incorporate these insights into your self-talk when you're feeling the weight of those pressures?",
+      "client": "I think I could remind myself that it's okay to feel overwhelmed at times and that this doesn't define my worth or abilities. When I find myself spiraling into those negative thoughts, maybe I could say something like, \u201cI\u2019ve faced challenges before and come through them.\u201d It's like reinforcing that I've got this, even if it feels tough right now. Incorporating those kinder thoughts into my self-talk could be really beneficial, especially when I\u2019m at a '5.' I hadn\u2019t connected how powerful that shift in mindset could be until now, but it feels hopeful to think about.",
+      "openness_judgment": {
+        "turn": 30,
+        "openness_level": 4,
+        "judge_response": "**Rating: 4**\n\n**Key Examples:**\n1. \"I can see that maybe approaching those moments with more self-compassion could really change how I handle the distress.\"\n2. \"I think part of me knows that the belief 'I shouldn\u2019t be feeling this way' doesn\u2019t really hold up when I examine my experiences.\"\n\n**Progression:** The client has progressed significantly in their emotional expression and self-reflection. Initially guarded, the client now demonstrates a consistent emotional depth in recent exchanges, articulating feelings of overwhelm and self-compassion. Their current state reflects a strong willingness to engage in deeper self-exploration, marking a transition from merely recognizing these feelings to actively integrating strategies for coping.\n\n**Turning Point:** The turning point occurred when the client began acknowledging their belief that \"I shouldn\u2019t be feeling this way\" does not hold up under examination. This realization signifies a deeper understanding of their emotional state and the normalization of their struggles, allowing for a more open dialogue about self-compassion and coping mechanisms. The client\u2019s shift to recognizing the power of self-talk and reinforcement of their resilience indicates a significant increase in their emotional depth and engagement with the therapeutic process.",
+        "raw_openness_level": 4
+      },
+      "readiness_judgment": null,
+      "flash_response": null,
+      "strategy_used": "Evidence-Based Questioning"
+    }
+  ]
+}
