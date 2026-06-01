@@ -1,0 +1,315 @@
+{
+  "file": "outputs/hybrid/normal/session_4_1_normal_hybrid.json",
+  "mode": "normal",
+  "patient_id": "4-1",
+  "patient_name": "Jessa",
+  "client_type": "plain, verbose, prone to going off on tangents, and ingratiating",
+  "turn_count": 30,
+  "evaluations": {
+    "alliance": {
+      "by_question": {
+        "Q1": {
+          "Q1": "There are doubts or a lack of understanding about what participants are trying to accomplish in therapy.",
+          "score": "4",
+          "reason": "The counselor and client do not explicitly mention the goals but are working towards a common objective. The counselor addresses the client's concerns immediately and adjusts the therapeutic process to meet the client's needs. The client is satisfied with the progress made."
+        },
+        "Q2": {
+          "Q2": "The client and counselor are working on mutually agreed upon goals.",
+          "score": "4",
+          "reason": "The counselor and the client have made some progress through discussing relevant topics, but there may still be a small amount of disagreement or areas that need further exploration. Both parties generally agree on the current direction and topics of therapy."
+        },
+        "Q3": {
+          "Q3": "The client and counselor have same ideas about what the client’s real problems are.",
+          "score": "4",
+          "reason": "The counselor and the client have a certain level of consensus on the client’s issues and goals. Both parties are making efforts to understand each other and demonstrate open and cooperative attitudes in discussions."
+        },
+        "Q4": {
+          "Q4": "The client and counselor have established a good understanding of the changes that would be good for the client.",
+          "score": "3",
+          "reason": "The counselor and the client have a neutral attitude towards the process and goals of change in the conversation. Both parties may not have explicitly expressed their understanding or misunderstanding of the change."
+        },
+        "Q5": {
+          "Q5": "There is agreement about the steps taken to help improve the client’s situation.",
+          "score": "3",
+          "reason": "There is no clear consensus or disagreement between the counselor and the client regarding therapy tasks. Both may have vague views on the significance and purpose of tasks, resulting in a neutral attitude towards participation and involvement in tasks during the session."
+        },
+        "Q6": {
+          "Q6": "There is agreement about the usefulness of the current activity in therapy (i.e., the client is seeing new ways to look at his/her problem).",
+          "score": "3",
+          "reason": "There is no clear evidence in the communication between the counselor and the client about whether they have reached an agreement or disagreement on the client’s issues. Further communication and discussion may be needed to clarify their positions and expectations."
+        },
+        "Q7": {
+          "Q7": "There is agreement on what is important for the client to work on.",
+          "score": "4",
+          "reason": "The client and the counselor respond to each other’s focus and needs to some extent. They explore and accept each other’s views and intentions to some degree, striving to seek a common understanding and progress the therapy process."
+        },
+        "Q8": {
+          "Q8": "The client believes that the way they are working with his/her problem is correct.",
+          "score": "3",
+          "reason": "The client maintains a neutral stance toward the therapy process and methods. He/she neither explicitly expresses satisfaction nor dissatisfaction with therapy, nor does he/she clearly indicate agreement or disagreement with the therapeutic methods."
+        },
+        "Q9": {
+          "Q9": "There is a mutual liking between the client and counselor.",
+          "score": "4",
+          "reason": "In the majority of the sessions, the counselor and the client have positive interactions. The counselor shows enthusiasm and care for the client, frequently communicating with empathy and encouragement."
+        },
+        "Q10": {
+          "Q10": "The client feels confident in the counselor’s ability to help the client.",
+          "score": "4",
+          "reason": "The client expresses a certain level of confidence in the therapist’s abilities. This confidence may be reflected in the client’s in-depth discussions on therapy topics and positive responses to the therapist’s guidance."
+        },
+        "Q11": {
+          "Q11": "The client feels that the counselor appreciates him/her as a person.",
+          "score": "4",
+          "reason": "The therapist demonstrates a level of acceptance, warmth, and empathy towards the client, and the client perceives and responds to this caring attitude."
+        },
+        "Q12": {
+          "Q12": "There is mutual trust between the client and counselor.",
+          "score": "4",
+          "reason": "The client is willing to disclose some personal concerns, and the therapist accepts the client’s surface statements. The therapist maintains focus and does not overturn or interrupt the client’s thoughts."
+        }
+      },
+      "raw": "{\"Q1\": \"There are doubts or a lack of understanding about what participants are trying to accomplish in therapy.\", \"score\": \"4\", \"reason\": \"The counselor and client do not explicitly mention the goals but are working towards a common objective. The counselor addresses the client's concerns immediately and adjusts the therapeutic process to meet the client's needs. The client is satisfied with the progress made.\"}\n\n{\"Q2\": \"The client and counselor are working on mutually agreed upon goals.\", \"score\": \"4\", \"reason\": \"The counselor and the client have made some progress through discussing relevant topics, but there may still be a small amount of disagreement or areas that need further exploration. Both parties generally agree on the current direction and topics of therapy.\"}\n\n{\"Q3\": \"The client and counselor have same ideas about what the client’s real problems are.\", \"score\": \"4\", \"reason\": \"The counselor and the client have a certain level of consensus on the client’s issues and goals. Both parties are making efforts to understand each other and demonstrate open and cooperative attitudes in discussions.\"}\n\n{\"Q4\": \"The client and counselor have established a good understanding of the changes that would be good for the client.\", \"score\": \"3\", \"reason\": \"The counselor and the client have a neutral attitude towards the process and goals of change in the conversation. Both parties may not have explicitly expressed their understanding or misunderstanding of the change.\"}\n\n{\"Q5\": \"There is agreement about the steps taken to help improve the client’s situation.\", \"score\": \"3\", \"reason\": \"There is no clear consensus or disagreement between the counselor and the client regarding therapy tasks. Both may have vague views on the significance and purpose of tasks, resulting in a neutral attitude towards participation and involvement in tasks during the session.\"}\n\n{\"Q6\": \"There is agreement about the usefulness of the current activity in therapy (i.e., the client is seeing new ways to look at his/her problem).\", \"score\": \"3\", \"reason\": \"There is no clear evidence in the communication between the counselor and the client about whether they have reached an agreement or disagreement on the client’s issues. Further communication and discussion may be needed to clarify their positions and expectations.\"}\n\n{\"Q7\": \"There is agreement on what is important for the client to work on.\", \"score\": \"4\", \"reason\": \"The client and the counselor respond to each other’s focus and needs to some extent. They explore and accept each other’s views and intentions to some degree, striving to seek a common understanding and progress the therapy process.\"}\n\n{\"Q8\": \"The client believes that the way they are working with his/her problem is correct.\", \"score\": \"3\", \"reason\": \"The client maintains a neutral stance toward the therapy process and methods. He/she neither explicitly expresses satisfaction nor dissatisfaction with therapy, nor does he/she clearly indicate agreement or disagreement with the therapeutic methods.\"}\n\n{\"Q9\": \"There is a mutual liking between the client and counselor.\", \"score\": \"4\", \"reason\": \"In the majority of the sessions, the counselor and the client have positive interactions. The counselor shows enthusiasm and care for the client, frequently communicating with empathy and encouragement.\"}\n\n{\"Q10\": \"The client feels confident in the counselor’s ability to help the client.\", \"score\": \"4\", \"reason\": \"The client expresses a certain level of confidence in the therapist’s abilities. This confidence may be reflected in the client’s in-depth discussions on therapy topics and positive responses to the therapist’s guidance.\"}\n\n{\"Q11\": \"The client feels that the counselor appreciates him/her as a person.\", \"score\": \"4\", \"reason\": \"The therapist demonstrates a level of acceptance, warmth, and empathy towards the client, and the client perceives and responds to this caring attitude.\"}\n\n{\"Q12\": \"There is mutual trust between the client and counselor.\", \"score\": \"4\", \"reason\": \"The client is willing to disclose some personal concerns, and the therapist accepts the client’s surface statements. The therapist maintains focus and does not overturn or interrupt the client’s thoughts.\"}"
+    },
+    "therapist_skills": {
+      "guided_discovery": {
+        "score": 4,
+        "raw": "4, The therapist primarily used guided discovery techniques to facilitate client self-reflection and insight, employing skillful questioning to help the client explore their emotions and thoughts. However, there were moments where the therapist's approach could have been more adept in balancing questioning with other interventions to deepen the client's insight. The therapist effectively avoided persuasion or debate, but there was room for more exploration of alternatives and weighing advantages and disadvantages to enhance the client's perspective."
+      },
+      "focus": {
+        "score": 4,
+        "raw": "4, The therapist focused on specific cognitions and behaviors relevant to the client's issues, such as the feelings of inadequacy, anxiety, and the physical sensations associated with these emotions. However, the therapist could have delved deeper into more central cognitions or behaviors that might offer greater promise for progress, such as exploring the underlying beliefs driving the client's fear of inadequacy and avoidance behaviors."
+      },
+      "strategy": {
+        "score": 2,
+        "raw": "2, The therapist engaged the client in exploring their emotions and thoughts, which is a component of cognitive-behavioral techniques. However, the overall strategy for promoting change in the client's problematic behaviors or thoughts seemed somewhat vague. While the therapist encouraged the client to acknowledge and sit with their emotions, there was a lack of a clear, structured plan or specific cognitive-behavioral techniques that would guide the client towards change. The approach seemed more exploratory than directive, which may not be sufficiently promising in helping the client make tangible changes."
+      },
+      "understanding": {
+        "score": 4,
+        "raw": "4, The therapist generally demonstrated a good understanding of the client's issues and concerns, as evidenced by their ability to reflect and rephrase what the client explicitly said. The therapist also showed some ability to grasp the client's internal reality and respond to subtle communication. However, there were moments where the therapist's responses could have been more attuned to the client's deeper emotional experiences, indicating room for improvement in empathic skills."
+      },
+      "interpersonal": {
+        "score": 6,
+        "raw": "6, The therapist consistently demonstrated optimal levels of warmth, concern, confidence, genuineness, and professionalism throughout the session. They actively listened to the client, validated their feelings, and provided a safe space for the client to explore their emotions. The therapist's responses were empathetic and supportive, fostering a positive and therapeutic relationship with the client."
+      },
+      "collaboration": {
+        "score": 2,
+        "raw": "2, The therapist attempted to engage the client in collaborative goal-setting and decision-making by exploring the client's feelings and thoughts. However, the therapist did not explicitly define a problem that the client considered important or actively involve the client in setting specific goals or making decisions. The session focused more on exploring emotions and understanding the client's experiences rather than establishing a collaborative plan or encouraging the client to take an active role in decision-making."
+      }
+    },
+    "ctrs": {
+      "part_I": {
+        "1_agenda": {
+          "score": 3,
+          "justification": "The therapist did not explicitly set a clear agenda but maintained focus on the client's concerns about pain and emotional responses."
+        },
+        "2_feedback": {
+          "score": 4,
+          "justification": "The therapist consistently checked in with the client about their feelings and thoughts, adjusting questions based on the client's responses."
+        },
+        "3_understanding": {
+          "score": 5,
+          "justification": "The therapist demonstrated a strong empathic understanding of the client's frustration and anxiety, reflecting back the client's emotions accurately."
+        },
+        "4_interpersonal_effectiveness": {
+          "score": 5,
+          "justification": "The therapist showed warmth and concern, maintaining a supportive and professional demeanor throughout the session."
+        },
+        "5_collaboration": {
+          "score": 4,
+          "justification": "The therapist worked collaboratively with the client, exploring the client's experiences and encouraging self-reflection."
+        },
+        "6_pacing_and_time_use": {
+          "score": 3,
+          "justification": "The session was paced moderately well, though there were moments where the discussion could have been more focused on actionable steps."
+        }
+      },
+      "part_II": {
+        "7_guided_discovery": {
+          "score": 4,
+          "justification": "The therapist used open-ended questions to guide the client in exploring their feelings and thoughts, facilitating self-discovery."
+        },
+        "8_key_cognitions_behaviors": {
+          "score": 3,
+          "justification": "The therapist identified some key thoughts and feelings but could have delved deeper into specific cognitions driving the client's anxiety."
+        },
+        "9_strategy_for_change": {
+          "score": 2,
+          "justification": "There was limited discussion of a coherent strategy for change, with more focus on exploring feelings than on developing a change plan."
+        },
+        "10_cb_techniques_application": {
+          "score": 2,
+          "justification": "The therapist did not explicitly apply specific CBT techniques, focusing more on exploration rather than structured interventions."
+        },
+        "11_homework": {
+          "score": 1,
+          "justification": "No homework was assigned or reviewed, missing an opportunity to reinforce session content and encourage practice outside of therapy."
+        }
+      },
+      "total_score": 36,
+      "global_comments": "The therapist demonstrated strong empathy and interpersonal effectiveness, creating a supportive environment for the client. However, the session lacked a clear agenda and did not incorporate specific CBT techniques or homework assignments. While the therapist facilitated guided discovery, there was limited focus on developing a strategy for change. Future sessions could benefit from more structured interventions and actionable steps to address the client's concerns."
+    },
+    "miti": {
+      "session_id": "session",
+      "segment_type": "MI",
+      "target_behavior": "General",
+      "global_ratings": {
+        "partnership": {
+          "score": 4,
+          "justification": "The therapist consistently collaborates with the client, inviting them to share their experiences and perspectives, as seen in questions like 'What’s on your mind that feels most important for us to talk about?'"
+        },
+        "empathy": {
+          "score": 5,
+          "justification": "The therapist demonstrates a high level of empathy by accurately reflecting the client's feelings and experiences, such as acknowledging the client's frustration and the weight of their emotions."
+        },
+        "cultivating_change_talk": {
+          "score": 3,
+          "justification": "The therapist occasionally encourages exploration of change by asking about the client's experiences and thoughts, but there is limited explicit focus on evoking change talk."
+        },
+        "softening_sustain_talk": {
+          "score": 4,
+          "justification": "The therapist effectively softens sustain talk by validating the client's feelings and avoiding confrontation, helping to reduce defensiveness."
+        },
+        "direction": {
+          "score": 3,
+          "justification": "The therapist gently guides the conversation towards exploring emotions and potential changes, but the direction towards a specific change goal is not strongly emphasized."
+        }
+      },
+      "behavior_counts": {
+        "open_questions": 12,
+        "closed_questions": 0,
+        "simple_reflections": 0,
+        "complex_reflections": 14,
+        "affirmations": 0,
+        "summaries": 0,
+        "mi_consistent_behaviors": 0,
+        "mi_inconsistent_behaviors": 0
+      },
+      "overall_comments": "The therapist demonstrates strong empathy and collaboration, creating a supportive environment for the client. While there is some exploration of change, the focus on specific change goals could be enhanced to better support readiness for CBT work."
+    },
+    "wai_o": {
+      "observers": [
+        {
+          "name": "Observer",
+          "scores": {
+            "bond_score": 78,
+            "bond_analysis": "The therapist demonstrates empathy and understanding, creating a supportive environment where the client feels heard and respected. The client expresses a sense of mutual respect and appreciation, indicating a strong bond.",
+            "goal_score": 75,
+            "goal_analysis": "There is a clear understanding and agreement on the client's goals, with the therapist consistently aligning the conversation towards managing emotions and exploring feelings. The client seems to agree with the direction of the therapy.",
+            "task_score": 76,
+            "task_analysis": "The therapist and client are aligned on the tasks of exploring emotions and understanding the client's experiences. The client appears to trust the therapist's approach, indicating a strong agreement on the tasks.",
+            "total_score": 229,
+            "item_scores": {
+              "1": 7,
+              "2": 6,
+              "3": 6,
+              "4": 6,
+              "5": 7,
+              "6": 6,
+              "7": 6,
+              "8": 7,
+              "9": 6,
+              "10": 6,
+              "11": 6,
+              "12": 6,
+              "13": 6,
+              "14": 6,
+              "15": 6,
+              "16": 6,
+              "17": 7,
+              "18": 6,
+              "19": 7,
+              "20": 7,
+              "21": 6,
+              "22": 6,
+              "23": 7,
+              "24": 6,
+              "25": 6,
+              "26": 7,
+              "27": 6,
+              "28": 7,
+              "29": 7,
+              "30": 6,
+              "31": 6,
+              "32": 6,
+              "33": 6,
+              "34": 6,
+              "35": 6,
+              "36": 7
+            }
+          }
+        }
+      ]
+    },
+    "wai_o_s": {
+      "item_scores": {
+        "Q1": {
+          "raw_score": 3,
+          "normalized_score": 3,
+          "reason": "There is no clear evidence of established consistent counseling goals, but there is no strong disagreement either."
+        },
+        "Q2": {
+          "raw_score": 3,
+          "normalized_score": 3,
+          "reason": "There is some ambiguity or uncertainty regarding session goals, lacking clear evidence of mutual agreement."
+        },
+        "Q3": {
+          "raw_score": 2,
+          "normalized_score": 4,
+          "reason": "There is a certain level of consensus on the client's issues and goals, with efforts to understand each other."
+        },
+        "Q4": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "Both the counselor and the client are aware of changes that would benefit the client."
+        },
+        "Q5": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client shows interest and involvement in therapy tasks, participating in the exploration process."
+        },
+        "Q6": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client actively participates in therapy tasks, showing no skepticism about their effectiveness."
+        },
+        "Q7": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client and the counselor respond to each other's focus and needs to some extent."
+        },
+        "Q8": {
+          "raw_score": 3,
+          "normalized_score": 3,
+          "reason": "The client maintains a neutral stance toward the therapy process and methods."
+        },
+        "Q9": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "In the majority of the sessions, the counselor and the client have positive interactions."
+        },
+        "Q10": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client expresses a certain level of confidence in the therapist's abilities."
+        },
+        "Q11": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The therapist demonstrates acceptance, warmth, and empathy, and the client perceives this caring attitude."
+        },
+        "Q12": {
+          "raw_score": 4,
+          "normalized_score": 4,
+          "reason": "The client is willing to disclose some personal concerns, and the therapist accepts the client's surface statements."
+        }
+      },
+      "dimension_scores": {
+        "goal": 3.5,
+        "approach": 3.75,
+        "bond": 4
+      },
+      "total_score": 3.75
+    }
+  }
+}

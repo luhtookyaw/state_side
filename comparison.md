@@ -40,6 +40,44 @@
 | Hard | MITI | 4.02 | 4.14 | 4.24 | 4.10 | +0.12 | +0.22 | +0.08 |
 | Hard | Alli | 3.59 | 3.27 | 3.30 | 3.52 | -0.32 | -0.29 | -0.07 |
 
+### Flash vs Hybrid
+
+| Client Group | Metric | Flash | Hybrid | Hybrid - Flash |
+|---|---:|---:|---:|---:|
+| Easy | Discovery | 4.00 | 4.00 | +0.00 |
+| Easy | Focus | 4.00 | 4.20 | +0.20 |
+| Easy | Strategy | 4.20 | 4.40 | +0.20 |
+| Easy | Understanding | 4.20 | 5.00 | +0.80 |
+| Easy | Interpersonal | 5.60 | 6.00 | +0.40 |
+| Easy | Collaboration | 4.90 | 5.10 | +0.20 |
+| Normal | Discovery | 4.00 | 4.00 | +0.00 |
+| Normal | Focus | 4.00 | 4.00 | +0.00 |
+| Normal | Strategy | 4.00 | 4.00 | +0.00 |
+| Normal | Understanding | 4.00 | 4.60 | +0.60 |
+| Normal | Interpersonal | 5.40 | 6.00 | +0.60 |
+| Normal | Collaboration | 4.40 | 4.80 | +0.40 |
+| Hard | Discovery | 4.00 | 4.00 | +0.00 |
+| Hard | Focus | 4.00 | 3.80 | -0.20 |
+| Hard | Strategy | 4.00 | 2.80 | -1.20 |
+| Hard | Understanding | 4.00 | 4.20 | +0.20 |
+| Hard | Interpersonal | 5.00 | 5.00 | +0.00 |
+| Hard | Collaboration | 3.90 | 3.00 | -0.90 |
+
+| Client Group | Metric | Flash | Hybrid | Hybrid - Flash |
+|---|---:|---:|---:|---:|
+| Easy | CTRS | 4.49 | 4.77 | +0.28 |
+| Easy | WAI | 3.87 | 4.18 | +0.31 |
+| Easy | MITI | 4.58 | 4.56 | -0.02 |
+| Easy | Alli | 3.98 | 4.20 | +0.22 |
+| Normal | CTRS | 4.12 | 4.02 | -0.10 |
+| Normal | WAI | 3.70 | 3.93 | +0.23 |
+| Normal | MITI | 4.56 | 4.50 | -0.06 |
+| Normal | Alli | 3.85 | 4.00 | +0.15 |
+| Hard | CTRS | 3.30 | 3.49 | +0.19 |
+| Hard | WAI | 3.16 | 3.33 | +0.17 |
+| Hard | MITI | 4.24 | 4.10 | -0.14 |
+| Hard | Alli | 3.30 | 3.52 | +0.22 |
+
 ### Hybrid Strengths
 
 Hybrid shows its strongest gains with Easy and Normal clients. It has the highest Easy CTRS score (4.77), Easy WAI score (4.18), and Easy Alliance score (4.20), while also matching the top Easy Interpersonal score (6.00). At the client-level, Hybrid is especially strong on Easy Collaboration (+1.10 vs Baseline), Easy Strategy (+0.60), and Easy Understanding (+0.60).

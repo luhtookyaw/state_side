@@ -18,7 +18,7 @@ DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "adaptive", "flash", "hybrid")
+THERAPIST_TYPES = ("standard", "flash", "hybrid")
 
 
 @dataclass(frozen=True)
@@ -83,17 +83,8 @@ def parse_args() -> argparse.Namespace:
         help="Optional therapist prompt path passed through to simulate_conversation.py.",
     )
     parser.add_argument(
-        "--readiness-judge-model",
-        help="Optional readiness judge model for adaptive therapist runs.",
-    )
-    parser.add_argument(
         "--cbt-technique-chooser-model",
         help="Optional CBT technique chooser model for hybrid therapist runs.",
-    )
-    parser.add_argument(
-        "--readiness-judge-prompt",
-        type=Path,
-        help="Optional readiness judge prompt path for adaptive therapist runs.",
     )
     parser.add_argument(
         "--flash-api-url",
@@ -186,14 +177,10 @@ def simulator_command(
         command.extend(["--model", args.model])
     if args.therapist_prompt:
         command.extend(["--therapist-prompt", str(args.therapist_prompt)])
-    if args.readiness_judge_model:
-        command.extend(["--readiness-judge-model", args.readiness_judge_model])
     if args.cbt_technique_chooser_model:
         command.extend(
             ["--cbt-technique-chooser-model", args.cbt_technique_chooser_model]
         )
-    if args.readiness_judge_prompt:
-        command.extend(["--readiness-judge-prompt", str(args.readiness_judge_prompt)])
     if args.flash_api_url:
         command.extend(["--flash-api-url", args.flash_api_url])
     if args.print_turns:
