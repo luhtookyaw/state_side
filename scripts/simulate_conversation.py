@@ -240,11 +240,15 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
     cbt_recommendations: list[dict[str, Any]] = []
+    router_traces: list[dict[str, Any]] = []
+    guardrail_checks: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         selected_strategy: str | None = None
         flash_response: dict[str, Any] | None = None
+        router_trace: dict[str, Any] | None = None
+        guardrail_check: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
             if args.therapist_type == "flash":
@@ -262,6 +266,18 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
             elif args.therapist_type == "hybrid":
+                if therapist_role.last_router_trace is not None:
+                    router_trace = {
+                        "turn": turn_number,
+                        **therapist_role.last_router_trace,
+                    }
+                    router_traces.append(router_trace)
+                if therapist_role.last_guardrail is not None:
+                    guardrail_check = {
+                        "turn": turn_number,
+                        **therapist_role.last_guardrail,
+                    }
+                    guardrail_checks.append(guardrail_check)
                 recommendation = therapist_role.last_cbt_recommendation
                 if therapist_role.last_response_mode == "CBT":
                     if recommendation is None:
@@ -316,6 +332,8 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
                 "flash_response": flash_response,
+                "router_trace": router_trace,
+                "guardrail_check": guardrail_check,
                 "strategy_used": selected_strategy,
             }
         )
@@ -347,6 +365,8 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "openness_judgments": openness_judgments,
         "selected_strategies": selected_strategies,
         "cbt_recommendations": cbt_recommendations,
+        "router_traces": router_traces,
+        "guardrail_checks": guardrail_checks,
         "flash_responses": flash_responses,
         "turns": paired_turns,
     }

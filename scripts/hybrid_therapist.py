@@ -35,6 +35,74 @@ DEFAULT_CBT_THERAPIST_PROMPT = (
     DEFAULT_HYBRID_PROMPT_DIR / "cbt_therapist_response.txt"
 )
 CBT_OPENNESS_THRESHOLD = 3
+TECHNIQUE_COOLDOWN = 3
+MI_ENGAGE = "MI_ENGAGE"
+MI_EXPLORE = "MI_EXPLORE"
+REPAIR_MI = "REPAIR_MI"
+CBT_LIGHT = "CBT_LIGHT"
+CBT_ACTIVE = "CBT_ACTIVE"
+
+CBT_TECHNIQUES = (
+    "Efficiency Evaluation",
+    "Pie Chart Technique",
+    "Alternative Perspective",
+    "Decatastrophizing",
+    "Pros and Cons Analysis",
+    "Evidence-Based Questioning",
+    "Reality Testing",
+    "Continuum Technique",
+    "Changing Rules to Wishes",
+    "Behavior Experiment",
+    "Problem-Solving Skills Training",
+    "Systematic Exposure",
+)
+
+CHANGE_TALK_MARKERS = (
+    "i want",
+    "i need",
+    "i could",
+    "maybe i",
+    "try",
+    "change",
+    "better",
+    "work on",
+)
+SUSTAIN_TALK_MARKERS = (
+    "i can't",
+    "i cannot",
+    "it won't",
+    "nothing helps",
+    "pointless",
+    "no point",
+    "whatever",
+    "doesn't matter",
+)
+HELP_SEEKING_MARKERS = (
+    "what should i do",
+    "how do i",
+    "how can i",
+    "can you help",
+    "what can i",
+    "any advice",
+)
+RESISTANCE_MARKERS = (
+    "you don't understand",
+    "this won't help",
+    "therapy won't help",
+    "stop",
+    "i don't want to",
+    "i'm not doing",
+    "leave me alone",
+)
+DISTRESS_MARKERS = (
+    "overwhelmed",
+    "panic",
+    "scared",
+    "hopeless",
+    "exhausted",
+    "too much",
+    "can't take",
+)
 
 
 def strip_code_fence(text: str) -> str:
@@ -88,11 +156,13 @@ def format_mi_therapist_prompt(
     template: str,
     patient: dict[str, Any],
     conversation: list[Any],
+    mi_mode: str,
 ) -> str:
     return render_template(
         template,
         {
             "name": join_value(patient.get("name")),
+            "mi_mode": mi_mode,
             "conversation_history": format_history(conversation),
         },
     )
@@ -109,6 +179,7 @@ def format_cbt_technique_prompt(
     template: str,
     conversation: list[Any],
     previous_cbt_techniques: list[str],
+    allowed_cbt_techniques: list[str],
 ) -> str:
     return render_template(
         template,
@@ -116,6 +187,9 @@ def format_cbt_technique_prompt(
             "conversation_history": format_history(conversation),
             "previous_cbt_techniques": format_previous_cbt_techniques(
                 previous_cbt_techniques
+            ),
+            "allowed_cbt_techniques": format_allowed_cbt_techniques(
+                allowed_cbt_techniques
             ),
         },
     )
@@ -125,12 +199,14 @@ def format_cbt_therapist_prompt(
     template: str,
     conversation: list[Any],
     cbt_recommendation: dict[str, Any],
+    cbt_mode: str,
 ) -> str:
     return render_template(
         template,
         {
             "conversation_history": format_history(conversation),
             "cbt_recommendation": format_cbt_recommendation(cbt_recommendation),
+            "cbt_mode": cbt_mode,
         },
     )
 
@@ -142,6 +218,10 @@ def format_previous_cbt_techniques(techniques: list[str]) -> str:
         f"{index}. {technique}"
         for index, technique in enumerate(techniques, start=1)
     )
+
+
+def format_allowed_cbt_techniques(techniques: list[str]) -> str:
+    return "\n".join(f"- {technique}" for technique in techniques)
 
 
 def format_cbt_recommendation(recommendation: dict[str, Any]) -> str:
@@ -156,8 +236,79 @@ def format_cbt_recommendation(recommendation: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def latest_client_text(conversation: list[Any]) -> str:
+    for turn in reversed(conversation):
+        if turn.speaker == "Client":
+            return turn.text
+    return ""
+
+
+def contains_any(text: str, markers: tuple[str, ...]) -> bool:
+    lowered = text.lower()
+    return any(marker in lowered for marker in markers)
+
+
+def extract_router_features(conversation: list[Any]) -> dict[str, bool]:
+    client_text = latest_client_text(conversation)
+    return {
+        "change_talk": contains_any(client_text, CHANGE_TALK_MARKERS),
+        "sustain_talk": contains_any(client_text, SUSTAIN_TALK_MARKERS),
+        "help_seeking": contains_any(client_text, HELP_SEEKING_MARKERS),
+        "resistance": contains_any(client_text, RESISTANCE_MARKERS),
+        "distress": contains_any(client_text, DISTRESS_MARKERS),
+    }
+
+
+def router_score(openness_level: int, features: dict[str, bool]) -> int:
+    score = openness_level
+    if features["change_talk"]:
+        score += 1
+    if features["help_seeking"]:
+        score += 1
+    if features["resistance"]:
+        score -= 2
+    if features["sustain_talk"]:
+        score -= 1
+    if features["distress"]:
+        score -= 1
+    return max(1, min(5, score))
+
+
+def allowed_techniques(
+    previous_cbt_techniques: list[str],
+    cooldown: int = TECHNIQUE_COOLDOWN,
+) -> list[str]:
+    recent = set(previous_cbt_techniques[-cooldown:])
+    allowed = [technique for technique in CBT_TECHNIQUES if technique not in recent]
+    return allowed or list(CBT_TECHNIQUES)
+
+
+def count_questions(text: str) -> int:
+    return text.count("?")
+
+
+def has_speaker_label(text: str) -> bool:
+    return bool(re.search(r"^\s*(Therapist|Client)\s*:", text, flags=re.IGNORECASE))
+
+
+def mentions_technique_name(text: str) -> bool:
+    lowered = text.lower()
+    return any(technique.lower() in lowered for technique in CBT_TECHNIQUES)
+
+
+def guardrail_violations(text: str) -> list[str]:
+    violations = []
+    if count_questions(text) > 2:
+        violations.append("too_many_questions")
+    if has_speaker_label(text):
+        violations.append("speaker_label")
+    if mentions_technique_name(text):
+        violations.append("mentions_technique_name")
+    return violations
+
+
 class HybridTherapist:
-    """Therapist role that switches from MI to CBT based on openness."""
+    """Therapist role controlled by a rule-based MI/CBT router."""
 
     def __init__(
         self,
@@ -185,9 +336,22 @@ class HybridTherapist:
         self.last_mi_response: str | None = None
         self.last_cbt_response: str | None = None
         self.last_response_mode: str | None = None
+        self.current_state = MI_ENGAGE
+        self.last_router_trace: dict[str, Any] | None = None
+        self.last_guardrail: dict[str, Any] | None = None
 
-    def _mi_reply(self, patient: dict[str, Any], conversation: list[Any]) -> str:
-        prompt = format_mi_therapist_prompt(self.mi_template, patient, conversation)
+    def _mi_reply(
+        self,
+        patient: dict[str, Any],
+        conversation: list[Any],
+        mi_mode: str,
+    ) -> str:
+        prompt = format_mi_therapist_prompt(
+            self.mi_template,
+            patient,
+            conversation,
+            mi_mode,
+        )
         response = call_model(
             self.openai_client,
             self.model,
@@ -199,11 +363,16 @@ class HybridTherapist:
         self.last_response_mode = "MI"
         return response
 
-    def _choose_cbt_technique(self, conversation: list[Any]) -> dict[str, Any]:
+    def _choose_cbt_technique(
+        self,
+        conversation: list[Any],
+        allowed_cbt_techniques: list[str],
+    ) -> dict[str, Any]:
         prompt = format_cbt_technique_prompt(
             self.cbt_technique_chooser_template,
             conversation,
             self.previous_cbt_techniques,
+            allowed_cbt_techniques,
         )
         response = call_model(
             self.openai_client,
@@ -218,7 +387,15 @@ class HybridTherapist:
             raise ValueError(
                 f"Missing recommended_cbt_technique in model output: {response!r}"
         )
-        self.previous_cbt_techniques.append(technique.strip())
+        normalized_technique = technique.strip()
+        if normalized_technique not in allowed_cbt_techniques:
+            normalized_technique = allowed_cbt_techniques[0]
+            recommendation["recommended_cbt_technique"] = normalized_technique
+            recommendation["reasoning"] = (
+                f"{join_value(recommendation.get('reasoning'))} "
+                "The controller substituted this technique to respect the cooldown."
+            )
+        self.previous_cbt_techniques.append(normalized_technique)
         self.last_cbt_recommendation = recommendation
         return recommendation
 
@@ -226,11 +403,13 @@ class HybridTherapist:
         self,
         conversation: list[Any],
         cbt_recommendation: dict[str, Any],
+        cbt_mode: str,
     ) -> str:
         prompt = format_cbt_therapist_prompt(
             self.cbt_therapist_template,
             conversation,
             cbt_recommendation,
+            cbt_mode,
         )
         response = call_model(
             self.openai_client,
@@ -253,18 +432,61 @@ class HybridTherapist:
             max_tokens=160,
         )
 
+    def choose_state(
+        self,
+        openness_level: int,
+        features: dict[str, bool],
+        score: int,
+    ) -> str:
+        if openness_level <= 1:
+            return MI_ENGAGE
+        if openness_level <= CBT_OPENNESS_THRESHOLD:
+            return MI_EXPLORE
+        if features["resistance"] or score <= CBT_OPENNESS_THRESHOLD:
+            return REPAIR_MI
+        if score == 4:
+            return CBT_LIGHT
+        return CBT_ACTIVE
+
     def reply(
         self,
         patient: dict[str, Any],
         conversation: list[Any],
         openness_level: int = 1,
     ) -> str:
-        if openness_level <= CBT_OPENNESS_THRESHOLD:
-            self.last_cbt_response = None
-            return self._mi_reply(patient, conversation)
+        features = extract_router_features(conversation)
+        score = router_score(openness_level, features)
+        state = self.choose_state(openness_level, features, score)
+        allowed_cbt_techniques = allowed_techniques(self.previous_cbt_techniques)
+        self.current_state = state
+        self.last_router_trace = {
+            "openness_level": openness_level,
+            "features": features,
+            "router_score": score,
+            "state": state,
+            "allowed_cbt_techniques": allowed_cbt_techniques,
+        }
+        self.last_guardrail = None
 
-        cbt_recommendation = self._choose_cbt_technique(conversation)
-        return self._cbt_reply(conversation, cbt_recommendation)
+        if state in {MI_ENGAGE, MI_EXPLORE, REPAIR_MI}:
+            self.last_cbt_response = None
+            return self._mi_reply(patient, conversation, state)
+
+        cbt_recommendation = self._choose_cbt_technique(
+            conversation,
+            allowed_cbt_techniques,
+        )
+        response = self._cbt_reply(conversation, cbt_recommendation, state)
+        violations = guardrail_violations(response)
+        self.last_guardrail = {
+            "checked": True,
+            "violations": violations,
+            "fallback_used": bool(violations),
+        }
+        if violations:
+            self.last_cbt_response = response
+            return self._mi_reply(patient, conversation, REPAIR_MI)
+        return response
 
 
 def parse_args() -> argparse.Namespace:
@@ -364,13 +586,19 @@ def main() -> None:
 
         if args.show_hybrid:
             recommendation = therapist.last_cbt_recommendation
-            if args.openness_level <= CBT_OPENNESS_THRESHOLD:
-                print(f"Hybrid> MI route (openness={args.openness_level})")
+            trace = therapist.last_router_trace or {}
+            if therapist.last_response_mode == "CBT":
+                print(
+                    "Hybrid> "
+                    f"state={trace.get('state')}, "
+                    f"score={trace.get('router_score')}, "
+                    f"cbt_technique={recommendation.get('recommended_cbt_technique')}"
+                )
             else:
                 print(
                     "Hybrid> "
-                    f"CBT route (openness={args.openness_level}), "
-                    f"cbt_technique={recommendation.get('recommended_cbt_technique')}"
+                    f"state={trace.get('state')}, "
+                    f"score={trace.get('router_score')}, route=MI"
                 )
         print(f"Therapist> {text}")
 
