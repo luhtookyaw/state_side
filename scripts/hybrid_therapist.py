@@ -34,6 +34,7 @@ DEFAULT_CBT_TECHNIQUE_CHOOSER_PROMPT = (
 DEFAULT_CBT_THERAPIST_PROMPT = (
     DEFAULT_HYBRID_PROMPT_DIR / "cbt_therapist_response.txt"
 )
+DEFAULT_ROUTER_PROMPT = DEFAULT_HYBRID_PROMPT_DIR / "router_agent.txt"
 CBT_OPENNESS_THRESHOLD = 3
 TECHNIQUE_COOLDOWN = 3
 MI_ENGAGE = "MI_ENGAGE"
@@ -41,6 +42,13 @@ MI_EXPLORE = "MI_EXPLORE"
 REPAIR_MI = "REPAIR_MI"
 CBT_LIGHT = "CBT_LIGHT"
 CBT_ACTIVE = "CBT_ACTIVE"
+THERAPEUTIC_STATES = {
+    MI_ENGAGE,
+    MI_EXPLORE,
+    REPAIR_MI,
+    CBT_LIGHT,
+    CBT_ACTIVE,
+}
 
 CBT_TECHNIQUES = (
     "Efficiency Evaluation",
@@ -242,6 +250,24 @@ def format_cbt_therapist_prompt(
     )
 
 
+def format_router_prompt(
+    template: str,
+    conversation: list[Any],
+    openness_level: int,
+    candidate_features: dict[str, bool],
+    candidate_router_score: int,
+) -> str:
+    return render_template(
+        template,
+        {
+            "conversation_history": format_history(conversation),
+            "openness_level": str(openness_level),
+            "candidate_features": json.dumps(candidate_features, indent=2),
+            "candidate_router_score": str(candidate_router_score),
+        },
+    )
+
+
 def format_previous_cbt_techniques(techniques: list[str]) -> str:
     if not techniques:
         return "None yet."
@@ -305,6 +331,23 @@ def router_score(openness_level: int, features: dict[str, bool]) -> int:
     return max(1, min(5, score))
 
 
+def normalize_router_features(value: Any) -> dict[str, bool] | None:
+    if not isinstance(value, dict):
+        return None
+
+    expected_features = {
+        "change_talk",
+        "sustain_talk",
+        "help_seeking",
+        "resistance",
+        "distress",
+    }
+    if not expected_features.issubset(value):
+        return None
+
+    return {feature: bool(value[feature]) for feature in sorted(expected_features)}
+
+
 def allowed_techniques(
     previous_cbt_techniques: list[str],
     cooldown: int = TECHNIQUE_COOLDOWN,
@@ -339,7 +382,7 @@ def guardrail_violations(text: str) -> list[str]:
 
 
 class HybridTherapist:
-    """Therapist role controlled by a rule-based MI/CBT router."""
+    """Therapist role controlled by an LLM-verified MI/CBT router."""
 
     def __init__(
         self,
@@ -350,14 +393,18 @@ class HybridTherapist:
         mi_prompt_path: Path = DEFAULT_MI_THERAPIST_PROMPT,
         cbt_technique_chooser_prompt_path: Path = DEFAULT_CBT_TECHNIQUE_CHOOSER_PROMPT,
         cbt_therapist_prompt_path: Path = DEFAULT_CBT_THERAPIST_PROMPT,
+        router_prompt_path: Path = DEFAULT_ROUTER_PROMPT,
+        router_model: str | None = None,
         cbt_technique_chooser_model: str | None = None,
     ) -> None:
         self.openai_client = openai_client
         self.model = model
         self.temperature = temperature
+        self.router_model = router_model or model
         self.cbt_technique_chooser_model = cbt_technique_chooser_model or model
         self.opening_template = load_text(opening_prompt_path)
         self.mi_template = load_text(mi_prompt_path)
+        self.router_template = load_text(router_prompt_path)
         self.cbt_technique_chooser_template = load_text(
             cbt_technique_chooser_prompt_path
         )
@@ -370,6 +417,56 @@ class HybridTherapist:
         self.current_state = MI_ENGAGE
         self.last_router_trace: dict[str, Any] | None = None
         self.last_guardrail: dict[str, Any] | None = None
+
+    def _route_with_llm(
+        self,
+        conversation: list[Any],
+        openness_level: int,
+        candidate_features: dict[str, bool],
+        candidate_score: int,
+        fallback_state: str,
+    ) -> dict[str, Any]:
+        prompt = format_router_prompt(
+            self.router_template,
+            conversation,
+            openness_level,
+            candidate_features,
+            candidate_score,
+        )
+        response = call_model(
+            self.openai_client,
+            self.router_model,
+            prompt,
+            self.temperature,
+            max_tokens=260,
+        )
+        decision = extract_json_object(response)
+        verified_features = normalize_router_features(
+            decision.get("verified_features")
+        )
+        state = decision.get("state")
+        fallback_reason = None
+
+        if verified_features is None:
+            verified_features = candidate_features
+            fallback_reason = "invalid_verified_features"
+        if state not in THERAPEUTIC_STATES:
+            state = fallback_state
+            fallback_reason = fallback_reason or "invalid_state"
+        if openness_level <= CBT_OPENNESS_THRESHOLD and state in {
+            CBT_LIGHT,
+            CBT_ACTIVE,
+        }:
+            state = fallback_state
+            fallback_reason = fallback_reason or "cbt_blocked_by_openness"
+
+        return {
+            "verified_features": verified_features,
+            "state": state,
+            "reasoning": join_value(decision.get("reasoning")),
+            "fallback_used": fallback_reason is not None,
+            "fallback_reason": fallback_reason,
+        }
 
     def _mi_reply(
         self,
@@ -485,16 +582,34 @@ class HybridTherapist:
         conversation: list[Any],
         openness_level: int = 1,
     ) -> str:
-        features = extract_router_features(conversation)
+        candidate_features = extract_router_features(conversation)
+        candidate_score = router_score(openness_level, candidate_features)
+        fallback_state = self.choose_state(
+            openness_level,
+            candidate_features,
+            candidate_score,
+        )
+        router_decision = self._route_with_llm(
+            conversation,
+            openness_level,
+            candidate_features,
+            candidate_score,
+            fallback_state,
+        )
+        features = router_decision["verified_features"]
         score = router_score(openness_level, features)
-        state = self.choose_state(openness_level, features, score)
+        state = router_decision["state"]
         allowed_cbt_techniques = allowed_techniques(self.previous_cbt_techniques)
         self.current_state = state
         self.last_router_trace = {
             "openness_level": openness_level,
+            "candidate_features": candidate_features,
             "features": features,
             "router_score": score,
             "state": state,
+            "router_reasoning": router_decision["reasoning"],
+            "router_fallback_used": router_decision["fallback_used"],
+            "router_fallback_reason": router_decision["fallback_reason"],
             "allowed_cbt_techniques": allowed_cbt_techniques,
         }
         self.last_guardrail = None
@@ -536,6 +651,10 @@ def parse_args() -> argparse.Namespace:
         help="OpenAI model name for CBT technique selection. Defaults to --model.",
     )
     parser.add_argument(
+        "--router-model",
+        help="OpenAI model name for hybrid router decisions. Defaults to --model.",
+    )
+    parser.add_argument(
         "--temperature",
         type=float,
         default=0.8,
@@ -566,6 +685,12 @@ def parse_args() -> argparse.Namespace:
         help="Path to CBT therapist prompt template.",
     )
     parser.add_argument(
+        "--router-prompt",
+        type=Path,
+        default=DEFAULT_ROUTER_PROMPT,
+        help="Path to hybrid router prompt template.",
+    )
+    parser.add_argument(
         "--openness-level",
         type=int,
         default=1,
@@ -594,6 +719,8 @@ def main() -> None:
         mi_prompt_path=args.mi_prompt,
         cbt_technique_chooser_prompt_path=args.cbt_technique_chooser_prompt,
         cbt_therapist_prompt_path=args.cbt_therapist_prompt,
+        router_prompt_path=args.router_prompt,
+        router_model=args.router_model,
         cbt_technique_chooser_model=args.cbt_technique_chooser_model,
     )
     conversation: list[Turn] = []

@@ -104,6 +104,10 @@ def parse_args() -> argparse.Namespace:
         help="OpenAI model name for hybrid therapist CBT technique selection.",
     )
     parser.add_argument(
+        "--router-model",
+        help="OpenAI model name for hybrid therapist router decisions.",
+    )
+    parser.add_argument(
         "--flash-api-url",
         default=os.getenv("FLASH_API_URL", DEFAULT_FLASH_API_URL),
         help=(
@@ -221,6 +225,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             openai_client,
             model,
             args.temperature,
+            router_model=args.router_model,
             cbt_technique_chooser_model=args.cbt_technique_chooser_model,
         )
     else:
@@ -357,6 +362,9 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "model": model,
         "openness_judge_model": openness_judge_model,
         "cbt_technique_chooser_model": (args.cbt_technique_chooser_model or model)
+        if args.therapist_type == "hybrid"
+        else None,
+        "router_model": (args.router_model or model)
         if args.therapist_type == "hybrid"
         else None,
         "patient_id": patient.get("id"),
