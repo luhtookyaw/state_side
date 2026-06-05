@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
+import re
 from pathlib import Path
-from statistics import mean
+from statistics import mean, stdev
 from typing import Any
 
 
@@ -64,9 +66,22 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--tables",
         nargs="+",
-        choices=("therapist-skills", "summary"),
+        choices=("therapist-skills", "summary", "ttest"),
         default=["therapist-skills", "summary"],
         help="Tables to print. Defaults to both therapist-skills and summary.",
+    )
+    parser.add_argument(
+        "--compare-dir",
+        type=Path,
+        help=(
+            "Optional second evaluations directory for paired t-tests. "
+            "Use with --tables ttest."
+        ),
+    )
+    parser.add_argument(
+        "--compare-label",
+        default="Comparison",
+        help="Label for --compare-dir in t-test tables.",
     )
     return parser.parse_args()
 
@@ -185,6 +200,13 @@ def summary_score(evaluation: dict[str, Any], metric: str) -> float | None:
         "alliance": alliance_score,
     }
     return scorers[metric](evaluation)
+
+
+def all_metric_score(evaluation: dict[str, Any], metric: str) -> float | None:
+    skill_names = {skill for skill, _label in SKILL_COLUMNS}
+    if metric in skill_names:
+        return score_value(evaluation, metric)
+    return summary_score(evaluation, metric)
 
 
 def summary_averages(
@@ -322,8 +344,187 @@ def print_summary_markdown_table(
     print()
 
 
+def session_key(path: Path) -> str:
+    name = path.stem
+    if name.endswith("_evaluation"):
+        name = name[: -len("_evaluation")]
+    match = re.match(r"^(session_.+?_(?:easy|normal|hard))(?:_.+)?$", name)
+    if match:
+        return match.group(1)
+    return name
+
+
+def metric_scores_by_session(
+    evaluations_dir: Path,
+    mode: str,
+    metric: str,
+) -> dict[str, float]:
+    scores: dict[str, float] = {}
+    for path in sorted((evaluations_dir / mode).glob("*.json")):
+        score = all_metric_score(load_json(path), metric)
+        if score is not None:
+            scores[session_key(path)] = score
+    return scores
+
+
+def paired_t_statistic(before: list[float], after: list[float]) -> dict[str, float] | None:
+    if len(before) != len(after) or len(before) < 2:
+        return None
+
+    diffs = [after_value - before_value for before_value, after_value in zip(before, after)]
+    diff_sd = stdev(diffs)
+    if diff_sd == 0:
+        return None
+
+    diff_mean = mean(diffs)
+    n = len(diffs)
+    t_value = diff_mean / (diff_sd / math.sqrt(n))
+    p_value = student_t_two_tailed_p(t_value, n - 1)
+    return {
+        "n": float(n),
+        "before_mean": mean(before),
+        "before_sd": stdev(before),
+        "after_mean": mean(after),
+        "after_sd": stdev(after),
+        "diff_mean": diff_mean,
+        "diff_sd": diff_sd,
+        "t": t_value,
+        "p": p_value,
+        "cohens_dz": diff_mean / diff_sd,
+    }
+
+
+def student_t_pdf(x: float, degrees_of_freedom: int) -> float:
+    df = degrees_of_freedom
+    coefficient = math.exp(
+        math.lgamma((df + 1) / 2)
+        - math.lgamma(df / 2)
+        - 0.5 * math.log(df * math.pi)
+    )
+    return coefficient * (1 + (x * x) / df) ** (-(df + 1) / 2)
+
+
+def simpson_integral(start: float, end: float, intervals: int, df: int) -> float:
+    if intervals % 2:
+        intervals += 1
+    width = (end - start) / intervals
+    total = student_t_pdf(start, df) + student_t_pdf(end, df)
+    for index in range(1, intervals):
+        x = start + index * width
+        total += (4 if index % 2 else 2) * student_t_pdf(x, df)
+    return total * width / 3
+
+
+def student_t_two_tailed_p(t_value: float, degrees_of_freedom: int) -> float:
+    if degrees_of_freedom < 1:
+        return float("nan")
+    upper = abs(t_value)
+    if upper == 0:
+        return 1.0
+    intervals = max(1000, int(upper * 1000))
+    area = simpson_integral(0.0, upper, intervals, degrees_of_freedom)
+    return max(0.0, min(1.0, 1 - 2 * area))
+
+
+def paired_ttest_rows(
+    baseline_dir: Path,
+    compare_dir: Path,
+    modes: list[str],
+) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    metrics = list(METRIC_COLUMNS) + list(SKILL_COLUMNS)
+    for mode in modes:
+        for metric, label in metrics:
+            baseline_scores = metric_scores_by_session(baseline_dir, mode, metric)
+            compare_scores = metric_scores_by_session(compare_dir, mode, metric)
+            common_keys = sorted(set(baseline_scores) & set(compare_scores))
+            before = [baseline_scores[key] for key in common_keys]
+            after = [compare_scores[key] for key in common_keys]
+            result = paired_t_statistic(before, after)
+            if result is None:
+                continue
+            rows.append(
+                {
+                    "mode": mode,
+                    "metric": label,
+                    **result,
+                }
+            )
+    return rows
+
+
+def format_mean_sd(mean_value: float, sd_value: float) -> str:
+    return f"{mean_value:.2f} +/- {sd_value:.2f}"
+
+
+def p_string(value: float) -> str:
+    return "<.001" if value < 0.001 else f"{value:.3f}"
+
+
+def print_ttest_markdown_table(
+    rows: list[dict[str, Any]],
+    approach: str,
+    compare_label: str,
+) -> None:
+    print("### Paired t-tests")
+    print(
+        f"| Mode | Metric | n | {approach} mean +/- SD | "
+        f"{compare_label} mean +/- SD | Mean diff +/- SD | t | p | Cohen dz |"
+    )
+    print("|---|---|---:|---:|---:|---:|---:|---:|---:|")
+    for row in rows:
+        print(
+            f"| {MODE_LABELS.get(row['mode'], row['mode'])} "
+            f"| {row['metric']} "
+            f"| {int(row['n'])} "
+            f"| {format_mean_sd(row['before_mean'], row['before_sd'])} "
+            f"| {format_mean_sd(row['after_mean'], row['after_sd'])} "
+            f"| {format_mean_sd(row['diff_mean'], row['diff_sd'])} "
+            f"| {row['t']:.2f} "
+            f"| {p_string(row['p'])} "
+            f"| {row['cohens_dz']:.2f} |"
+        )
+    print()
+
+
+def print_ttest_latex_table(
+    rows: list[dict[str, Any]],
+    approach: str,
+    compare_label: str,
+) -> None:
+    print("% Paired t-tests")
+    print("\\begin{table}[h]")
+    print("\\centering")
+    print("\\caption{Paired t-tests for evaluation scores}")
+    print("\\begin{tabular}{llcccccc}")
+    print("\\hline")
+    print(
+        f"Mode & Metric & n & {approach} & {compare_label} "
+        "& Diff. & t & p \\\\"
+    )
+    print("\\hline")
+    for row in rows:
+        print(
+            f"{MODE_LABELS.get(row['mode'], row['mode'])} "
+            f"& {row['metric']} "
+            f"& {int(row['n'])} "
+            f"& {format_mean_sd(row['before_mean'], row['before_sd'])} "
+            f"& {format_mean_sd(row['after_mean'], row['after_sd'])} "
+            f"& {format_mean_sd(row['diff_mean'], row['diff_sd'])} "
+            f"& {row['t']:.2f} "
+            f"& {p_string(row['p'])} \\\\"
+        )
+    print("\\hline")
+    print("\\end{tabular}")
+    print("\\end{table}")
+    print()
+
+
 def main() -> None:
     args = parse_args()
+    if "ttest" in args.tables and args.compare_dir is None:
+        raise SystemExit("--compare-dir is required when using --tables ttest.")
+
     if "therapist-skills" in args.tables:
         for mode in args.modes:
             averages, count = mode_averages(args.evaluations_dir, mode)
@@ -342,6 +543,13 @@ def main() -> None:
             print_summary_markdown_table(
                 args.modes, args.approach, averages_by_mode, counts_by_mode
             )
+
+    if "ttest" in args.tables:
+        rows = paired_ttest_rows(args.evaluations_dir, args.compare_dir, args.modes)
+        if args.format == "latex":
+            print_ttest_latex_table(rows, args.approach, args.compare_label)
+        else:
+            print_ttest_markdown_table(rows, args.approach, args.compare_label)
 
 
 if __name__ == "__main__":

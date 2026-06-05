@@ -16,9 +16,10 @@ from typing import Any
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_DATASET = ROOT_DIR / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
+DEFAULT_PATIENT_IDS_FILE = ROOT_DIR / "patient_ids.txt"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "flash", "hybrid")
+THERAPIST_TYPES = ("standard", "flash")
 
 
 @dataclass(frozen=True)
@@ -83,10 +84,6 @@ def parse_args() -> argparse.Namespace:
         help="Optional therapist prompt path passed through to simulate_conversation.py.",
     )
     parser.add_argument(
-        "--cbt-technique-chooser-model",
-        help="Optional CBT technique chooser model for hybrid therapist runs.",
-    )
-    parser.add_argument(
         "--flash-api-url",
         help=(
             "Optional flash therapist API base URL passed through to "
@@ -97,6 +94,16 @@ def parse_args() -> argparse.Namespace:
         "--max-clients",
         type=int,
         help="Optional limit on number of patients from the dataset.",
+    )
+    parser.add_argument(
+        "--patient-ids-file",
+        type=Path,
+        default=DEFAULT_PATIENT_IDS_FILE,
+        help=(
+            "Optional text file containing patient IDs to generate, one per line. "
+            "Blank lines and lines starting with # are ignored. Defaults to "
+            "patient_ids.txt."
+        ),
     )
     parser.add_argument(
         "--max-jobs",
@@ -127,12 +134,44 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def load_patients(path: Path, max_clients: int | None) -> list[dict[str, Any]]:
+def load_patient_ids(path: Path) -> list[str]:
+    ids: list[str] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#"):
+            ids.append(stripped)
+    return ids
+
+
+def filter_patients(
+    patients: list[dict[str, Any]],
+    patient_ids: list[str] | None,
+) -> list[dict[str, Any]]:
+    if patient_ids is None:
+        return patients
+
+    patients_by_id = {str(patient.get("id")): patient for patient in patients}
+    missing_ids = [patient_id for patient_id in patient_ids if patient_id not in patients_by_id]
+    if missing_ids:
+        raise SystemExit(
+            "Patient IDs not found in dataset: " + ", ".join(missing_ids)
+        )
+    return [patients_by_id[patient_id] for patient_id in patient_ids]
+
+
+def load_patients(
+    path: Path,
+    max_clients: int | None,
+    patient_ids_file: Path | None,
+) -> list[dict[str, Any]]:
     with path.open(encoding="utf-8") as dataset_file:
         patients = json.load(dataset_file)
 
     if not isinstance(patients, list) or not patients:
         raise SystemExit(f"Dataset must contain a non-empty JSON list: {path}")
+
+    patient_ids = load_patient_ids(patient_ids_file) if patient_ids_file else None
+    patients = filter_patients(patients, patient_ids)
 
     if max_clients is not None:
         patients = patients[:max_clients]
@@ -177,10 +216,6 @@ def simulator_command(
         command.extend(["--model", args.model])
     if args.therapist_prompt:
         command.extend(["--therapist-prompt", str(args.therapist_prompt)])
-    if args.cbt_technique_chooser_model:
-        command.extend(
-            ["--cbt-technique-chooser-model", args.cbt_technique_chooser_model]
-        )
     if args.flash_api_url:
         command.extend(["--flash-api-url", args.flash_api_url])
     if args.print_turns:
@@ -199,7 +234,7 @@ def main() -> None:
     if args.max_jobs < 1:
         raise SystemExit("--max-jobs must be at least 1")
 
-    patients = load_patients(args.dataset, args.max_clients)
+    patients = load_patients(args.dataset, args.max_clients, args.patient_ids_file)
 
     completed = 0
     skipped = 0

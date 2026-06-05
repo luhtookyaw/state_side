@@ -38,17 +38,16 @@ from client import (  # noqa: E402
     SimulatedClient,
 )
 from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
-from hybrid_therapist import HybridTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "flash", "hybrid")
+THERAPIST_TYPES = ("standard", "flash")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
     next_level = max(current_level - 1, min(current_level + 1, raw_level))
-    return max(current_level, next_level)
+    return max(1, min(5, next_level))
 
 
 def parse_args() -> argparse.Namespace:
@@ -98,14 +97,6 @@ def parse_args() -> argparse.Namespace:
         choices=THERAPIST_TYPES,
         default="standard",
         help="Therapist implementation to use. Defaults to standard.",
-    )
-    parser.add_argument(
-        "--cbt-technique-chooser-model",
-        help="OpenAI model name for hybrid therapist CBT technique selection.",
-    )
-    parser.add_argument(
-        "--router-model",
-        help="OpenAI model name for hybrid therapist router decisions.",
     )
     parser.add_argument(
         "--flash-api-url",
@@ -220,14 +211,6 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
 
     if args.therapist_type == "flash":
         therapist_role = FlashTherapist(args.flash_api_url)
-    elif args.therapist_type == "hybrid":
-        therapist_role = HybridTherapist(
-            openai_client,
-            model,
-            args.temperature,
-            router_model=args.router_model,
-            cbt_technique_chooser_model=args.cbt_technique_chooser_model,
-        )
     else:
         therapist_role = StandardTherapist(
             openai_client,
@@ -244,65 +227,20 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     openness_judgments: list[dict[str, Any]] = []
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
-    cbt_recommendations: list[dict[str, Any]] = []
-    router_traces: list[dict[str, Any]] = []
-    guardrail_checks: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         selected_strategy: str | None = None
         flash_response: dict[str, Any] | None = None
-        router_trace: dict[str, Any] | None = None
-        guardrail_check: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
         else:
-            if args.therapist_type == "hybrid":
-                text = therapist_role.reply(
-                    patient,
-                    conversation,
-                    openness_level_before_turn,
-                )
-            else:
-                text = therapist_role.reply(patient, conversation)
+            text = therapist_role.reply(patient, conversation)
             therapist_turn = Turn("Therapist", text)
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
-            elif args.therapist_type == "hybrid":
-                if therapist_role.last_router_trace is not None:
-                    router_trace = {
-                        "turn": turn_number,
-                        **therapist_role.last_router_trace,
-                    }
-                    router_traces.append(router_trace)
-                if therapist_role.last_guardrail is not None:
-                    guardrail_check = {
-                        "turn": turn_number,
-                        **therapist_role.last_guardrail,
-                    }
-                    guardrail_checks.append(guardrail_check)
-                recommendation = therapist_role.last_cbt_recommendation
-                if therapist_role.last_response_mode == "CBT":
-                    if recommendation is None:
-                        raise SystemExit(
-                            "Hybrid CBT route did not record a recommendation."
-                        )
-                    cbt_recommendations.append(
-                        {
-                            "turn": turn_number,
-                            **recommendation,
-                        }
-                    )
-                    selected_strategy = recommendation.get("recommended_cbt_technique")
-                    selected_strategies.append(
-                        {
-                            "turn": turn_number,
-                            "strategy_used": selected_strategy,
-                            "openness_level": openness_level_before_turn,
-                        }
-                    )
 
         if flash_response is not None:
             flash_response = {
@@ -337,8 +275,6 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
                 "flash_response": flash_response,
-                "router_trace": router_trace,
-                "guardrail_check": guardrail_check,
                 "strategy_used": selected_strategy,
             }
         )
@@ -361,20 +297,11 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "openness_judge_interval": openness_judge_interval,
         "model": model,
         "openness_judge_model": openness_judge_model,
-        "cbt_technique_chooser_model": (args.cbt_technique_chooser_model or model)
-        if args.therapist_type == "hybrid"
-        else None,
-        "router_model": (args.router_model or model)
-        if args.therapist_type == "hybrid"
-        else None,
         "patient_id": patient.get("id"),
         "patient_name": patient.get("name"),
         "client_type": client_role.client_type,
         "openness_judgments": openness_judgments,
         "selected_strategies": selected_strategies,
-        "cbt_recommendations": cbt_recommendations,
-        "router_traces": router_traces,
-        "guardrail_checks": guardrail_checks,
         "flash_responses": flash_responses,
         "turns": paired_turns,
     }

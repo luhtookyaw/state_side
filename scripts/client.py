@@ -30,6 +30,7 @@ from client_response_styles import (  # noqa: E402
     HIGH_OPENNESS_STYLE,
     LOW_OPENNESS_STYLE,
     MEDIUM_OPENNESS_STYLE,
+    ULTRA_HIGH_OPENNESS_STYLE,
 )
 
 
@@ -57,8 +58,10 @@ DEFAULT_OPENNESS_JUDGE_PROMPT = ROOT_DIR / "prompts" / "judges" / "openness_judg
 
 def response_style_for_openness(openness_level: int) -> str:
     if openness_level >= 4:
+        return ULTRA_HIGH_OPENNESS_STYLE.strip()
+    if openness_level == 3:
         return HIGH_OPENNESS_STYLE.strip()
-    if openness_level >= 2:
+    if openness_level == 2:
         return MEDIUM_OPENNESS_STYLE.strip()
     return LOW_OPENNESS_STYLE.strip()
 

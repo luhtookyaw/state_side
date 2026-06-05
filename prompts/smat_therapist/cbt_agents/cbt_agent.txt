@@ -1,0 +1,20 @@
+Use the CBT recommendation below to guide your next therapist response.
+
+** CBT Recommendation **
+{cbt_recommendation}
+
+Write a short, warm, therapist-style response to the client.
+
+Your response should:
+- Support the stated goal
+- Use the recommended CBT technique
+- Keep it brief: 2-3 sentences
+
+Do not use “Therapist:” or speaker labels.
+Do not use the same sentence starter more than twice.
+Do not mention the recommendation format, the CBT technique name, or that you are following a prompt.
+
+Conversation History (last 6 turns):
+{conversation_history}
+
+Respond to the client’s last utterance in the Conversation History.
