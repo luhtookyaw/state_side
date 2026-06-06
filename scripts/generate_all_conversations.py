@@ -19,7 +19,7 @@ DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 DEFAULT_PATIENT_IDS_FILE = ROOT_DIR / "patient_ids.txt"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "flash")
+THERAPIST_TYPES = ("standard", "flash", "smat")
 
 
 @dataclass(frozen=True)

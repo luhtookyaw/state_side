@@ -38,11 +38,12 @@ from client import (  # noqa: E402
     SimulatedClient,
 )
 from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
+from smat_therapist import SMATTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "flash")
+THERAPIST_TYPES = ("standard", "flash", "smat")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
@@ -154,6 +155,7 @@ def print_turn(
     openness_judgment: dict[str, Any] | None,
     selected_strategy: str | None,
     flash_response: dict[str, Any] | None,
+    smat_response: dict[str, Any] | None,
 ) -> None:
     print(f"Turn: {turn_number}")
     print(f"Openness level used: {openness_level}")
@@ -174,6 +176,11 @@ def print_turn(
             print(f"Technique: {technique.strip()}")
         else:
             print("Technique: not recorded")
+    if smat_response is not None:
+        print(f"SMAT selected: {smat_response.get('selected_response_id')}")
+        selected_metadata = smat_response.get("selected_metadata")
+        if isinstance(selected_metadata, dict):
+            print(f"SMAT selected agent: {selected_metadata.get('agent')}")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -211,6 +218,12 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
 
     if args.therapist_type == "flash":
         therapist_role = FlashTherapist(args.flash_api_url)
+    elif args.therapist_type == "smat":
+        therapist_role = SMATTherapist(
+            openai_client,
+            model,
+            args.temperature,
+        )
     else:
         therapist_role = StandardTherapist(
             openai_client,
@@ -227,20 +240,33 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     openness_judgments: list[dict[str, Any]] = []
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
+    smat_responses: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         selected_strategy: str | None = None
         flash_response: dict[str, Any] | None = None
+        smat_response: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
+            elif args.therapist_type == "smat":
+                smat_response = therapist_role.last_response_json
         else:
-            text = therapist_role.reply(patient, conversation)
+            if args.therapist_type == "smat":
+                text = therapist_role.reply(
+                    patient,
+                    conversation,
+                    openness_level_before_turn,
+                )
+            else:
+                text = therapist_role.reply(patient, conversation)
             therapist_turn = Turn("Therapist", text)
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
+            elif args.therapist_type == "smat":
+                smat_response = therapist_role.last_response_json
 
         if flash_response is not None:
             flash_response = {
@@ -248,6 +274,27 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 **flash_response,
             }
             flash_responses.append(flash_response)
+
+        if smat_response is not None:
+            smat_response = {
+                "turn": turn_number,
+                **smat_response,
+            }
+            smat_responses.append(smat_response)
+            selected_metadata = smat_response.get("selected_metadata")
+            if isinstance(selected_metadata, dict):
+                selected_strategy = str(selected_metadata.get("agent", "smat"))
+            else:
+                selected_strategy = "smat"
+            selected_strategies.append(
+                {
+                    "turn": turn_number,
+                    "strategy": selected_strategy,
+                    "selected_response_id": smat_response.get("selected_response_id"),
+                    "ranking": smat_response.get("ranking"),
+                    "selected_metadata": selected_metadata,
+                }
+            )
 
         conversation.append(therapist_turn)
 
@@ -275,6 +322,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
                 "flash_response": flash_response,
+                "smat_response": smat_response,
                 "strategy_used": selected_strategy,
             }
         )
@@ -287,6 +335,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 openness_judgment,
                 selected_strategy,
                 flash_response,
+                smat_response,
             )
 
     return {
@@ -303,6 +352,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "openness_judgments": openness_judgments,
         "selected_strategies": selected_strategies,
         "flash_responses": flash_responses,
+        "smat_responses": smat_responses,
         "turns": paired_turns,
     }
 
