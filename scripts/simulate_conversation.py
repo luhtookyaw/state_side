@@ -177,10 +177,15 @@ def print_turn(
         else:
             print("Technique: not recorded")
     if smat_response is not None:
-        print(f"SMAT selected: {smat_response.get('selected_response_id')}")
-        selected_metadata = smat_response.get("selected_metadata")
-        if isinstance(selected_metadata, dict):
-            print(f"SMAT selected agent: {selected_metadata.get('agent')}")
+        print(f"SMAT stage: {smat_response.get('stage')}")
+        candidate_metadata = smat_response.get("candidate_metadata")
+        if isinstance(candidate_metadata, dict):
+            agents = [
+                str(metadata.get("agent"))
+                for metadata in candidate_metadata.values()
+                if isinstance(metadata, dict) and metadata.get("agent")
+            ]
+            print(f"SMAT candidate agents: {', '.join(agents)}")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -281,18 +286,13 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 **smat_response,
             }
             smat_responses.append(smat_response)
-            selected_metadata = smat_response.get("selected_metadata")
-            if isinstance(selected_metadata, dict):
-                selected_strategy = str(selected_metadata.get("agent", "smat"))
-            else:
-                selected_strategy = "smat"
+            selected_strategy = f"composer:{smat_response.get('stage', 'unknown')}"
             selected_strategies.append(
                 {
                     "turn": turn_number,
                     "strategy": selected_strategy,
-                    "selected_response_id": smat_response.get("selected_response_id"),
-                    "ranking": smat_response.get("ranking"),
-                    "selected_metadata": selected_metadata,
+                    "stage": smat_response.get("stage"),
+                    "candidate_metadata": smat_response.get("candidate_metadata"),
                 }
             )
 

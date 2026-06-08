@@ -1,4 +1,4 @@
-"""SMAT therapist that ranks anonymous MI/CBT candidate responses."""
+"""SMAT therapist that composes MI/CBT candidate responses by stage."""
 
 from __future__ import annotations
 
@@ -20,17 +20,35 @@ from therapist import (  # noqa: E402
     format_history,
     format_therapist_prompt,
     join_value,
-    opening_therapist_message,
 )
 
 
 SMAT_PROMPT_DIR = ROOT_DIR / "prompts" / "smat_therapist"
-DEFAULT_RANKING_PROMPT = SMAT_PROMPT_DIR / "ranking_agent.txt"
+DEFAULT_COMPOSER_PROMPT = SMAT_PROMPT_DIR / "composer_agent.txt"
 DEFAULT_MI_AGENT_PROMPTS = {
     "reflection_agent": SMAT_PROMPT_DIR / "mi_agents" / "reflection_agent.txt",
     "affirmation_agent": SMAT_PROMPT_DIR / "mi_agents" / "affirmation_agent.txt",
     "questioning_agent": SMAT_PROMPT_DIR / "mi_agents" / "questioning_agent.txt",
     "summarization_agent": SMAT_PROMPT_DIR / "mi_agents" / "summarization_agent.txt",
+}
+AGENTS_BY_STAGE = {
+    "pre-contemplation": (
+        "reflection_agent",
+        "affirmation_agent",
+        "questioning_agent",
+    ),
+    "contemplation": (
+        "reflection_agent",
+        "questioning_agent",
+        "summarization_agent",
+        "cbt_agent",
+    ),
+    "preparation": (
+        "reflection_agent",
+        "affirmation_agent",
+        "summarization_agent",
+        "cbt_agent",
+    ),
 }
 DEFAULT_CBT_AGENT_PROMPT = SMAT_PROMPT_DIR / "cbt_agents" / "cbt_agent.txt"
 DEFAULT_CBT_SELECTOR_PROMPT = (
@@ -78,15 +96,23 @@ def parse_json_response(raw: str, context: str) -> dict[str, Any]:
     return parsed
 
 
+def stage_for_openness(openness_level: int) -> str:
+    if openness_level >= 4:
+        return "preparation"
+    if openness_level >= 2:
+        return "contemplation"
+    return "pre-contemplation"
+
+
 class SMATTherapist:
-    """Generate MI/CBT candidates, rank them anonymously, and return the best one."""
+    """Generate MI/CBT candidates and compose one stage-aware response."""
 
     def __init__(
         self,
         openai_client: Any,
         model: str,
         temperature: float,
-        ranking_prompt_path: Path = DEFAULT_RANKING_PROMPT,
+        composer_prompt_path: Path = DEFAULT_COMPOSER_PROMPT,
         mi_agent_prompt_paths: dict[str, Path] | None = None,
         cbt_selector_prompt_path: Path = DEFAULT_CBT_SELECTOR_PROMPT,
         cbt_agent_prompt_path: Path = DEFAULT_CBT_AGENT_PROMPT,
@@ -94,7 +120,7 @@ class SMATTherapist:
         self.openai_client = openai_client
         self.model = model
         self.temperature = temperature
-        self.ranking_template = load_text(ranking_prompt_path)
+        self.composer_template = load_text(composer_prompt_path)
         self.mi_agent_templates = {
             agent_name: load_text(prompt_path)
             for agent_name, prompt_path in (
@@ -112,9 +138,11 @@ class SMATTherapist:
         self.last_response_json = {
             "opening": True,
             "openness_level": None,
+            "stage": "pre-contemplation",
             "candidate_responses": [
                 {
                     "id": "candidate_1",
+                    "agent": "questioning_agent",
                     "response": response,
                 }
             ],
@@ -124,13 +152,7 @@ class SMATTherapist:
                     "agent": "questioning_agent",
                 }
             },
-            "ranking": ["candidate_1"],
-            "ranking_response": {"ranking": ["candidate_1"]},
-            "selected_response_id": "candidate_1",
-            "selected_metadata": {
-                "family": "mi",
-                "agent": "questioning_agent",
-            },
+            "composed_response": response,
         }
         return response
 
@@ -145,23 +167,17 @@ class SMATTherapist:
             conversation,
             openness_level,
         )
-        ranking_response = self.rank_candidates(conversation, candidates)
-        ranking = self.normalize_ranking(ranking_response, candidates)
-        selected_id = ranking[0]
-        selected_candidate = next(
-            candidate for candidate in candidates if candidate["id"] == selected_id
-        )
+        stage = stage_for_openness(openness_level)
+        response = self.compose_response(stage, conversation, candidates)
 
         self.last_response_json = {
             "openness_level": openness_level,
+            "stage": stage,
             "candidate_responses": candidates,
             "candidate_metadata": metadata,
-            "ranking": ranking,
-            "ranking_response": ranking_response,
-            "selected_response_id": selected_id,
-            "selected_metadata": metadata.get(selected_id),
+            "composed_response": response,
         }
-        return str(selected_candidate["response"])
+        return response
 
     def generate_candidates(
         self,
@@ -170,8 +186,13 @@ class SMATTherapist:
         openness_level: int,
     ) -> tuple[list[dict[str, str]], dict[str, dict[str, Any]]]:
         raw_candidates: list[dict[str, Any]] = []
+        stage = stage_for_openness(openness_level)
+        agent_names = AGENTS_BY_STAGE[stage]
 
-        for agent_name, template in self.mi_agent_templates.items():
+        for agent_name in agent_names:
+            if agent_name == "cbt_agent":
+                continue
+            template = self.mi_agent_templates[agent_name]
             response = self.generate_mi_response(template, patient, conversation)
             raw_candidates.append(
                 {
@@ -181,7 +202,7 @@ class SMATTherapist:
                 }
             )
 
-        if openness_level > 3:
+        if "cbt_agent" in agent_names:
             cbt_recommendation = self.select_cbt_technique(conversation)
             response = self.generate_cbt_response(conversation, cbt_recommendation)
             raw_candidates.append(
@@ -200,6 +221,7 @@ class SMATTherapist:
             candidates.append(
                 {
                     "id": candidate_id,
+                    "agent": str(raw_candidate["agent"]),
                     "response": str(raw_candidate["response"]),
                 }
             )
@@ -272,13 +294,15 @@ class SMATTherapist:
             max_tokens=260,
         )
 
-    def rank_candidates(
+    def compose_response(
         self,
+        stage: str,
         conversation: list[Any],
         candidates: list[dict[str, str]],
-    ) -> dict[str, Any]:
+    ) -> str:
         prompt = render_prompt(
-            self.ranking_template,
+            self.composer_template,
+            stage=stage,
             conversation_history=format_history(conversation, max_turns=6),
             candidate_responses=json.dumps(
                 candidates,
@@ -291,29 +315,9 @@ class SMATTherapist:
             self.model,
             prompt,
             self.temperature,
-            max_tokens=300,
+            max_tokens=280,
         )
-        return parse_json_response(raw, "Ranking agent")
-
-    def normalize_ranking(
-        self,
-        ranking_response: dict[str, Any],
-        candidates: list[dict[str, str]],
-    ) -> list[str]:
-        valid_ids = [candidate["id"] for candidate in candidates]
-        valid_id_set = set(valid_ids)
-        ranking_value = ranking_response.get("ranking")
-
-        ranking: list[str] = []
-        if isinstance(ranking_value, list):
-            for response_id in ranking_value:
-                if response_id in valid_id_set and response_id not in ranking:
-                    ranking.append(str(response_id))
-
-        for response_id in valid_ids:
-            if response_id not in ranking:
-                ranking.append(response_id)
-        return ranking
+        return raw.strip()
 
 
 def parse_args() -> argparse.Namespace:
