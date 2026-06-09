@@ -58,7 +58,7 @@ DEFAULT_OPENNESS_JUDGE_PROMPT = ROOT_DIR / "prompts" / "judges" / "openness_judg
 def response_style_for_openness(openness_level: int) -> str:
     if openness_level >= 4:
         return PREPARATION_STYLE.strip()
-    if openness_level >= 2:
+    if openness_level == 3:
         return CONTEMPLATION_STYLE.strip()
     return PRE_CONTEMPLATION_STYLE.strip()
 

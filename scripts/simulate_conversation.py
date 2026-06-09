@@ -178,14 +178,16 @@ def print_turn(
             print("Technique: not recorded")
     if smat_response is not None:
         print(f"SMAT stage: {smat_response.get('stage')}")
-        candidate_metadata = smat_response.get("candidate_metadata")
-        if isinstance(candidate_metadata, dict):
-            agents = [
-                str(metadata.get("agent"))
-                for metadata in candidate_metadata.values()
-                if isinstance(metadata, dict) and metadata.get("agent")
-            ]
-            print(f"SMAT candidate agents: {', '.join(agents)}")
+        print(f"SMAT selected: {smat_response.get('selected_response_id')}")
+        selected_metadata = smat_response.get("selected_metadata")
+        if isinstance(selected_metadata, dict):
+            print(f"SMAT selected agent: {selected_metadata.get('agent')}")
+            cbt_recommendation = selected_metadata.get("cbt_recommendation")
+            if isinstance(cbt_recommendation, dict):
+                technique = cbt_recommendation.get("recommended_cbt_technique")
+                print(f"CBT technique: {technique or 'not recorded'}")
+                plan = cbt_recommendation.get("plan")
+                print(f"CBT plan: {plan or 'not recorded'}")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -286,12 +288,23 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 **smat_response,
             }
             smat_responses.append(smat_response)
-            selected_strategy = f"composer:{smat_response.get('stage', 'unknown')}"
+            selected_metadata = smat_response.get("selected_metadata")
+            if isinstance(selected_metadata, dict):
+                selected_strategy = str(selected_metadata.get("agent", "smat"))
+            else:
+                selected_strategy = f"composer:{smat_response.get('stage', 'unknown')}"
             selected_strategies.append(
                 {
                     "turn": turn_number,
                     "strategy": selected_strategy,
                     "stage": smat_response.get("stage"),
+                    "selected_response_id": smat_response.get("selected_response_id"),
+                    "selected_metadata": selected_metadata,
+                    "cbt_recommendation": (
+                        selected_metadata.get("cbt_recommendation")
+                        if isinstance(selected_metadata, dict)
+                        else None
+                    ),
                     "candidate_metadata": smat_response.get("candidate_metadata"),
                 }
             )

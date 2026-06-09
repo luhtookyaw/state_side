@@ -1,4 +1,4 @@
-"""SMAT therapist that composes MI/CBT candidate responses by stage."""
+"""SMAT therapist that chooses stage-aware MI/CBT candidate responses."""
 
 from __future__ import annotations
 
@@ -39,14 +39,11 @@ AGENTS_BY_STAGE = {
     ),
     "contemplation": (
         "reflection_agent",
+        "affirmation_agent",
         "questioning_agent",
         "summarization_agent",
-        "cbt_agent",
     ),
     "preparation": (
-        "reflection_agent",
-        "affirmation_agent",
-        "summarization_agent",
         "cbt_agent",
     ),
 }
@@ -96,16 +93,31 @@ def parse_json_response(raw: str, context: str) -> dict[str, Any]:
     return parsed
 
 
+def format_cbt_recommendation(recommendation: dict[str, Any]) -> str:
+    fields = (
+        ("Technique", "recommended_cbt_technique"),
+        ("Goal", "goal"),
+        ("Reasoning", "reasoning"),
+        ("Plan", "plan"),
+    )
+    lines = []
+    for label, key in fields:
+        value = recommendation.get(key)
+        if value:
+            lines.append(f"{label}: {value}")
+    return "\n".join(lines) if lines else "No CBT recommendation provided."
+
+
 def stage_for_openness(openness_level: int) -> str:
     if openness_level >= 4:
         return "preparation"
-    if openness_level >= 2:
+    if openness_level == 3:
         return "contemplation"
     return "pre-contemplation"
 
 
 class SMATTherapist:
-    """Generate MI/CBT candidates and compose one stage-aware response."""
+    """Generate MI/CBT candidates and choose one stage-aware response."""
 
     def __init__(
         self,
@@ -152,7 +164,13 @@ class SMATTherapist:
                     "agent": "questioning_agent",
                 }
             },
-            "composed_response": response,
+            "composer_response": {"selected_response_id": "candidate_1"},
+            "selected_response_id": "candidate_1",
+            "selected_metadata": {
+                "family": "mi",
+                "agent": "questioning_agent",
+            },
+            "selected_response": response,
         }
         return response
 
@@ -168,14 +186,29 @@ class SMATTherapist:
             openness_level,
         )
         stage = stage_for_openness(openness_level)
-        response = self.compose_response(stage, conversation, candidates)
+        if len(candidates) == 1:
+            composer_response = None
+            selected_id = candidates[0]["id"]
+        else:
+            composer_response = self.compose_response(stage, conversation, candidates)
+            selected_id = self.normalize_selected_response_id(
+                composer_response,
+                candidates,
+            )
+        selected_candidate = next(
+            candidate for candidate in candidates if candidate["id"] == selected_id
+        )
+        response = str(selected_candidate["response"])
 
         self.last_response_json = {
             "openness_level": openness_level,
             "stage": stage,
             "candidate_responses": candidates,
             "candidate_metadata": metadata,
-            "composed_response": response,
+            "composer_response": composer_response,
+            "selected_response_id": selected_id,
+            "selected_metadata": metadata.get(selected_id),
+            "selected_response": response,
         }
         return response
 
@@ -221,7 +254,6 @@ class SMATTherapist:
             candidates.append(
                 {
                     "id": candidate_id,
-                    "agent": str(raw_candidate["agent"]),
                     "response": str(raw_candidate["response"]),
                 }
             )
@@ -279,11 +311,7 @@ class SMATTherapist:
     ) -> str:
         prompt = render_prompt(
             self.cbt_agent_template,
-            cbt_recommendation=json.dumps(
-                cbt_recommendation,
-                indent=2,
-                ensure_ascii=False,
-            ),
+            cbt_recommendation=format_cbt_recommendation(cbt_recommendation),
             conversation_history=format_history(conversation),
         )
         return call_model(
@@ -299,7 +327,7 @@ class SMATTherapist:
         stage: str,
         conversation: list[Any],
         candidates: list[dict[str, str]],
-    ) -> str:
+    ) -> dict[str, Any]:
         prompt = render_prompt(
             self.composer_template,
             stage=stage,
@@ -315,9 +343,20 @@ class SMATTherapist:
             self.model,
             prompt,
             self.temperature,
-            max_tokens=280,
+            max_tokens=120,
         )
-        return raw.strip()
+        return parse_json_response(raw, "Composer agent")
+
+    def normalize_selected_response_id(
+        self,
+        composer_response: dict[str, Any],
+        candidates: list[dict[str, str]],
+    ) -> str:
+        valid_ids = [candidate["id"] for candidate in candidates]
+        selected_id = composer_response.get("selected_response_id")
+        if selected_id in valid_ids:
+            return str(selected_id)
+        return valid_ids[0]
 
 
 def parse_args() -> argparse.Namespace:

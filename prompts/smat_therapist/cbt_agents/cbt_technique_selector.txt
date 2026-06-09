@@ -5,18 +5,30 @@ Conversation History (last 6 turns):
 
 Based only on the conversation history above, identify the client’s most recent concerns, emotional tone, thinking patterns, and stated goals. Then choose the single most appropriate CBT technique from this list:
 
-- Efficiency Evaluation
-- Pie Chart Technique
-- Alternative Perspective
-- Decatastrophizing
-- Pros and Cons Analysis
-- Evidence-Based Questioning
-- Reality Testing
-- Continuum Technique
-- Changing Rules to Wishes
-- Behavior Experiment
-- Problem-Solving Skills Training
-- Systematic Exposure
+1. Efficiency Evaluation 
+  - plans: "Identify thought or behavior", "Evaluate usefulness for goals", "Compare emotional/practical costs", "Develop useful response", "Assign practice"
+2. Pie Chart Technique
+  - plans: "Identify responsibility event", "List contributing factors", "Assign realistic percentages", "Review over-responsibility", "Develop balanced conclusion"
+3. Alternative Perspective
+  - plans: "Identify current interpretation", "Explore another viewpoint", "Generate alternative explanations", "Compare emotional impact", "Practice balanced perspective"
+4. Decatastrophizing
+  - plans: "Identify catastrophic predictions", "Examine feared outcomes", "Evaluate likelihood and evidence", "Generate realistic outcomes", "Create coping/homework practice"
+5. Pros and Cons Analysis
+  - plans: "Identify behavior/belief/choice", "List short-term pros and cons", "List long-term pros and cons", "Compare costs and benefits", "Choose next step"
+6. Evidence-Based Questioning
+  - plans: "Identify key thought", "Review supporting evidence", "Review contradicting evidence", "Develop balanced thought", "Assign evidence-tracking homework"
+7. Reality Testing
+  - plans: "Identify belief or assumption", "Compare with observable facts", "Separate facts from interpretations", "Test against real-world evidence", "Plan a reality-checking task"
+8. Continuum Technique
+  - plans: "Identify all-or-nothing thought", "Create a realistic scale", "Place situation on scale", "Compare with other examples", "Develop less extreme interpretation"
+9. Changing Rules to Wishes
+  - plans: "Identify rigid rule", "Explore impact", "Rephrase as preference or wish", "Consider flexibility", "Practice new wording"
+10. Behavior Experiment: 
+  - plans: "Identify prediction", "Design a safe test", "Define observable evidence", "Review outcome", "Update belief"
+11. Problem-Solving Skills Training: 
+  - plans: "Define problem", "Brainstorm solutions", "Evaluate options", "Choose practical solution", "Plan action steps"
+12. Systematic Exposure: 
+  - plans: "Identify avoided situations", "Create distress hierarchy", "Choose manageable first step", "Plan gradual exposure", "Review learning and progress"
 
 Allowed CBT techniques for this turn:
 {allowed_cbt_techniques}
@@ -25,6 +37,7 @@ Previous CBT techniques:
 {previous_cbt_techniques}
 
 Choose only from the allowed CBT techniques for this turn. Use the previous CBT techniques as context.
+Also choose a plan under chosen CBT technique.
 Return only valid JSON. Do not include markdown, comments, or extra text.
 
 Use exactly this JSON structure:
@@ -32,5 +45,6 @@ Use exactly this JSON structure:
 {
   "recommended_cbt_technique": "one technique from the list only",
   "goal": "the therapeutic goal for using this CBT technique",
-  "reasoning": "2-4 sentences explaining why this technique fits"
+  "reasoning": "2-4 sentences explaining why this technique fits",
+  "plan": "a plan under chosen technique"
 }
