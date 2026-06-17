@@ -1,4 +1,4 @@
-"""SMAT therapist that chooses stage-aware MI/CBT candidate responses."""
+"""AIM therapist that chooses stage-aware MI/CBT candidate responses."""
 
 from __future__ import annotations
 
@@ -23,13 +23,13 @@ from therapist import (  # noqa: E402
 )
 
 
-SMAT_PROMPT_DIR = ROOT_DIR / "prompts" / "smat_therapist"
-DEFAULT_COMPOSER_PROMPT = SMAT_PROMPT_DIR / "composer_agent.txt"
+AIM_PROMPT_DIR = ROOT_DIR / "prompts" / "aim_therapist"
+DEFAULT_COMPOSER_PROMPT = AIM_PROMPT_DIR / "composer_agent.txt"
 DEFAULT_MI_AGENT_PROMPTS = {
-    "reflection_agent": SMAT_PROMPT_DIR / "mi_agents" / "reflection_agent.txt",
-    "affirmation_agent": SMAT_PROMPT_DIR / "mi_agents" / "affirmation_agent.txt",
-    "questioning_agent": SMAT_PROMPT_DIR / "mi_agents" / "questioning_agent.txt",
-    "summarization_agent": SMAT_PROMPT_DIR / "mi_agents" / "summarization_agent.txt",
+    "reflection_agent": AIM_PROMPT_DIR / "mi_agents" / "reflection_agent.txt",
+    "affirmation_agent": AIM_PROMPT_DIR / "mi_agents" / "affirmation_agent.txt",
+    "questioning_agent": AIM_PROMPT_DIR / "mi_agents" / "questioning_agent.txt",
+    "summarization_agent": AIM_PROMPT_DIR / "mi_agents" / "summarization_agent.txt",
 }
 AGENTS_BY_STAGE = {
     "pre-contemplation": (
@@ -47,9 +47,9 @@ AGENTS_BY_STAGE = {
         "cbt_agent",
     ),
 }
-DEFAULT_CBT_AGENT_PROMPT = SMAT_PROMPT_DIR / "cbt_agents" / "cbt_agent.txt"
+DEFAULT_CBT_AGENT_PROMPT = AIM_PROMPT_DIR / "cbt_agents" / "cbt_agent.txt"
 DEFAULT_CBT_SELECTOR_PROMPT = (
-    SMAT_PROMPT_DIR / "cbt_agents" / "cbt_technique_selector.txt"
+    AIM_PROMPT_DIR / "cbt_agents" / "cbt_technique_selector.txt"
 )
 CBT_TECHNIQUES = (
     "Efficiency Evaluation",
@@ -116,7 +116,7 @@ def stage_for_openness(openness_level: int) -> str:
     return "pre-contemplation"
 
 
-class SMATTherapist:
+class AIMTherapist:
     """Generate MI/CBT candidates and choose one stage-aware response."""
 
     def __init__(
@@ -360,7 +360,7 @@ class SMATTherapist:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Chat directly with the SMAT therapist.")
+    parser = argparse.ArgumentParser(description="Chat directly with the AIM therapist.")
     parser.add_argument(
         "--patient-name",
         default="Client",
@@ -400,10 +400,10 @@ def main() -> None:
     patient = {"name": args.patient_name}
     model = args.model or openai_model()
     openai_client = create_openai_client()
-    therapist = SMATTherapist(openai_client, model, args.temperature)
+    therapist = AIMTherapist(openai_client, model, args.temperature)
     conversation: list[Turn] = []
 
-    print(f"Talking to SMAT therapist for client {join_value(patient.get('name'))}.")
+    print(f"Talking to AIM therapist for client {join_value(patient.get('name'))}.")
     print("Type client messages. Type 'quit' or 'exit' to stop.")
     if not args.no_opening:
         opening = therapist.opening(patient)

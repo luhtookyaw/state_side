@@ -38,7 +38,7 @@ from client import (  # noqa: E402
     SimulatedClient,
 )
 from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
-from smat_therapist import SMATTherapist  # noqa: E402
+from aim_therapist import AIMTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
@@ -226,7 +226,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     if args.therapist_type == "flash":
         therapist_role = FlashTherapist(args.flash_api_url)
     elif args.therapist_type == "smat":
-        therapist_role = SMATTherapist(
+        therapist_role = AIMTherapist(
             openai_client,
             model,
             args.temperature,
