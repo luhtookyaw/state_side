@@ -1,4 +1,4 @@
-"""AIM therapist that chooses stage-aware MI/CBT candidate responses."""
+"""AIM therapist that chooses among all MI/CBT candidate responses."""
 
 from __future__ import annotations
 
@@ -31,22 +31,10 @@ DEFAULT_MI_AGENT_PROMPTS = {
     "questioning_agent": AIM_PROMPT_DIR / "mi_agents" / "questioning_agent.txt",
     "summarization_agent": AIM_PROMPT_DIR / "mi_agents" / "summarization_agent.txt",
 }
-AGENTS_BY_STAGE = {
-    "pre-contemplation": (
-        "reflection_agent",
-        "affirmation_agent",
-        "questioning_agent",
-    ),
-    "contemplation": (
-        "reflection_agent",
-        "affirmation_agent",
-        "questioning_agent",
-        "summarization_agent",
-    ),
-    "preparation": (
-        "cbt_agent",
-    ),
-}
+ALL_CANDIDATE_AGENTS = (
+    *DEFAULT_MI_AGENT_PROMPTS.keys(),
+    "cbt_agent",
+)
 DEFAULT_CBT_AGENT_PROMPT = AIM_PROMPT_DIR / "cbt_agents" / "cbt_agent.txt"
 DEFAULT_CBT_SELECTOR_PROMPT = (
     AIM_PROMPT_DIR / "cbt_agents" / "cbt_technique_selector.txt"
@@ -117,7 +105,7 @@ def stage_for_openness(openness_level: int) -> str:
 
 
 class AIMTherapist:
-    """Generate MI/CBT candidates and choose one stage-aware response."""
+    """Generate all MI/CBT candidates and choose one response."""
 
     def __init__(
         self,
@@ -219,12 +207,21 @@ class AIMTherapist:
         openness_level: int,
     ) -> tuple[list[dict[str, str]], dict[str, dict[str, Any]]]:
         raw_candidates: list[dict[str, Any]] = []
-        stage = stage_for_openness(openness_level)
-        agent_names = AGENTS_BY_STAGE[stage]
 
-        for agent_name in agent_names:
+        for agent_name in ALL_CANDIDATE_AGENTS:
             if agent_name == "cbt_agent":
+                cbt_recommendation = self.select_cbt_technique(conversation)
+                response = self.generate_cbt_response(conversation, cbt_recommendation)
+                raw_candidates.append(
+                    {
+                        "family": "cbt",
+                        "agent": agent_name,
+                        "response": response,
+                        "cbt_recommendation": cbt_recommendation,
+                    }
+                )
                 continue
+
             template = self.mi_agent_templates[agent_name]
             response = self.generate_mi_response(template, patient, conversation)
             raw_candidates.append(
@@ -232,18 +229,6 @@ class AIMTherapist:
                     "family": "mi",
                     "agent": agent_name,
                     "response": response,
-                }
-            )
-
-        if "cbt_agent" in agent_names:
-            cbt_recommendation = self.select_cbt_technique(conversation)
-            response = self.generate_cbt_response(conversation, cbt_recommendation)
-            raw_candidates.append(
-                {
-                    "family": "cbt",
-                    "agent": "cbt_agent",
-                    "response": response,
-                    "cbt_recommendation": cbt_recommendation,
                 }
             )
 

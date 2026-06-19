@@ -43,7 +43,7 @@ from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "flash", "smat")
+THERAPIST_TYPES = ("standard", "flash", "aim")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
@@ -155,7 +155,7 @@ def print_turn(
     openness_judgment: dict[str, Any] | None,
     selected_strategy: str | None,
     flash_response: dict[str, Any] | None,
-    smat_response: dict[str, Any] | None,
+    aim_response: dict[str, Any] | None,
 ) -> None:
     print(f"Turn: {turn_number}")
     print(f"Openness level used: {openness_level}")
@@ -176,12 +176,12 @@ def print_turn(
             print(f"Technique: {technique.strip()}")
         else:
             print("Technique: not recorded")
-    if smat_response is not None:
-        print(f"SMAT stage: {smat_response.get('stage')}")
-        print(f"SMAT selected: {smat_response.get('selected_response_id')}")
-        selected_metadata = smat_response.get("selected_metadata")
+    if aim_response is not None:
+        print(f"AIM stage: {aim_response.get('stage')}")
+        print(f"AIM selected: {aim_response.get('selected_response_id')}")
+        selected_metadata = aim_response.get("selected_metadata")
         if isinstance(selected_metadata, dict):
-            print(f"SMAT selected agent: {selected_metadata.get('agent')}")
+            print(f"AIM selected agent: {selected_metadata.get('agent')}")
             cbt_recommendation = selected_metadata.get("cbt_recommendation")
             if isinstance(cbt_recommendation, dict):
                 technique = cbt_recommendation.get("recommended_cbt_technique")
@@ -225,7 +225,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
 
     if args.therapist_type == "flash":
         therapist_role = FlashTherapist(args.flash_api_url)
-    elif args.therapist_type == "smat":
+    elif args.therapist_type == "aim":
         therapist_role = AIMTherapist(
             openai_client,
             model,
@@ -247,21 +247,21 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     openness_judgments: list[dict[str, Any]] = []
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
-    smat_responses: list[dict[str, Any]] = []
+    aim_responses: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         selected_strategy: str | None = None
         flash_response: dict[str, Any] | None = None
-        smat_response: dict[str, Any] | None = None
+        aim_response: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
-            elif args.therapist_type == "smat":
-                smat_response = therapist_role.last_response_json
+            elif args.therapist_type == "aim":
+                aim_response = therapist_role.last_response_json
         else:
-            if args.therapist_type == "smat":
+            if args.therapist_type == "aim":
                 text = therapist_role.reply(
                     patient,
                     conversation,
@@ -272,8 +272,8 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             therapist_turn = Turn("Therapist", text)
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
-            elif args.therapist_type == "smat":
-                smat_response = therapist_role.last_response_json
+            elif args.therapist_type == "aim":
+                aim_response = therapist_role.last_response_json
 
         if flash_response is not None:
             flash_response = {
@@ -282,30 +282,30 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             }
             flash_responses.append(flash_response)
 
-        if smat_response is not None:
-            smat_response = {
+        if aim_response is not None:
+            aim_response = {
                 "turn": turn_number,
-                **smat_response,
+                **aim_response,
             }
-            smat_responses.append(smat_response)
-            selected_metadata = smat_response.get("selected_metadata")
+            aim_responses.append(aim_response)
+            selected_metadata = aim_response.get("selected_metadata")
             if isinstance(selected_metadata, dict):
-                selected_strategy = str(selected_metadata.get("agent", "smat"))
+                selected_strategy = str(selected_metadata.get("agent", "aim"))
             else:
-                selected_strategy = f"composer:{smat_response.get('stage', 'unknown')}"
+                selected_strategy = f"composer:{aim_response.get('stage', 'unknown')}"
             selected_strategies.append(
                 {
                     "turn": turn_number,
                     "strategy": selected_strategy,
-                    "stage": smat_response.get("stage"),
-                    "selected_response_id": smat_response.get("selected_response_id"),
+                    "stage": aim_response.get("stage"),
+                    "selected_response_id": aim_response.get("selected_response_id"),
                     "selected_metadata": selected_metadata,
                     "cbt_recommendation": (
                         selected_metadata.get("cbt_recommendation")
                         if isinstance(selected_metadata, dict)
                         else None
                     ),
-                    "candidate_metadata": smat_response.get("candidate_metadata"),
+                    "candidate_metadata": aim_response.get("candidate_metadata"),
                 }
             )
 
@@ -335,7 +335,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "client": client_turn.text,
                 "openness_judgment": openness_judgment,
                 "flash_response": flash_response,
-                "smat_response": smat_response,
+                "aim_response": aim_response,
                 "strategy_used": selected_strategy,
             }
         )
@@ -348,7 +348,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 openness_judgment,
                 selected_strategy,
                 flash_response,
-                smat_response,
+                aim_response,
             )
 
     return {
@@ -365,7 +365,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "openness_judgments": openness_judgments,
         "selected_strategies": selected_strategies,
         "flash_responses": flash_responses,
-        "smat_responses": smat_responses,
+        "aim_responses": aim_responses,
         "turns": paired_turns,
     }
 
