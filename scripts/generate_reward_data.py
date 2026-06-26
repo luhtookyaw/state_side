@@ -7,6 +7,7 @@ import json
 import random
 import re
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
@@ -51,6 +52,8 @@ from simulate_conversation import clamp_openness_transition  # noqa: E402
 DEFAULT_REWARD_JUDGE_PROMPT = ROOT_DIR / "prompts" / "aim_therapist" / "reward_judge.txt"
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "reward_data"
 DEFAULT_REWARD_JUDGE_MODEL = "gpt-4o"
+DEFAULT_BEAM_WIDTH = 2
+DEFAULT_DISCOUNT_FACTOR = 0.9
 REWARD_SCORE_KEYS = (
     "therapeutic_alliance",
     "understanding_empathy",
@@ -64,8 +67,8 @@ MODES = ("easy", "normal", "hard")
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Generate reward-model training data by scoring each AIM therapist "
-            "candidate after a simulated one-step client response."
+            "Generate D1, D2, or D3 reward-model data from AIM therapist "
+            "candidate trajectories."
         )
     )
     parser.add_argument(
@@ -79,6 +82,62 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_OUTPUT_DIR,
         help="Directory for JSONL training data and conversation traces.",
+    )
+    parser.add_argument(
+        "--output-file",
+        type=Path,
+        help=(
+            "Optional JSONL output path. Defaults to reward_training_data.jsonl "
+            "for D1 and reward_training_data_dN.jsonl for deeper lookahead."
+        ),
+    )
+    parser.add_argument(
+        "--lookahead-depth",
+        type=int,
+        choices=(1, 2, 3),
+        default=1,
+        help="Lookahead depth and dataset stage to generate. Defaults to 1 (D1).",
+    )
+    parser.add_argument(
+        "--reward-model",
+        type=Path,
+        help="Hugging Face reward-model checkpoint required for D2 and D3.",
+    )
+    parser.add_argument(
+        "--reward-model-max-length",
+        type=int,
+        default=512,
+        help="Maximum tokenizer length for local reward-model inference.",
+    )
+    parser.add_argument(
+        "--reward-model-device",
+        choices=("auto", "cpu", "cuda"),
+        default="auto",
+        help="Device for local reward-model inference. Defaults to auto.",
+    )
+    parser.add_argument(
+        "--beam-width",
+        type=int,
+        default=DEFAULT_BEAM_WIDTH,
+        help="Number of trajectories retained between lookahead depths.",
+    )
+    parser.add_argument(
+        "--discount-factor",
+        type=float,
+        default=DEFAULT_DISCOUNT_FACTOR,
+        help="Gamma used for cumulative predicted rewards. Defaults to 0.9.",
+    )
+    parser.add_argument(
+        "--random-terminal-candidates",
+        type=int,
+        default=1,
+        help="Additional random terminal trajectories judged for D2/D3.",
+    )
+    parser.add_argument(
+        "--low-ranked-terminal-candidates",
+        type=int,
+        default=1,
+        help="Additional lowest-ranked terminal trajectories judged for D2/D3.",
     )
     parser.add_argument(
         "--modes",
@@ -244,6 +303,75 @@ class RewardJudge:
         }
 
 
+class RewardModelScorer:
+    """Run batched scalar inference from a local Hugging Face checkpoint."""
+
+    def __init__(self, checkpoint: Path, max_length: int, device_name: str) -> None:
+        try:
+            import torch
+            from transformers import AutoModelForSequenceClassification, AutoTokenizer
+        except ModuleNotFoundError as exc:
+            raise SystemExit(
+                "D2/D3 generation requires torch and transformers. Install the "
+                "training dependencies from requirements.txt."
+            ) from exc
+
+        self.torch = torch
+        self.max_length = max_length
+        self.tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+        self.model = AutoModelForSequenceClassification.from_pretrained(checkpoint)
+        if device_name == "auto":
+            device_name = "cuda" if torch.cuda.is_available() else "cpu"
+        if device_name == "cuda" and not torch.cuda.is_available():
+            raise SystemExit("--reward-model-device cuda requested, but CUDA is unavailable.")
+        self.device = torch.device(device_name)
+        self.model.to(self.device)
+        self.model.eval()
+        self.output_scale = self._load_output_scale(checkpoint)
+
+    @staticmethod
+    def _load_output_scale(checkpoint: Path) -> float:
+        metric_paths = (checkpoint / "metrics.json", checkpoint.parent / "metrics.json")
+        for path in metric_paths:
+            if not path.exists():
+                continue
+            try:
+                metrics = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            if metrics.get("normalize_target") is True:
+                return 10.0
+        return 1.0
+
+    def score(self, texts: list[str]) -> list[float]:
+        if not texts:
+            return []
+        encoded = self.tokenizer(
+            texts,
+            padding=True,
+            truncation=True,
+            max_length=self.max_length,
+            return_tensors="pt",
+        )
+        encoded = {name: tensor.to(self.device) for name, tensor in encoded.items()}
+        with self.torch.inference_mode():
+            logits = self.model(**encoded).logits.reshape(-1)
+        return [float(value) * self.output_scale for value in logits.cpu().tolist()]
+
+
+@dataclass
+class SearchTrajectory:
+    trajectory_id: str
+    conversation: list[Turn]
+    steps: list[dict[str, Any]]
+    cumulative_reward: float
+    cbt_techniques: list[str]
+
+    @property
+    def latest_step(self) -> dict[str, Any]:
+        return self.steps[-1]
+
+
 def load_patients_for_args(args: argparse.Namespace, rng: random.Random) -> list[dict[str, Any]]:
     dataset = load_dataset(args.dataset)
     if args.patient_id:
@@ -292,6 +420,8 @@ def reward_record(
         "patient_name": patient.get("name"),
         "mode": mode,
         "turn": turn_number,
+        "dataset_stage": "D1",
+        "lookahead_depth": 1,
         "openness_level": openness_level,
         "stage": stage,
         "candidate_id": candidate["id"],
@@ -319,6 +449,312 @@ def choose_best_candidate(scored_records: list[dict[str, Any]]) -> dict[str, Any
     )
 
 
+def cumulative_reward(steps: list[dict[str, Any]], gamma: float) -> float:
+    return sum(
+        (gamma ** (index - 1)) * float(step["predicted_reward"])
+        for index, step in enumerate(steps, start=1)
+    )
+
+
+def trajectory_sort_key(trajectory: SearchTrajectory) -> tuple[float, str]:
+    return (trajectory.cumulative_reward, trajectory.trajectory_id)
+
+
+def complete_latest_client_response(
+    trajectory: SearchTrajectory,
+    client: SimulatedClient,
+    openness_level: int,
+) -> None:
+    if trajectory.latest_step.get("client_response") is not None:
+        return
+    client_text = client.reply(trajectory.conversation, openness_level)
+    trajectory.latest_step["client_response"] = client_text
+    trajectory.conversation.append(Turn("Client", client_text))
+
+
+def select_terminal_trajectories(
+    trajectories: list[SearchTrajectory],
+    *,
+    top_count: int,
+    random_count: int,
+    low_count: int,
+    rng: random.Random,
+) -> list[tuple[SearchTrajectory, str]]:
+    ranked = sorted(trajectories, key=trajectory_sort_key, reverse=True)
+    selected: list[tuple[SearchTrajectory, str]] = []
+    used_ids: set[str] = set()
+
+    for trajectory in ranked[:top_count]:
+        selected.append((trajectory, "top_ranked"))
+        used_ids.add(trajectory.trajectory_id)
+
+    remaining = [item for item in reversed(ranked) if item.trajectory_id not in used_ids]
+    for trajectory in remaining[:low_count]:
+        selected.append((trajectory, "low_ranked"))
+        used_ids.add(trajectory.trajectory_id)
+
+    random_pool = [item for item in ranked if item.trajectory_id not in used_ids]
+    for trajectory in rng.sample(random_pool, min(random_count, len(random_pool))):
+        selected.append((trajectory, "random"))
+        used_ids.add(trajectory.trajectory_id)
+
+    return selected
+
+
+def build_lookahead_record(
+    *,
+    patient: dict[str, Any],
+    mode: str,
+    turn_number: int,
+    openness_level: int,
+    stage: str,
+    base_conversation: list[Turn],
+    trajectory: SearchTrajectory,
+    selection_category: str,
+    reward: dict[str, Any],
+    selected: bool,
+    max_context_turns: int,
+    lookahead_depth: int,
+    gamma: float,
+) -> dict[str, Any]:
+    root_step = trajectory.steps[0]
+    root_candidate_conversation = [
+        *base_conversation,
+        Turn("Therapist", root_step["response"]),
+    ]
+    return {
+        "patient_id": patient.get("id"),
+        "patient_name": patient.get("name"),
+        "mode": mode,
+        "turn": turn_number,
+        "dataset_stage": f"D{lookahead_depth}",
+        "lookahead_depth": lookahead_depth,
+        "discount_factor": gamma,
+        "openness_level": openness_level,
+        "stage": stage,
+        "trajectory_id": trajectory.trajectory_id,
+        "selection_category": selection_category,
+        "candidate_id": root_step["candidate_id"],
+        "candidate_response": root_step["response"],
+        "candidate_metadata": root_step["candidate_metadata"],
+        "branch_client_response": root_step["client_response"],
+        "trajectory_steps": trajectory.steps,
+        "predicted_cumulative_reward": trajectory.cumulative_reward,
+        "reward_scores": reward["scores"],
+        "final_score": reward["final_score"],
+        "selected_for_continuation": selected,
+        "reward_judge_raw": reward["raw"],
+        "reward_model_input": format_history(
+            root_candidate_conversation,
+            max_context_turns,
+        ),
+        "terminal_reward_model_input": format_history(
+            trajectory.conversation[:-1],
+            max_context_turns,
+        ),
+        "judged_conversation": format_history(
+            trajectory.conversation,
+            max_context_turns,
+        ),
+    }
+
+
+def generate_deep_lookahead_records(
+    *,
+    patient: dict[str, Any],
+    mode: str,
+    turn_number: int,
+    openness_level: int,
+    stage: str,
+    base_conversation: list[Turn],
+    therapist: AIMTherapist,
+    client: SimulatedClient,
+    reward_judge: RewardJudge,
+    reward_scorer: RewardModelScorer,
+    args: argparse.Namespace,
+    rng: random.Random,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    initial_cbt_techniques = list(therapist.previous_cbt_techniques)
+    candidates, metadata = therapist.generate_candidates(
+        patient,
+        base_conversation,
+        openness_level,
+    )
+    root_cbt_techniques = list(therapist.previous_cbt_techniques)
+    root_texts = [
+        format_history(
+            [*base_conversation, Turn("Therapist", candidate["response"])],
+            args.max_context_turns,
+        )
+        for candidate in candidates
+    ]
+    root_scores = reward_scorer.score(root_texts)
+    trajectories = []
+    for candidate, predicted_reward in zip(candidates, root_scores, strict=True):
+        step = {
+            "depth": 1,
+            "candidate_id": candidate["id"],
+            "response": candidate["response"],
+            "candidate_metadata": metadata.get(candidate["id"]),
+            "predicted_reward": predicted_reward,
+            "client_response": None,
+        }
+        trajectories.append(
+            SearchTrajectory(
+                trajectory_id=candidate["id"],
+                conversation=[
+                    *base_conversation,
+                    Turn("Therapist", candidate["response"]),
+                ],
+                steps=[step],
+                cumulative_reward=predicted_reward,
+                cbt_techniques=list(root_cbt_techniques),
+            )
+        )
+
+    search_trace: dict[str, Any] = {
+        "lookahead_depth": args.lookahead_depth,
+        "beam_width": args.beam_width,
+        "discount_factor": args.discount_factor,
+        "depths": [
+            {
+                "depth": 1,
+                "generated": len(trajectories),
+                "trajectories": [
+                    {
+                        "trajectory_id": item.trajectory_id,
+                        "predicted_cumulative_reward": item.cumulative_reward,
+                    }
+                    for item in trajectories
+                ],
+            }
+        ],
+    }
+
+    for depth in range(2, args.lookahead_depth + 1):
+        beam = sorted(trajectories, key=trajectory_sort_key, reverse=True)[
+            : args.beam_width
+        ]
+        expanded: list[SearchTrajectory] = []
+        for parent in beam:
+            complete_latest_client_response(parent, client, openness_level)
+            therapist.previous_cbt_techniques = list(parent.cbt_techniques)
+            child_candidates, child_metadata = therapist.generate_candidates(
+                patient,
+                parent.conversation,
+                openness_level,
+            )
+            child_cbt_techniques = list(therapist.previous_cbt_techniques)
+            child_texts = [
+                format_history(
+                    [*parent.conversation, Turn("Therapist", candidate["response"])],
+                    args.max_context_turns,
+                )
+                for candidate in child_candidates
+            ]
+            child_scores = reward_scorer.score(child_texts)
+            for candidate, predicted_reward in zip(
+                child_candidates,
+                child_scores,
+                strict=True,
+            ):
+                step = {
+                    "depth": depth,
+                    "candidate_id": candidate["id"],
+                    "response": candidate["response"],
+                    "candidate_metadata": child_metadata.get(candidate["id"]),
+                    "predicted_reward": predicted_reward,
+                    "client_response": None,
+                }
+                steps = [*parent.steps, step]
+                expanded.append(
+                    SearchTrajectory(
+                        trajectory_id=f"{parent.trajectory_id}.{candidate['id']}",
+                        conversation=[
+                            *parent.conversation,
+                            Turn("Therapist", candidate["response"]),
+                        ],
+                        steps=steps,
+                        cumulative_reward=cumulative_reward(
+                            steps,
+                            args.discount_factor,
+                        ),
+                        cbt_techniques=list(child_cbt_techniques),
+                    )
+                )
+        trajectories = expanded
+        search_trace["depths"].append(
+            {
+                "depth": depth,
+                "expanded_from": [item.trajectory_id for item in beam],
+                "generated": len(trajectories),
+                "trajectories": [
+                    {
+                        "trajectory_id": item.trajectory_id,
+                        "predicted_cumulative_reward": item.cumulative_reward,
+                    }
+                    for item in trajectories
+                ],
+            }
+        )
+
+    terminal = select_terminal_trajectories(
+        trajectories,
+        top_count=args.beam_width,
+        random_count=args.random_terminal_candidates,
+        low_count=args.low_ranked_terminal_candidates,
+        rng=rng,
+    )
+    judged: list[tuple[SearchTrajectory, str, dict[str, Any]]] = []
+    for trajectory, category in terminal:
+        complete_latest_client_response(trajectory, client, openness_level)
+        judged.append((trajectory, category, reward_judge.judge(trajectory.conversation)))
+
+    best_trajectory, _, best_reward = max(
+        judged,
+        key=lambda item: (
+            item[2]["final_score"],
+            item[2]["scores"]["therapeutic_alliance"],
+            item[2]["scores"]["motivational_interviewing_readiness"],
+            item[0].cumulative_reward,
+        ),
+    )
+    records = [
+        build_lookahead_record(
+            patient=patient,
+            mode=mode,
+            turn_number=turn_number,
+            openness_level=openness_level,
+            stage=stage,
+            base_conversation=base_conversation,
+            trajectory=trajectory,
+            selection_category=category,
+            reward=reward,
+            selected=trajectory.trajectory_id == best_trajectory.trajectory_id,
+            max_context_turns=args.max_context_turns,
+            lookahead_depth=args.lookahead_depth,
+            gamma=args.discount_factor,
+        )
+        for trajectory, category, reward in judged
+    ]
+    search_trace["terminal"] = [
+        {
+            "trajectory_id": trajectory.trajectory_id,
+            "selection_category": category,
+            "predicted_cumulative_reward": trajectory.cumulative_reward,
+            "final_score": reward["final_score"],
+        }
+        for trajectory, category, reward in judged
+    ]
+    search_trace["selected_trajectory_id"] = best_trajectory.trajectory_id
+    search_trace["selected_final_score"] = best_reward["final_score"]
+
+    # Future steps are simulations only. Preserve state from root generation and
+    # execute the first therapist-client pair of the best trajectory.
+    therapist.previous_cbt_techniques = root_cbt_techniques or initial_cbt_techniques
+    return records, search_trace
+
+
 def simulate_reward_conversation(
     *,
     patient: dict[str, Any],
@@ -328,6 +764,8 @@ def simulate_reward_conversation(
     model: str,
     openness_judge_model: str,
     reward_judge_model: str,
+    reward_scorer: RewardModelScorer | None,
+    rng: random.Random,
 ) -> dict[str, Any]:
     therapist = AIMTherapist(openai_client, model, args.temperature)
     client = SimulatedClient(
@@ -380,7 +818,7 @@ def simulate_reward_conversation(
                     "client": client_text,
                 }
             )
-        else:
+        elif args.lookahead_depth == 1:
             stage = stage_for_openness(openness_level_before_turn)
             candidates, candidate_metadata = therapist.generate_candidates(
                 patient,
@@ -448,6 +886,51 @@ def simulate_reward_conversation(
                     f"{best_record['candidate_id']} score="
                     f"{best_record['final_score']:.2f}"
                 )
+        else:
+            if reward_scorer is None:
+                raise RuntimeError("Deep lookahead requires a reward-model scorer.")
+            stage = stage_for_openness(openness_level_before_turn)
+            records, search_trace = generate_deep_lookahead_records(
+                patient=patient,
+                mode=mode,
+                turn_number=turn_number,
+                openness_level=openness_level_before_turn,
+                stage=stage,
+                base_conversation=conversation,
+                therapist=therapist,
+                client=client,
+                reward_judge=reward_judge,
+                reward_scorer=reward_scorer,
+                args=args,
+                rng=rng,
+            )
+            best_record = next(
+                record for record in records if record["selected_for_continuation"]
+            )
+            first_step = best_record["trajectory_steps"][0]
+            conversation.append(Turn("Therapist", first_step["response"]))
+            conversation.append(Turn("Client", first_step["client_response"]))
+            training_records.extend(records)
+            turn_traces.append(
+                {
+                    "turn": turn_number,
+                    "openness_level": openness_level_before_turn,
+                    "stage": stage,
+                    "search": search_trace,
+                    "candidates": records,
+                    "selected_trajectory_id": best_record["trajectory_id"],
+                    "selected_final_score": best_record["final_score"],
+                    "therapist": first_step["response"],
+                    "client": first_step["client_response"],
+                }
+            )
+
+            if args.print:
+                print(
+                    f"{patient.get('id')} {mode} turn {turn_number}: "
+                    f"{best_record['trajectory_id']} depth={args.lookahead_depth} "
+                    f"score={best_record['final_score']:.2f}"
+                )
 
         openness_judgment: dict[str, Any] | None = None
         if turn_number % openness_judge_interval == 0:
@@ -470,6 +953,10 @@ def simulate_reward_conversation(
         "model": model,
         "openness_judge_model": openness_judge_model,
         "reward_judge_model": reward_judge_model,
+        "reward_model": str(args.reward_model) if args.reward_model else None,
+        "lookahead_depth": args.lookahead_depth,
+        "beam_width": args.beam_width,
+        "discount_factor": args.discount_factor,
         "initial_openness_level": INITIAL_OPENNESS_LEVEL,
         "final_openness_level": openness_level,
         "openness_judge_interval": openness_judge_interval,
@@ -498,6 +985,20 @@ def main() -> None:
         raise SystemExit("--turns must be at least 1.")
     if args.max_context_turns < 0:
         raise SystemExit("--max-context-turns must be 0 or greater.")
+    if args.reward_model_max_length < 1:
+        raise SystemExit("--reward-model-max-length must be at least 1.")
+    if args.beam_width < 1:
+        raise SystemExit("--beam-width must be at least 1.")
+    if not 0.0 <= args.discount_factor <= 1.0:
+        raise SystemExit("--discount-factor must be between 0 and 1.")
+    if args.random_terminal_candidates < 0:
+        raise SystemExit("--random-terminal-candidates must be 0 or greater.")
+    if args.low_ranked_terminal_candidates < 0:
+        raise SystemExit("--low-ranked-terminal-candidates must be 0 or greater.")
+    if args.lookahead_depth > 1 and args.reward_model is None:
+        raise SystemExit("--reward-model is required when --lookahead-depth is 2 or 3.")
+    if args.reward_model is not None and not args.reward_model.exists():
+        raise SystemExit(f"Reward-model checkpoint does not exist: {args.reward_model}")
 
     load_environment()
     rng = random.Random(args.seed)
@@ -506,9 +1007,22 @@ def main() -> None:
     reward_judge_model = args.reward_judge_model
     patients = load_patients_for_args(args, rng)
     openai_client = create_openai_client()
+    reward_scorer = None
+    if args.lookahead_depth > 1:
+        reward_scorer = RewardModelScorer(
+            args.reward_model,
+            args.reward_model_max_length,
+            args.reward_model_device,
+        )
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    jsonl_path = args.output_dir / "reward_training_data.jsonl"
+    default_filename = (
+        "reward_training_data.jsonl"
+        if args.lookahead_depth == 1
+        else f"reward_training_data_d{args.lookahead_depth}.jsonl"
+    )
+    jsonl_path = args.output_file or args.output_dir / default_filename
+    jsonl_path.parent.mkdir(parents=True, exist_ok=True)
     trace_dir = args.output_dir / "traces"
 
     if jsonl_path.exists() and not args.overwrite:
@@ -537,6 +1051,8 @@ def main() -> None:
                 model=model,
                 openness_judge_model=openness_judge_model,
                 reward_judge_model=reward_judge_model,
+                reward_scorer=reward_scorer,
+                rng=rng,
             )
             records = trace["training_records"]
             append_jsonl(jsonl_path, records)
@@ -545,7 +1061,14 @@ def main() -> None:
             trace_path = (
                 trace_dir
                 / mode
-                / f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward.json"
+                / (
+                    f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward.json"
+                    if args.lookahead_depth == 1
+                    else (
+                        f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward"
+                        f"_d{args.lookahead_depth}.json"
+                    )
+                )
             )
             write_trace(trace_path, trace)
 
