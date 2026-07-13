@@ -19,7 +19,7 @@ DEFAULT_OUTPUTS_DIR = ROOT_DIR / "outputs"
 DEFAULT_PATIENT_IDS_FILE = ROOT_DIR / "patient_ids.txt"
 SIMULATOR = ROOT_DIR / "scripts" / "simulate_conversation.py"
 MODES = ("easy", "normal", "hard")
-THERAPIST_TYPES = ("standard", "flash", "aim")
+THERAPIST_TYPES = ("standard", "flash", "aim", "camel")
 
 
 @dataclass(frozen=True)
@@ -89,6 +89,27 @@ def parse_args() -> argparse.Namespace:
             "Optional flash therapist API base URL passed through to "
             "simulate_conversation.py."
         ),
+    )
+    parser.add_argument(
+        "--camel-vllm-server",
+        help=(
+            "Optional CAMEL vLLM OpenAI-compatible base URL passed through to "
+            "simulate_conversation.py."
+        ),
+    )
+    parser.add_argument(
+        "--camel-model-id",
+        help="Optional CAMEL model id passed through to simulate_conversation.py.",
+    )
+    parser.add_argument(
+        "--camel-max-tokens",
+        type=int,
+        help="Optional CAMEL max token limit passed through to simulate_conversation.py.",
+    )
+    parser.add_argument(
+        "--cactus-cases",
+        type=Path,
+        help="Optional CACTUS case mapping path passed through to simulate_conversation.py.",
     )
     parser.add_argument(
         "--max-clients",
@@ -218,6 +239,14 @@ def simulator_command(
         command.extend(["--therapist-prompt", str(args.therapist_prompt)])
     if args.flash_api_url:
         command.extend(["--flash-api-url", args.flash_api_url])
+    if args.camel_vllm_server:
+        command.extend(["--camel-vllm-server", args.camel_vllm_server])
+    if args.camel_model_id:
+        command.extend(["--camel-model-id", args.camel_model_id])
+    if args.camel_max_tokens:
+        command.extend(["--camel-max-tokens", str(args.camel_max_tokens)])
+    if args.cactus_cases:
+        command.extend(["--cactus-cases", str(args.cactus_cases)])
     if args.print_turns:
         command.append("--print")
     return command

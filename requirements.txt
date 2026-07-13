@@ -1,5 +1,7 @@
 openai==2.7.1
 python-dotenv==1.2.1
+langchain>=0.2.0
+langchain-openai>=0.1.0
 torch>=2.2.0
 transformers>=4.44.0
 accelerate>=0.33.0

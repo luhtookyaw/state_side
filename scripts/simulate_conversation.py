@@ -37,13 +37,19 @@ from client import (  # noqa: E402
     OpennessJudge,
     SimulatedClient,
 )
+from camel_therapist import (  # noqa: E402
+    DEFAULT_CACTUS_CASES,
+    DEFAULT_CAMEL_MODEL_ID,
+    DEFAULT_CAMEL_VLLM_SERVER,
+    CamelTherapist,
+)
 from flash_therapist import DEFAULT_FLASH_API_URL, FlashTherapist  # noqa: E402
 from aim_therapist import AIMTherapist  # noqa: E402
 from therapist import DEFAULT_THERAPIST_PROMPT, StandardTherapist  # noqa: E402
 
 
 DEFAULT_OUTPUT_DIR = ROOT_DIR / "outputs"
-THERAPIST_TYPES = ("standard", "flash", "aim")
+THERAPIST_TYPES = ("standard", "flash", "aim", "camel")
 
 
 def clamp_openness_transition(raw_level: int, current_level: int) -> int:
@@ -108,6 +114,34 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--camel-vllm-server",
+        default=os.getenv("CAMEL_VLLM_SERVER", DEFAULT_CAMEL_VLLM_SERVER),
+        help=(
+            "OpenAI-compatible vLLM base URL for CAMEL. Defaults to "
+            "CAMEL_VLLM_SERVER, then http://127.0.0.1:8000/v1."
+        ),
+    )
+    parser.add_argument(
+        "--camel-model-id",
+        default=os.getenv("CAMEL_MODEL_ID", DEFAULT_CAMEL_MODEL_ID),
+        help=(
+            "CAMEL model id served by vLLM. Defaults to CAMEL_MODEL_ID, then "
+            "LangAGI-Lab/camel."
+        ),
+    )
+    parser.add_argument(
+        "--camel-max-tokens",
+        type=int,
+        default=512,
+        help="Maximum tokens for CAMEL counselor responses. Defaults to 512.",
+    )
+    parser.add_argument(
+        "--cactus-cases",
+        type=Path,
+        default=DEFAULT_CACTUS_CASES,
+        help="Path to CACTUS case mapping JSON for CAMEL.",
+    )
+    parser.add_argument(
         "--dataset",
         type=Path,
         default=DEFAULT_DATASET,
@@ -156,6 +190,7 @@ def print_turn(
     selected_strategy: str | None,
     flash_response: dict[str, Any] | None,
     aim_response: dict[str, Any] | None,
+    camel_response: dict[str, Any] | None,
 ) -> None:
     print(f"Turn: {turn_number}")
     print(f"Openness level used: {openness_level}")
@@ -188,6 +223,9 @@ def print_turn(
                 print(f"CBT technique: {technique or 'not recorded'}")
                 plan = cbt_recommendation.get("plan")
                 print(f"CBT plan: {plan or 'not recorded'}")
+    if camel_response is not None:
+        print(f"CAMEL case: {camel_response.get('cactus_case_id')}")
+        print(f"CBT technique: {camel_response.get('cbt_technique') or 'not recorded'}")
     print(f"Therapist: {therapist.text}")
     print(f"Client: {client.text}")
     print()
@@ -231,6 +269,14 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
             model,
             args.temperature,
         )
+    elif args.therapist_type == "camel":
+        therapist_role = CamelTherapist(
+            vllm_server=args.camel_vllm_server,
+            model_id=args.camel_model_id,
+            temperature=args.temperature,
+            max_tokens=args.camel_max_tokens,
+            cactus_cases_path=args.cactus_cases,
+        )
     else:
         therapist_role = StandardTherapist(
             openai_client,
@@ -248,18 +294,22 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
     selected_strategies: list[dict[str, Any]] = []
     flash_responses: list[dict[str, Any]] = []
     aim_responses: list[dict[str, Any]] = []
+    camel_responses: list[dict[str, Any]] = []
 
     for turn_number in range(1, args.turns + 1):
         openness_level_before_turn = openness_level
         selected_strategy: str | None = None
         flash_response: dict[str, Any] | None = None
         aim_response: dict[str, Any] | None = None
+        camel_response: dict[str, Any] | None = None
         if turn_number == 1:
             therapist_turn = Turn("Therapist", therapist_role.opening(patient))
             if args.therapist_type == "flash":
                 flash_response = therapist_role.last_response_json
             elif args.therapist_type == "aim":
                 aim_response = therapist_role.last_response_json
+            elif args.therapist_type == "camel":
+                camel_response = therapist_role.last_response_json
         else:
             if args.therapist_type == "aim":
                 text = therapist_role.reply(
@@ -274,6 +324,8 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 flash_response = therapist_role.last_response_json
             elif args.therapist_type == "aim":
                 aim_response = therapist_role.last_response_json
+            elif args.therapist_type == "camel":
+                camel_response = therapist_role.last_response_json
 
         if flash_response is not None:
             flash_response = {
@@ -308,6 +360,22 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                     "candidate_metadata": aim_response.get("candidate_metadata"),
                 }
             )
+        if camel_response is not None:
+            camel_response = {
+                "turn": turn_number,
+                **camel_response,
+            }
+            camel_responses.append(camel_response)
+            selected_strategy = "camel"
+            selected_strategies.append(
+                {
+                    "turn": turn_number,
+                    "strategy": selected_strategy,
+                    "cactus_case_id": camel_response.get("cactus_case_id"),
+                    "cbt_technique": camel_response.get("cbt_technique"),
+                    "cbt_plan": camel_response.get("cbt_plan"),
+                }
+            )
 
         conversation.append(therapist_turn)
 
@@ -336,6 +404,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 "openness_judgment": openness_judgment,
                 "flash_response": flash_response,
                 "aim_response": aim_response,
+                "camel_response": camel_response,
                 "strategy_used": selected_strategy,
             }
         )
@@ -349,6 +418,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
                 selected_strategy,
                 flash_response,
                 aim_response,
+                camel_response,
             )
 
     return {
@@ -366,6 +436,7 @@ def simulate_conversation(args: argparse.Namespace) -> dict[str, Any]:
         "selected_strategies": selected_strategies,
         "flash_responses": flash_responses,
         "aim_responses": aim_responses,
+        "camel_responses": camel_responses,
         "turns": paired_turns,
     }
 
