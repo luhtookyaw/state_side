@@ -68,7 +68,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-length",
         type=int,
-        default=512,
+        default=1024,
         help="Tokenizer maximum sequence length.",
     )
     parser.add_argument(

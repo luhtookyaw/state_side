@@ -223,12 +223,21 @@ def parse_args() -> argparse.Namespace:
         help="Path to reward judge prompt template.",
     )
     parser.add_argument(
-        "--max-context-turns",
+        "--max-context-pairs",
         type=int,
-        default=8,
+        default=4,
         help=(
-            "Number of recent turns to include in reward-model input and reward "
-            "judging. Use 0 for full conversation history."
+            "Number of recent Therapist/Client pairs to include in reward judging and "
+            "judged-conversation traces. Use 0 for full conversation history."
+        ),
+    )
+    parser.add_argument(
+        "--reward-model-context-pairs",
+        type=int,
+        default=4,
+        help=(
+            "Number of preceding Therapist/Client pairs to include before the "
+            "candidate Therapist response in reward_model_input. Defaults to 4."
         ),
     )
     parser.add_argument(
@@ -248,6 +257,28 @@ def format_history(turns: list[Turn], max_turns: int) -> str:
     if not turns:
         return "No previous turns."
     selected_turns = turns if max_turns == 0 else turns[-max_turns:]
+    return "\n".join(f"{turn.speaker}: {turn.text}" for turn in selected_turns)
+
+
+def format_paired_history(turns: list[Turn], context_pairs: int) -> str:
+    if not turns:
+        return "No previous turns."
+    selected_turns = turns if context_pairs == 0 else turns[-context_pairs * 2 :]
+    return "\n".join(f"{turn.speaker}: {turn.text}" for turn in selected_turns)
+
+
+def format_reward_model_input(turns: list[Turn], context_pairs: int) -> str:
+    if not turns:
+        return "No previous turns."
+    if context_pairs == 0:
+        selected_turns = turns
+    else:
+        final_turn = turns[-1:]
+        preceding_turns = turns[:-1]
+        selected_turns = [
+            *preceding_turns[-context_pairs * 2 :],
+            *final_turn,
+        ]
     return "\n".join(f"{turn.speaker}: {turn.text}" for turn in selected_turns)
 
 
@@ -275,18 +306,21 @@ class RewardJudge:
         model: str,
         temperature: float,
         prompt_path: Path,
-        max_context_turns: int,
+        max_context_pairs: int,
     ) -> None:
         self.openai_client = openai_client
         self.model = model
         self.temperature = temperature
         self.template = load_text(prompt_path)
-        self.max_context_turns = max_context_turns
+        self.max_context_pairs = max_context_pairs
 
     def judge(self, conversation: list[Turn]) -> dict[str, Any]:
         prompt = render_prompt(
             self.template,
-            conversation_history=format_history(conversation, self.max_context_turns),
+            conversation_history=format_paired_history(
+                conversation,
+                self.max_context_pairs,
+            ),
         )
         raw = call_model(
             self.openai_client,
@@ -405,7 +439,8 @@ def reward_record(
     branch_client_text: str,
     reward: dict[str, Any],
     selected: bool,
-    max_context_turns: int,
+    max_context_pairs: int,
+    reward_model_context_pairs: int,
 ) -> dict[str, Any]:
     candidate_conversation = [
         *base_conversation,
@@ -432,8 +467,14 @@ def reward_record(
         "final_score": reward["final_score"],
         "selected_for_continuation": selected,
         "reward_judge_raw": reward["raw"],
-        "reward_model_input": format_history(candidate_conversation, max_context_turns),
-        "judged_conversation": format_history(judged_conversation, max_context_turns),
+        "reward_model_input": format_reward_model_input(
+            candidate_conversation,
+            reward_model_context_pairs,
+        ),
+        "judged_conversation": format_paired_history(
+            judged_conversation,
+            max_context_pairs,
+        ),
     }
 
 
@@ -513,7 +554,8 @@ def build_lookahead_record(
     selection_category: str,
     reward: dict[str, Any],
     selected: bool,
-    max_context_turns: int,
+    max_context_pairs: int,
+    reward_model_context_pairs: int,
     lookahead_depth: int,
     gamma: float,
 ) -> dict[str, Any]:
@@ -544,17 +586,17 @@ def build_lookahead_record(
         "final_score": reward["final_score"],
         "selected_for_continuation": selected,
         "reward_judge_raw": reward["raw"],
-        "reward_model_input": format_history(
+        "reward_model_input": format_reward_model_input(
             root_candidate_conversation,
-            max_context_turns,
+            reward_model_context_pairs,
         ),
-        "terminal_reward_model_input": format_history(
+        "terminal_reward_model_input": format_reward_model_input(
             trajectory.conversation[:-1],
-            max_context_turns,
+            reward_model_context_pairs,
         ),
-        "judged_conversation": format_history(
+        "judged_conversation": format_paired_history(
             trajectory.conversation,
-            max_context_turns,
+            max_context_pairs,
         ),
     }
 
@@ -582,9 +624,9 @@ def generate_deep_lookahead_records(
     )
     root_cbt_techniques = list(therapist.previous_cbt_techniques)
     root_texts = [
-        format_history(
+        format_reward_model_input(
             [*base_conversation, Turn("Therapist", candidate["response"])],
-            args.max_context_turns,
+            args.reward_model_context_pairs,
         )
         for candidate in candidates
     ]
@@ -646,9 +688,9 @@ def generate_deep_lookahead_records(
             )
             child_cbt_techniques = list(therapist.previous_cbt_techniques)
             child_texts = [
-                format_history(
+                format_reward_model_input(
                     [*parent.conversation, Turn("Therapist", candidate["response"])],
-                    args.max_context_turns,
+                    args.reward_model_context_pairs,
                 )
                 for candidate in child_candidates
             ]
@@ -731,7 +773,8 @@ def generate_deep_lookahead_records(
             selection_category=category,
             reward=reward,
             selected=trajectory.trajectory_id == best_trajectory.trajectory_id,
-            max_context_turns=args.max_context_turns,
+            max_context_pairs=args.max_context_pairs,
+            reward_model_context_pairs=args.reward_model_context_pairs,
             lookahead_depth=args.lookahead_depth,
             gamma=args.discount_factor,
         )
@@ -787,7 +830,7 @@ def simulate_reward_conversation(
         reward_judge_model,
         args.judge_temperature,
         args.reward_judge_prompt,
-        args.max_context_turns,
+        args.max_context_pairs,
     )
 
     mode_settings = MODE_SETTINGS[mode]
@@ -853,7 +896,8 @@ def simulate_reward_conversation(
                     branch_client_text=branch_client_text,
                     reward=reward,
                     selected=False,
-                    max_context_turns=args.max_context_turns,
+                    max_context_pairs=args.max_context_pairs,
+                    reward_model_context_pairs=args.reward_model_context_pairs,
                 )
                 scored_records.append(record)
 
@@ -957,6 +1001,8 @@ def simulate_reward_conversation(
         "lookahead_depth": args.lookahead_depth,
         "beam_width": args.beam_width,
         "discount_factor": args.discount_factor,
+        "reward_model_context_pairs": args.reward_model_context_pairs,
+        "max_context_pairs": args.max_context_pairs,
         "initial_openness_level": INITIAL_OPENNESS_LEVEL,
         "final_openness_level": openness_level,
         "openness_judge_interval": openness_judge_interval,
@@ -983,8 +1029,10 @@ def main() -> None:
     args = parse_args()
     if args.turns < 1:
         raise SystemExit("--turns must be at least 1.")
-    if args.max_context_turns < 0:
-        raise SystemExit("--max-context-turns must be 0 or greater.")
+    if args.max_context_pairs < 0:
+        raise SystemExit("--max-context-pairs must be 0 or greater.")
+    if args.reward_model_context_pairs < 0:
+        raise SystemExit("--reward-model-context-pairs must be 0 or greater.")
     if args.reward_model_max_length < 1:
         raise SystemExit("--reward-model-max-length must be at least 1.")
     if args.beam_width < 1:
