@@ -246,6 +246,14 @@ def parse_args() -> argparse.Namespace:
         help="Overwrite existing JSONL and trace files.",
     )
     parser.add_argument(
+        "--resume",
+        action="store_true",
+        help=(
+            "Continue an interrupted run by appending missing sessions and skipping "
+            "patient/mode sessions whose trace file already exists."
+        ),
+    )
+    parser.add_argument(
         "--print",
         action="store_true",
         help="Print selected candidate and score for each turn.",
@@ -1025,6 +1033,23 @@ def write_trace(path: Path, trace: dict[str, Any]) -> None:
     path.write_text(json.dumps(trace, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def trace_path_for_session(
+    trace_dir: Path,
+    patient_id: Any,
+    mode: str,
+    lookahead_depth: int,
+) -> Path:
+    filename = (
+        f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward.json"
+        if lookahead_depth == 1
+        else (
+            f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward"
+            f"_d{lookahead_depth}.json"
+        )
+    )
+    return trace_dir / mode / filename
+
+
 def main() -> None:
     args = parse_args()
     if args.turns < 1:
@@ -1043,6 +1068,8 @@ def main() -> None:
         raise SystemExit("--random-terminal-candidates must be 0 or greater.")
     if args.low_ranked_terminal_candidates < 0:
         raise SystemExit("--low-ranked-terminal-candidates must be 0 or greater.")
+    if args.overwrite and args.resume:
+        raise SystemExit("--overwrite and --resume cannot be used together.")
     if args.lookahead_depth > 1 and args.reward_model is None:
         raise SystemExit("--reward-model is required when --lookahead-depth is 2 or 3.")
     if args.reward_model is not None and not args.reward_model.exists():
@@ -1073,19 +1100,38 @@ def main() -> None:
     jsonl_path.parent.mkdir(parents=True, exist_ok=True)
     trace_dir = args.output_dir / "traces"
 
-    if jsonl_path.exists() and not args.overwrite:
-        raise SystemExit(f"Output exists. Use --overwrite to replace: {jsonl_path}")
+    if jsonl_path.exists() and not (args.overwrite or args.resume):
+        raise SystemExit(
+            f"Output exists. Use --overwrite to replace or --resume to continue: "
+            f"{jsonl_path}"
+        )
     if args.overwrite and jsonl_path.exists():
         jsonl_path.unlink()
 
     total_sessions = len(patients) * len(args.modes)
     completed_sessions = 0
+    skipped_sessions = 0
     total_records = 0
 
     for patient in patients:
         patient_id = patient.get("id")
         for mode in args.modes:
             completed_sessions += 1
+            trace_path = trace_path_for_session(
+                trace_dir,
+                patient_id,
+                mode,
+                args.lookahead_depth,
+            )
+            if args.resume and trace_path.exists():
+                skipped_sessions += 1
+                print(
+                    f"[skip] {completed_sessions}/{total_sessions} "
+                    f"patient={patient_id} mode={mode} trace={trace_path}",
+                    flush=True,
+                )
+                continue
+
             print(
                 f"[generate] {completed_sessions}/{total_sessions} "
                 f"patient={patient_id} mode={mode}",
@@ -1106,21 +1152,12 @@ def main() -> None:
             append_jsonl(jsonl_path, records)
             total_records += len(records)
 
-            trace_path = (
-                trace_dir
-                / mode
-                / (
-                    f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward.json"
-                    if args.lookahead_depth == 1
-                    else (
-                        f"session_{safe_patient_id(patient_id)}_{mode}_aim_reward"
-                        f"_d{args.lookahead_depth}.json"
-                    )
-                )
-            )
             write_trace(trace_path, trace)
 
-    print(f"Saved {total_records} reward records to {jsonl_path}")
+    print(
+        f"Saved {total_records} new reward records to {jsonl_path} "
+        f"(skipped_sessions={skipped_sessions})"
+    )
     print(f"Saved conversation traces to {trace_dir}")
 
 
