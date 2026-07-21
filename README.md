@@ -89,7 +89,7 @@ Pairwise/ranker training groups candidates by `patient_id`, `mode`, and `turn`, 
 Train a Llama-3.1-8B-Instruct therapist policy with LoRA using the trained reward model/ranker:
 
 ```
-python3 scripts/train_grpo_llama.py \
+python3 scripts/train_grpo.py \
   --data reward_data/reward_training_data.jsonl \
   --reward-model reward_rankers/rm1/final \
   --output-dir grpo_models/llama_3_1_8b_lora_rm1 \
@@ -110,7 +110,7 @@ python3 scripts/train_grpo_llama.py \
 Train Qwen2.5-7B-Instruct-1M with LoRA instead:
 
 ```
-python3 scripts/train_grpo_llama.py \
+python3 scripts/train_grpo.py \
   --data reward_data/reward_training_data.jsonl \
   --reward-model reward_rankers/rm1/final \
   --policy-preset qwen \
