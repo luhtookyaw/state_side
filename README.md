@@ -86,15 +86,15 @@ Pairwise/ranker training groups candidates by `patient_id`, `mode`, and `turn`, 
 
 ### GRPO Therapist Policy
 
-Train a Llama-3.1-8B-Instruct therapist policy with the trained reward model/ranker:
+Train a Llama-3.1-8B-Instruct therapist policy with LoRA using the trained reward model/ranker:
 
 ```
 python3 scripts/train_grpo_llama.py \
   --data reward_data/reward_training_data.jsonl \
   --reward-model reward_rankers/rm1/final \
-  --output-dir grpo_models/llama_3_1_8b_rm1 \
+  --output-dir grpo_models/llama_3_1_8b_lora_rm1 \
   --policy-preset llama \
-  --max-prompt-length 512 \
+  --max-prompt-length 1024 \
   --max-completion-length 160 \
   --num-generations 4 \
   --epochs 1 \
@@ -102,17 +102,20 @@ python3 scripts/train_grpo_llama.py \
   --train-batch-size 1 \
   --gradient-accumulation-steps 8 \
   --use-lora \
+  --lora-r 8 \
+  --lora-alpha 32 \
   --bf16
 ```
 
-Use Qwen2.5-7B-Instruct-1M instead:
+Train Qwen2.5-7B-Instruct-1M with LoRA instead:
 
 ```
 python3 scripts/train_grpo_llama.py \
   --data reward_data/reward_training_data.jsonl \
   --reward-model reward_rankers/rm1/final \
   --policy-preset qwen \
-  --max-prompt-length 512 \
+  --output-dir grpo_models/qwen_2_5_7b_1m_lora_rm1 \
+  --max-prompt-length 1024 \
   --max-completion-length 160 \
   --num-generations 4 \
   --epochs 1 \
@@ -120,10 +123,12 @@ python3 scripts/train_grpo_llama.py \
   --train-batch-size 1 \
   --gradient-accumulation-steps 8 \
   --use-lora \
+  --lora-r 8 \
+  --lora-alpha 32 \
   --bf16
 ```
 
-The Qwen preset uses `Qwen/Qwen2.5-7B-Instruct-1M` and saves to `grpo_models/qwen_2_5_7b_1m_rm` unless you pass `--output-dir`.
+`--use-lora` trains small adapter weights instead of updating the full model. `--lora-r 8` is the adapter rank, and `--lora-alpha 32` controls the LoRA scaling. The Qwen preset uses `Qwen/Qwen2.5-7B-Instruct-1M`.
 
 ### D2 using RM1
 
