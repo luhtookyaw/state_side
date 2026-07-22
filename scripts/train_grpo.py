@@ -292,20 +292,6 @@ def build_prompt_dataset(
     return rows
 
 
-def load_output_scale(checkpoint: Path) -> float:
-    metric_paths = (checkpoint / "metrics.json", checkpoint.parent / "metrics.json")
-    for path in metric_paths:
-        if not path.exists():
-            continue
-        try:
-            metrics = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        if metrics.get("normalize_target") is True:
-            return 10.0
-    return 1.0
-
-
 def completion_to_text(completion: Any) -> str:
     if isinstance(completion, str):
         return completion
@@ -334,7 +320,6 @@ def make_reward_function(
     reward_tokenizer: Any,
     reward_device: Any,
     max_length: int,
-    output_scale: float,
 ) -> Any:
     def reward_func(prompts: list[Any], completions: list[Any], **_: Any) -> list[float]:
         texts = []
@@ -354,7 +339,7 @@ def make_reward_function(
         encoded = {name: tensor.to(reward_device) for name, tensor in encoded.items()}
         with torch.inference_mode():
             scores = reward_model(**encoded).logits.reshape(-1)
-        return [float(score) * output_scale for score in scores.cpu().tolist()]
+        return [float(score) for score in scores.cpu().tolist()]
 
     return reward_func
 
@@ -389,7 +374,6 @@ def main() -> None:
     reward_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     reward_model.to(reward_device)
     reward_model.eval()
-    output_scale = load_output_scale(args.reward_model)
 
     model_init_kwargs: dict[str, Any] = {}
     if args.trust_remote_code:
@@ -444,7 +428,6 @@ def main() -> None:
         reward_tokenizer=reward_tokenizer,
         reward_device=reward_device,
         max_length=args.max_prompt_length + args.max_completion_length,
-        output_scale=output_scale,
     )
 
     trainer_kwargs: dict[str, Any] = {

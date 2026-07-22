@@ -268,6 +268,31 @@ def pearson_correlation(xs: list[float], ys: list[float]) -> float:
     return numerator / denominator
 
 
+def average_ranks(values: list[float]) -> list[float]:
+    indexed_values = sorted(enumerate(values), key=lambda item: item[1])
+    ranks = [0.0] * len(values)
+    index = 0
+    while index < len(indexed_values):
+        tie_end = index + 1
+        while (
+            tie_end < len(indexed_values)
+            and indexed_values[tie_end][1] == indexed_values[index][1]
+        ):
+            tie_end += 1
+        average_rank = (index + 1 + tie_end) / 2.0
+        for tied_index in range(index, tie_end):
+            original_index = indexed_values[tied_index][0]
+            ranks[original_index] = average_rank
+        index = tie_end
+    return ranks
+
+
+def spearman_correlation(xs: list[float], ys: list[float]) -> float:
+    if len(xs) < 2:
+        return 0.0
+    return pearson_correlation(average_ranks(xs), average_ranks(ys))
+
+
 def make_compute_metrics(normalize_target: bool) -> Any:
     def compute_metrics(eval_pred: Any) -> dict[str, float]:
         predictions, labels = eval_pred
@@ -284,6 +309,7 @@ def make_compute_metrics(normalize_target: bool) -> Any:
             "mae": mae,
             "rmse": math.sqrt(mse),
             "pearson": pearson_correlation(preds, refs),
+            "spearman": spearman_correlation(preds, refs),
         }
 
     return compute_metrics

@@ -59,7 +59,7 @@ python3 scripts/train_reward_model.py \
   --model-name microsoft/deberta-v3-large \
   --max-length 1024 \
   --normalize-target \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 2 \
   --gradient-accumulation-steps 16 \
@@ -75,7 +75,7 @@ python3 scripts/train_reward_ranker.py \
   --model-name microsoft/deberta-v3-large \
   --max-length 1024 \
   --margin 0.4 \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 4 \
   --gradient-accumulation-steps 16 \
@@ -130,6 +130,8 @@ python3 scripts/train_grpo.py \
 
 `--use-lora` trains small adapter weights instead of updating the full model. `--lora-r 8` is the adapter rank, and `--lora-alpha 32` controls the LoRA scaling. The Qwen preset uses `Qwen/Qwen2.5-7B-Instruct-1M`.
 
+GRPO uses the reward model's raw output. If the regression reward model was trained with `--normalize-target`, GRPO receives the normalized score directly instead of scaling it back to `0-10`.
+
 ### D2 using RM1
 
 Use the RM1 checkpoint for beam-search scoring:
@@ -169,7 +171,7 @@ python3 scripts/train_reward_model.py \
   --model-name reward_models/rm1/final \
   --max-length 1024 \
   --normalize-target \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 2 \
   --gradient-accumulation-steps 16 \
@@ -185,7 +187,7 @@ python3 scripts/train_reward_ranker.py \
   --model-name reward_rankers/rm1/final \
   --max-length 1024 \
   --margin 0.4 \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 4 \
   --gradient-accumulation-steps 16 \
@@ -231,7 +233,7 @@ python3 scripts/train_reward_model.py \
   --model-name reward_models/rm2/final \
   --max-length 1024 \
   --normalize-target \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 2 \
   --gradient-accumulation-steps 16 \
@@ -247,7 +249,7 @@ python3 scripts/train_reward_ranker.py \
   --model-name reward_rankers/rm2/final \
   --max-length 1024 \
   --margin 0.4 \
-  --learning-rate 2e-6 \
+  --learning-rate 1e-6 \
   --train-batch-size 1 \
   --eval-batch-size 4 \
   --gradient-accumulation-steps 16 \
